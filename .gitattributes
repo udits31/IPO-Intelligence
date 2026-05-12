@@ -1,0 +1,9 @@
+*.pdf -text -diff
+
+# Evidence uses SHA-256 of exact bytes. Do not normalize checked-in snapshots,
+# frozen source or manifests on Windows/Linux checkout.
+*.py -text
+*.json -text
+*.jsonl -text
+*.csv -text
+*.joblib binary

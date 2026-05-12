@@ -1,0 +1,113 @@
+# Python & virtual environments
+.venv/
+.venv-financial-ocr/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Node.js & Next.js frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.turbo/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Heavy raw data & prospectus PDFs
+data/prospectus_pdfs/
+data/drhp_pdfs/
+data/archive/
+data/cache/
+data/live_*cache.json
+data/raw/*.pdf
+data/telemetry/
+data/market/
+
+# Audit snapshots: only the curated, hash-referenced files are tracked
+data/audit/*
+!data/audit/ipopremium_recovered_20261026.jsonl
+!data/audit/module1_exchange_listing_open_audit.csv
+!data/audit/module1_stage_aligned_inputs_20261026.csv
+!data/audit/module2_holdout_prices_2025_2026.csv
+!data/audit/module2_holdout_prices_2025_2026.json
+
+# Model artifacts: only frozen, released models are tracked
+models/*.pkl
+*.pkl
+*.joblib
+ml/artifacts/*
+!ml/artifacts/empirical_probability_tiers.json
+!ml/artifacts/model_metadata.json
+!ml/artifacts/preclose_return_metadata.json
+!ml/artifacts/preclose_return.joblib
+!ml/artifacts/module1_2026_standard_classifier_research_20261025.joblib
+!ml/artifacts/module1_forward_coverage_through2025_research_20261024.joblib
+!output/module2_multihorizon_20261029/multihorizon_research.joblib
+!output/module2_next_session_improvement_20261029/module2_retrained_research.joblib
+
+# Generated evidence media (released report PDF is tracked)
+output/**/*.png
+output/**/*.pdf
+output/**/*.zip
+!output/pdf/module2_later_year_hold_sell_validation_2025_2026.pdf
+
+# Conference manuscript: keep sources, ignore LaTeX build products
+output/conference_revision/*
+!output/conference_revision/llncs.cls
+!output/conference_revision/revised_manuscript.tex
+
+# Temporary test/scraping directories
+tmp/
+scratch/
+temp_*.py
+
+# Transient files, atomic writes, patches & SQLite journals
+*.tmp
+*.tmp.*
+*.patch
+*.diff
+*.db-wal
+*.db-shm
+
+# LaTeX intermediate artifacts
+*.aux
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# One-off scraper / pipeline debug scripts (keep the live scraper)
+scrapers/*
+!scrapers/live_ipo_scraper.py
+!scrapers/__init__.py
+
+# Environment variables & secrets
+.env
+.env.local
+
+# IDE & OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temporary cookies & backups
+.google-cookie
+.*-cookie
+*.bak

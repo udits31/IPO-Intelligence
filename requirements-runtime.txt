@@ -1,0 +1,7 @@
+# Match the environment that loads the frozen serialized estimators.
+# Linux image still requires a real build and smoke test before promotion.
+scikit-learn==1.5.2
+numpy==2.1.2
+pandas==2.2.3
+joblib==1.4.2
+xgboost>=2.0.3
