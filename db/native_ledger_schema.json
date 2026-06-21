@@ -1,0 +1,2904 @@
+{
+  "module2_decisions.db": [
+    {
+      "table": "module2_decisions_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observation_day_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "price_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "price_only_verdict",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "final_verdict",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "news_changed_decision",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "monitor_code_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "attribution_code_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "news_code_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "observation_day_ist"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "module2_events_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observation_day_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "price_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "signal_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "module2_ml_shadow_forecasts_v1",
+      "columns": [
+        {
+          "name": "forecast_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "price_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "positive_probability",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "expected_next_close_return_pct",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "expected_five_session_return_pct",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "position",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "action",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "forecast_id"
+      ],
+      "unique": [
+        [
+          "forecast_id"
+        ],
+        [
+          "ipo_id",
+          "price_date",
+          "model_sha256"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "module2_ml_shadow_attempts_v1",
+      "columns": [
+        {
+          "name": "attempt_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "detail",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "attempt_id"
+      ],
+      "unique": [
+        [
+          "attempt_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "module2_ml_shadow_market_v1",
+      "columns": [
+        {
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "symbol",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "price_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_gzip",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "source_id"
+      ],
+      "unique": [
+        [
+          "source_id"
+        ]
+      ],
+      "immutable": true
+    }
+  ],
+  "module2_historical_news.db": [
+    {
+      "table": "historical_news_sources_v1",
+      "columns": [
+        {
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "retrieved_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_payload_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_rss_gzip",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "source_id"
+      ],
+      "unique": [
+        [
+          "source_id"
+        ]
+      ],
+      "immutable": true
+    }
+  ],
+  "module2_intraday.db": [
+    {
+      "table": "candles_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "symbol",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "bar_start_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "content_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "symbol",
+          "bar_start_utc",
+          "content_sha256"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "observations_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "alerts_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "bar_start_utc",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "policy",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "signal",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "payload_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "bar_start_utc",
+          "policy",
+          "signal"
+        ]
+      ],
+      "immutable": true
+    }
+  ],
+  "snapshots.db": [
+    {
+      "table": "pre_bidding_snapshots",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "hour_bucket",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "snapshot_stage",
+          "type": "TEXT",
+          "notnull": true,
+          "default": "'HOURLY'",
+          "pk": 0
+        },
+        {
+          "name": "days_to_close",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "gmp_pct",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "gmp_rs",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "retail_x",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "nii_x",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "qib_x",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "promoter_ofs_ratio",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "objects_capex_ratio",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "issue_size_cr",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "india_vix",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_channel",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "final_qib_subscription",
+          "type": "REAL",
+          "notnull": false,
+          "default": "NULL",
+          "pk": 0
+        },
+        {
+          "name": "listing_return_pct",
+          "type": "REAL",
+          "notnull": false,
+          "default": "NULL",
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "hour_bucket"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "subscription_capture_v2",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "ipo_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "subscription_url",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "attempted_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "fetched_at_ist",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "slot_key",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "closing_date",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "snapshot_stage",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "http_status",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "qib_x",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "nii_x",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "retail_x",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_html_gzip",
+          "type": "BLOB",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "error",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "parser_version",
+          "type": "TEXT",
+          "notnull": true,
+          "default": "'subscription_table_v2'",
+          "pk": 0
+        },
+        {
+          "name": "source_family",
+          "type": "TEXT",
+          "notnull": true,
+          "default": "'chittorgarh_investorgain'",
+          "pk": 0
+        },
+        {
+          "name": "capture_phase",
+          "type": "TEXT",
+          "notnull": true,
+          "default": "'pre_deadline'",
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "automatic_decision_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "slot_key",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "snapshot_stage",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "decision_kind",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_asof_ist",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_family",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_version",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "input_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "verdict",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "conviction",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "positive_listing_probability",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "rationale",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "error",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "decision_engine_version",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "slot_key",
+          "decision_kind"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "prelisting_replay_v1",
+      "columns": [
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "listing_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_found_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_family",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_sha256",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "qib_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "nii_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "retail_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_version",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "positive_listing_probability",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "ipo_id"
+      ],
+      "unique": [
+        [
+          "ipo_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "prelisting_outcome_forecast_v1",
+      "columns": [
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "listing_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "capture_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "capture_phase",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "captured_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_family",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "qib_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "nii_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "retail_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_version",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "positive_listing_probability",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "ipo_id"
+      ],
+      "unique": [
+        [
+          "ipo_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "listing_outcome_v1",
+      "columns": [
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "listing_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "issue_price",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "nse_open_price",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "nse_symbol",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "isin",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "archive_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "ipo_id"
+      ],
+      "unique": [
+        [
+          "ipo_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "captured_bid_replay_v1",
+      "columns": [
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "capture_day_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 2
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "capture_id",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "captured_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "computed_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_family",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_version",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_bundle_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "qib_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "nii_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "retail_x",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "positive_listing_probability",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "ipo_id",
+        "capture_day_ist"
+      ],
+      "unique": [
+        [
+          "ipo_id",
+          "capture_day_ist"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "historical_bid_page_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "fetched_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_html_gzip",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "source_url",
+          "raw_sha256"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "historical_bid_reconstruction_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_on",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "computed_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_version",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "positive_listing_probability",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "input_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "observed_on",
+          "model_sha256",
+          "evidence_json"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "module1_priority_v1",
+      "columns": [
+        {
+          "name": "slot_key",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_version",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "snapshot_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "slot_key"
+      ],
+      "unique": [
+        [
+          "slot_key"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "frozen_module1_forecast_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "ipo_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "protocol_sha",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "model_sha",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "cutoff_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "slot",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "kind",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "quality",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "probability",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "predicted_positive",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "gmp_probability",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "gmp_positive",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "issue_price",
+          "type": "REAL",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "listing_date",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "input_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "input_sha",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "protocol_sha",
+          "slot",
+          "kind",
+          "input_sha"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "frozen_module1_attempt_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "detail",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "frozen_module1_outcome_v1",
+      "columns": [
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "outcome_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "ipo_id"
+      ],
+      "unique": [
+        [
+          "ipo_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "frozen_module1_eligible_v1",
+      "columns": [
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "protocol_sha",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 2
+        },
+        {
+          "name": "first_seen_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "cutoff_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "ipo_id",
+        "protocol_sha"
+      ],
+      "unique": [
+        [
+          "ipo_id",
+          "protocol_sha"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "historical_subscription_evidence_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "fetched_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_html_gzip",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "source_url",
+          "raw_sha256",
+          "evidence_json"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "listing_outcome_bse_v1",
+      "columns": [
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "listing_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "issue_price",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "exchange_open_price",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "exchange_close_price",
+          "type": "REAL",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "exchange",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "bse_scrip_code",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "archive_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_timestamp",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "fetch_timestamp",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "ipo_id"
+      ],
+      "unique": [
+        [
+          "ipo_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "module1_milestone_capture_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "ipo_id",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "milestone",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "slot",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "closing_date",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_gzip",
+          "type": "BLOB",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "ipo_id",
+          "milestone",
+          "slot"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "offer_context_archive_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "fetched_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_html_gzip",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "facts_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "company_name",
+          "source_sha256"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "data_maintenance_jobs_v1",
+      "columns": [
+        {
+          "name": "job_key",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "task",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "state",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "attempts",
+          "type": "INTEGER",
+          "notnull": true,
+          "default": "0",
+          "pk": 0
+        },
+        {
+          "name": "last_attempt_at_ist",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "next_attempt_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "detail_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "job_key"
+      ],
+      "unique": [
+        [
+          "job_key"
+        ]
+      ],
+      "immutable": false
+    },
+    {
+      "table": "data_maintenance_events_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "job_key",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "recorded_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "state",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "detail_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "offer_context_parse_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "parser_version",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "computed_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "facts_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ],
+        [
+          "company_name",
+          "source_sha256",
+          "parser_version"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "data_source_rejection_v1",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "job_key",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "attempted_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_html_gzip",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "error",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "id"
+      ],
+      "unique": [
+        [
+          "id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "offer_source_state_v1",
+      "columns": [
+        {
+          "name": "job_key",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 2
+        },
+        {
+          "name": "state",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "next_attempt_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "detail_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "job_key",
+        "source_url"
+      ],
+      "unique": [
+        [
+          "job_key",
+          "source_url"
+        ]
+      ],
+      "immutable": false
+    },
+    {
+      "table": "financial_valuation_sources_v1",
+      "columns": [
+        {
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "captured_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_html_gzip",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "facts_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "source_id"
+      ],
+      "unique": [
+        [
+          "source_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "financial_valuation_attempts_v1",
+      "columns": [
+        {
+          "name": "attempt_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "attempted_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "detail",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "attempt_id"
+      ],
+      "unique": [
+        [
+          "attempt_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "exchange_identity_recovery_v1",
+      "columns": [
+        {
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "observed_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_gzip",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "evidence_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "source_id"
+      ],
+      "unique": [
+        [
+          "source_id"
+        ]
+      ],
+      "immutable": true
+    },
+    {
+      "table": "financial_document_evidence_v1",
+      "columns": [
+        {
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": false,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "name": "company_name",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "captured_at_ist",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_sha256",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "raw_document",
+          "type": "BLOB",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "name": "facts_json",
+          "type": "TEXT",
+          "notnull": true,
+          "default": null,
+          "pk": 0
+        }
+      ],
+      "pk": [
+        "source_id"
+      ],
+      "unique": [
+        [
+          "source_id"
+        ]
+      ],
+      "immutable": true
+    }
+  ]
+}
