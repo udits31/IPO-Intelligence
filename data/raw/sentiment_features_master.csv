@@ -1,0 +1,501 @@
+ipo_id,company_name,market_mood_score,ipo_mood_score,rhp_risk_score,rhp_word_count,extraction_method,model_name,model_version,source_window_start,source_window_end,extraction_status
+1,Punjab & Sind Bank,0.5,0.4,0.6,6418,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-12-30,2010-12-30,verified
+2,Ravikumar Distilleries Ltd.,0.5,0.4,0.6,5223,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-12-27,2010-12-27,verified
+3,A2Z Maintenance & Engineering Services Ltd.,0.5,0.2308,0.7692,2960,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-12-23,2010-12-23,verified
+4,MOIL Ltd.,0.5,0.4,0.6,7944,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-12-15,2010-12-15,verified
+5,"Shipping Corp.of India Ltd.,The",0.5,0.625,0.375,6683,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-12-15,2010-12-15,verified
+6,RPP Infra Projects Ltd.,0.5,0.4,0.6,5599,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-12-06,2010-12-06,verified
+7,Power Grid Corp.of India Ltd.,0.5,0.75,0.25,7338,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-11-25,2010-11-25,verified
+8,Gravita India Ltd.,0.5,0.4167,0.5833,6653,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-11-16,2010-11-16,verified
+9,Coal India Ltd.,0.5,0.4,0.6,8895,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-11-04,2010-11-04,verified
+10,Prestige Estates Projects Ltd.,0.5,0.5,0.5,8168,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-27,2010-10-27,verified
+11,Gyscoal Alloys Ltd.,0.5,0.5,0.5,3980,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-27,2010-10-27,verified
+12,Oberoi Realty Ltd.,0.5,0.6667,0.3333,6253,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-20,2010-10-20,verified
+13,Commercial Engineers & Body Builders Co.Ltd.,0.5,0.5,0.5,8270,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-18,2010-10-18,verified
+14,Ashoka Buildcon Ltd.,0.5,0.5,0.5,6777,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-14,2010-10-14,verified
+15,Sea TV Network Ltd.,0.5,0.3333,0.6667,6670,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-14,2010-10-14,verified
+16,Bedmutha Industries Ltd.,0.5,0.5714,0.4286,6264,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-14,2010-10-14,verified
+17,VA Tech Wabag Ltd.,0.5,0.7273,0.2727,6630,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-13,2010-10-13,verified
+18,Cantabil Retail India Ltd.,0.5,0.5,0.5,5624,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-12,2010-10-12,verified
+19,Gallantt Ispat Ltd.,0.5,0.625,0.375,5204,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-11,2010-10-11,verified
+20,Ramky Infrastructure Ltd.,0.5,0.3333,0.6667,6813,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-08,2010-10-08,verified
+21,Orient Green Power Co.Ltd.,0.5,0.4286,0.5714,6989,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-08,2010-10-08,verified
+22,Eros International Media Ltd.,0.5,0.625,0.375,7171,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-06,2010-10-06,verified
+23,Career Point Infosystems Ltd.,0.5,0.5,0.5,4933,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-06,2010-10-06,verified
+24,Microsec Financial Services Ltd.,0.5,0.5,0.5,6096,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-10-05,2010-10-05,verified
+25,Indosolar Ltd.,,,,0,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-09-29,2010-09-29,unavailable
+26,Gujarat Pipavav Port Ltd.,0.5,0.4,0.6,7108,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-09-09,2010-09-09,verified
+27,Prakash Steelage Ltd.,0.5,0.5,0.5,8143,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-08-25,2010-08-25,verified
+28,Bajaj Corp Ltd.,0.5,0.5,0.5,5701,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-08-18,2010-08-18,verified
+29,Engineers India Ltd.,0.5,0.6667,0.3333,6777,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-08-12,2010-08-12,verified
+30,Hindustan Media Ventures Ltd.,0.5,0.6667,0.3333,6329,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-07-21,2010-07-21,verified
+31,Parabolic Drugs Ltd.,0.5,0.4444,0.5556,7149,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-07-01,2010-07-01,verified
+32,Standard Chartered PLC,0.5,0.1429,0.8571,7632,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-06-11,2010-06-11,verified
+33,Jaypee Infratech Ltd.,0.5,0.3333,0.6667,8131,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-05-21,2010-05-21,verified
+34,SJVN Ltd.,0.5,0.5,0.5,7588,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-05-20,2010-05-20,verified
+35,Tarapur Transformers Ltd.,0.5,0.3333,0.6667,5181,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-05-18,2010-05-18,verified
+36,Talwalkars Better value Fitness Ltd.,0.5,0.5,0.5,6776,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-05-10,2010-05-10,verified
+37,Goenka Diamond & Jewels Ltd.,0.5,0.4286,0.5714,5688,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-04-16,2010-04-16,verified
+38,Intrasoft Technologies Ltd.,0.5,0.3333,0.6667,5677,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-04-12,2010-04-12,verified
+39,Persistent Systems Ltd.,0.5,0.4,0.6,8744,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-04-06,2010-04-06,verified
+40,Pradip Overseas Ltd.,0.5,0.4,0.6,7612,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-04-05,2010-04-05,verified
+41,NMDC Ltd.,0.5,0.4,0.6,8293,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-30,2010-03-30,verified
+42,IL&FS Transportation Networks Ltd.,0.5,0.3,0.7,8544,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-30,2010-03-30,verified
+43,DQ Entertainment (International) Ltd.,0.5,0.5,0.5,6984,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-29,2010-03-29,verified
+44,NTPC Ltd.,0.5,0.4,0.6,6187,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-18,2010-03-18,verified
+45,United Bank of India,0.5,0.4167,0.5833,7105,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-18,2010-03-18,verified
+46,Man Infraconstruction Ltd.,0.5,0.6667,0.3333,6702,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-11,2010-03-11,verified
+47,Texmo Pipes & Products Ltd.,0.5,0.625,0.375,6473,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-10,2010-03-10,verified
+48,Rural Electrification Corp.Ltd.,0.5,0.375,0.625,7871,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-08,2010-03-08,verified
+49,ARSS Infrastructure Projects Ltd.,0.5,0.5,0.5,6737,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-03-03,2010-03-03,verified
+50,Hathway Cable & Datacom Ltd.,0.5,0.5714,0.4286,7109,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-02-25,2010-02-25,verified
+51,Emmbi Polyarns Ltd.,0.5,0.5,0.5,6648,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-02-24,2010-02-24,verified
+52,D B Realty Ltd.,0.5,0.5,0.5,6070,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-02-24,2010-02-24,verified
+53,Thangamayil Jewellery Ltd.,0.5,0.5333,0.4667,8117,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-02-19,2010-02-19,verified
+54,Syncom Healthcare Ltd.,0.5,0.5556,0.4444,5046,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-02-15,2010-02-15,verified
+55,Vascon Engineers Ltd.,0.5,0.5,0.5,6878,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-02-15,2010-02-15,verified
+56,Jubilant Foodworks Ltd.,0.5,0.5,0.5,6719,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-02-08,2010-02-08,verified
+57,MBL Infrastructures Ltd.,0.5,0.625,0.375,6497,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2009-12-14,2009-12-14,verified
+58,D B Corp Ltd.,0.5,0.5714,0.4286,4907,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-01-06,2010-01-06,verified
+59,Godrej Properties Ltd.,0.5,0.5,0.5,6694,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-01-05,2010-01-05,verified
+60,JSW Energy Ltd.,0.5,0.5714,0.4286,7826,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2010-01-04,2010-01-04,verified
+61,Indo Thai Securities Ltd.,0.5,0.5,0.5,6297,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-11-02,2011-11-02,verified
+62,M & B Switchgears Ltd.,0.5,0.5714,0.4286,7281,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-10-20,2011-10-20,verified
+63,Flexituff International Ltd.,0.5,0.5714,0.4286,7370,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-10-19,2011-10-19,verified
+64,Onelife Capital Advisors Ltd.,0.5,0.5556,0.4444,6486,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-10-17,2011-10-17,verified
+65,Tijaria Polypipes Ltd.,0.5,0.6667,0.3333,4038,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-10-14,2011-10-14,verified
+66,RDB Rasayans Ltd.,0.5,0.5,0.5,5285,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-10-07,2011-10-07,verified
+67,Prakash Constrowell Ltd.,0.5,0.6,0.4,6003,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-10-04,2011-10-04,verified
+68,PG Electroplast Ltd.,0.5,0.6667,0.3333,5616,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-09-26,2011-09-26,verified
+69,Vaswani Industries Ltd.,0.5,0.5,0.5,5732,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-09-20,2011-09-20,verified
+70,TD Power Systems Ltd.,0.5,0.5,0.5,7108,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-09-08,2011-09-08,verified
+71,Brooks Laboratories Ltd.,0.5,0.5,0.5,6400,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-09-05,2011-09-05,verified
+72,Tree House Education & Accessories Ltd.,0.5,0.625,0.375,6680,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-08-26,2011-08-26,verified
+73,L&T Finance Holdings Ltd.,0.5,0.375,0.625,7603,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-08-12,2011-08-12,verified
+74,Inventure Growth & Securities Ltd.,0.5,0.4286,0.5714,6665,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-08-04,2011-08-04,verified
+75,Bharatiya Global Infomedia Ltd.,0.5,0.8,0.2,5500,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-07-28,2011-07-28,verified
+76,Readymade Steel India Ltd.,0.5,0.8571,0.1429,6333,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-07-13,2011-07-13,verified
+77,Rushil Decor Ltd.,0.5,0.5,0.5,6639,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-07-07,2011-07-07,verified
+78,VMS Industries Ltd.,0.5,0.6,0.4,5681,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-06-14,2011-06-14,verified
+79,Power Finance Corp.Ltd.,0.5,0.5714,0.4286,5376,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-05-27,2011-05-27,verified
+80,Sanghvi Forging & Engineering Ltd.,0.5,0.4286,0.5714,6493,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-05-23,2011-05-23,verified
+81,Muthoot Finance Ltd.,0.5,0.4286,0.5714,6818,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-05-06,2011-05-06,verified
+82,PTC India Financial Services Ltd.,0.5,0.625,0.375,8459,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-03-30,2011-03-30,verified
+83,Lovable Lingerie Ltd.,0.5,0.5,0.5,6663,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-03-24,2011-03-24,verified
+84,Fineotex Chemical Ltd.,0.5,0.3636,0.6364,6425,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-03-11,2011-03-11,verified
+85,Omkar Speciality Chemicals Ltd.,0.5,0.5,0.5,5792,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-02-10,2011-02-10,verified
+86,Tata Steel Ltd.,0.5,0.4,0.6,8010,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-02-02,2011-02-02,verified
+87,Shekhawati Poly-Yarn Ltd.,0.5,0.6667,0.3333,3316,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2011-01-12,2011-01-12,verified
+88,Bharti Infratel Ltd.,0.5,0.625,0.375,9269,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-12-28,2012-12-28,verified
+89,PC Jeweller Ltd.,0.5,0.6667,0.3333,7418,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-12-27,2012-12-27,verified
+90,Credit Analysis & Research Ltd.,0.5,0.4286,0.5714,6925,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-12-26,2012-12-26,verified
+91,Speciality Restaurants Ltd.,0.5,0.6667,0.3333,7437,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-05-30,2012-05-30,verified
+92,Tribhovandas Bhimji Zaveri Ltd.,0.5,0.6667,0.3333,6131,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-05-09,2012-05-09,verified
+93,National Buildings Construction Corp.Ltd.,0.5,0.5714,0.4286,8322,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-04-12,2012-04-12,verified
+94,MT Educare Ltd.,0.5,0.7143,0.2857,6460,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-04-12,2012-04-12,verified
+95,Olympic Cards Ltd.,0.5,0.6,0.4,5780,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-03-28,2012-03-28,verified
+96,Multi Commodity Exchange of India Ltd.,0.5,0.5,0.5,6675,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2012-03-09,2012-03-09,verified
+97,Power Grid Corp.of India Ltd.,0.5,0.625,0.375,8126,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2013-12-19,2013-12-19,verified
+98,Just Dial Ltd.,0.5,0.6667,0.3333,7219,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2013-06-05,2013-06-05,verified
+99,Repco Home Finance Ltd.,0.5,0.4444,0.5556,8060,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2013-04-01,2013-04-01,verified
+100,V-Mart Retail Ltd.,0.5,0.625,0.375,8370,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2013-02-20,2013-02-20,verified
+101,Monte Carlo Fashions Ltd.,0.5,0.5,0.5,6576,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2014-12-19,2014-12-19,verified
+102,Shemaroo Entertainment Ltd.,0.5,0.625,0.375,8096,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2014-10-01,2014-10-01,verified
+103,Sharda Cropchem Ltd.,0.5,0.5,0.5,6793,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2014-09-23,2014-09-23,verified
+104,Snowman Logistics Ltd.,0.5,0.6667,0.3333,7575,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2014-09-12,2014-09-12,verified
+105,Wonderla Holidays Ltd.,0.5,0.5,0.5,6878,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2014-09-05,2014-09-05,verified
+106,Engineers India Ltd.,0.5,0.6667,0.3333,6777,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2014-02-28,2014-02-28,verified
+107,Alkem Laboratories Ltd.,0.5,0.4286,0.5714,9174,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-12-23,2015-12-23,verified
+108,Dr.Lal PathLabs Ltd.,0.5,0.5556,0.4444,9187,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-12-23,2015-12-23,verified
+109,S H Kelkar & Co.Ltd.,0.5,0.5714,0.4286,8263,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-11-16,2015-11-16,verified
+110,InterGlobe Aviation Ltd.,0.5,0.5714,0.4286,9732,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-11-10,2015-11-10,verified
+111,Coffee Day Enterprises Ltd.,0.5,0.5714,0.4286,6738,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-11-02,2015-11-02,verified
+112,Prabhat Dairy Ltd.,0.5,0.4,0.6,6969,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-09-21,2015-09-21,verified
+113,Sadbhav Infrastructure Project Ltd.,0.5,0.5,0.5,8371,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-09-16,2015-09-16,verified
+114,Shree Pushkar Chemicals & Fertilisers Ltd.,0.5,0.6,0.4,6664,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-09-10,2015-09-10,verified
+115,Navkar Corp.Ltd.,0.5,0.375,0.625,8384,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-09-09,2015-09-09,verified
+116,Power Mech Projects Ltd.,0.5,0.5,0.5,8391,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-08-26,2015-08-26,verified
+117,Syngene International Ltd.,0.5,0.4444,0.5556,8695,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-08-11,2015-08-11,verified
+118,PNC Infratech Ltd.,0.5,0.6,0.4,7815,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-05-26,2015-05-26,verified
+119,UFO Moviez India Ltd.,0.5,0.5,0.5,6342,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-05-14,2015-05-14,verified
+120,MEP Infrastructure Developers Ltd.,0.5,0.4286,0.5714,7728,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-05-06,2015-05-06,verified
+121,VRL Logistics Ltd.,0.5,0.4,0.6,7493,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-04-30,2015-04-30,verified
+122,Inox Wind Ltd.,0.5,0.5,0.5,8992,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-04-09,2015-04-09,verified
+123,Adlabs Entertainment Ltd.,0.5,0.6667,0.3333,6979,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-04-06,2015-04-06,verified
+124,Ortel Communications Ltd.,0.5,0.5556,0.4444,8531,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-19,2015-03-19,verified
+125,Laurus Labs Ltd.,0.5,0.3333,0.6667,9499,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+126,Sheela Foam Ltd.,0.5,0.6,0.4,9196,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+127,Varun Beverages Ltd.,0.5,0.5,0.5,8321,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-12-31,2015-12-31,verified
+128,PNB Housing Finance Ltd.,0.5,0.5,0.5,8404,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+129,Endurance Technologies Ltd.,0.5,0.5,0.5,8573,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+130,HPL Electric & Power Ltd.,0.5,0.375,0.625,9362,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+131,ICICI Prudential Life Insurance Co.Ltd.,0.5,0.3,0.7,9542,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+132,GNA Axles Ltd.,0.5,0.6,0.4,7665,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+133,L&T Technology Services Ltd.,0.5,0.6667,0.3333,7267,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+134,RBL Bank Ltd.,0.5,0.4444,0.5556,8912,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+135,S.P.Apparels Ltd.,0.5,0.5,0.5,8323,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+136,Dilip Buildcon Ltd.,0.5,0.5,0.5,8459,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+137,Advanced Enzyme Technologies Ltd.,0.5,0.625,0.375,9200,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+138,Larsen & Toubro Infotech Ltd.,0.5,0.6,0.4,7777,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+139,Quess Corp Ltd.,0.5,0.5714,0.4286,8526,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+140,Mahanagar Gas Ltd.,0.5,0.4286,0.5714,8296,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2015-03-31,2015-03-31,verified
+141,Parag Milk Foods Ltd.,0.5,0.5,0.5,9424,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-05-06,2016-05-06,verified
+142,Ujjivan Financial Services Ltd.,0.5,0.3,0.7,9170,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-05-10,2016-05-10,verified
+143,Thyrocare Technologies Ltd.,0.5,0.6,0.4,8088,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-05-09,2016-05-09,verified
+144,Equitas Holdings Ltd.,0.5,0.25,0.75,9338,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-04-21,2016-04-21,verified
+145,Infibeam Incorporation Ltd.,0.5,0.5,0.5,7795,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-04-04,2016-04-04,verified
+146,Bharat Wire Ropes Ltd.,0.5,0.6667,0.3333,7856,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-04-01,2016-04-01,verified
+147,Healthcare Global Enterprises Ltd.,0.5,0.5,0.5,9079,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-30,2016-03-30,verified
+148,Quick Heal Technologies Ltd.,0.5,0.5556,0.4444,8598,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-02-18,2016-02-18,verified
+149,TeamLease Services Ltd.,0.5,0.5714,0.4286,9186,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-02-12,2016-02-12,verified
+150,Precision Camshafts Ltd.,0.5,0.5,0.5,7572,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-02-08,2016-02-08,verified
+151,Narayana Hrudayalaya Ltd.,0.5,0.5714,0.4286,7418,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-01-06,2016-01-06,verified
+152,Astron Paper & Board Mill Ltd.,0.5,0.625,0.375,8019,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+153,Future Supply Chain Solutions Ltd.,0.5,0.5,0.5,8466,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+154,Shalby Ltd.,0.5,0.4,0.6,2898,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+155,HDFC Standard Life Insurance Co.Ltd.,0.5,0.2727,0.7273,12405,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+156,Khadim India Ltd.,0.5,0.5,0.5,7961,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+157,"New India Assurance Co.Ltd.,The",0.5,0.4444,0.5556,10094,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+158,Mahindra Logistics Ltd.,0.5,0.625,0.375,8845,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+159,Reliance Nippon Life Asset Management Ltd.,0.5,0.6667,0.3333,8639,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+160,General Insurance Corp.of India,0.5,0.4,0.6,10337,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+161,Indian Energy Exchange Ltd.,0.5,0.5714,0.4286,9070,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+162,MAS Financial Services Ltd.,0.5,0.4286,0.5714,10064,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+163,Godrej Agrovet Ltd.,0.5,0.5,0.5,9114,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+164,Prataap Snacks Ltd.,0.5,0.5,0.5,9075,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+165,SBI Life Insurance Co.Ltd.,0.5,0.3636,0.6364,10020,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+166,ICICI Lombard General Insurance Co.Ltd.,0.5,0.3636,0.6364,10137,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+167,Capacit'e Infraprojects Ltd.,0.5,0.4286,0.5714,8276,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+168,Matrimony.com Ltd.,0.5,0.5556,0.4444,9869,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+169,Bharat Road Network Ltd.,0.5,0.5,0.5,9067,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+170,Dixon Technologies (India) Ltd.,0.5,0.5,0.5,9832,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+171,Apex Frozen Foods Ltd.,0.5,0.5,0.5,8092,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+172,Cochin Shipyard Ltd.,0.5,0.4286,0.5714,8293,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+173,Security & Intelligence Services (India) Ltd.,0.5,0.5714,0.4286,9793,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+174,Salasar Techno Engineering Ltd.,0.5,0.5,0.5,4705,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+175,AU Small Finance Bank Ltd.,0.5,0.375,0.625,9968,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+176,GTPL Hathway Ltd.,0.5,0.4286,0.5714,9136,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+177,Central Depository Services (India) Ltd.,0.5,0.6,0.4,9091,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+178,Eris Lifesciences Ltd.,0.5,0.5714,0.4286,10636,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+179,Tejas Networks Ltd.,0.5,0.5714,0.4286,10031,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+180,IndiGrid Infrastructure Trust,0.5,0.5,0.5,9106,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-05-31,2017-05-31,verified
+181,PSP Projects Ltd.,0.5,0.5714,0.4286,8618,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+182,Housing & Urban Development Corp.Ltd.,0.5,0.3333,0.6667,3215,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+183,IRB InvIT Fund,0.5,0.5714,0.4286,7322,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+184,S.Chand & Co.Ltd.,0.5,0.4286,0.5714,9919,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+185,Shankara Building Products Ltd.,0.5,0.5,0.5,8149,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+186,CL Educate Ltd.,0.5,0.5,0.5,7779,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+187,Avenue Supermarts Ltd.,0.5,0.5714,0.4286,8668,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+188,Music Broadcast Ltd.,0.5,0.6,0.4,8376,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+189,BSE Ltd.,0.5,0.4,0.6,9559,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2016-03-31,2016-03-31,verified
+190,Garden Reach Shipbuilders & Engineers Ltd.,0.5,0.4286,0.5714,8327,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+191,Aavas Financiers Ltd.,0.5,0.4444,0.5556,11187,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+192,IRCON International Ltd.,0.5,0.4286,0.5714,7823,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+193,CreditAccess Grameen Ltd.,0.5,0.3333,0.6667,6681,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+194,HDFC Asset Management Co.Ltd.,0.5,0.8,0.2,10221,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+195,TCNS Clothing Co.Ltd.,0.5,0.5714,0.4286,9281,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+196,Varroc Engineering Ltd.,0.5,0.375,0.625,9274,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+197,RITES Ltd.,0.5,0.5,0.5,8451,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+198,Fine Organic Industries Ltd.,0.5,0.3333,0.6667,6136,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+199,IndoStar Capital Finance Ltd.,0.5,0.4286,0.5714,10027,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+200,Lemon Tree Hotels Ltd.,0.5,0.5556,0.4444,10338,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+201,ICICI Securities Ltd.,0.5,0.4286,0.5714,10007,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+202,Mishra Dhatu Nigam Ltd.,0.5,0.5,0.5,8030,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+203,Karda Constructions Ltd.,0.5,0.5714,0.4286,8070,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+204,Sandhar Technologies Ltd.,0.5,0.5,0.5,9454,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+205,Hindustan Aeronautics Ltd.,0.5,0.7143,0.2857,8869,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+206,Bandhan Bank Ltd.,0.5,0.5,0.5,9407,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+207,Bharat Dynamics Ltd.,0.5,0.4,0.6,7220,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+208,H.G.Infra Engineering Ltd.,0.5,0.4286,0.5714,8841,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+209,Aster DM Healthcare Ltd.,0.5,0.4444,0.5556,9641,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+210,Galaxy Surfactants Ltd.,0.5,0.5,0.5,8474,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+211,Amber Enterprises India Ltd.,0.5,0.5,0.5,9009,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+212,Newgen Software Technologies Ltd.,0.5,0.6667,0.3333,10475,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+213,Apollo Micro Systems Ltd.,0.5,0.5714,0.4286,6977,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2017-03-31,2017-03-31,verified
+214,Prince Pipes & Fittings Ltd.,0.5,0.5714,0.4286,11278,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+215,Ujjivan Small Finance Bank Ltd.,0.5,0.4444,0.5556,9977,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+216,CSB Bank Ltd.,0.5,0.5556,0.4444,9720,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+217,Vishwaraj Sugar Industries Ltd.,0.5,0.5714,0.4286,9009,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+218,Indian Railway Catering & Tourism Corp.Ltd.,0.5,0.5714,0.4286,9098,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+219,Sterling & Wilson Solar Ltd.,0.5,0.5714,0.4286,9150,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+220,Spandana Sphoorty Financial Ltd.,0.5,0.2857,0.7143,9074,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+221,Affle (India) Ltd.,0.5,0.5,0.5,9113,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+222,IndiaMART InterMESH Ltd.,0.5,0.4286,0.5714,10813,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+223,Neogen Chemicals Ltd.,0.5,0.5,0.5,9156,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+224,Polycab India Ltd.,0.5,0.5,0.5,9571,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+225,Metropolis Healthcare Ltd.,0.5,0.5,0.5,9724,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+226,Rail Vikas Nigam Ltd.,0.5,0.5,0.5,8555,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+227,Embassy Office Parks,0.5,0.6667,0.3333,2230,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-04-01,2019-04-01,verified
+228,MSTC Ltd.,0.5,0.4286,0.5714,7463,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+229,Chalet Hotels Ltd.,0.5,0.4444,0.5556,10611,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+230,Xelpmoc Design & Tech Ltd.,0.5,0.5714,0.4286,8367,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+231,Mrs.Bectors Food Specialities Ltd.,0.5,0.5556,0.4444,10132,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+232,Burger King India Ltd.,0.5,0.5,0.5,8259,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+233,Gland Pharma Ltd.,0.5,0.5,0.5,10003,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+234,Equitas Small Finance Bank Ltd.,0.5,0.4444,0.5556,12063,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+235,Likhitha Infrastructure Ltd.,0.5,0.2,0.8,7127,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+236,UTI Asset Management Co.Ltd.,0.5,0.4286,0.5714,9048,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+237,Mazagon Dock Shipbuilders Ltd.,0.5,0.4286,0.5714,8403,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+238,Angel Broking Ltd.,0.5,0.4286,0.5714,10166,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+239,Computer Age Management Services Ltd.,0.5,0.5714,0.4286,10056,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+240,Chemcon Speciality Chemicals Ltd.,0.5,0.4,0.6,2907,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+241,Route Mobile Ltd.,0.5,0.4286,0.5714,8342,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+242,Happiest Minds Technologies Ltd.,0.5,0.3,0.7,10104,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+243,Mindspace Business Parks,0.5,0.5455,0.4545,9095,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-08-07,2020-08-07,verified
+244,Yes Bank Ltd.,0.5,0.2727,0.7273,5022,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+245,Rossari Biotech Ltd.,0.5,0.5,0.5,8014,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+246,SBI Cards & Payment Services Ltd.,0.5,0.5,0.5,9532,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2019-03-31,2019-03-31,verified
+247,CMS Info Systems Ltd.,0.5,0.3333,0.6667,9033,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+248,Supriya Lifescience Ltd.,0.5,0.5,0.5,8879,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+249,HP Adhesives Ltd.,0.5,0.5556,0.4444,8861,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+250,Data Patterns (India) Ltd.,0.5,0.4,0.6,9380,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+251,Medplus Health Services Ltd.,0.5,0.5,0.5,11209,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+252,Metro Brands Ltd.,0.5,0.5,0.5,10189,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+253,C.E.Info systems Ltd.,0.5,0.5,0.5,9190,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+254,Shriram Properties Ltd.,0.5,0.5,0.5,10180,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+255,Rategain Travel Technologies Ltd.,0.5,0.4286,0.5714,10112,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+256,Anand Rathi Wealth Ltd.,0.5,0.4286,0.5714,9967,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+257,Tega Industries Ltd.,0.5,0.4286,0.5714,9261,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+258,Star Health & Allied Insurance Co.Ltd.,0.5,0.5,0.5,13048,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+259,Go Fashion (India) Ltd.,0.5,0.5556,0.4444,10152,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+260,Tarsons Products Ltd.,0.5,0.5,0.5,9832,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+261,Latent View Analytics Ltd.,0.5,0.4444,0.5556,10410,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+262,One 97 Communications Ltd.,0.5,0.5,0.5,10392,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+263,Sapphire Foods India Ltd.,0.5,0.4444,0.5556,9390,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+264,S.J.S.Enterprises Ltd.,0.5,0.5,0.5,9951,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+265,Sigachi Industries Ltd.,0.5,0.5,0.5,9703,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+266,PB Fintech Ltd.,0.5,0.5,0.5,8502,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+267,Fino Payments Bank Ltd.,0.5,0.4444,0.5556,10475,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+268,FSN E-Commerce Ventures Ltd.,0.5,0.4286,0.5714,10602,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+269,Aditya Birla Sun Life AMC Ltd.,0.5,0.4286,0.5714,12026,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+270,Paras Defence & Space Technologies Ltd.,0.5,0.5,0.5,10290,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+271,Sansera Engineering Ltd.,0.5,0.5556,0.4444,11006,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+272,Ami Organics Ltd.,0.5,0.5,0.5,10632,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+273,Vijaya Diagnostic Centre Ltd.,0.5,0.5556,0.4444,11274,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+274,Aptus Value Housing Finance India Ltd.,0.5,0.375,0.625,9461,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+275,Chemplast Sanmar Ltd.,0.5,0.5,0.5,10427,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+276,Nuvoco Vistas Corp.Ltd.,0.5,0.4286,0.5714,10217,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+277,CarTrade Tech Ltd.,0.5,0.625,0.375,9540,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+278,Krsnaa Diagnostics Ltd.,0.5,0.4286,0.5714,9963,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+279,Devyani International Ltd.,0.5,0.4444,0.5556,10472,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+280,Exxaro Tiles Ltd.,0.5,0.3333,0.6667,2465,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+281,Windlas Biotech Ltd.,0.5,0.6,0.4,9302,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+282,Rolex Rings Ltd.,0.5,0.5,0.5,9448,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+283,Glenmark Life Sciences Ltd.,0.5,0.4286,0.5714,9035,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+284,Tatva Chintan Pharma Chem Ltd.,0.5,0.375,0.625,9552,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+285,Zomato Ltd.,0.5,0.625,0.375,11057,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+286,G R Infraprojects Ltd.,0.5,0.4444,0.5556,10492,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+287,Clean Science & Technology Ltd.,0.5,0.5,0.5,10215,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+288,India Pesticides Ltd.,0.5,0.4444,0.5556,8592,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+289,Dodla Dairy Ltd.,0.5,0.4,0.6,7136,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+290,Krishna Institute of Medical Sciences Ltd.,0.5,0.5,0.5,11225,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+291,Shyam Metalics & Energy Ltd.,0.5,0.4286,0.5714,10729,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+292,Sona BLW Precision Forgings Ltd.,0.5,0.5,0.5,9719,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+293,POWERGRID Infrastructure Investment Trust,0.5,0.4286,0.5714,8362,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-05-08,2021-05-08,verified
+294,Macrotech Developers Ltd.,0.5,0.375,0.625,10594,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+295,Barbeque-Nation Hospitality Ltd.,0.5,0.5,0.5,8352,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+296,Nazara Technologies Ltd.,0.5,0.625,0.375,11159,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+297,Kalyan Jewellers India Ltd.,0.5,0.5,0.5,10869,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+298,Suryoday Small Finance Bank Ltd.,0.5,0.4444,0.5556,12540,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+299,Craftsman Automation Ltd.,0.5,0.4444,0.5556,9729,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+300,Laxmi Organic Industries Ltd.,0.5,0.4,0.6,3046,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+301,Anupam Rasayan India Ltd.,0.5,0.4286,0.5714,9593,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+302,Easy Trip Planners Ltd.,0.5,0.5714,0.4286,9437,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+303,MTAR Technologies Ltd.,0.5,0.4286,0.5714,9428,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+304,Heranba Industries Ltd.,0.5,0.25,0.75,2846,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+305,RailTel Corp.of India Ltd.,0.5,0.5,0.5,8637,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+306,Nureca Ltd.,0.5,0.4286,0.5714,8772,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+307,Brookfield India Real Estate Trust,0.5,0.5,0.5,2253,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-02-16,2021-02-16,verified
+308,Stove Kraft Ltd.,0.5,0.5,0.5,8562,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+309,Home First Finance Co.India Ltd.,0.5,0.375,0.625,8959,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+310,Indigo Paints Ltd.,0.5,0.5556,0.4444,11433,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+311,Indian Railway Finance Corp.Ltd.,0.5,0.2857,0.7143,9941,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2018-03-31,2018-03-31,verified
+312,Antony Waste Handling Cell Ltd.,0.5,0.4,0.6,8080,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+313,Elin Electronics Ltd.,0.5,0.3333,0.6667,3035,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+314,KFin Technologies Ltd.,0.5,0.4545,0.5455,11809,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+315,Abans Holdings Ltd.,0.5,0.5,0.5,9724,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+316,Landmark Cars Ltd.,0.5,0.5,0.5,12169,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+317,Sula Vineyards Ltd.,0.5,0.3333,0.6667,3680,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+318,Uniparts India Ltd.,0.5,0.3333,0.6667,11187,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+319,Dharmaj Crop Guard Ltd.,0.5,0.5,0.5,10700,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+320,Keystone Realtors Ltd.,0.5,0.5556,0.4444,11982,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+321,Inox Green Energy Services Ltd.,0.5,0.5,0.5,3495,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+322,Kaynes Technology India Ltd.,0.5,0.3333,0.6667,3546,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+323,Archean Chemical Industries Ltd.,0.5,0.5,0.5,11965,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+324,Five-Star Business Finance Ltd.,0.5,0.3333,0.6667,2838,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+325,Global Health Ltd.,0.5,0.3333,0.6667,3174,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+326,Bikaji Foods International Ltd.,0.5,0.3333,0.6667,3619,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+327,Fusion Micro Finance Ltd.,0.5,0.375,0.625,10755,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+328,DCX Systems Ltd.,0.5,0.3333,0.6667,3353,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+329,Tracxn Technologies Ltd.,0.5,0.3333,0.6667,3167,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+330,Electronics Mart India Ltd.,0.5,0.3333,0.6667,2947,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+331,Harsha Engineers International Ltd.,0.5,0.5,0.5,10835,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+332,Tamilnad Mercantile Bank Ltd.,0.5,0.3333,0.6667,2654,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+333,Dreamfolks Services Ltd.,0.5,0.5,0.5,10807,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+334,Syrma SGS Technology Ltd.,0.5,0.3333,0.6667,3287,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2020-03-31,2020-03-31,verified
+335,Aether Industries Ltd.,0.5,0.3333,0.6667,3795,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+336,eMudhra Ltd.,0.5,0.5,0.5,3162,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+337,Ethos Ltd.,0.5,0.4286,0.5714,10934,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+338,Paradeep Phosphates Ltd.,0.5,0.3333,0.6667,3216,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+339,Delhivery Ltd.,0.5,0.3333,0.6667,3661,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+340,Venus Pipes & Tubes Ltd.,0.5,0.5714,0.4286,10023,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+341,Prudent Corporate Advisory Services Ltd.,0.5,0.3333,0.6667,3423,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+342,Life Insurance Corp.of India,0.5,0.3333,0.6667,3272,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-12-31,2021-12-31,verified
+343,Rainbow Children's Medicare Ltd.,0.5,0.3333,0.6667,3184,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+344,Campus Activewear Ltd.,0.5,0.5,0.5,3257,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+345,Hariom Pipe Industries Ltd.,0.5,0.5,0.5,9221,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+346,Veranda Learning Solutions Ltd.,0.5,0.3333,0.6667,2648,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+347,Ruchi Soya Industries Ltd.,0.5,0.4,0.6,9839,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+348,Uma Exports Ltd.,0.5,0.3333,0.6667,2290,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+349,Vedant Fashions Ltd.,0.5,0.375,0.625,10951,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+350,Adani Wilmar Ltd.,0.5,0.4286,0.5714,9956,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+351,AGS Transact Technologies Ltd.,0.5,0.375,0.625,9112,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+352,Innova Captab Ltd.,0.5,0.3333,0.6667,3416,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+353,Azad Engineering Ltd.,0.5,0.3333,0.6667,3620,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+354,RBZ Jewellers Ltd.,0.5,0.5,0.5,2799,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+355,Credo Brands Marketing Ltd.,0.5,0.3333,0.6667,3776,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+356,Happy Forgings Ltd.,0.5,0.3333,0.6667,3615,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+357,Muthoot Microfin Ltd.,0.5,0.3333,0.6667,3496,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+358,Motisons Jewellers Ltd.,0.5,0.5,0.5,9963,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+359,Suraj Estate Developers Ltd.,0.5,0.5,0.5,10603,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+360,Inox India Ltd.,0.5,0.5,0.5,3632,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+361,India Shelter Finance Corp.Ltd.,0.5,0.3333,0.6667,3401,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+362,DOMS Industries Ltd.,0.5,0.6,0.4,3851,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+363,Flair Writing Industries Ltd.,0.5,0.3333,0.6667,3565,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+364,Tata Technologies Ltd.,0.5,0.5,0.5,2899,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+365,Gandhar Oil Refinery (India) Ltd.,0.5,0.3333,0.6667,4006,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+366,Fedbank Financial Services Ltd.,0.5,0.3333,0.6667,3803,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+367,Indian Renewable Energy Development Agency Ltd.,0.5,0.3333,0.6667,3768,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+368,ASK Automotive Ltd.,0.5,0.3333,0.6667,3544,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+369,Protean eGov Technologies Ltd.,0.5,0.3333,0.6667,4196,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+370,ESAF Small Finance Bank Ltd.,0.5,0.3333,0.6667,3659,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+371,Honasa Consumer Ltd.,0.5,0.3333,0.6667,3397,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+372,Cello World Ltd.,0.5,0.3333,0.6667,3746,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+373,Blue Jet Healthcare Ltd.,0.5,0.3333,0.6667,3363,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+374,IRM Energy Ltd.,0.5,0.3333,0.6667,3046,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+375,Plaza Wires Ltd.,0.5,0.5,0.5,3123,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+376,Valiant Laboratories Ltd.,0.5,0.5,0.5,2898,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+377,Updater Services Ltd.,0.5,0.3333,0.6667,3446,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+378,JSW Infrastructure Ltd.,0.5,0.3333,0.6667,3336,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+379,Manoj Vaibhav Gems 'N' Jewellers Ltd.,0.5,0.4286,0.5714,8977,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+380,Yatra Online Ltd.,0.5,0.3333,0.6667,3023,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+381,Sai Silks (Kalamandir) Ltd.,0.5,0.3333,0.6667,3321,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+382,Signatureglobal (India) Ltd.,0.5,0.3333,0.6667,3532,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+383,SAMHI Hotels Ltd.,0.5,0.3333,0.6667,3311,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+384,Zaggle Prepaid Ocean Services Ltd.,0.5,0.3333,0.6667,3996,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+385,EMS Ltd.,0.5,0.5,0.5,10264,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+386,R R Kabel Ltd.,0.5,0.3333,0.6667,3183,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+387,Jupiter Life Line Hospitals Ltd.,0.5,0.3333,0.6667,2942,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+388,Ratnaveer Precision Engineering Ltd.,0.5,0.5,0.5,3338,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+389,Rishabh Instruments Ltd.,0.5,0.3333,0.6667,3424,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+390,Vishnu Prakash R.Punglia Ltd.,0.5,0.3333,0.6667,3484,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+391,Aeroflex Industries Ltd.,0.5,0.3333,0.6667,3120,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+392,Pyramid Technoplast Ltd.,0.5,0.5,0.5,10611,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+393,TVS Supply Chain Solutions Ltd.,0.5,0.3333,0.6667,3428,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+394,Concord Biotech Ltd.,0.5,0.3333,0.6667,2941,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+395,SBFC Finance Ltd.,0.5,0.3333,0.6667,3403,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+396,Yatharth Hospital & Trauma Care Services Ltd.,0.5,0.5,0.5,11602,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+397,Netweb Technologies India Ltd.,0.5,0.3333,0.6667,3834,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+398,Utkarsh Small Finance Bank Ltd.,0.5,0.3333,0.6667,2748,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+399,Senco Gold Ltd.,0.5,0.3333,0.6667,3899,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+400,Cyient DLM Ltd.,0.5,0.3333,0.6667,3213,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+401,ideaForge Technology Ltd.,0.5,0.5,0.5,11915,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+402,HMA Agro Industries Ltd.,0.5,0.4286,0.5714,10835,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+403,IKIO Lighting Ltd.,0.5,0.5714,0.4286,11262,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+404,Mankind Pharma Ltd.,0.5,0.3333,0.6667,3211,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+405,Avalon Technologies Ltd.,0.5,0.3333,0.6667,3241,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2021-03-31,2021-03-31,verified
+406,Global Surfaces Ltd.,0.5,0.4,0.6,9264,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+407,Divgi TorqTransfer Systems Ltd.,0.5,0.3333,0.6667,3464,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+408,Sah Polymers Ltd.,0.5,0.3333,0.6667,2492,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+409,Radiant Cash Management Services Ltd.,0.5,0.3333,0.6667,3683,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2022-03-31,2022-03-31,verified
+410,Unimech Aerospace & Manufacturing Ltd.,0.5,0.3333,0.6667,3727,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+411,Ventive Hospitality Ltd.,0.5,0.3333,0.6667,3578,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+412,Carraro India Ltd.,0.5,0.3333,0.6667,3432,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+413,Senores Pharmaceuticals Ltd.,0.5,0.3333,0.6667,3559,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+414,Transrail Lighting Ltd.,0.5,0.3333,0.6667,3638,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+415,Concord Enviro Systems Ltd.,0.5,0.3333,0.6667,4177,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+416,Sanathan Textiles Ltd.,0.5,0.3333,0.6667,3979,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+417,DAM Capital Advisors Ltd.,0.5,0.5,0.5,12249,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+418,Mamata Machinery Ltd.,0.5,0.25,0.75,3601,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+419,International Gemmological Institute (India) Ltd.,0.5,0.3333,0.6667,3202,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-12-31,2023-12-31,verified
+420,Inventurus Knowledge Solutions Ltd.,0.5,0.3333,0.6667,4525,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+421,Vishal Mega Mart Ltd.,0.5,0.3333,0.6667,3542,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+422,Sai Life Sciences Ltd.,0.5,0.4444,0.5556,13769,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+423,One Mobikwik Systems Ltd.,0.5,0.3333,0.6667,2926,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+424,Suraksha Diagnostic Ltd.,0.5,0.4286,0.5714,11019,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+425,Enviro Infra Engineers Ltd.,0.5,0.3333,0.6667,3403,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+426,NTPC Green Energy Ltd.,0.5,0.3333,0.6667,3500,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+427,Zinka Logistics Solutions Ltd.,0.5,0.6667,0.3333,4310,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+428,Niva Bupa Health Insurance Co.Ltd.,0.5,0.3333,0.6667,4522,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+429,Swiggy Ltd.,0.5,0.3333,0.6667,3352,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+430,ACME Solar Holdings Ltd.,0.5,0.3333,0.6667,3414,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+431,Sagility India Ltd.,0.5,0.4286,0.5714,11037,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+432,Afcons Infrastructure Ltd.,0.5,0.3333,0.6667,3916,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+433,Godavari Biorefineries Ltd.,0.5,0.3333,0.6667,3550,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+434,Waaree Energies Ltd.,0.5,0.3333,0.6667,3836,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+435,Deepak Builders & Engineers India Ltd.,0.5,0.3333,0.6667,2930,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+436,Hyundai Motor India Ltd.,0.5,0.3333,0.6667,3530,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+437,Garuda Construction & Engineering Ltd.,0.5,0.25,0.75,4357,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+438,Diffusion Engineers Ltd.,0.5,0.5,0.5,3019,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+439,KRN Heat Exchanger & Refrigeration Ltd.,0.5,0.5,0.5,10274,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+440,Manba Finance Ltd.,0.5,0.3333,0.6667,3699,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+441,Western Carriers (India) Ltd.,0.5,0.3333,0.6667,3168,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+442,Arkade Developers Ltd.,0.5,0.3333,0.6667,3281,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+443,Northern Arc Capital Ltd.,,,,0,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,unavailable
+444,P N Gadgil Jewellers Ltd.,0.5,0.3333,0.6667,3408,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+445,Bajaj Housing Finance Ltd.,0.5,0.3333,0.6667,3980,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+446,Kross Ltd.,0.5,0.3333,0.6667,3274,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+447,Tolins Tyres Ltd.,0.5,0.3333,0.6667,3396,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+448,Shree Tirupati Balajee Agro Trading Co.Ltd.,0.5,0.3333,0.6667,3184,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+449,Gala Precision Engineering Ltd.,0.5,0.3333,0.6667,3654,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+450,Baazar Style Retail Ltd.,0.5,0.3333,0.6667,3501,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-31,2024-03-31,verified
+451,ECOS (India) Mobility & Hospitality Ltd.,0.5,0.3333,0.6667,3296,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+452,Premier Energies Ltd.,0.5,0.5,0.5,3632,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2024-03-21,2024-03-21,verified
+453,Orient Technologies Ltd.,0.5,0.3333,0.6667,3448,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+454,Interarch Building Products Ltd.,0.5,0.3333,0.6667,4045,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+455,Saraswati Saree Depot Ltd.,0.5,0.5,0.5,3292,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+456,Unicommerce eSolutions Ltd.,0.5,0.3333,0.6667,3002,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+457,Brainbees Solutions Ltd.,0.5,0.5,0.5,3838,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+458,Ola Electric Mobility Ltd.,0.5,0.5455,0.4545,13027,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+459,Ceigall India Ltd.,0.5,0.3333,0.6667,3737,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+460,Akums Drugs & Pharmaceuticals Ltd.,0.5,0.3333,0.6667,3597,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+461,Sanstar Ltd.,0.5,0.3333,0.6667,3750,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+462,Emcure Pharmaceuticals Ltd.,0.5,0.3333,0.6667,3645,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+463,Bansal Wire Industries Ltd.,0.5,0.3333,0.6667,2586,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+464,Vraj Iron & Steel Ltd.,0.5,0.5,0.5,2930,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+465,Allied Blenders & Distillers Ltd.,0.5,0.3333,0.6667,3246,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+466,Stanley Lifestyles Ltd.,0.5,0.3333,0.6667,3646,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+467,DEE Development Engineers Ltd.,0.5,0.3333,0.6667,3573,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+468,Akme Fintrade (India) Ltd.,0.5,0.5,0.5,2972,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+469,Le Travenues Technology Ltd.,0.5,0.3333,0.6667,3718,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+470,Kronox Lab Sciences Ltd.,0.5,0.4444,0.5556,10785,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+471,Awfis Space Solutions Ltd.,0.5,0.5,0.5,3583,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+472,Go Digit General Insurance Ltd.,0.5,0.5,0.5,4233,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+473,TBO Tek Ltd.,0.5,0.5,0.5,3763,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+474,Aadhar Housing Finance Ltd.,0.5,0.5,0.5,3162,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+475,Indegene Ltd.,0.5,0.3333,0.6667,4085,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+476,JNK India Ltd.,0.5,0.3333,0.6667,3059,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+477,Vodafone Idea Ltd.,0.5,0.3333,0.6667,2997,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+478,Bharti Hexacom Ltd.,0.5,0.5,0.5,2828,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+479,SRM Contractors Ltd.,0.5,0.3333,0.6667,2862,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+480,Krystal Integrated Services Ltd.,0.5,0.4444,0.5556,11772,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+481,Popular Vehicles & Services Ltd.,0.5,0.5,0.5,3509,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+482,Gopal Snacks Ltd.,0.5,0.3333,0.6667,3117,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+483,J.G.Chemicals Ltd.,0.5,0.4286,0.5714,11123,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+484,R K SWAMY Ltd.,0.5,0.3333,0.6667,3696,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+485,Mukka Proteins Ltd.,0.5,0.3333,0.6667,3150,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+486,Platinum Industries Ltd.,0.5,0.3333,0.6667,3084,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+487,Exicom Tele-Systems Ltd.,0.5,0.5,0.5,3824,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+488,GPT Healthcare Ltd.,0.5,0.5,0.5,3388,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+489,Juniper Hotels Ltd.,0.5,0.5,0.5,3365,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+490,Vibhor Steel Tubes Ltd.,0.5,0.6,0.4,9397,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+491,Entero Healthcare Solutions Ltd.,0.5,0.3333,0.6667,4117,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+492,Rashi Peripherals Ltd.,0.5,0.3333,0.6667,3007,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+493,Jana Small Finance Bank Ltd.,0.5,0.5,0.5,3640,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+494,Capital Small Finance Bank Ltd.,0.5,0.3333,0.6667,3003,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+495,Apeejay Surrendra Park Hotels Ltd.,0.5,0.5,0.5,3894,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+496,BLS E-Services Ltd.,0.5,0.3333,0.6667,3300,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+497,Nova AgriTech Ltd.,0.5,0.5,0.5,10301,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+498,EPACK Durable Ltd.,0.5,0.5,0.5,3947,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+499,Medi Assist Healthcare Services Ltd.,0.5,0.3333,0.6667,4174,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
+500,Jyoti CNC Automation Ltd.,0.5,0.5556,0.4444,11162,rhp_pdf_parser,RHP-FinBERT-V1,v1.0,2023-03-31,2023-03-31,verified
