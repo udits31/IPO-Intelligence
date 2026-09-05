@@ -1,0 +1,4 @@
+# Isolated source-document extraction only. Not the predictor runtime.
+rapidocr==3.10.0
+onnxruntime==1.31.0
+pymupdf==2.0
