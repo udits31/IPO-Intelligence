@@ -1,0 +1,133 @@
+{
+  "sample_size": 5,
+  "selection": "First five sorted 2021-2023 development IPO IDs; outcome-independent",
+  "source_page": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+  "live_model_changed": false,
+  "synthetic_rows": 0,
+  "records": [
+    {
+      "ipo_id": 247,
+      "symbol": "CMSINFO",
+      "decision_date": "2022-02-14",
+      "raw_path": "data/archive/module2_pit_pilot/247_20220214.json.gz",
+      "metadata_path": "data/archive/module2_pit_pilot/247_20220214.json.meta.json",
+      "raw_sha256": "b0bf3d9440242fe3872f708892590ea49b065ddb0c4b40b8786595986432a8b1",
+      "response_rows": 5,
+      "statuses": {
+        "not_explicit_open_market_buy_or_sell": 5
+      },
+      "transactions": [
+        {
+          "exchange_record_id": "410550",
+          "status": "not_explicit_open_market_buy_or_sell",
+          "person_category": "Key Managerial Personnel",
+          "mode": "Others",
+          "transaction_type": "Buy",
+          "publication_time": "06-Jan-2022 21:16",
+          "transaction_end": "31-Dec-2021"
+        },
+        {
+          "exchange_record_id": "410551",
+          "status": "not_explicit_open_market_buy_or_sell",
+          "person_category": "Immediate relative",
+          "mode": "Others",
+          "transaction_type": "Buy",
+          "publication_time": "06-Jan-2022 21:16",
+          "transaction_end": "31-Dec-2021"
+        },
+        {
+          "exchange_record_id": "410554",
+          "status": "not_explicit_open_market_buy_or_sell",
+          "person_category": "Immediate relative",
+          "mode": "Others",
+          "transaction_type": "Buy",
+          "publication_time": "06-Jan-2022 21:16",
+          "transaction_end": "31-Dec-2021"
+        },
+        {
+          "exchange_record_id": "410553",
+          "status": "not_explicit_open_market_buy_or_sell",
+          "person_category": "Immediate relative",
+          "mode": "Others",
+          "transaction_type": "Buy",
+          "publication_time": "06-Jan-2022 21:16",
+          "transaction_end": "31-Dec-2021"
+        },
+        {
+          "exchange_record_id": "410552",
+          "status": "not_explicit_open_market_buy_or_sell",
+          "person_category": "Immediate relative",
+          "mode": "Others",
+          "transaction_type": "Buy",
+          "publication_time": "06-Jan-2022 21:16",
+          "transaction_end": "31-Dec-2021"
+        }
+      ]
+    },
+    {
+      "ipo_id": 248,
+      "symbol": "SUPRIYA",
+      "decision_date": "2022-02-09",
+      "raw_path": "data/archive/module2_pit_pilot/248_20220209.json.gz",
+      "metadata_path": "data/archive/module2_pit_pilot/248_20220209.json.meta.json",
+      "raw_sha256": "4a9c86d3493e06f2d6a05cbc88290c94aa423e9ae17c825dae2868c4ee60aeae",
+      "response_rows": 0,
+      "statuses": {},
+      "transactions": []
+    },
+    {
+      "ipo_id": 249,
+      "symbol": "HPAL",
+      "decision_date": "2022-02-08",
+      "raw_path": "data/archive/module2_pit_pilot/249_20220208.json.gz",
+      "metadata_path": "data/archive/module2_pit_pilot/249_20220208.json.meta.json",
+      "raw_sha256": "4a9c86d3493e06f2d6a05cbc88290c94aa423e9ae17c825dae2868c4ee60aeae",
+      "response_rows": 0,
+      "statuses": {},
+      "transactions": []
+    },
+    {
+      "ipo_id": 250,
+      "symbol": "DATAPATTNS",
+      "decision_date": "2022-02-07",
+      "raw_path": "data/archive/module2_pit_pilot/250_20220207.json.gz",
+      "metadata_path": "data/archive/module2_pit_pilot/250_20220207.json.meta.json",
+      "raw_sha256": "4a9c86d3493e06f2d6a05cbc88290c94aa423e9ae17c825dae2868c4ee60aeae",
+      "response_rows": 0,
+      "statuses": {},
+      "transactions": []
+    },
+    {
+      "ipo_id": 251,
+      "symbol": "MEDPLUS",
+      "decision_date": "2022-02-04",
+      "raw_path": "data/archive/module2_pit_pilot/251_20220204.json.gz",
+      "metadata_path": "data/archive/module2_pit_pilot/251_20220204.json.meta.json",
+      "raw_sha256": "fd1922bbb0bed4501b3f876d4d0b160448a7955199c331c203f26cef49d31266",
+      "response_rows": 1,
+      "statuses": {
+        "dated_open_market_transaction_role_unverified": 1
+      },
+      "transactions": [
+        {
+          "exchange_record_id": "408291",
+          "status": "dated_open_market_transaction_role_unverified",
+          "person_category": "-",
+          "mode": "Market Purchase",
+          "transaction_type": "Buy",
+          "publication_time": "24-Dec-2021 23:07",
+          "transaction_end": "23-Dec-2021",
+          "quantity": 5000.0,
+          "transaction_age_calendar_days": 43,
+          "promoter_explicit": null
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "A returned PIT table is not complete anchor-sale coverage or an anchor-allocation identity register.",
+    "Insider transactions, block deals and anchor ownership are distinct evidence channels.",
+    "Historical exchange dates are retrospective labels, not original local deployment captures.",
+    "Five-case pilot: no accuracy or full-cohort coverage claim."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "created_at_utc": "2026-10-25T20:27:48.014247+00:00",
+  "policy": "prove-it-structural-20261026-v1",
+  "cohort_n": 132,
+  "original_monitor": {
+    "n": 132,
+    "correct": 62,
+    "accuracy_pct": 46.96969696969697,
+    "balanced_accuracy_pct": 51.68831168831169,
+    "hold_recall_pct": 80.0,
+    "sell_recall_pct": 23.376623376623375,
+    "always_hold_accuracy_pct": 41.66666666666667,
+    "always_sell_accuracy_pct": 58.333333333333336,
+    "sell_calls": 29,
+    "next_day_accuracy_pct": 49.24242424242424,
+    "conditional_strategy_net_mean_pct": -0.5099840661234419
+  },
+  "always_sell": {
+    "n": 132,
+    "correct": 77,
+    "accuracy_pct": 58.333333333333336,
+    "balanced_accuracy_pct": 50.0,
+    "hold_recall_pct": 0.0,
+    "sell_recall_pct": 100.0,
+    "always_hold_accuracy_pct": 41.66666666666667,
+    "always_sell_accuracy_pct": 58.333333333333336,
+    "sell_calls": 132,
+    "next_day_accuracy_pct": 48.484848484848484,
+    "conditional_strategy_net_mean_pct": -0.3
+  },
+  "consistent_exit_cost_net_mean_pct": {
+    "new_prove_it": -0.5349121003225137,
+    "old_monitor": -0.7440749752143511,
+    "always_sell": -0.3
+  },
+  "enriched_v1_correct": 63,
+  "new_prove_it": {
+    "n": 132,
+    "correct": 70,
+    "accuracy_pct": 53.03030303030303,
+    "balanced_accuracy_pct": 48.83116883116883,
+    "hold_recall_pct": 23.636363636363637,
+    "sell_recall_pct": 74.02597402597402,
+    "always_hold_accuracy_pct": 41.66666666666667,
+    "always_sell_accuracy_pct": 58.333333333333336,
+    "sell_calls": 99,
+    "next_day_accuracy_pct": 49.24242424242424,
+    "conditional_strategy_net_mean_pct": -0.45991210032251356
+  },
+  "strict_clock_sensitivity": {
+    "n": 132,
+    "correct": 77,
+    "accuracy_pct": 58.333333333333336,
+    "balanced_accuracy_pct": 50.0,
+    "hold_recall_pct": 0.0,
+    "sell_recall_pct": 100.0,
+    "always_hold_accuracy_pct": 41.66666666666667,
+    "always_sell_accuracy_pct": 58.333333333333336,
+    "sell_calls": 132,
+    "next_day_accuracy_pct": 48.484848484848484,
+    "conditional_strategy_net_mean_pct": -0.3
+  },
+  "paired_change": {
+    "accuracy_change_pp": 3.0303030303030303,
+    "bootstrap_95_pp": [
+      -6.8181818181818175,
+      12.878787878787879
+    ],
+    "corrected_errors": 23,
+    "introduced_errors": 19
+  },
+  "preflight": {
+    "day1_low": 132,
+    "sma_20": 132,
+    "rs_vs_nifty_20d": 132,
+    "delivery_accumulation_ratio": 131,
+    "filing_sentiment_score": 132,
+    "unabsorbed_unlock_window": 127,
+    "atr_14_pct": 131
+  },
+  "gate_failures": {
+    "issue_and_listing_floor": 73,
+    "trend": 74,
+    "relative_strength": 64,
+    "drawdown": 52,
+    "filings_and_flow": 48
+  },
+  "missing_gates": {
+    "issue_and_listing_floor": 0,
+    "trend": 0,
+    "relative_strength": 0,
+    "drawdown": 0,
+    "filings_and_flow": 5
+  },
+  "day1_0945_rule": {
+    "implemented": true,
+    "historically_tested": false,
+    "status": "Input-guarded first 15 continuous minutes implemented. A 09:45 IPO first-15-minute rule is invalid during special pre-open; normally the continuous session starts at 10:00, so the earliest such completed window is 10:15. Verified intraday bars are unavailable for this replay.",
+    "source": "https://www.nseindia.com/static/products-services/equity-market-special-pre-open-session"
+  },
+  "protocol": "Unchanged 31st observed-close features and 31->61 direction label; next observed close entry and 30-session execution outcome; 0.30% exit cost.",
+  "availability": "Filings use exact broadcasts <= decision close. Delivery OHLC/volume uses trading date strictly before decision date with next-morning availability assumption. Static allotment calendar is an explicit archived-calendar assumption.",
+  "live_promoted": false,
+  "limitations": [
+    "Rules were proposed after inspecting the later cohort, so this is exploratory retrospective evidence.",
+    "An archived EOD date is not an as-published vintage guarantee; strict-clock sensitivity is reported separately.",
+    "Missing required survival evidence causes defensive review/reduce, not proof the stock will fall.",
+    "No verified intraday data means no simulated 09:45 fills.",
+    "Individual conditional strategy returns are not a capital-weighted investor portfolio."
+  ],
+  "beats_always_sell_accuracy": false,
+  "beats_always_sell_net_return": false
+}

@@ -1,0 +1,333 @@
+{
+  "protocol": "Train 2021-23, select feature group and regularization by 2024 Brier, refit 2021-24, test 2025-26 once",
+  "checkpoint": "31st observed close; only prior 31 sessions used as features",
+  "target": "stock close above checkpoint close 30 trading sessions later",
+  "data_source": "Yahoo Finance raw historical OHLCV, retrospective download",
+  "input_sha256": {
+    "data\\audit\\module2_development_ohlcv_2021_2024.csv": "b8a30138abe43c07b80eee1b4ca8e015b0025fe87ff6037681a06966e789a2c3",
+    "data\\audit\\module2_holdout_ohlcv_2025_2026.csv": "818471f82d3cdfaa4869233d0cb7fc32ff3319d5213699df44126e199b25b2b5",
+    "data\\canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "data\\subscription_observations.csv": "fab209435ee157b3cacc753b0d2d81b39e6c287f7b1eec6ef50d7d7a74e27fcd"
+  },
+  "cohort_rejections": {
+    "first-day close conflict": 27,
+    "insufficient outcome history": 72
+  },
+  "missing_feature_cases_excluded": 5,
+  "training_n": 136,
+  "validation_n": 58,
+  "development_n": 194,
+  "later_n": 125,
+  "candidates": [
+    {
+      "feature_set": "price",
+      "C": 0.01,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 60.34,
+        "balanced_accuracy_pct": 60.34,
+        "brier": 0.2482,
+        "tn_fp_fn_tp": [
+          25,
+          4,
+          19,
+          10
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "price",
+      "C": 0.1,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 58.62,
+        "balanced_accuracy_pct": 58.62,
+        "brier": 0.2476,
+        "tn_fp_fn_tp": [
+          22,
+          7,
+          17,
+          12
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "price",
+      "C": 1.0,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 60.34,
+        "balanced_accuracy_pct": 60.34,
+        "brier": 0.2419,
+        "tn_fp_fn_tp": [
+          22,
+          7,
+          16,
+          13
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "price_volume_range",
+      "C": 0.01,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 55.17,
+        "balanced_accuracy_pct": 55.17,
+        "brier": 0.2485,
+        "tn_fp_fn_tp": [
+          22,
+          7,
+          19,
+          10
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "price_volume_range",
+      "C": 0.1,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 63.79,
+        "balanced_accuracy_pct": 63.79,
+        "brier": 0.2493,
+        "tn_fp_fn_tp": [
+          24,
+          5,
+          16,
+          13
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "price_volume_range",
+      "C": 1.0,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 58.62,
+        "balanced_accuracy_pct": 58.62,
+        "brier": 0.2458,
+        "tn_fp_fn_tp": [
+          21,
+          8,
+          16,
+          13
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "price_ipo_context",
+      "C": 0.01,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 58.62,
+        "balanced_accuracy_pct": 58.62,
+        "brier": 0.2473,
+        "tn_fp_fn_tp": [
+          25,
+          4,
+          20,
+          9
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "price_ipo_context",
+      "C": 0.1,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 60.34,
+        "balanced_accuracy_pct": 60.34,
+        "brier": 0.2452,
+        "tn_fp_fn_tp": [
+          24,
+          5,
+          18,
+          11
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "price_ipo_context",
+      "C": 1.0,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 60.34,
+        "balanced_accuracy_pct": 60.34,
+        "brier": 0.2348,
+        "tn_fp_fn_tp": [
+          25,
+          4,
+          19,
+          10
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "all_observed",
+      "C": 0.01,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 56.9,
+        "balanced_accuracy_pct": 56.9,
+        "brier": 0.2481,
+        "tn_fp_fn_tp": [
+          24,
+          5,
+          20,
+          9
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "all_observed",
+      "C": 0.1,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 60.34,
+        "balanced_accuracy_pct": 60.34,
+        "brier": 0.2492,
+        "tn_fp_fn_tp": [
+          22,
+          7,
+          16,
+          13
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "feature_set": "all_observed",
+      "C": 1.0,
+      "validation": {
+        "n": 58,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 62.07,
+        "balanced_accuracy_pct": 62.07,
+        "brier": 0.2441,
+        "tn_fp_fn_tp": [
+          23,
+          6,
+          16,
+          13
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    }
+  ],
+  "selected": {
+    "feature_set": "price_ipo_context",
+    "C": 1.0
+  },
+  "later": {
+    "n": 125,
+    "up_rate_pct": 40.0,
+    "accuracy_pct": 53.6,
+    "balanced_accuracy_pct": 53.33,
+    "brier": 0.2693,
+    "tn_fp_fn_tp": [
+      41,
+      34,
+      24,
+      26
+    ],
+    "always_sell_pct": 60.0,
+    "always_hold_pct": 40.0
+  },
+  "by_year": {
+    "2025": {
+      "n": 98,
+      "up_rate_pct": 31.63,
+      "accuracy_pct": 51.02,
+      "balanced_accuracy_pct": 48.58,
+      "brier": 0.2791,
+      "tn_fp_fn_tp": [
+        37,
+        30,
+        18,
+        13
+      ],
+      "always_sell_pct": 68.37,
+      "always_hold_pct": 31.63
+    },
+    "2026": {
+      "n": 27,
+      "up_rate_pct": 70.37,
+      "accuracy_pct": 62.96,
+      "balanced_accuracy_pct": 59.21,
+      "brier": 0.2339,
+      "tn_fp_fn_tp": [
+        4,
+        4,
+        6,
+        13
+      ],
+      "always_sell_pct": 29.63,
+      "always_hold_pct": 70.37
+    }
+  },
+  "feature_missing_counts_development": {
+    "stock_5": 0,
+    "stock_10": 0,
+    "stock_30": 0,
+    "sector_10": 0,
+    "sector_30": 0,
+    "nifty_10": 0,
+    "nifty_30": 0,
+    "relative_10": 0,
+    "relative_30": 0,
+    "drawdown_30": 0,
+    "volatility_20": 0,
+    "volume_ratio_5_20": 0,
+    "turnover_ratio_5_20": 0,
+    "close_location_5": 0,
+    "close_location_20": 0,
+    "intraday_range_5": 0,
+    "overnight_gap_5": 0,
+    "listing_open_premium_pct": 0,
+    "issue_size_log_cr": 0,
+    "qib_log": 0,
+    "retail_log": 0,
+    "hni_log": 0
+  },
+  "limitations": [
+    "Retrospective secondary-market prices, not exchange-verified nor prospective decisions",
+    "Any IPO with a missing candidate feature is excluded; no values are imputed",
+    "No historically as-published news or filings",
+    "Later-year cohort has been used in prior exploratory tests; it is no longer a fully blind holdout",
+    "No deployed policy changes from this research script"
+  ]
+}

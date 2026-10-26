@@ -1,0 +1,26 @@
+{
+  "cases": 254,
+  "statuses": {
+    "native_text_not_validated": 168,
+    "native_source_crosschecked_pending_visual_review": 8,
+    "no_matching_source_attachment": 74,
+    "source_unavailable": 4
+  },
+  "features_accepted_for_training": 0,
+  "synthetic_training_rows": 0,
+  "live_model_changed": false,
+  "input_sha256": {
+    "data/audit/module2_original_financial_pdfs_20261022.jsonl": "a008734d9a754ed80c6361800b5a32c546f749ed18c0b855a03757b0de1cc371",
+    "data/audit/module2_dated_financial_evidence_quarter_verified_20261022.jsonl": "8c4837eef7bce2cb661d15b0b1ef1f2e9d9023cde7991054ad032fc4cc0dfd6d",
+    "ml/financial_pdf_native.py": "5b143fc6a83456de32e7eaa71b6765d5f4d6f065e329bc399ab574cde7359172",
+    "ml/extract_module2_native_financials.py": "f0fc39c30f41b3f0f770233d422cbdacaab77861e486e6cec963e12716b8e80b",
+    "ml/financial_comparative_table.py": "72d092cf3d4177e91370512cabb9b3e0e5928719d1621d257fdd4cd4914be330",
+    "ml/financial_pdf_pages.py": "8ecd0e32e07722a469817c31a4e1119cbf2e29b7274db308853bf6eda15d1c37"
+  },
+  "output_sha256": "f8b94b87744b5438d98a72cd36688a587e5ca7e496d193c94c95bff4f9ee9d38",
+  "limitations": [
+    "Native text is not an OCR score and may contain faulty font maps.",
+    "Every candidate must be replayed from the original PDF and visually reviewed before becoming an input.",
+    "Unsupported layouts remain missing and do not remove IPOs from performance tests."
+  ]
+}

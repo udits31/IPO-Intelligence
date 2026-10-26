@@ -1,0 +1,9 @@
+{
+  "source_page": "https://www.nseindia.com/all-reports",
+  "dates_requested": 440,
+  "verified_archive_dates": 440,
+  "official_stock_close_rows": 33732,
+  "unique_symbols": 175,
+  "failed_archives": [],
+  "limitations": "Official unadjusted closes, not intraday execution prices; corporate actions and non-trading stock days require separate reconciliation."
+}

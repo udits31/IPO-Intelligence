@@ -1,0 +1,179 @@
+{
+  "protocol": "NSE price/delivery; fixed logistic C=.01; rolling prior window and shrink selected on 2024 Brier; exploratory 2025-26 chronological as-of replay",
+  "input_sha256": {
+    "data\\audit\\module2_development_prices_2021_2024_nse_first62.csv": "50fe2da43a989ee0b106fb2397d70b7c1762d3a3ce5b5927a0eca79614b377b4",
+    "data\\audit\\module2_holdout_prices_2025_2026_nse_full.csv": "b1ca3a0966b6c16b79e01ab2a29e388fc541c16b3047629bc98456d349ca5d1c",
+    "data\\audit\\module2_nse_delivery_development_full_window.csv": "59865e85193a41c734ff38b3674485e0da3dcf973e56c9f92306454fa16eb7b4",
+    "data\\audit\\module2_nse_delivery_holdout.csv": "3716a7c7c90c3aac4442786a1ef834482be8a8d37e3670325e6e58d8d2adc5a3"
+  },
+  "coverage": {
+    "price_cases": 310,
+    "no_delivery_ipo": 0,
+    "incomplete_31_session_alignment": 25,
+    "no_prior_delivery": 0,
+    "aligned_cases": 285,
+    "all_delivery_sessions_before_decision": true,
+    "aligned_by_year": {
+      "2021": 54,
+      "2022": 31,
+      "2023": 48,
+      "2024": 46,
+      "2025": 83,
+      "2026": 23
+    }
+  },
+  "training_n": 133,
+  "validation_n": 46,
+  "later_n": 106,
+  "candidates": [
+    {
+      "window": 20,
+      "shrink": 10,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 51.89,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2479,
+        "auc": 0.5379,
+        "predicted_up_pct": 43.48
+      },
+      "validation_prior_count_median": 20.0
+    },
+    {
+      "window": 20,
+      "shrink": 30,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 54.35,
+        "balanced_accuracy_pct": 54.55,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.248,
+        "auc": 0.5473,
+        "predicted_up_pct": 54.35
+      },
+      "validation_prior_count_median": 20.0
+    },
+    {
+      "window": 50,
+      "shrink": 10,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 50.0,
+        "balanced_accuracy_pct": 50.95,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2501,
+        "auc": 0.6023,
+        "predicted_up_pct": 71.74
+      },
+      "validation_prior_count_median": 50.0
+    },
+    {
+      "window": 50,
+      "shrink": 30,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 50.0,
+        "balanced_accuracy_pct": 50.95,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2493,
+        "auc": 0.6004,
+        "predicted_up_pct": 71.74
+      },
+      "validation_prior_count_median": 50.0
+    }
+  ],
+  "selected": {
+    "window": 20,
+    "shrink": 10
+  },
+  "later": {
+    "base": {
+      "n": 106,
+      "up_rate_pct": 41.51,
+      "accuracy_pct": 50.0,
+      "balanced_accuracy_pct": 52.31,
+      "always_sell_pct": 58.49,
+      "always_hold_pct": 41.51,
+      "brier": 0.251,
+      "auc": 0.5674,
+      "predicted_up_pct": 63.21
+    },
+    "online_prior": {
+      "n": 106,
+      "up_rate_pct": 41.51,
+      "accuracy_pct": 53.77,
+      "balanced_accuracy_pct": 51.58,
+      "always_sell_pct": 58.49,
+      "always_hold_pct": 41.51,
+      "brier": 0.251,
+      "auc": 0.5418,
+      "predicted_up_pct": 36.79
+    },
+    "by_year": {
+      "2025": {
+        "base": {
+          "n": 83,
+          "up_rate_pct": 33.73,
+          "accuracy_pct": 50.6,
+          "balanced_accuracy_pct": 53.96,
+          "always_sell_pct": 66.27,
+          "always_hold_pct": 33.73,
+          "brier": 0.2527,
+          "auc": 0.5584,
+          "predicted_up_pct": 59.04
+        },
+        "online_prior": {
+          "n": 83,
+          "up_rate_pct": 33.73,
+          "accuracy_pct": 57.83,
+          "balanced_accuracy_pct": 52.4,
+          "always_sell_pct": 66.27,
+          "always_hold_pct": 33.73,
+          "brier": 0.2433,
+          "auc": 0.5117,
+          "predicted_up_pct": 32.53
+        }
+      },
+      "2026": {
+        "base": {
+          "n": 23,
+          "up_rate_pct": 69.57,
+          "accuracy_pct": 47.83,
+          "balanced_accuracy_pct": 34.38,
+          "always_sell_pct": 30.43,
+          "always_hold_pct": 69.57,
+          "brier": 0.2448,
+          "auc": 0.5089,
+          "predicted_up_pct": 78.26
+        },
+        "online_prior": {
+          "n": 23,
+          "up_rate_pct": 69.57,
+          "accuracy_pct": 39.13,
+          "balanced_accuracy_pct": 36.16,
+          "always_sell_pct": 30.43,
+          "always_hold_pct": 69.57,
+          "brier": 0.2787,
+          "auc": 0.2232,
+          "predicted_up_pct": 52.17
+        }
+      }
+    }
+  },
+  "ledger": "output\\module2_online_prior_research_ledger.csv",
+  "limitations": [
+    "Earlier mature outcomes were reconstructed from exchange history; original as-published archive timestamps are not stored.",
+    "2025-26 labels had been inspected in previous project research; this is not a blind holdout.",
+    "Selected on only 46 validation IPOs; do not deploy without prospective verification.",
+    "Underlying deployed Module 2 rules and paper claims are unchanged."
+  ]
+}

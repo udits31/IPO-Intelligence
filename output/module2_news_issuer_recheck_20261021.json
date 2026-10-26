@@ -1,0 +1,433 @@
+{
+  "cases": 376,
+  "original_nonempty_cases": 91,
+  "verified_issuer_nonempty_cases": 81,
+  "original_articles": 235,
+  "verified_issuer_articles": 202,
+  "removed_headlines": [
+    {
+      "ipo_id": 296,
+      "company_name": "Nazara Technologies Ltd.",
+      "title": "Will Remain Aggressive In M&A: Nitish Mittersain, Nazara Tech",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 309,
+      "company_name": "Home First Finance Co.India Ltd.",
+      "title": "With new heart, young Charlotte boy goes home for first time",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 311,
+      "company_name": "Indian Railway Finance Corp.Ltd.",
+      "title": "Indian Railways To Be Supplied With Hitachi ABB Transformers As Part Of $23 Million Order",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 311,
+      "company_name": "Indian Railway Finance Corp.Ltd.",
+      "title": "Indian Railway To Raise Rs 50,000 Crore Through Mega Station Redevelopment Plan",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 311,
+      "company_name": "Indian Railway Finance Corp.Ltd.",
+      "title": "Indian Railways: Shramik Kalyan E-App To Ensure Fairness In Wage Payments To Over 3.8 Lakh Contract Workers",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 311,
+      "company_name": "Indian Railway Finance Corp.Ltd.",
+      "title": "Indian Railways Plans Privatisation Of 90 Stations, To Get Airport Level Security Infra",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 311,
+      "company_name": "Indian Railway Finance Corp.Ltd.",
+      "title": "Rail India conference to discuss strategies to modernise Indian railways",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 324,
+      "company_name": "Five-Star Business Finance Ltd.",
+      "title": "The new cars stripped of five-star safety ratings from today",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 324,
+      "company_name": "Five-Star Business Finance Ltd.",
+      "title": "Five-star safety Caleb Downs' father explains what kept Alabama on top",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 324,
+      "company_name": "Five-Star Business Finance Ltd.",
+      "title": "All the five-star hygiene rated takeaways, cafes and restaurants in Burnley",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 324,
+      "company_name": "Five-Star Business Finance Ltd.",
+      "title": "2024 Five-Star CB Ellis Robinson IV names Top 5",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 324,
+      "company_name": "Five-Star Business Finance Ltd.",
+      "title": "Michael Gove spotted in five-star hotel with TV producer Sam McAlister - only weeks after split from wife Sarah Vine",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 324,
+      "company_name": "Five-Star Business Finance Ltd.",
+      "title": "Five-Star Book Review for SJ. Turner's New Fantasy Novel - IMMORTAL TREASURES",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 337,
+      "company_name": "Ethos Ltd.",
+      "title": "New Parliament to feature artwork, reflect Indian ethos",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 337,
+      "company_name": "Ethos Ltd.",
+      "title": "CAF publishes new ethos guide: Trusted to Serve",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 337,
+      "company_name": "Ethos Ltd.",
+      "title": "SC's Observations Against Nupur Sharma Not In Sync With Judicial Ethos: Ex-Judges, Bureaucrats Say In A Statement",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 339,
+      "company_name": "Delhivery Ltd.",
+      "title": "Delhivery co-founder Mohit Tandon joins agri-tech startup Superplum as strategic advisor",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 360,
+      "company_name": "Inox India Ltd.",
+      "title": "Adani Total Gas, INOX India Tie Up To Boost Country's LNG Ecosystem",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 364,
+      "company_name": "Tata Technologies Ltd.",
+      "title": "11 Best TATA Stocks to Buy in 2024: TCS, IHCL, TATA Power to Tech",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 385,
+      "company_name": "EMS Ltd.",
+      "title": "Summit Fire & EMS crews recognized for saving the lives of a baby, a 19-year-old and a 74-year-old, among others",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 385,
+      "company_name": "EMS Ltd.",
+      "title": "Harpur’s Ferry hosts 11th annual EMS conference",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 385,
+      "company_name": "EMS Ltd.",
+      "title": "Police, Fire And EMS On The Scene After Crash On Highway 35",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 385,
+      "company_name": "EMS Ltd.",
+      "title": "Christian Hospital garners national EMS Award",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 385,
+      "company_name": "EMS Ltd.",
+      "title": "Exclusive | NYC suspends Bronx medics for getting drunk on duty at EMS station party",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 385,
+      "company_name": "EMS Ltd.",
+      "title": "Four Bronx EMS members suspended for drinking on job: FDNY sources",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 426,
+      "company_name": "NTPC Green Energy Ltd.",
+      "title": "India's NTPC to build $21bn green energy mega-plant with 20GW of renewables",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 426,
+      "company_name": "NTPC Green Energy Ltd.",
+      "title": "NTPC to develop 1,500 TPD green hydrogen hub in India",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 426,
+      "company_name": "NTPC Green Energy Ltd.",
+      "title": "PM To Lay Foundation Stone For NTPC’s Green Hydrogen Hub At Pudimadaka, Vizag: First Project Under National Green Hydrogen Mission",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 426,
+      "company_name": "NTPC Green Energy Ltd.",
+      "title": "PM Modi to lay foundation stone for NTPC's Rs 1.85 lakh cr Green Hydrogen Hub Project near Vizag",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 429,
+      "company_name": "Swiggy Ltd.",
+      "title": "\"Ultra-Processed Garbage\": Doctor Criticises Swiggy, Zomato Quick Meals",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 429,
+      "company_name": "Swiggy Ltd.",
+      "title": "Biryani holds strong, Pizza’s popularity dips; Zomato, Swiggy reports reveal India’s changing food preferences",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 429,
+      "company_name": "Swiggy Ltd.",
+      "title": "Swiggy Instamart 2024 trends: Bengaluru leads in condom sales, late-night shopping soars in Delhi, Hyderabad",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 429,
+      "company_name": "Swiggy Ltd.",
+      "title": "From gold to chips: The most memorable purchases on Swiggy Instamart in 2024",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 436,
+      "company_name": "Hyundai Motor India Ltd.",
+      "title": "Hyundai Motor Shifts Perceptions by Unveiling All-Electric IONIQ 9 SUV at Iconic Goldstein House in LA",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 446,
+      "company_name": "Kross Ltd.",
+      "title": "Rob Van Dam On Karrion Kross And Scarlett: Very Cool People, They Definitely Get Two Thumbs Up From RVD",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 446,
+      "company_name": "Kross Ltd.",
+      "title": "Bobby Lashley confirms plan to do legitimate backstage fight with Karrion Kross to build WWE WrestleMania 40 match",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 446,
+      "company_name": "Kross Ltd.",
+      "title": "Karrion Kross On Doing Jesse Ventura Impression In Front Of The WWE Hall Of Famer",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 458,
+      "company_name": "Ola Electric Mobility Ltd.",
+      "title": "Ola Electric service crisis: New team to manage backlog as complaints rise to 80,000 a month",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 458,
+      "company_name": "Ola Electric Mobility Ltd.",
+      "title": "Ola Electric forms new team to tackle 80,000 service complaints per month",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 458,
+      "company_name": "Ola Electric Mobility Ltd.",
+      "title": "Ola Electric shares surge 10%; hit upper circuit limit",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 458,
+      "company_name": "Ola Electric Mobility Ltd.",
+      "title": "Bajaj Auto eyes top spot in electric scooter sales, narrows gap with Ola Electric",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 458,
+      "company_name": "Ola Electric Mobility Ltd.",
+      "title": "Ola Electric shares end 10% higher after two 'buy' ratings project targets of up to ₹160",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 458,
+      "company_name": "Ola Electric Mobility Ltd.",
+      "title": "Ola Electric vs Ather Energy: Who’s the better EV player?",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 459,
+      "company_name": "Ceigall India Ltd.",
+      "title": "Ayodhya bypass project announces Ceigall India as L1-bidder",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 459,
+      "company_name": "Ceigall India Ltd.",
+      "title": "Ceigall India Declared L1 Bidder For Ayodhya Bypass - PT Pulse",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 459,
+      "company_name": "Ceigall India Ltd.",
+      "title": "Ceigall India begins casting U-Girder for AGCC-05 of Agra Metro",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 503,
+      "company_name": "ICICI Prudential Asset Management Co.Ltd.",
+      "title": "ICICI Prudential AMC Chief Business Officer Amar Shah to Resign, Effective March 16, 2026",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 503,
+      "company_name": "ICICI Prudential Asset Management Co.Ltd.",
+      "title": "Amar Shah quits ICICI Prudential AMC",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 510,
+      "company_name": "Meesho Ltd.",
+      "title": "Meesho's \"Bharat Commerce\" – Communicating Value to New Internet Users",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 522,
+      "company_name": "Orkla India Ltd.",
+      "title": "Orkla India eyes to grow with quick meals & delivery services",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 522,
+      "company_name": "Orkla India Ltd.",
+      "title": "MTR-owner Orkla India eyes deals, bets on quick meals and delivery for growth",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 523,
+      "company_name": "Midwest Ltd.",
+      "title": "Multiple fast-moving storms to spread snow, gusty winds across the Midwest and Northeast",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 523,
+      "company_name": "Midwest Ltd.",
+      "title": "Series Of Snow Storms Slam Midwest, Northeast",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 523,
+      "company_name": "Midwest Ltd.",
+      "title": "I live in the Midwest, and these are the only touchscreen gloves I trust",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 523,
+      "company_name": "Midwest Ltd.",
+      "title": "20 million under winter weather alerts as heavy snow targets West and Midwest",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 523,
+      "company_name": "Midwest Ltd.",
+      "title": "Very Cold Temperatures For Midwest, Northeast Into Next Week",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 523,
+      "company_name": "Midwest Ltd.",
+      "title": "Winter weather alerts to impact 18 million people across West and Midwest",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 541,
+      "company_name": "Anand Rathi Share & Stock Brokers Ltd.",
+      "title": "Market sentiment turns bullish, Anand Rathi’s Firoz Aziz sees IT, banking, and FMCG driving next rally",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 541,
+      "company_name": "Anand Rathi Share & Stock Brokers Ltd.",
+      "title": "Ram Narkar Appointed as Chief Human Resource Officer at Anand Rathi Insurance Brokers Ltd",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 541,
+      "company_name": "Anand Rathi Share & Stock Brokers Ltd.",
+      "title": "Buy Protean eGov Technologies; target of Rs 1235: Anand Rathi",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 541,
+      "company_name": "Anand Rathi Share & Stock Brokers Ltd.",
+      "title": "Stocks to buy for short term: From LIC to Hindustan Zinc— Jigar Patel of Anand Rathi recommends 3 shares",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 541,
+      "company_name": "Anand Rathi Share & Stock Brokers Ltd.",
+      "title": "Stock to buy for short term: Anand Rathi sees 14% upside in this retail stock. Should you buy?",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 541,
+      "company_name": "Anand Rathi Share & Stock Brokers Ltd.",
+      "title": "Stocks to buy under ₹200: Mehul Kothari of Anand Rathi recommends three stocks to buy or sell",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 570,
+      "company_name": "M&B Engineering Ltd.",
+      "title": "How a radio show inspired M.B. Srinivasan to launch the Madras Youth Choir",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 570,
+      "company_name": "M&B Engineering Ltd.",
+      "title": "This Gen5 M.2 SSD delivers blazing-fast speeds up to 12,400MB/s, and it's now available at its lowest price",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 588,
+      "company_name": "Kalpataru Ltd.",
+      "title": "Several startups incubated at Kalpataru addressing mission-critical issues",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 588,
+      "company_name": "Kalpataru Ltd.",
+      "title": "Kalpataru Projects Q1 Net Profit Jumps 154% YoY to ₹213.6 Crore",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 588,
+      "company_name": "Kalpataru Ltd.",
+      "title": "Zee Business. . Corporate Radar Kalpataru Projects का Q1 में दमदार प्रदर्शन मुनाफे और मार्जिन में अच्छी Growth के क्या है Factors? कंपनी का क्या है कैपेक्स Plan? देखिए Kalpataru Projects के Director, अमित उपलेंचवर स",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    },
+    {
+      "ipo_id": 656,
+      "company_name": "Laser Power & Infra Ltd.",
+      "title": "3D printing gives laser waveguides a ceramic upgrade for higher power",
+      "reason": "Not eligible under the current distinct-issuer/source filters"
+    }
+  ],
+  "input_sha256": {
+    "data/audit/module2_dated_news_20261021.jsonl": "20b21708f2d9543f0cc4c3e72684cdf2a4c6768cf23d38ad667b2cd5961c579c",
+    "data/news_issuer_identity_master.csv": "9d88207955110f81e4db62fd3845fd6f779b32b7b85e2290cda754870f624d01",
+    "services/news_identity.py": "c72d2e0007289b424de4e075f111b9dcc6a55d0794502de2e5fdd94b63ddddfc"
+  },
+  "output_sha256": "0d3ff7a4bf7958719a4ad74bb28bc7259fc83e1b9164996defe02b3a9f0b74fb",
+  "limitations": [
+    "Identity master is current, not an original historical snapshot; used only for entity disambiguation.",
+    "Conservative matching can reject ambiguous genuine headlines; no absent news is fabricated."
+  ]
+}

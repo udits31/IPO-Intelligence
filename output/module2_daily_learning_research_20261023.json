@@ -1,0 +1,141 @@
+{
+  "policy_change": {
+    "n": 132,
+    "changed_calls": 32,
+    "old_correct_on_changed": 18,
+    "new_correct_on_changed": 14,
+    "old_correct": 66,
+    "new_correct": 62,
+    "false_sell": 11,
+    "false_hold_proxy": 59,
+    "groups": [
+      {
+        "verdict": "HOLD (WATCH)",
+        "n": 29,
+        "correct": 14
+      },
+      {
+        "verdict": "HOLD / CONSOLIDATION",
+        "n": 42,
+        "correct": 16
+      },
+      {
+        "verdict": "SELL / REDUCE",
+        "n": 29,
+        "correct": 18
+      },
+      {
+        "verdict": "WATCH / PRICE PULLBACK",
+        "n": 32,
+        "correct": 14
+      }
+    ]
+  },
+  "selected": "shallow_forest",
+  "candidates": [
+    {
+      "name": "lr_0.05",
+      "confirmation": {
+        "n": 62,
+        "correct": 31,
+        "accuracy_pct": 50.0,
+        "balanced_accuracy_pct": 50.10416666666666,
+        "brier": 0.25391460537593064,
+        "auc": 0.5552083333333334,
+        "always_hold_accuracy_pct": 51.61290322580645,
+        "always_sell_accuracy_pct": 48.38709677419355
+      }
+    },
+    {
+      "name": "lr_0.5",
+      "confirmation": {
+        "n": 62,
+        "correct": 34,
+        "accuracy_pct": 54.83870967741935,
+        "balanced_accuracy_pct": 55.20833333333333,
+        "brier": 0.26150635598517497,
+        "auc": 0.5729166666666667,
+        "always_hold_accuracy_pct": 51.61290322580645,
+        "always_sell_accuracy_pct": 48.38709677419355
+      }
+    },
+    {
+      "name": "shallow_boosting",
+      "confirmation": {
+        "n": 62,
+        "correct": 32,
+        "accuracy_pct": 51.61290322580645,
+        "balanced_accuracy_pct": 52.08333333333333,
+        "brier": 0.2609014485075911,
+        "auc": 0.5354166666666667,
+        "always_hold_accuracy_pct": 51.61290322580645,
+        "always_sell_accuracy_pct": 48.38709677419355
+      }
+    },
+    {
+      "name": "shallow_forest",
+      "confirmation": {
+        "n": 62,
+        "correct": 35,
+        "accuracy_pct": 56.451612903225815,
+        "balanced_accuracy_pct": 56.56250000000001,
+        "brier": 0.25540302727975683,
+        "auc": 0.5645833333333333,
+        "always_hold_accuracy_pct": 51.61290322580645,
+        "always_sell_accuracy_pct": 48.38709677419355
+      }
+    }
+  ],
+  "training_examples": 142,
+  "training_issuers": 142,
+  "final_examples": 215,
+  "final_issuers": 215,
+  "confirmation_n": 62,
+  "later": {
+    "n": 132,
+    "correct": 66,
+    "accuracy_pct": 50.0,
+    "balanced_accuracy_pct": 50.12987012987013,
+    "brier": 0.25352488911877064,
+    "auc": 0.5478158205430933,
+    "always_hold_accuracy_pct": 41.66666666666667,
+    "always_sell_accuracy_pct": 58.33333333333333
+  },
+  "features": [
+    "stock_5",
+    "stock_10",
+    "stock_20",
+    "stock_30",
+    "reversal_5",
+    "ma10_distance",
+    "ma20_distance",
+    "volatility_20",
+    "down_fraction_20",
+    "drawdown_30",
+    "range_position_30",
+    "nifty_5",
+    "nifty_20",
+    "nifty_30",
+    "sector_10",
+    "sector_30",
+    "relative_10",
+    "relative_30",
+    "age_sessions"
+  ],
+  "live_promoted": false,
+  "synthetic_rows": 0,
+  "limitations": [
+    "Research after previous inspection of later results; not a blind test.",
+    "Feature fitting and candidate choice use only completed earlier IPO outcomes.",
+    "Repeated earlier checkpoints are issuer-weighted, not independent samples.",
+    "No as-published news/filing forecast or transaction-cost advantage established.",
+    "WATCH is not a HOLD forecast; the legacy binary comparison interprets no exit as hold."
+  ],
+  "input_sha256": {
+    "data/audit/module2_development_prices_2021_2024_nse_extended_ca_reconciled.csv": "522de60642a6a7788cf194551e75631043640973b91c9c1e3ed429820736282c",
+    "data/audit/module2_holdout_prices_2025_2026_nse_full_ca_reconciled.csv": "84e6359639f44034ed65358a1919d85d07e62be0ce281edcba8fc1ae2d38f605",
+    "output/module2_holdout_decision_ledgerpresentation_20261022.csv": "432cb86bbb760b37fa5bf205252d7e3ed9e47d88a322e793f0276eeecf771cca",
+    "output/module2_holdout_decision_ledger_governance_20261023.csv": "f51a381badb98339e4e49cb4dad97fe31d8107859217feee8b07badba5f992dc",
+    "ml/research_monitor_daily_learning.py": "87d7f211ac144a50fbb4ea73b20fc8aa1291de67c776c6296106e05f6441d0f2"
+  }
+}

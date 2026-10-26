@@ -1,0 +1,238 @@
+{
+  "protocol": "2021-23 training; C selected on 2024 Brier per feature group; refit 2021-24; exploratory 2025-26 comparison on identical aligned IPOs",
+  "data_sources": {
+    "NSE_delivery": "https://www.nseindia.com/report-detail/eq_security",
+    "price_history": "Yahoo raw closes with NSE alignment gate"
+  },
+  "input_sha256": {
+    "data\\audit\\module2_development_prices_2021_2024.csv": "71e32204afe76c47abe89d81ac2e1e471e9bdb52b8424eaf12a9b5eb07bb40a8",
+    "data\\audit\\module2_holdout_prices_2025_2026_nse_audited.csv": "9f9f116fd0d8b952be3629d0b403d117a50bc85abc5d2805f6a26e0448926ec3",
+    "data\\canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "data\\audit\\module2_nse_delivery_development.csv": "093c0df358126c9f899d113147b4067cb618011418d218fc288ca75949567d7e",
+    "data\\audit\\module2_nse_delivery_holdout.csv": "3716a7c7c90c3aac4442786a1ef834482be8a8d37e3670325e6e58d8d2adc5a3"
+  },
+  "publication_guard": "Delivery features use through session 30 at the session-31 close decision.",
+  "coverage": {
+    "price_cases_before_delivery_gate": 323,
+    "rejections": {
+      "not_aligned_to_nse": 49,
+      "missing_prior_session": 0,
+      "fewer_than_15_prior_delivery_sessions": 0
+    },
+    "training_n": 123,
+    "validation_n": 46,
+    "later_n": 105
+  },
+  "candidates": [
+    {
+      "group": "price_only",
+      "C": 0.01,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 58.7,
+        "balanced_accuracy_pct": 58.7,
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0,
+        "brier": 0.2516,
+        "auc": 0.5388,
+        "predicted_up_pct": 52.17
+      }
+    },
+    {
+      "group": "price_only",
+      "C": 0.1,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 54.35,
+        "balanced_accuracy_pct": 54.35,
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0,
+        "brier": 0.2556,
+        "auc": 0.5388,
+        "predicted_up_pct": 56.52
+      }
+    },
+    {
+      "group": "price_only",
+      "C": 1.0,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.17,
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0,
+        "brier": 0.2596,
+        "auc": 0.5104,
+        "predicted_up_pct": 58.7
+      }
+    },
+    {
+      "group": "price_only",
+      "C": 10.0,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.17,
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0,
+        "brier": 0.2621,
+        "auc": 0.5085,
+        "predicted_up_pct": 58.7
+      }
+    },
+    {
+      "group": "price_plus_nse_delivery",
+      "C": 0.01,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 58.7,
+        "balanced_accuracy_pct": 58.7,
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0,
+        "brier": 0.2492,
+        "auc": 0.5936,
+        "predicted_up_pct": 52.17
+      }
+    },
+    {
+      "group": "price_plus_nse_delivery",
+      "C": 0.1,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 60.87,
+        "balanced_accuracy_pct": 60.87,
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0,
+        "brier": 0.2477,
+        "auc": 0.5917,
+        "predicted_up_pct": 54.35
+      }
+    },
+    {
+      "group": "price_plus_nse_delivery",
+      "C": 1.0,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 56.52,
+        "balanced_accuracy_pct": 56.52,
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0,
+        "brier": 0.2499,
+        "auc": 0.5784,
+        "predicted_up_pct": 54.35
+      }
+    },
+    {
+      "group": "price_plus_nse_delivery",
+      "C": 10.0,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 58.7,
+        "balanced_accuracy_pct": 58.7,
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0,
+        "brier": 0.2525,
+        "auc": 0.5595,
+        "predicted_up_pct": 56.52
+      }
+    }
+  ],
+  "comparisons": {
+    "price_only": {
+      "selected_C_on_2024": 0.01,
+      "later": {
+        "n": 105,
+        "up_rate_pct": 41.9,
+        "accuracy_pct": 46.67,
+        "balanced_accuracy_pct": 48.4,
+        "always_sell_pct": 58.1,
+        "always_hold_pct": 41.9,
+        "brier": 0.2521,
+        "auc": 0.5306,
+        "predicted_up_pct": 60.95
+      },
+      "by_year": {
+        "2025": {
+          "n": 83,
+          "up_rate_pct": 33.73,
+          "accuracy_pct": 45.78,
+          "balanced_accuracy_pct": 48.57,
+          "always_sell_pct": 66.27,
+          "always_hold_pct": 33.73,
+          "brier": 0.2589,
+          "auc": 0.474,
+          "predicted_up_pct": 59.04
+        },
+        "2026": {
+          "n": 22,
+          "up_rate_pct": 72.73,
+          "accuracy_pct": 50.0,
+          "balanced_accuracy_pct": 39.58,
+          "always_sell_pct": 27.27,
+          "always_hold_pct": 72.73,
+          "brier": 0.2266,
+          "auc": 0.6563,
+          "predicted_up_pct": 68.18
+        }
+      }
+    },
+    "price_plus_nse_delivery": {
+      "selected_C_on_2024": 0.1,
+      "later": {
+        "n": 105,
+        "up_rate_pct": 41.9,
+        "accuracy_pct": 51.43,
+        "balanced_accuracy_pct": 53.13,
+        "always_sell_pct": 58.1,
+        "always_hold_pct": 41.9,
+        "brier": 0.2484,
+        "auc": 0.5753,
+        "predicted_up_pct": 60.0
+      },
+      "by_year": {
+        "2025": {
+          "n": 83,
+          "up_rate_pct": 33.73,
+          "accuracy_pct": 51.81,
+          "balanced_accuracy_pct": 53.99,
+          "always_sell_pct": 66.27,
+          "always_hold_pct": 33.73,
+          "brier": 0.2521,
+          "auc": 0.561,
+          "predicted_up_pct": 55.42
+        },
+        "2026": {
+          "n": 22,
+          "up_rate_pct": 72.73,
+          "accuracy_pct": 50.0,
+          "balanced_accuracy_pct": 34.38,
+          "always_sell_pct": 27.27,
+          "always_hold_pct": 72.73,
+          "brier": 0.2344,
+          "auc": 0.4792,
+          "predicted_up_pct": 77.27
+        }
+      }
+    }
+  },
+  "paired_later_comparison": {
+    "delivery_correct_price_wrong": 13,
+    "price_correct_delivery_wrong": 8,
+    "exact_two_sided_p": 0.3833
+  },
+  "later_prediction_ledger": "output\\module2_nse_delivery_research_ledger.csv",
+  "limitations": [
+    "NSE delivery was downloaded retrospectively; original publication timestamps were not archived.",
+    "Yahoo future closes remain secondary outcomes; corporate-action handling needs further exchange reconciliation.",
+    "Later-year results have been inspected in prior repository research and are not a blind test.",
+    "No new feature is promoted to the deployed monitor by this experiment."
+  ]
+}

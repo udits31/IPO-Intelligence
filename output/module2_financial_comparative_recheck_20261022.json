@@ -1,0 +1,38 @@
+{
+  "all_unchanged_cases": 376,
+  "statuses": {
+    "comparative_table_not_validated": 111,
+    "source_and_visual_checked": 29,
+    "no_eligible_result": 91,
+    "unavailable": 4,
+    "no_matching_source_attachment": 74,
+    "document_unusable": 27,
+    "source_unavailable": 4,
+    "source_crosschecked_pending_visual_review": 11,
+    "raw_ocr_not_yet_available": 24,
+    "visual_review_values_conflict": 1
+  },
+  "accepted_source_tables": 29,
+  "source_collection_still_running": "This is an offline cache snapshot, not a collector completion claim.",
+  "training_or_live_policy_changed": false,
+  "synthetic_training_rows": 0,
+  "input_sha256": {
+    "data/audit/module2_original_financial_pdfs_20261022.jsonl": "a008734d9a754ed80c6361800b5a32c546f749ed18c0b855a03757b0de1cc371",
+    "data/audit/module2_financial_table_visual_reviews_20261022.json": "2d986393a16cc16c54201353a65b26f7bf3351875129e0da1988a007365557da",
+    "ml/recheck_module2_financial_comparatives.py": "36869b69454dd63aac0bc1bd7e35e75e2055590743d15994b9b119314faa3e09",
+    "ml/financial_comparative_table.py": "72d092cf3d4177e91370512cabb9b3e0e5928719d1621d257fdd4cd4914be330",
+    "data/audit/module2_dated_financial_evidence_quarter_verified_20261022.jsonl": "8c4837eef7bce2cb661d15b0b1ef1f2e9d9023cde7991054ad032fc4cc0dfd6d",
+    "ml/collect_module2_financial_evidence.py": "a7fd8964c18a675ab0cc980ea45f13d4ed6f39c7f4e1df12c1357423d2da3d73",
+    "ml/reparse_module2_financials.py": "925b3a00d8247145eeebafb870bfcaaaa4787a73467ff23604b51cc40bf2a16f",
+    "ml/replay_module2_financial_rules.py": "e8f27c01a465da837d450bb0469ea5a029671a93cff907b4b591f55837fefc03",
+    "ml/financial_pdf_native.py": "5b143fc6a83456de32e7eaa71b6765d5f4d6f065e329bc399ab574cde7359172",
+    "ml/extract_module2_native_financials.py": "f0fc39c30f41b3f0f770233d422cbdacaab77861e486e6cec963e12716b8e80b"
+  },
+  "output_sha256": "7a5d52797bf9f7c4b6e8501c7b9605eaa3c0af32394c88eb5d89022746b9aacc",
+  "limitations": [
+    "Visual review is assistant inspection, not an independent human audit.",
+    "Prior-year comparatives are as presented in the dated current filing and may be restated.",
+    "Missing features retain original rules in any later experiment; IPOs are not removed.",
+    "Coverage alone does not establish predictive improvement."
+  ]
+}

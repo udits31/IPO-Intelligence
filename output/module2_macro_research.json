@@ -1,0 +1,242 @@
+{
+  "protocol": "Train 2021-23, select C/feature group on 2024 Brier, refit 2021-24, test later years exploratorily",
+  "decision": "31st observed IPO close, macro closes from that or earlier sessions",
+  "source": "Yahoo Finance historical raw ETF and India VIX closes",
+  "macro_csv_sha256": "8619e6bf48aa9b63788001417e788dd4b3249acfc347518830102a40e569b999",
+  "missing_feature_cases_excluded": 17,
+  "coverage": {
+    "training_n": 129,
+    "validation_n": 54,
+    "development_n": 183,
+    "later_n": 124
+  },
+  "candidates": [
+    {
+      "group": "price_ipo_context",
+      "C": 0.01,
+      "validation": {
+        "n": 54,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 59.26,
+        "balanced_accuracy_pct": 59.26,
+        "brier": 0.2484,
+        "tn_fp_fn_tp": [
+          21,
+          6,
+          16,
+          11
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "group": "price_ipo_context",
+      "C": 0.1,
+      "validation": {
+        "n": 54,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 55.56,
+        "balanced_accuracy_pct": 55.56,
+        "brier": 0.248,
+        "tn_fp_fn_tp": [
+          18,
+          9,
+          15,
+          12
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "group": "price_ipo_context",
+      "C": 1.0,
+      "validation": {
+        "n": 54,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 57.41,
+        "balanced_accuracy_pct": 57.41,
+        "brier": 0.2381,
+        "tn_fp_fn_tp": [
+          19,
+          8,
+          15,
+          12
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "group": "price_ipo_context_macro",
+      "C": 0.01,
+      "validation": {
+        "n": 54,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 51.85,
+        "balanced_accuracy_pct": 51.85,
+        "brier": 0.2556,
+        "tn_fp_fn_tp": [
+          17,
+          10,
+          16,
+          11
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "group": "price_ipo_context_macro",
+      "C": 0.1,
+      "validation": {
+        "n": 54,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 50.0,
+        "balanced_accuracy_pct": 50.0,
+        "brier": 0.2631,
+        "tn_fp_fn_tp": [
+          17,
+          10,
+          17,
+          10
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    },
+    {
+      "group": "price_ipo_context_macro",
+      "C": 1.0,
+      "validation": {
+        "n": 54,
+        "up_rate_pct": 50.0,
+        "accuracy_pct": 48.15,
+        "balanced_accuracy_pct": 48.15,
+        "brier": 0.2605,
+        "tn_fp_fn_tp": [
+          15,
+          12,
+          16,
+          11
+        ],
+        "always_sell_pct": 50.0,
+        "always_hold_pct": 50.0
+      }
+    }
+  ],
+  "selected": {
+    "group": "price_ipo_context",
+    "C": 1.0
+  },
+  "same_cohort_comparisons": {
+    "price_ipo_context": {
+      "C": 1.0,
+      "later": {
+        "n": 124,
+        "up_rate_pct": 39.52,
+        "accuracy_pct": 54.03,
+        "balanced_accuracy_pct": 53.51,
+        "brier": 0.2756,
+        "tn_fp_fn_tp": [
+          42,
+          33,
+          24,
+          25
+        ],
+        "always_sell_pct": 60.48,
+        "always_hold_pct": 39.52
+      },
+      "by_year": {
+        "2025": {
+          "n": 97,
+          "up_rate_pct": 30.93,
+          "accuracy_pct": 51.55,
+          "balanced_accuracy_pct": 48.36,
+          "brier": 0.2849,
+          "tn_fp_fn_tp": [
+            38,
+            29,
+            18,
+            12
+          ],
+          "always_sell_pct": 69.07,
+          "always_hold_pct": 30.93
+        },
+        "2026": {
+          "n": 27,
+          "up_rate_pct": 70.37,
+          "accuracy_pct": 62.96,
+          "balanced_accuracy_pct": 59.21,
+          "brier": 0.242,
+          "tn_fp_fn_tp": [
+            4,
+            4,
+            6,
+            13
+          ],
+          "always_sell_pct": 29.63,
+          "always_hold_pct": 70.37
+        }
+      }
+    },
+    "price_ipo_context_macro": {
+      "C": 0.01,
+      "later": {
+        "n": 124,
+        "up_rate_pct": 39.52,
+        "accuracy_pct": 51.61,
+        "balanced_accuracy_pct": 51.86,
+        "brier": 0.2543,
+        "tn_fp_fn_tp": [
+          38,
+          37,
+          23,
+          26
+        ],
+        "always_sell_pct": 60.48,
+        "always_hold_pct": 39.52
+      },
+      "by_year": {
+        "2025": {
+          "n": 97,
+          "up_rate_pct": 30.93,
+          "accuracy_pct": 48.45,
+          "balanced_accuracy_pct": 47.96,
+          "brier": 0.2624,
+          "tn_fp_fn_tp": [
+            33,
+            34,
+            16,
+            14
+          ],
+          "always_sell_pct": 69.07,
+          "always_hold_pct": 30.93
+        },
+        "2026": {
+          "n": 27,
+          "up_rate_pct": 70.37,
+          "accuracy_pct": 62.96,
+          "balanced_accuracy_pct": 62.83,
+          "brier": 0.225,
+          "tn_fp_fn_tp": [
+            5,
+            3,
+            7,
+            12
+          ],
+          "always_sell_pct": 29.63,
+          "always_hold_pct": 70.37
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Yahoo market data is retrospective and secondary; exchange cross-check pending",
+    "MID150BEES is an ETF proxy, not the official mid-cap index",
+    "No absent value is imputed; excluded cases reduce coverage",
+    "Later years have already been inspected in prior research and are not blind",
+    "Research only; no deployed policy change"
+  ]
+}

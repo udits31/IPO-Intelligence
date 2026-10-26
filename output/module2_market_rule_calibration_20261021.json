@@ -1,0 +1,898 @@
+{
+  "model_family": "Existing deterministic loss/relative-lag/trailing rules, regime-conditioned thresholds only",
+  "core_live_rules_changed": false,
+  "presets": {
+    "default": {
+      "loss_pct": 12.0,
+      "lag_loss_pct": 5.0,
+      "trail_pct": 8.0
+    },
+    "tighter": {
+      "loss_pct": 8.0,
+      "lag_loss_pct": 0.0,
+      "trail_pct": 4.0
+    },
+    "wider": {
+      "loss_pct": 18.0,
+      "lag_loss_pct": 5.0,
+      "trail_pct": 12.0
+    }
+  },
+  "candidate_count": 17,
+  "protocol": "One 31st-close checkpoint and 30-session target; weak/strong uses only observed prior-30-session Nifty return.",
+  "coverage": {
+    "development": 244,
+    "early_selection": 81,
+    "2024_confirmation": 91,
+    "known_by_2024_end": 214,
+    "later": 132,
+    "later_missing_nifty_kept_on_default": 0
+  },
+  "early_choice": {
+    "parameters": {
+      "regime_threshold_nifty30_pct": 0.0,
+      "weak_market": "default",
+      "strong_market": "tighter"
+    },
+    "metrics": {
+      "n": 81,
+      "correct": 51,
+      "accuracy_pct": 62.96296296296296,
+      "balanced_accuracy_pct": 63.633540372670815,
+      "hold_recall_pct": 58.69565217391305,
+      "sell_recall_pct": 68.57142857142857,
+      "always_hold_accuracy_pct": 56.79012345679012,
+      "always_sell_accuracy_pct": 43.20987654320987,
+      "sell_calls": 43,
+      "next_day_accuracy_pct": 50.617283950617285,
+      "conditional_strategy_net_mean_pct": 5.568523210800311
+    },
+    "changed_calls": 9
+  },
+  "final_choice": {
+    "parameters": {
+      "regime_threshold_nifty30_pct": 0.0,
+      "weak_market": "wider",
+      "strong_market": "tighter"
+    },
+    "metrics": {
+      "n": 214,
+      "correct": 126,
+      "accuracy_pct": 58.87850467289719,
+      "balanced_accuracy_pct": 58.87850467289719,
+      "hold_recall_pct": 46.728971962616825,
+      "sell_recall_pct": 71.02803738317756,
+      "always_hold_accuracy_pct": 50.0,
+      "always_sell_accuracy_pct": 50.0,
+      "sell_calls": 133,
+      "next_day_accuracy_pct": 50.0,
+      "conditional_strategy_net_mean_pct": 3.046051748490919
+    },
+    "changed_calls": 38
+  },
+  "early_candidates": [
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": null,
+        "weak_market": "default",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 52,
+        "accuracy_pct": 64.19753086419753,
+        "balanced_accuracy_pct": 63.35403726708074,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 57.14285714285714,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 34,
+        "next_day_accuracy_pct": 49.382716049382715,
+        "conditional_strategy_net_mean_pct": 5.8611085872765365
+      },
+      "changed_calls": 0
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "default",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 50,
+        "accuracy_pct": 61.72839506172839,
+        "balanced_accuracy_pct": 63.22981366459628,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 74.28571428571429,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 48,
+        "next_day_accuracy_pct": 46.913580246913575,
+        "conditional_strategy_net_mean_pct": 5.319749225231607
+      },
+      "changed_calls": 14
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "default",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 50,
+        "accuracy_pct": 61.72839506172839,
+        "balanced_accuracy_pct": 59.472049689441,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 42.857142857142854,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 26,
+        "next_day_accuracy_pct": 49.382716049382715,
+        "conditional_strategy_net_mean_pct": 5.830170361994896
+      },
+      "changed_calls": 8
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "tighter",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 51,
+        "accuracy_pct": 62.96296296296296,
+        "balanced_accuracy_pct": 62.267080745341616,
+        "hold_recall_pct": 67.3913043478261,
+        "sell_recall_pct": 57.14285714285714,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 35,
+        "next_day_accuracy_pct": 48.148148148148145,
+        "conditional_strategy_net_mean_pct": 5.655560734016264
+      },
+      "changed_calls": 1
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "tighter",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 49,
+        "accuracy_pct": 60.49382716049383,
+        "balanced_accuracy_pct": 62.142857142857146,
+        "hold_recall_pct": 50.0,
+        "sell_recall_pct": 74.28571428571429,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 49,
+        "next_day_accuracy_pct": 45.67901234567901,
+        "conditional_strategy_net_mean_pct": 5.114201371971336
+      },
+      "changed_calls": 15
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "tighter",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 49,
+        "accuracy_pct": 60.49382716049383,
+        "balanced_accuracy_pct": 58.38509316770186,
+        "hold_recall_pct": 73.91304347826086,
+        "sell_recall_pct": 42.857142857142854,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 27,
+        "next_day_accuracy_pct": 48.148148148148145,
+        "conditional_strategy_net_mean_pct": 5.624622508734625
+      },
+      "changed_calls": 9
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "wider",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 51,
+        "accuracy_pct": 62.96296296296296,
+        "balanced_accuracy_pct": 61.92546583850931,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 54.285714285714285,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 33,
+        "next_day_accuracy_pct": 50.617283950617285,
+        "conditional_strategy_net_mean_pct": 5.820780773683649
+      },
+      "changed_calls": 1
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "wider",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 49,
+        "accuracy_pct": 60.49382716049383,
+        "balanced_accuracy_pct": 61.80124223602485,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 71.42857142857143,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 48.148148148148145,
+        "conditional_strategy_net_mean_pct": 5.279421411638721
+      },
+      "changed_calls": 15
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "wider",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 49,
+        "accuracy_pct": 60.49382716049383,
+        "balanced_accuracy_pct": 58.04347826086958,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 40.0,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 50.617283950617285,
+        "conditional_strategy_net_mean_pct": 5.789842548402009
+      },
+      "changed_calls": 9
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "default",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 51,
+        "accuracy_pct": 62.96296296296296,
+        "balanced_accuracy_pct": 63.633540372670815,
+        "hold_recall_pct": 58.69565217391305,
+        "sell_recall_pct": 68.57142857142857,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 43,
+        "next_day_accuracy_pct": 50.617283950617285,
+        "conditional_strategy_net_mean_pct": 5.568523210800311
+      },
+      "changed_calls": 9
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "default",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 49,
+        "accuracy_pct": 60.49382716049383,
+        "balanced_accuracy_pct": 58.72670807453416,
+        "hold_recall_pct": 71.73913043478261,
+        "sell_recall_pct": 45.714285714285715,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 29,
+        "next_day_accuracy_pct": 48.148148148148145,
+        "conditional_strategy_net_mean_pct": 5.6047997429533485
+      },
+      "changed_calls": 5
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "tighter",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 50,
+        "accuracy_pct": 61.72839506172839,
+        "balanced_accuracy_pct": 61.86335403726708,
+        "hold_recall_pct": 60.86956521739131,
+        "sell_recall_pct": 62.857142857142854,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 40,
+        "next_day_accuracy_pct": 44.44444444444444,
+        "conditional_strategy_net_mean_pct": 5.406786748447562
+      },
+      "changed_calls": 6
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "tighter",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 49,
+        "accuracy_pct": 60.49382716049383,
+        "balanced_accuracy_pct": 62.142857142857146,
+        "hold_recall_pct": 50.0,
+        "sell_recall_pct": 74.28571428571429,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 49,
+        "next_day_accuracy_pct": 45.67901234567901,
+        "conditional_strategy_net_mean_pct": 5.114201371971336
+      },
+      "changed_calls": 15
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "tighter",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 47,
+        "accuracy_pct": 58.0246913580247,
+        "balanced_accuracy_pct": 57.236024844720504,
+        "hold_recall_pct": 63.04347826086957,
+        "sell_recall_pct": 51.42857142857142,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 35,
+        "next_day_accuracy_pct": 43.20987654320987,
+        "conditional_strategy_net_mean_pct": 5.150477904124372
+      },
+      "changed_calls": 11
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "wider",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 52,
+        "accuracy_pct": 64.19753086419753,
+        "balanced_accuracy_pct": 62.670807453416145,
+        "hold_recall_pct": 73.91304347826086,
+        "sell_recall_pct": 51.42857142857142,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 30,
+        "next_day_accuracy_pct": 51.85185185185185,
+        "conditional_strategy_net_mean_pct": 6.046151392725197
+      },
+      "changed_calls": 4
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "wider",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 51,
+        "accuracy_pct": 62.96296296296296,
+        "balanced_accuracy_pct": 62.95031055900622,
+        "hold_recall_pct": 63.04347826086957,
+        "sell_recall_pct": 62.857142857142854,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 39,
+        "next_day_accuracy_pct": 53.086419753086425,
+        "conditional_strategy_net_mean_pct": 5.753566016248972
+      },
+      "changed_calls": 13
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "wider",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 81,
+        "correct": 49,
+        "accuracy_pct": 60.49382716049383,
+        "balanced_accuracy_pct": 58.04347826086958,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 40.0,
+        "always_hold_accuracy_pct": 56.79012345679012,
+        "always_sell_accuracy_pct": 43.20987654320987,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 50.617283950617285,
+        "conditional_strategy_net_mean_pct": 5.789842548402009
+      },
+      "changed_calls": 9
+    }
+  ],
+  "final_candidates": [
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": null,
+        "weak_market": "default",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 116,
+        "accuracy_pct": 54.20560747663551,
+        "balanced_accuracy_pct": 54.20560747663551,
+        "hold_recall_pct": 49.532710280373834,
+        "sell_recall_pct": 58.87850467289719,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 117,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 2.036059740540375
+      },
+      "changed_calls": 0
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "default",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 118,
+        "accuracy_pct": 55.140186915887845,
+        "balanced_accuracy_pct": 55.140186915887845,
+        "hold_recall_pct": 34.57943925233645,
+        "sell_recall_pct": 75.70093457943925,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 151,
+        "next_day_accuracy_pct": 49.06542056074766,
+        "conditional_strategy_net_mean_pct": 2.041793808885778
+      },
+      "changed_calls": 34
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "default",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 120,
+        "accuracy_pct": 56.074766355140184,
+        "balanced_accuracy_pct": 56.074766355140184,
+        "hold_recall_pct": 64.48598130841121,
+        "sell_recall_pct": 47.66355140186916,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 89,
+        "next_day_accuracy_pct": 51.86915887850467,
+        "conditional_strategy_net_mean_pct": 3.081251909117585
+      },
+      "changed_calls": 28
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "tighter",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 117,
+        "accuracy_pct": 54.67289719626168,
+        "balanced_accuracy_pct": 54.67289719626168,
+        "hold_recall_pct": 48.598130841121495,
+        "sell_recall_pct": 60.747663551401864,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 120,
+        "next_day_accuracy_pct": 50.467289719626166,
+        "conditional_strategy_net_mean_pct": 2.0742044471199885
+      },
+      "changed_calls": 3
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "tighter",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 119,
+        "accuracy_pct": 55.60747663551402,
+        "balanced_accuracy_pct": 55.60747663551402,
+        "hold_recall_pct": 33.64485981308411,
+        "sell_recall_pct": 77.57009345794393,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 154,
+        "next_day_accuracy_pct": 49.532710280373834,
+        "conditional_strategy_net_mean_pct": 2.079938515465392
+      },
+      "changed_calls": 37
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "tighter",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 121,
+        "accuracy_pct": 56.54205607476636,
+        "balanced_accuracy_pct": 56.54205607476636,
+        "hold_recall_pct": 63.55140186915887,
+        "sell_recall_pct": 49.532710280373834,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 92,
+        "next_day_accuracy_pct": 52.336448598130836,
+        "conditional_strategy_net_mean_pct": 3.119396615697199
+      },
+      "changed_calls": 31
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "wider",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 118,
+        "accuracy_pct": 55.140186915887845,
+        "balanced_accuracy_pct": 55.140186915887845,
+        "hold_recall_pct": 52.336448598130836,
+        "sell_recall_pct": 57.943925233644855,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 113,
+        "next_day_accuracy_pct": 49.06542056074766,
+        "conditional_strategy_net_mean_pct": 2.1228986638612923
+      },
+      "changed_calls": 4
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "wider",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 120,
+        "accuracy_pct": 56.074766355140184,
+        "balanced_accuracy_pct": 56.074766355140184,
+        "hold_recall_pct": 37.38317757009346,
+        "sell_recall_pct": 74.76635514018692,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 147,
+        "next_day_accuracy_pct": 48.13084112149533,
+        "conditional_strategy_net_mean_pct": 2.1286327322066954
+      },
+      "changed_calls": 38
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": -3.0,
+        "weak_market": "wider",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 122,
+        "accuracy_pct": 57.009345794392516,
+        "balanced_accuracy_pct": 57.009345794392516,
+        "hold_recall_pct": 67.28971962616822,
+        "sell_recall_pct": 46.728971962616825,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 85,
+        "next_day_accuracy_pct": 50.93457943925234,
+        "conditional_strategy_net_mean_pct": 3.1680908324385033
+      },
+      "changed_calls": 32
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "default",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 119,
+        "accuracy_pct": 55.60747663551402,
+        "balanced_accuracy_pct": 55.60747663551402,
+        "hold_recall_pct": 38.31775700934579,
+        "sell_recall_pct": 72.89719626168224,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 144,
+        "next_day_accuracy_pct": 50.467289719626166,
+        "conditional_strategy_net_mean_pct": 2.1911429082853138
+      },
+      "changed_calls": 27
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "default",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 115,
+        "accuracy_pct": 53.73831775700935,
+        "balanced_accuracy_pct": 53.73831775700935,
+        "hold_recall_pct": 58.87850467289719,
+        "sell_recall_pct": 48.598130841121495,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 96,
+        "next_day_accuracy_pct": 51.4018691588785,
+        "conditional_strategy_net_mean_pct": 2.313181992232898
+      },
+      "changed_calls": 21
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "tighter",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 116,
+        "accuracy_pct": 54.20560747663551,
+        "balanced_accuracy_pct": 54.20560747663551,
+        "hold_recall_pct": 44.85981308411215,
+        "sell_recall_pct": 63.55140186915887,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 127,
+        "next_day_accuracy_pct": 49.06542056074766,
+        "conditional_strategy_net_mean_pct": 1.9248553477204529
+      },
+      "changed_calls": 10
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "tighter",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 119,
+        "accuracy_pct": 55.60747663551402,
+        "balanced_accuracy_pct": 55.60747663551402,
+        "hold_recall_pct": 33.64485981308411,
+        "sell_recall_pct": 77.57009345794393,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 154,
+        "next_day_accuracy_pct": 49.532710280373834,
+        "conditional_strategy_net_mean_pct": 2.079938515465392
+      },
+      "changed_calls": 37
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "tighter",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 115,
+        "accuracy_pct": 53.73831775700935,
+        "balanced_accuracy_pct": 53.73831775700935,
+        "hold_recall_pct": 54.20560747663551,
+        "sell_recall_pct": 53.271028037383175,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 106,
+        "next_day_accuracy_pct": 50.467289719626166,
+        "conditional_strategy_net_mean_pct": 2.2019775994129764
+      },
+      "changed_calls": 31
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "wider",
+        "strong_market": "default"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 123,
+        "accuracy_pct": 57.476635514018696,
+        "balanced_accuracy_pct": 57.476635514018696,
+        "hold_recall_pct": 57.943925233644855,
+        "sell_recall_pct": 57.009345794392516,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 106,
+        "next_day_accuracy_pct": 49.532710280373834,
+        "conditional_strategy_net_mean_pct": 2.89096858074598
+      },
+      "changed_calls": 11
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "wider",
+        "strong_market": "tighter"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 126,
+        "accuracy_pct": 58.87850467289719,
+        "balanced_accuracy_pct": 58.87850467289719,
+        "hold_recall_pct": 46.728971962616825,
+        "sell_recall_pct": 71.02803738317756,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 133,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 3.046051748490919
+      },
+      "changed_calls": 38
+    },
+    {
+      "parameters": {
+        "regime_threshold_nifty30_pct": 0.0,
+        "weak_market": "wider",
+        "strong_market": "wider"
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 122,
+        "accuracy_pct": 57.009345794392516,
+        "balanced_accuracy_pct": 57.009345794392516,
+        "hold_recall_pct": 67.28971962616822,
+        "sell_recall_pct": 46.728971962616825,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 85,
+        "next_day_accuracy_pct": 50.93457943925234,
+        "conditional_strategy_net_mean_pct": 3.1680908324385033
+      },
+      "changed_calls": 32
+    }
+  ],
+  "confirmation_2024": {
+    "default": {
+      "n": 91,
+      "correct": 42,
+      "accuracy_pct": 46.15384615384615,
+      "balanced_accuracy_pct": 44.091360476663354,
+      "hold_recall_pct": 31.57894736842105,
+      "sell_recall_pct": 56.60377358490566,
+      "always_hold_accuracy_pct": 41.75824175824176,
+      "always_sell_accuracy_pct": 58.24175824175825,
+      "sell_calls": 56,
+      "next_day_accuracy_pct": 49.45054945054945,
+      "conditional_strategy_net_mean_pct": -1.3204808803752937
+    },
+    "market_rules": {
+      "n": 91,
+      "correct": 46,
+      "accuracy_pct": 50.54945054945055,
+      "balanced_accuracy_pct": 46.747765640516384,
+      "hold_recall_pct": 23.684210526315788,
+      "sell_recall_pct": 69.81132075471697,
+      "always_hold_accuracy_pct": 41.75824175824176,
+      "always_sell_accuracy_pct": 58.24175824175825,
+      "sell_calls": 66,
+      "next_day_accuracy_pct": 51.64835164835166,
+      "conditional_strategy_net_mean_pct": -0.7315534920282426
+    }
+  },
+  "later": {
+    "default": {
+      "n": 132,
+      "correct": 66,
+      "accuracy_pct": 50.0,
+      "balanced_accuracy_pct": 50.649350649350644,
+      "hold_recall_pct": 54.54545454545454,
+      "sell_recall_pct": 46.75324675324675,
+      "always_hold_accuracy_pct": 41.66666666666667,
+      "always_sell_accuracy_pct": 58.333333333333336,
+      "sell_calls": 61,
+      "next_day_accuracy_pct": 53.78787878787878,
+      "conditional_strategy_net_mean_pct": -0.3070142230861545
+    },
+    "market_rules": {
+      "n": 132,
+      "correct": 70,
+      "accuracy_pct": 53.03030303030303,
+      "balanced_accuracy_pct": 51.94805194805194,
+      "hold_recall_pct": 45.45454545454545,
+      "sell_recall_pct": 58.44155844155844,
+      "always_hold_accuracy_pct": 41.66666666666667,
+      "always_sell_accuracy_pct": 58.333333333333336,
+      "sell_calls": 75,
+      "next_day_accuracy_pct": 52.27272727272727,
+      "conditional_strategy_net_mean_pct": 0.25563055131911244
+    },
+    "paired_change": {
+      "accuracy_change_pp": 3.0303030303030303,
+      "bootstrap_95_pp": [
+        -3.0303030303030303,
+        9.090909090909092
+      ],
+      "corrected_errors": 10,
+      "introduced_errors": 6
+    }
+  },
+  "later_by_year": {
+    "2025": {
+      "n": 101,
+      "correct": 55,
+      "accuracy_pct": 54.45544554455446,
+      "balanced_accuracy_pct": 52.423007246376805,
+      "hold_recall_pct": 46.875,
+      "sell_recall_pct": 57.971014492753625,
+      "always_hold_accuracy_pct": 31.683168316831683,
+      "always_sell_accuracy_pct": 68.31683168316832,
+      "sell_calls": 57,
+      "next_day_accuracy_pct": 58.415841584158414,
+      "conditional_strategy_net_mean_pct": -1.325343053741159
+    },
+    "2026": {
+      "n": 31,
+      "correct": 15,
+      "accuracy_pct": 48.38709677419355,
+      "balanced_accuracy_pct": 52.9891304347826,
+      "hold_recall_pct": 43.47826086956522,
+      "sell_recall_pct": 62.5,
+      "always_hold_accuracy_pct": 74.19354838709677,
+      "always_sell_accuracy_pct": 25.806451612903224,
+      "sell_calls": 18,
+      "next_day_accuracy_pct": 32.25806451612903,
+      "conditional_strategy_net_mean_pct": 5.406544554902577
+    }
+  },
+  "requested_accuracy_established": false,
+  "input_sha256": {
+    "data/audit/module2_development_prices_2021_2024_nse_extended_ca_reconciled.csv": "522de60642a6a7788cf194551e75631043640973b91c9c1e3ed429820736282c",
+    "output/module2_development_decision_ledger_goal_corporate_actions_20261021.csv": "a365178df1477a6225de6c21d2a67092db27717fb5fe9313e2467c08bdc351b0",
+    "data/audit/module2_holdout_prices_2025_2026_nse_full_ca_reconciled.csv": "84e6359639f44034ed65358a1919d85d07e62be0ce281edcba8fc1ae2d38f605",
+    "output/module2_holdout_decision_ledger_goal_corporate_actions_20261021.csv": "432cb86bbb760b37fa5bf205252d7e3ed9e47d88a322e793f0276eeecf771cca",
+    "core/monitor_engine.py": "13360fd955f8a0338bb5aa9a2a11d9c55bb7a1077c6b0a1a4272ffc256c59451"
+  },
+  "limitations": [
+    "Market co-movement and nonstationarity limit transfer from earlier years.",
+    "Later outcomes were inspected in previous experiments; not a blind holdout.",
+    "No news, transaction-cost execution guarantee or cash-dividend total return is inferred.",
+    "This rule experiment is not a replacement learned Module 2 classifier or a paper-result update."
+  ]
+}

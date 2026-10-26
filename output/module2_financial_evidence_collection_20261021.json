@@ -1,0 +1,22 @@
+{
+  "source_pages": [
+    "https://www.nseindia.com/companies-listing/corporate-filings-financial-results",
+    "https://www.nseindia.com/companies-listing/corporate-integrated-filing"
+  ],
+  "requested": 376,
+  "recorded": 376,
+  "statuses": {
+    "verified_quarterly_metrics": 186,
+    "document_unusable": 95,
+    "no_eligible_result": 91,
+    "unavailable": 4
+  },
+  "stopped_on_access_restriction": null,
+  "output_sha256": "f48040b35573a9c3bcc48aa797b505c060b5b5fb30d02f20572d0139a97e2d29",
+  "limitations": [
+    "Retrieved retrospectively; exchange clocks do not independently prove completeness or archival immutability.",
+    "Missing/unusable financials are not zero revenue, zero profit or a no-news signal.",
+    "Current-period metrics are not earnings surprise or year-over-year growth.",
+    "No live model, paper or original financial values are overwritten."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "source": "NSE corporate-announcement PDF attachments",
+  "filing_archive_sha256": "1de80ce0ee1bcd01cbbbf778a2e4d4cdc5a618a095433a72aa4f23d5ceae28d8",
+  "attachment_count": 39,
+  "extracted_count": 39,
+  "failed": [],
+  "output_sha256": "a71f00ad3d7b73bd72ab3e0ec63cea4d3dd5fa037346a7b4e4e3164fe4766d81",
+  "output": "data\\audit\\module2_nse_rating_documents.jsonl"
+}

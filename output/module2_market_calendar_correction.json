@@ -1,0 +1,14 @@
+{
+  "source_rows": 33804,
+  "retained_rows": 33724,
+  "removed_rows": 80,
+  "removed_by_date": {
+    "2026-01-15": 80
+  },
+  "official_holiday_evidence": {
+    "2026-01-15": "https://nsearchives.nseindia.com/content/circulars/CMTR72260.pdf"
+  },
+  "rule": "Remove stock rows without a Nifty close only when NSE officially confirms the market holiday. No price interpolation or replacement.",
+  "raw_sha256": "ca69bf75acfbeff0a36e45a79c8d0dba22f69c83747a540850dd8ff180cb2939",
+  "audited_sha256": "9e02b5b6cff2ebaaac922631821038105c05f12656b17b79f7a2be110d645ac7"
+}

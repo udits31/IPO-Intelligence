@@ -1,0 +1,21 @@
+{
+  "eligible_financial_cases": 254,
+  "attempted_cases": 254,
+  "statuses": {
+    "verified_original_pdf": 176,
+    "no_matching_source_attachment": 74,
+    "source_unavailable": 4
+  },
+  "stopped_on_access_restriction": null,
+  "input_sha256": {
+    "data/audit/module2_dated_financial_evidence_quarter_verified_20261022.jsonl": "8c4837eef7bce2cb661d15b0b1ef1f2e9d9023cde7991054ad032fc4cc0dfd6d",
+    "data/audit/module2_dated_nse_filings_exchange_decisions.jsonl": "1de80ce0ee1bcd01cbbbf778a2e4d4cdc5a618a095433a72aa4f23d5ceae28d8",
+    "ml/collect_module2_financial_pdfs.py": "31da6e3cadd11847c981baaf037aebe35960a46f028fb8ed56cb6564ffb81da1"
+  },
+  "output_sha256": "a008734d9a754ed80c6361800b5a32c546f749ed18c0b855a03757b0de1cc371",
+  "limitations": [
+    "Missing matching announcements are incomplete source coverage, not proof that the company published no results.",
+    "A downloaded PDF is not yet an accepted comparative feature; dates, columns, units and source checks still must pass.",
+    "No prediction is backdated and no live rule or model family is changed."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "base_rows": 33733,
+  "official_rows": 33732,
+  "unmatched_secondary_rows": [
+    {
+      "ipo_id": 569,
+      "date": "2026-09-11",
+      "symbol": "LOTUSDEV"
+    }
+  ],
+  "stock_ipo_count": 175,
+  "stock_days_secondary_difference_gt_1pct": 267,
+  "stock_ipos_secondary_difference_gt_1pct": 9,
+  "stock_ipos_with_large_adjustment": [
+    {
+      "ipo_id": 556,
+      "symbol": "AHCL"
+    },
+    {
+      "ipo_id": 659,
+      "symbol": "AASTHA"
+    },
+    {
+      "ipo_id": 661,
+      "symbol": "CORDELIA"
+    }
+  ],
+  "note": "Only stock prices are exchange-native. Sector and Nifty historical closes remain Yahoo-sourced; no stock-price interpolation.",
+  "base_sha256": "9f9f116fd0d8b952be3629d0b403d117a50bc85abc5d2805f6a26e0448926ec3",
+  "official_source_sha256": "da7148770d3c2e2afe8d682f1fd558fc53709f2ef9b5af8c90beaf21cca2d98f",
+  "reconciled_sha256": "b1ca3a0966b6c16b79e01ab2a29e388fc541c16b3047629bc98456d349ca5d1c"
+}

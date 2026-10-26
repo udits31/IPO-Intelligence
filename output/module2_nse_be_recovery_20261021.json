@@ -1,0 +1,817 @@
+{
+  "source_page": "https://www.nseindia.com/report-detail/eq_security",
+  "raw_price_rows_recovered": 361,
+  "ipo_histories_before": 181,
+  "ipo_histories_after": 214,
+  "recovered_complete_ipo_ids": [
+    249,
+    265,
+    270,
+    280,
+    306,
+    332,
+    340,
+    345,
+    346,
+    348,
+    350,
+    354,
+    358,
+    375,
+    376,
+    388,
+    392,
+    406,
+    440,
+    447,
+    448,
+    449,
+    453,
+    455,
+    464,
+    468,
+    470,
+    476,
+    479,
+    485,
+    486,
+    490,
+    497
+  ],
+  "attempts": [
+    {
+      "ipo_id": 249,
+      "symbol": "HPAL",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2021&to=25-03-2022&symbol=HPAL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "235607613e8eaa36536a7f657f1eacf49cbc83e75f7db10ef3d7dd87e19e7e77",
+      "retrieved_at_utc": "2026-10-21T14:18:17.020304+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 265,
+      "symbol": "SIGACHI",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=15-11-2021&to=10-02-2022&symbol=SIGACHI&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "ee83f497c144867d43786b2566d572b90c329a5300cc19aff95ba99844c0c1ce",
+      "retrieved_at_utc": "2026-10-21T14:18:17.747909+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 270,
+      "symbol": "PARAS",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=01-10-2021&to=30-12-2021&symbol=PARAS&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "f2380c7424b50f6deb559d03e08fa3edd38d9d9bb0add509828865e7a1a91836",
+      "retrieved_at_utc": "2026-10-21T14:18:18.486603+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 280,
+      "symbol": "EXXARO",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=16-08-2021&to=15-11-2021&symbol=EXXARO&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "719336ed17b2a16ae30fbf6eae0a39eba9da6c3893be65bbd8f0b21cfb5c86be",
+      "retrieved_at_utc": "2026-10-21T14:18:19.028873+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 283,
+      "symbol": "ALIVUS",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=06-08-2021&to=04-11-2021&symbol=ALIVUS&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "retrieved_at_utc": "2026-10-21T14:18:19.709305+00:00",
+      "be_price_rows": 0,
+      "missing_sessions_recovered": 0
+    },
+    {
+      "ipo_id": 285,
+      "symbol": "ETERNAL",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=23-07-2021&to=21-10-2021&symbol=ETERNAL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "retrieved_at_utc": "2026-10-21T14:18:20.274116+00:00",
+      "be_price_rows": 0,
+      "missing_sessions_recovered": 0
+    },
+    {
+      "ipo_id": 293,
+      "symbol": "PGINVIT",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=14-05-2021&to=11-08-2021&symbol=PGINVIT&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "retrieved_at_utc": "2026-10-21T14:18:20.824483+00:00",
+      "be_price_rows": 0,
+      "missing_sessions_recovered": 0
+    },
+    {
+      "ipo_id": 306,
+      "symbol": "NURECA",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=25-02-2021&to=31-05-2021&symbol=NURECA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "fef675de352791a61380fe9274efc3ee3dc5f3323195a01bc0dbc9f655e03318",
+      "retrieved_at_utc": "2026-10-21T14:18:21.586385+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 307,
+      "symbol": "BIRET",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=16-02-2021&to=20-05-2021&symbol=BIRET&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "retrieved_at_utc": "2026-10-21T14:18:22.131825+00:00",
+      "be_price_rows": 0,
+      "missing_sessions_recovered": 0
+    },
+    {
+      "ipo_id": 315,
+      "symbol": "AFSL",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=23-12-2022&to=22-03-2023&symbol=AFSL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "retrieved_at_utc": "2026-10-21T14:18:22.752756+00:00",
+      "be_price_rows": 0,
+      "missing_sessions_recovered": 0
+    },
+    {
+      "ipo_id": 332,
+      "symbol": "TMB",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=15-09-2022&to=14-12-2022&symbol=TMB&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "4433c91a5cbc6554b012975b6613cb3760675e161e29a589ad24ca6d07c14cb2",
+      "retrieved_at_utc": "2026-10-21T14:18:23.529440+00:00",
+      "be_price_rows": 4,
+      "missing_sessions_recovered": 4
+    },
+    {
+      "ipo_id": 340,
+      "symbol": "VENUSPIPES",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=24-05-2022&to=19-08-2022&symbol=VENUSPIPES&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "b48f32aa5af2cc87ccfc14456e80cab5332b061bb5a018006dda1ba94d450e24",
+      "retrieved_at_utc": "2026-10-21T14:18:24.167325+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 345,
+      "symbol": "HARIOMPIPE",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=13-04-2022&to=12-07-2022&symbol=HARIOMPIPE&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "64af9fd3c35c5046dadf5f2b7eb2d54c725c7930cb0e8408cfca9a595e811557",
+      "retrieved_at_utc": "2026-10-21T14:18:24.786189+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 346,
+      "symbol": "VERANDA",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=11-04-2022&to=08-07-2022&symbol=VERANDA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "b44b0e4532337264170ea2df3ec0f5487b8820193311f56b87511732eebe2047",
+      "retrieved_at_utc": "2026-10-21T14:18:25.357728+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 347,
+      "symbol": "PATANJALI",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=08-04-2022&to=07-07-2022&symbol=PATANJALI&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "b5057bdc61d0443cdfdd36d9d95581156ebcdd20b9e7828e090bf05a50e61af3",
+      "retrieved_at_utc": "2026-10-21T14:18:25.953770+00:00",
+      "be_price_rows": 0,
+      "missing_sessions_recovered": 0
+    },
+    {
+      "ipo_id": 348,
+      "symbol": "UMAEXPORTS",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=07-04-2022&to=06-07-2022&symbol=UMAEXPORTS&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "c89946c8b885e55ddbd2ac4d79c7b32a6f963bdf7873f2c1ae146d64b5162532",
+      "retrieved_at_utc": "2026-10-21T14:18:26.484356+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 350,
+      "symbol": "AWL",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=08-02-2022&to=11-05-2022&symbol=AWL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "53a2fb5adae91232d1132ee4fe407e72888a4c51a4c0300d30ca062c15085a08",
+      "retrieved_at_utc": "2026-10-21T14:18:27.156410+00:00",
+      "be_price_rows": 5,
+      "missing_sessions_recovered": 5
+    },
+    {
+      "ipo_id": 354,
+      "symbol": "RBZJEWEL",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2023&to=27-03-2024&symbol=RBZJEWEL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "766226b0e8fdb95ad074a0ea80e42ec33e1e3bbba4ee1ed555eeed44ea69ae82",
+      "retrieved_at_utc": "2026-10-21T14:18:27.805455+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 358,
+      "symbol": "MOTISONS",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=26-12-2023&to=26-03-2024&symbol=MOTISONS&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "e1313414640c8d28fffd924b764b8e54a393ba3ab6735274020264256853075b",
+      "retrieved_at_utc": "2026-10-21T14:18:28.537885+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 375,
+      "symbol": "PLAZACABLE",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=12-10-2023&to=11-01-2024&symbol=PLAZACABLE&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "d59dd72efbc24bf6e3cc7589d58313ed4f9de9143d9fd9cf7cd4599d6181643c",
+      "retrieved_at_utc": "2026-10-21T14:18:29.084681+00:00",
+      "be_price_rows": 46,
+      "missing_sessions_recovered": 46
+    },
+    {
+      "ipo_id": 376,
+      "symbol": "VALIANTLAB",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=06-10-2023&to=05-01-2024&symbol=VALIANTLAB&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "2a3f8e042d8e5564ee00132d27488541d28e00a3dceb25b5042512ad66066acc",
+      "retrieved_at_utc": "2026-10-21T14:18:29.711554+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 388,
+      "symbol": "RATNAVEER",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=11-09-2023&to=12-12-2023&symbol=RATNAVEER&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "2b824dee77e2d71c97aedbf1f0a59fec22c9b64de234f06f5ed3d39fcdc8fefb",
+      "retrieved_at_utc": "2026-10-21T14:18:30.481115+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 392,
+      "symbol": "PYRAMID",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=29-08-2023&to=29-11-2023&symbol=PYRAMID&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "43e7d6608e5b63575561347a96a1c03dbd087e42d90db5db0e5b930fcad526db",
+      "retrieved_at_utc": "2026-10-21T14:18:31.025201+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 406,
+      "symbol": "GSLSU",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=23-03-2023&to=23-06-2023&symbol=GSLSU&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "58af9c30a46dd0d07d57c7ddb6c0b68b9e355c9c48e7ca73e28712bbe324466e",
+      "retrieved_at_utc": "2026-10-21T14:18:31.714684+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 440,
+      "symbol": "MANBA",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-09-2024&to=30-12-2024&symbol=MANBA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "34bd8236b997ca5bf3289678de7b54960d0618cb7d5898639b16f098caf4aa59",
+      "retrieved_at_utc": "2026-10-21T14:18:32.371338+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 447,
+      "symbol": "TOLINS",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=16-09-2024&to=13-12-2024&symbol=TOLINS&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "102677e701143606f1df959603be75ee3a12f2d6c29b353991ec62188adad6d4",
+      "retrieved_at_utc": "2026-10-21T14:18:33.071959+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 448,
+      "symbol": "BALAJEE",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=12-09-2024&to=11-12-2024&symbol=BALAJEE&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "f7d60e23fd576ea73427b7b353faacc9821e4ab543d0810c4949b3cef40b1452",
+      "retrieved_at_utc": "2026-10-21T14:18:33.803099+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 449,
+      "symbol": "GALAPREC",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=09-09-2024&to=06-12-2024&symbol=GALAPREC&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "34562a99b0add893aa2feaac05e0f42d2af2835df8eb9041bd249ba809d99a7c",
+      "retrieved_at_utc": "2026-10-21T14:18:34.373375+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 453,
+      "symbol": "ORIENTTECH",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=28-08-2024&to=26-11-2024&symbol=ORIENTTECH&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "a48e2fd38104574e8a16b20001a6dc59caa2013d5e1e0965911d8001ef1a60d0",
+      "retrieved_at_utc": "2026-10-21T14:18:35.088003+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 455,
+      "symbol": "SSDL",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=20-08-2024&to=14-11-2024&symbol=SSDL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "b9efb47d597a8d47713e3c88a3aae6b5b63d9c61b90357c2607afea138fd1e34",
+      "retrieved_at_utc": "2026-10-21T14:18:35.634162+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 464,
+      "symbol": "VRAJ",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=03-07-2024&to=30-09-2024&symbol=VRAJ&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "e1e4218b8db32e6fb48ce0c4fbce63358a2176f19db717a151ba46545d4d8be1",
+      "retrieved_at_utc": "2026-10-21T14:18:36.192966+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 468,
+      "symbol": "AFIL",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=26-06-2024&to=23-09-2024&symbol=AFIL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "0acb13cf9397851a5d215c705373d6f4164574f572f78945342539f1c3ab0740",
+      "retrieved_at_utc": "2026-10-21T14:18:36.751927+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 470,
+      "symbol": "KRONOX",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=10-06-2024&to=06-09-2024&symbol=KRONOX&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "4e0ac4a51d33cffd39fbd665c222347f76cdf30afdba3cbe301f392cbe187ffd",
+      "retrieved_at_utc": "2026-10-21T14:18:37.269817+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 476,
+      "symbol": "JNKINDIA",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-04-2024&to=30-07-2024&symbol=JNKINDIA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "b9c26f4991f4e813cd15226a15ff71db81a0e2bc6bdab9128fe50855354a43e4",
+      "retrieved_at_utc": "2026-10-21T14:18:38.002608+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 479,
+      "symbol": "SRM",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=03-04-2024&to=04-07-2024&symbol=SRM&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "5d3b02f8cd2387febc1d61e90827043d1784fb64d218e865e17b7bbc29b5b7ed",
+      "retrieved_at_utc": "2026-10-21T14:18:38.557785+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 485,
+      "symbol": "MUKKA",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=07-03-2024&to=11-06-2024&symbol=MUKKA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "9f42e5510daa18bf3cddac81c9883f84e84bbb08f100b35923505ff078b144de",
+      "retrieved_at_utc": "2026-10-21T14:18:39.271146+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 486,
+      "symbol": "PLATIND",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=05-03-2024&to=07-06-2024&symbol=PLATIND&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "ea2ff8daf7480a8699d94aea3dbcbf366b61ad23d528e5ad155051109e8c7d8d",
+      "retrieved_at_utc": "2026-10-21T14:18:39.973034+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    },
+    {
+      "ipo_id": 490,
+      "symbol": "VSTL",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=20-02-2024&to=24-05-2024&symbol=VSTL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "4f3bce7baf2f30078ffcb4f27c81e62ffbda9a40f575ce2849310fd21bdf5b4c",
+      "retrieved_at_utc": "2026-10-21T14:18:40.587708+00:00",
+      "be_price_rows": 18,
+      "missing_sessions_recovered": 16
+    },
+    {
+      "ipo_id": 497,
+      "symbol": "NOVAAGRI",
+      "status": "verified_response",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=31-01-2024&to=03-05-2024&symbol=NOVAAGRI&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "0506a08780fb8998aa0a0359f79d08d6adb657adcb97365ca5275b7b5a2b81f6",
+      "retrieved_at_utc": "2026-10-21T14:18:41.300019+00:00",
+      "be_price_rows": 10,
+      "missing_sessions_recovered": 10
+    }
+  ],
+  "reconciliation": {
+    "base_ipo_count": 250,
+    "nse_ipo_count": 214,
+    "eligible_ipo_count": 214,
+    "eligible_ipo_ids": [
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      284,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      294,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      409,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500
+    ],
+    "output_rows": 13268,
+    "excluded": [
+      {
+        "ipo_id": 283,
+        "reason": "62 of 62 NSE closes missing"
+      },
+      {
+        "ipo_id": 285,
+        "reason": "62 of 62 NSE closes missing"
+      },
+      {
+        "ipo_id": 293,
+        "reason": "62 of 62 NSE closes missing"
+      },
+      {
+        "ipo_id": 307,
+        "reason": "62 of 62 NSE closes missing"
+      },
+      {
+        "ipo_id": 315,
+        "reason": "62 of 62 NSE closes missing"
+      },
+      {
+        "ipo_id": 347,
+        "reason": "62 of 62 NSE closes missing"
+      },
+      {
+        "ipo_id": 410,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 411,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 412,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 413,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 414,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 415,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 416,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 417,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 418,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 419,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 420,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 421,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 422,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 423,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 424,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 425,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 426,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 427,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 428,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 429,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 430,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 431,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 432,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 433,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 434,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 435,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 436,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 437,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 438,
+        "reason": "fewer than 62 base sessions"
+      },
+      {
+        "ipo_id": 439,
+        "reason": "fewer than 62 base sessions"
+      }
+    ],
+    "base_vs_nse_days_gt_1pct_in_eligible": 1187,
+    "stock_price_source": "NSE security-wise archive: https://www.nseindia.com/report-detail/eq_security",
+    "benchmark_source_note": "Sector and Nifty benchmark closes are inherited from the base secondary snapshot, not NSE-certified here.",
+    "no_imputation": true
+  },
+  "input_sha256": {
+    "data\\audit\\module2_development_prices_2021_2024.csv": "71e32204afe76c47abe89d81ac2e1e471e9bdb52b8424eaf12a9b5eb07bb40a8",
+    "data\\audit\\module2_nse_delivery_development_full_window.csv": "59865e85193a41c734ff38b3674485e0da3dcf973e56c9f92306454fa16eb7b4",
+    "data\\audit\\module2_nse_development_be_closes.csv": "132188cf1188acdb2d4431172c3d4bdca6e5fd25db8066c884e94d0aff9dc4c2"
+  },
+  "output_sha256": "e7c26c4abf6e6974892f66224560178dd4eb491e6618d2750a9d7a6bf065e807",
+  "limitations": [
+    "BE delivery fields can be unavailable; this repair recovers stock closes only.",
+    "Benchmark histories retain the original dated secondary provenance.",
+    "Incomplete late-2024 base histories and historical symbol changes remain separate coverage gaps.",
+    "Neither model, paper nor previously saved forecasts is modified."
+  ]
+}

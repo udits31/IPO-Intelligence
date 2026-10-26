@@ -1,0 +1,222 @@
+{
+  "scope": "development listed NSE-symbol IPOs with matured 31-session checkpoint and 30-session future",
+  "rule": "core/monitor_engine.py at recorded SHA-256; SELL or TAKE PROFIT -> cash, else hold",
+  "decision": "31st observed close (index 30); one decision per IPO",
+  "execution": "next observed close (index 31)",
+  "outcome": "30 sessions after decision for direction; 30 sessions after execution for strategy",
+  "stock_price_basis": [
+    "Official NSE security-wise archive unadjusted Close"
+  ],
+  "limitations": [
+    "NSE stock closes were retrieved retrospectively; original publication-time snapshots are not archived",
+    "No historically timestamped news or filings; price-only policy, not full live Module 2",
+    "Simple close-to-close execution and assumed 0.30% sell cost are illustrative",
+    "No corporate-action reconciliation; split-like days flagged in the ledger"
+  ],
+  "input_sha256": {
+    "data\\audit\\module2_development_prices_2021_2024_nse_first62.csv": "50fe2da43a989ee0b106fb2397d70b7c1762d3a3ce5b5927a0eca79614b377b4",
+    "data\\canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "core/monitor_engine.py": "2f1a1a77635df9fadfd23a32820f78239c58cc8af7a24f7a7167f3164416cf62",
+    "core/attribution_engine.py": "8958f3c98f36ff33384ce0e742fbce184fbbde5c9cb5a92aa6762a48883cbecb"
+  },
+  "coverage": {
+    "available_ipo_count": 181,
+    "eligible_matured_count": 179,
+    "excluded_count": 2,
+    "excluded_by_reason": {
+      "first-day close conflicts with IPO listing record (possible split adjustment)": 2
+    },
+    "sector_comparison_available_count": 133,
+    "broad_market_proxy_count": 45,
+    "benchmark_source_counts": {
+      "Nifty 50 broad-market proxy": 45,
+      "Nifty Infrastructure ETF proxy": 37,
+      "Nifty Bank index": 26,
+      "Nifty Auto ETF proxy": 26,
+      "Nifty Pharma index": 20,
+      "Nifty IT index": 19,
+      "Nifty FMCG ETF proxy": 6
+    },
+    "split_like_future_count": 0
+  },
+  "first_day": {
+    "n": 179,
+    "up_rate_pct": 51.96,
+    "model_accuracy_pct": 48.6,
+    "always_sell_accuracy_pct": 48.04,
+    "always_hold_accuracy_pct": 51.96,
+    "trailing_8_accuracy_pct": 48.04,
+    "model_minus_always_sell_pp": 0.56,
+    "model_minus_always_sell_95ci_pp": [
+      -9.5,
+      10.61
+    ],
+    "model_minus_trailing_8_pp": 0.56,
+    "model_minus_trailing_8_95ci_pp": [
+      -2.79,
+      3.91
+    ],
+    "tn_fp_fn_tp": [
+      44,
+      42,
+      50,
+      43
+    ],
+    "sell_calls": 94,
+    "hold_calls": 85
+  },
+  "day30": {
+    "n": 179,
+    "up_rate_pct": 50.84,
+    "model_accuracy_pct": 53.07,
+    "always_sell_accuracy_pct": 49.16,
+    "always_hold_accuracy_pct": 50.84,
+    "trailing_8_accuracy_pct": 53.63,
+    "model_minus_always_sell_pp": 3.91,
+    "model_minus_always_sell_95ci_pp": [
+      -6.15,
+      13.97
+    ],
+    "model_minus_trailing_8_pp": -0.56,
+    "model_minus_trailing_8_95ci_pp": [
+      -3.91,
+      2.79
+    ],
+    "tn_fp_fn_tp": [
+      49,
+      39,
+      45,
+      46
+    ],
+    "sell_calls": 94,
+    "hold_calls": 85,
+    "model_strategy_net_mean_pct": 1.691,
+    "model_strategy_max_drawdown_mean_pct": -3.47,
+    "trailing_8_strategy_net_mean_pct": 1.917,
+    "trailing_8_strategy_max_drawdown_mean_pct": -2.878,
+    "trailing_25_strategy_net_mean_pct": 2.738,
+    "trailing_25_strategy_max_drawdown_mean_pct": -6.739,
+    "always_hold_net_mean_pct": 2.495,
+    "always_sell_net_mean_pct": -0.3,
+    "model_minus_hold_net_95ci_pp": [
+      -3.07,
+      1.296
+    ]
+  },
+  "by_year": {
+    "2021": {
+      "n": 54,
+      "up_rate_pct": 46.3,
+      "model_accuracy_pct": 48.15,
+      "always_sell_accuracy_pct": 53.7,
+      "always_hold_accuracy_pct": 46.3,
+      "trailing_8_accuracy_pct": 48.15,
+      "model_minus_always_sell_pp": -5.56,
+      "model_minus_always_sell_95ci_pp": [
+        -20.37,
+        9.26
+      ],
+      "model_minus_trailing_8_pp": 0.0,
+      "model_minus_trailing_8_95ci_pp": [
+        -7.41,
+        7.41
+      ],
+      "tn_fp_fn_tp": [
+        19,
+        10,
+        18,
+        7
+      ],
+      "sell_calls": 37,
+      "hold_calls": 17
+    },
+    "2022": {
+      "n": 31,
+      "up_rate_pct": 48.39,
+      "model_accuracy_pct": 58.06,
+      "always_sell_accuracy_pct": 51.61,
+      "always_hold_accuracy_pct": 48.39,
+      "trailing_8_accuracy_pct": 54.84,
+      "model_minus_always_sell_pp": 6.45,
+      "model_minus_always_sell_95ci_pp": [
+        -19.35,
+        32.26
+      ],
+      "model_minus_trailing_8_pp": 3.23,
+      "model_minus_trailing_8_95ci_pp": [
+        -6.45,
+        12.9
+      ],
+      "tn_fp_fn_tp": [
+        9,
+        7,
+        6,
+        9
+      ],
+      "sell_calls": 15,
+      "hold_calls": 16
+    },
+    "2023": {
+      "n": 48,
+      "up_rate_pct": 60.42,
+      "model_accuracy_pct": 64.58,
+      "always_sell_accuracy_pct": 39.58,
+      "always_hold_accuracy_pct": 60.42,
+      "trailing_8_accuracy_pct": 66.67,
+      "model_minus_always_sell_pp": 25.0,
+      "model_minus_always_sell_95ci_pp": [
+        2.08,
+        45.83
+      ],
+      "model_minus_trailing_8_pp": -2.08,
+      "model_minus_trailing_8_95ci_pp": [
+        -6.25,
+        0.0
+      ],
+      "tn_fp_fn_tp": [
+        9,
+        10,
+        7,
+        22
+      ],
+      "sell_calls": 16,
+      "hold_calls": 32
+    },
+    "2024": {
+      "n": 46,
+      "up_rate_pct": 47.83,
+      "model_accuracy_pct": 43.48,
+      "always_sell_accuracy_pct": 52.17,
+      "always_hold_accuracy_pct": 47.83,
+      "trailing_8_accuracy_pct": 45.65,
+      "model_minus_always_sell_pp": -8.7,
+      "model_minus_always_sell_95ci_pp": [
+        -28.26,
+        10.87
+      ],
+      "model_minus_trailing_8_pp": -2.17,
+      "model_minus_trailing_8_95ci_pp": [
+        -6.52,
+        0.0
+      ],
+      "tn_fp_fn_tp": [
+        12,
+        12,
+        14,
+        8
+      ],
+      "sell_calls": 26,
+      "hold_calls": 20
+    }
+  },
+  "excluded": [
+    {
+      "ipo_id": 304,
+      "reason": "first-day close conflicts with IPO listing record (possible split adjustment)"
+    },
+    {
+      "ipo_id": 404,
+      "reason": "first-day close conflicts with IPO listing record (possible split adjustment)"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "source": "NSE corporate-announcement credit-rating PDF attachments disseminated before exact decision cutoffs",
+  "document_archive_sha256": "a71f00ad3d7b73bd72ab3e0ec63cea4d3dd5fa037346a7b4e4e3164fe4766d81",
+  "documents": 39,
+  "case_cohort": {
+    "price_cases": 310,
+    "no_delivery_ipo": 0,
+    "incomplete_31_session_alignment": 25,
+    "no_prior_delivery": 0,
+    "aligned_cases": 285,
+    "all_delivery_sessions_before_decision": true,
+    "aligned_by_year": {
+      "2021": 54,
+      "2022": 31,
+      "2023": 48,
+      "2024": 46,
+      "2025": 83,
+      "2026": 23
+    }
+  },
+  "keyword_document_counts": {
+    "assigned_mention": 16,
+    "reaffirm_mention": 9,
+    "upgrade_mention": 24,
+    "downgrade_mention": 1
+  },
+  "year_support": [
+    {
+      "listing_year": 2021,
+      "cohort_n": 54,
+      "any_rating_attachment_n": 7,
+      "upgrade_mention_n": 5,
+      "upgrade_mention_positive_30d_n": 4,
+      "upgrade_mention_mean_30d_return_pct": 2.11
+    },
+    {
+      "listing_year": 2022,
+      "cohort_n": 31,
+      "any_rating_attachment_n": 7,
+      "upgrade_mention_n": 5,
+      "upgrade_mention_positive_30d_n": 2,
+      "upgrade_mention_mean_30d_return_pct": -0.4
+    },
+    {
+      "listing_year": 2023,
+      "cohort_n": 48,
+      "any_rating_attachment_n": 2,
+      "upgrade_mention_n": 2,
+      "upgrade_mention_positive_30d_n": 1,
+      "upgrade_mention_mean_30d_return_pct": -4.21
+    },
+    {
+      "listing_year": 2024,
+      "cohort_n": 46,
+      "any_rating_attachment_n": 9,
+      "upgrade_mention_n": 4,
+      "upgrade_mention_positive_30d_n": 3,
+      "upgrade_mention_mean_30d_return_pct": 16.19
+    },
+    {
+      "listing_year": 2025,
+      "cohort_n": 83,
+      "any_rating_attachment_n": 5,
+      "upgrade_mention_n": 1,
+      "upgrade_mention_positive_30d_n": 1,
+      "upgrade_mention_mean_30d_return_pct": 4.41
+    },
+    {
+      "listing_year": 2026,
+      "cohort_n": 23,
+      "any_rating_attachment_n": 1,
+      "upgrade_mention_n": 0,
+      "upgrade_mention_positive_30d_n": 0,
+      "upgrade_mention_mean_30d_return_pct": null
+    }
+  ],
+  "minimum_later_event_cases_for_model_test": 10,
+  "later_upgrade_mention_cases": 1,
+  "sufficient_for_event_model_test": false,
+  "interpretation": "Keyword mention is not rating direction; later-year support is too small for a credible predictive test."
+}

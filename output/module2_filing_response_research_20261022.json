@@ -1,0 +1,711 @@
+{
+  "model_family": "Same deterministic monitor family; bounded filing-clock price-response governance research",
+  "new_learned_classifier": false,
+  "live_core_changed": false,
+  "synthetic_training_rows": 0,
+  "protocol": "Same 31st-close checkpoint, next-close execution and 30-later-session direction; all 132 later cases retained.",
+  "source_clock_definition": "Verified selected NSE financial-source publication, not necessarily the first public earnings announcement.",
+  "response_definition": "Daily close before the source clock to decision close; at least two observed post-source closes; same-date Nifty response subtracted.",
+  "candidate_count": 13,
+  "coverage": {
+    "development": {
+      "n": 244,
+      "source_status": {
+        "verified_daily_source_clock_response": 139,
+        "no_eligible_result": 79,
+        "document_unusable": 17,
+        "fewer_than_two_observed_post_source_closes": 5,
+        "unavailable": 4
+      },
+      "verified_response_windows": 139
+    },
+    "later": {
+      "n": 132,
+      "source_status": {
+        "verified_daily_source_clock_response": 108,
+        "no_eligible_result": 12,
+        "document_unusable": 10,
+        "fewer_than_two_observed_post_source_closes": 2
+      },
+      "verified_response_windows": 108
+    },
+    "early_matured_2021_2023_selection": 141,
+    "matured_before_2025_selection": 214
+  },
+  "early_choice": {
+    "parameters": {
+      "mode": "negative_only",
+      "max_publication_age_days": 30,
+      "response_confirm_abs_pct": 3.0
+    },
+    "metrics": {
+      "n": 141,
+      "correct": 85,
+      "accuracy_pct": 60.28368794326241,
+      "balanced_accuracy_pct": 60.535858178888006,
+      "hold_recall_pct": 53.42465753424658,
+      "sell_recall_pct": 67.64705882352942,
+      "always_hold_accuracy_pct": 51.77304964539007,
+      "always_sell_accuracy_pct": 48.226950354609926,
+      "sell_calls": 80,
+      "next_day_accuracy_pct": 48.93617021276596,
+      "conditional_strategy_net_mean_pct": 3.671602695539291
+    },
+    "changed_calls": 5
+  },
+  "early_candidates": [
+    {
+      "parameters": {
+        "mode": "unchanged",
+        "max_publication_age_days": null,
+        "response_confirm_abs_pct": null
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 82,
+        "accuracy_pct": 58.156028368794324,
+        "balanced_accuracy_pct": 58.27961321514907,
+        "hold_recall_pct": 54.794520547945204,
+        "sell_recall_pct": 61.76470588235294,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 75,
+        "next_day_accuracy_pct": 48.226950354609926,
+        "conditional_strategy_net_mean_pct": 3.5007920318464696
+      },
+      "changed_calls": 0
+    },
+    {
+      "parameters": {
+        "mode": "negative_only",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 83,
+        "accuracy_pct": 58.86524822695035,
+        "balanced_accuracy_pct": 59.065269943593876,
+        "hold_recall_pct": 53.42465753424658,
+        "sell_recall_pct": 64.70588235294117,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 78,
+        "next_day_accuracy_pct": 48.93617021276596,
+        "conditional_strategy_net_mean_pct": 3.6279440695793705
+      },
+      "changed_calls": 3
+    },
+    {
+      "parameters": {
+        "mode": "negative_only",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 83,
+        "accuracy_pct": 58.86524822695035,
+        "balanced_accuracy_pct": 59.01490733279613,
+        "hold_recall_pct": 54.794520547945204,
+        "sell_recall_pct": 63.23529411764706,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 76,
+        "next_day_accuracy_pct": 48.93617021276596,
+        "conditional_strategy_net_mean_pct": 3.6184996803233487
+      },
+      "changed_calls": 1
+    },
+    {
+      "parameters": {
+        "mode": "negative_only",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 84,
+        "accuracy_pct": 59.57446808510638,
+        "balanced_accuracy_pct": 60.00201450443191,
+        "hold_recall_pct": 47.94520547945205,
+        "sell_recall_pct": 72.05882352941177,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 87,
+        "next_day_accuracy_pct": 48.226950354609926,
+        "conditional_strategy_net_mean_pct": 3.2524753599959406
+      },
+      "changed_calls": 12
+    },
+    {
+      "parameters": {
+        "mode": "negative_only",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 85,
+        "accuracy_pct": 60.28368794326241,
+        "balanced_accuracy_pct": 60.535858178888006,
+        "hold_recall_pct": 53.42465753424658,
+        "sell_recall_pct": 67.64705882352942,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 80,
+        "next_day_accuracy_pct": 48.93617021276596,
+        "conditional_strategy_net_mean_pct": 3.671602695539291
+      },
+      "changed_calls": 5
+    },
+    {
+      "parameters": {
+        "mode": "positive_only",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 82,
+        "accuracy_pct": 58.156028368794324,
+        "balanced_accuracy_pct": 58.27961321514907,
+        "hold_recall_pct": 54.794520547945204,
+        "sell_recall_pct": 61.76470588235294,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 75,
+        "next_day_accuracy_pct": 48.226950354609926,
+        "conditional_strategy_net_mean_pct": 3.5007920318464696
+      },
+      "changed_calls": 0
+    },
+    {
+      "parameters": {
+        "mode": "positive_only",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 82,
+        "accuracy_pct": 58.156028368794324,
+        "balanced_accuracy_pct": 58.27961321514907,
+        "hold_recall_pct": 54.794520547945204,
+        "sell_recall_pct": 61.76470588235294,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 75,
+        "next_day_accuracy_pct": 48.226950354609926,
+        "conditional_strategy_net_mean_pct": 3.5007920318464696
+      },
+      "changed_calls": 0
+    },
+    {
+      "parameters": {
+        "mode": "positive_only",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 82,
+        "accuracy_pct": 58.156028368794324,
+        "balanced_accuracy_pct": 58.229250604351336,
+        "hold_recall_pct": 56.16438356164384,
+        "sell_recall_pct": 60.29411764705882,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 73,
+        "next_day_accuracy_pct": 48.226950354609926,
+        "conditional_strategy_net_mean_pct": 3.4944379352916877
+      },
+      "changed_calls": 2
+    },
+    {
+      "parameters": {
+        "mode": "positive_only",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 82,
+        "accuracy_pct": 58.156028368794324,
+        "balanced_accuracy_pct": 58.229250604351336,
+        "hold_recall_pct": 56.16438356164384,
+        "sell_recall_pct": 60.29411764705882,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 73,
+        "next_day_accuracy_pct": 48.226950354609926,
+        "conditional_strategy_net_mean_pct": 3.4944379352916877
+      },
+      "changed_calls": 2
+    },
+    {
+      "parameters": {
+        "mode": "both",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 83,
+        "accuracy_pct": 58.86524822695035,
+        "balanced_accuracy_pct": 59.065269943593876,
+        "hold_recall_pct": 53.42465753424658,
+        "sell_recall_pct": 64.70588235294117,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 78,
+        "next_day_accuracy_pct": 48.93617021276596,
+        "conditional_strategy_net_mean_pct": 3.6279440695793705
+      },
+      "changed_calls": 3
+    },
+    {
+      "parameters": {
+        "mode": "both",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 83,
+        "accuracy_pct": 58.86524822695035,
+        "balanced_accuracy_pct": 59.01490733279613,
+        "hold_recall_pct": 54.794520547945204,
+        "sell_recall_pct": 63.23529411764706,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 76,
+        "next_day_accuracy_pct": 48.93617021276596,
+        "conditional_strategy_net_mean_pct": 3.6184996803233487
+      },
+      "changed_calls": 1
+    },
+    {
+      "parameters": {
+        "mode": "both",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 84,
+        "accuracy_pct": 59.57446808510638,
+        "balanced_accuracy_pct": 59.951651893634164,
+        "hold_recall_pct": 49.31506849315068,
+        "sell_recall_pct": 70.58823529411765,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 85,
+        "next_day_accuracy_pct": 48.226950354609926,
+        "conditional_strategy_net_mean_pct": 3.2461212634411583
+      },
+      "changed_calls": 14
+    },
+    {
+      "parameters": {
+        "mode": "both",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 141,
+        "correct": 85,
+        "accuracy_pct": 60.28368794326241,
+        "balanced_accuracy_pct": 60.48549556809024,
+        "hold_recall_pct": 54.794520547945204,
+        "sell_recall_pct": 66.17647058823529,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 78,
+        "next_day_accuracy_pct": 48.93617021276596,
+        "conditional_strategy_net_mean_pct": 3.665248598984509
+      },
+      "changed_calls": 7
+    }
+  ],
+  "selected_on_earlier_data": {
+    "parameters": {
+      "mode": "both",
+      "max_publication_age_days": 30,
+      "response_confirm_abs_pct": 3.0
+    },
+    "metrics": {
+      "n": 214,
+      "correct": 121,
+      "accuracy_pct": 56.54205607476636,
+      "balanced_accuracy_pct": 56.54205607476636,
+      "hold_recall_pct": 49.532710280373834,
+      "sell_recall_pct": 63.55140186915887,
+      "always_hold_accuracy_pct": 50.0,
+      "always_sell_accuracy_pct": 50.0,
+      "sell_calls": 122,
+      "next_day_accuracy_pct": 49.532710280373834,
+      "conditional_strategy_net_mean_pct": 2.278676710198123
+    },
+    "changed_calls": 11
+  },
+  "final_candidates": [
+    {
+      "parameters": {
+        "mode": "unchanged",
+        "max_publication_age_days": null,
+        "response_confirm_abs_pct": null
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 116,
+        "accuracy_pct": 54.20560747663551,
+        "balanced_accuracy_pct": 54.20560747663551,
+        "hold_recall_pct": 49.532710280373834,
+        "sell_recall_pct": 58.87850467289719,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 117,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 2.036059740540375
+      },
+      "changed_calls": 0
+    },
+    {
+      "parameters": {
+        "mode": "negative_only",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 116,
+        "accuracy_pct": 54.20560747663551,
+        "balanced_accuracy_pct": 54.20560747663551,
+        "hold_recall_pct": 47.66355140186916,
+        "sell_recall_pct": 60.747663551401864,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 121,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 1.9332655355762238
+      },
+      "changed_calls": 4
+    },
+    {
+      "parameters": {
+        "mode": "negative_only",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 117,
+        "accuracy_pct": 54.67289719626168,
+        "balanced_accuracy_pct": 54.67289719626168,
+        "hold_recall_pct": 49.532710280373834,
+        "sell_recall_pct": 59.813084112149525,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 118,
+        "next_day_accuracy_pct": 50.467289719626166,
+        "conditional_strategy_net_mean_pct": 2.113614779957384
+      },
+      "changed_calls": 1
+    },
+    {
+      "parameters": {
+        "mode": "negative_only",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 118,
+        "accuracy_pct": 55.140186915887845,
+        "balanced_accuracy_pct": 55.140186915887845,
+        "hold_recall_pct": 42.05607476635514,
+        "sell_recall_pct": 68.22429906542055,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 135,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 1.788905998184378
+      },
+      "changed_calls": 18
+    },
+    {
+      "parameters": {
+        "mode": "negative_only",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 120,
+        "accuracy_pct": 56.074766355140184,
+        "balanced_accuracy_pct": 56.074766355140184,
+        "hold_recall_pct": 47.66355140186916,
+        "sell_recall_pct": 64.48598130841121,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 125,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 2.2474862153472817
+      },
+      "changed_calls": 8
+    },
+    {
+      "parameters": {
+        "mode": "positive_only",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 116,
+        "accuracy_pct": 54.20560747663551,
+        "balanced_accuracy_pct": 54.20560747663551,
+        "hold_recall_pct": 49.532710280373834,
+        "sell_recall_pct": 58.87850467289719,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 117,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 2.036059740540375
+      },
+      "changed_calls": 0
+    },
+    {
+      "parameters": {
+        "mode": "positive_only",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 116,
+        "accuracy_pct": 54.20560747663551,
+        "balanced_accuracy_pct": 54.20560747663551,
+        "hold_recall_pct": 49.532710280373834,
+        "sell_recall_pct": 58.87850467289719,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 117,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 2.036059740540375
+      },
+      "changed_calls": 0
+    },
+    {
+      "parameters": {
+        "mode": "positive_only",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 116,
+        "accuracy_pct": 54.20560747663551,
+        "balanced_accuracy_pct": 54.20560747663551,
+        "hold_recall_pct": 52.336448598130836,
+        "sell_recall_pct": 56.074766355140184,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 111,
+        "next_day_accuracy_pct": 49.06542056074766,
+        "conditional_strategy_net_mean_pct": 2.007849017980006
+      },
+      "changed_calls": 6
+    },
+    {
+      "parameters": {
+        "mode": "positive_only",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 117,
+        "accuracy_pct": 54.67289719626168,
+        "balanced_accuracy_pct": 54.67289719626167,
+        "hold_recall_pct": 51.4018691588785,
+        "sell_recall_pct": 57.943925233644855,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 114,
+        "next_day_accuracy_pct": 49.532710280373834,
+        "conditional_strategy_net_mean_pct": 2.0672502353912163
+      },
+      "changed_calls": 3
+    },
+    {
+      "parameters": {
+        "mode": "both",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 116,
+        "accuracy_pct": 54.20560747663551,
+        "balanced_accuracy_pct": 54.20560747663551,
+        "hold_recall_pct": 47.66355140186916,
+        "sell_recall_pct": 60.747663551401864,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 121,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 1.9332655355762238
+      },
+      "changed_calls": 4
+    },
+    {
+      "parameters": {
+        "mode": "both",
+        "max_publication_age_days": 10,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 117,
+        "accuracy_pct": 54.67289719626168,
+        "balanced_accuracy_pct": 54.67289719626168,
+        "hold_recall_pct": 49.532710280373834,
+        "sell_recall_pct": 59.813084112149525,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 118,
+        "next_day_accuracy_pct": 50.467289719626166,
+        "conditional_strategy_net_mean_pct": 2.113614779957384
+      },
+      "changed_calls": 1
+    },
+    {
+      "parameters": {
+        "mode": "both",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 0.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 118,
+        "accuracy_pct": 55.140186915887845,
+        "balanced_accuracy_pct": 55.140186915887845,
+        "hold_recall_pct": 44.85981308411215,
+        "sell_recall_pct": 65.42056074766354,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 129,
+        "next_day_accuracy_pct": 49.06542056074766,
+        "conditional_strategy_net_mean_pct": 1.7606952756240093
+      },
+      "changed_calls": 24
+    },
+    {
+      "parameters": {
+        "mode": "both",
+        "max_publication_age_days": 30,
+        "response_confirm_abs_pct": 3.0
+      },
+      "metrics": {
+        "n": 214,
+        "correct": 121,
+        "accuracy_pct": 56.54205607476636,
+        "balanced_accuracy_pct": 56.54205607476636,
+        "hold_recall_pct": 49.532710280373834,
+        "sell_recall_pct": 63.55140186915887,
+        "always_hold_accuracy_pct": 50.0,
+        "always_sell_accuracy_pct": 50.0,
+        "sell_calls": 122,
+        "next_day_accuracy_pct": 49.532710280373834,
+        "conditional_strategy_net_mean_pct": 2.278676710198123
+      },
+      "changed_calls": 11
+    }
+  ],
+  "confirmation_2024": {
+    "default": {
+      "n": 91,
+      "correct": 42,
+      "accuracy_pct": 46.15384615384615,
+      "balanced_accuracy_pct": 44.091360476663354,
+      "hold_recall_pct": 31.57894736842105,
+      "sell_recall_pct": 56.60377358490566,
+      "always_hold_accuracy_pct": 41.75824175824176,
+      "always_sell_accuracy_pct": 58.24175824175825,
+      "sell_calls": 56,
+      "next_day_accuracy_pct": 49.45054945054945,
+      "conditional_strategy_net_mean_pct": -1.3204808803752937
+    },
+    "response_rules": {
+      "n": 91,
+      "correct": 42,
+      "accuracy_pct": 46.15384615384615,
+      "balanced_accuracy_pct": 43.71896722939424,
+      "hold_recall_pct": 28.947368421052634,
+      "sell_recall_pct": 58.490566037735846,
+      "always_hold_accuracy_pct": 41.75824175824176,
+      "always_sell_accuracy_pct": 58.24175824175825,
+      "sell_calls": 58,
+      "next_day_accuracy_pct": 49.45054945054945,
+      "conditional_strategy_net_mean_pct": -1.3197628982099585
+    }
+  },
+  "later": {
+    "default": {
+      "n": 132,
+      "correct": 66,
+      "accuracy_pct": 50.0,
+      "balanced_accuracy_pct": 50.649350649350644,
+      "hold_recall_pct": 54.54545454545454,
+      "sell_recall_pct": 46.75324675324675,
+      "always_hold_accuracy_pct": 41.66666666666667,
+      "always_sell_accuracy_pct": 58.333333333333336,
+      "sell_calls": 61,
+      "next_day_accuracy_pct": 53.78787878787878,
+      "conditional_strategy_net_mean_pct": -0.3070142230861545
+    },
+    "response_rules": {
+      "n": 132,
+      "correct": 66,
+      "accuracy_pct": 50.0,
+      "balanced_accuracy_pct": 49.6103896103896,
+      "hold_recall_pct": 47.27272727272727,
+      "sell_recall_pct": 51.94805194805194,
+      "always_hold_accuracy_pct": 41.66666666666667,
+      "always_sell_accuracy_pct": 58.333333333333336,
+      "sell_calls": 69,
+      "next_day_accuracy_pct": 55.3030303030303,
+      "conditional_strategy_net_mean_pct": -0.06784689248078864
+    },
+    "paired_change": {
+      "accuracy_change_pp": 0.0,
+      "bootstrap_95_pp": [
+        -5.303030303030303,
+        5.303030303030303
+      ],
+      "corrected_errors": 6,
+      "introduced_errors": 6
+    }
+  },
+  "requested_accuracy_established": false,
+  "input_sha256": {
+    "data/audit/module2_dated_financial_evidence_quarter_verified_20261022.jsonl": "8c4837eef7bce2cb661d15b0b1ef1f2e9d9023cde7991054ad032fc4cc0dfd6d",
+    "data/audit/module2_development_prices_2021_2024_nse_extended_ca_reconciled.csv": "522de60642a6a7788cf194551e75631043640973b91c9c1e3ed429820736282c",
+    "output/module2_development_decision_ledger_goal_corporate_actions_20261021.csv": "a365178df1477a6225de6c21d2a67092db27717fb5fe9313e2467c08bdc351b0",
+    "data/audit/module2_holdout_prices_2025_2026_nse_full_ca_reconciled.csv": "84e6359639f44034ed65358a1919d85d07e62be0ce281edcba8fc1ae2d38f605",
+    "output/module2_holdout_decision_ledger_goal_corporate_actions_20261021.csv": "432cb86bbb760b37fa5bf205252d7e3ed9e47d88a322e793f0276eeecf771cca",
+    "core/monitor_engine.py": "13360fd955f8a0338bb5aa9a2a11d9c55bb7a1077c6b0a1a4272ffc256c59451",
+    "core/attribution_engine.py": "83c46af1fe2c445a838fcb72c64b81981943d0f8f0c445cb845ee4ee3735c854",
+    "ml/research_module2_filing_response.py": "9f621f9b47afae1d8bc9aaaebee56de380a2bc3d784c640d385cca90b8789331"
+  },
+  "limitations": [
+    "The selected financial source can be later than an earlier PDF or press release; this is not an isolated first-announcement return.",
+    "Daily session-close timing does not establish an intraday quote immediately before a midday publication.",
+    "Nifty prices are retrospective secondary-provider observations, not independently immutable exchange archives.",
+    "Missing anchors, source clocks or market prices retain the default rule; IPOs are not removed and issue price is not a substitute anchor.",
+    "Repeated later-year inspection makes this exploratory, not blind or prospective validation.",
+    "No live policy or paper result is promoted. Literature on announcement responses is not a score for this application."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "model_family": "Unchanged deterministic monitor family with research-only HOLD evidence gate",
+  "live_core_changed": false,
+  "synthetic_rows": 0,
+  "candidate_count": 4,
+  "selected": {
+    "mode": "positive_10_session_stock",
+    "metrics": {
+      "n": 141,
+      "correct": 82,
+      "accuracy_pct": 58.156028368794324,
+      "balanced_accuracy_pct": 58.7832393231265,
+      "hold_recall_pct": 41.0958904109589,
+      "sell_recall_pct": 76.47058823529412,
+      "always_hold_accuracy_pct": 51.77304964539007,
+      "always_sell_accuracy_pct": 48.226950354609926,
+      "sell_calls": 95,
+      "next_day_accuracy_pct": 46.808510638297875,
+      "conditional_strategy_net_mean_pct": 3.0915109910121905
+    },
+    "changed_calls": 20
+  },
+  "candidates": [
+    {
+      "mode": "unchanged",
+      "metrics": {
+        "n": 141,
+        "correct": 82,
+        "accuracy_pct": 58.156028368794324,
+        "balanced_accuracy_pct": 58.27961321514907,
+        "hold_recall_pct": 54.794520547945204,
+        "sell_recall_pct": 61.76470588235294,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 75,
+        "next_day_accuracy_pct": 48.226950354609926,
+        "conditional_strategy_net_mean_pct": 3.5007920318464696
+      },
+      "changed_calls": 0
+    },
+    {
+      "mode": "positive_10_session_stock",
+      "metrics": {
+        "n": 141,
+        "correct": 82,
+        "accuracy_pct": 58.156028368794324,
+        "balanced_accuracy_pct": 58.7832393231265,
+        "hold_recall_pct": 41.0958904109589,
+        "sell_recall_pct": 76.47058823529412,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 95,
+        "next_day_accuracy_pct": 46.808510638297875,
+        "conditional_strategy_net_mean_pct": 3.0915109910121905
+      },
+      "changed_calls": 20
+    },
+    {
+      "mode": "positive_30_session_stock",
+      "metrics": {
+        "n": 141,
+        "correct": 77,
+        "accuracy_pct": 54.60992907801418,
+        "balanced_accuracy_pct": 55.25785656728445,
+        "hold_recall_pct": 36.986301369863014,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 96,
+        "next_day_accuracy_pct": 50.35460992907801,
+        "conditional_strategy_net_mean_pct": 2.961216646560311
+      },
+      "changed_calls": 21
+    },
+    {
+      "mode": "positive_10_session_stock_and_market_relative",
+      "metrics": {
+        "n": 141,
+        "correct": 81,
+        "accuracy_pct": 57.446808510638306,
+        "balanced_accuracy_pct": 58.19903303787268,
+        "hold_recall_pct": 36.986301369863014,
+        "sell_recall_pct": 79.41176470588235,
+        "always_hold_accuracy_pct": 51.77304964539007,
+        "always_sell_accuracy_pct": 48.226950354609926,
+        "sell_calls": 100,
+        "next_day_accuracy_pct": 48.93617021276596,
+        "conditional_strategy_net_mean_pct": 3.116045773872509
+      },
+      "changed_calls": 25
+    }
+  ],
+  "selection_n": 141,
+  "latest_selection_outcome": "2024-02-28",
+  "first_confirmation_decision": "2024-02-29",
+  "confirmation_n": 61,
+  "confirmation": {
+    "default": {
+      "n": 61,
+      "correct": 26,
+      "accuracy_pct": 42.62295081967213,
+      "balanced_accuracy_pct": 42.795698924731184,
+      "hold_recall_pct": 32.25806451612903,
+      "sell_recall_pct": 53.333333333333336,
+      "always_hold_accuracy_pct": 50.81967213114754,
+      "always_sell_accuracy_pct": 49.18032786885246,
+      "sell_calls": 37,
+      "next_day_accuracy_pct": 49.18032786885246,
+      "conditional_strategy_net_mean_pct": -0.6533932386570901
+    },
+    "challenger": {
+      "n": 61,
+      "correct": 28,
+      "accuracy_pct": 45.90163934426229,
+      "balanced_accuracy_pct": 46.18279569892473,
+      "hold_recall_pct": 29.03225806451613,
+      "sell_recall_pct": 63.33333333333333,
+      "always_hold_accuracy_pct": 50.81967213114754,
+      "always_sell_accuracy_pct": 49.18032786885246,
+      "sell_calls": 41,
+      "next_day_accuracy_pct": 52.459016393442624,
+      "conditional_strategy_net_mean_pct": -0.22730787329918953
+    },
+    "paired_change": {
+      "accuracy_change_pp": 3.278688524590164,
+      "bootstrap_95_pp": [
+        -3.278688524590164,
+        9.836065573770492
+      ],
+      "corrected_errors": 3,
+      "introduced_errors": 1
+    }
+  },
+  "earlier_validation_gate_passed": false,
+  "later_evaluated": false,
+  "limitations": [
+    "Hypothesis informed by inspected later errors; not a new blind holdout.",
+    "The gate requires earlier confirmation accuracy above both constant baselines and the default, plus better balanced accuracy.",
+    "2024 confirmations are restricted to outcomes completed by the end-2024 freeze.",
+    "No changed horizon, missing-value imputation, abstention or live promotion."
+  ],
+  "input_sha256": {
+    "data/audit/module2_development_prices_2021_2024_nse_extended_ca_reconciled.csv": "522de60642a6a7788cf194551e75631043640973b91c9c1e3ed429820736282c",
+    "output/module2_development_decision_ledger_goal_corporate_actions_20261021.csv": "a365178df1477a6225de6c21d2a67092db27717fb5fe9313e2467c08bdc351b0",
+    "ml/research_module2_hold_evidence.py": "5ac233d8343b2c3f35cabdd1dee7972d8cdc55304050db2d475ba74b38572648",
+    "ml/research_module2_risk_governance.py": "d58d1eb24d67addbc61cbc0e7ef599474d242ee226dd7da76166ed557948a996",
+    "core/monitor_engine.py": "13360fd955f8a0338bb5aa9a2a11d9c55bb7a1077c6b0a1a4272ffc256c59451"
+  }
+}

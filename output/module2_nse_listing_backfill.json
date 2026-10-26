@@ -1,0 +1,73 @@
+{
+  "ipo_count": 6,
+  "inserted_exchange_rows": 9,
+  "inserted_by_ipo": {
+    "536": 1,
+    "538": 2,
+    "540": 2,
+    "555": 2,
+    "611": 1,
+    "621": 1
+  },
+  "source_dates": [
+    "2025-09-09",
+    "2025-09-10",
+    "2025-10-01",
+    "2025-10-03",
+    "2026-09-08",
+    "2026-09-17"
+  ],
+  "source_archives": [
+    {
+      "date": "20251003",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20251003_F_0000.csv.zip",
+      "status": "verified_archive",
+      "sha256": "e2d47ee53d5dc52fba83bb9eac8d091a4c8da2af0548dfaa233ce09c94354e51",
+      "requested_symbols": 3,
+      "matched_symbols": 3
+    },
+    {
+      "date": "20251001",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20251001_F_0000.csv.zip",
+      "status": "verified_archive",
+      "sha256": "abc637d3e093f2c37eecaebcf8f19243f5916294eeb4a655e91a7eb45922a820",
+      "requested_symbols": 2,
+      "matched_symbols": 2
+    },
+    {
+      "date": "20250909",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250909_F_0000.csv.zip",
+      "status": "verified_archive",
+      "sha256": "6ba58d150213bd1339fbebb5da199efdd94fe04c3f7edd0aee54d1f806dc992b",
+      "requested_symbols": 1,
+      "matched_symbols": 1
+    },
+    {
+      "date": "20250910",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250910_F_0000.csv.zip",
+      "status": "verified_archive",
+      "sha256": "9fc93a160d5cf28a4b3045aaf795e4b2e78b5ad8a8e2e380a51639e4632e02df",
+      "requested_symbols": 1,
+      "matched_symbols": 1
+    },
+    {
+      "date": "20260917",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260917_F_0000.csv.zip",
+      "status": "verified_archive",
+      "sha256": "e4cda994812c889efa32f0436bb5b0670cce5966310d4525a5ccf1fa7192e76e",
+      "requested_symbols": 1,
+      "matched_symbols": 1
+    },
+    {
+      "date": "20260908",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260908_F_0000.csv.zip",
+      "status": "verified_archive",
+      "sha256": "87d13e23fa3e73e0d59c93531d08ed44665029780c399ea10d1260dba19a5143",
+      "requested_symbols": 1,
+      "matched_symbols": 1
+    }
+  ],
+  "rule": "Only missing sessions between canonical NSE listing date and first Yahoo stock close; exact NSE close; benchmark from existing same-day history.",
+  "source_sha256": "9e02b5b6cff2ebaaac922631821038105c05f12656b17b79f7a2be110d645ac7",
+  "audited_sha256": "9f9f116fd0d8b952be3629d0b403d117a50bc85abc5d2805f6a26e0448926ec3"
+}

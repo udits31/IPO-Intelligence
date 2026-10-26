@@ -1,0 +1,94 @@
+{
+  "action_source": "Official NSE equity corporate-action historical responses",
+  "source_page": "https://www.nseindia.com/companies-listing/corporate-filings-actions",
+  "action_windows": [
+    {
+      "source_url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021",
+      "raw_sha256": "f3372c0ae777801578d6304918903bc00a9636e89779d77300b4c693f87873fc",
+      "raw_archive_path": "data\\archive\\module2_corporate_actions\\actions_20210101_20211231.json.gz",
+      "cached_response": true,
+      "parsed_actions": 2325
+    },
+    {
+      "source_url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022",
+      "raw_sha256": "d97ae0b898e57e0b55a3bb9c4caa0b36b99efe5c656d8950fa068ce31909b87f",
+      "raw_archive_path": "data\\archive\\module2_corporate_actions\\actions_20220101_20221231.json.gz",
+      "cached_response": true,
+      "parsed_actions": 2481
+    },
+    {
+      "source_url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023",
+      "raw_sha256": "56ab144a8edc1e5664972434a8fd3a73f7bda9d27adf1143529bfef5c7ac9aef",
+      "raw_archive_path": "data\\archive\\module2_corporate_actions\\actions_20230101_20231231.json.gz",
+      "cached_response": true,
+      "parsed_actions": 2586
+    },
+    {
+      "source_url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024",
+      "raw_sha256": "765e0d8e824153e1f5ab3e1aef89cc9c32cfb5cb4375456149d815008bf29320",
+      "raw_archive_path": "data\\archive\\module2_corporate_actions\\actions_20240101_20241231.json.gz",
+      "cached_response": true,
+      "parsed_actions": 2691
+    },
+    {
+      "source_url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025",
+      "raw_sha256": "0808b405d2d806aaca26c8e78c5d50f33ff8c583d3aacfa7d4e7b8ae59054bd5",
+      "raw_archive_path": "data\\archive\\module2_corporate_actions\\actions_20250101_20251231.json.gz",
+      "cached_response": true,
+      "parsed_actions": 1927
+    },
+    {
+      "source_url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=16-10-2026",
+      "raw_sha256": "cc20b22c05b2306449bd1534693bce56491cec574ba402eecd9b5adb11e904a6",
+      "raw_archive_path": "data\\archive\\module2_corporate_actions\\actions_20260101_20261016.json.gz",
+      "cached_response": true,
+      "parsed_actions": 1849
+    }
+  ],
+  "cohorts": {
+    "development": {
+      "input_sha256": "7883d2de4d91f753935b1830107ba3cbde83f05a04c91c86720d0561f8897125",
+      "output_path": "data\\audit\\module2_development_prices_2021_2024_nse_extended_ca_reconciled.csv",
+      "output_sha256": "522de60642a6a7788cf194551e75631043640973b91c9c1e3ed429820736282c",
+      "input_ipos": 244,
+      "output_ipos": 244,
+      "share_changes": [],
+      "excluded": []
+    },
+    "holdout": {
+      "input_sha256": "b1ca3a0966b6c16b79e01ab2a29e388fc541c16b3047629bc98456d349ca5d1c",
+      "output_path": "data\\audit\\module2_holdout_prices_2025_2026_nse_full_ca_reconciled.csv",
+      "output_sha256": "84e6359639f44034ed65358a1919d85d07e62be0ce281edcba8fc1ae2d38f605",
+      "input_ipos": 175,
+      "output_ipos": 175,
+      "share_changes": [
+        {
+          "ipo_id": 659,
+          "symbol": "AASTHA",
+          "ex_date": "2026-09-28",
+          "subject": "Bonus 1:1",
+          "share_factor": 2.0
+        },
+        {
+          "ipo_id": 661,
+          "symbol": "CORDELIA",
+          "ex_date": "2026-08-25",
+          "subject": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share",
+          "share_factor": 10.0
+        }
+      ],
+      "excluded": []
+    }
+  },
+  "listing_conflicts_checked": 5,
+  "listing_audit_sha256": "d07256ffe487836a472987bbbd3ad3e481c6fefb6007d637545b92613d1d3af9",
+  "evaluation_window": "First 62 actual stock sessions; future corporate events outside the frozen horizon cannot censor earlier outcomes.",
+  "limitations": [
+    "Exchange responses retrieved retrospectively, not archived investor-time publications.",
+    "Absence of an event in a successful response is not independent proof of exhaustive historical coverage.",
+    "Only explicit bonus/split ratios are applied, effective on their ex-date; no guessed price adjustment.",
+    "Unsupported capital events exclude the entire affected replay with a recorded reason.",
+    "Cash dividends are not included; no total-return, slippage or execution-profit claim.",
+    "Canonical IPO values and the live model are unchanged."
+  ]
+}

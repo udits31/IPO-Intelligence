@@ -1,0 +1,764 @@
+{
+  "censored_2024_ipos": 30,
+  "fully_recovered_ipos": 30,
+  "development_ipos_before": 214,
+  "development_ipos_after": 244,
+  "new_exchange_sessions": 1860,
+  "attempts": [
+    {
+      "ipo_id": 410,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=31-12-2024&to=16-03-2025&symbol=UNIMECH&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "b8108204897fe95d3876e008a328af8b1e42d7c62dd5818bc6645434f07f457c",
+      "rows": 53,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 410,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=31-12-2024&to=30-05-2025&symbol=UNIMECH&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "570ffeec3ab705ea155a9f8975b35232d720c2b8f1b6d55ae4ec719cccbf4cd2",
+      "rows": 103,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 410,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=31-12-2024&to=30-05-2025&symbol=UNIMECH&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 411,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=15-03-2025&symbol=VENTIVE&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "4b520351d60ea1757e72c8ef8072a49b1368a9b85da038943cd24bb5a7691340",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 411,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=29-05-2025&symbol=VENTIVE&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "345d625f2106401dee8cc77a64b93198dc2755ffc17f59f7f7577fdead03feb5",
+      "rows": 103,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 411,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=29-05-2025&symbol=VENTIVE&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 412,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=15-03-2025&symbol=CARRARO&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "c919c6f7d3f2cdc84de34c2b16ad3c13e44fce5794599451a6a7c64a4640c558",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 412,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=29-05-2025&symbol=CARRARO&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "7fa33d27fa10176890e30574621bfb338a85d0512333310351f0ec99d99061a7",
+      "rows": 103,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 412,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=29-05-2025&symbol=CARRARO&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 413,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=15-03-2025&symbol=SENORES&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "7b4d689213b37a76bc4a1b3c7f5067ca004d075128c2dfc724b6d720f7cf685e",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 413,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=29-05-2025&symbol=SENORES&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "e463ed8430be0ce264cf7adc40a9b77952e7b28dd892f31cdd1339293c4dcdb9",
+      "rows": 103,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 413,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-12-2024&to=29-05-2025&symbol=SENORES&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 414,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=12-03-2025&symbol=TRANSRAILL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "d927affce203209d2f3c6046713e2d63bada42e5e67bbddd6118056a240b6a91",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 414,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=TRANSRAILL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "5c13d93c345383370b56a1cc508d07e7cf42c96192ee5f5daecdcbf7f27806b6",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 414,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=TRANSRAILL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 415,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=12-03-2025&symbol=CEWATER&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "aac925bf7724bf90d7e41fe97af8cf6c43c6bce3d293947ee6584f2e77d5409f",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 415,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=CEWATER&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "a153c299c8b18d167903f766f7c9f64425045363cd5ba69bcd44d7c8bf7b9a8a",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 415,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=CEWATER&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 416,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=12-03-2025&symbol=SANATHAN&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "642da860b63a68fb3ef25c1c8d303e47af785c8786fecec9497a6fabe32a87d4",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 416,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=SANATHAN&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "c15f07fea5d0827e84ce62493578103212e25b8964919a7d2279ad22e7ff5a91",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 416,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=SANATHAN&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 417,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=12-03-2025&symbol=DAMCAPITAL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "bd4cff40476ef834ec3c3b810580cd4082e88e710aefd3571d483eec79449181",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 417,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=DAMCAPITAL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "c82b4e09403a4528696fdc910e550b0885b9cc6418f72ed8e86e97597bd2aa7c",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 417,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=DAMCAPITAL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 418,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=12-03-2025&symbol=MAMATA&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "5e36c1b077a106501121f0e23b2119f92dcde602bdacb50d84da705331eba867",
+      "rows": 44,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 418,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=MAMATA&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "20e82e82f80539bdf8f89ec295a2aef3833b8f5bd91a799abb52756414761cab",
+      "rows": 91,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 418,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-12-2024&to=26-05-2025&symbol=MAMATA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "9d63efefeefd96157961dba25548f42d0f8298d662bad5c88ef1e5ea365f0ff4",
+      "rows": 10,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 419,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=20-12-2024&to=05-03-2025&symbol=IGIL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "16b6498216939511204f2b4025ea37c82dd238d9c8db82bd9020ebe3e47f31e4",
+      "rows": 53,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 419,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=20-12-2024&to=19-05-2025&symbol=IGIL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "8f6166fc01ccfb364a64b25a59acf4ceb78acc75148a8e8d024f36216cb6e5ed",
+      "rows": 100,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 419,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=20-12-2024&to=19-05-2025&symbol=IGIL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 420,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=19-12-2024&to=04-03-2025&symbol=IKS&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "c5d3bd83ebe49ae152cf44ac05d3ab67bd7803ec47746351997e207cf328962c",
+      "rows": 53,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 420,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=19-12-2024&to=18-05-2025&symbol=IKS&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "cad9acc4d378035c788e3f8cad7aeb3d33d584c72370425b87d2e7fdb5ef54f0",
+      "rows": 100,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 420,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=19-12-2024&to=18-05-2025&symbol=IKS&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 421,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=03-03-2025&symbol=VMM&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "65f888dda8b7292cec49a9ddd0de98d1b40fd6c0b54e8ec52255db0b6a3873bd",
+      "rows": 53,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 421,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=17-05-2025&symbol=VMM&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "64d508efeaa1c67d21cc2252f8ac5fa2cb0b8d799fae30af4eddcf1acc3a771c",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 421,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=17-05-2025&symbol=VMM&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 422,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=03-03-2025&symbol=SAILIFE&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "1fa5c08a7b37506ff5c975822f16b909614e8bc57e592e3cd7c39edbe1793fbb",
+      "rows": 53,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 422,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=17-05-2025&symbol=SAILIFE&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "bc2311a3a855adffef0ddff657a7cb50475628d09d8b2eabdd78821ede93cf04",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 422,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=17-05-2025&symbol=SAILIFE&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 423,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=03-03-2025&symbol=MOBIKWIK&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "2b674ffe80a2a09294a674931bd81b069bb11249dca91693bc5df932f0e37bc0",
+      "rows": 53,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 423,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=17-05-2025&symbol=MOBIKWIK&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "ed845453d90f5cf95ecdec90b2f28ab7de714173676928472114b366b5f81b4d",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 423,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=18-12-2024&to=17-05-2025&symbol=MOBIKWIK&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 424,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=06-12-2024&to=19-02-2025&symbol=SURAKSHA&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "84cb48650bc96d5baf003b6985814ad3537502bf5dbf0328b6c6e385aedf9f90",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 424,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=06-12-2024&to=05-05-2025&symbol=SURAKSHA&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "03e51db4bddd56ca880689618951cd9d139b29305bc4ab075696f2a9a8e6b58b",
+      "rows": 100,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 424,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=06-12-2024&to=05-05-2025&symbol=SURAKSHA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 425,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=29-11-2024&to=12-02-2025&symbol=EIEL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "5e99fd7807338ff22d1b30bb3bc49131af0b46fcb640fc87311d7ea694118bab",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 425,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=29-11-2024&to=28-04-2025&symbol=EIEL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "55d74294f888b00a0e0d6127ace6f70309a2476c5b87c41bb546a7d38263de8e",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 425,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=29-11-2024&to=28-04-2025&symbol=EIEL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 426,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-11-2024&to=10-02-2025&symbol=NTPCGREEN&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "6162a48b420d1651ec5cb99fdbad328cfff62673a31a7a9e6e453ff688b31912",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 426,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-11-2024&to=26-04-2025&symbol=NTPCGREEN&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "b4d3ff260e900d16009cf3803abfba7dfda4911d4c625725117774aea1b1cbfd",
+      "rows": 102,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 426,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=27-11-2024&to=26-04-2025&symbol=NTPCGREEN&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 427,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=22-11-2024&to=05-02-2025&symbol=BLACKBUCK&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "4a7aad46a3f3b3fb321dca17e0cccb0938eac039b0243bcb2eeaed21e100c14e",
+      "rows": 54,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 427,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=22-11-2024&to=21-04-2025&symbol=BLACKBUCK&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "9450829fe98cec0b4d00bbb86c17bf8ade7b5dd281effa42e169a468a982a5a5",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 427,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=22-11-2024&to=21-04-2025&symbol=BLACKBUCK&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 428,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=14-11-2024&to=28-01-2025&symbol=NIVABUPA&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "9443d16321d7bc6def6fed813d523122502bb8362a6ff7f4bdfd21e36b3515f1",
+      "rows": 51,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 428,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=14-11-2024&to=13-04-2025&symbol=NIVABUPA&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "5d9f001bc4b10dbd6ae5b67f86ad8a97f5cfb9e136ca16665c86b036a72447f5",
+      "rows": 101,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 428,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=14-11-2024&to=13-04-2025&symbol=NIVABUPA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 429,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=13-11-2024&to=27-01-2025&symbol=SWIGGY&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "1e9e10d412e533a169d34d9eeba4a21e67d6d63852fa196539ddf6cc59f1667b",
+      "rows": 51,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 429,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=13-11-2024&to=12-04-2025&symbol=SWIGGY&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "3425d4fdd7d31e1edd1091dc16bf5e93611886b5eff3aa2705f237703afafd28",
+      "rows": 102,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 429,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=13-11-2024&to=12-04-2025&symbol=SWIGGY&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 430,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=13-11-2024&to=27-01-2025&symbol=ACMESOLAR&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "1d8aa40169c79a9fd4780bc9852d87b214f055d227744805bc2488603fd2a150",
+      "rows": 51,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 430,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=13-11-2024&to=12-04-2025&symbol=ACMESOLAR&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "08526cbdaeb5ba99bedb5a8abc4ec7e3dc746e0090ce0753d7ad24c7c49b0250",
+      "rows": 102,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 430,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=13-11-2024&to=12-04-2025&symbol=ACMESOLAR&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 431,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=12-11-2024&to=11-04-2025&symbol=SAGILITY&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "8f44ee932b6a7f17b38a4ea3128bee10b162514f5c75faf059ae5567a93534ec",
+      "rows": 67,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 431,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=12-11-2024&to=11-04-2025&symbol=SAGILITY&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "bd4fefc51f587496ceb5bb25423a7804d176147cb6b67dab1074905d4d7d6112",
+      "rows": 36,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 432,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=04-11-2024&to=18-01-2025&symbol=AFCONS&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "83644efee76146872cd2f4e832c1cc9d1aae512a6fb404bc3bee31f060e594da",
+      "rows": 52,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 432,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=04-11-2024&to=03-04-2025&symbol=AFCONS&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "97f7ad332b741be7c73ec0ddf95efbb1d160049b5dc8a4e5a7c66ede5e58b5f8",
+      "rows": 104,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 432,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=04-11-2024&to=03-04-2025&symbol=AFCONS&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 433,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-10-2024&to=13-01-2025&symbol=GODAVARIB&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "f50d5309b2b8fb96926f8dcc84a378010f189a4d6e795801c0cc359060122d54",
+      "rows": 51,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 433,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-10-2024&to=29-03-2025&symbol=GODAVARIB&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "aaee055d71d3e1c35bfbbd5f9ae98494cf3ec855907c60b9ce500bcab527f602",
+      "rows": 78,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 433,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=30-10-2024&to=29-03-2025&symbol=GODAVARIB&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "631ab1890f675b02ecb20ee9faeea8a9e14dc60619aebf54ba9da313318550f7",
+      "rows": 26,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 434,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=28-10-2024&to=11-01-2025&symbol=WAAREEENER&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "f686f7dbf56184ef8e24c7b63ebe8c4a18516c6ca803bdc167356576c4942fd9",
+      "rows": 52,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 434,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=28-10-2024&to=27-03-2025&symbol=WAAREEENER&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "d74d09b72274af12a57d587aeb0967af7929f2f87a1197b5631447f93139a1f9",
+      "rows": 105,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 434,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=28-10-2024&to=27-03-2025&symbol=WAAREEENER&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 435,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=28-10-2024&to=11-01-2025&symbol=DBEIL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "40ac2d510f16db17d1f78295aa2f9465979a9be12bbbaacc77a7a3e655f357a7",
+      "rows": 52,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 435,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=28-10-2024&to=27-03-2025&symbol=DBEIL&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "e7997539577ce31fb83457d0021f61f50e10ffb3457975a52ff27c5af8252fcb",
+      "rows": 105,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 435,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=28-10-2024&to=27-03-2025&symbol=DBEIL&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 436,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=22-10-2024&to=05-01-2025&symbol=HYUNDAI&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "7302e4bee5cf0cfbb5fadeb59409087f26de2f0776fb9198be2662cc5410a23b",
+      "rows": 51,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 436,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=22-10-2024&to=21-03-2025&symbol=HYUNDAI&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "10cc792c2b1a4ae172998a417a51b6fe63732c80a7e3e3d78c26f268da7505d4",
+      "rows": 105,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 436,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=22-10-2024&to=21-03-2025&symbol=HYUNDAI&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 437,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=15-10-2024&to=29-12-2024&symbol=GARUDA&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "7dc0071e1002d08570ccacac570b12ca6ad3cb4fb47dc7bb4464800ebabd3fb9",
+      "rows": 51,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 437,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=15-10-2024&to=14-03-2025&symbol=GARUDA&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "c9d0bdbf767d9ab45c224b1a578567c06a54e4341663d741cf8acd5ce909e2e8",
+      "rows": 105,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 437,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=15-10-2024&to=14-03-2025&symbol=GARUDA&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 438,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=04-10-2024&to=18-12-2024&symbol=DIFFNKG&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "49ecd85e70493bbfbfeed4285dc383734850ee91ec443064f25ad90f5070a49e",
+      "rows": 42,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 438,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=04-10-2024&to=03-03-2025&symbol=DIFFNKG&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "bacd16aff3aaa13a71be6622ba29e40158d8e4c33e896c2bfae71cca6eaea1f4",
+      "rows": 86,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 438,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=04-10-2024&to=03-03-2025&symbol=DIFFNKG&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "86b7b24958a694b8fa2114bc213941cc1d1515ae8bfbaa42af548160e63c8eaa",
+      "rows": 18,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 439,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=03-10-2024&to=17-12-2024&symbol=KRN&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "903430db394e9b3c76e660efc0a4f2a774fa78811c82b2f5add5fe949745104b",
+      "rows": 52,
+      "cached_response": false,
+      "purpose": "recover source-truncated beginning"
+    },
+    {
+      "ipo_id": 439,
+      "series": "EQ",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=03-10-2024&to=02-03-2025&symbol=KRN&type=priceVolumeDeliverable&series=EQ",
+      "raw_sha256": "0d7c71cbcf9d4cc7fb973113311b88751b6f587253f685c7fb683068e573b9ed",
+      "rows": 104,
+      "cached_response": true
+    },
+    {
+      "ipo_id": 439,
+      "series": "BE",
+      "source_url": "https://www.nseindia.com/api/historicalOR/generateSecurityWiseHistoricalData?from=03-10-2024&to=02-03-2025&symbol=KRN&type=priceVolumeDeliverable&series=BE",
+      "raw_sha256": "8fe32e407a1038ee38753b70e5374b3a46d6ae9d5f16cd5b73c53abaca8f5ed0",
+      "rows": 0,
+      "cached_response": true
+    }
+  ],
+  "excluded": [],
+  "stopped_for_access_limit": false,
+  "input_sha256": {
+    "data\\audit\\module2_development_prices_2021_2024.csv": "71e32204afe76c47abe89d81ac2e1e471e9bdb52b8424eaf12a9b5eb07bb40a8",
+    "data\\audit\\module2_development_prices_2021_2024_nse_with_be.csv": "e7c26c4abf6e6974892f66224560178dd4eb491e6618d2750a9d7a6bf065e807",
+    "data\\audit\\module2_late2024_benchmarks.csv": "45624fd2837af4c972d361e1efd7174664250b58f280110027d86984faceff7d"
+  },
+  "output_sha256": "7883d2de4d91f753935b1830107ba3cbde83f05a04c91c86720d0561f8897125",
+  "limitations": [
+    "Real 2025 sessions are outcomes for 2024 IPOs, not permission to fit future labels before their publication.",
+    "Nifty and sector values are dated Yahoo observations, not exchange-certified benchmarks.",
+    "Missing sector cells stay missing; prices and trading sessions are not interpolated.",
+    "Historical symbol-change gaps are not resolved by guessing aliases."
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "scope": "development listed NSE-symbol IPOs with matured 31-session checkpoint and 30-session future",
+  "rule": "core/monitor_engine.py at recorded SHA-256; SELL or TAKE PROFIT -> cash, else hold",
+  "decision": "31st observed close (index 30); one decision per IPO",
+  "execution": "next observed close (index 31)",
+  "outcome": "30 sessions after decision for direction; 30 sessions after execution for strategy",
+  "stock_price_basis": [
+    "Official NSE closes in listing-share units; dated NSE bonus/split reconciliation"
+  ],
+  "limitations": [
+    "NSE stock closes were retrieved retrospectively; original publication-time snapshots are not archived",
+    "No historically timestamped news or filings; price-only policy, not full live Module 2",
+    "Simple close-to-close execution and assumed 0.30% sell cost are illustrative",
+    "Explicit NSE bonus/split events reconciled in listing-share units; cash dividends not included; source coverage is retrospective"
+  ],
+  "input_sha256": {
+    "data\\audit\\module2_development_prices_2021_2024_nse_extended_ca_reconciled.csv": "522de60642a6a7788cf194551e75631043640973b91c9c1e3ed429820736282c",
+    "data\\canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "core/monitor_engine.py": "390042fc56955343e5d899e603deaea5f595ea43bb0bbcdbae99de589602fe33",
+    "core/attribution_engine.py": "80f74f5c0a8da7c613e992fc758f2b008e9a45487b70ffae95149c3bbc35edf2",
+    "output\\module2_listing_close_resolution_20261021.csv": "d07256ffe487836a472987bbbd3ad3e481c6fefb6007d637545b92613d1d3af9"
+  },
+  "coverage": {
+    "available_ipo_count": 244,
+    "eligible_matured_count": 244,
+    "excluded_count": 0,
+    "excluded_by_reason": {},
+    "sector_comparison_available_count": 182,
+    "broad_market_proxy_count": 61,
+    "benchmark_source_counts": {
+      "Nifty 50 broad-market proxy": 61,
+      "Nifty Infrastructure ETF proxy": 51,
+      "Nifty Auto ETF proxy": 38,
+      "Nifty Bank index": 31,
+      "Nifty Pharma index": 29,
+      "Nifty IT index": 24,
+      "Nifty FMCG ETF proxy": 10
+    },
+    "split_like_future_count": 0
+  },
+  "first_day": {
+    "n": 244,
+    "up_rate_pct": 49.18,
+    "model_accuracy_pct": 50.0,
+    "always_sell_accuracy_pct": 50.82,
+    "always_hold_accuracy_pct": 49.18,
+    "trailing_8_accuracy_pct": 49.18,
+    "model_minus_always_sell_pp": -0.82,
+    "model_minus_always_sell_95ci_pp": [
+      -9.43,
+      7.38
+    ],
+    "model_minus_trailing_8_pp": 0.82,
+    "model_minus_trailing_8_95ci_pp": [
+      -2.05,
+      3.69
+    ],
+    "tn_fp_fn_tp": [
+      69,
+      55,
+      67,
+      53
+    ],
+    "sell_calls": 136,
+    "hold_calls": 108
+  },
+  "day30": {
+    "n": 244,
+    "up_rate_pct": 46.72,
+    "model_accuracy_pct": 54.1,
+    "always_sell_accuracy_pct": 53.28,
+    "always_hold_accuracy_pct": 46.72,
+    "trailing_8_accuracy_pct": 55.74,
+    "model_minus_always_sell_pp": 0.82,
+    "model_minus_always_sell_95ci_pp": [
+      -7.38,
+      9.02
+    ],
+    "model_minus_trailing_8_pp": -1.64,
+    "model_minus_trailing_8_95ci_pp": [
+      -4.51,
+      0.82
+    ],
+    "tn_fp_fn_tp": [
+      77,
+      53,
+      59,
+      55
+    ],
+    "sell_calls": 136,
+    "hold_calls": 108,
+    "model_strategy_net_mean_pct": 1.457,
+    "model_strategy_max_drawdown_mean_pct": -6.46,
+    "trailing_8_strategy_net_mean_pct": 1.811,
+    "trailing_8_strategy_max_drawdown_mean_pct": -5.505,
+    "trailing_25_strategy_net_mean_pct": 2.084,
+    "trailing_25_strategy_max_drawdown_mean_pct": -12.418,
+    "always_hold_net_mean_pct": 1.42,
+    "always_sell_net_mean_pct": -0.3,
+    "model_minus_hold_net_95ci_pp": [
+      -1.914,
+      1.843
+    ]
+  },
+  "by_year": {
+    "2021": {
+      "n": 60,
+      "up_rate_pct": 45.0,
+      "model_accuracy_pct": 50.0,
+      "always_sell_accuracy_pct": 55.0,
+      "always_hold_accuracy_pct": 45.0,
+      "trailing_8_accuracy_pct": 50.0,
+      "model_minus_always_sell_pp": -5.0,
+      "model_minus_always_sell_95ci_pp": [
+        -18.33,
+        8.33
+      ],
+      "model_minus_trailing_8_pp": 0.0,
+      "model_minus_trailing_8_95ci_pp": [
+        -6.67,
+        6.67
+      ],
+      "tn_fp_fn_tp": [
+        22,
+        11,
+        19,
+        8
+      ],
+      "sell_calls": 41,
+      "hold_calls": 19
+    },
+    "2022": {
+      "n": 37,
+      "up_rate_pct": 51.35,
+      "model_accuracy_pct": 62.16,
+      "always_sell_accuracy_pct": 48.65,
+      "always_hold_accuracy_pct": 51.35,
+      "trailing_8_accuracy_pct": 59.46,
+      "model_minus_always_sell_pp": 13.51,
+      "model_minus_always_sell_95ci_pp": [
+        -8.11,
+        35.14
+      ],
+      "model_minus_trailing_8_pp": 2.7,
+      "model_minus_trailing_8_95ci_pp": [
+        -5.41,
+        10.81
+      ],
+      "tn_fp_fn_tp": [
+        11,
+        7,
+        7,
+        12
+      ],
+      "sell_calls": 18,
+      "hold_calls": 19
+    },
+    "2023": {
+      "n": 56,
+      "up_rate_pct": 53.57,
+      "model_accuracy_pct": 66.07,
+      "always_sell_accuracy_pct": 46.43,
+      "always_hold_accuracy_pct": 53.57,
+      "trailing_8_accuracy_pct": 67.86,
+      "model_minus_always_sell_pp": 19.64,
+      "model_minus_always_sell_95ci_pp": [
+        -1.79,
+        39.29
+      ],
+      "model_minus_trailing_8_pp": -1.79,
+      "model_minus_trailing_8_95ci_pp": [
+        -5.36,
+        0.0
+      ],
+      "tn_fp_fn_tp": [
+        14,
+        12,
+        7,
+        23
+      ],
+      "sell_calls": 21,
+      "hold_calls": 35
+    },
+    "2024": {
+      "n": 91,
+      "up_rate_pct": 41.76,
+      "model_accuracy_pct": 46.15,
+      "always_sell_accuracy_pct": 58.24,
+      "always_hold_accuracy_pct": 41.76,
+      "trailing_8_accuracy_pct": 50.55,
+      "model_minus_always_sell_pp": -12.09,
+      "model_minus_always_sell_95ci_pp": [
+        -24.18,
+        0.0
+      ],
+      "model_minus_trailing_8_pp": -4.4,
+      "model_minus_trailing_8_95ci_pp": [
+        -8.79,
+        -1.1
+      ],
+      "tn_fp_fn_tp": [
+        30,
+        23,
+        26,
+        12
+      ],
+      "sell_calls": 56,
+      "hold_calls": 35
+    }
+  },
+  "excluded": [],
+  "resolved_listing_close_conflicts": [
+    {
+      "ipo_id": 304,
+      "canonical_close": 627.0,
+      "verified_nse_close": 812.6
+    },
+    {
+      "ipo_id": 404,
+      "canonical_close": 1080.0,
+      "verified_nse_close": 1422.3
+    },
+    {
+      "ipo_id": 424,
+      "canonical_close": 441.0,
+      "verified_nse_close": 417.25
+    },
+    {
+      "ipo_id": 440,
+      "canonical_close": 157.45,
+      "verified_nse_close": 152.25
+    }
+  ]
+}

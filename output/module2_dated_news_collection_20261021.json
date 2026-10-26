@@ -1,0 +1,44 @@
+{
+  "planned_cases": 376,
+  "attempted_cases": 376,
+  "verified_responses": 376,
+  "cases_with_articles": 91,
+  "eligible_articles": 235,
+  "by_year": {
+    "2021": {
+      "cases": 60,
+      "nonempty": 7
+    },
+    "2022": {
+      "cases": 37,
+      "nonempty": 7
+    },
+    "2023": {
+      "cases": 56,
+      "nonempty": 9
+    },
+    "2024": {
+      "cases": 91,
+      "nonempty": 27
+    },
+    "2025": {
+      "cases": 101,
+      "nonempty": 33
+    },
+    "2026": {
+      "cases": 31,
+      "nonempty": 8
+    }
+  },
+  "input_sha256": {
+    "output/module2_development_decision_ledger_goal_corporate_actions_20261021.csv": "a365178df1477a6225de6c21d2a67092db27717fb5fe9313e2467c08bdc351b0",
+    "output/module2_holdout_decision_ledger_goal_corporate_actions_20261021.csv": "432cb86bbb760b37fa5bf205252d7e3ed9e47d88a322e793f0276eeecf771cca"
+  },
+  "output_sha256": "20b21708f2d9543f0cc4c3e72684cdf2a4c6768cf23d38ad667b2cd5961c579c",
+  "limitations": [
+    "Secondary retrospective search index; original publisher clocks and immutable text not independently verified.",
+    "Empty search results are not proof that no company news existed.",
+    "Same-day headlines excluded conservatively; no post-decision or future news is included.",
+    "No sentiment label, price, news article or IPO training row was synthesized."
+  ]
+}

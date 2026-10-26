@@ -1,0 +1,337 @@
+{
+  "scope": "2025-26 listed NSE-symbol IPOs with matured 31-session checkpoint and 30-session future",
+  "rule": "core/monitor_engine.py at recorded SHA-256; SELL or TAKE PROFIT -> cash, else hold",
+  "decision": "31st observed close (index 30); one decision per IPO",
+  "execution": "next observed close (index 31)",
+  "outcome": "30 sessions after decision for direction; 30 sessions after execution for strategy",
+  "limitations": [
+    "Yahoo historical closes are secondary and retrieved after the fact; exchange verification pending",
+    "No historically timestamped news or filings; price-only policy, not full live Module 2",
+    "Simple close-to-close execution and assumed 0.30% sell cost are illustrative",
+    "No corporate-action reconciliation; split-like days flagged in the ledger"
+  ],
+  "input_sha256": {
+    "data\\audit\\module2_holdout_prices_2025_2026.csv": "ca69bf75acfbeff0a36e45a79c8d0dba22f69c83747a540850dd8ff180cb2939",
+    "data\\canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "core/monitor_engine.py": "c0541ffdd47dc33fd27cec657b8b7bb4ebd6d80114969eb52541a73c989f1885",
+    "core/attribution_engine.py": "492c2bcb38d1ecef639466e1c2a6a5abdbb447ccd819bb899ef3368725d018ba"
+  },
+  "coverage": {
+    "available_ipo_count": 175,
+    "eligible_matured_count": 128,
+    "excluded_count": 47,
+    "excluded_by_reason": {
+      "insufficient 30-session future": 43,
+      "first-day close conflicts with IPO listing record (possible split adjustment)": 4
+    },
+    "split_like_future_count": 0
+  },
+  "first_day": {
+    "n": 128,
+    "up_rate_pct": 50.78,
+    "model_accuracy_pct": 53.12,
+    "always_sell_accuracy_pct": 49.22,
+    "always_hold_accuracy_pct": 50.78,
+    "trailing_8_accuracy_pct": 52.34,
+    "model_minus_always_sell_pp": 3.91,
+    "model_minus_always_sell_95ci_pp": [
+      -8.59,
+      17.19
+    ],
+    "model_minus_trailing_8_pp": 0.78,
+    "model_minus_trailing_8_95ci_pp": [
+      -4.69,
+      6.25
+    ],
+    "tn_fp_fn_tp": [
+      30,
+      33,
+      27,
+      38
+    ],
+    "sell_calls": 57,
+    "hold_calls": 71
+  },
+  "day30": {
+    "n": 128,
+    "up_rate_pct": 40.62,
+    "model_accuracy_pct": 50.78,
+    "always_sell_accuracy_pct": 59.38,
+    "always_hold_accuracy_pct": 40.62,
+    "trailing_8_accuracy_pct": 50.0,
+    "model_minus_always_sell_pp": -8.59,
+    "model_minus_always_sell_95ci_pp": [
+      -21.88,
+      3.91
+    ],
+    "model_minus_trailing_8_pp": 0.78,
+    "model_minus_trailing_8_95ci_pp": [
+      -4.69,
+      6.25
+    ],
+    "tn_fp_fn_tp": [
+      35,
+      41,
+      22,
+      30
+    ],
+    "sell_calls": 57,
+    "hold_calls": 71,
+    "model_strategy_net_mean_pct": -0.413,
+    "model_strategy_max_drawdown_mean_pct": -5.252,
+    "trailing_8_strategy_net_mean_pct": -0.594,
+    "trailing_8_strategy_max_drawdown_mean_pct": -4.432,
+    "trailing_25_strategy_net_mean_pct": -1.219,
+    "trailing_25_strategy_max_drawdown_mean_pct": -8.083,
+    "always_hold_net_mean_pct": -1.626,
+    "always_sell_net_mean_pct": -0.3,
+    "model_minus_hold_net_95ci_pp": [
+      -0.792,
+      3.137
+    ]
+  },
+  "by_year": {
+    "2025": {
+      "n": 100,
+      "up_rate_pct": 32.0,
+      "model_accuracy_pct": 49.0,
+      "always_sell_accuracy_pct": 68.0,
+      "always_hold_accuracy_pct": 32.0,
+      "trailing_8_accuracy_pct": 52.0,
+      "model_minus_always_sell_pp": -19.0,
+      "model_minus_always_sell_95ci_pp": [
+        -33.0,
+        -5.0
+      ],
+      "model_minus_trailing_8_pp": -3.0,
+      "model_minus_trailing_8_95ci_pp": [
+        -9.0,
+        3.0
+      ],
+      "tn_fp_fn_tp": [
+        32,
+        36,
+        15,
+        17
+      ],
+      "sell_calls": 47,
+      "hold_calls": 53
+    },
+    "2026": {
+      "n": 28,
+      "up_rate_pct": 71.43,
+      "model_accuracy_pct": 57.14,
+      "always_sell_accuracy_pct": 28.57,
+      "always_hold_accuracy_pct": 71.43,
+      "trailing_8_accuracy_pct": 42.86,
+      "model_minus_always_sell_pp": 28.57,
+      "model_minus_always_sell_95ci_pp": [
+        0.0,
+        53.57
+      ],
+      "model_minus_trailing_8_pp": 14.29,
+      "model_minus_trailing_8_95ci_pp": [
+        3.57,
+        28.57
+      ],
+      "tn_fp_fn_tp": [
+        3,
+        5,
+        7,
+        13
+      ],
+      "sell_calls": 10,
+      "hold_calls": 18
+    }
+  },
+  "excluded": [
+    {
+      "ipo_id": 556,
+      "reason": "first-day close conflicts with IPO listing record (possible split adjustment)"
+    },
+    {
+      "ipo_id": 610,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 611,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 612,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 613,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 614,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 615,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 616,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 617,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 618,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 619,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 620,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 621,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 622,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 623,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 624,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 625,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 626,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 627,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 628,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 629,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 630,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 631,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 632,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 633,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 634,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 635,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 636,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 637,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 638,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 639,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 640,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 641,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 642,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 643,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 644,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 645,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 646,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 647,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 648,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 650,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 651,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 652,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 653,
+      "reason": "insufficient 30-session future"
+    },
+    {
+      "ipo_id": 659,
+      "reason": "first-day close conflicts with IPO listing record (possible split adjustment)"
+    },
+    {
+      "ipo_id": 661,
+      "reason": "first-day close conflicts with IPO listing record (possible split adjustment)"
+    },
+    {
+      "ipo_id": 664,
+      "reason": "first-day close conflicts with IPO listing record (possible split adjustment)"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "original_snapshot_sha256": "f48040b35573a9c3bcc48aa797b505c060b5b5fb30d02f20572d0139a97e2d29",
+  "reprocessed_sha256": "8c4837eef7bce2cb661d15b0b1ef1f2e9d9023cde7991054ad032fc4cc0dfd6d",
+  "cases": 376,
+  "original_verified": 186,
+  "verified_after_recheck": 254,
+  "recovered_from_exact_quarter_detail": 68,
+  "statuses": {
+    "verified_quarterly_metrics": 254,
+    "no_eligible_result": 91,
+    "document_unusable": 27,
+    "unavailable": 4
+  },
+  "stopped_on_access_restriction": null,
+  "rule": "No YTD/annual period used as a quarter; exact NSE detail and raw XML must agree. Missing values remain missing.",
+  "limitations": [
+    "Retrospective source retrieval; latest served filing attachments may not be immutable historical snapshots.",
+    "No earnings surprise, forward guidance or year-over-year growth is inferred."
+  ]
+}

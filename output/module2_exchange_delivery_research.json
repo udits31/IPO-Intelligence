@@ -1,0 +1,293 @@
+{
+  "protocol": "NSE stock closes and prior-session delivery; 2021-23 fit, C selected on 2024 Brier, 2021-24 refit, exploratory 2025-26 same-cohort evaluation",
+  "input_sha256": {
+    "data\\audit\\module2_development_prices_2021_2024_nse_first62.csv": "50fe2da43a989ee0b106fb2397d70b7c1762d3a3ce5b5927a0eca79614b377b4",
+    "data\\audit\\module2_holdout_prices_2025_2026_nse_full.csv": "b1ca3a0966b6c16b79e01ab2a29e388fc541c16b3047629bc98456d349ca5d1c",
+    "data\\audit\\module2_nse_delivery_development_full_window.csv": "59865e85193a41c734ff38b3674485e0da3dcf973e56c9f92306454fa16eb7b4",
+    "data\\audit\\module2_nse_delivery_holdout.csv": "3716a7c7c90c3aac4442786a1ef834482be8a8d37e3670325e6e58d8d2adc5a3",
+    "output\\module2_development_decision_ledger_nse_first62_20261020.csv": "71bede496b593b10bb0e477118803814c62bf7be9415d28b775a4dfab1e25783",
+    "output\\module2_holdout_decision_ledger_nse_full.csv": "5a368c7adfc71f3a176967121f56d8d7da13acb2244139fded024a0fbedd6bf0"
+  },
+  "coverage": {
+    "price_cases": 310,
+    "no_delivery_ipo": 0,
+    "incomplete_31_session_alignment": 25,
+    "no_prior_delivery": 0,
+    "aligned_cases": 285,
+    "all_delivery_sessions_before_decision": true,
+    "aligned_by_year": {
+      "2021": 54,
+      "2022": 31,
+      "2023": 48,
+      "2024": 46,
+      "2025": 83,
+      "2026": 23
+    },
+    "complete_feature_cases": 285,
+    "complete_by_year": {
+      "2021": 54,
+      "2022": 31,
+      "2023": 48,
+      "2024": 46,
+      "2025": 83,
+      "2026": 23
+    }
+  },
+  "features": {
+    "price_only": [
+      "stock_5",
+      "stock_10",
+      "stock_30",
+      "nifty_10",
+      "nifty_30",
+      "drawdown_30",
+      "volatility_20"
+    ],
+    "delivery": [
+      "delivery_5_mean_pct",
+      "delivery_20_mean_pct",
+      "delivery_5_minus_20_pct",
+      "traded_qty_5_to_20"
+    ]
+  },
+  "candidates": [
+    {
+      "name": "price_only",
+      "C": 0.01,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.84,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2522,
+        "auc": 0.5227,
+        "predicted_up_pct": 65.22
+      }
+    },
+    {
+      "name": "price_only",
+      "C": 0.1,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 50.0,
+        "balanced_accuracy_pct": 50.38,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2553,
+        "auc": 0.5322,
+        "predicted_up_pct": 58.7
+      }
+    },
+    {
+      "name": "price_only",
+      "C": 1.0,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.46,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2582,
+        "auc": 0.5152,
+        "predicted_up_pct": 56.52
+      }
+    },
+    {
+      "name": "price_only",
+      "C": 10.0,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 50.0,
+        "balanced_accuracy_pct": 50.19,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2589,
+        "auc": 0.5057,
+        "predicted_up_pct": 54.35
+      }
+    },
+    {
+      "name": "price_plus_delivery",
+      "C": 0.01,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.84,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2492,
+        "auc": 0.5701,
+        "predicted_up_pct": 65.22
+      }
+    },
+    {
+      "name": "price_plus_delivery",
+      "C": 0.1,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 45.65,
+        "balanced_accuracy_pct": 45.83,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2494,
+        "auc": 0.5663,
+        "predicted_up_pct": 54.35
+      }
+    },
+    {
+      "name": "price_plus_delivery",
+      "C": 1.0,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.08,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.251,
+        "auc": 0.5568,
+        "predicted_up_pct": 47.83
+      }
+    },
+    {
+      "name": "price_plus_delivery",
+      "C": 10.0,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.08,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2514,
+        "auc": 0.5549,
+        "predicted_up_pct": 47.83
+      }
+    }
+  ],
+  "comparisons": {
+    "price_only": {
+      "selected_C_on_2024": 0.01,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.84,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2522,
+        "auc": 0.5227,
+        "predicted_up_pct": 65.22
+      },
+      "later": {
+        "n": 106,
+        "up_rate_pct": 41.51,
+        "accuracy_pct": 45.28,
+        "balanced_accuracy_pct": 48.94,
+        "always_sell_pct": 58.49,
+        "always_hold_pct": 41.51,
+        "brier": 0.2544,
+        "auc": 0.5176,
+        "predicted_up_pct": 71.7
+      },
+      "later_by_year": {
+        "2025": {
+          "n": 83,
+          "up_rate_pct": 33.73,
+          "accuracy_pct": 40.96,
+          "balanced_accuracy_pct": 46.69,
+          "always_sell_pct": 66.27,
+          "always_hold_pct": 33.73,
+          "brier": 0.2595,
+          "auc": 0.4753,
+          "predicted_up_pct": 68.67
+        },
+        "2026": {
+          "n": 23,
+          "up_rate_pct": 69.57,
+          "accuracy_pct": 60.87,
+          "balanced_accuracy_pct": 47.77,
+          "always_sell_pct": 30.43,
+          "always_hold_pct": 69.57,
+          "brier": 0.2359,
+          "auc": 0.5714,
+          "predicted_up_pct": 82.61
+        }
+      }
+    },
+    "price_plus_delivery": {
+      "selected_C_on_2024": 0.01,
+      "validation": {
+        "n": 46,
+        "up_rate_pct": 47.83,
+        "accuracy_pct": 52.17,
+        "balanced_accuracy_pct": 52.84,
+        "always_sell_pct": 52.17,
+        "always_hold_pct": 47.83,
+        "brier": 0.2492,
+        "auc": 0.5701,
+        "predicted_up_pct": 65.22
+      },
+      "later": {
+        "n": 106,
+        "up_rate_pct": 41.51,
+        "accuracy_pct": 50.0,
+        "balanced_accuracy_pct": 52.31,
+        "always_sell_pct": 58.49,
+        "always_hold_pct": 41.51,
+        "brier": 0.251,
+        "auc": 0.5674,
+        "predicted_up_pct": 63.21
+      },
+      "later_by_year": {
+        "2025": {
+          "n": 83,
+          "up_rate_pct": 33.73,
+          "accuracy_pct": 50.6,
+          "balanced_accuracy_pct": 53.96,
+          "always_sell_pct": 66.27,
+          "always_hold_pct": 33.73,
+          "brier": 0.2527,
+          "auc": 0.5584,
+          "predicted_up_pct": 59.04
+        },
+        "2026": {
+          "n": 23,
+          "up_rate_pct": 69.57,
+          "accuracy_pct": 47.83,
+          "balanced_accuracy_pct": 34.38,
+          "always_sell_pct": 30.43,
+          "always_hold_pct": 69.57,
+          "brier": 0.2448,
+          "auc": 0.5089,
+          "predicted_up_pct": 78.26
+        }
+      }
+    }
+  },
+  "paired_later": {
+    "candidate_right_reference_wrong": 12,
+    "reference_right_candidate_wrong": 7,
+    "exact_two_sided_p": 0.3593
+  },
+  "deployed_monitor_same_cohort_accuracy_pct": 50.0,
+  "paired_delivery_vs_deployed_monitor": {
+    "candidate_right_reference_wrong": 9,
+    "reference_right_candidate_wrong": 9,
+    "exact_two_sided_p": 1.0
+  },
+  "prediction_ledger": "output\\module2_exchange_delivery_research_ledger.csv",
+  "limitations": [
+    "NSE daily delivery observations were downloaded retrospectively; publication times are not archived.",
+    "Sector and Nifty benchmarks in the original monitor still come from secondary history.",
+    "Later-year outcomes were previously inspected, so this is exploratory, not a blind test.",
+    "The deployed monitor and paper model are unchanged."
+  ]
+}

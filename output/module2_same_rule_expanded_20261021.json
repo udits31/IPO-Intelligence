@@ -1,0 +1,3170 @@
+{
+  "model_family": "Existing deterministic Module 2 loss/relative-lag/trailing-stop rules",
+  "core_rule_changed": false,
+  "synthetic_training_rows": 0,
+  "primary_target": "sign of the return over 30 later trading sessions; all eligible IPOs",
+  "source": "Real official NSE stock closes; preexisting dated market/sector observations",
+  "coverage": {
+    "development_n": 240,
+    "selection_2022_2023_matured_n": 80,
+    "confirmation_2024_n": 89,
+    "known_by_2024_end_n": 211,
+    "later_n": 131,
+    "development_outcomes_not_mature_at_final_freeze": 29
+  },
+  "confirmation_first_decision": "2024-02-29",
+  "early_selected": {
+    "parameters": {
+      "loss_pct": 12.0,
+      "lag_loss_pct": 0.0,
+      "trail_pct": 8.0
+    },
+    "metrics": {
+      "n": 80,
+      "correct": 52,
+      "accuracy_pct": 65.0,
+      "balanced_accuracy_pct": 64.57800511508951,
+      "hold_recall_pct": 67.3913043478261,
+      "sell_recall_pct": 61.76470588235294,
+      "always_hold_accuracy_pct": 57.49999999999999,
+      "always_sell_accuracy_pct": 42.5,
+      "sell_calls": 36,
+      "next_day_accuracy_pct": 47.5,
+      "conditional_strategy_net_mean_pct": 5.51351133155796
+    }
+  },
+  "final_selected": {
+    "parameters": {
+      "loss_pct": 8.0,
+      "lag_loss_pct": 0.0,
+      "trail_pct": 12.0
+    },
+    "metrics": {
+      "n": 211,
+      "correct": 128,
+      "accuracy_pct": 60.66350710900474,
+      "balanced_accuracy_pct": 60.68733153638814,
+      "hold_recall_pct": 65.71428571428571,
+      "sell_recall_pct": 55.660377358490564,
+      "always_hold_accuracy_pct": 49.763033175355446,
+      "always_sell_accuracy_pct": 50.23696682464455,
+      "sell_calls": 95,
+      "next_day_accuracy_pct": 51.18483412322274,
+      "conditional_strategy_net_mean_pct": 3.6208913135704157
+    }
+  },
+  "confirmation_2024": {
+    "default": {
+      "n": 89,
+      "correct": 41,
+      "accuracy_pct": 46.06741573033708,
+      "balanced_accuracy_pct": 44.100831600831604,
+      "hold_recall_pct": 32.432432432432435,
+      "sell_recall_pct": 55.769230769230774,
+      "always_hold_accuracy_pct": 41.57303370786517,
+      "always_sell_accuracy_pct": 58.42696629213483,
+      "sell_calls": 54,
+      "next_day_accuracy_pct": 48.31460674157304,
+      "conditional_strategy_net_mean_pct": -1.4613905630803565
+    },
+    "calibrated": {
+      "n": 89,
+      "correct": 43,
+      "accuracy_pct": 48.31460674157304,
+      "balanced_accuracy_pct": 46.023908523908524,
+      "hold_recall_pct": 32.432432432432435,
+      "sell_recall_pct": 59.61538461538461,
+      "always_hold_accuracy_pct": 41.57303370786517,
+      "always_sell_accuracy_pct": 58.42696629213483,
+      "sell_calls": 56,
+      "next_day_accuracy_pct": 50.56179775280899,
+      "conditional_strategy_net_mean_pct": -1.1320625255428394
+    }
+  },
+  "later_2025_2026": {
+    "default": {
+      "n": 131,
+      "correct": 68,
+      "accuracy_pct": 51.908396946564885,
+      "balanced_accuracy_pct": 52.89678675754625,
+      "hold_recall_pct": 57.692307692307686,
+      "sell_recall_pct": 48.10126582278481,
+      "always_hold_accuracy_pct": 39.69465648854962,
+      "always_sell_accuracy_pct": 60.30534351145038,
+      "sell_calls": 60,
+      "next_day_accuracy_pct": 53.43511450381679,
+      "conditional_strategy_net_mean_pct": -0.46966318662116363
+    },
+    "calibrated": {
+      "n": 131,
+      "correct": 62,
+      "accuracy_pct": 47.32824427480916,
+      "balanced_accuracy_pct": 48.11343719571568,
+      "hold_recall_pct": 51.92307692307693,
+      "sell_recall_pct": 44.303797468354425,
+      "always_hold_accuracy_pct": 39.69465648854962,
+      "always_sell_accuracy_pct": 60.30534351145038,
+      "sell_calls": 60,
+      "next_day_accuracy_pct": 51.908396946564885,
+      "conditional_strategy_net_mean_pct": -1.2977038808680614
+    },
+    "paired_change": {
+      "accuracy_change_pp": -4.580152671755725,
+      "bootstrap_95_pp": [
+        -11.450381679389313,
+        2.2900763358778624
+      ],
+      "corrected_errors": 7,
+      "introduced_errors": 13
+    }
+  },
+  "later_by_year": {
+    "2025": {
+      "n": 101,
+      "correct": 47,
+      "accuracy_pct": 46.53465346534654,
+      "balanced_accuracy_pct": 47.46376811594203,
+      "hold_recall_pct": 50.0,
+      "sell_recall_pct": 44.927536231884055,
+      "always_hold_accuracy_pct": 31.683168316831683,
+      "always_sell_accuracy_pct": 68.31683168316832,
+      "sell_calls": 47,
+      "next_day_accuracy_pct": 54.45544554455446,
+      "conditional_strategy_net_mean_pct": -1.906034139630973
+    },
+    "2026": {
+      "n": 30,
+      "correct": 15,
+      "accuracy_pct": 50.0,
+      "balanced_accuracy_pct": 47.5,
+      "hold_recall_pct": 55.00000000000001,
+      "sell_recall_pct": 40.0,
+      "always_hold_accuracy_pct": 66.66666666666666,
+      "always_sell_accuracy_pct": 33.33333333333333,
+      "sell_calls": 13,
+      "next_day_accuracy_pct": 43.333333333333336,
+      "conditional_strategy_net_mean_pct": 0.750341323633739
+    }
+  },
+  "requested_accuracy_target_met": false,
+  "candidate_count": 75,
+  "early_candidates": [
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 46,
+        "accuracy_pct": 57.49999999999999,
+        "balanced_accuracy_pct": 59.97442455242966,
+        "hold_recall_pct": 43.47826086956522,
+        "sell_recall_pct": 76.47058823529412,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 52,
+        "next_day_accuracy_pct": 47.5,
+        "conditional_strategy_net_mean_pct": 4.662990317081989
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 61.31713554987213,
+        "hold_recall_pct": 60.86956521739131,
+        "sell_recall_pct": 61.76470588235294,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 39,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.263530547974841
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 46,
+        "accuracy_pct": 57.49999999999999,
+        "balanced_accuracy_pct": 55.754475703324815,
+        "hold_recall_pct": 67.3913043478261,
+        "sell_recall_pct": 44.11764705882353,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 30,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.157623683614382
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 45,
+        "accuracy_pct": 56.25,
+        "balanced_accuracy_pct": 51.98209718670077,
+        "hold_recall_pct": 80.43478260869566,
+        "sell_recall_pct": 23.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 17,
+        "next_day_accuracy_pct": 58.75,
+        "conditional_strategy_net_mean_pct": 5.813617451112363
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 44,
+        "accuracy_pct": 55.00000000000001,
+        "balanced_accuracy_pct": 50.51150895140665,
+        "hold_recall_pct": 80.43478260869566,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 16,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 5.624482492729486
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 46,
+        "accuracy_pct": 57.49999999999999,
+        "balanced_accuracy_pct": 59.590792838874684,
+        "hold_recall_pct": 45.65217391304348,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 50,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 4.7624436416856515
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 60.933503836317136,
+        "hold_recall_pct": 63.04347826086957,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 37,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.362983872578504
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 46,
+        "accuracy_pct": 57.49999999999999,
+        "balanced_accuracy_pct": 55.37084398976981,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 28,
+        "next_day_accuracy_pct": 52.5,
+        "conditional_strategy_net_mean_pct": 5.257077008218046
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 45,
+        "accuracy_pct": 56.25,
+        "balanced_accuracy_pct": 51.59846547314578,
+        "hold_recall_pct": 82.6086956521739,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 15,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.913070775716027
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 44,
+        "accuracy_pct": 55.00000000000001,
+        "balanced_accuracy_pct": 50.127877237851656,
+        "hold_recall_pct": 82.6086956521739,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 14,
+        "next_day_accuracy_pct": 62.5,
+        "conditional_strategy_net_mean_pct": 5.72393581733315
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 46,
+        "accuracy_pct": 57.49999999999999,
+        "balanced_accuracy_pct": 59.590792838874684,
+        "hold_recall_pct": 45.65217391304348,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 50,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 4.7624436416856515
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 60.933503836317136,
+        "hold_recall_pct": 63.04347826086957,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 37,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.362983872578504
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 46,
+        "accuracy_pct": 57.49999999999999,
+        "balanced_accuracy_pct": 55.37084398976981,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 28,
+        "next_day_accuracy_pct": 52.5,
+        "conditional_strategy_net_mean_pct": 5.257077008218046
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 45,
+        "accuracy_pct": 56.25,
+        "balanced_accuracy_pct": 51.59846547314578,
+        "hold_recall_pct": 82.6086956521739,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 15,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.913070775716027
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 44,
+        "accuracy_pct": 55.00000000000001,
+        "balanced_accuracy_pct": 50.127877237851656,
+        "hold_recall_pct": 82.6086956521739,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 14,
+        "next_day_accuracy_pct": 62.5,
+        "conditional_strategy_net_mean_pct": 5.72393581733315
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 63.23529411764706,
+        "hold_recall_pct": 50.0,
+        "sell_recall_pct": 76.47058823529412,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 49,
+        "next_day_accuracy_pct": 46.25,
+        "conditional_strategy_net_mean_pct": 4.912971100665109
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.57800511508951,
+        "hold_recall_pct": 67.3913043478261,
+        "sell_recall_pct": 61.76470588235294,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 36,
+        "next_day_accuracy_pct": 47.5,
+        "conditional_strategy_net_mean_pct": 5.51351133155796
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 59.0153452685422,
+        "hold_recall_pct": 73.91304347826086,
+        "sell_recall_pct": 44.11764705882353,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 27,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.407604467197501
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 55.24296675191815,
+        "hold_recall_pct": 86.95652173913044,
+        "sell_recall_pct": 23.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 14,
+        "next_day_accuracy_pct": 57.49999999999999,
+        "conditional_strategy_net_mean_pct": 6.063598234695483
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.772378516624045,
+        "hold_recall_pct": 86.95652173913044,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 13,
+        "next_day_accuracy_pct": 58.75,
+        "conditional_strategy_net_mean_pct": 5.874463276312605
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.85166240409208,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.012424425268771
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.19437340153453,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 34,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.6129646561616235
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.63171355498722,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.507057791801165
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.85933503836316,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 12,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 6.163051559299147
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.388746803069054,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 11,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.973916600916269
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.85166240409208,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.012424425268771
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.19437340153453,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 34,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.6129646561616235
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.63171355498722,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.507057791801165
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.85933503836316,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 12,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 6.163051559299147
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.388746803069054,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 11,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.973916600916269
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 63.23529411764706,
+        "hold_recall_pct": 50.0,
+        "sell_recall_pct": 76.47058823529412,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 49,
+        "next_day_accuracy_pct": 46.25,
+        "conditional_strategy_net_mean_pct": 4.912971100665109
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.57800511508951,
+        "hold_recall_pct": 67.3913043478261,
+        "sell_recall_pct": 61.76470588235294,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 36,
+        "next_day_accuracy_pct": 47.5,
+        "conditional_strategy_net_mean_pct": 5.51351133155796
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 59.0153452685422,
+        "hold_recall_pct": 73.91304347826086,
+        "sell_recall_pct": 44.11764705882353,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 27,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.407604467197501
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 55.24296675191815,
+        "hold_recall_pct": 86.95652173913044,
+        "sell_recall_pct": 23.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 14,
+        "next_day_accuracy_pct": 57.49999999999999,
+        "conditional_strategy_net_mean_pct": 6.063598234695483
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.772378516624045,
+        "hold_recall_pct": 86.95652173913044,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 13,
+        "next_day_accuracy_pct": 58.75,
+        "conditional_strategy_net_mean_pct": 5.874463276312605
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.85166240409208,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.012424425268771
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.19437340153453,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 34,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.6129646561616235
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.63171355498722,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.507057791801165
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.85933503836316,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 12,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 6.163051559299147
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.388746803069054,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 11,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.973916600916269
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.85166240409208,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.012424425268771
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.19437340153453,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 34,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.6129646561616235
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.63171355498722,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.507057791801165
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.85933503836316,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 12,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 6.163051559299147
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.388746803069054,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 11,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.973916600916269
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 63.23529411764706,
+        "hold_recall_pct": 50.0,
+        "sell_recall_pct": 76.47058823529412,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 49,
+        "next_day_accuracy_pct": 46.25,
+        "conditional_strategy_net_mean_pct": 4.912971100665109
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.57800511508951,
+        "hold_recall_pct": 67.3913043478261,
+        "sell_recall_pct": 61.76470588235294,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 36,
+        "next_day_accuracy_pct": 47.5,
+        "conditional_strategy_net_mean_pct": 5.51351133155796
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 59.0153452685422,
+        "hold_recall_pct": 73.91304347826086,
+        "sell_recall_pct": 44.11764705882353,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 27,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.407604467197501
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 55.24296675191815,
+        "hold_recall_pct": 86.95652173913044,
+        "sell_recall_pct": 23.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 14,
+        "next_day_accuracy_pct": 57.49999999999999,
+        "conditional_strategy_net_mean_pct": 6.063598234695483
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.772378516624045,
+        "hold_recall_pct": 86.95652173913044,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 13,
+        "next_day_accuracy_pct": 58.75,
+        "conditional_strategy_net_mean_pct": 5.874463276312605
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.85166240409208,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.012424425268771
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.19437340153453,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 34,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.6129646561616235
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.63171355498722,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.507057791801165
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.85933503836316,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 12,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 6.163051559299147
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.388746803069054,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 11,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.973916600916269
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.85166240409208,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.012424425268771
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.19437340153453,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 34,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.6129646561616235
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.63171355498722,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.507057791801165
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.85933503836316,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 12,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 6.163051559299147
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.388746803069054,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 11,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.973916600916269
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.85166240409208,
+        "hold_recall_pct": 52.17391304347826,
+        "sell_recall_pct": 73.52941176470588,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 46.25,
+        "conditional_strategy_net_mean_pct": 4.904184596559018
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 64.19437340153453,
+        "hold_recall_pct": 69.56521739130434,
+        "sell_recall_pct": 58.82352941176471,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 34,
+        "next_day_accuracy_pct": 47.5,
+        "conditional_strategy_net_mean_pct": 5.504724827451871
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.63171355498722,
+        "hold_recall_pct": 76.08695652173914,
+        "sell_recall_pct": 41.17647058823529,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 25,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.398817963091412
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.85933503836316,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 20.588235294117645,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 12,
+        "next_day_accuracy_pct": 57.49999999999999,
+        "conditional_strategy_net_mean_pct": 6.054811730589394
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.388746803069054,
+        "hold_recall_pct": 89.13043478260869,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 11,
+        "next_day_accuracy_pct": 58.75,
+        "conditional_strategy_net_mean_pct": 5.865676772206516
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.46803069053708,
+        "hold_recall_pct": 54.347826086956516,
+        "sell_recall_pct": 70.58823529411765,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 45,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.003637921162681
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 63.81074168797953,
+        "hold_recall_pct": 71.73913043478261,
+        "sell_recall_pct": 55.88235294117647,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 32,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.604178152055534
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.24808184143222,
+        "hold_recall_pct": 78.26086956521739,
+        "sell_recall_pct": 38.23529411764706,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 23,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.498271287695076
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.47570332480818,
+        "hold_recall_pct": 91.30434782608695,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 10,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 6.154265055193056
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.005115089514064,
+        "hold_recall_pct": 91.30434782608695,
+        "sell_recall_pct": 14.705882352941178,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 9,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.965130096810179
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 62.46803069053708,
+        "hold_recall_pct": 54.347826086956516,
+        "sell_recall_pct": 70.58823529411765,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 45,
+        "next_day_accuracy_pct": 48.75,
+        "conditional_strategy_net_mean_pct": 5.003637921162681
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 52,
+        "accuracy_pct": 65.0,
+        "balanced_accuracy_pct": 63.81074168797953,
+        "hold_recall_pct": 71.73913043478261,
+        "sell_recall_pct": 55.88235294117647,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 32,
+        "next_day_accuracy_pct": 50.0,
+        "conditional_strategy_net_mean_pct": 5.604178152055534
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 49,
+        "accuracy_pct": 61.25000000000001,
+        "balanced_accuracy_pct": 58.24808184143222,
+        "hold_recall_pct": 78.26086956521739,
+        "sell_recall_pct": 38.23529411764706,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 23,
+        "next_day_accuracy_pct": 51.24999999999999,
+        "conditional_strategy_net_mean_pct": 5.498271287695076
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 48,
+        "accuracy_pct": 60.0,
+        "balanced_accuracy_pct": 54.47570332480818,
+        "hold_recall_pct": 91.30434782608695,
+        "sell_recall_pct": 17.647058823529413,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 10,
+        "next_day_accuracy_pct": 60.0,
+        "conditional_strategy_net_mean_pct": 6.154265055193056
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 80,
+        "correct": 47,
+        "accuracy_pct": 58.75,
+        "balanced_accuracy_pct": 53.005115089514064,
+        "hold_recall_pct": 91.30434782608695,
+        "sell_recall_pct": 14.705882352941178,
+        "always_hold_accuracy_pct": 57.49999999999999,
+        "always_sell_accuracy_pct": 42.5,
+        "sell_calls": 9,
+        "next_day_accuracy_pct": 61.25000000000001,
+        "conditional_strategy_net_mean_pct": 5.965130096810179
+      }
+    }
+  ],
+  "final_candidates": [
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 118,
+        "accuracy_pct": 55.92417061611374,
+        "balanced_accuracy_pct": 55.80862533692723,
+        "hold_recall_pct": 31.428571428571427,
+        "sell_recall_pct": 80.18867924528303,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 157,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 2.0021291596340856
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 119,
+        "accuracy_pct": 56.39810426540285,
+        "balanced_accuracy_pct": 56.3477088948787,
+        "hold_recall_pct": 45.714285714285715,
+        "sell_recall_pct": 66.98113207547169,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 128,
+        "next_day_accuracy_pct": 50.71090047393365,
+        "conditional_strategy_net_mean_pct": 2.268819287738728
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 127,
+        "accuracy_pct": 60.18957345971564,
+        "balanced_accuracy_pct": 60.2021563342318,
+        "hold_recall_pct": 62.857142857142854,
+        "sell_recall_pct": 57.54716981132076,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 100,
+        "next_day_accuracy_pct": 51.65876777251185,
+        "conditional_strategy_net_mean_pct": 3.6510099555119697
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 124,
+        "accuracy_pct": 58.767772511848335,
+        "balanced_accuracy_pct": 58.83198562443845,
+        "hold_recall_pct": 72.38095238095238,
+        "sell_recall_pct": 45.28301886792453,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 77,
+        "next_day_accuracy_pct": 54.976303317535546,
+        "conditional_strategy_net_mean_pct": 4.0328467166945
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 118,
+        "accuracy_pct": 55.92417061611374,
+        "balanced_accuracy_pct": 56.01976639712488,
+        "hold_recall_pct": 76.19047619047619,
+        "sell_recall_pct": 35.84905660377358,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 63,
+        "next_day_accuracy_pct": 54.02843601895735,
+        "conditional_strategy_net_mean_pct": 3.865662852066237
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.40251572327044,
+        "hold_recall_pct": 33.33333333333333,
+        "sell_recall_pct": 75.47169811320755,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 150,
+        "next_day_accuracy_pct": 49.763033175355446,
+        "conditional_strategy_net_mean_pct": 1.739730822131297
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 54.94159928122192,
+        "hold_recall_pct": 47.61904761904761,
+        "sell_recall_pct": 62.264150943396224,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 121,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 2.0064209502359396
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 124,
+        "accuracy_pct": 58.767772511848335,
+        "balanced_accuracy_pct": 58.79604672057502,
+        "hold_recall_pct": 64.76190476190476,
+        "sell_recall_pct": 52.83018867924528,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 93,
+        "next_day_accuracy_pct": 51.18483412322274,
+        "conditional_strategy_net_mean_pct": 3.388611618009181
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 121,
+        "accuracy_pct": 57.345971563981045,
+        "balanced_accuracy_pct": 57.42587601078167,
+        "hold_recall_pct": 74.28571428571429,
+        "sell_recall_pct": 40.56603773584906,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 70,
+        "next_day_accuracy_pct": 54.502369668246445,
+        "conditional_strategy_net_mean_pct": 3.7704483791917114
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.6136567834681,
+        "hold_recall_pct": 78.0952380952381,
+        "sell_recall_pct": 31.132075471698112,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 56,
+        "next_day_accuracy_pct": 53.55450236966824,
+        "conditional_strategy_net_mean_pct": 3.603264514563449
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.40251572327044,
+        "hold_recall_pct": 33.33333333333333,
+        "sell_recall_pct": 75.47169811320755,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 150,
+        "next_day_accuracy_pct": 49.763033175355446,
+        "conditional_strategy_net_mean_pct": 1.739730822131297
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 54.94159928122192,
+        "hold_recall_pct": 47.61904761904761,
+        "sell_recall_pct": 62.264150943396224,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 121,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 2.0064209502359396
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 124,
+        "accuracy_pct": 58.767772511848335,
+        "balanced_accuracy_pct": 58.79604672057502,
+        "hold_recall_pct": 64.76190476190476,
+        "sell_recall_pct": 52.83018867924528,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 93,
+        "next_day_accuracy_pct": 51.18483412322274,
+        "conditional_strategy_net_mean_pct": 3.388611618009181
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 121,
+        "accuracy_pct": 57.345971563981045,
+        "balanced_accuracy_pct": 57.42587601078167,
+        "hold_recall_pct": 74.28571428571429,
+        "sell_recall_pct": 40.56603773584906,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 70,
+        "next_day_accuracy_pct": 54.502369668246445,
+        "conditional_strategy_net_mean_pct": 3.7704483791917114
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 5.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.6136567834681,
+        "hold_recall_pct": 78.0952380952381,
+        "sell_recall_pct": 31.132075471698112,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 56,
+        "next_day_accuracy_pct": 53.55450236966824,
+        "conditional_strategy_net_mean_pct": 3.603264514563449
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 119,
+        "accuracy_pct": 56.39810426540285,
+        "balanced_accuracy_pct": 56.29380053908356,
+        "hold_recall_pct": 34.285714285714285,
+        "sell_recall_pct": 78.30188679245283,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 152,
+        "next_day_accuracy_pct": 49.763033175355446,
+        "conditional_strategy_net_mean_pct": 1.972010517692532
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 120,
+        "accuracy_pct": 56.872037914691944,
+        "balanced_accuracy_pct": 56.83288409703504,
+        "hold_recall_pct": 48.57142857142857,
+        "sell_recall_pct": 65.09433962264151,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 123,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 2.2387006457971745
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 128,
+        "accuracy_pct": 60.66350710900474,
+        "balanced_accuracy_pct": 60.68733153638814,
+        "hold_recall_pct": 65.71428571428571,
+        "sell_recall_pct": 55.660377358490564,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 95,
+        "next_day_accuracy_pct": 51.18483412322274,
+        "conditional_strategy_net_mean_pct": 3.6208913135704157
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 125,
+        "accuracy_pct": 59.241706161137444,
+        "balanced_accuracy_pct": 59.317160826594794,
+        "hold_recall_pct": 75.23809523809524,
+        "sell_recall_pct": 43.39622641509434,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 72,
+        "next_day_accuracy_pct": 54.502369668246445,
+        "conditional_strategy_net_mean_pct": 4.002728074752946
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 119,
+        "accuracy_pct": 56.39810426540285,
+        "balanced_accuracy_pct": 56.504941599281224,
+        "hold_recall_pct": 79.04761904761905,
+        "sell_recall_pct": 33.9622641509434,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 58,
+        "next_day_accuracy_pct": 53.55450236966824,
+        "conditional_strategy_net_mean_pct": 3.835544210124684
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 54.88769092542677,
+        "hold_recall_pct": 36.19047619047619,
+        "sell_recall_pct": 73.58490566037736,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 145,
+        "next_day_accuracy_pct": 49.28909952606635,
+        "conditional_strategy_net_mean_pct": 1.7096121801897437
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 117,
+        "accuracy_pct": 55.45023696682464,
+        "balanced_accuracy_pct": 55.42677448337825,
+        "hold_recall_pct": 50.476190476190474,
+        "sell_recall_pct": 60.37735849056604,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 116,
+        "next_day_accuracy_pct": 49.763033175355446,
+        "conditional_strategy_net_mean_pct": 1.9763023082943862
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 125,
+        "accuracy_pct": 59.241706161137444,
+        "balanced_accuracy_pct": 59.281221922731355,
+        "hold_recall_pct": 67.61904761904762,
+        "sell_recall_pct": 50.943396226415096,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 88,
+        "next_day_accuracy_pct": 50.71090047393365,
+        "conditional_strategy_net_mean_pct": 3.358492976067628
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 122,
+        "accuracy_pct": 57.81990521327014,
+        "balanced_accuracy_pct": 57.911051212938006,
+        "hold_recall_pct": 77.14285714285715,
+        "sell_recall_pct": 38.67924528301887,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 65,
+        "next_day_accuracy_pct": 54.02843601895735,
+        "conditional_strategy_net_mean_pct": 3.7403297372501587
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 55.09883198562444,
+        "hold_recall_pct": 80.95238095238095,
+        "sell_recall_pct": 29.245283018867923,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 51,
+        "next_day_accuracy_pct": 53.08056872037915,
+        "conditional_strategy_net_mean_pct": 3.573145872621896
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 54.88769092542677,
+        "hold_recall_pct": 36.19047619047619,
+        "sell_recall_pct": 73.58490566037736,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 145,
+        "next_day_accuracy_pct": 49.28909952606635,
+        "conditional_strategy_net_mean_pct": 1.7096121801897437
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 117,
+        "accuracy_pct": 55.45023696682464,
+        "balanced_accuracy_pct": 55.42677448337825,
+        "hold_recall_pct": 50.476190476190474,
+        "sell_recall_pct": 60.37735849056604,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 116,
+        "next_day_accuracy_pct": 49.763033175355446,
+        "conditional_strategy_net_mean_pct": 1.9763023082943862
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 125,
+        "accuracy_pct": 59.241706161137444,
+        "balanced_accuracy_pct": 59.281221922731355,
+        "hold_recall_pct": 67.61904761904762,
+        "sell_recall_pct": 50.943396226415096,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 88,
+        "next_day_accuracy_pct": 50.71090047393365,
+        "conditional_strategy_net_mean_pct": 3.358492976067628
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 122,
+        "accuracy_pct": 57.81990521327014,
+        "balanced_accuracy_pct": 57.911051212938006,
+        "hold_recall_pct": 77.14285714285715,
+        "sell_recall_pct": 38.67924528301887,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 65,
+        "next_day_accuracy_pct": 54.02843601895735,
+        "conditional_strategy_net_mean_pct": 3.7403297372501587
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 8.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 55.09883198562444,
+        "hold_recall_pct": 80.95238095238095,
+        "sell_recall_pct": 29.245283018867923,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 51,
+        "next_day_accuracy_pct": 53.08056872037915,
+        "conditional_strategy_net_mean_pct": 3.573145872621896
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 118,
+        "accuracy_pct": 55.92417061611374,
+        "balanced_accuracy_pct": 55.82210242587602,
+        "hold_recall_pct": 34.285714285714285,
+        "sell_recall_pct": 77.35849056603774,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 151,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 1.8706094482567748
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 119,
+        "accuracy_pct": 56.39810426540285,
+        "balanced_accuracy_pct": 56.36118598382749,
+        "hold_recall_pct": 48.57142857142857,
+        "sell_recall_pct": 64.15094339622641,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 122,
+        "next_day_accuracy_pct": 50.71090047393365,
+        "conditional_strategy_net_mean_pct": 2.1372995763614173
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 127,
+        "accuracy_pct": 60.18957345971564,
+        "balanced_accuracy_pct": 60.21563342318059,
+        "hold_recall_pct": 65.71428571428571,
+        "sell_recall_pct": 54.71698113207547,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 94,
+        "next_day_accuracy_pct": 51.65876777251185,
+        "conditional_strategy_net_mean_pct": 3.5194902441346585
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 124,
+        "accuracy_pct": 58.767772511848335,
+        "balanced_accuracy_pct": 58.84546271338724,
+        "hold_recall_pct": 75.23809523809524,
+        "sell_recall_pct": 42.45283018867924,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 71,
+        "next_day_accuracy_pct": 54.976303317535546,
+        "conditional_strategy_net_mean_pct": 3.901327005317189
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 118,
+        "accuracy_pct": 55.92417061611374,
+        "balanced_accuracy_pct": 56.03324348607367,
+        "hold_recall_pct": 79.04761904761905,
+        "sell_recall_pct": 33.0188679245283,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 57,
+        "next_day_accuracy_pct": 54.02843601895735,
+        "conditional_strategy_net_mean_pct": 3.7341431406889267
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.41599281221923,
+        "hold_recall_pct": 36.19047619047619,
+        "sell_recall_pct": 72.64150943396226,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 144,
+        "next_day_accuracy_pct": 49.763033175355446,
+        "conditional_strategy_net_mean_pct": 1.6082111107539863
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 54.95507637017071,
+        "hold_recall_pct": 50.476190476190474,
+        "sell_recall_pct": 59.43396226415094,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 115,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 1.874901238858629
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 124,
+        "accuracy_pct": 58.767772511848335,
+        "balanced_accuracy_pct": 58.80952380952381,
+        "hold_recall_pct": 67.61904761904762,
+        "sell_recall_pct": 50.0,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 87,
+        "next_day_accuracy_pct": 51.18483412322274,
+        "conditional_strategy_net_mean_pct": 3.257091906631871
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 121,
+        "accuracy_pct": 57.345971563981045,
+        "balanced_accuracy_pct": 57.43935309973046,
+        "hold_recall_pct": 77.14285714285715,
+        "sell_recall_pct": 37.735849056603776,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 64,
+        "next_day_accuracy_pct": 54.502369668246445,
+        "conditional_strategy_net_mean_pct": 3.6389286678144015
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.62713387241689,
+        "hold_recall_pct": 80.95238095238095,
+        "sell_recall_pct": 28.30188679245283,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 50,
+        "next_day_accuracy_pct": 53.55450236966824,
+        "conditional_strategy_net_mean_pct": 3.4717448031861378
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.42497753818508,
+        "hold_recall_pct": 38.095238095238095,
+        "sell_recall_pct": 70.75471698113208,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 140,
+        "next_day_accuracy_pct": 48.81516587677725,
+        "conditional_strategy_net_mean_pct": 1.5043092339443696
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 54.96406109613656,
+        "hold_recall_pct": 52.38095238095239,
+        "sell_recall_pct": 57.54716981132076,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 111,
+        "next_day_accuracy_pct": 49.28909952606635,
+        "conditional_strategy_net_mean_pct": 1.770999362049012
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 124,
+        "accuracy_pct": 58.767772511848335,
+        "balanced_accuracy_pct": 58.81850853548967,
+        "hold_recall_pct": 69.52380952380952,
+        "sell_recall_pct": 48.113207547169814,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 83,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 3.1531900298222535
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 121,
+        "accuracy_pct": 57.345971563981045,
+        "balanced_accuracy_pct": 57.44833782569631,
+        "hold_recall_pct": 79.04761904761905,
+        "sell_recall_pct": 35.84905660377358,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 60,
+        "next_day_accuracy_pct": 53.55450236966824,
+        "conditional_strategy_net_mean_pct": 3.5350267910047837
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 12.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.63611859838275,
+        "hold_recall_pct": 82.85714285714286,
+        "sell_recall_pct": 26.41509433962264,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 46,
+        "next_day_accuracy_pct": 52.60663507109005,
+        "conditional_strategy_net_mean_pct": 3.3678429263765213
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.40700808625336,
+        "hold_recall_pct": 34.285714285714285,
+        "sell_recall_pct": 74.52830188679245,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 148,
+        "next_day_accuracy_pct": 50.71090047393365,
+        "conditional_strategy_net_mean_pct": 1.5565892077531782
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 116,
+        "accuracy_pct": 54.976303317535546,
+        "balanced_accuracy_pct": 54.946091644204856,
+        "hold_recall_pct": 48.57142857142857,
+        "sell_recall_pct": 61.32075471698113,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 119,
+        "next_day_accuracy_pct": 51.18483412322274,
+        "conditional_strategy_net_mean_pct": 1.8232793358578208
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 124,
+        "accuracy_pct": 58.767772511848335,
+        "balanced_accuracy_pct": 58.80053908355796,
+        "hold_recall_pct": 65.71428571428571,
+        "sell_recall_pct": 51.886792452830186,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 91,
+        "next_day_accuracy_pct": 52.13270142180095,
+        "conditional_strategy_net_mean_pct": 3.2054700036310626
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 121,
+        "accuracy_pct": 57.345971563981045,
+        "balanced_accuracy_pct": 57.43036837376461,
+        "hold_recall_pct": 75.23809523809524,
+        "sell_recall_pct": 39.62264150943396,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 68,
+        "next_day_accuracy_pct": 55.45023696682464,
+        "conditional_strategy_net_mean_pct": 3.587306764813593
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.61814914645103,
+        "hold_recall_pct": 79.04761904761905,
+        "sell_recall_pct": 30.18867924528302,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 54,
+        "next_day_accuracy_pct": 54.502369668246445,
+        "conditional_strategy_net_mean_pct": 3.4201229001853304
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 112,
+        "accuracy_pct": 53.08056872037915,
+        "balanced_accuracy_pct": 53.00089847259658,
+        "hold_recall_pct": 36.19047619047619,
+        "sell_recall_pct": 69.81132075471697,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 141,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 1.29419087025039
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 113,
+        "accuracy_pct": 53.55450236966824,
+        "balanced_accuracy_pct": 53.53998203054806,
+        "hold_recall_pct": 50.476190476190474,
+        "sell_recall_pct": 56.60377358490566,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 112,
+        "next_day_accuracy_pct": 50.71090047393365,
+        "conditional_strategy_net_mean_pct": 1.5608809983550325
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 121,
+        "accuracy_pct": 57.345971563981045,
+        "balanced_accuracy_pct": 57.39442946990116,
+        "hold_recall_pct": 67.61904761904762,
+        "sell_recall_pct": 47.16981132075472,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 84,
+        "next_day_accuracy_pct": 51.65876777251185,
+        "conditional_strategy_net_mean_pct": 2.943071666128274
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 118,
+        "accuracy_pct": 55.92417061611374,
+        "balanced_accuracy_pct": 56.02425876010781,
+        "hold_recall_pct": 77.14285714285715,
+        "sell_recall_pct": 34.90566037735849,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 61,
+        "next_day_accuracy_pct": 54.976303317535546,
+        "conditional_strategy_net_mean_pct": 3.324908427310805
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 112,
+        "accuracy_pct": 53.08056872037915,
+        "balanced_accuracy_pct": 53.21203953279425,
+        "hold_recall_pct": 80.95238095238095,
+        "sell_recall_pct": 25.471698113207548,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 47,
+        "next_day_accuracy_pct": 54.02843601895735,
+        "conditional_strategy_net_mean_pct": 3.1577245626825414
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 112,
+        "accuracy_pct": 53.08056872037915,
+        "balanced_accuracy_pct": 53.009883198562434,
+        "hold_recall_pct": 38.095238095238095,
+        "sell_recall_pct": 67.9245283018868,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 137,
+        "next_day_accuracy_pct": 49.28909952606635,
+        "conditional_strategy_net_mean_pct": 1.1902889934407732
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 113,
+        "accuracy_pct": 53.55450236966824,
+        "balanced_accuracy_pct": 53.54896675651393,
+        "hold_recall_pct": 52.38095238095239,
+        "sell_recall_pct": 54.71698113207547,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 108,
+        "next_day_accuracy_pct": 49.763033175355446,
+        "conditional_strategy_net_mean_pct": 1.456979121545416
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 121,
+        "accuracy_pct": 57.345971563981045,
+        "balanced_accuracy_pct": 57.40341419586703,
+        "hold_recall_pct": 69.52380952380952,
+        "sell_recall_pct": 45.28301886792453,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 80,
+        "next_day_accuracy_pct": 50.71090047393365,
+        "conditional_strategy_net_mean_pct": 2.839169789318657
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 118,
+        "accuracy_pct": 55.92417061611374,
+        "balanced_accuracy_pct": 56.03324348607367,
+        "hold_recall_pct": 79.04761904761905,
+        "sell_recall_pct": 33.0188679245283,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 57,
+        "next_day_accuracy_pct": 54.02843601895735,
+        "conditional_strategy_net_mean_pct": 3.2210065505011873
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 18.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 112,
+        "accuracy_pct": 53.08056872037915,
+        "balanced_accuracy_pct": 53.22102425876011,
+        "hold_recall_pct": 82.85714285714286,
+        "sell_recall_pct": 23.58490566037736,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 43,
+        "next_day_accuracy_pct": 53.08056872037915,
+        "conditional_strategy_net_mean_pct": 3.053822685872925
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 114,
+        "accuracy_pct": 54.02843601895735,
+        "balanced_accuracy_pct": 53.939802336028755,
+        "hold_recall_pct": 35.23809523809524,
+        "sell_recall_pct": 72.64150943396226,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 145,
+        "next_day_accuracy_pct": 51.18483412322274,
+        "conditional_strategy_net_mean_pct": 1.4512561778516426
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 115,
+        "accuracy_pct": 54.502369668246445,
+        "balanced_accuracy_pct": 54.478885893980234,
+        "hold_recall_pct": 49.523809523809526,
+        "sell_recall_pct": 59.43396226415094,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 116,
+        "next_day_accuracy_pct": 51.65876777251185,
+        "conditional_strategy_net_mean_pct": 1.7179463059562852
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 123,
+        "accuracy_pct": 58.29383886255924,
+        "balanced_accuracy_pct": 58.33333333333333,
+        "hold_recall_pct": 66.66666666666666,
+        "sell_recall_pct": 50.0,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 88,
+        "next_day_accuracy_pct": 52.60663507109005,
+        "conditional_strategy_net_mean_pct": 3.100136973729527
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 120,
+        "accuracy_pct": 56.872037914691944,
+        "balanced_accuracy_pct": 56.96316262353997,
+        "hold_recall_pct": 76.19047619047619,
+        "sell_recall_pct": 37.735849056603776,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 65,
+        "next_day_accuracy_pct": 55.92417061611374,
+        "conditional_strategy_net_mean_pct": 3.481973734912057
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 0.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 114,
+        "accuracy_pct": 54.02843601895735,
+        "balanced_accuracy_pct": 54.15094339622642,
+        "hold_recall_pct": 80.0,
+        "sell_recall_pct": 28.30188679245283,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 51,
+        "next_day_accuracy_pct": 54.976303317535546,
+        "conditional_strategy_net_mean_pct": 3.314789870283794
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 111,
+        "accuracy_pct": 52.60663507109005,
+        "balanced_accuracy_pct": 52.53369272237196,
+        "hold_recall_pct": 37.142857142857146,
+        "sell_recall_pct": 67.9245283018868,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 138,
+        "next_day_accuracy_pct": 50.71090047393365,
+        "conditional_strategy_net_mean_pct": 1.1888578403488543
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 112,
+        "accuracy_pct": 53.08056872037915,
+        "balanced_accuracy_pct": 53.07277628032345,
+        "hold_recall_pct": 51.42857142857142,
+        "sell_recall_pct": 54.71698113207547,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 109,
+        "next_day_accuracy_pct": 51.18483412322274,
+        "conditional_strategy_net_mean_pct": 1.4555479684534969
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 120,
+        "accuracy_pct": 56.872037914691944,
+        "balanced_accuracy_pct": 56.927223719676554,
+        "hold_recall_pct": 68.57142857142857,
+        "sell_recall_pct": 45.28301886792453,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 81,
+        "next_day_accuracy_pct": 52.13270142180095,
+        "conditional_strategy_net_mean_pct": 2.8377386362267387
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 117,
+        "accuracy_pct": 55.45023696682464,
+        "balanced_accuracy_pct": 55.5570530098832,
+        "hold_recall_pct": 78.0952380952381,
+        "sell_recall_pct": 33.0188679245283,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 58,
+        "next_day_accuracy_pct": 55.45023696682464,
+        "conditional_strategy_net_mean_pct": 3.219575397409269
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 5.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 111,
+        "accuracy_pct": 52.60663507109005,
+        "balanced_accuracy_pct": 52.744833782569636,
+        "hold_recall_pct": 81.9047619047619,
+        "sell_recall_pct": 23.58490566037736,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 44,
+        "next_day_accuracy_pct": 54.502369668246445,
+        "conditional_strategy_net_mean_pct": 3.0523915327810065
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 4.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 111,
+        "accuracy_pct": 52.60663507109005,
+        "balanced_accuracy_pct": 52.54267744833783,
+        "hold_recall_pct": 39.04761904761905,
+        "sell_recall_pct": 66.0377358490566,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 134,
+        "next_day_accuracy_pct": 49.763033175355446,
+        "conditional_strategy_net_mean_pct": 1.0849559635392374
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 8.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 112,
+        "accuracy_pct": 53.08056872037915,
+        "balanced_accuracy_pct": 53.081761006289305,
+        "hold_recall_pct": 53.333333333333336,
+        "sell_recall_pct": 52.83018867924528,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 105,
+        "next_day_accuracy_pct": 50.23696682464455,
+        "conditional_strategy_net_mean_pct": 1.35164609164388
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 12.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 120,
+        "accuracy_pct": 56.872037914691944,
+        "balanced_accuracy_pct": 56.936208445642414,
+        "hold_recall_pct": 70.47619047619048,
+        "sell_recall_pct": 43.39622641509434,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 77,
+        "next_day_accuracy_pct": 51.18483412322274,
+        "conditional_strategy_net_mean_pct": 2.7338367594171213
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 18.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 117,
+        "accuracy_pct": 55.45023696682464,
+        "balanced_accuracy_pct": 55.56603773584906,
+        "hold_recall_pct": 80.0,
+        "sell_recall_pct": 31.132075471698112,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 54,
+        "next_day_accuracy_pct": 54.502369668246445,
+        "conditional_strategy_net_mean_pct": 3.1156735205996524
+      }
+    },
+    {
+      "parameters": {
+        "loss_pct": 25.0,
+        "lag_loss_pct": 10.0,
+        "trail_pct": 25.0
+      },
+      "metrics": {
+        "n": 211,
+        "correct": 111,
+        "accuracy_pct": 52.60663507109005,
+        "balanced_accuracy_pct": 52.75381850853549,
+        "hold_recall_pct": 83.80952380952381,
+        "sell_recall_pct": 21.69811320754717,
+        "always_hold_accuracy_pct": 49.763033175355446,
+        "always_sell_accuracy_pct": 50.23696682464455,
+        "sell_calls": 40,
+        "next_day_accuracy_pct": 53.55450236966824,
+        "conditional_strategy_net_mean_pct": 2.948489655971389
+      }
+    }
+  ],
+  "input_sha256": {
+    "data\\audit\\module2_development_prices_2021_2024_nse_extended.csv": "7883d2de4d91f753935b1830107ba3cbde83f05a04c91c86720d0561f8897125",
+    "data\\audit\\module2_holdout_prices_2025_2026_nse_full.csv": "b1ca3a0966b6c16b79e01ab2a29e388fc541c16b3047629bc98456d349ca5d1c",
+    "output\\module2_development_decision_ledger_goal_expanded_20261021.csv": "dc8dec513b35cbff673455e9c698c1ed8fbf26bb4b029e41a9836c1a265e955a",
+    "output\\module2_holdout_decision_ledger_goal_current_20261021.csv": "847e3a6f181227fc21bd3cc484f0572a8609171685053aaeed2d10dcf9ab07b3",
+    "core\\monitor_engine.py": "390042fc56955343e5d899e603deaea5f595ea43bb0bbcdbae99de589602fe33",
+    "core\\attribution_engine.py": "80f74f5c0a8da7c613e992fc758f2b008e9a45487b70ffae95149c3bbc35edf2"
+  },
+  "limitations": [
+    "2025\u20132026 outcomes were inspected previously; not a blind test.",
+    "Price-only replay does not measure the full live news/disclosure monitor.",
+    "Two later future paths contain split-like jumps; do not assert economic returns until corporate-action reconciliation.",
+    "Changing only thresholds may not supply missing predictive information.",
+    "Bootstrap intervals are descriptive; market co-movement can reduce effective sample size."
+  ]
+}

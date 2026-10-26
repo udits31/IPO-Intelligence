@@ -1,0 +1,132 @@
+{
+  "protocol": "train 2021-23, select regularization by 2024 Brier, refit 2021-24, test 2025-26 once",
+  "features": [
+    "stock_5",
+    "stock_10",
+    "stock_30",
+    "sector_5",
+    "sector_10",
+    "sector_30",
+    "nifty_10",
+    "nifty_30",
+    "spread_10",
+    "spread_30",
+    "drawdown_30",
+    "volatility_20"
+  ],
+  "training_n": 138,
+  "validation_n": 57,
+  "candidates": [
+    {
+      "C": 0.01,
+      "validation": {
+        "n": 57,
+        "up_rate_pct": 49.12,
+        "accuracy_pct": 57.89,
+        "balanced_accuracy_pct": 57.51,
+        "always_sell_pct": 50.88,
+        "always_hold_pct": 49.12,
+        "brier": 0.2496,
+        "auc": 0.548,
+        "predicted_up_pct": 28.07
+      }
+    },
+    {
+      "C": 0.1,
+      "validation": {
+        "n": 57,
+        "up_rate_pct": 49.12,
+        "accuracy_pct": 57.89,
+        "balanced_accuracy_pct": 57.64,
+        "always_sell_pct": 50.88,
+        "always_hold_pct": 49.12,
+        "brier": 0.2485,
+        "auc": 0.5911,
+        "predicted_up_pct": 35.09
+      }
+    },
+    {
+      "C": 1,
+      "validation": {
+        "n": 57,
+        "up_rate_pct": 49.12,
+        "accuracy_pct": 59.65,
+        "balanced_accuracy_pct": 59.42,
+        "always_sell_pct": 50.88,
+        "always_hold_pct": 49.12,
+        "brier": 0.2444,
+        "auc": 0.6219,
+        "predicted_up_pct": 36.84
+      }
+    },
+    {
+      "C": 10,
+      "validation": {
+        "n": 57,
+        "up_rate_pct": 49.12,
+        "accuracy_pct": 61.4,
+        "balanced_accuracy_pct": 61.21,
+        "always_sell_pct": 50.88,
+        "always_hold_pct": 49.12,
+        "brier": 0.2442,
+        "auc": 0.633,
+        "predicted_up_pct": 38.6
+      }
+    }
+  ],
+  "selected_C": 10,
+  "later": {
+    "n": 128,
+    "up_rate_pct": 40.62,
+    "accuracy_pct": 53.12,
+    "balanced_accuracy_pct": 52.94,
+    "always_sell_pct": 59.38,
+    "always_hold_pct": 40.62,
+    "brier": 0.2635,
+    "auc": 0.5645,
+    "predicted_up_pct": 48.44
+  },
+  "by_year": {
+    "2025": {
+      "n": 100,
+      "up_rate_pct": 32.0,
+      "accuracy_pct": 52.0,
+      "balanced_accuracy_pct": 50.64,
+      "always_sell_pct": 68.0,
+      "always_hold_pct": 32.0,
+      "brier": 0.2741,
+      "auc": 0.5152,
+      "predicted_up_pct": 46.0
+    },
+    "2026": {
+      "n": 28,
+      "up_rate_pct": 71.43,
+      "accuracy_pct": 57.14,
+      "balanced_accuracy_pct": 55.0,
+      "always_sell_pct": 28.57,
+      "always_hold_pct": 71.43,
+      "brier": 0.2254,
+      "auc": 0.625,
+      "predicted_up_pct": 57.14
+    }
+  },
+  "feature_medians_training": {
+    "stock_5": 0.4319416661785702,
+    "stock_10": 0.1563575815120899,
+    "stock_30": -0.6048371901000493,
+    "sector_5": 0.8366536548146897,
+    "sector_10": 0.8974525569638514,
+    "sector_30": 1.9801446278247425,
+    "nifty_10": 0.7507587531974336,
+    "nifty_30": 1.0774531989302671,
+    "spread_10": -0.6940609762973509,
+    "spread_30": -3.496212417736111,
+    "drawdown_30": -10.032538293024707,
+    "volatility_20": 2.7002442418712986
+  },
+  "limitations": [
+    "Both price cohorts use Yahoo unadjusted closes, retrieved after the fact; exchange verification remains pending",
+    "One price-only checkpoint per IPO; no as-published filings or news",
+    "Exploratory comparison after observing deployed-rule later-year aggregate; not blinded"
+  ]
+}
