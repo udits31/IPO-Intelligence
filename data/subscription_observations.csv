@@ -1,0 +1,690 @@
+id,ipo_id,observed_at,qib_subscription,hni_subscription,retail_subscription,source_type,source_url,validation_status,created_at
+38,38,2010-04-12T17:00:00+00:00,21.97,17.47,13.0,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/intrasoft_ipo/236/,verified,2026-08-10T15:46:52.60762+00:00
+39,39,2010-04-06T17:00:00+00:00,143.62,106.71,20.91,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/persistent_systems_ipo/234/,verified,2026-08-10T15:46:52.60762+00:00
+8,8,2010-11-16T17:00:00+00:00,6.04,179.7,36.71,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/gravita_ipo/280/,verified,2026-08-10T15:46:52.60762+00:00
+1,1,2010-12-30T17:00:00+00:00,49.79,85.3,43.55,rsc_tracker,https://www.chittorgarh.com/ipo/punjab_sind_bank_ipo/288/,verified,2026-08-10T15:46:52.60762+00:00
+10,10,2010-10-27T17:00:00+00:00,3.59,0.18,0.08,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/prestige_estates_ipo/277/,verified,2026-08-10T15:46:52.60762+00:00
+11,11,2010-10-27T17:00:00+00:00,1.54,33.37,7.89,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/gyscoal_alloys_ipo/278/,verified,2026-08-10T15:46:52.60762+00:00
+14,14,2010-10-14T17:00:00+00:00,20.23,14.82,3.67,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ashoka_ipo/270/,verified,2026-08-10T15:46:52.60762+00:00
+15,15,2010-10-14T17:00:00+00:00,1.84,45.19,8.03,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sea_tv_network_ipo/272/,verified,2026-08-10T15:46:52.60762+00:00
+16,16,2010-10-14T17:00:00+00:00,0.67,29.04,8.34,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bedmutha_ipo/273/,verified,2026-08-10T15:46:52.60762+00:00
+17,17,2010-10-13T17:00:00+00:00,25.02,101.8,8.58,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/va_tech_ipo/259/,verified,2026-08-10T15:46:52.60762+00:00
+18,18,2010-10-12T17:00:00+00:00,1.79,0.6,2.33,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/cantabil_ipo/271/,verified,2026-08-10T15:46:52.60762+00:00
+19,19,2010-10-11T17:00:00+00:00,3.23,1.76,1.27,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/gallantt_ispat_ipo/268/,verified,2026-08-10T15:46:52.60762+00:00
+20,20,2010-10-08T17:00:00+00:00,3.67,1.65,1.0,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ramky_infra_ipo/265/,verified,2026-08-10T15:46:52.60762+00:00
+21,21,2010-10-08T17:00:00+00:00,1.82,0.59,0.17,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/orient_green_ipo/266/,verified,2026-08-10T15:46:52.60762+00:00
+22,22,2010-10-06T17:00:00+00:00,21.16,78.87,13.13,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/eros_ipo/261/,verified,2026-08-10T15:46:52.60762+00:00
+23,23,2010-10-06T17:00:00+00:00,36.07,106.3,32.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/career_point_ipo/263/,verified,2026-08-10T15:46:52.60762+00:00
+24,24,2010-10-05T17:00:00+00:00,5.63,35.98,10.79,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/microsec_financial_ipo/264/,verified,2026-08-10T15:46:52.60762+00:00
+25,25,2010-09-29T17:00:00+00:00,1.44,1.0,1.61,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/indosolar_ipo/260/,verified,2026-08-10T15:46:52.60762+00:00
+26,26,2010-09-09T17:00:00+00:00,10.85,92.07,9.81,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/gujarat_pipavav_ipo/256/,verified,2026-08-10T15:46:52.60762+00:00
+27,27,2010-08-25T17:00:00+00:00,1.27,9.6,6.19,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/prakash_steelage_ipo/255/,verified,2026-08-10T15:46:52.60762+00:00
+28,28,2010-08-18T17:00:00+00:00,13.71,49.29,6.56,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bajaj_corp_ipo/254/,verified,2026-08-10T15:46:52.60762+00:00
+29,29,2010-08-12T17:00:00+00:00,23.44,5.83,2.95,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/engineers_india_fpo/252/,verified,2026-08-10T15:46:52.60762+00:00
+30,30,2010-07-21T17:00:00+00:00,6.88,3.45,0.97,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hindustan_media_ipo/250/,verified,2026-08-10T15:46:52.60762+00:00
+31,31,2010-07-01T17:00:00+00:00,1.48,1.19,0.37,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/parabolic_drugs_ipo/247/,verified,2026-08-10T15:46:52.60762+00:00
+32,32,2010-06-11T17:00:00+00:00,1.15,3.4,,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/standard_chartered_idr/245/,verified,2026-08-10T15:46:52.60762+00:00
+2,2,2010-12-27T17:00:00+00:00,0.15,6.77,2.96,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ravikumar_distilleries_ipo/286/,verified,2026-08-10T15:46:52.60762+00:00
+36,36,2010-05-10T17:00:00+00:00,35.43,50.87,8.2,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/talwalkars_ipo/238/,verified,2026-08-10T15:46:52.60762+00:00
+5,5,2010-12-15T17:00:00+00:00,4.19,3.41,6.35,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shipping_corporation_fpo/283/,verified,2026-08-10T15:46:52.60762+00:00
+13,13,2010-10-18T17:00:00+00:00,3.32,0.2,0.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/commercial_engineers_ipo/274/,verified,2026-08-10T15:46:52.60762+00:00
+9,9,2010-11-04T17:00:00+00:00,24.62,25.13,2.28,rsc_tracker,https://www.chittorgarh.com/ipo/coal_india_ipo/258/,verified,2026-08-10T15:46:52.60762+00:00
+40,40,2010-04-05T17:00:00+00:00,8.57,43.79,9.94,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/pradip_overseas_ipo/232/,verified,2026-08-10T15:46:52.60762+00:00
+41,41,2010-03-30T17:00:00+00:00,2.29,0.2,0.21,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/nmdc_ipo/230/,verified,2026-08-10T15:46:52.60762+00:00
+42,42,2010-03-30T17:00:00+00:00,40.51,37.59,4.79,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ilfs_transportation_ipo/233/,verified,2026-08-10T15:46:52.60762+00:00
+43,43,2010-03-29T17:00:00+00:00,66.64,254.76,19.05,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/dq_entertainment_ipo/231/,verified,2026-08-10T15:46:52.60762+00:00
+44,44,2010-03-18T17:00:00+00:00,2.05,0.27,0.14,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ntpc_fpo/215/,verified,2026-08-10T15:46:52.60762+00:00
+34,34,2010-05-20T17:00:00+00:00,9.02,2.34,3.03,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sjvn_ipo/241/,verified,2026-08-10T15:46:52.60762+00:00
+35,35,2010-05-18T17:00:00+00:00,0.03,4.85,2.58,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tarapur_transformers_ipo/239/,verified,2026-08-10T15:46:52.60762+00:00
+33,33,2010-05-21T17:00:00+00:00,1.75,1.04,0.53,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/jaypee_infratech_ipo/243/,verified,2026-08-10T15:46:52.60762+00:00
+3,3,2010-12-23T17:00:00+00:00,0.87,3.23,0.28,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/a2z_maintenance_ipo/287/,verified,2026-08-10T15:46:52.60762+00:00
+6,6,2010-12-06T17:00:00+00:00,0.16,5.65,4.51,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rpp_infra_ipo/281/,verified,2026-08-10T15:46:52.60762+00:00
+4,4,2010-12-15T17:00:00+00:00,49.21,142.42,32.35,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/moil_ipo/282/,verified,2026-08-10T15:46:52.60762+00:00
+7,7,2010-11-25T17:00:00+00:00,9.11,9.62,2.14,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/power_grid_fpo/279/,verified,2026-08-10T15:46:52.60762+00:00
+37,37,2010-04-16T17:00:00+00:00,0.78,2.51,0.51,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/goenka_ipo/237/,verified,2026-08-10T15:46:52.60762+00:00
+51,51,2010-02-24T17:00:00+00:00,0.4,4.36,0.46,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/emmbi_polyarns_ipo/222/,verified,2026-08-10T15:46:52.665561+00:00
+52,52,2010-02-24T17:00:00+00:00,3.51,4.2,0.35,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/db_realty_ipo/224/,verified,2026-08-10T15:46:52.665561+00:00
+53,53,2010-02-19T17:00:00+00:00,0.56,3.38,0.89,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/thangamayil_ipo/219/,verified,2026-08-10T15:46:52.665561+00:00
+54,54,2010-02-15T17:00:00+00:00,0.99,15.1,6.0,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/syncom_healthcare_ipo/220/,verified,2026-08-10T15:46:52.665561+00:00
+55,55,2010-02-15T17:00:00+00:00,1.12,3.17,0.48,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vascon_engineers_ipo/221/,verified,2026-08-10T15:46:52.665561+00:00
+56,56,2010-02-08T17:00:00+00:00,42.57,51.41,3.67,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/jubilant_foodworks_ipo/218/,verified,2026-08-10T15:46:52.665561+00:00
+57,57,2009-12-14T17:00:00+00:00,2.74,1.43,0.36,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mbl_infra_ipo/210/,verified,2026-08-10T15:46:52.665561+00:00
+58,58,2010-01-06T17:00:00+00:00,48.36,24.87,3.33,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/d_b_corp_ipo/213/,verified,2026-08-10T15:46:52.665561+00:00
+59,59,2010-01-05T17:00:00+00:00,5.69,0.36,0.36,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/godrej_properties_ipo/212/,verified,2026-08-10T15:46:52.665561+00:00
+60,60,2010-01-04T17:00:00+00:00,2.39,0.05,0.38,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/jsw_energy_ipo/211/,verified,2026-08-10T15:46:52.665561+00:00
+64,64,2011-10-17T17:00:00+00:00,1.02,0.93,2.39,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/onelife_capital_ipo/332/,verified,2026-08-10T15:46:52.665561+00:00
+62,62,2011-10-20T17:00:00+00:00,1.03,1.56,2.19,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/m_and_b_switchgears_ipo/330/,verified,2026-08-10T15:46:52.665561+00:00
+66,66,2011-10-07T17:00:00+00:00,0.0,0.71,3.82,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/rdb_rasayans_ipo/328/,verified,2026-08-10T15:46:52.665561+00:00
+67,67,2011-10-04T17:00:00+00:00,0.33,2.93,4.88,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/prakash_constrowell_ipo/325/,verified,2026-08-10T15:46:52.665561+00:00
+68,68,2011-09-26T17:00:00+00:00,0.98,1.83,1.6,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/pg_electroplast_ipo/324/,verified,2026-08-10T15:46:52.665561+00:00
+71,71,2011-09-05T17:00:00+00:00,0.0,3.13,3.7,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/brooks_labs_ipo/322/,verified,2026-08-10T15:46:52.665561+00:00
+75,75,2011-07-28T17:00:00+00:00,0.0,1.48,3.57,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/bharatiya_global_infomedia_ipo/317/,verified,2026-08-10T15:46:52.665561+00:00
+80,80,2011-05-23T17:00:00+00:00,0.0,1.88,2.8,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/sanghvi_forging_ipo/307/,verified,2026-08-10T15:46:52.665561+00:00
+81,81,2011-05-06T17:00:00+00:00,17.79,60.72,8.42,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/muthoot_ipo/300/,verified,2026-08-10T15:46:52.665561+00:00
+69,69,2011-09-20T17:00:00+00:00,0.16,1.24,3.37,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/vaswani_ipo/305/,verified,2026-08-10T15:46:52.665561+00:00
+72,72,2011-08-26T17:00:00+00:00,1.06,1.67,2.68,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tree_house_ipo/321/,verified,2026-08-10T15:46:52.665561+00:00
+73,73,2011-08-12T17:00:00+00:00,1.67,5.96,9.58,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/l_t_finance_ipo/318/,verified,2026-08-10T15:46:52.665561+00:00
+74,74,2011-08-04T17:00:00+00:00,0.25,9.38,8.58,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/inventure_securities_ipo/319/,verified,2026-08-10T15:46:52.665561+00:00
+76,76,2011-07-13T17:00:00+00:00,0.04,1.64,4.7,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/readymade_steel_india_ipo/316/,verified,2026-08-10T15:46:52.665561+00:00
+77,77,2011-07-07T17:00:00+00:00,0.23,1.35,6.39,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rushil_decor_ipo/315/,verified,2026-08-10T15:46:52.665561+00:00
+78,78,2011-06-14T17:00:00+00:00,0.0,1.24,3.67,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vms_industries_ipo/313/,verified,2026-08-10T15:46:52.665561+00:00
+79,79,2011-05-27T17:00:00+00:00,6.92,1.08,1.97,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/power_finance_fpo/306/,verified,2026-08-10T15:46:52.665561+00:00
+84,84,2011-03-11T17:00:00+00:00,0.0,0.19,4.17,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/fineotex_ipo/294/,verified,2026-08-10T15:46:52.665561+00:00
+85,85,2011-02-10T17:00:00+00:00,0.82,4.82,9.39,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/omkar_speciality_ipo/293/,verified,2026-08-10T15:46:52.665561+00:00
+82,82,2011-03-30T17:00:00+00:00,2.3,0.1,0.99,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ptc_india_ipo/298/,verified,2026-08-10T15:46:52.665561+00:00
+83,83,2011-03-24T17:00:00+00:00,16.35,98.47,20.45,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/lovable_lingeries_ipo/297/,verified,2026-08-10T15:46:52.665561+00:00
+61,61,2011-11-02T17:00:00+00:00,0.0,0.02,3.27,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/indo_thai_securities_ipo/333/,verified,2026-08-10T15:46:52.665561+00:00
+86,86,2011-02-02T17:00:00+00:00,7.65,7.19,1.56,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tata_steel_fpo/292/,verified,2026-08-10T15:46:52.665561+00:00
+87,87,2011-01-12T17:00:00+00:00,,1.91,11.68,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shekhawati_ipo/289/,verified,2026-08-10T15:46:52.665561+00:00
+88,88,2012-12-28T17:00:00+00:00,2.31,0.29,0.17,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bharti_infratel_ipo/360/,verified,2026-08-10T15:46:52.665561+00:00
+47,47,2010-03-10T17:00:00+00:00,1.02,28.17,6.99,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/texmo_ipo/227/,verified,2026-08-10T15:46:52.60762+00:00
+70,70,2011-09-08T17:00:00+00:00,5.09,0.32,0.36,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/td_power_ipo/323/,verified,2026-08-10T15:46:52.665561+00:00
+49,49,2010-03-03T17:00:00+00:00,54.16,128.61,19.72,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/arss_infra_ipo/226/,verified,2026-08-10T15:46:52.60762+00:00
+65,65,2011-10-14T17:00:00+00:00,,0.68,1.72,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tijaria_polypipes_ipo/327/,verified,2026-08-10T15:46:52.665561+00:00
+46,46,2010-03-11T17:00:00+00:00,67.53,99.53,9.95,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/man_infraconstruction_ipo/228/,verified,2026-08-10T15:46:52.60762+00:00
+63,63,2011-10-19T17:00:00+00:00,0.51,1.55,1.55,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/flexituff_ipo/329/,verified,2026-08-10T15:46:52.665561+00:00
+48,48,2010-03-08T17:00:00+00:00,5.51,2.05,0.22,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rec_fpo/223/,verified,2026-08-10T15:46:52.60762+00:00
+50,50,2010-02-25T17:00:00+00:00,1.32,4.19,0.22,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hathway_cable_ipo/225/,verified,2026-08-10T15:46:52.60762+00:00
+94,94,2012-04-12T17:00:00+00:00,4.93,7.95,2.19,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/mt_educare_ipo/338/,verified,2026-08-10T15:46:52.665561+00:00
+96,96,2012-03-09T17:00:00+00:00,34.76,145.5,23.75,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mcx_ipo/177/,verified,2026-08-10T15:46:52.665561+00:00
+100,100,2013-02-20T17:00:00+00:00,1.48,1.38,0.76,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/v_mart_retail_ipo/363/,verified,2026-08-10T15:46:52.665561+00:00
+101,101,2014-12-19T17:00:00+00:00,6.2,1.61,6.75,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/monte_carlo_ipo/437/,verified,2026-08-10T15:46:52.703671+00:00
+102,102,2014-10-01T17:00:00+00:00,3.1,9.11,8.29,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shemaroo_ipo/431/,verified,2026-08-10T15:46:52.703671+00:00
+103,103,2014-09-23T17:00:00+00:00,22.92,251.48,5.68,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sharda_cropchem_ipo/430/,verified,2026-08-10T15:46:52.703671+00:00
+130,130,2015-03-31T17:00:00+00:00,3.37,25.45,3.55,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hpl_electric_ipo/579/,verified,2026-08-10T15:46:52.703671+00:00
+97,97,2013-12-19T17:00:00+00:00,9.11,9.62,2.14,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/power_grid_fpo/398/,verified,2026-08-10T15:46:52.665561+00:00
+104,104,2014-09-12T17:00:00+00:00,12.18,221.31,39.89,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/snowman_logistics_ipo/428/,verified,2026-08-10T15:46:52.703671+00:00
+105,105,2014-09-05T17:00:00+00:00,12.04,158.94,7.32,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/wonderla_holidays_ipo/418/,verified,2026-08-10T15:46:52.703671+00:00
+106,106,2014-02-28T17:00:00+00:00,3.93,0.23,2.39,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/eil_fpo/405/,verified,2026-08-10T15:46:52.703671+00:00
+107,107,2015-12-23T17:00:00+00:00,23.43,125.2,3.06,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/alkem_laboratories_ipo/512/,verified,2026-08-10T15:46:52.703671+00:00
+108,108,2015-12-23T17:00:00+00:00,26.04,61.23,4.18,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/dr_lal_pathlabs_ipo/511/,verified,2026-08-10T15:46:52.703671+00:00
+109,109,2015-11-16T17:00:00+00:00,11.35,88.78,2.14,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/s_h_kelkar_ipo/508/,verified,2026-08-10T15:46:52.703671+00:00
+110,110,2015-11-10T17:00:00+00:00,8.68,3.7,0.93,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/indigo_ipo/492/,verified,2026-08-10T15:46:52.703671+00:00
+111,111,2015-11-02T17:00:00+00:00,2.48,0.53,0.91,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/cafe_coffee_day_ipo/507/,verified,2026-08-10T15:46:52.703671+00:00
+112,112,2015-09-21T17:00:00+00:00,1.14,1.85,0.39,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/prabhat_dairy_ipo/491/,verified,2026-08-10T15:46:52.703671+00:00
+114,114,2015-09-10T17:00:00+00:00,1.04,2.19,1.55,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shree_pushkar_chemicals_ipo/493/,verified,2026-08-10T15:46:52.703671+00:00
+115,115,2015-09-09T17:00:00+00:00,3.39,0.29,1.58,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/navkar_corporation_ipo/488/,verified,2026-08-10T15:46:52.703671+00:00
+116,116,2015-08-26T17:00:00+00:00,11.84,127.42,3.33,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/power_mech_projects_ipo/486/,verified,2026-08-10T15:46:52.703671+00:00
+117,117,2015-08-11T17:00:00+00:00,21.42,90.15,4.67,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/syngene_international_ipo/481/,verified,2026-08-10T15:46:52.703671+00:00
+118,118,2015-05-26T17:00:00+00:00,2.43,0.64,0.27,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/pnc_infratech_ipo/469/,verified,2026-08-10T15:46:52.703671+00:00
+119,119,2015-05-14T17:00:00+00:00,2.46,1.18,0.99,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ufo_moviez_ipo/468/,verified,2026-08-10T15:46:52.703671+00:00
+120,120,2015-05-06T17:00:00+00:00,1.05,1.31,0.94,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mep_infrastructure_ipo/467/,verified,2026-08-10T15:46:52.703671+00:00
+121,121,2015-04-30T17:00:00+00:00,24.77,251.04,7.75,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vrl_logistics_ipo/466/,verified,2026-08-10T15:46:52.703671+00:00
+122,122,2015-04-09T17:00:00+00:00,15.69,36.12,2.18,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/inox_wind_ipo/438/,verified,2026-08-10T15:46:52.703671+00:00
+123,123,2015-04-06T17:00:00+00:00,1.14,0.69,1.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/adlabs_entertainment_ipo/456/,verified,2026-08-10T15:46:52.703671+00:00
+124,124,2015-03-19T17:00:00+00:00,1.0,0.1,0.33,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ortel_communications_ipo/455/,verified,2026-08-10T15:46:52.703671+00:00
+125,125,2016-03-31T17:00:00+00:00,4.85,3.54,1.59,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/laurus-labs-ipo/606/,verified,2026-08-10T15:46:52.703671+00:00
+126,126,2016-03-31T17:00:00+00:00,6.89,3.64,0.45,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sheela-foam-ipo/602/,verified,2026-08-10T15:46:52.703671+00:00
+127,127,2015-12-31T17:00:00+00:00,2.6,0.34,0.74,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/varun-beverages-ipo/598/,verified,2026-08-10T15:46:52.703671+00:00
+128,128,2016-03-31T17:00:00+00:00,16.06,80.25,1.34,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/pnb-housing-finance-ipo/599/,verified,2026-08-10T15:46:52.703671+00:00
+98,98,2013-06-05T17:00:00+00:00,7.17,22.35,3.39,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/just_dial_ipo/377/,verified,2026-08-10T15:46:52.665561+00:00
+99,99,2013-04-01T17:00:00+00:00,2.97,0.35,0.47,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/repco_home_finance_ipo/369/,verified,2026-08-10T15:46:52.665561+00:00
+132,132,2015-03-31T17:00:00+00:00,7.51,210.72,11.31,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/gna_axles_ipo/574/,verified,2026-08-10T15:46:52.703671+00:00
+131,131,2016-03-31T17:00:00+00:00,5.35,28.53,1.33,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/icici_prudential_life_ipo/571/,verified,2026-08-10T15:46:52.703671+00:00
+95,95,2012-03-28T17:00:00+00:00,0.0,3.47,1.37,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/olympic_cards_ipo/336/,verified,2026-08-10T15:46:52.665561+00:00
+113,113,2015-09-16T17:00:00+00:00,1.9,1.7,1.67,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sadbhav_infra_ipo/494/,verified,2026-08-10T15:46:52.703671+00:00
+129,129,2016-03-31T17:00:00+00:00,21.81,127.33,2.57,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/endurance-technologies-ipo/593/,verified,2026-08-10T15:46:52.703671+00:00
+90,90,2012-12-26T17:00:00+00:00,30.86,110.24,6.11,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/care_ipo/358/,verified,2026-08-10T15:46:52.665561+00:00
+92,92,2012-05-09T17:00:00+00:00,1.35,1.87,0.61,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bhimji_zaveri_ipo/339/,verified,2026-08-10T15:46:52.665561+00:00
+91,91,2012-05-30T17:00:00+00:00,3.85,2.19,0.52,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/speciality_restaurants_ipo/342/,verified,2026-08-10T15:46:52.665561+00:00
+93,93,2012-04-12T17:00:00+00:00,7.07,1.7,3.17,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/nbcc_ipo/337/,verified,2026-08-10T15:46:52.665561+00:00
+137,137,2015-03-31T17:00:00+00:00,38.6,391.88,11.12,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/advanced_enzyme_ipo/560/,verified,2026-08-10T15:46:52.703671+00:00
+138,138,2015-03-31T17:00:00+00:00,8.55,10.59,6.92,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/l_t_infotech_ipo/555/,verified,2026-08-10T15:46:52.703671+00:00
+139,139,2015-03-31T17:00:00+00:00,24.79,397.04,32.8,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/quess_corp_ipo/552/,verified,2026-08-10T15:46:52.703671+00:00
+140,140,2015-03-31T17:00:00+00:00,31.13,181.07,6.58,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mahanagar_gas_ipo/551/,verified,2026-08-10T15:46:52.703671+00:00
+141,141,2016-05-06T17:00:00+00:00,1.14,2.89,2.01,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/parag_milk_ipo/545/,verified,2026-08-10T15:46:52.703671+00:00
+142,142,2016-05-10T17:00:00+00:00,14.4,134.88,3.8,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ujjivan_financial_services_ipo/543/,verified,2026-08-10T15:46:52.703671+00:00
+143,143,2016-05-09T17:00:00+00:00,31.17,225.22,8.29,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/thyrocare_technologies_ipo/541/,verified,2026-08-10T15:46:52.703671+00:00
+144,144,2016-04-21T17:00:00+00:00,6.62,55.84,1.34,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/equitas_holdings_ipo/536/,verified,2026-08-10T15:46:52.703671+00:00
+145,145,2016-04-04T17:00:00+00:00,1.03,2.62,1.46,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/infibeam_ipo/532/,verified,2026-08-10T15:46:52.703671+00:00
+146,146,2016-04-01T17:00:00+00:00,1.13,2.23,2.18,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bharat_wire_ropes_ipo/530/,verified,2026-08-10T15:46:52.703671+00:00
+147,147,2016-03-30T17:00:00+00:00,1.57,0.4,0.76,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/healthcare_global_ipo/529/,verified,2026-08-10T15:46:52.703671+00:00
+148,148,2016-02-18T17:00:00+00:00,2.42,37.18,3.72,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/quick_heal_ipo/521/,verified,2026-08-10T15:46:52.703671+00:00
+149,149,2016-02-12T17:00:00+00:00,12.23,190.57,10.34,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/teamlease_services_ipo/520/,verified,2026-08-10T15:46:52.703671+00:00
+150,150,2016-02-08T17:00:00+00:00,1.72,0.39,1.87,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/precision_camshafts_ipo/517/,verified,2026-08-10T15:46:52.703671+00:00
+151,151,2016-01-06T17:00:00+00:00,10.4,3.56,1.82,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/narayana_hrudayalaya_ipo/513/,verified,2026-08-10T15:46:52.753048+00:00
+152,152,2017-03-31T17:00:00+00:00,102.92,394.14,74.37,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/astron-paper-ipo/757/,verified,2026-08-10T15:46:52.753048+00:00
+154,154,2017-03-31T17:00:00+00:00,2.41,0.42,2.83,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shalby-hospital-ipo/772/,verified,2026-08-10T15:46:52.753048+00:00
+155,155,2017-03-31T17:00:00+00:00,7.22,2.23,0.88,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hdfc-life-ipo/756/,verified,2026-08-10T15:46:52.753048+00:00
+156,156,2017-03-31T17:00:00+00:00,1.65,0.1,2.13,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/khadim-india-ipo/755/,verified,2026-08-10T15:46:52.753048+00:00
+158,158,2017-03-31T17:00:00+00:00,6.84,1.84,5.75,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mahindra-logistics-ipo/753/,verified,2026-08-10T15:46:52.753048+00:00
+159,159,2017-03-31T17:00:00+00:00,47.51,210.47,5.39,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/reliance-nippon-life-ipo/752/,verified,2026-08-10T15:46:52.753048+00:00
+164,164,2016-03-31T17:00:00+00:00,31.8,101.01,8.02,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/prataap-snacks/707/,verified,2026-08-10T15:46:52.753048+00:00
+167,167,2016-03-31T17:00:00+00:00,54.34,647.11,16.96,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/capacite-infra-ipo/711/,verified,2026-08-10T15:46:52.753048+00:00
+168,168,2017-03-31T17:00:00+00:00,1.39,0.28,17.1,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/matrimony-ipo/710/,verified,2026-08-10T15:46:52.753048+00:00
+169,169,2016-03-31T17:00:00+00:00,1.16,1.05,5.22,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bharat-road-network-ipo/703/,verified,2026-08-10T15:46:52.753048+00:00
+153,153,2017-03-31T17:00:00+00:00,5.62,11.06,3.09,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/future-supply-chain-ipo/771/,verified,2026-08-10T15:46:52.753048+00:00
+165,165,2017-03-31T17:00:00+00:00,5.63,0.64,0.78,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sbi-life-insurance-ipo/713/,verified,2026-08-10T15:46:52.753048+00:00
+161,161,2017-03-31T17:00:00+00:00,2.52,0.59,2.41,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/indian-energy-exchange-iex-ipo/746/,verified,2026-08-10T15:46:52.753048+00:00
+170,170,2016-03-31T17:00:00+00:00,54.5,345.43,10.03,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/dixon-ipo/705/,verified,2026-08-10T15:46:52.753048+00:00
+171,171,2016-03-31T17:00:00+00:00,1.38,7.22,8.08,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/apex-frozen-foods-ipo/698/,verified,2026-08-10T15:46:52.753048+00:00
+172,172,2016-03-31T17:00:00+00:00,63.51,287.11,7.98,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/cochin-shipyard-ipo/684/,verified,2026-08-10T15:46:52.753048+00:00
+173,173,2016-03-31T17:00:00+00:00,2.92,1.65,18.65,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sis-ipo/690/,verified,2026-08-10T15:46:52.753048+00:00
+174,174,2016-03-31T17:00:00+00:00,127.38,483.55,56.57,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/salasar-techno-ipo/683/,verified,2026-08-10T15:46:52.753048+00:00
+175,175,2016-03-31T17:00:00+00:00,32.11,141.91,3.35,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/au-financiers-ipo/672/,verified,2026-08-10T15:46:52.753048+00:00
+134,134,2015-03-31T17:00:00+00:00,34.91,197.29,5.44,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rbl_bank_ipo/564/,verified,2026-08-10T15:46:52.703671+00:00
+163,163,2017-03-31T17:00:00+00:00,62.67,238.28,7.37,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/godrej-agrovet-ipo/734/,verified,2026-08-10T15:46:52.753048+00:00
+162,162,2017-03-31T17:00:00+00:00,60.42,380.2,15.13,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mas-financial-ipo/739/,verified,2026-08-10T15:46:52.753048+00:00
+166,166,2017-03-31T17:00:00+00:00,3.9,0.76,1.15,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/icici-lombard-ipo/714/,verified,2026-08-10T15:46:52.753048+00:00
+133,133,2016-03-31T17:00:00+00:00,2.66,0.45,1.63,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/l_t_technology_ipo/573/,verified,2026-08-10T15:46:52.703671+00:00
+160,160,2017-03-31T17:00:00+00:00,2.24,0.11,0.59,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/general-insurance-corporation-ipo/748/,verified,2026-08-10T15:46:52.753048+00:00
+135,135,2015-03-31T17:00:00+00:00,1.63,5.23,1.84,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/s_p_apparels_ipo/563/,verified,2026-08-10T15:46:52.703671+00:00
+136,136,2015-03-31T17:00:00+00:00,4.7,80.83,2.29,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/dilip_buildcon_ipo/562/,verified,2026-08-10T15:46:52.703671+00:00
+181,181,2016-03-31T17:00:00+00:00,4.01,9.39,6.05,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/psp-projects-ipo/660/,verified,2026-08-10T15:46:52.753048+00:00
+185,185,2016-03-31T17:00:00+00:00,20.36,89.15,14.72,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shankara-buildpro-ipo/635/,verified,2026-08-10T15:46:52.753048+00:00
+183,183,2017-03-31T17:00:00+00:00,4.55,4.92,,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/irb-invit-fund-ipo/659/,verified,2026-08-10T15:46:52.753048+00:00
+184,184,2016-03-31T17:00:00+00:00,18.61,205.73,5.79,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/s-chand-and-company-ipo/651/,verified,2026-08-10T15:46:52.753048+00:00
+178,178,2016-03-31T17:00:00+00:00,2.49,0.38,3.31,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/eris-lifesciences-ipo/668/,verified,2026-08-10T15:46:52.753048+00:00
+186,186,2016-03-31T17:00:00+00:00,2.21,0.18,1.54,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/cl-educate-ipo/631/,verified,2026-08-10T15:46:52.753048+00:00
+187,187,2016-03-31T17:00:00+00:00,60.02,272.2,7.09,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/avenue-supermarts-ipo/615/,verified,2026-08-10T15:46:52.753048+00:00
+188,188,2016-03-31T17:00:00+00:00,16.77,109.08,9.6,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/music-broadcast-ipo/623/,verified,2026-08-10T15:46:52.753048+00:00
+189,189,2016-03-31T17:00:00+00:00,20.13,158.43,6.12,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bse-limited-ipo/611/,verified,2026-08-10T15:46:52.753048+00:00
+190,190,2017-03-31T17:00:00+00:00,1.81,0.3,0.21,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/garden-reach-shipbuilders-ipo/921/,verified,2026-08-10T15:46:52.753048+00:00
+191,191,2017-03-31T17:00:00+00:00,1.76,0.14,0.2,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/aavas-financiers-ipo/925/,verified,2026-08-10T15:46:52.753048+00:00
+195,195,2017-03-31T17:00:00+00:00,6.09,4.89,0.53,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tcns-clothing-ipo/904/,verified,2026-08-10T15:46:52.753048+00:00
+196,196,2017-03-31T17:00:00+00:00,4.27,1.51,0.87,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/varroc-engineering-ipo/891/,verified,2026-08-10T15:46:52.753048+00:00
+197,197,2017-03-31T17:00:00+00:00,71.97,192.55,14.87,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rites-limited-ipo/886/,verified,2026-08-10T15:46:52.753048+00:00
+198,198,2017-03-31T17:00:00+00:00,6.46,18.75,1.51,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/fine-organic-ipo/887/,verified,2026-08-10T15:46:52.753048+00:00
+177,177,2016-03-31T17:00:00+00:00,60.2,558.0,22.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/cdsl-ipo/620/,verified,2026-08-10T15:46:52.753048+00:00
+199,199,2017-03-31T17:00:00+00:00,6.75,7.85,1.4,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/indostar-capital-finance-ipo/866/,verified,2026-08-10T15:46:52.753048+00:00
+200,200,2017-03-31T17:00:00+00:00,2.18,0.11,0.1,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/lemon-tree-ipo/846/,verified,2026-08-10T15:46:52.753048+00:00
+201,201,2017-03-31T17:00:00+00:00,1.0,0.92,0.95,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/icici-securities-ipo/839/,verified,2026-08-10T15:46:52.782632+00:00
+202,202,2017-03-31T17:00:00+00:00,1.96,0.11,0.66,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mishra-dhatu-nigam-ipo/835/,verified,2026-08-10T15:46:52.782632+00:00
+203,203,2017-03-31T17:00:00+00:00,1.55,0.49,1.89,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/karda-construction-ipo/832/,verified,2026-08-10T15:46:52.782632+00:00
+204,204,2017-03-31T17:00:00+00:00,6.43,6.18,1.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sandhar-technologies-ipo/834/,verified,2026-08-10T15:46:52.782632+00:00
+205,205,2017-03-31T17:00:00+00:00,1.74,0.03,0.36,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hindustan-aeronautics-ipo/831/,verified,2026-08-10T15:46:52.782632+00:00
+206,206,2017-03-31T17:00:00+00:00,16.08,13.81,1.14,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bandhan-bank-ipo/822/,verified,2026-08-10T15:46:52.782632+00:00
+207,207,2017-03-31T17:00:00+00:00,1.5,0.44,1.33,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bharat-dynamics-ipo/827/,verified,2026-08-10T15:46:52.782632+00:00
+208,208,2017-03-31T17:00:00+00:00,3.96,4.64,2.95,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hg-infra-ipo/816/,verified,2026-08-10T15:46:52.782632+00:00
+209,209,2017-03-31T17:00:00+00:00,1.36,0.7,1.11,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/aster-dm-healthcare-ipo/810/,verified,2026-08-10T15:46:52.782632+00:00
+210,210,2017-03-31T17:00:00+00:00,22.35,6.63,5.7,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/galaxy-surfactants-ipo/798/,verified,2026-08-10T15:46:52.782632+00:00
+211,211,2017-03-31T17:00:00+00:00,68.59,518.3,11.09,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/amber-enterprises-ipo/792/,verified,2026-08-10T15:46:52.782632+00:00
+212,212,2017-03-31T17:00:00+00:00,6.92,5.38,4.93,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/newgen-software-ipo/791/,verified,2026-08-10T15:46:52.782632+00:00
+213,213,2017-03-31T17:00:00+00:00,42.09,963.53,39.04,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/apollo-micro-systems-ipo/788/,verified,2026-08-10T15:46:52.782632+00:00
+180,180,2017-05-31T17:00:00+00:00,1.07,1.1,,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/indigrid-invit-fund/661/,verified,2026-08-10T15:46:52.753048+00:00
+215,215,2019-03-31T17:00:00+00:00,46.3,473.33,45.29,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ujjivan-bank-ipo/1023/,verified,2026-08-10T15:46:52.782632+00:00
+216,216,2019-03-31T17:00:00+00:00,25.52,164.27,40.98,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/csb-bank-ipo/1021/,verified,2026-08-10T15:46:52.782632+00:00
+217,217,2018-03-31T17:00:00+00:00,1.0,1.75,0.59,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vishwaraj-ipo/1016/,verified,2026-08-10T15:46:52.782632+00:00
+193,193,2017-03-31T17:00:00+00:00,2.88,0.37,0.75,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/creditaccess-grameen-ipo/900/,verified,2026-08-10T15:46:52.753048+00:00
+194,194,2017-03-31T17:00:00+00:00,77.51,194.39,6.22,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hdfc-amc-ipo/897/,verified,2026-08-10T15:46:52.753048+00:00
+192,192,2017-03-31T17:00:00+00:00,12.28,3.73,9.46,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ircon-international-ipo/922/,verified,2026-08-10T15:46:52.753048+00:00
+218,218,2018-03-31T17:00:00+00:00,105.55,351.03,13.28,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/irctc-ipo/1018/,verified,2026-08-10T15:46:52.782632+00:00
+182,182,2016-03-31T17:00:00+00:00,55.18,330.54,10.02,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hudco-ipo/645/,verified,2026-08-10T15:46:52.753048+00:00
+179,179,2016-03-31T17:00:00+00:00,1.53,0.19,2.92,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tejas-networks-ipo/667/,verified,2026-08-10T15:46:52.753048+00:00
+214,214,2019-03-31T17:00:00+00:00,2.02,0.52,1.63,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/prince-pipes-ipo/1027/,verified,2026-08-10T15:46:52.782632+00:00
+226,226,2018-03-31T17:00:00+00:00,1.36,0.67,2.64,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rail-vikas-ipo/980/,verified,2026-08-10T15:46:52.782632+00:00
+227,227,2019-04-01T17:00:00+00:00,1.48,2.94,,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/embassy-office-parks/971/,verified,2026-08-10T15:46:52.782632+00:00
+228,228,2018-03-31T17:00:00+00:00,1.13,1.69,2.65,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mstc-limited-ipo/969/,verified,2026-08-10T15:46:52.782632+00:00
+220,220,2018-03-31T17:00:00+00:00,1.89,0.49,0.09,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/spandana-sphoorty-ipo/1006/,verified,2026-08-10T15:46:52.782632+00:00
+224,224,2018-03-31T17:00:00+00:00,37.88,108.64,4.36,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/polycab-ipo/979/,verified,2026-08-10T15:46:52.782632+00:00
+260,260,2021-03-31T17:00:00+00:00,115.77,184.58,10.56,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/tarsons-products-ipo/1179/,verified,2026-08-10T15:46:52.819544+00:00
+261,261,2021-03-31T17:00:00+00:00,60.57,875.55,106.09,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/latent-view-analytics-ipo/1178/,verified,2026-08-10T15:46:52.819544+00:00
+258,258,2021-03-31T17:00:00+00:00,1.01,0.67,0.59,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/star-health-ipo/1184/,verified,2026-08-10T15:46:52.819544+00:00
+232,232,2020-03-31T17:00:00+00:00,35.18,357.06,56.92,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/burger-king-ipo/1075/,verified,2026-08-10T15:46:52.782632+00:00
+233,233,2020-03-31T17:00:00+00:00,3.16,0.5,0.19,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/gland-pharma-ipo/1072/,verified,2026-08-10T15:46:52.782632+00:00
+234,234,2020-03-31T17:00:00+00:00,2.15,0.16,1.53,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/equitas-small-finance-bank-ipo/1040/,verified,2026-08-10T15:46:52.782632+00:00
+235,235,2019-03-31T17:00:00+00:00,21.0,1.45,19.48,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/likhitha-infrastructure-ipo/1062/,verified,2026-08-10T15:46:52.782632+00:00
+221,221,2019-03-31T17:00:00+00:00,22.57,198.34,10.23,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/affle-ipo/1005/,verified,2026-08-10T15:46:52.782632+00:00
+236,236,2020-03-31T17:00:00+00:00,1.96,0.58,1.97,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/uti-amc-ipo/1052/,verified,2026-08-10T15:46:52.782632+00:00
+237,237,2019-03-31T17:00:00+00:00,89.87,673.67,32.15,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mazagon-dock-ipo/1064/,verified,2026-08-10T15:46:52.782632+00:00
+238,238,2020-03-31T17:00:00+00:00,2.9,0.51,3.36,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/angel-broking-ipo/1057/,verified,2026-08-10T15:46:52.782632+00:00
+239,239,2020-03-31T17:00:00+00:00,29.9,111.31,4.85,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/cams-ipo/1055/,verified,2026-08-10T15:46:52.782632+00:00
+240,240,2019-03-31T17:00:00+00:00,44.62,445.91,35.79,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/chemcon-ipo/1060/,verified,2026-08-10T15:46:52.782632+00:00
+241,241,2020-03-31T17:00:00+00:00,37.31,193.78,11.54,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/route-mobile-ipo/1058/,verified,2026-08-10T15:46:52.782632+00:00
+242,242,2020-03-31T17:00:00+00:00,31.96,348.43,60.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/happiest-minds-ipo/1056/,verified,2026-08-10T15:46:52.782632+00:00
+243,243,2020-08-07T17:00:00+00:00,4.89,15.54,5.1,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mindspace-business-reit/1051/,verified,2026-08-10T15:46:52.782632+00:00
+247,247,2021-03-31T17:00:00+00:00,1.44,0.86,1.26,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/cms-info-systems-ipo/1203/,verified,2026-08-10T15:46:52.782632+00:00
+249,249,2021-03-31T17:00:00+00:00,1.82,19.04,81.24,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/hp-adhesives-ipo/1194/,verified,2026-08-10T15:46:52.782632+00:00
+250,250,2021-03-31T17:00:00+00:00,190.86,254.22,23.14,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/data-patterns-ipo/1190/,verified,2026-08-10T15:46:52.782632+00:00
+252,252,2021-03-31T17:00:00+00:00,8.49,3.02,1.13,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/metro-brands-ipo/1193/,verified,2026-08-10T15:46:52.819544+00:00
+251,251,2021-03-31T17:00:00+00:00,46.21,86.27,4.17,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/medplus-health-ipo/1195/,verified,2026-08-10T15:46:52.819544+00:00
+256,256,2021-03-31T17:00:00+00:00,2.5,25.42,7.75,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/anand-rathi-ipo/1186/,verified,2026-08-10T15:46:52.819544+00:00
+253,253,2021-03-31T17:00:00+00:00,79.28,423.61,13.18,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mapmyindia-ipo/1187/,verified,2026-08-10T15:46:52.819544+00:00
+254,254,2021-03-31T17:00:00+00:00,1.37,2.52,8.05,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shriram-properties-ipo/1191/,verified,2026-08-10T15:46:52.819544+00:00
+244,244,2019-03-31T17:00:00+00:00,1.37,1.2,0.41,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/yes-bank-fpo/1050/,verified,2026-08-10T15:46:52.782632+00:00
+225,225,2018-03-31T17:00:00+00:00,4.19,2.75,2.05,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/metropolis-ipo/978/,verified,2026-08-10T15:46:52.782632+00:00
+245,245,2019-03-31T17:00:00+00:00,34.83,236.79,6.2,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rossari-biotech-ipo/1049/,verified,2026-08-10T15:46:52.782632+00:00
+246,246,2019-03-31T17:00:00+00:00,23.41,43.42,2.17,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sbi-cards-ipo/1025/,verified,2026-08-10T15:46:52.782632+00:00
+248,248,2021-03-31T17:00:00+00:00,31.83,161.22,55.98,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/supriya-lifescience-ipo/1197/,verified,2026-08-10T15:46:52.782632+00:00
+231,231,2020-03-31T17:00:00+00:00,71.83,619.66,25.44,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mrs-bectors-food-ipo/1077/,verified,2026-08-10T15:46:52.782632+00:00
+262,262,2021-03-31T17:00:00+00:00,1.76,0.23,1.27,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/paytm-ipo/1128/,verified,2026-08-10T15:46:52.819544+00:00
+259,259,2021-03-31T17:00:00+00:00,100.73,262.08,49.57,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/gocolors-ipo/1181/,verified,2026-08-10T15:46:52.819544+00:00
+255,255,2021-03-31T17:00:00+00:00,3.97,41.63,5.46,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rategain-ipo/1189/,verified,2026-08-10T15:46:52.819544+00:00
+223,223,2018-03-31T17:00:00+00:00,12.94,114.06,15.38,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/neogen-chemicals-ipo/984/,verified,2026-08-10T15:46:52.782632+00:00
+230,230,2018-03-31T17:00:00+00:00,1.68,8.21,2.31,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/xelpmoc-design-tech-ipo/936/,verified,2026-08-10T15:46:52.782632+00:00
+219,219,2018-03-31T17:00:00+00:00,1.0,0.94,0.93,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sterling-and-wilson-ipo/1007/,verified,2026-08-10T15:46:52.782632+00:00
+229,229,2018-03-31T17:00:00+00:00,2.51,0.99,0.02,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/chalet-hotels-ipo/917/,verified,2026-08-10T15:46:52.782632+00:00
+222,222,2018-03-31T17:00:00+00:00,12.95,62.08,13.15,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/india-mart-ipo/998/,verified,2026-08-10T15:46:52.782632+00:00
+267,267,2021-03-31T17:00:00+00:00,1.26,0.15,3.78,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/fino-payments-bank-ipo/1166/,verified,2026-08-10T15:46:52.819544+00:00
+268,268,2021-03-31T17:00:00+00:00,37.54,110.16,10.28,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/nykaa-ipo/1170/,verified,2026-08-10T15:46:52.819544+00:00
+271,271,2020-03-31T17:00:00+00:00,26.47,11.37,3.15,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/sansera-engineering-ipo/1149/,verified,2026-08-10T15:46:52.819544+00:00
+270,270,2020-03-31T17:00:00+00:00,70.75,962.89,100.8,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/paras-defence-and-space-technologies-ipo/1153/,verified,2026-08-10T15:46:52.819544+00:00
+273,274,2020-03-31T17:00:00+00:00,32.41,33.91,1.35,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/aptus-value-housing-finance-ipo/1140/,verified,2026-08-10T15:46:52.819544+00:00
+272,273,2021-03-31T17:00:00+00:00,5.84,0.88,0.7,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vijaya-diagnostic-ipo/1145/,verified,2026-08-10T15:46:52.819544+00:00
+275,276,2020-03-31T17:00:00+00:00,2.34,0.6,0.53,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/nuvoco-ipo/1133/,verified,2026-08-10T15:46:52.819544+00:00
+276,277,2020-03-31T17:00:00+00:00,14.73,39.85,2.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/cartrade-tech-ipo/1137/,verified,2026-08-10T15:46:52.819544+00:00
+277,278,2020-03-31T17:00:00+00:00,20.55,114.47,37.15,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/krsnaa-diagnostics-ipo/1138/,verified,2026-08-10T15:46:52.819544+00:00
+278,279,2020-03-31T17:00:00+00:00,38.63,212.03,34.0,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/devyani-international-ipo/1136/,verified,2026-08-10T15:46:52.819544+00:00
+279,280,2020-03-31T17:00:00+00:00,7.81,4.56,32.2,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/exxaro-tiles-ipo/1134/,verified,2026-08-10T15:46:52.819544+00:00
+280,281,2020-03-31T17:00:00+00:00,10.23,14.76,20.59,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/windlas-biotech-ipo/1135/,verified,2026-08-10T15:46:52.819544+00:00
+281,282,2020-03-31T17:00:00+00:00,57.88,355.67,21.67,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rolex-rings-ipo/1129/,verified,2026-08-10T15:46:52.819544+00:00
+282,283,2020-03-31T17:00:00+00:00,15.51,124.82,12.98,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/glenmark-life-sciences-ipo/1124/,verified,2026-08-10T15:46:52.819544+00:00
+283,284,2020-03-31T17:00:00+00:00,76.15,503.11,31.37,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tatva-chintan-pharma-ipo/1127/,verified,2026-08-10T15:46:52.819544+00:00
+288,289,2020-03-31T17:00:00+00:00,34.55,73.33,9.7,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/dodla-dairy-ipo/1114/,verified,2026-08-10T15:46:52.819544+00:00
+289,290,2020-03-31T17:00:00+00:00,2.74,1.81,2.13,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/kims-ipo/1115/,verified,2026-08-10T15:46:52.819544+00:00
+290,291,2020-03-31T17:00:00+00:00,63.52,334.48,10.0,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shyam-metalics-ipo/1109/,verified,2026-08-10T15:46:52.819544+00:00
+291,292,2020-03-31T17:00:00+00:00,2.03,0.36,1.21,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sona-comstar-ipo/1112/,verified,2026-08-10T15:46:52.819544+00:00
+292,293,2021-05-08T17:00:00+00:00,2.51,4.62,,rsc_tracker,https://www.chittorgarh.com/ipo/powergrid-invit-ipo-april-2021/1110/,verified,2026-08-10T15:46:52.819544+00:00
+297,298,2020-03-31T17:00:00+00:00,1.47,1.18,2.35,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/suryoday-small-finance-bank-ipo/1099/,verified,2026-08-10T15:46:52.819544+00:00
+263,263,2021-03-31T17:00:00+00:00,7.5,3.46,8.7,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/sapphire-foods-ipo/1177/,verified,2026-08-10T15:46:52.819544+00:00
+293,294,2020-03-31T17:00:00+00:00,1.83,1.02,0.24,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/lodha-developers-ipo/1107/,verified,2026-08-10T15:46:52.819544+00:00
+264,264,2021-03-31T17:00:00+00:00,1.28,1.82,0.77,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sjs-enterprises-ipo/1168/,verified,2026-08-10T15:46:52.819544+00:00
+295,296,2020-03-31T17:00:00+00:00,42.3,387.66,67.76,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/nazara-technologies-ipo/1092/,verified,2026-08-10T15:46:52.819544+00:00
+296,297,2020-03-31T17:00:00+00:00,1.75,1.35,2.18,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/kalyan-jewellers-ipo/1098/,verified,2026-08-10T15:46:52.819544+00:00
+298,299,2020-03-31T17:00:00+00:00,2.7,2.27,2.73,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/craftsman-automation-ipo/1095/,verified,2026-08-10T15:46:52.819544+00:00
+299,300,2020-03-31T17:00:00+00:00,71.29,218.79,18.03,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/laxmi-organic-ipo/1096/,verified,2026-08-10T15:46:52.819544+00:00
+300,301,2020-03-31T17:00:00+00:00,27.06,97.7,9.42,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/anupam-rasayan-ipo/1097/,verified,2026-08-10T15:46:52.819544+00:00
+301,302,2020-03-31T17:00:00+00:00,31.83,383.34,62.95,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/easemytrip-ipo/1089/,verified,2026-08-10T15:46:52.845398+00:00
+302,303,2020-03-31T17:00:00+00:00,66.64,643.47,25.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mtar-technologies-ipo/1088/,verified,2026-08-10T15:46:52.845398+00:00
+303,304,2020-03-31T17:00:00+00:00,27.59,266.77,10.52,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/heranba-industries-ipo/1085/,verified,2026-08-10T15:46:52.845398+00:00
+304,305,2020-03-31T17:00:00+00:00,26.74,72.48,14.76,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/railtel-ipo/1073/,verified,2026-08-10T15:46:52.845398+00:00
+305,306,2020-03-31T17:00:00+00:00,1.85,30.19,140.53,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/nureca-limited-ipo/1084/,verified,2026-08-10T15:46:52.845398+00:00
+287,288,2020-03-31T17:00:00+00:00,18.11,52.96,9.66,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/india-pesticides-ipo/1119/,verified,2026-08-10T15:46:52.819544+00:00
+286,287,2020-03-31T17:00:00+00:00,65.42,206.03,8.09,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/clean-science-and-technology-ipo/1123/,verified,2026-08-10T15:46:52.819544+00:00
+274,275,2020-03-31T17:00:00+00:00,2.7,1.03,2.29,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/chemplast-sanmar-ipo/1141/,verified,2026-08-10T15:46:52.819544+00:00
+285,286,2020-03-31T17:00:00+00:00,68.18,236.95,11.11,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/g-r-infraprojects-ipo/1122/,verified,2026-08-10T15:46:52.819544+00:00
+265,265,2021-03-31T17:00:00+00:00,86.51,172.43,80.49,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/sigachi-industries-ipo/1175/,verified,2026-08-10T15:46:52.819544+00:00
+294,295,2020-03-31T17:00:00+00:00,2.65,3.06,9.22,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/barbeque-nation-ipo/1102/,verified,2026-08-10T15:46:52.819544+00:00
+269,269,2021-03-31T17:00:00+00:00,10.36,4.39,3.24,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/aditya-birla-sun-life-amc-ipo/1151/,verified,2026-08-10T15:46:52.819544+00:00
+266,266,2021-03-31T17:00:00+00:00,11.61,8.02,2.65,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/policybazaar-ipo/1172/,verified,2026-08-10T15:46:52.819544+00:00
+312,313,2022-03-31T17:00:00+00:00,2.53,3.35,2.26,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/elin-electronics-ipo/1346/,verified,2026-08-10T15:46:52.845398+00:00
+322,323,2022-03-31T17:00:00+00:00,20.35,13.77,10.06,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/archean-chemical-ipo/1334/,verified,2026-08-10T15:46:52.845398+00:00
+313,314,2022-03-31T17:00:00+00:00,2.41,0.12,1.38,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/kfin-technologies-ipo/1354/,verified,2026-08-10T15:46:52.845398+00:00
+314,315,2022-03-31T17:00:00+00:00,4.09,1.47,0.39,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/abans-holdings-ipo/1350/,verified,2026-08-10T15:46:52.845398+00:00
+316,317,2022-03-31T17:00:00+00:00,4.13,1.51,1.65,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/sula-vineyards-ipo/1345/,verified,2026-08-10T15:46:52.845398+00:00
+310,311,2018-03-31T17:00:00+00:00,2.14,2.34,2.88,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/irfc-ipo/1076/,verified,2026-08-10T15:46:52.845398+00:00
+321,322,2022-03-31T17:00:00+00:00,98.47,21.21,4.09,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/kaynes-technology-ipo/1321/,verified,2026-08-10T15:46:52.845398+00:00
+320,321,2022-03-31T17:00:00+00:00,1.1,0.49,4.91,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/inox-green-energy-ipo/1335/,verified,2026-08-10T15:46:52.845398+00:00
+326,327,2022-03-31T17:00:00+00:00,8.59,1.38,0.51,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/fusion-micro-finance-ipo/1331/,verified,2026-08-10T15:46:52.845398+00:00
+348,349,2021-03-31T17:00:00+00:00,3.61,0.81,0.16,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vedant-fashions-ipo/1217/,verified,2026-08-10T15:46:52.845398+00:00
+323,324,2022-03-31T17:00:00+00:00,1.68,0.82,0.14,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/five-star-business-finance-ipo/1327/,verified,2026-08-10T15:46:52.845398+00:00
+324,325,2022-03-31T17:00:00+00:00,12.42,3.95,0.87,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/global-health-ipo/1330/,verified,2026-08-10T15:46:52.845398+00:00
+325,326,2022-03-31T17:00:00+00:00,30.19,7.06,4.64,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bikaji-foods-ipo/1332/,verified,2026-08-10T15:46:52.845398+00:00
+327,328,2021-03-31T17:00:00+00:00,84.32,43.97,61.77,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/dcx-systems-ipo/1316/,verified,2026-08-10T15:46:52.845398+00:00
+332,333,2021-03-31T17:00:00+00:00,70.53,37.66,43.66,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/dreamfolks-services-ipo/1281/,verified,2026-08-10T15:46:52.845398+00:00
+328,329,2022-03-31T17:00:00+00:00,1.37,0.71,4.64,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tracxn-ipo/1199/,verified,2026-08-10T15:46:52.845398+00:00
+330,331,2021-03-31T17:00:00+00:00,76.81,69.41,17.95,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/harsha-engineers-international-ipo/1283/,verified,2026-08-10T15:46:52.845398+00:00
+331,332,2021-03-31T17:00:00+00:00,1.26,2.89,6.0,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tamilnad-mercantile-bank-ipo/1287/,verified,2026-08-10T15:46:52.845398+00:00
+336,337,2021-03-31T17:00:00+00:00,1.06,1.48,0.84,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/ethos-limited-ipo/1247/,verified,2026-08-10T15:46:52.845398+00:00
+333,334,2020-03-31T17:00:00+00:00,39.83,17.68,4.37,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/syrma-ipo/1276/,verified,2026-08-10T15:46:52.845398+00:00
+334,335,2021-03-31T17:00:00+00:00,8.34,2.48,0.59,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/aether-industries-ipo/1257/,verified,2026-08-10T15:46:52.845398+00:00
+335,336,2021-03-31T17:00:00+00:00,2.17,0.7,1.45,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/emudhra-ipo/1254/,verified,2026-08-10T15:46:52.845398+00:00
+337,338,2021-03-31T17:00:00+00:00,3.01,0.82,1.37,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/paradeep-phosphates-ipo/1253/,verified,2026-08-10T15:46:52.845398+00:00
+338,339,2021-03-31T17:00:00+00:00,2.66,0.3,0.57,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/delhivery-ipo/1213/,verified,2026-08-10T15:46:52.845398+00:00
+343,344,2021-03-31T17:00:00+00:00,152.04,22.25,7.68,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/campus-activewear-ipo/1249/,verified,2026-08-10T15:46:52.845398+00:00
+339,340,2021-03-31T17:00:00+00:00,5.36,14.76,13.33,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/venus-pipes-tubes-ipo/1248/,verified,2026-08-10T15:46:52.845398+00:00
+340,341,2021-03-31T17:00:00+00:00,1.57,0.74,0.37,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/prudent-corporate-advisory-services-ipo/1252/,verified,2026-08-10T15:46:52.845398+00:00
+341,342,2021-12-31T17:00:00+00:00,2.83,2.91,1.99,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/lic-ipo/1221/,verified,2026-08-10T15:46:52.845398+00:00
+342,343,2021-03-31T17:00:00+00:00,16.13,3.81,0.78,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rainbow-children-medicare-ipo/1250/,verified,2026-08-10T15:46:52.845398+00:00
+347,348,2021-03-31T17:00:00+00:00,2.81,2.22,10.11,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/uma-exports-ipo/1235/,verified,2026-08-10T15:46:52.845398+00:00
+344,345,2021-03-31T17:00:00+00:00,1.87,6.8,6.94,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hariom-pipe-industries-ipo/1240/,verified,2026-08-10T15:46:52.845398+00:00
+311,312,2020-03-31T17:00:00+00:00,4.46,18.57,13.72,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/antony-waste-ipo/1078/,verified,2026-08-10T15:46:52.845398+00:00
+346,347,2021-03-31T17:00:00+00:00,1.36,12.04,0.67,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ruchi-soya-fpo/1118/,verified,2026-08-10T15:46:52.845398+00:00
+317,318,2022-03-31T17:00:00+00:00,26.93,19.55,4.63,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/uniparts-india-ipo/1324/,verified,2026-08-10T15:46:52.845398+00:00
+319,320,2022-03-31T17:00:00+00:00,3.84,3.03,0.53,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/keystone-realtors-ipo/1336/,verified,2026-08-10T15:46:52.845398+00:00
+318,319,2022-03-31T17:00:00+00:00,48.21,52.29,21.53,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/dharmaj-crop-guard-ipo/1339/,verified,2026-08-10T15:46:52.845398+00:00
+329,330,2022-03-31T17:00:00+00:00,71.85,66.93,20.33,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/electronics-mart-india-ipo/1318/,verified,2026-08-10T15:46:52.845398+00:00
+315,316,2022-03-31T17:00:00+00:00,8.71,1.32,0.59,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/landmark-cars-ipo/1338/,verified,2026-08-10T15:46:52.845398+00:00
+306,307,2021-02-16T17:00:00+00:00,2.52,11.34,,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/brookfield-india-reit/1082/,verified,2026-08-10T15:46:52.845398+00:00
+308,309,2020-03-31T17:00:00+00:00,21.91,37.68,5.76,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/home-first-finance-ipo/1080/,verified,2026-08-10T15:46:52.845398+00:00
+307,308,2020-03-31T17:00:00+00:00,3.86,31.64,21.05,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/stove-kraft-ipo/1081/,verified,2026-08-10T15:46:52.845398+00:00
+345,346,2021-03-31T17:00:00+00:00,1.78,3.81,4.4,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/veranda-learning-ipo/1236/,verified,2026-08-10T15:46:52.845398+00:00
+386,387,2022-03-31T17:00:00+00:00,75.72,36.44,7.66,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/jupiter-life-line-hospitals-ipo/1494/,verified,2026-08-10T15:46:52.881677+00:00
+385,386,2022-03-31T17:00:00+00:00,21.62,12.98,2.05,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/r-r-kabel-ipo/1503/,verified,2026-08-10T15:46:52.881677+00:00
+358,359,2023-03-31T17:00:00+00:00,25.74,20.01,9.8,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/suraj-estate-developers-ipo/1589/,verified,2026-08-10T15:46:52.881677+00:00
+357,358,2023-03-31T17:00:00+00:00,64.92,705.88,117.44,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/motisons-jewellers-ipo/1587/,verified,2026-08-10T15:46:52.881677+00:00
+365,366,2023-03-31T17:00:00+00:00,3.48,1.49,1.88,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/fedbank-financial-services-ipo/1568/,verified,2026-08-10T15:46:52.881677+00:00
+359,360,2023-03-31T17:00:00+00:00,59.58,52.74,14.68,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/inox-cva-ipo/1593/,verified,2026-08-10T15:46:52.881677+00:00
+360,361,2023-03-31T17:00:00+00:00,38.26,29.76,10.07,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/india-shelter-ipo/1477/,verified,2026-08-10T15:46:52.881677+00:00
+361,362,2023-03-31T17:00:00+00:00,49.34,69.44,70.14,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/doms-ipo/1581/,verified,2026-08-10T15:46:52.881677+00:00
+362,363,2023-03-31T17:00:00+00:00,49.32,35.58,13.37,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/flair-writing-ipo/1571/,verified,2026-08-10T15:46:52.881677+00:00
+363,364,2023-03-31T17:00:00+00:00,81.79,62.87,16.01,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tata-technologies-ipo/1418/,verified,2026-08-10T15:46:52.881677+00:00
+364,365,2023-03-31T17:00:00+00:00,52.11,64.99,29.09,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/gandhar-oil-refinery-india-ipo/1567/,verified,2026-08-10T15:46:52.881677+00:00
+367,368,2023-03-31T17:00:00+00:00,142.41,35.47,5.7,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/ask-automotive-ipo/1563/,verified,2026-08-10T15:46:52.881677+00:00
+366,367,2023-03-31T17:00:00+00:00,42.69,22.98,7.53,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ireda-ipo/1569/,verified,2026-08-10T15:46:52.881677+00:00
+368,369,2023-03-31T17:00:00+00:00,46.94,31.62,8.93,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/protean-egov-technologies-ipo/1545/,verified,2026-08-10T15:46:52.881677+00:00
+369,370,2023-03-31T17:00:00+00:00,182.66,88.81,17.86,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/esaf-small-finance-bank-ipo/1553/,verified,2026-08-10T15:46:52.881677+00:00
+371,372,2023-03-31T17:00:00+00:00,122.2,25.65,3.21,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/cello-world-limited-ipo/1552/,verified,2026-08-10T15:46:52.881677+00:00
+370,371,2023-03-31T17:00:00+00:00,5.22,4.02,1.31,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mamaearth-ipo/1551/,verified,2026-08-10T15:46:52.881677+00:00
+372,373,2023-03-31T17:00:00+00:00,13.72,13.59,2.24,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/blue-jet-healthcare-ipo/1547/,verified,2026-08-10T15:46:52.881677+00:00
+373,374,2023-03-31T17:00:00+00:00,44.73,48.34,9.29,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/irm-energy-ipo/1543/,verified,2026-08-10T15:46:52.881677+00:00
+374,375,2022-03-31T17:00:00+00:00,42.84,388.1,374.81,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/plaza-wires-ipo/1539/,verified,2026-08-10T15:46:52.881677+00:00
+375,376,2022-03-31T17:00:00+00:00,20.83,73.63,16.04,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/valiant-laboratories-ipo/1525/,verified,2026-08-10T15:46:52.881677+00:00
+379,380,2022-03-31T17:00:00+00:00,2.1,0.43,2.19,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/yatra-online-ipo/1507/,verified,2026-08-10T15:46:52.881677+00:00
+377,378,2022-03-31T17:00:00+00:00,24.64,16.74,10.44,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/jsw-infrastructure-ipo/1512/,verified,2026-08-10T15:46:52.881677+00:00
+378,379,2023-03-31T17:00:00+00:00,1.04,5.35,1.67,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/manoj-vaibhav-gems-n-jewellers-ipo/1513/,verified,2026-08-10T15:46:52.881677+00:00
+351,352,2023-03-31T17:00:00+00:00,75.06,41.08,8.62,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/innova-captab-ipo/1599/,verified,2026-08-10T15:46:52.881677+00:00
+350,351,2021-03-31T17:00:00+00:00,2.68,25.61,3.07,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/ags-transact-ipo/1209/,verified,2026-08-10T15:46:52.845398+00:00
+383,384,2023-03-31T17:00:00+00:00,16.94,9.16,6.15,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/zaggle-prepaid-ocean-services-ipo/1505/,verified,2026-08-10T15:46:52.881677+00:00
+387,388,2022-03-31T17:00:00+00:00,133.05,135.2,53.97,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/ratnaveer-precision-engineering-ipo/1488/,verified,2026-08-10T15:46:52.881677+00:00
+384,385,2022-03-31T17:00:00+00:00,149.98,84.38,30.54,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/ems-ipo/1496/,verified,2026-08-10T15:46:52.881677+00:00
+388,389,2022-03-31T17:00:00+00:00,72.54,31.29,8.43,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/rishabh-instruments-ipo/1490/,verified,2026-08-10T15:46:52.881677+00:00
+391,392,2022-03-31T17:00:00+00:00,9.94,32.24,14.72,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/pyramid-technoplast-ipo/1479/,verified,2026-08-10T15:46:52.881677+00:00
+389,390,2022-03-31T17:00:00+00:00,69.2,111.9,31.02,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vishnu-prakash-r-punglia-ipo/1485/,verified,2026-08-10T15:46:52.881677+00:00
+390,391,2022-03-31T17:00:00+00:00,76.9,131.4,34.55,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/aeroflex-industries-ipo/1482/,verified,2026-08-10T15:46:52.881677+00:00
+349,350,2021-03-31T17:00:00+00:00,5.73,56.3,3.92,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/adani-wilmar-ipo/1173/,verified,2026-08-10T15:46:52.845398+00:00
+354,355,2023-03-31T17:00:00+00:00,43.39,52.27,19.47,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mufti-ipo/1595/,verified,2026-08-10T15:46:52.881677+00:00
+382,383,2022-03-31T17:00:00+00:00,9.18,1.29,1.17,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/samhi-hotels-ipo/1502/,verified,2026-08-10T15:46:52.881677+00:00
+381,382,2022-03-31T17:00:00+00:00,6.19,14.23,6.97,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/signatureglobal-india-ipo/1382/,verified,2026-08-10T15:46:52.881677+00:00
+376,377,2022-03-31T17:00:00+00:00,4.5,0.89,1.45,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/updater-services-ipo/1528/,verified,2026-08-10T15:46:52.881677+00:00
+356,357,2022-03-31T17:00:00+00:00,18.35,13.86,7.98,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/muthoot-microfin-ipo/1582/,verified,2026-08-10T15:46:52.881677+00:00
+352,353,2023-03-31T17:00:00+00:00,179.64,90.24,24.51,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/azad-engineering-ipo/1597/,verified,2026-08-10T15:46:52.881677+00:00
+355,356,2023-03-31T17:00:00+00:00,214.65,63.45,15.4,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/happy-forgings-ipo/1585/,verified,2026-08-10T15:46:52.881677+00:00
+380,381,2022-03-31T17:00:00+00:00,12.17,2.54,0.91,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/sai-silks-kalamandir-ipo/1508/,verified,2026-08-10T15:46:52.881677+00:00
+398,399,2022-03-31T17:00:00+00:00,190.56,68.44,16.28,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/senco-gold-ipo/1452/,verified,2026-08-10T15:46:52.881677+00:00
+399,400,2022-03-31T17:00:00+00:00,95.87,47.71,51.19,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/cyient-dlm-ipo/1446/,verified,2026-08-10T15:46:52.881677+00:00
+402,403,2022-03-31T17:00:00+00:00,163.06,65.38,14.31,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/ikio-lighting-ipo/1430/,verified,2026-08-10T15:46:52.91264+00:00
+400,401,2022-03-31T17:00:00+00:00,51.13,78.41,82.03,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ideaforge-technology-ipo/1442/,verified,2026-08-10T15:46:52.881677+00:00
+401,402,2021-03-31T17:00:00+00:00,1.35,3.13,0.96,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hma-agro-industries-ipo/1435/,verified,2026-08-10T15:46:52.91264+00:00
+404,405,2021-03-31T17:00:00+00:00,3.77,0.43,0.88,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/avalon-technologies-ipo/1405/,verified,2026-08-10T15:46:52.91264+00:00
+413,414,2024-03-31T17:00:00+00:00,197.41,78.31,22.62,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/transrail-lighting-ipo/1933/,verified,2026-08-10T15:46:52.91264+00:00
+405,406,2022-03-31T17:00:00+00:00,8.95,33.1,5.12,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/global-surfaces-ipo/1390/,verified,2026-08-10T15:46:52.91264+00:00
+415,416,2024-03-31T17:00:00+00:00,79.59,44.39,9.31,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/sanathan-textiles-ipo/1940/,verified,2026-08-10T15:46:52.91264+00:00
+406,407,2022-03-31T17:00:00+00:00,3.76,1.37,4.17,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/divgi-torqtransfer-systems-ipo/1383/,verified,2026-08-10T15:46:52.91264+00:00
+407,408,2022-03-31T17:00:00+00:00,2.4,32.69,39.78,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sah-polymers-ipo/1347/,verified,2026-08-10T15:46:52.91264+00:00
+408,409,2022-03-31T17:00:00+00:00,1.68,1.07,0.3,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/radiant-cash-management-ipo/1355/,verified,2026-08-10T15:46:52.91264+00:00
+409,410,2024-03-31T17:00:00+00:00,133.73,275.23,57.86,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/unimech-aerospace-ipo/1942/,verified,2026-08-10T15:46:52.91264+00:00
+414,415,2024-03-31T17:00:00+00:00,17.32,14.2,5.56,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/concord-enviro-ipo/1941/,verified,2026-08-10T15:46:52.91264+00:00
+423,424,2024-03-31T17:00:00+00:00,1.31,1.39,0.88,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/suraksha-diagnostic-ipo/1918/,verified,2026-08-10T15:46:52.91264+00:00
+417,418,2024-03-31T17:00:00+00:00,235.88,274.38,138.08,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/mamata-machinery-ipo/1937/,verified,2026-08-10T15:46:52.91264+00:00
+416,417,2023-03-31T17:00:00+00:00,67.08,98.1,27.22,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/dam-capital-advisors-ipo/1936/,verified,2026-08-10T15:46:52.91264+00:00
+397,398,2022-03-31T17:00:00+00:00,135.71,88.74,78.37,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/utkarsh-small-finance-bank-ipo/1456/,verified,2026-08-10T15:46:52.881677+00:00
+396,397,2022-03-31T17:00:00+00:00,220.69,83.21,19.48,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/netweb-technologies-india-ipo/1459/,verified,2026-08-10T15:46:52.881677+00:00
+419,420,2024-03-31T17:00:00+00:00,80.64,23.25,14.55,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/inventurus-knowledge-solutions-ipo/1926/,verified,2026-08-10T15:46:52.91264+00:00
+418,419,2023-12-31T17:00:00+00:00,19.83,25.84,11.48,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/international-gemmological-institute-ipo/1930/,verified,2026-08-10T15:46:52.91264+00:00
+420,421,2024-03-31T17:00:00+00:00,85.11,15.02,2.43,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/vishal-mega-mart-ipo/1924/,verified,2026-08-10T15:46:52.91264+00:00
+425,426,2024-03-31T17:00:00+00:00,3.51,0.85,3.59,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/ntpc-green-energy-ipo/1902/,verified,2026-08-10T15:46:52.91264+00:00
+421,422,2024-03-31T17:00:00+00:00,12.54,4.99,1.36,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sai-life-sciences-ipo/1925/,verified,2026-08-10T15:46:52.91264+00:00
+422,423,2024-03-31T17:00:00+00:00,50.81,114.38,143.52,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mobikwik-ipo/1928/,verified,2026-08-10T15:46:52.91264+00:00
+431,432,2024-03-31T17:00:00+00:00,3.99,5.31,0.99,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/afcons-infrastructure-ipo/1881/,verified,2026-08-10T15:46:52.91264+00:00
+424,425,2024-03-31T17:00:00+00:00,63.5,152.57,23.86,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/enviro-infra-engineers-ipo/1911/,verified,2026-08-10T15:46:52.91264+00:00
+428,429,2024-03-31T17:00:00+00:00,6.02,0.41,1.14,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/swiggy-ipo/1896/,verified,2026-08-10T15:46:52.91264+00:00
+426,427,2024-03-31T17:00:00+00:00,1.53,0.23,1.6,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/blackbuck-ipo/1904/,verified,2026-08-10T15:46:52.91264+00:00
+427,428,2024-03-31T17:00:00+00:00,1.49,0.7,2.77,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/niva-bupa-health-insurance-ipo/1899/,verified,2026-08-10T15:46:52.91264+00:00
+429,430,2024-03-31T17:00:00+00:00,3.72,1.02,3.25,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/acme-solar-holdings-ipo/1897/,verified,2026-08-10T15:46:52.91264+00:00
+394,395,2022-03-31T17:00:00+00:00,203.61,51.82,11.6,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/sbfc-finance-ipo/1470/,verified,2026-08-10T15:46:52.881677+00:00
+430,431,2024-03-31T17:00:00+00:00,2.04,1.88,3.98,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sagility-india-ipo/1898/,verified,2026-08-10T15:46:52.91264+00:00
+432,433,2024-03-31T17:00:00+00:00,2.76,0.93,1.76,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/godavari-biorefineries-ipo/1895/,verified,2026-08-10T15:46:52.91264+00:00
+433,434,2024-03-31T17:00:00+00:00,81.33,55.16,9.99,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/waaree-energies-ipo/1888/,verified,2026-08-10T15:46:52.91264+00:00
+434,435,2024-03-31T17:00:00+00:00,6.03,81.74,38.95,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/deepak-builders-engineers-ipo/1890/,verified,2026-08-10T15:46:52.91264+00:00
+411,412,2024-03-31T17:00:00+00:00,1.56,0.59,0.72,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/carraro-india-ipo/1945/,verified,2026-08-10T15:46:52.91264+00:00
+412,413,2024-03-31T17:00:00+00:00,40.12,98.1,94.87,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/senores-pharmaceuticals-ipo/1943/,verified,2026-08-10T15:46:52.91264+00:00
+410,411,2024-03-31T17:00:00+00:00,4.43,14.54,6.19,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ventive-hospitality-ipo/1939/,verified,2026-08-10T15:46:52.91264+00:00
+393,394,2022-03-31T17:00:00+00:00,67.67,16.99,3.78,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/concord-biotech-ipo/1472/,verified,2026-08-10T15:46:52.881677+00:00
+395,396,2022-03-31T17:00:00+00:00,35.04,38.54,8.38,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/yatharth-hospital-ipo/1464/,verified,2026-08-10T15:46:52.881677+00:00
+403,404,2022-03-31T17:00:00+00:00,20.32,3.59,0.89,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/mankind-pharma-ipo/1412/,verified,2026-08-10T15:46:52.91264+00:00
+445,446,2023-03-31T17:00:00+00:00,24.55,23.36,11.09,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/kross-ipo/1839/,verified,2026-08-10T15:46:52.91264+00:00
+444,445,2024-03-31T17:00:00+00:00,89.67,42.85,7.54,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bajaj-housing-finance-ipo/1822/,verified,2026-08-10T15:46:52.91264+00:00
+448,449,2023-03-31T17:00:00+00:00,232.54,414.62,91.95,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/gala-precision-engineering-ipo/1829/,verified,2026-08-10T15:46:52.91264+00:00
+446,447,2023-03-31T17:00:00+00:00,11.43,28.72,22.31,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tolins-tyres-ipo/1837/,verified,2026-08-10T15:46:52.91264+00:00
+476,477,2023-03-31T17:00:00+00:00,8.34,4.46,0.98,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vi-fpo/1702/,verified,2026-08-10T15:46:52.944062+00:00
+439,440,2023-03-31T17:00:00+00:00,58.0,511.91,139.75,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/manba-finance-ipo/1866/,verified,2026-08-10T15:46:52.91264+00:00
+451,452,2024-03-21T17:00:00+00:00,212.42,50.91,7.35,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/premier-energies-ipo/1818/,verified,2026-08-10T15:46:52.944062+00:00
+450,451,2023-03-31T17:00:00+00:00,55.38,70.23,19.31,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/eco-mobility-ipo/1820/,verified,2026-08-10T15:46:52.91264+00:00
+453,454,2023-03-31T17:00:00+00:00,197.29,130.84,19.36,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/interarch-building-products-ipo/1811/,verified,2026-08-10T15:46:52.944062+00:00
+452,453,2023-03-31T17:00:00+00:00,75.42,302.28,66.68,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/orient-technologies-ipo/1809/,verified,2026-08-10T15:46:52.944062+00:00
+455,456,2023-03-31T17:00:00+00:00,138.75,252.46,130.99,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/unicommerce-esolutions-ipo/1802/,verified,2026-08-10T15:46:52.944062+00:00
+454,455,2023-03-31T17:00:00+00:00,63.3,360.72,64.8,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/saraswati-saree-depot-ipo/1542/,verified,2026-08-10T15:46:52.944062+00:00
+465,466,2023-03-31T17:00:00+00:00,215.62,120.97,18.53,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/stanley-lifestyles-ipo/1749/,verified,2026-08-10T15:46:52.944062+00:00
+456,457,2023-03-31T17:00:00+00:00,8.32,4.69,2.38,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/brainbees-solutions-firstcry-ipo/1801/,verified,2026-08-10T15:46:52.944062+00:00
+457,458,2023-03-31T17:00:00+00:00,2.84,2.2,3.86,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ola-electric-ipo/1765/,verified,2026-08-10T15:46:52.944062+00:00
+458,459,2023-03-31T17:00:00+00:00,13.13,14.85,3.89,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ceigall-india-ipo/1798/,verified,2026-08-10T15:46:52.944062+00:00
+459,460,2023-03-31T17:00:00+00:00,36.57,42.15,21.02,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/akums-drugs-and-pharmaceuticals-ipo/1794/,verified,2026-08-10T15:46:52.944062+00:00
+460,461,2023-03-31T17:00:00+00:00,58.84,135.23,23.54,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/sanstar-ipo/1779/,verified,2026-08-10T15:46:52.944062+00:00
+462,463,2023-03-31T17:00:00+00:00,62.01,54.16,14.16,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bansal-wire-ipo/1767/,verified,2026-08-10T15:46:52.944062+00:00
+463,464,2023-03-31T17:00:00+00:00,69.92,221.52,57.55,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vraj-iron-and-steel-ipo/1758/,verified,2026-08-10T15:46:52.944062+00:00
+464,465,2023-03-31T17:00:00+00:00,21.76,34.06,4.73,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/allied-blenders-ipo/1580/,verified,2026-08-10T15:46:52.944062+00:00
+467,468,2023-03-31T17:00:00+00:00,28.12,129.74,44.02,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/aasaan-loans-ipo/1751/,verified,2026-08-10T15:46:52.944062+00:00
+466,467,2023-03-31T17:00:00+00:00,83.87,147.1,24.89,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/dee-piping-systems-ipo/1746/,verified,2026-08-10T15:46:52.944062+00:00
+469,470,2023-03-31T17:00:00+00:00,89.03,301.91,54.23,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/kronox-lab-sciences-ipo/1738/,verified,2026-08-10T15:46:52.944062+00:00
+468,469,2023-03-31T17:00:00+00:00,43.1,110.89,54.44,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/ixigo-ipo/1742/,verified,2026-08-10T15:46:52.944062+00:00
+470,471,2023-03-31T17:00:00+00:00,116.95,129.27,53.23,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/awfis-space-solutions-ipo/1730/,verified,2026-08-10T15:46:52.944062+00:00
+472,473,2023-03-31T17:00:00+00:00,125.51,50.58,25.65,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/tbo-tek-ipo/1716/,verified,2026-08-10T15:46:52.944062+00:00
+443,444,2023-03-31T17:00:00+00:00,136.85,56.08,16.58,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/p-n-gadgil-jewellers-ipo/1841/,verified,2026-08-10T15:46:52.91264+00:00
+442,443,2023-03-31T17:00:00+00:00,242.73,147.51,31.84,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/northern-arc-capital-ipo/1855/,verified,2026-08-10T15:46:52.91264+00:00
+477,478,2023-03-31T17:00:00+00:00,48.57,10.51,2.82,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/bharti-hexacom-ipo/1694/,verified,2026-08-10T15:46:52.944062+00:00
+475,476,2023-03-31T17:00:00+00:00,31.58,19.92,4.17,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/jnk-india-ipo/1704/,verified,2026-08-10T15:46:52.944062+00:00
+438,439,2023-03-31T17:00:00+00:00,102.4,428.12,101.07,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/krn-heat-exchanger-ipo/1864/,verified,2026-08-10T15:46:52.91264+00:00
+473,474,2023-03-31T17:00:00+00:00,31.13,17.31,2.52,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/aadhar-housing-finance-ipo/1717/,verified,2026-08-10T15:46:52.944062+00:00
+474,475,2023-03-31T17:00:00+00:00,192.72,55.82,7.78,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/indegene-ipo/1713/,verified,2026-08-10T15:46:52.944062+00:00
+436,437,2024-03-31T17:00:00+00:00,1.13,8.93,10.56,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/garuda-construction-and-engineering-ipo/1883/,verified,2026-08-10T15:46:52.91264+00:00
+441,442,2023-03-31T17:00:00+00:00,172.6,172.05,53.34,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/arkade-developers-ipo/1849/,verified,2026-08-10T15:46:52.91264+00:00
+447,448,2023-03-31T17:00:00+00:00,60.56,209.02,71.62,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/shree-tirupati-balajee-ipo/1835/,verified,2026-08-10T15:46:52.91264+00:00
+471,472,2023-03-31T17:00:00+00:00,5.61,7.23,4.08,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/go-digit-general-insurance-ipo/1727/,verified,2026-08-10T15:46:52.944062+00:00
+437,438,2023-03-31T17:00:00+00:00,95.74,207.6,85.61,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/diffusion-engineers-ipo/1874/,verified,2026-08-10T15:46:52.91264+00:00
+435,436,2024-03-31T17:00:00+00:00,3.4,0.57,0.44,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/hyundai-motor-ipo/1879/,verified,2026-08-10T15:46:52.91264+00:00
+440,441,2023-03-31T17:00:00+00:00,28.81,46.63,26.78,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/western-carriers-india-ipo/1844/,verified,2026-08-10T15:46:52.91264+00:00
+449,450,2024-03-31T17:00:00+00:00,81.83,59.41,9.07,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/baazar-style-retail-ipo/1825/,verified,2026-08-10T15:46:52.91264+00:00
+482,483,2023-03-31T17:00:00+00:00,13.41,47.72,17.59,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/jg-chemicals-ipo/1663/,verified,2026-08-10T15:46:52.944062+00:00
+499,500,2023-03-31T17:00:00+00:00,46.37,38.33,27.5,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/jyoti-cnc-automation-ipo/1611/,verified,2026-08-10T15:46:52.944062+00:00
+489,490,2023-03-31T17:00:00+00:00,75.42,770.67,197.91,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/vibhor-steel-tubes-ipo/1646/,verified,2026-08-10T15:46:52.944062+00:00
+12,12,2010-10-20T17:00:00+00:00,15.82,3.52,0.91,chittorgarh_rsc_tracker,https://www.chittorgarh.com/ipo/oberoi_realty_ipo/275/,verified,2026-08-10T15:46:52.60762+00:00
+490,491,2023-03-31T17:00:00+00:00,1.53,0.21,1.32,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/entero-healthcare-solutions-ipo/1643/,verified,2026-08-10T15:46:52.944062+00:00
+494,495,2023-03-31T17:00:00+00:00,32.47,54.14,31.25,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/apeejay-surrendra-park-ipo/1635/,verified,2026-08-10T15:46:52.944062+00:00
+491,492,2023-03-31T17:00:00+00:00,61.02,65.97,10.98,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rashi-peripherals-ipo/1634/,verified,2026-08-10T15:46:52.944062+00:00
+495,496,2023-03-31T17:00:00+00:00,49.54,298.02,226.49,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/bls-e-services-ipo/1632/,verified,2026-08-10T15:46:52.944062+00:00
+483,484,2023-03-31T17:00:00+00:00,20.58,34.24,33.31,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/r-k-swamy-ipo/1620/,verified,2026-08-10T15:46:52.944062+00:00
+484,485,2023-03-31T17:00:00+00:00,189.28,250.26,58.36,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/mukka-proteins-ipo/1586/,verified,2026-08-10T15:46:52.944062+00:00
+485,486,2023-03-31T17:00:00+00:00,151.0,141.79,50.92,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/platinum-industries-ipo/1638/,verified,2026-08-10T15:46:52.944062+00:00
+497,498,2023-03-31T17:00:00+00:00,10.89,29.06,6.44,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/epack-durable-ipo/1619/,verified,2026-08-10T15:46:52.944062+00:00
+157,157,2017-03-31T17:00:00+00:00,2.33,0.11,0.1,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/new-india-assurance-ipo/754/,verified,2026-08-10T15:46:52.753048+00:00
+176,176,2016-03-31T17:00:00+00:00,1.21,2.8,0.93,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/gtpl-hathway-ipo/669/,verified,2026-08-10T15:46:52.753048+00:00
+487,488,2023-03-31T17:00:00+00:00,17.3,11.02,2.44,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/gpt-healthcare-ipo/1655/,verified,2026-08-10T15:46:52.944062+00:00
+284,285,2020-03-31T17:00:00+00:00,51.79,32.96,7.45,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/zomato-ipo/1126/,verified,2026-08-10T15:46:52.819544+00:00
+309,310,2020-03-31T17:00:00+00:00,189.57,263.05,15.92,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/indigo-paints-ipo/1079/,verified,2026-08-10T15:46:52.845398+00:00
+392,393,2022-03-31T17:00:00+00:00,1.16,2.38,7.53,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/tvs-supply-chain-solutions-ipo/1475/,verified,2026-08-10T15:46:52.881677+00:00
+461,462,2023-03-31T17:00:00+00:00,195.83,48.32,7.21,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/emcure-pharma-ipo/1766/,verified,2026-08-10T15:46:52.944062+00:00
+488,489,2023-03-31T17:00:00+00:00,3.11,0.89,1.31,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/juniper-hotels-ipo/1654/,verified,2026-08-10T15:46:52.944062+00:00
+479,480,2023-03-31T17:00:00+00:00,3.54,45.38,3.32,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/krystal-integrated-services-ipo/1665/,verified,2026-08-10T15:46:52.944062+00:00
+480,481,2023-03-31T17:00:00+00:00,1.52,0.66,1.03,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/popular-vehicles-services-ipo/1672/,verified,2026-08-10T15:46:52.944062+00:00
+481,482,2023-03-31T17:00:00+00:00,7.99,9.95,4.08,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/gopal-namkeen-ipo/1667/,verified,2026-08-10T15:46:52.944062+00:00
+496,497,2023-03-31T17:00:00+00:00,81.13,233.01,80.18,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/nova-agritech-ipo/1616/,verified,2026-08-10T15:46:52.944062+00:00
+486,487,2023-03-31T17:00:00+00:00,56.23,158.82,121.61,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/exicom-tele-systems-ipo/1642/,verified,2026-08-10T15:46:52.944062+00:00
+257,257,2021-03-31T17:00:00+00:00,215.45,666.19,29.44,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/tega-industries-ipo/1185/,verified,2026-08-10T15:46:52.819544+00:00
+500,272,2020-03-31T17:00:00+00:00,86.64,154.34,13.36,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/ami-organics-ipo/1143/,verified,2026-08-10T15:46:52.944062+00:00
+45,45,2010-03-18T17:00:00+00:00,47.66,34.91,9.54,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/united_bank_of_india_ipo/229/,verified,2026-08-10T15:46:52.60762+00:00
+353,354,2023-03-31T17:00:00+00:00,6.19,9.12,24.78,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/rbz-jewellers-ipo/1588/,verified,2026-08-10T15:46:52.881677+00:00
+492,493,2023-03-31T17:00:00+00:00,16.59,26.18,5.81,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/jana-sfb-ipo/1640/,verified,2026-08-10T15:46:52.944062+00:00
+493,494,2023-03-31T17:00:00+00:00,3.4,4.11,2.62,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/capital-sfb-ipo/1641/,verified,2026-08-10T15:46:52.944062+00:00
+498,499,2023-03-31T17:00:00+00:00,16.68,14.76,3.07,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/medi-assist-healthcare-ipo/1612/,verified,2026-08-10T15:46:52.944062+00:00
+478,479,2023-03-31T17:00:00+00:00,59.59,214.94,46.97,ipowatch_final_bidding_close,https://www.chittorgarh.com/ipo/srm-contractors-ipo/1682/,verified,2026-08-10T15:46:52.944062+00:00
+89,89,2012-12-27T17:00:00+00:00,5.53,17.96,1.6,chittorgarh_subscription_table,https://www.chittorgarh.com/ipo/pc_jeweller_ipo/359/,verified,2026-08-10T15:46:52.665561+00:00
+501,501,2025-12-30,1.18,4.73,18.31,chittorgarh_official,https://www.chittorgarh.com/ipo/gujarat-kidney-and-super-speciality-ipo/2289/,verified,2026-09-23 00:11:25
+502,502,2025-12-23,1.17,0.45,0.93,chittorgarh_official,https://www.chittorgarh.com/ipo/ksh-international-ipo/2454/,verified,2026-09-23 00:11:25
+503,503,2025-12-19,50.39,21.0,2.42,chittorgarh_official,https://www.chittorgarh.com/ipo/icici-prudential-amc-ipo/2525/,verified,2026-09-23 00:11:25
+504,504,2025-12-17,5.58,15.51,3.24,chittorgarh_official,https://www.chittorgarh.com/ipo/park-medi-world-ipo/2297/,verified,2026-09-23 00:11:25
+505,505,2025-12-17,11.29,24.73,2.29,chittorgarh_official,https://www.chittorgarh.com/ipo/nephrocare-health-ipo/2548/,verified,2026-09-23 00:11:25
+506,506,2025-12-15,117.52,219.49,29.29,chittorgarh_official,https://www.chittorgarh.com/ipo/corona-remedies-ipo/2433/,verified,2026-09-23 00:11:25
+507,507,2025-12-15,1.82,1.02,3.07,chittorgarh_official,https://www.chittorgarh.com/ipo/wakefit-innovations-ipo/2488/,verified,2026-09-23 00:11:25
+508,508,2025-12-10,2.74,55.65,29.35,chittorgarh_official,https://www.chittorgarh.com/ipo/vidya-wires-ipo/2005/,verified,2026-09-23 00:11:25
+509,509,2025-12-10,49.72,82.97,78.08,chittorgarh_official,https://www.chittorgarh.com/ipo/aequs-ipo/2465/,verified,2026-09-23 00:11:25
+510,510,2025-12-10,49.97,39.29,19.12,chittorgarh_official,https://www.chittorgarh.com/ipo/meesho-ipo/2516/,verified,2026-09-23 00:11:25
+511,511,2025-11-28,85.68,116.18,15.14,chittorgarh_official,https://www.chittorgarh.com/ipo/sudeep-pharma-ipo/2484/,verified,2026-09-23 00:11:25
+512,512,2025-11-26,20.52,106.72,16.01,chittorgarh_official,https://www.chittorgarh.com/ipo/excelsoft-technologies-ipo/2148/,verified,2026-09-23 00:11:25
+513,513,2025-11-21,23.44,69.49,15.4,chittorgarh_official,https://www.chittorgarh.com/ipo/capillary-technologies-ipo/2476/,verified,2026-09-23 00:11:25
+514,514,2025-11-20,2.72,0.88,1.01,chittorgarh_official,https://www.chittorgarh.com/ipo/fujiyama-power-systems-ipo/2025/,verified,2026-09-23 00:11:25
+515,515,2025-11-19,70.45,42.65,5.26,chittorgarh_official,https://www.chittorgarh.com/ipo/tenneco-clean-ipo/2509/,verified,2026-09-23 00:11:25
+516,516,2025-11-18,1.75,0.5,1.06,chittorgarh_official,https://www.chittorgarh.com/ipo/physicswallah-ipo/2266/,verified,2026-09-23 00:11:25
+517,517,2025-11-18,1.15,0.3,1.11,chittorgarh_official,https://www.chittorgarh.com/ipo/emmvee-photovoltaic-ipo/2518/,verified,2026-09-23 00:11:25
+518,518,2025-11-14,2.2,0.29,1.2,chittorgarh_official,https://www.chittorgarh.com/ipo/pine-labs-ipo/2487/,verified,2026-09-23 00:11:25
+519,519,2025-11-12,9.41,14.1,9.17,chittorgarh_official,https://www.chittorgarh.com/ipo/groww-ipo/2453/,verified,2026-09-23 00:11:25
+520,520,2025-11-10,16.74,18.28,7.48,chittorgarh_official,https://www.chittorgarh.com/ipo/lenskart-solutions-ipo/2551/,verified,2026-09-23 00:11:25
+521,521,2025-11-07,64.55,76.66,21.55,chittorgarh_official,https://www.chittorgarh.com/ipo/studds-accessories-ipo/2259/,verified,2026-09-23 00:11:25
+522,522,2025-11-06,47.55,54.25,6.8,chittorgarh_official,https://www.chittorgarh.com/ipo/orkla-india-ipo/2470/,verified,2026-09-23 00:11:25
+523,523,2025-10-24,59.13,175.57,24.56,chittorgarh_official,https://www.chittorgarh.com/ipo/midwest-ipo/2150/,verified,2026-09-23 00:11:25
+524,524,2025-10-17,3.44,0.32,0.4,chittorgarh_official,https://www.chittorgarh.com/ipo/canara-hsbc-life-insurance-ipo/2429/,verified,2026-09-23 00:11:25
+525,525,2025-10-16,55.39,101.82,36.48,chittorgarh_official,https://www.chittorgarh.com/ipo/rubicon-research-ipo/2254/,verified,2026-09-23 00:11:25
+526,526,2025-10-16,10.96,6.4,1.86,chittorgarh_official,https://www.chittorgarh.com/ipo/canara-robeco-ipo/2428/,verified,2026-09-23 00:11:25
+527,527,2025-10-16,1.6,8.25,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/anantam-highways-invit/2666/,verified,2026-09-23 00:11:25
+528,528,2025-10-14,67.21,22.08,3.39,chittorgarh_official,https://www.chittorgarh.com/ipo/lg-electronics-india-ipo/2064/,verified,2026-09-23 00:11:25
+529,529,2025-10-13,1.98,1.95,1.06,chittorgarh_official,https://www.chittorgarh.com/ipo/tata-capital-ipo/2317/,verified,2026-09-23 00:11:25
+530,530,2025-10-10,1.33,0.23,0.57,chittorgarh_official,https://www.chittorgarh.com/ipo/wework-india-management-ipo/2014/,verified,2026-09-23 00:11:25
+531,531,2025-10-08,11.59,174.55,22.17,chittorgarh_official,https://www.chittorgarh.com/ipo/advance-agrolife-ipo/2290/,verified,2026-09-23 00:11:25
+532,532,2025-10-08,2.91,7.38,2.77,chittorgarh_official,https://www.chittorgarh.com/ipo/om-freight-forwarders-ipo/2407/,verified,2026-09-23 00:11:25
+533,533,2025-10-07,1.54,3.06,1.43,chittorgarh_official,https://www.chittorgarh.com/ipo/glottis-ipo/1998/,verified,2026-09-23 00:11:25
+534,534,2025-10-07,2.02,1.95,2.04,chittorgarh_official,https://www.chittorgarh.com/ipo/fabtech-technologies-ipo/2624/,verified,2026-09-23 00:11:25
+535,535,2025-10-06,1.29,2.94,1.05,chittorgarh_official,https://www.chittorgarh.com/ipo/pace-digitek-ipo/2306/,verified,2026-09-23 00:11:25
+536,536,2025-10-03,66.53,102.95,11.37,chittorgarh_official,https://www.chittorgarh.com/ipo/trualt-bioenergy-ipo/2231/,verified,2026-09-23 00:11:25
+537,537,2025-10-03,14.64,145.9,46.64,chittorgarh_official,https://www.chittorgarh.com/ipo/jinkushal-industries-ipo/2432/,verified,2026-09-23 00:11:25
+538,538,2025-10-01,2.75,3.74,1.7,chittorgarh_official,https://www.chittorgarh.com/ipo/epack-prefab-technologies-ipo/2023/,verified,2026-09-23 00:11:25
+539,539,2025-10-01,1.89,1.08,0.96,chittorgarh_official,https://www.chittorgarh.com/ipo/bmw-ventures-ipo/2212/,verified,2026-09-23 00:11:25
+540,540,2025-10-01,11.3,5.58,3.72,chittorgarh_official,https://www.chittorgarh.com/ipo/jain-resource-recycling-ipo/2345/,verified,2026-09-23 00:11:25
+541,541,2025-09-30,19.04,30.04,4.95,chittorgarh_official,https://www.chittorgarh.com/ipo/anand-rathi-stock-brokers-ipo/2028/,verified,2026-09-23 00:11:25
+542,542,2025-09-30,76.26,51.27,9.24,chittorgarh_official,https://www.chittorgarh.com/ipo/seshaasai-technologies-ipo/2048/,verified,2026-09-23 00:11:25
+543,543,2025-09-30,15.59,37.21,9.01,chittorgarh_official,https://www.chittorgarh.com/ipo/jaro-education-ipo/2075/,verified,2026-09-23 00:11:25
+544,544,2025-09-30,30.27,68.02,50.69,chittorgarh_official,https://www.chittorgarh.com/ipo/solarworld-energy-ipo/2174/,verified,2026-09-23 00:11:25
+545,545,2025-09-29,77.97,55.6,10.54,chittorgarh_official,https://www.chittorgarh.com/ipo/atlanta-electricals-ipo/2011/,verified,2026-09-23 00:11:25
+546,546,2025-09-29,2.39,4.31,1.13,chittorgarh_official,https://www.chittorgarh.com/ipo/ganesh-consumer-ipo/2045/,verified,2026-09-23 00:11:25
+547,547,2025-09-26,77.69,128.29,21.34,chittorgarh_official,https://www.chittorgarh.com/ipo/gk-energy-ipo/2042/,verified,2026-09-23 00:11:25
+548,548,2025-09-26,5.14,10.53,2.72,chittorgarh_official,https://www.chittorgarh.com/ipo/saatvik-green-energy-ipo/2082/,verified,2026-09-23 00:11:25
+549,549,2025-09-25,1.98,1.18,1.22,chittorgarh_official,https://www.chittorgarh.com/ipo/ivalue-infosolutions-ipo/2227/,verified,2026-09-23 00:11:25
+550,550,2025-09-24,48.35,226.19,46.34,chittorgarh_official,https://www.chittorgarh.com/ipo/vms-tmt-ipo/2161/,verified,2026-09-23 00:11:25
+551,551,2025-09-23,1.13,1.95,1.23,chittorgarh_official,https://www.chittorgarh.com/ipo/euro-pratik-ipo/2015/,verified,2026-09-23 00:11:25
+552,552,2025-09-17,41.17,82.36,26.66,chittorgarh_official,https://www.chittorgarh.com/ipo/shringar-house-of-mangalsutra-ipo/2003/,verified,2026-09-23 00:11:25
+553,553,2025-09-17,9.05,87.49,160.88,chittorgarh_official,https://www.chittorgarh.com/ipo/dev-accelerator-ipo/2117/,verified,2026-09-23 00:11:25
+554,554,2025-09-17,59.44,77.52,40.1,chittorgarh_official,https://www.chittorgarh.com/ipo/urban-company-ipo/2425/,verified,2026-09-23 00:11:25
+555,555,2025-09-09,14.8,209.13,53.59,chittorgarh_official,https://www.chittorgarh.com/ipo/amanta-healthcare-ipo/2001/,verified,2026-09-23 00:11:25
+556,556,2025-09-03,1.05,10.5,45.82,chittorgarh_official,https://www.chittorgarh.com/ipo/anlon-healthcare-ipo/2053/,verified,2026-09-23 00:11:25
+557,557,2025-09-03,8.67,61.68,11.27,chittorgarh_official,https://www.chittorgarh.com/ipo/vikran-engineering-ipo/2126/,verified,2026-09-23 00:11:25
+558,558,2025-08-28,5.13,19.7,4.99,chittorgarh_official,https://www.chittorgarh.com/ipo/mangal-electrical-ipo/2069/,verified,2026-09-23 00:11:25
+559,559,2025-08-26,44.82,72.62,21.57,chittorgarh_official,https://www.chittorgarh.com/ipo/shreeji-shipping-global-ipo/2018/,verified,2026-09-23 00:11:25
+560,560,2025-08-26,22.14,45.9,10.29,chittorgarh_official,https://www.chittorgarh.com/ipo/gem-aromatics-ipo/2032/,verified,2026-09-23 00:11:25
+561,561,2025-08-26,58.56,52.8,7.77,chittorgarh_official,https://www.chittorgarh.com/ipo/vikram-solar-ipo/2152/,verified,2026-09-23 00:11:25
+562,562,2025-08-26,109.09,107.9,41.68,chittorgarh_official,https://www.chittorgarh.com/ipo/patel-retail-ipo/2318/,verified,2026-09-23 00:11:25
+563,563,2025-08-20,41.34,355.25,55.61,chittorgarh_official,https://www.chittorgarh.com/ipo/regaal-resources-ipo/2035/,verified,2026-09-23 00:11:25
+564,564,2025-08-19,2.3,0.56,1.32,chittorgarh_official,https://www.chittorgarh.com/ipo/bluestone-jewellery-ipo/2059/,verified,2026-09-23 00:11:25
+565,565,2025-08-18,4.21,16.14,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/knowledge-realty-trust-reit-ipo/2485/,verified,2026-09-23 00:11:25
+566,566,2025-08-14,4.76,13.9,5.23,chittorgarh_official,https://www.chittorgarh.com/ipo/all-time-plastics-ipo/2125/,verified,2026-09-23 00:11:25
+567,567,2025-08-14,7.3,11.56,1.84,chittorgarh_official,https://www.chittorgarh.com/ipo/jsw-cement-ipo/2230/,verified,2026-09-23 00:11:25
+568,568,2025-08-12,170.38,471.09,159.72,chittorgarh_official,https://www.chittorgarh.com/ipo/highway-infrastructure-ipo/2180/,verified,2026-09-23 00:11:25
+569,569,2025-08-06,70.76,61.53,21.13,chittorgarh_official,https://www.chittorgarh.com/ipo/sri-lotus-developers-and-realty-ipo/2027/,verified,2026-09-23 00:11:25
+570,570,2025-08-06,15.98,40.18,33.54,chittorgarh_official,https://www.chittorgarh.com/ipo/mb-engineering-ipo/2049/,verified,2026-09-23 00:11:25
+571,571,2025-08-06,42.15,34.75,7.43,chittorgarh_official,https://www.chittorgarh.com/ipo/national-securities-depository-limited-nsdl-ipo/2448/,verified,2026-09-23 00:11:25
+572,572,2025-08-05,1.47,1.82,2.17,chittorgarh_official,https://www.chittorgarh.com/ipo/laxmi-india-finance-ipo/2030/,verified,2026-09-23 00:11:25
+573,573,2025-08-05,56.7,75.52,52.56,chittorgarh_official,https://www.chittorgarh.com/ipo/aditya-infotech-ipo/2036/,verified,2026-09-23 00:11:25
+574,574,2025-08-04,1.0,6.62,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/propshare-titania-scheme-sm-reit-ipo/2533/,verified,2026-09-23 00:11:25
+575,575,2025-08-01,47.35,151.49,30.42,chittorgarh_official,https://www.chittorgarh.com/ipo/shanti-gold-ipo/2008/,verified,2026-09-23 00:11:25
+576,576,2025-07-31,2.9,10.1,6.59,chittorgarh_official,https://www.chittorgarh.com/ipo/brigade-hotel-ventures-ipo/2094/,verified,2026-09-23 00:11:25
+577,577,2025-07-30,6.68,8.62,13.41,chittorgarh_official,https://www.chittorgarh.com/ipo/indiqube-spaces-ipo/2038/,verified,2026-09-23 00:11:25
+578,578,2025-07-30,110.35,237.44,48.2,chittorgarh_official,https://www.chittorgarh.com/ipo/gng-electronics-ipo/2046/,verified,2026-09-23 00:11:25
+579,579,2025-07-21,77.87,43.67,5.74,chittorgarh_official,https://www.chittorgarh.com/ipo/anthem-biosciences-ipo/2029/,verified,2026-09-23 00:11:25
+580,580,2025-07-17,10.59,23.63,3.59,chittorgarh_official,https://www.chittorgarh.com/ipo/smartworks-coworking-ipo/2034/,verified,2026-09-23 00:11:25
+581,581,2025-07-14,3.83,1.62,0.69,chittorgarh_official,https://www.chittorgarh.com/ipo/travel-food-services-ipo/2054/,verified,2026-09-23 00:11:25
+582,582,2025-07-09,57.16,79.49,10.54,chittorgarh_official,https://www.chittorgarh.com/ipo/crizac-ipo/2096/,verified,2026-09-23 00:11:25
+583,583,2025-07-03,1.95,50.72,15.33,chittorgarh_official,https://www.chittorgarh.com/ipo/indogulf-cropsciences-ipo/2074/,verified,2026-09-23 00:11:25
+584,584,2025-07-02,27.26,33.62,8.35,chittorgarh_official,https://www.chittorgarh.com/ipo/sambhv-steel-tubes-ipo/2073/,verified,2026-09-23 00:11:25
+585,585,2025-07-02,24.05,10.24,1.43,chittorgarh_official,https://www.chittorgarh.com/ipo/hdb-financial-ipo/2110/,verified,2026-09-23 00:11:25
+586,586,2025-07-01,40.66,142.1,52.61,chittorgarh_official,https://www.chittorgarh.com/ipo/globe-civil-projects-ipo/2149/,verified,2026-09-23 00:11:25
+587,587,2025-07-01,25.92,15.54,2.14,chittorgarh_official,https://www.chittorgarh.com/ipo/ellenbarrie-industrial-gases-ipo/2189/,verified,2026-09-23 00:11:25
+588,588,2025-07-01,1.93,1.39,1.35,chittorgarh_official,https://www.chittorgarh.com/ipo/kalpataru-ipo/2229/,verified,2026-09-23 00:11:25
+589,589,2025-06-25,1.2,3.07,5.98,chittorgarh_official,https://www.chittorgarh.com/ipo/arisinfra-solutions-ipo/1971/,verified,2026-09-23 00:11:25
+590,590,2025-06-20,35.89,38.19,3.59,chittorgarh_official,https://www.chittorgarh.com/ipo/oswal-pumps-ipo/2202/,verified,2026-09-23 00:11:25
+591,591,2025-06-04,30.23,122.2,20.23,chittorgarh_official,https://www.chittorgarh.com/ipo/scoda-tubes-ipo/2172/,verified,2026-09-23 00:11:25
+592,592,2025-06-03,41.8,222.75,38.12,chittorgarh_official,https://www.chittorgarh.com/ipo/prostarm-info-systems-ipo/2016/,verified,2026-09-23 00:11:25
+593,593,2025-06-02,1.97,0.64,0.78,chittorgarh_official,https://www.chittorgarh.com/ipo/aegis-vopak-terminals-ipo/2080/,verified,2026-09-23 00:11:25
+594,594,2025-06-02,3.74,1.06,0.83,chittorgarh_official,https://www.chittorgarh.com/ipo/leela-hotels-ipo/2182/,verified,2026-09-23 00:11:25
+595,595,2025-05-28,0.98,40.78,4.4,chittorgarh_official,https://www.chittorgarh.com/ipo/belrise-industries-ipo/2083/,verified,2026-09-23 00:11:25
+596,596,2025-05-27,35.27,237.23,192.74,chittorgarh_official,https://www.chittorgarh.com/ipo/borana-weaves-ipo/2099/,verified,2026-09-23 00:11:25
+597,597,2025-05-06,1.3,0.68,1.76,chittorgarh_official,https://www.chittorgarh.com/ipo/ather-energy-ipo/2357/,verified,2026-09-23 00:11:25
+598,598,2025-02-24,1.01,0.77,1.72,chittorgarh_official,https://www.chittorgarh.com/ipo/quality-power-ipo/1988/,verified,2026-09-23 00:11:25
+599,599,2025-02-19,4.42,0.21,0.1,chittorgarh_official,https://www.chittorgarh.com/ipo/hexaware-technologies-ipo/1985/,verified,2026-09-23 00:11:25
+600,600,2025-02-17,6.46,6.41,1.89,chittorgarh_official,https://www.chittorgarh.com/ipo/ajax-engineering-ipo/1983/,verified,2026-09-23 00:11:25
+601,601,2025-02-04,2.48,0.37,0.39,chittorgarh_official,https://www.chittorgarh.com/ipo/dr-agarwals-healthcare-ipo/1975/,verified,2026-09-23 00:11:25
+602,602,2025-01-29,94.71,505.15,89.36,chittorgarh_official,https://www.chittorgarh.com/ipo/denta-water-ipo/1970/,verified,2026-09-23 00:11:25
+603,603,2025-01-23,69.58,424.11,94.51,chittorgarh_official,https://www.chittorgarh.com/ipo/stallion-india-ipo/1967/,verified,2026-09-23 00:11:25
+604,604,2025-01-20,44.6,147.44,75.35,chittorgarh_official,https://www.chittorgarh.com/ipo/laxmi-dental-ipo/1961/,verified,2026-09-23 00:11:25
+605,605,2025-01-17,0.99,4.08,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/capital-infra-trust-invit/1957/,verified,2026-09-23 00:11:25
+606,606,2025-01-14,56.72,265.68,256.63,chittorgarh_official,https://www.chittorgarh.com/ipo/quadrant-future-tek-ipo/1954/,verified,2026-09-23 00:11:25
+607,607,2025-01-13,131.6,273.52,65.72,chittorgarh_official,https://www.chittorgarh.com/ipo/standard-glass-lining-ipo/1951/,verified,2026-09-23 00:11:25
+608,608,2025-01-07,97.11,498.49,102.57,chittorgarh_official,https://www.chittorgarh.com/ipo/indo-farm-equipment-ipo/1934/,verified,2026-09-23 00:11:25
+609,609,2026-09-21,5.02,65.67,23.36,chittorgarh_official,https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/,verified,2026-09-23 00:11:25
+610,610,2026-09-18,8.54,19.14,9.7,chittorgarh_official,https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/,verified,2026-09-23 00:11:25
+611,611,2026-09-17,32.05,64.64,25.81,chittorgarh_official,https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/,verified,2026-09-23 00:11:25
+612,612,2026-09-17,67.84,51.05,13.73,chittorgarh_official,https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/,verified,2026-09-23 00:11:25
+613,613,2026-09-17,71.49,67.63,15.22,chittorgarh_official,https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/,verified,2026-09-23 00:11:25
+614,614,2026-09-17,21.71,15.63,3.31,chittorgarh_official,https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/,verified,2026-09-23 00:11:25
+615,615,2026-09-17,1.16,1.21,2.14,chittorgarh_official,https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/,verified,2026-09-23 00:11:25
+616,616,2026-09-17,19.06,46.44,17.43,chittorgarh_official,https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/,verified,2026-09-23 00:11:25
+617,617,2026-09-16,67.07,79.36,32.93,chittorgarh_official,https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/,verified,2026-09-23 00:11:25
+618,618,2026-09-16,3.65,1.82,1.73,chittorgarh_official,https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/,verified,2026-09-23 00:11:25
+619,619,2026-09-16,86.73,87.52,20.32,chittorgarh_official,https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/,verified,2026-09-23 00:11:25
+620,620,2026-09-15,107.9,216.3,43.95,chittorgarh_official,https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/,verified,2026-09-23 00:11:25
+621,621,2026-09-08,4.67,274.31,190.4,chittorgarh_official,https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/,verified,2026-09-23 00:11:25
+622,622,2026-09-08,15.31,108.62,18.68,chittorgarh_official,https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/,verified,2026-09-23 00:11:25
+623,623,2026-09-07,1.2,0.87,1.59,chittorgarh_official,https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/,verified,2026-09-23 00:11:25
+624,624,2026-09-04,110.38,201.21,40.24,chittorgarh_official,https://www.chittorgarh.com/ipo/esds-software-ipo/1198/,verified,2026-09-23 00:11:25
+625,625,2026-09-04,16.58,165.77,104.4,chittorgarh_official,https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/,verified,2026-09-23 00:11:25
+626,626,2026-09-03,93.6,184.35,40.11,chittorgarh_official,https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/,verified,2026-09-23 00:11:25
+627,627,2026-09-02,1.58,3.19,2.58,chittorgarh_official,https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/,verified,2026-09-23 00:11:25
+628,628,2026-09-01,72.96,77.22,13.42,chittorgarh_official,https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/,verified,2026-09-23 00:11:25
+629,629,2026-09-01,56.41,87.02,24.93,chittorgarh_official,https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/,verified,2026-09-23 00:11:25
+630,630,2026-09-01,100.07,410.36,171.71,chittorgarh_official,https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/,verified,2026-09-23 00:11:25
+631,631,2026-08-31,95.86,126.54,31.67,chittorgarh_official,https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/,verified,2026-09-23 00:11:25
+632,632,2026-08-28,123.2,308.9,59.02,chittorgarh_official,https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/,verified,2026-09-23 00:11:25
+633,633,2026-08-26,18.93,65.63,11.4,chittorgarh_official,https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/,verified,2026-09-23 00:11:25
+634,634,2026-08-25,49.89,197.12,54.88,chittorgarh_official,https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/,verified,2026-09-23 00:11:25
+635,635,2026-08-25,1.37,5.68,2.37,chittorgarh_official,https://www.chittorgarh.com/ipo/shankesh-jewellers-ipo/2663/,verified,2026-09-23 00:11:25
+636,636,2026-08-24,62.04,77.88,12.14,chittorgarh_official,https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/,verified,2026-09-23 00:11:25
+637,637,2026-08-24,1.38,1.03,0.97,chittorgarh_official,https://www.chittorgarh.com/ipo/horizon-industrial-parks-ipo/2826/,verified,2026-09-23 00:11:25
+638,638,2026-08-19,64.28,167.41,53.66,chittorgarh_official,https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/,verified,2026-09-23 00:11:25
+639,639,2026-08-19,50.66,92.15,46.96,chittorgarh_official,https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/,verified,2026-09-23 00:11:25
+640,640,2026-08-18,66.19,36.57,8.57,chittorgarh_official,https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/,verified,2026-09-23 00:11:25
+641,641,2026-08-17,75.13,49.62,12.65,chittorgarh_official,https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/,verified,2026-09-23 00:11:25
+642,642,2026-08-17,84.12,52.96,8.06,chittorgarh_official,https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/,verified,2026-09-23 00:11:25
+643,643,2026-08-14,17.45,64.72,25.01,chittorgarh_official,https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/,verified,2026-09-23 00:11:25
+644,644,2026-08-14,7.69,13.29,1.77,chittorgarh_official,https://www.chittorgarh.com/ipo/leap-india-ipo/2583/,verified,2026-09-23 00:11:25
+645,645,2026-08-12,81.21,265.35,46.25,chittorgarh_official,https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/,verified,2026-09-23 00:11:25
+646,646,2026-08-06,11.1,1.92,0.95,chittorgarh_official,https://www.chittorgarh.com/ipo/juniper-green-energy-ipo/2492/,verified,2026-09-23 00:11:25
+647,647,2026-08-06,38.91,395.65,210.59,chittorgarh_official,https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/,verified,2026-09-23 00:11:25
+648,648,2026-08-05,4.03,1.05,0.93,chittorgarh_official,https://www.chittorgarh.com/ipo/manipal-health-enterprises-ipo/2956/,verified,2026-09-23 00:11:25
+649,649,2026-07-31,5.91,4.33,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/cube-highways-trust-invit/3192/,verified,2026-09-23 00:11:25
+650,650,2026-07-30,82.31,50.45,6.56,chittorgarh_official,https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/,verified,2026-09-23 00:11:25
+651,651,2026-07-30,4.27,6.83,2.71,chittorgarh_official,https://www.chittorgarh.com/ipo/lohia-corp-ipo/2574/,verified,2026-09-23 00:11:25
+652,652,2026-07-30,3.41,26.56,8.75,chittorgarh_official,https://www.chittorgarh.com/ipo/xtranet-technologies-ipo/2688/,verified,2026-09-23 00:11:25
+653,653,2026-07-24,101.79,279.92,41.82,chittorgarh_official,https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/,verified,2026-09-23 00:11:25
+654,654,2026-07-21,1.03,0.75,1.5,chittorgarh_official,https://www.chittorgarh.com/ipo/alpine-texworld-ipo/2675/,verified,2026-09-23 00:11:25
+655,655,2026-07-21,56.63,22.3,3.43,chittorgarh_official,https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/,verified,2026-09-23 00:11:25
+656,656,2026-07-16,39.49,45.54,6.84,chittorgarh_official,https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/,verified,2026-09-23 00:11:25
+657,657,2026-07-15,119.97,172.52,26.99,chittorgarh_official,https://www.chittorgarh.com/ipo/kusumgar-ipo/2670/,verified,2026-09-23 00:11:25
+658,658,2026-07-08,64.55,145.95,20.64,chittorgarh_official,https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/,verified,2026-09-23 00:11:25
+659,659,2026-07-06,3.53,8.22,2.45,chittorgarh_official,https://www.chittorgarh.com/ipo/aastha-spintex-ipo/2678/,verified,2026-09-23 00:11:25
+660,660,2026-07-02,1.01,0.57,1.59,chittorgarh_official,https://www.chittorgarh.com/ipo/csm-technologies-ipo/2641/,verified,2026-09-23 00:11:25
+661,661,2026-07-01,1.05,1.2,4.31,chittorgarh_official,https://www.chittorgarh.com/ipo/cordelia-cruises-ipo/2474/,verified,2026-09-23 00:11:25
+662,662,2026-07-01,69.94,533.05,92.98,chittorgarh_official,https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/,verified,2026-09-23 00:11:25
+663,663,2026-06-29,1.3,0.55,1.09,chittorgarh_official,https://www.chittorgarh.com/ipo/turtlemint-fintech-solutions-ipo/2601/,verified,2026-09-23 00:11:25
+664,664,2026-06-12,8.43,160.4,26.28,chittorgarh_official,https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/,verified,2026-09-23 00:11:25
+665,665,2026-06-10,108.61,171.02,26.05,chittorgarh_official,https://www.chittorgarh.com/ipo/cmr-green-technologies-ipo/2586/,verified,2026-09-23 00:11:25
+666,666,2026-05-14,11.19,21.83,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/bagmane-reit/3090/,verified,2026-09-23 00:11:25
+667,667,2026-05-08,11.0,6.9,2.09,chittorgarh_official,https://www.chittorgarh.com/ipo/onemi-technology-ipo/2576/,verified,2026-09-23 00:11:25
+668,668,2026-04-29,9.97,16.65,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/citius-transnet-invit-ipo/2862/,verified,2026-09-23 00:11:25
+669,669,2026-04-24,0.17,4.16,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/propshare-celestia-scheme-ipo/2965/,verified,2026-09-23 00:11:25
+670,670,2026-04-17,2.08,7.12,1.48,chittorgarh_official,https://www.chittorgarh.com/ipo/om-power-transmission-ipo/2676/,verified,2026-09-23 00:11:25
+671,671,2026-04-02,2.53,0.45,0.15,chittorgarh_official,https://www.chittorgarh.com/ipo/powerica-ipo/2570/,verified,2026-09-23 00:11:25
+672,672,2026-04-02,1.34,2.46,0.12,chittorgarh_official,https://www.chittorgarh.com/ipo/sai-parenterals-ipo/2681/,verified,2026-09-23 00:11:25
+673,673,2026-04-02,1.11,13.35,1.41,chittorgarh_official,https://www.chittorgarh.com/ipo/amir-chand-jagdish-kumar-ipo/2501/,verified,2026-09-23 00:11:25
+674,674,2026-03-30,2.02,0.33,0.31,chittorgarh_official,https://www.chittorgarh.com/ipo/central-mine-planning-design-institute-ipo/2456/,verified,2026-09-23 00:11:25
+675,675,2026-03-24,1.66,3.09,0.4,chittorgarh_official,https://www.chittorgarh.com/ipo/gsp-crop-ipo/2031/,verified,2026-09-23 00:11:25
+676,676,2026-03-24,8.34,6.96,1.0,chittorgarh_official,https://www.chittorgarh.com/ipo/raajmarg-infra-investment-trust-ipo/2863/,verified,2026-09-23 00:11:25
+677,677,2026-03-23,12.83,8.33,0.59,chittorgarh_official,https://www.chittorgarh.com/ipo/innovision-limited-ipo/2039/,verified,2026-09-23 00:11:25
+678,678,2026-03-19,2.5,2.45,0.24,chittorgarh_official,https://www.chittorgarh.com/ipo/rajputana-stainless-ipo/2067/,verified,2026-09-23 00:11:25
+679,679,2026-03-11,3.99,0.84,0.19,chittorgarh_official,https://www.chittorgarh.com/ipo/sedemac-mechatronics-ipo/2794/,verified,2026-09-23 00:11:25
+680,680,2026-03-05,1.9,0.72,0.33,chittorgarh_official,https://www.chittorgarh.com/ipo/omnitech-engineering-ipo/2479/,verified,2026-09-23 00:11:25
+681,681,2026-03-04,1.22,1.56,1.34,chittorgarh_official,https://www.chittorgarh.com/ipo/pngs-reva-ipo/2475/,verified,2026-09-23 00:11:25
+682,682,2026-03-02,3.72,208.14,72.84,chittorgarh_official,https://www.chittorgarh.com/ipo/shree-ram-twistex-ipo/2502/,verified,2026-09-23 00:11:25
+683,683,2026-03-02,1.81,0.57,0.06,chittorgarh_official,https://www.chittorgarh.com/ipo/clean-max-enviro-energy-solutions-ipo/2573/,verified,2026-09-23 00:11:25
+684,684,2026-02-27,1.23,13.6,7.36,chittorgarh_official,https://www.chittorgarh.com/ipo/gaudium-ivf-ipo/2019/,verified,2026-09-23 00:11:25
+685,685,2026-02-16,1.24,0.05,0.77,chittorgarh_official,https://www.chittorgarh.com/ipo/aye-finance-ipo/2026/,verified,2026-09-23 00:11:25
+686,686,2026-02-16,2.38,1.07,1.01,chittorgarh_official,https://www.chittorgarh.com/ipo/fractal-analytics-ipo/2569/,verified,2026-09-23 00:11:25
+687,687,2026-01-28,2.22,0.84,2.33,chittorgarh_official,https://www.chittorgarh.com/ipo/shadowfax-technologies-ipo/2526/,verified,2026-09-23 00:11:25
+688,688,2026-01-21,13.85,38.3,9.47,chittorgarh_official,https://www.chittorgarh.com/ipo/amagi-media-labs-ipo/2549/,verified,2026-09-23 00:11:25
+689,689,2026-01-19,124.54,253.2,46.99,chittorgarh_official,https://www.chittorgarh.com/ipo/bharat-coking-coal-ipo/2462/,verified,2026-09-23 00:11:25

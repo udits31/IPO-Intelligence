@@ -1,0 +1,76 @@
+{
+  "schema_version": "recovered_third_party_bid_observations_v1",
+  "purpose": "Historical research context only. These are reports found after the application window, not first-party live captures or prospective model forecasts.",
+  "observations": [
+    {
+      "company_name": "Tonbo Imaging India",
+      "source_name": "IPO360",
+      "source_url": "https://www.ipo360.in/subscription-status",
+      "source_reported_at_ist": "2026-10-19T15:33:00+05:30",
+      "discovered_at_ist": "2026-10-20T01:02:00+05:30",
+      "retrieval_method": "search-index excerpt; live page subsequently changed",
+      "qib_x": 265.42,
+      "nii_x": 167.47,
+      "retail_x": 28.08,
+      "capture_status": "external_report_recovered_later_unverified",
+      "recorded_by_app_at_source_time": false,
+      "eligible_for_prospective_accuracy": false
+    },
+    {
+      "company_name": "Tonbo Imaging India",
+      "source_name": "IPOwiz",
+      "source_url": "https://www.ipowiz.in/ipo/subscription/tonbo-imaging-india-ipo",
+      "source_reported_at_ist": "2026-10-19T16:00:00+05:30",
+      "discovered_at_ist": "2026-10-20T01:02:00+05:30",
+      "retrieval_method": "search-index excerpt; live page subsequently changed",
+      "qib_x": 293.51,
+      "nii_x": 170.18,
+      "retail_x": 29.11,
+      "capture_status": "external_report_recovered_later_unverified",
+      "recorded_by_app_at_source_time": false,
+      "eligible_for_prospective_accuracy": false
+    },
+    {
+      "company_name": "Zetwerk Manufacturing Business",
+      "source_name": "IPO360",
+      "source_url": "https://www.ipo360.in/subscription-status",
+      "source_reported_at_ist": "2026-10-19T15:33:00+05:30",
+      "discovered_at_ist": "2026-10-20T01:12:00+05:30",
+      "retrieval_method": "search-index excerpt; live page subsequently changed",
+      "qib_x": 4.30,
+      "nii_x": 1.37,
+      "retail_x": 0.61,
+      "capture_status": "external_report_recovered_later_unverified",
+      "recorded_by_app_at_source_time": false,
+      "eligible_for_prospective_accuracy": false
+    },
+    {
+      "company_name": "Bonfiglioli Transmissions",
+      "source_name": "IPO360",
+      "source_url": "https://www.ipo360.in/subscription-status",
+      "source_reported_at_ist": "2026-10-19T15:33:00+05:30",
+      "discovered_at_ist": "2026-10-20T01:12:00+05:30",
+      "retrieval_method": "search-index excerpt; live page subsequently changed",
+      "qib_x": 83.61,
+      "nii_x": 39.01,
+      "retail_x": 5.11,
+      "capture_status": "external_report_recovered_later_unverified",
+      "recorded_by_app_at_source_time": false,
+      "eligible_for_prospective_accuracy": false
+    },
+    {
+      "company_name": "Sahajanand Medical Technologies",
+      "source_name": "IPO360",
+      "source_url": "https://www.ipo360.in/subscription-status",
+      "source_reported_at_ist": "2026-10-19T15:33:00+05:30",
+      "discovered_at_ist": "2026-10-20T01:12:00+05:30",
+      "retrieval_method": "search-index excerpt; live page subsequently changed",
+      "qib_x": 25.40,
+      "nii_x": 13.48,
+      "retail_x": 2.35,
+      "capture_status": "external_report_recovered_later_unverified",
+      "recorded_by_app_at_source_time": false,
+      "eligible_for_prospective_accuracy": false
+    }
+  ]
+}

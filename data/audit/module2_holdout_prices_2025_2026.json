@@ -1,0 +1,27 @@
+{
+  "source": "Yahoo Finance historical daily OHLC",
+  "source_url_pattern": "https://finance.yahoo.com/quote/{ticker}/history/",
+  "start": "2025-01-01",
+  "end_exclusive": "2026-10-17",
+  "price_basis": "unadjusted Close; splits and dividends not back-adjusted",
+  "eligible_nse_ipo_count": 178,
+  "matched_ipo_count": 175,
+  "rows": 33804,
+  "missing": [
+    {
+      "ipo_id": 589,
+      "ticker": "ARISINFRA.NS",
+      "reason": "no Yahoo close observations"
+    },
+    {
+      "ipo_id": 607,
+      "ticker": "SGLTL.NS",
+      "reason": "no Yahoo close observations"
+    },
+    {
+      "ipo_id": 673,
+      "ticker": "AMIRCHAND.NS",
+      "reason": "no Yahoo close observations"
+    }
+  ]
+}
