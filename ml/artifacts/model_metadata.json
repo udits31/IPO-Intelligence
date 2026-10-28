@@ -1,0 +1,20 @@
+{
+  "model_name": "HybridTriBlend (Subscription + Fundamentals)",
+  "feature_cols": [
+    "log_qib",
+    "log_retail",
+    "log_hni",
+    "qib_retail_ratio",
+    "log_issue_size",
+    "promoter_ofs_ratio",
+    "risk_factor_count",
+    "objects_capex_ratio",
+    "price_band_spread_pct"
+  ],
+  "decision_threshold": 0.6,
+  "split2_accuracy": 0.835,
+  "split2_precision": 0.859,
+  "split2_recall": 0.944,
+  "split2_roc_auc": 0.838,
+  "serialized_at": "2026-09-25T14:55:17.938162"
+}
