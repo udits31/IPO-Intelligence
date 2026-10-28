@@ -1,0 +1,2312 @@
+[
+  {
+    "ipo_id": 308,
+    "company": "Stove Kraft Ltd.",
+    "year": 2021,
+    "document_date": "2021-01-19",
+    "decision_date": "2021-01-27",
+    "source_path": "data/prospectus_pdfs/308_stove_kraft_ltd_rhp.pdf",
+    "source_sha256": "e9bfd2b9b7a49158581d7fa512e29752c6b3c1685db0a1f56f47f37eb3377543",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 0.2727272727272727,
+        "annual_eps": 1.05,
+        "period": "2020-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 305,
+    "company": "RailTel Corp.of India Ltd.",
+    "year": 2021,
+    "document_date": "2021-02-19",
+    "decision_date": "2021-02-16",
+    "source_path": "data/prospectus_pdfs/305_railtel_corp_of_india_ltd_rhp.pdf",
+    "source_sha256": "551dad37c5e0ba59af180c0962b32ed38eb5e271bb85c29ae000611f24c050b3",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 304,
+    "company": "Heranba Industries Ltd.",
+    "year": 2021,
+    "document_date": "2021-02-10",
+    "decision_date": "2021-02-24",
+    "source_path": "data/prospectus_pdfs/304_heranba_industries_ltd_rhp.pdf",
+    "source_sha256": "e4d6d8f9bd8755ea4141e54f0ab803a4e02e624cfd7d07bcb3d50d92b5983e8f",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 0.4784688995215311,
+        "annual_eps": 3.0,
+        "period": "2020-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 303,
+    "company": "MTAR Technologies Ltd.",
+    "year": 2021,
+    "document_date": "2021-03-08",
+    "decision_date": "2021-03-04",
+    "source_path": "data/prospectus_pdfs/303_mtar_technologies_ltd_rhp.pdf",
+    "source_sha256": "0c56704204537620ecf71aabd19c97fe5b55e80f896e0eb7542ef8a9b2330bbe",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 299,
+    "company": "Craftsman Automation Ltd.",
+    "year": 2021,
+    "document_date": "2021-03-18",
+    "decision_date": "2021-03-16",
+    "source_path": "data/prospectus_pdfs/299_craftsman_automation_ltd_rhp.pdf",
+    "source_sha256": "71a02f6f8e5faeebaf5ccc7684382802ed6bf162957471bf6b975b5906fcf6d1",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 300,
+    "company": "Laxmi Organic Industries Ltd.",
+    "year": 2021,
+    "document_date": "2021-03-04",
+    "decision_date": "2021-03-16",
+    "source_path": "data/prospectus_pdfs/300_laxmi_organic_industries_ltd_rhp.pdf",
+    "source_sha256": "82049f3584eb0e740a105a55f3dbe40b5781518d37646ea1127f57bc14e73386",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.3076923076923075,
+        "annual_eps": 3.0,
+        "period": "2020-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 297,
+    "company": "Kalyan Jewellers India Ltd.",
+    "year": 2021,
+    "document_date": "2021-03-09",
+    "decision_date": "2021-03-17",
+    "source_path": "data/prospectus_pdfs/297_kalyan_jewellers_india_ltd_rhp.pdf",
+    "source_sha256": "897484b2804eefce5e52ac5b1699671ec909abb2ed4c6da54f8ff19c7dca0534",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 1.7126436781609196,
+        "annual_eps": 1.49,
+        "period": "2020-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 296,
+    "company": "Nazara Technologies Ltd.",
+    "year": 2021,
+    "document_date": "2021-03-22",
+    "decision_date": "2021-03-18",
+    "source_path": "data/prospectus_pdfs/296_nazara_technologies_ltd_rhp.pdf",
+    "source_sha256": "9948742bded36e28ef7861de856ce25adf5be8485e6a19a9e223534b6e168b76",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 295,
+    "company": "Barbeque-Nation Hospitality Ltd.",
+    "year": 2021,
+    "document_date": "2021-03-31",
+    "decision_date": "2021-03-25",
+    "source_path": "data/prospectus_pdfs/295_barbeque_nation_hospitality_ltd_rhp.pdf",
+    "source_sha256": "e7d9979ca65a43f00e56d4889e2e47ba5d1981ba7d067343aa3f878d79c53e79",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 291,
+    "company": "Shyam Metalics & Energy Ltd.",
+    "year": 2021,
+    "document_date": "2021-06-17",
+    "decision_date": "2021-06-15",
+    "source_path": "data/prospectus_pdfs/291_shyam_metalics_energy_ltd_rhp.pdf",
+    "source_sha256": "7bd80bfb55c7d3a2fe9349b188694dd70c963ba4e91f218ff3e6ac04c8344d77",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 289,
+    "company": "Dodla Dairy Ltd.",
+    "year": 2021,
+    "document_date": "2021-06-21",
+    "decision_date": "2021-06-17",
+    "source_path": "data/prospectus_pdfs/289_dodla_dairy_ltd_rhp.pdf",
+    "source_sha256": "937b0af84f6f76faaaedcd0028b28f3fe819fac6663d4b2adb9ebfa3b16ea851",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 288,
+    "company": "India Pesticides Ltd.",
+    "year": 2021,
+    "document_date": "2021-06-28",
+    "decision_date": "2021-06-24",
+    "source_path": "data/prospectus_pdfs/288_india_pesticides_ltd_rhp.pdf",
+    "source_sha256": "ebee167c8a34d43e2ae0ab7cb9f3715ddc31eeccf2d03680fc3657944a79c27e",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 287,
+    "company": "Clean Science & Technology Ltd.",
+    "year": 2021,
+    "document_date": "2021-07-12",
+    "decision_date": "2021-07-08",
+    "source_path": "data/prospectus_pdfs/287_clean_science_technology_ltd_rhp.pdf",
+    "source_sha256": "ce0124516d3299d123b5e09a652147f5e42f477f61d7d569e773e49a94d8f20f",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 285,
+    "company": "Zomato Ltd.",
+    "year": 2021,
+    "document_date": "2021-07-19",
+    "decision_date": "2021-07-15",
+    "source_path": "data/prospectus_pdfs/285_zomato_ltd_rhp.pdf",
+    "source_sha256": "38be604b315cc92a309ab1acdfd9285b3abd5a572ad23e23f8a1c9d5e35b4f22",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 284,
+    "company": "Tatva Chintan Pharma Chem Ltd.",
+    "year": 2021,
+    "document_date": "2021-07-22",
+    "decision_date": "2021-07-19",
+    "source_path": "data/prospectus_pdfs/284_tatva_chintan_pharma_chem_ltd_rhp.pdf",
+    "source_sha256": "03fdd0846a69fee03c3f62f748f970aa8d7e7a8b79749c2ec342e70119b224eb",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 283,
+    "company": "Glenmark Life Sciences Ltd.",
+    "year": 2021,
+    "document_date": "2021-07-30",
+    "decision_date": "2021-07-28",
+    "source_path": "data/prospectus_pdfs/283_glenmark_life_sciences_ltd_rhp.pdf",
+    "source_sha256": "8cada56d8a8d53dceebabd51a18b7c8cea07d15842fd9a026a06eaab8cc43ab1",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 282,
+    "company": "Rolex Rings Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-03",
+    "decision_date": "2021-07-29",
+    "source_path": "data/prospectus_pdfs/282_rolex_rings_ltd_rhp.pdf",
+    "source_sha256": "74c9a092894c83f22e44870fbba723a58a9883337db71d7aad8dc4457fb31d5e",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 278,
+    "company": "Krsnaa Diagnostics Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-10",
+    "decision_date": "2021-08-05",
+    "source_path": "data/prospectus_pdfs/278_krsnaa_diagnostics_ltd_rhp.pdf",
+    "source_sha256": "7dab5c8873ac947a4252f14a0f19f9a362906fc22ea3a8d3bf3ced99d6156aef",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 279,
+    "company": "Devyani International Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-09",
+    "decision_date": "2021-08-05",
+    "source_path": "data/prospectus_pdfs/279_devyani_international_ltd_rhp.pdf",
+    "source_sha256": "4848d0f1ddaf2acd35c161f996789bf0df7ff31d952bd255839910a1583c9c25",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 280,
+    "company": "Exxaro Tiles Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-10",
+    "decision_date": "2021-08-05",
+    "source_path": "data/prospectus_pdfs/280_exxaro_tiles_ltd_rhp.pdf",
+    "source_sha256": "075b340242ff9f33b4ab1685081d892dcc25a872e27599eceb83a21fef688fbe",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 281,
+    "company": "Windlas Biotech Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-08",
+    "decision_date": "2021-08-05",
+    "source_path": "data/prospectus_pdfs/281_windlas_biotech_ltd_rhp.pdf",
+    "source_sha256": "d4c1fe9bdc153f5685ecd1332e0d297fb51b15eb7ed3b3da8e9c2451bcf86127",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 277,
+    "company": "CarTrade Tech Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-12",
+    "decision_date": "2021-08-10",
+    "source_path": "data/prospectus_pdfs/277_cartrade_tech_ltd_rhp.pdf",
+    "source_sha256": "79827c707a2a02102ab9f780127d2a6e57a581988fa467c8f6d187a5238772a0",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 274,
+    "company": "Aptus Value Housing Finance India Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-13",
+    "decision_date": "2021-08-11",
+    "source_path": "data/prospectus_pdfs/274_aptus_value_housing_finance_india_ltd_rhp.pdf",
+    "source_sha256": "30ae1308757145a1753e7cba311468c9d156e8b7e4e3d3f8f5d85c7a412adc1b",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 275,
+    "company": "Chemplast Sanmar Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-13",
+    "decision_date": "2021-08-11",
+    "source_path": "data/prospectus_pdfs/275_chemplast_sanmar_ltd_rhp.pdf",
+    "source_sha256": "bacbab86cebb4a6b18a18ec172c18ff5a4e7bbd2fb673c383d6ba6cf4ff8820f",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 272,
+    "company": "Ami Organics Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-25",
+    "decision_date": "2021-09-02",
+    "source_path": "data/prospectus_pdfs/272_ami_organics_ltd_rhp.pdf",
+    "source_sha256": "acb5d26f5aabbdaa588d69d577cc09f540eea463e39d08df34cd92f22a0bf345",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 0.4918032786885246,
+        "annual_eps": 3.0,
+        "period": "2021-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.5266566906111834,
+        "nav": 52.99,
+        "period": "2021-03-31",
+        "page": 99,
+        "page_text_sha256": "38063f0c5ccc4d1e3a5ff3fefe660c6de973bded1c2c831c436b9d4033e5176f",
+        "excerpt": "As on March 31, 2021                                                                              52.99",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 273,
+    "company": "Vijaya Diagnostic Centre Ltd.",
+    "year": 2021,
+    "document_date": "2021-08-24",
+    "decision_date": "2021-09-02",
+    "source_path": "data/prospectus_pdfs/273_vijaya_diagnostic_centre_ltd_rhp.pdf",
+    "source_sha256": "4bdde4e849c70c325c3f0d8b76a1e8d39f3cf69a0c78e150ca306c0ea6842f02",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 1.5555555555555556,
+        "annual_eps": 8.26,
+        "period": "2021-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.6933743006492774,
+        "nav": 38.53,
+        "period": "2021-06-30",
+        "page": 75,
+        "page_text_sha256": "a8778c682fa688d156ddf66c8245ad9b1c7d78e9fa3fb9b75e45929f08f4b3b9",
+        "excerpt": "June 30, 2021                                                                                                 38.53",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 271,
+    "company": "Sansera Engineering Ltd.",
+    "year": 2021,
+    "document_date": "2021-09-17",
+    "decision_date": "2021-09-15",
+    "source_path": "data/prospectus_pdfs/271_sansera_engineering_ltd_rhp.pdf",
+    "source_sha256": "90e81e82c1a7c0a3a8d121e089ca048ada6d8ccdd4a0397695304991a5969a88",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 269,
+    "company": "Aditya Birla Sun Life AMC Ltd.",
+    "year": 2021,
+    "document_date": "2021-09-22",
+    "decision_date": "2021-09-30",
+    "source_path": "data/prospectus_pdfs/269_aditya_birla_sun_life_amc_ltd_rhp.pdf",
+    "source_sha256": "3127a49aa3f3245a52a544fc971a125ce6499f342a1afc933fea87b88ca93f2d",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.566011235955056,
+        "annual_eps": 18.27,
+        "period": "2021-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.516022106653442,
+        "nav": 62.57,
+        "period": "2021-06-30",
+        "page": 85,
+        "page_text_sha256": "b7df57fd4c5162338651b52485559d427331e01962dca44eb5b8456ed76c396c",
+        "excerpt": "As on June 30, 2021                                                                                           62.57",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 267,
+    "company": "Fino Payments Bank Ltd.",
+    "year": 2021,
+    "document_date": "2021-11-03",
+    "decision_date": "2021-11-01",
+    "source_path": "data/prospectus_pdfs/267_fino_payments_bank_ltd_rhp.pdf",
+    "source_sha256": "2ac130509231d2a8bfe7c155cb957b26955149300159418fa205d4c9da99e4c8",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 265,
+    "company": "Sigachi Industries Ltd.",
+    "year": 2021,
+    "document_date": "2021-11-08",
+    "decision_date": "2021-11-02",
+    "source_path": "data/prospectus_pdfs/265_sigachi_industries_ltd_rhp.pdf",
+    "source_sha256": "0de5f25f058827a302086810dd90c22516531a54b55c888bb705edb6d13779a4",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 263,
+    "company": "Sapphire Foods India Ltd.",
+    "year": 2021,
+    "document_date": "2021-11-12",
+    "decision_date": "2021-11-10",
+    "source_path": "data/prospectus_pdfs/263_sapphire_foods_india_ltd_rhp.pdf",
+    "source_sha256": "6f689dfb097292949e0e749ca46b7364815877794c78dde262f674a551412d8b",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 261,
+    "company": "Latent View Analytics Ltd.",
+    "year": 2021,
+    "document_date": "2021-11-17",
+    "decision_date": "2021-11-11",
+    "source_path": "data/prospectus_pdfs/261_latent_view_analytics_ltd_rhp.pdf",
+    "source_sha256": "f4c7ce4937727446f59f357e087d1e0c481507ee24ee23e7cfd401d37f98b9ec",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 260,
+    "company": "Tarsons Products Ltd.",
+    "year": 2021,
+    "document_date": "2021-11-18",
+    "decision_date": "2021-11-16",
+    "source_path": "data/prospectus_pdfs/260_tarsons_products_ltd_rhp.pdf",
+    "source_sha256": "148902cb63e07bfbea83462da05bebfe0394595f0a6b7765d4e94aedf5ca1c09",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 257,
+    "company": "Tega Industries Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-06",
+    "decision_date": "2021-12-02",
+    "source_path": "data/prospectus_pdfs/257_tega_industries_ltd_rhp.pdf",
+    "source_sha256": "1518e4be75618b1740246a283c6cd6ba715d554923c620cedbc72f86fc0df297",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 256,
+    "company": "Anand Rathi Wealth Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-07",
+    "decision_date": "2021-12-03",
+    "source_path": "data/prospectus_pdfs/256_anand_rathi_wealth_ltd_rhp.pdf",
+    "source_sha256": "b3f80c391689095c122aa5588f2c8423bd7521c6b85aa9f8d20eed270333233a",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 255,
+    "company": "Rategain Travel Technologies Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-10",
+    "decision_date": "2021-12-08",
+    "source_path": "data/prospectus_pdfs/255_rategain_travel_technologies_ltd_rhp.pdf",
+    "source_sha256": "930b497d4a71b2bed4e74910497c7f61319f155d64cc22e0bd24422fdf5b0554",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 254,
+    "company": "Shriram Properties Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-13",
+    "decision_date": "2021-12-09",
+    "source_path": "data/prospectus_pdfs/254_shriram_properties_ltd_rhp.pdf",
+    "source_sha256": "a060ef7a6ae37da19d6112b80985395e32eb7cf4f463b9cfe94f0e3768337676",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 252,
+    "company": "Metro Brands Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-15",
+    "decision_date": "2021-12-13",
+    "source_path": "data/prospectus_pdfs/252_metro_brands_ltd_rhp.pdf",
+    "source_sha256": "a546455a306bd5e198a6646c07f078e1017891e9820bbfdea28147a231986a0b",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 251,
+    "company": "Medplus Health Services Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-16",
+    "decision_date": "2021-12-14",
+    "source_path": "data/prospectus_pdfs/251_medplus_health_services_ltd_rhp.pdf",
+    "source_sha256": "e98146a0536ce418673578f0e44c949663fd0b4cce9424e777e1575378c6a24a",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 249,
+    "company": "HP Adhesives Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-20",
+    "decision_date": "2021-12-16",
+    "source_path": "data/prospectus_pdfs/249_hp_adhesives_ltd_rhp.pdf",
+    "source_sha256": "376b1942c91cb0d2eca5c1b926bd1c57f5dffde70683abae6ebf1febcaa18996",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 248,
+    "company": "Supriya Lifescience Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-21",
+    "decision_date": "2021-12-17",
+    "source_path": "data/prospectus_pdfs/248_supriya_lifescience_ltd_rhp.pdf",
+    "source_sha256": "fa646523be557f7ff12d0b48cab679a5215905d91934eef5420b174e4d92633f",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 247,
+    "company": "CMS Info Systems Ltd.",
+    "year": 2021,
+    "document_date": "2021-12-24",
+    "decision_date": "2021-12-22",
+    "source_path": "data/prospectus_pdfs/247_cms_info_systems_ltd_rhp.pdf",
+    "source_sha256": "5560effa9bff84ea6a3174c775ad794e3e956783d6c659aa222af32065a65d3d",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 351,
+    "company": "AGS Transact Technologies Ltd.",
+    "year": 2022,
+    "document_date": "2022-01-22",
+    "decision_date": "2022-01-20",
+    "source_path": "data/prospectus_pdfs/351_ags_transact_technologies_ltd_rhp.pdf",
+    "source_sha256": "1b9b027ff90918b7c30b3a85243e3f1f4b76aaad20db3083cc9c0e23cf9b9454",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 350,
+    "company": "Adani Wilmar Ltd.",
+    "year": 2022,
+    "document_date": "2022-02-01",
+    "decision_date": "2022-01-28",
+    "source_path": "data/prospectus_pdfs/350_adani_wilmar_ltd_rhp.pdf",
+    "source_sha256": "b31012630e6596fc7513610effbd4047a83fa517ad248a48428eb3ff9d8950a4",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 349,
+    "company": "Vedant Fashions Ltd.",
+    "year": 2022,
+    "document_date": "2022-02-09",
+    "decision_date": "2022-02-07",
+    "source_path": "data/prospectus_pdfs/349_vedant_fashions_ltd_rhp.pdf",
+    "source_sha256": "8985ba0c5284bfed6e60acd56dd43a1a21df77caee74cf6afaa8ed027308a516",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 348,
+    "company": "Uma Exports Ltd.",
+    "year": 2022,
+    "document_date": "2022-03-31",
+    "decision_date": "2022-03-29",
+    "source_path": "data/prospectus_pdfs/348_uma_exports_ltd_rhp.pdf",
+    "source_sha256": "12df21ba4e0342a6abf01e14b3f88e3b0d6c55fddaa577849d3583f1848512be",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 346,
+    "company": "Veranda Learning Solutions Ltd.",
+    "year": 2022,
+    "document_date": "2022-04-04",
+    "decision_date": "2022-03-30",
+    "source_path": "data/prospectus_pdfs/346_veranda_learning_solutions_ltd_rhp.pdf",
+    "source_sha256": "6863886bde37782575fe455fc5e736693731e8604227498954ed9660fca3a79c",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 344,
+    "company": "Campus Activewear Ltd.",
+    "year": 2022,
+    "document_date": "2022-04-29",
+    "decision_date": "2022-04-27",
+    "source_path": "data/prospectus_pdfs/344_campus_activewear_ltd_rhp.pdf",
+    "source_sha256": "e1a21d1490fbfcf013ca492030054bf42cfe0beb4b481e13483c626260a98730",
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 343,
+    "company": "Rainbow Children's Medicare Ltd.",
+    "year": 2022,
+    "document_date": "2022-05-02",
+    "decision_date": "2022-04-28",
+    "source_path": "data/prospectus_pdfs/343_rainbow_children_s_medicare_ltd_rhp.pdf",
+    "source_sha256": "4de99d7d34d27ddb1021606516df5d26c9b0093867a3a9821edd143194dd8e4a",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 339,
+    "company": "Delhivery Ltd.",
+    "year": 2022,
+    "document_date": "2022-04-30",
+    "decision_date": "2022-05-12",
+    "source_path": "data/prospectus_pdfs/339_delhivery_ltd_rhp.pdf",
+    "source_sha256": "112f295c4bb58d71ee9c9056a7d5b6a89639808975907642c8d8552fc34b19f7",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 0.6160164271047228,
+        "annual_eps": 3.0,
+        "period": "2021-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.8287152163051512,
+        "nav": 93.19,
+        "period": "2021-12-31",
+        "page": 178,
+        "page_text_sha256": "d1a32cbd76dea33bd717b1339a972e1c22f0b8f31d6b4c67bb89dbf451e71023",
+        "excerpt": "As on December 31, 2021                                                                93.19",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 340,
+    "company": "Venus Pipes & Tubes Ltd.",
+    "year": 2022,
+    "document_date": "2022-05-18",
+    "decision_date": "2022-05-12",
+    "source_path": "data/prospectus_pdfs/340_venus_pipes_tubes_ltd_rhp.pdf",
+    "source_sha256": "2b051c0b8eec52f2cb52c4a6982476fbf59c100bfa9ae05feeb8338df61f179d",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 338,
+    "company": "Paradeep Phosphates Ltd.",
+    "year": 2022,
+    "document_date": "2022-05-20",
+    "decision_date": "2022-05-18",
+    "source_path": "data/prospectus_pdfs/338_paradeep_phosphates_ltd_rhp.pdf",
+    "source_sha256": "5be58064470de32d11e94ff1bc2e706dc828e07d8f58f44566771164f662f775",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 337,
+    "company": "Ethos Ltd.",
+    "year": 2022,
+    "document_date": "2022-05-25",
+    "decision_date": "2022-05-19",
+    "source_path": "data/prospectus_pdfs/337_ethos_ltd_rhp.pdf",
+    "source_sha256": "ee2272bb8a8853236a9828d03e5918136f4189fe2b448cd609095e6dcbf813bf",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 336,
+    "company": "eMudhra Ltd.",
+    "year": 2022,
+    "document_date": "2022-05-25",
+    "decision_date": "2022-05-23",
+    "source_path": "data/prospectus_pdfs/336_emudhra_ltd_rhp.pdf",
+    "source_sha256": "fe05d8af53292c2d23fa46c8b2b79d019c0828fc5bd12436c11847549d963343",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 332,
+    "company": "Tamilnad Mercantile Bank Ltd.",
+    "year": 2022,
+    "document_date": "2022-09-08",
+    "decision_date": "2022-09-06",
+    "source_path": "data/prospectus_pdfs/332_tamilnad_mercantile_bank_ltd_rhp.pdf",
+    "source_sha256": "e66c2d0fa884a262b6755ad8d9a986ffe8df82fe36cc05f704616d5fb6c76dc9",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 330,
+    "company": "Electronics Mart India Ltd.",
+    "year": 2022,
+    "document_date": "2022-09-23",
+    "decision_date": "2022-10-06",
+    "source_path": "data/prospectus_pdfs/330_electronics_mart_india_ltd_rhp.pdf",
+    "source_sha256": "d5fd70836a7f330c8932b24dc367da72f64a0855adb42f3b952338a44a5532bf",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 5.864406779661017,
+        "annual_eps": 3.46,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.3280983229313397,
+        "nav": 21.27,
+        "period": "2022-06-30",
+        "page": 102,
+        "page_text_sha256": "d12967f42baf2b2b6f2ff8b56bbfbad7154af4ff9bd9c9b376297f372d9e4524",
+        "excerpt": "As on June 30, 2022                                                                              21.27",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 329,
+    "company": "Tracxn Technologies Ltd.",
+    "year": 2022,
+    "document_date": "2022-10-13",
+    "decision_date": "2022-10-11",
+    "source_path": "data/prospectus_pdfs/329_tracxn_technologies_ltd_rhp.pdf",
+    "source_sha256": "928319e655b6df6d03a819a66c21966a7000bba4943b96ee78045c7475067674",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 327,
+    "company": "Fusion Micro Finance Ltd.",
+    "year": 2022,
+    "document_date": "2022-11-07",
+    "decision_date": "2022-11-03",
+    "source_path": "data/prospectus_pdfs/327_fusion_micro_finance_ltd_rhp.pdf",
+    "source_sha256": "995dbe9a78b656052d1cf7d2a59cad196b9cf08bd2b57de4c8aee7a585462ed9",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 325,
+    "company": "Global Health Ltd.",
+    "year": 2022,
+    "document_date": "2022-11-09",
+    "decision_date": "2022-11-04",
+    "source_path": "data/prospectus_pdfs/325_global_health_ltd_rhp.pdf",
+    "source_sha256": "7e98456ffd99e8021b1d5c4bb6037bf4f2036bbbe64e1108edb52ab2e46c4637",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 326,
+    "company": "Bikaji Foods International Ltd.",
+    "year": 2022,
+    "document_date": "2022-11-10",
+    "decision_date": "2022-11-04",
+    "source_path": "data/prospectus_pdfs/326_bikaji_foods_international_ltd_rhp.pdf",
+    "source_sha256": "eee6974ea562ac2e83c2683781fead808f79a26e4796af1802821d8212da8f22",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 323,
+    "company": "Archean Chemical Industries Ltd.",
+    "year": 2022,
+    "document_date": "2022-10-31",
+    "decision_date": "2022-11-10",
+    "source_path": "data/prospectus_pdfs/323_archean_chemical_industries_ltd_rhp.pdf",
+    "source_sha256": "6f1328d5aa547ee2a30433b9708ed0e78241377fa32f3494577594f7db8fd143",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 4.486486486486487,
+        "annual_eps": 18.26,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 322,
+    "company": "Kaynes Technology India Ltd.",
+    "year": 2022,
+    "document_date": "2022-11-01",
+    "decision_date": "2022-11-11",
+    "source_path": "data/prospectus_pdfs/322_kaynes_technology_india_ltd_rhp.pdf",
+    "source_sha256": "225f5062b1b9ec04e6bc4ee28762b2bbc8f5ed85c2d90096ac87fd16ca737acf",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 1.5212947189097104,
+        "annual_eps": 8.93,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 321,
+    "company": "Inox Green Energy Services Ltd.",
+    "year": 2022,
+    "document_date": "2022-11-03",
+    "decision_date": "2022-11-14",
+    "source_path": "data/prospectus_pdfs/321_inox_green_energy_services_ltd_rhp.pdf",
+    "source_sha256": "c6f5ec097cad3a1f6725a60c14de875a023c4d85da957915e016f26654f33c9a",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": -0.38461538461538464,
+        "annual_eps": -0.25,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.0626186860202043,
+        "nav": 34.32,
+        "period": "2022-03-31",
+        "page": 116,
+        "page_text_sha256": "08ba4fe0485eaffb7eaac9d41b71ede668c6e1ee43d9929a6a1a9df8651ef2ef",
+        "excerpt": "As on March 31, 2022                                                                              34.32",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 320,
+    "company": "Keystone Realtors Ltd.",
+    "year": 2022,
+    "document_date": "2022-11-05",
+    "decision_date": "2022-11-15",
+    "source_path": "data/prospectus_pdfs/320_keystone_realtors_ltd_rhp.pdf",
+    "source_sha256": "f31df4d21471acc4a87fc6b84f98461df7286529f53daa4e91aeac32a467b8c7",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.5804066543438076,
+        "annual_eps": 13.96,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.821640604169323,
+        "nav": 104.4,
+        "period": "2022-06-30",
+        "page": 131,
+        "page_text_sha256": "9ad717cfb312d6734a8dc1797ee5463b7c18be7fcb1b43dec7d2b823a0fdfdab",
+        "excerpt": "As on June 30, 2022                                                                                           104.40",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 319,
+    "company": "Dharmaj Crop Guard Ltd.",
+    "year": 2022,
+    "document_date": "2022-11-21",
+    "decision_date": "2022-11-29",
+    "source_path": "data/prospectus_pdfs/319_dharmaj_crop_guard_ltd_rhp.pdf",
+    "source_sha256": "551310c557cd58c77d518bbb527849a10ee5a98eed465e79c471936b4aebbe5c",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 4.90295358649789,
+        "annual_eps": 11.62,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.9142570073043892,
+        "nav": 40.99,
+        "period": "2022-07-31",
+        "page": 122,
+        "page_text_sha256": "f6e70aac037d72eff08dc92479c997a345973774ce64ebda751e34996cadf47d",
+        "excerpt": "As on July 31, 2022                                                                           40.99",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 317,
+    "company": "Sula Vineyards Ltd.",
+    "year": 2022,
+    "document_date": "2022-07-15",
+    "decision_date": "2022-12-13",
+    "source_path": "data/prospectus_pdfs/317_sula_vineyards_ltd_rhp.pdf",
+    "source_sha256": "62ec7031d46fe7d8fd632255f10dbdcf73be6c5d84fb52ac8e044257fbb9d70a",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 1.8291316526610644,
+        "annual_eps": 6.53,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.008352277383642,
+        "nav": 55.34,
+        "period": "2022-03-31",
+        "page": 125,
+        "page_text_sha256": "48f3f2ff825640fdded338f7eb67be2f2d7e45a8a7d42fa08dbfba7457ac4bb3",
+        "excerpt": "As on March 31, 2022                                                                            55.34",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 316,
+    "company": "Landmark Cars Ltd.",
+    "year": 2022,
+    "document_date": "2022-12-05",
+    "decision_date": "2022-12-14",
+    "source_path": "data/prospectus_pdfs/316_landmark_cars_ltd_rhp.pdf",
+    "source_sha256": "1d3836439ba81fc6d08d4013f712dbe257501ab1973f1393ebd82dbb56a193df",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 3.4486166007905137,
+        "annual_eps": 17.45,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 314,
+    "company": "KFin Technologies Ltd.",
+    "year": 2022,
+    "document_date": "2022-12-22",
+    "decision_date": "2022-12-20",
+    "source_path": "data/prospectus_pdfs/314_kfin_technologies_ltd_rhp.pdf",
+    "source_sha256": "5e18eefca79754a5e2d71da84bc6f3e7a76f44606badb06fcb2c60a0cf8c608c",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 313,
+    "company": "Elin Electronics Ltd.",
+    "year": 2022,
+    "document_date": "2022-12-23",
+    "decision_date": "2022-12-21",
+    "source_path": "data/prospectus_pdfs/313_elin_electronics_ltd_rhp.pdf",
+    "source_sha256": "906ddd644ebd7a2435bdb312712365a6cf9bd33b83fcf277fd17b140a1139f6a",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 407,
+    "company": "Divgi TorqTransfer Systems Ltd.",
+    "year": 2023,
+    "document_date": "2023-02-23",
+    "decision_date": "2023-03-02",
+    "source_path": "data/prospectus_pdfs/407_divgi_torqtransfer_systems_ltd_rhp.pdf",
+    "source_sha256": "013c8188ba5121ae9fdd64da9c7c5c98d905639e3c0cfd0a1f0844bc4bce324c",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.8406779661016954,
+        "annual_eps": 16.76,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.7156359193139987,
+        "nav": 129.38,
+        "period": "2022-09-30",
+        "page": 99,
+        "page_text_sha256": "e896d5bd25ba1a9d0ea755b2772fd16fdb624b92a6f3c1133aba35b878216af4",
+        "excerpt": "As on September 30, 2022                                                                        129.38",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 406,
+    "company": "Global Surfaces Ltd.",
+    "year": 2023,
+    "document_date": "2023-02-25",
+    "decision_date": "2023-03-14",
+    "source_path": "data/prospectus_pdfs/406_global_surfaces_ltd_rhp.pdf",
+    "source_sha256": "d6772d7feb6e19320777c127f8857b9f968cd7090b22c5e22b570c2fed3fc073",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.142857142857143,
+        "annual_eps": 3.0,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 405,
+    "company": "Avalon Technologies Ltd.",
+    "year": 2023,
+    "document_date": "2023-04-07",
+    "decision_date": "2023-04-05",
+    "source_path": "data/prospectus_pdfs/405_avalon_technologies_ltd_rhp.pdf",
+    "source_sha256": "dc714df5b86a102e3570fd4f85f785111a482c661adac6cb1ad4b4368d4cedfd",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 404,
+    "company": "Mankind Pharma Ltd.",
+    "year": 2023,
+    "document_date": "2023-04-28",
+    "decision_date": "2023-04-26",
+    "source_path": "data/prospectus_pdfs/404_mankind_pharma_ltd_rhp.pdf",
+    "source_sha256": "9b6d2cbda88b476a7cd1f99a06658b59bec1afaf7514dfc76adc6c46a6484a4c",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 403,
+    "company": "IKIO Lighting Ltd.",
+    "year": 2023,
+    "document_date": "2023-05-29",
+    "decision_date": "2023-06-07",
+    "source_path": "data/prospectus_pdfs/403_ikio_lighting_ltd_rhp.pdf",
+    "source_sha256": "f379f842f54190e4cd3012a6dc852a839423fec88549ea2c7111b3ddcea39ff7",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 1.5122807017543858,
+        "annual_eps": 4.31,
+        "period": "2022-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 399,
+    "company": "Senco Gold Ltd.",
+    "year": 2023,
+    "document_date": "2023-06-27",
+    "decision_date": "2023-07-05",
+    "source_path": "data/prospectus_pdfs/399_senco_gold_ltd_rhp.pdf",
+    "source_sha256": "6d13f8b9ccf9ea73e91f79a1b268e770515c4c6ae28a174e0dc3a9709c9ad367",
+    "changes": [],
+    "status": "excluded",
+    "reason": "financial_period_not_prior"
+  },
+  {
+    "ipo_id": 398,
+    "company": "Utkarsh Small Finance Bank Ltd.",
+    "year": 2023,
+    "document_date": "2023-07-17",
+    "decision_date": "2023-07-13",
+    "source_path": "data/prospectus_pdfs/398_utkarsh_small_finance_bank_ltd_rhp.pdf",
+    "source_sha256": "e7c76dc14d684394c028f0dbcf6ce488b16fdc085a3e08fe2995b829a81d2d44",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 397,
+    "company": "Netweb Technologies India Ltd.",
+    "year": 2023,
+    "document_date": "2023-07-10",
+    "decision_date": "2023-07-18",
+    "source_path": "data/prospectus_pdfs/397_netweb_technologies_india_ltd_rhp.pdf",
+    "source_sha256": "47e3945293949a5850f0cbc4304a1050bf4dc5b43a06a0921ae42478f9bd0380",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 1.814,
+        "annual_eps": 9.07,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 396,
+    "company": "Yatharth Hospital & Trauma Care Services Ltd.",
+    "year": 2023,
+    "document_date": "2023-07-30",
+    "decision_date": "2023-07-27",
+    "source_path": "data/prospectus_pdfs/396_yatharth_hospital_trauma_care_services_ltd_rhp.pdf",
+    "source_sha256": "ba156bc812f05e72e7e11db699b1c1ec32ec4002fe8735a4ff1d738de395c88a",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 395,
+    "company": "SBFC Finance Ltd.",
+    "year": 2023,
+    "document_date": "2023-08-08",
+    "decision_date": "2023-08-04",
+    "source_path": "data/prospectus_pdfs/395_sbfc_finance_ltd_rhp.pdf",
+    "source_sha256": "46561bec0d66c576938a3e762a10b279c2ba020c5d6b9f567bddf97261876484",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 394,
+    "company": "Concord Biotech Ltd.",
+    "year": 2023,
+    "document_date": "2023-08-09",
+    "decision_date": "2023-08-07",
+    "source_path": "data/prospectus_pdfs/394_concord_biotech_ltd_rhp.pdf",
+    "source_sha256": "9cadb00739ea42fb0542ac6193d78750f2607eb2fe7e16fb7e89ff2b18efbc3b",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 393,
+    "company": "TVS Supply Chain Solutions Ltd.",
+    "year": 2023,
+    "document_date": "2023-08-17",
+    "decision_date": "2023-08-11",
+    "source_path": "data/prospectus_pdfs/393_tvs_supply_chain_solutions_ltd_rhp.pdf",
+    "source_sha256": "a9b2be250f606be23e16f742b82fb94a3db37b34d370813fc4507bf50699ab55",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 392,
+    "company": "Pyramid Technoplast Ltd.",
+    "year": 2023,
+    "document_date": "2023-08-08",
+    "decision_date": "2023-08-21",
+    "source_path": "data/prospectus_pdfs/392_pyramid_technoplast_ltd_rhp.pdf",
+    "source_sha256": "9efec11eefb08fe73ed88e0901be87e89010fb2a40a55336a0f5869c010bdfb1",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 1.8072289156626506,
+        "annual_eps": 3.0,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.765154293732165,
+        "nav": 34.28,
+        "period": "2023-03-31",
+        "page": 103,
+        "page_text_sha256": "43124a07417917fb8a210f78081a466b25ba96878cdb00d33fe2b96f06a8f324",
+        "excerpt": "As on March 31, 2023                                                                        34.28",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 391,
+    "company": "Aeroflex Industries Ltd.",
+    "year": 2023,
+    "document_date": "2023-08-25",
+    "decision_date": "2023-08-23",
+    "source_path": "data/prospectus_pdfs/391_aeroflex_industries_ltd_rhp.pdf",
+    "source_sha256": "92e1784fe20183da3a9c58c13e144ccb85b00cfa337393e04778c1bbfbdf262c",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 390,
+    "company": "Vishnu Prakash R.Punglia Ltd.",
+    "year": 2023,
+    "document_date": "2023-08-17",
+    "decision_date": "2023-08-25",
+    "source_path": "data/prospectus_pdfs/390_vishnu_prakash_r_punglia_ltd_rhp.pdf",
+    "source_sha256": "300df367e683aaa95dfa0d2139fad8e89cf5aa6ae99e577a971aa049c8b3770e",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 3.0303030303030303,
+        "annual_eps": 3.0,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.3195194261825014,
+        "nav": 36.11,
+        "period": "2023-03-31",
+        "page": 161,
+        "page_text_sha256": "325481071a68bd1c08a36c8fe2c8db51b6cbe1861baa47185b39e753ab0ca367",
+        "excerpt": "As at March 31, 2023                                                          36.11",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 388,
+    "company": "Ratnaveer Precision Engineering Ltd.",
+    "year": 2023,
+    "document_date": "2023-08-22",
+    "decision_date": "2023-09-05",
+    "source_path": "data/prospectus_pdfs/388_ratnaveer_precision_engineering_ltd_rhp.pdf",
+    "source_sha256": "8f555d3bc6e36d41f3fd64782f2e0adc435f041d942d7b392d5aa2893fda57aa",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 7.408163265306122,
+        "annual_eps": 7.26,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 389,
+    "company": "Rishabh Instruments Ltd.",
+    "year": 2023,
+    "document_date": "2023-08-23",
+    "decision_date": "2023-08-31",
+    "source_path": "data/prospectus_pdfs/389_rishabh_instruments_ltd_rhp.pdf",
+    "source_sha256": "6398e3f8a3843c5156e72d5638045c0d41418da7f5ea53e498fecfaee1b2c3a9",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.893424036281179,
+        "annual_eps": 12.76,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.611399979773817,
+        "nav": 109.98,
+        "period": "2023-03-31",
+        "page": 154,
+        "page_text_sha256": "66258dab6cfa36c88e9553549bcea8f11e9d2cea7ff9287011e49e3b1ed79291",
+        "excerpt": "As at March 31, 2023                                                          109.98",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 387,
+    "company": "Jupiter Life Line Hospitals Ltd.",
+    "year": 2023,
+    "document_date": "2023-09-11",
+    "decision_date": "2023-09-07",
+    "source_path": "data/prospectus_pdfs/387_jupiter_life_line_hospitals_ltd_rhp.pdf",
+    "source_sha256": "bb447ac56597456cb69df37fbb4a7a643b1cbe7bb7e3f960a003012aba0913df",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 385,
+    "company": "EMS Ltd.",
+    "year": 2023,
+    "document_date": "2023-09-01",
+    "decision_date": "2023-09-11",
+    "source_path": "data/prospectus_pdfs/385_ems_ltd_rhp.pdf",
+    "source_sha256": "57b91a7464058a8aa839cb8f957884024be217b3be50fab622d65913b52d8eb4",
+    "changes": [],
+    "status": "excluded",
+    "reason": "financial_period_not_prior"
+  },
+  {
+    "ipo_id": 382,
+    "company": "Signatureglobal (India) Ltd.",
+    "year": 2023,
+    "document_date": "2023-09-12",
+    "decision_date": "2023-09-21",
+    "source_path": "data/prospectus_pdfs/382_signatureglobal_india_ltd_rhp.pdf",
+    "source_sha256": "24212ad295b35860fb4214261c449cf2bcb0d806333c11b28ecc7e375b52316a",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": -1.412987012987013,
+        "annual_eps": -5.44,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 378,
+    "company": "JSW Infrastructure Ltd.",
+    "year": 2023,
+    "document_date": "2023-09-13",
+    "decision_date": "2023-09-26",
+    "source_path": "data/prospectus_pdfs/378_jsw_infrastructure_ltd_rhp.pdf",
+    "source_sha256": "9d3a20cfe83b59ab9cc0bb2e450415e0c0cf0d6d65cc35d36b42d8d4e0970bee",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 3.369747899159664,
+        "annual_eps": 4.01,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 379,
+    "company": "Manoj Vaibhav Gems 'N' Jewellers Ltd.",
+    "year": 2023,
+    "document_date": null,
+    "decision_date": "2023-09-25",
+    "source_path": "data/prospectus_pdfs/379_manoj_vaibhav_gems_n_jewellers_ltd_rhp.pdf",
+    "source_sha256": "f79668b29ee1c5f84676a5cae01c49e0dccd48e3b1411120ee7b05fb2bbe64b6",
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 374,
+    "company": "IRM Energy Ltd.",
+    "year": 2023,
+    "document_date": "2023-10-09",
+    "decision_date": "2023-10-19",
+    "source_path": "data/prospectus_pdfs/374_irm_energy_ltd_rhp.pdf",
+    "source_sha256": "46657215e61a37f6a958816aaa459aeafca6ff768d7cc5868d8420645d629bef",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 4.144554455445545,
+        "annual_eps": 20.93,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.6278760552316167,
+        "nav": 123.38,
+        "period": "2023-06-30",
+        "page": 141,
+        "page_text_sha256": "55e549ea04a1b327f67dfcee04c8a89287aeeac3d42c9b0b154c2d34ceebb98b",
+        "excerpt": "As on June 30, 2023                                                                             123.38",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 373,
+    "company": "Blue Jet Healthcare Ltd.",
+    "year": 2023,
+    "document_date": "2023-10-17",
+    "decision_date": "2023-10-26",
+    "source_path": "data/prospectus_pdfs/373_blue_jet_healthcare_ltd_rhp.pdf",
+    "source_sha256": "59f04df22cf0eacfbc60fd14213223dc29d372d21d9d675b17dd6cc53a68ba93",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.667630057803468,
+        "annual_eps": 9.23,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.2269533138259963,
+        "nav": 41.83,
+        "period": "2023-06-30",
+        "page": 104,
+        "page_text_sha256": "35029987577b3aed2aaed126b2e6aa4807c32d2f2b018743e86755994519f367",
+        "excerpt": "As on June 30, 2023                                                              41.83",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 372,
+    "company": "Cello World Ltd.",
+    "year": 2023,
+    "document_date": "2023-10-21",
+    "decision_date": "2023-10-31",
+    "source_path": "data/prospectus_pdfs/372_cello_world_ltd_rhp.pdf",
+    "source_sha256": "b161a6ccf54e4482dad15e76e14ba09dcc5c65c2a9c7cacdcb65559c59b3f22d",
+    "changes": [],
+    "status": "excluded",
+    "reason": "financial_period_not_prior"
+  },
+  {
+    "ipo_id": 371,
+    "company": "Honasa Consumer Ltd.",
+    "year": 2023,
+    "document_date": "2023-10-23",
+    "decision_date": "2023-11-01",
+    "source_path": "data/prospectus_pdfs/371_honasa_consumer_ltd_rhp.pdf",
+    "source_sha256": "0b0906a68b94455a733f3c30687ec2e25c0424cd6696b37e8093ee6cfd4dee65",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": -1.4382716049382716,
+        "annual_eps": -4.66,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.831356171646967,
+        "nav": 20.29,
+        "period": "2023-06-30",
+        "page": 128,
+        "page_text_sha256": "69b6165f1fb6fa9779259050f45e61792c8b2ffa938f8fc0da31f20a3a73cd7f",
+        "excerpt": "As on June 30, 2023                                                                                           20.29",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 368,
+    "company": "ASK Automotive Ltd.",
+    "year": 2023,
+    "document_date": "2023-10-30",
+    "decision_date": "2023-11-08",
+    "source_path": "data/prospectus_pdfs/368_ask_automotive_ltd_rhp.pdf",
+    "source_sha256": "a24715b48dadbb705453a8066d7744e67b1660ff7b744779b7b03f773fb4c285",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.1914893617021276,
+        "annual_eps": 6.18,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.2653416032699583,
+        "nav": 32.66,
+        "period": "2023-03-31",
+        "page": 125,
+        "page_text_sha256": "7c529449eab1cc511183fb28a0c6ddaf20a8714347a6081859e2144c1bdf815d",
+        "excerpt": "As on March 31, 2023                                                                               32.66",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 364,
+    "company": "Tata Technologies Ltd.",
+    "year": 2023,
+    "document_date": "2023-11-24",
+    "decision_date": "2023-11-23",
+    "source_path": "data/prospectus_pdfs/364_tata_technologies_ltd_rhp.pdf",
+    "source_sha256": "7fccefb1fc9885893b94e92a064506a1b4f18be197907bb44c04a540cfb293ea",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 365,
+    "company": "Gandhar Oil Refinery (India) Ltd.",
+    "year": 2023,
+    "document_date": "2023-11-15",
+    "decision_date": "2023-11-23",
+    "source_path": "data/prospectus_pdfs/365_gandhar_oil_refinery_india_ltd_rhp.pdf",
+    "source_sha256": "5f019fb32f010560ec89aa642ed5f2e565e53d51472492d3368444942e025bd0",
+    "changes": [],
+    "status": "excluded",
+    "reason": "financial_period_not_prior"
+  },
+  {
+    "ipo_id": 366,
+    "company": "Fedbank Financial Services Ltd.",
+    "year": 2023,
+    "document_date": "2023-11-16",
+    "decision_date": "2023-11-23",
+    "source_path": "data/prospectus_pdfs/366_fedbank_financial_services_ltd_rhp.pdf",
+    "source_sha256": "09e500259027407e16420cde4c033e665bd93db94e990a0d491217ea9a908588",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 3.992857142857143,
+        "annual_eps": 5.59,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.4316113574195974,
+        "nav": 43.95,
+        "period": "2023-06-30",
+        "page": 117,
+        "page_text_sha256": "b2411da3077a9ff71a34f546ce7da8cb43c72d9b86e337e5c8e69908d87ad427",
+        "excerpt": "As on June 30, 2023                                                                                           43.95",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 363,
+    "company": "Flair Writing Industries Ltd.",
+    "year": 2023,
+    "document_date": "2023-11-16",
+    "decision_date": "2023-11-23",
+    "source_path": "data/prospectus_pdfs/363_flair_writing_industries_ltd_rhp.pdf",
+    "source_sha256": "1739111ca1b8c3eccf3047bba833c643e2e2fc0c26045a6a3bd4151694de0a9f",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 4.1644736842105265,
+        "annual_eps": 12.66,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 361,
+    "company": "India Shelter Finance Corp.Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-16",
+    "decision_date": "2023-12-14",
+    "source_path": "data/prospectus_pdfs/361_india_shelter_finance_corp_ltd_rhp.pdf",
+    "source_sha256": "e44c3e4f8f8b559ccd7b76f006c63b5e2cda08f1441ea67270ba9e73f32c7c9c",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 362,
+    "company": "DOMS Industries Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-02",
+    "decision_date": "2023-12-14",
+    "source_path": "data/prospectus_pdfs/362_doms_industries_ltd_rhp.pdf",
+    "source_sha256": "42e5a9b931f82a6d81d94abc32b27b12b88b36b50ff996b1c63a9eafd19c137c",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.3151898734177214,
+        "annual_eps": 18.29,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.4994302729549727,
+        "nav": 70.69,
+        "period": "2023-09-30",
+        "page": 118,
+        "page_text_sha256": "448dcdc2f690885d03a291e8941c37eda1079439660e14d54ae1cc2b81286b05",
+        "excerpt": "As on September 30, 2023                                                                          70.69",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 360,
+    "company": "Inox India Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-08",
+    "decision_date": "2023-12-15",
+    "source_path": "data/prospectus_pdfs/360_inox_india_ltd_rhp.pdf",
+    "source_sha256": "0160153a76c4611f2f1eeec6aced3c6b6deb6e8b552c70ab95a8ec2247021ec5",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.55,
+        "annual_eps": 16.83,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 357,
+    "company": "Muthoot Microfin Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-11",
+    "decision_date": "2023-12-19",
+    "source_path": "data/prospectus_pdfs/357_muthoot_microfin_ltd_rhp.pdf",
+    "source_sha256": "8e720a4194a4b080e1adf46937d620a8a8cb07486c32f06bfaf3fbb8cb3841f8",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 4.006872852233677,
+        "annual_eps": 11.66,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 358,
+    "company": "Motisons Jewellers Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-08",
+    "decision_date": "2023-12-19",
+    "source_path": "data/prospectus_pdfs/358_motisons_jewellers_ltd_rhp.pdf",
+    "source_sha256": "4c4bda1235904ab3f0419b2e7277e9d59fa4445952f41af7d2197c6174aa3ef8",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 6.218181818181818,
+        "annual_eps": 3.42,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 359,
+    "company": "Suraj Estate Developers Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-06",
+    "decision_date": "2023-12-19",
+    "source_path": "data/prospectus_pdfs/359_suraj_estate_developers_ltd_rhp.pdf",
+    "source_sha256": "eac5fcbc171d4c1a932978a9201ec36fc36188770644e93dafe8147ce1f1e184",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.8055555555555554,
+        "annual_eps": 10.1,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.6584632594128683,
+        "nav": 27.12,
+        "period": "2023-06-30",
+        "page": 149,
+        "page_text_sha256": "429d5093d642f9bfdd46cd18df47086898f23cef9e794ae6eefa89ba85958e46",
+        "excerpt": "As on June 30, 2023                                                                                    27.12",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 354,
+    "company": "RBZ Jewellers Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-12",
+    "decision_date": "2023-12-20",
+    "source_path": "data/prospectus_pdfs/354_rbz_jewellers_ltd_rhp.pdf",
+    "source_sha256": "7692d12f270c5264ce83465a40175b7522ee4329cc5dfe6d73d34a7e7fca5054",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 7.44,
+        "annual_eps": 7.44,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.352897163214561,
+        "nav": 34.86,
+        "period": "2023-09-30",
+        "page": 111,
+        "page_text_sha256": "047468ad09b82033bbc47dac1b2118d6c50256cb49252fb8716e4fda90f02288",
+        "excerpt": "As on September 30, 2023                                         34.86",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 355,
+    "company": "Credo Brands Marketing Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-12",
+    "decision_date": "2023-12-20",
+    "source_path": "data/prospectus_pdfs/355_credo_brands_marketing_ltd_rhp.pdf",
+    "source_sha256": "865e5dc7b4343fba880bb76fedfe6873f8a6f81dfe1f13af682a0335c9bcd661",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 4.307142857142857,
+        "annual_eps": 12.06,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.9756326167134286,
+        "nav": 45.08,
+        "period": "2023-06-30",
+        "page": 114,
+        "page_text_sha256": "7ddaef6b851a4a639201a3b221bea6353eecfc53d448c512bbc91878e631e01c",
+        "excerpt": "June 30, 2023                                                                                                        45.08",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 356,
+    "company": "Happy Forgings Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-09",
+    "decision_date": "2023-12-20",
+    "source_path": "data/prospectus_pdfs/356_happy_forgings_ltd_rhp.pdf",
+    "source_sha256": "a03bcd620de62930f467db024eb0357c7183fed19eb25ecade48fd32e97aa1dc",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 2.743529411764706,
+        "annual_eps": 23.32,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.0662136195605347,
+        "nav": 123.28,
+        "period": "2023-09-30",
+        "page": 131,
+        "page_text_sha256": "9ea83ee345af2df341b2a9578dbbd7a2a58cd1984df087a9f427c5a3c9f189ec",
+        "excerpt": "September 30, 2023                                                                                        123.28",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 353,
+    "company": "Azad Engineering Ltd.",
+    "year": 2023,
+    "document_date": "2023-12-14",
+    "decision_date": "2023-12-21",
+    "source_path": "data/prospectus_pdfs/353_azad_engineering_ltd_rhp.pdf",
+    "source_sha256": "5509123f25a4403576f24c05b35b439b42435b0d4c6530e7e7018462b78aed22",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 0.3416030534351145,
+        "annual_eps": 1.79,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.5222069278194272,
+        "nav": 45.74,
+        "period": "2023-09-30",
+        "page": 106,
+        "page_text_sha256": "dd39a36fd45eb55d6a048bbd66845ff68b356db3d66a2218d2db42b7ac980772",
+        "excerpt": "As on September 30, 2023                                             45.74",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 499,
+    "company": "Medi Assist Healthcare Services Ltd.",
+    "year": 2024,
+    "document_date": "2024-01-09",
+    "decision_date": "2024-01-16",
+    "source_path": "data/prospectus_pdfs/499_medi_assist_healthcare_services_ltd_rhp.pdf",
+    "source_sha256": "a96855569277a52eef2dd641e62f59f858d42c188181475fd95c8e16a8852613",
+    "changes": [
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.1402772809416892,
+        "nav": 55.72,
+        "period": "2023-03-31",
+        "page": 116,
+        "page_text_sha256": "6cde80ddc7c675cdfd41a7ba21dcd2200ee10d4f86e804f98cd47648c3fd44c2",
+        "excerpt": "As on March 31, 2023                                                             55.72",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 489,
+    "company": "Juniper Hotels Ltd.",
+    "year": 2024,
+    "document_date": "2024-02-13",
+    "decision_date": "2024-02-22",
+    "source_path": "data/prospectus_pdfs/489_juniper_hotels_ltd_rhp.pdf",
+    "source_sha256": "2879b0049e02cbc107c5941bfd1d5b12fc2155d27afbd5032087bf480aabbeb0",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": -0.027777777777777776,
+        "annual_eps": -0.1,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.9587333004638687,
+        "nav": 59.11,
+        "period": "2023-09-30",
+        "page": 144,
+        "page_text_sha256": "7cae360c1be626ddcc2b82faa41a763b30978bb34f7c1c82f5ca237ddfcfdcda",
+        "excerpt": "As on September 30, 2023                                                    59.11",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 480,
+    "company": "Krystal Integrated Services Ltd.",
+    "year": 2024,
+    "document_date": "2024-03-04",
+    "decision_date": "2024-03-15",
+    "source_path": "data/prospectus_pdfs/480_krystal_integrated_services_ltd_rhp.pdf",
+    "source_sha256": "9001e3b62750f75eabc8d02b2b72b960bdfb0c2772a8ddcc3b0c6d133340bfb2",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": 4.661538461538462,
+        "annual_eps": 33.33,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      },
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.7021724712524302,
+        "nav": 159.39,
+        "period": "2023-09-30",
+        "page": 123,
+        "page_text_sha256": "752a3c5bfa4c23cca1a0070402eb618a980d212941e8ea6ce0bbe2fa01a09f28",
+        "excerpt": "As on September 30, 2023                                                    159.39",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 471,
+    "company": "Awfis Space Solutions Ltd.",
+    "year": 2024,
+    "document_date": "2024-05-14",
+    "decision_date": "2024-05-24",
+    "source_path": "data/prospectus_pdfs/471_awfis_space_solutions_ltd_rhp.pdf",
+    "source_sha256": "782aeddb2d01f265164250169bf46641ca033b5f34a08ff35a36622ebae0d590",
+    "changes": [
+      {
+        "field": "pub_ipo_earnings_yield_pct",
+        "value": -2.117493472584856,
+        "annual_eps": -8.11,
+        "period": "2023-03-31",
+        "basis": "dated_native_RHP_annual_diluted_EPS_divided_by_offer_price"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 465,
+    "company": "Allied Blenders & Distillers Ltd.",
+    "year": 2024,
+    "document_date": "2024-06-27",
+    "decision_date": "2024-06-26",
+    "source_path": "data/prospectus_pdfs/465_allied_blenders_distillers_ltd_rhp.pdf",
+    "source_sha256": "ddb88101a54a2655cbf039d8ac09b6c84a68bfed99bf987831647f602a7c5a3a",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 460,
+    "company": "Akums Drugs & Pharmaceuticals Ltd.",
+    "year": 2024,
+    "document_date": "2024-07-24",
+    "decision_date": "2024-07-31",
+    "source_path": "data/prospectus_pdfs/460_akums_drugs_pharmaceuticals_ltd_rhp.pdf",
+    "source_sha256": "7a6278a46a611c7e5bd2d915ae84d2cd99baa6d5d0e376f49370ac554c71c7da",
+    "changes": [
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.6873219590272703,
+        "nav": 49.59,
+        "period": "2024-03-31",
+        "page": 144,
+        "page_text_sha256": "8ee94b7dfe99055832c9ab90152365f2bd99d641e90516f86d1cb2cc4989e790",
+        "excerpt": "As on March 31, 2024                                                                                         49.59",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 457,
+    "company": "Brainbees Solutions Ltd.",
+    "year": 2024,
+    "document_date": "2024-07-30",
+    "decision_date": "2024-08-07",
+    "source_path": "data/prospectus_pdfs/457_brainbees_solutions_ltd_rhp.pdf",
+    "source_sha256": "97a8964c834c77eb26f36ce463d72c8147e7b258494de3cf9734eb6cf755bd75",
+    "changes": [],
+    "status": "no_unambiguous_additional_fact"
+  },
+  {
+    "ipo_id": 454,
+    "company": "Interarch Building Products Ltd.",
+    "year": 2024,
+    "document_date": "2024-08-12",
+    "decision_date": "2024-08-20",
+    "source_path": "data/prospectus_pdfs/454_interarch_building_products_ltd_rhp.pdf",
+    "source_sha256": "00615908f9c7fde81c00b0f52fd46e8627d4b16cc07b462930a5d7af949ab265",
+    "changes": [
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 1.4697652517874953,
+        "nav": 268.8,
+        "period": "2024-03-31",
+        "page": 167,
+        "page_text_sha256": "d06d765125840eef83db5b5d20e2eb94d7dec3b0efad67c8975034b68f6a32c5",
+        "excerpt": "As at March 31, 2024                                                                         268.80",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 419,
+    "company": "International Gemmological Institute (India) Ltd.",
+    "year": 2024,
+    "document_date": "2024-12-17",
+    "decision_date": "2024-12-16",
+    "source_path": "data/prospectus_pdfs/419_international_gemmological_institute_india_ltd_rhp.pdf",
+    "source_sha256": "3ecfaaf063d1b70ef19edf4f268f2188606685238fdfa665776dadd3a1d46114",
+    "changes": [],
+    "status": "excluded",
+    "reason": "document_not_demonstrably_before_decision"
+  },
+  {
+    "ipo_id": 411,
+    "company": "Ventive Hospitality Ltd.",
+    "year": 2024,
+    "document_date": "2024-12-14",
+    "decision_date": "2024-12-23",
+    "source_path": "data/prospectus_pdfs/411_ventive_hospitality_ltd_rhp.pdf",
+    "source_sha256": "669404ecea103033704ac4b9a6a48c96859e70ad14fc5638a5fbcfe757b0b41e",
+    "changes": [],
+    "status": "no_unambiguous_additional_fact"
+  },
+  {
+    "ipo_id": 412,
+    "company": "Carraro India Ltd.",
+    "year": 2024,
+    "document_date": "2024-12-16",
+    "decision_date": "2024-12-23",
+    "source_path": "data/prospectus_pdfs/412_carraro_india_ltd_rhp.pdf",
+    "source_sha256": "3251f8e13138316a5b30802950999109a0b2193e31a8402383712c43ff30d1cd",
+    "changes": [
+      {
+        "field": "pub_log_ipo_price_book",
+        "value": 2.469999781939305,
+        "nav": 65.05,
+        "period": "2024-03-31",
+        "page": 114,
+        "page_text_sha256": "abac743c03c8024a301775a5ef3f3e4d1e1ea9bc23759f189749f521b69a510a",
+        "excerpt": "As on March 31, 2024                                                                  65.05",
+        "basis": "dated_issuer_NAV_table_offer_price_divided_by_NAV"
+      }
+    ],
+    "status": "connected"
+  },
+  {
+    "ipo_id": 505,
+    "company": "Nephrocare Health Services Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-12-11",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 507,
+    "company": "Wakefit Innovations Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-12-09",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 518,
+    "company": "Pine Labs Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-11-10",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 525,
+    "company": "Rubicon Research Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-10-10",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 544,
+    "company": "Solarworld Energy Solutions Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-09-24",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 577,
+    "company": "Indiqube Spaces Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-07-24",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 597,
+    "company": "Ather Energy Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-04-29",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 599,
+    "company": "Hexaware Technologies Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-02-13",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 607,
+    "company": "Standard Glass Lining Technology Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-01-07",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 618,
+    "company": "Prasol Chemicals Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-09-09",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 620,
+    "company": "Pranav Constructions Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-09-08",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 622,
+    "company": "Deepa Jewellers Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-09-02",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 623,
+    "company": "Purple Style Labs Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-09-01",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 627,
+    "company": "Annu Projects Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-08-27",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 631,
+    "company": "Augmont Enterprises Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-08-24",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 637,
+    "company": "Horizon Industrial Parks Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-08-18",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 639,
+    "company": "Shiprocket Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-08-13",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 663,
+    "company": "Turtlemint Fintech Solutions Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-06-22",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 675,
+    "company": "GSP Crop Science Ltd.",
+    "year": 2026,
+    "document_date": null,
+    "decision_date": "2026-03-17",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 524,
+    "company": "Canara HSBC Life Insurance Co.Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-10-13",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  },
+  {
+    "ipo_id": 564,
+    "company": "BlueStone Jewellery & Lifestyle Ltd.",
+    "year": 2025,
+    "document_date": null,
+    "decision_date": "2025-08-12",
+    "source_path": null,
+    "source_sha256": null,
+    "changes": [],
+    "status": "excluded",
+    "reason": "identity_or_status"
+  }
+]

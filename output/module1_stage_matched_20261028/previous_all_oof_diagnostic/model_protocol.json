@@ -1,0 +1,13 @@
+{
+  "training": "2021\u20132025 only; causal expanding base OOF for meta",
+  "validation_years": [
+    2024,
+    2025
+  ],
+  "test_year": 2026,
+  "fixed_cutoff": 0.5,
+  "architecture": "same five expert configurations and C=0.5 log-odds meta",
+  "stage_policy": "Separate issuer-disjoint stage models; no invented clock or post-17 closing-day table",
+  "features": "Bids, previous completed-day trajectory, GMP and prior market closes rebuilt at each actual stage timestamp",
+  "promotion": "Research only. Current deployed artifact unchanged. No switch based on inspected 2026 alone."
+}

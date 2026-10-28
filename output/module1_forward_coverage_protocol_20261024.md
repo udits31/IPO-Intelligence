@@ -1,0 +1,9 @@
+# Complete available interim-book training coverage
+
+Preserve the failed forward-update experiment. Add all 16 older IPOs that have eligible early books but missing/conflicting dated GMP, and all 18 recovered 2025 books. Missing GMP remains NaN with training-fitted imputation and missing indicators. Never substitute a final book or observed zero. Period/source evidence remains retrospective.
+
+Strict experiment: fit 186 IPOs from 2021–2024, score the original 155 IPOs from 2025–2026. Updated experiment: fit all 290 eligible interim-book IPOs from 2021–2025, score only the original 69 IPOs from 2026. The other 18 recovered IPOs are additional training/validation data, never additions to the 155-row headline test. Use identical original opening outcomes and original bid/GMP inputs for all original test rows.
+
+Keep the same six feature groups and 156 configurations from the frozen forward-update protocol. Add one transparent GMP-only logistic control (C=.5) with a cutoff selected on the same earlier validation years. Allow that simple control to win selection if earlier validation supports it; do not insist a more complex combination must be better. Selection remains overall accuracy, balanced accuracy, Brier and simplicity on 2023/2024 for strict fit or 2024/2025 for updated fit. The 2026 outcomes never enter fitting or selection.
+
+Recover missing older financial tables from public HTML using the same parser. Derive new bid trajectories from the same provider as their decision inputs when available; otherwise mark missing. A provider disagreement cannot be resolved by picking the value that improves a later outcome. Market history remains strictly before each decision. Freeze selection and memberships before scoring. Report all results, including a 155-row annual replay using the year-appropriate earlier model. Do not deploy, change paper/Module 2, overwrite earlier experiments or push.

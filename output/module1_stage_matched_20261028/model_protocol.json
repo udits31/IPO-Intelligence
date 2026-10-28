@@ -1,0 +1,14 @@
+{
+  "training": "2021\u20132025 only; causal expanding base OOF; last two pre-test OOF years for meta, matching frozen recipe",
+  "validation_years": [
+    2024,
+    2025
+  ],
+  "test_year": 2026,
+  "fixed_cutoff": 0.5,
+  "architecture": "same five expert configurations and C=0.5 log-odds meta",
+  "stage_policy": "Separate issuer-disjoint stage models; no invented clock or post-17 closing-day table",
+  "features": "Bids, previous completed-day trajectory, GMP and prior market closes rebuilt at each actual stage timestamp",
+  "promotion": "Research only. Current deployed artifact unchanged. No switch based on inspected 2026 alone.",
+  "implementation_audit": "Initial all-OOF combiner refit did not match the frozen recent-two-year combiner recipe. Preserved as previous_all_oof_diagnostic; this correction is a retrospective implementation audit, not fresh model selection."
+}

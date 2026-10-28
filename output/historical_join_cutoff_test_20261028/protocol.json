@@ -1,0 +1,43 @@
+{
+  "train_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "threshold_selection_year": 2023,
+  "confirmation_year": 2024,
+  "test_years": [
+    2025,
+    2026
+  ],
+  "selection_objective": "Balanced accuracy, then accuracy, then closest to 0.5",
+  "threshold_grid": [
+    0.35,
+    0.375,
+    0.4,
+    0.425,
+    0.45,
+    0.475,
+    0.5,
+    0.525,
+    0.55,
+    0.575,
+    0.6,
+    0.625,
+    0.65,
+    0.675,
+    0.7,
+    0.725,
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.85
+  ],
+  "no_test_threshold_tuning": true,
+  "feature_join_policy": "Fill missing values only; identity/hash verified native source, document date strictly before decision; no post-offer NAV or peers",
+  "nav_page_budget": "Only up to five native-text pages around an existing cited EPS/valuation page. No OCR or downloads.",
+  "live_promotion": false,
+  "limitations": "Previously inspected retrospective test cohorts; chronological fitting does not turn them into fresh holdouts."
+}

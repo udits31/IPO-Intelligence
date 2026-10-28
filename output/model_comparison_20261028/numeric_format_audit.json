@@ -1,0 +1,28 @@
+{
+  "original_source_sha256": "a43857c907445d7396880825ba89dc8d0af67622a379659aaeb0ad9fcc41ca34",
+  "parsed_pages": 621,
+  "decimal_comma_records": [
+    {
+      "issuer_key": "591",
+      "source_url": "https://www.ipoji.com/ipo/scoda-tubes-ipo",
+      "source_file": "data\\archive\\module1_later_holdout_20261024\\591.json.gz",
+      "source_sha256": "726f1a5373c525e8653a72b3eda3ebd914ebe0d5d2571f2c9ab98e81fbf2d553",
+      "day": 2,
+      "observed_on": "2025-05-29",
+      "category": "retail",
+      "raw_value": "6,46",
+      "old_value": 646.0,
+      "new_value": 6.46,
+      "changed_fields": [
+        "retail_subscription",
+        "day2_retail",
+        "cutoff_retail",
+        "log_retail",
+        "log_retail_growth"
+      ]
+    }
+  ],
+  "changed_records": 1,
+  "raw_history_changed": false,
+  "derived_source": "output\\model_comparison_20261028\\numeric_audited_features.csv"
+}

@@ -1,0 +1,21 @@
+{
+  "training_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "test_year": 2026,
+  "cutoff_selection_year": 2024,
+  "confirmation_year": 2025,
+  "threshold_grid_start": 0.35,
+  "threshold_grid_end": 0.85,
+  "threshold_grid_step": 0.025,
+  "objective": "balanced accuracy, then accuracy, then closest to 0.5",
+  "architecture": "same five experts and C=0.5 standardized log-odds stack",
+  "prior_fixed_cutoff": 0.625,
+  "test_labels_used_for_selection": false,
+  "live_promotion": false,
+  "note": "Previously examined retrospective cohorts; no independent prospective claim."
+}

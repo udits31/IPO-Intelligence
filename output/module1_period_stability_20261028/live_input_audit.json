@@ -1,0 +1,242 @@
+{
+  "audited_at_ist": "2026-10-28T20:56:09.167699+05:30",
+  "input_contract_version": "module1-input-contract-20261028-v2",
+  "training_n": 290,
+  "live_latest_issuer_n": 5,
+  "coverage": {
+    "log_qib": {
+      "training_observed": 290,
+      "training_n": 290,
+      "live_observed": 4,
+      "live_n": 5
+    },
+    "log_hni": {
+      "training_observed": 290,
+      "training_n": 290,
+      "live_observed": 4,
+      "live_n": 5
+    },
+    "log_retail": {
+      "training_observed": 290,
+      "training_n": 290,
+      "live_observed": 4,
+      "live_n": 5
+    },
+    "gmp_pct": {
+      "training_observed": 270,
+      "training_n": 290,
+      "live_observed": 5,
+      "live_n": 5
+    },
+    "log_qib_growth": {
+      "training_observed": 240,
+      "training_n": 290,
+      "live_observed": 3,
+      "live_n": 5
+    },
+    "log_hni_growth": {
+      "training_observed": 240,
+      "training_n": 290,
+      "live_observed": 3,
+      "live_n": 5
+    },
+    "log_retail_growth": {
+      "training_observed": 240,
+      "training_n": 290,
+      "live_observed": 3,
+      "live_n": 5
+    },
+    "pub_ipo_earnings_yield_pct": {
+      "training_observed": 175,
+      "training_n": 290,
+      "live_observed": 3,
+      "live_n": 5
+    },
+    "pub_log_ipo_price_book": {
+      "training_observed": 159,
+      "training_n": 290,
+      "live_observed": 3,
+      "live_n": 5
+    },
+    "macro_vix": {
+      "training_observed": 289,
+      "training_n": 290,
+      "live_observed": 5,
+      "live_n": 5
+    }
+  },
+  "forecasts": [
+    {
+      "ipo_id": "chitto_3100",
+      "company": "M.K.Sons Fine Jewels",
+      "recorded_at_ist": "2026-10-28T20:55:54.089641+05:30",
+      "cutoff_at_ist": "2026-10-30T17:00:00+05:30",
+      "saved_before_cutoff": true,
+      "input_contract": "module1-input-contract-20261028-v2",
+      "stage": {
+        "book_age_days": 0,
+        "comparable": false,
+        "live_stage": "earlier_bidding_session",
+        "reason": "Exact training-stage equivalence is not established by a generic live snapshot; continuous forecasts are logged for prospective scoring.",
+        "training_stage": "penultimate_session"
+      },
+      "available": {
+        "log_qib": true,
+        "log_hni": true,
+        "log_retail": true,
+        "gmp_pct": true,
+        "log_qib_growth": false,
+        "log_hni_growth": false,
+        "log_retail_growth": false,
+        "pub_ipo_earnings_yield_pct": true,
+        "pub_log_ipo_price_book": true,
+        "macro_vix": true
+      }
+    },
+    {
+      "ipo_id": "chitto_2671",
+      "company": "Bombay Coated & Special Steels",
+      "recorded_at_ist": "2026-10-28T20:55:52.097198+05:30",
+      "cutoff_at_ist": "2026-11-02T17:00:00+05:30",
+      "saved_before_cutoff": true,
+      "input_contract": "module1-input-contract-20261028-v2",
+      "stage": {
+        "comparable": false,
+        "live_stage": "no_verified_book",
+        "training_stage": "penultimate_session"
+      },
+      "available": {
+        "log_qib": false,
+        "log_hni": false,
+        "log_retail": false,
+        "gmp_pct": true,
+        "log_qib_growth": false,
+        "log_hni_growth": false,
+        "log_retail_growth": false,
+        "pub_ipo_earnings_yield_pct": false,
+        "pub_log_ipo_price_book": false,
+        "macro_vix": true
+      }
+    },
+    {
+      "ipo_id": "chitto_2070",
+      "company": "SFC Environmental Technologies",
+      "recorded_at_ist": "2026-10-28T20:55:51.415900+05:30",
+      "cutoff_at_ist": "2026-10-29T17:00:00+05:30",
+      "saved_before_cutoff": true,
+      "input_contract": "module1-input-contract-20261028-v2",
+      "stage": {
+        "book_age_days": 0,
+        "comparable": false,
+        "live_stage": "earlier_bidding_session",
+        "reason": "Exact training-stage equivalence is not established by a generic live snapshot; continuous forecasts are logged for prospective scoring.",
+        "training_stage": "penultimate_session"
+      },
+      "available": {
+        "log_qib": true,
+        "log_hni": true,
+        "log_retail": true,
+        "gmp_pct": true,
+        "log_qib_growth": true,
+        "log_hni_growth": true,
+        "log_retail_growth": true,
+        "pub_ipo_earnings_yield_pct": false,
+        "pub_log_ipo_price_book": false,
+        "macro_vix": true
+      }
+    },
+    {
+      "ipo_id": "chitto_2559",
+      "company": "BLS Polymers",
+      "recorded_at_ist": "2026-10-28T20:55:50.742630+05:30",
+      "cutoff_at_ist": "2026-10-29T17:00:00+05:30",
+      "saved_before_cutoff": true,
+      "input_contract": "module1-input-contract-20261028-v2",
+      "stage": {
+        "book_age_days": 0,
+        "comparable": false,
+        "live_stage": "earlier_bidding_session",
+        "reason": "Exact training-stage equivalence is not established by a generic live snapshot; continuous forecasts are logged for prospective scoring.",
+        "training_stage": "penultimate_session"
+      },
+      "available": {
+        "log_qib": true,
+        "log_hni": true,
+        "log_retail": true,
+        "gmp_pct": true,
+        "log_qib_growth": true,
+        "log_hni_growth": true,
+        "log_retail_growth": true,
+        "pub_ipo_earnings_yield_pct": true,
+        "pub_log_ipo_price_book": true,
+        "macro_vix": true
+      }
+    },
+    {
+      "ipo_id": "chitto_2061",
+      "company": "EAAA India Alternatives",
+      "recorded_at_ist": "2026-10-28T16:55:17.287070+05:30",
+      "cutoff_at_ist": "2026-10-28T17:00:00+05:30",
+      "saved_before_cutoff": true,
+      "input_contract": "earlier_contract",
+      "stage": {},
+      "available": {
+        "log_qib": true,
+        "log_hni": true,
+        "log_retail": true,
+        "gmp_pct": true,
+        "log_qib_growth": true,
+        "log_hni_growth": true,
+        "log_retail_growth": true,
+        "pub_ipo_earnings_yield_pct": true,
+        "pub_log_ipo_price_book": true,
+        "macro_vix": true
+      }
+    }
+  ],
+  "runtime": {
+    "status": "healthy",
+    "module1_model": {
+      "model_name": "Frozen five-expert log-odds stack",
+      "configuration": "M1_V1_FROZEN_WITH_RECOVERED_INPUTS",
+      "artifact_sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+      "training_end_year": 2025,
+      "decision_threshold": 0.5,
+      "probability_calibration": "none"
+    },
+    "collectors": {
+      "module1_bid_collector_running": true,
+      "module1_last_poll_slot": null,
+      "frozen_forecast_collector_running": true,
+      "frozen_forecast_last_cycle": {
+        "state": "running",
+        "last_cycle_at": "2026-10-28T20:55:54.173886+05:30",
+        "error": null,
+        "outcome_error": null,
+        "saved_last_cycle": 4
+      },
+      "module2_reaction_collector_running": true,
+      "module2_intraday_collector_running": true,
+      "module2_intraday_last_cycle": null,
+      "module2_intraday_cycle_in_progress": false,
+      "module2_last_news_check_ist": "2026-10-28T20:55:44.565286+05:30",
+      "module2_last_close_check_ist": null
+    },
+    "data_quality_status": "running",
+    "sync": {
+      "status": "ok",
+      "databases": 3,
+      "downloaded_rows": 0,
+      "cloud_updates_applied": 0,
+      "uploaded_rows": 0,
+      "conflicts_preserved_local": 0
+    }
+  },
+  "fixed_bugs": [
+    "Negative/nonfinite subscription categories rejected",
+    "Books ordered by publisher time where available",
+    "Growth compares book publication days; cannot use itself as prior-day reference",
+    "Financial cache requires raw SHA, as-of capture time, and a prior annual period"
+  ],
+  "remaining_limitation": "The historical model was studied at penultimate-session input stage. Generic live intraday/closing-day snapshots are not stage-equivalent; new outputs carry explicit stage evidence and require prospective scoring. No empirical stage conversion is fabricated."
+}

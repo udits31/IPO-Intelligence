@@ -1,0 +1,7 @@
+# Temporal demand extension
+
+Retain all failed experiments and the exact same 155 test IPOs. No later-year fitting or selection. New information is demand change from the first bidding day to the same penultimate-day decision, and GMP change between two dates strictly preceding that decision from the same publisher. Do not use final bids, future quotes, listing prices or news published after the decision as features.
+
+Use earlier-year source-matched bid growth where available; recover additional growth only when the same issuer's public chart penultimate values agree with the frozen decision inputs within 0.02x. Preserve missing growth rather than infer zero. GMP slopes use the same publisher as the selected GMP quote and an earlier unique numeric quote within seven days. Source conflicts remain explicit. Annual financial extension failed; do not add it to this experiment.
+
+Compare the same 24 fixed model configurations with base six inputs plus three demand-growth fields, GMP age and prior slope. Expanding validation 2022/2023/2024 only. Primary selection maximizes early-year validation accuracy subject to at least 50% negative recall; ties prefer balanced accuracy, Brier and complexity. Save selection before scoring later years. Keep original bid inputs primary. Historical source revisions and reused later-year outcomes remain limitations. Do not promote on test performance alone.

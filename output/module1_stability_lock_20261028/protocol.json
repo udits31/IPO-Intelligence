@@ -1,0 +1,17 @@
+{
+  "policies": [
+    "incumbent_C05",
+    "regularized_C005",
+    "equal_expert_probability_mean"
+  ],
+  "fixed_cutoff": 0.5,
+  "selection_year": 2024,
+  "confirmation_year": 2025,
+  "test_year": 2026,
+  "selection": "2024 minimum Brier subject to accuracy and balanced accuracy no worse than incumbent; stable tie order",
+  "confirmation": "2025 accuracy and balanced accuracy no worse, Brier no worse; otherwise retain incumbent",
+  "inputs": "Identical numeric-audited baseline feature joins; no new extraction or calibration",
+  "training": "Expanding causal base-expert OOF and meta learner; final training 2021\u20132025",
+  "promotion": "Do not deploy a new candidate unless pre-2026 confirmation passes and same69 accuracy/false-positive count is no worse than actual frozen artifact; any change needs future prospective confirmation",
+  "inspected_test_warning": "2026 repeatedly inspected during development; not an independent new holdout"
+}

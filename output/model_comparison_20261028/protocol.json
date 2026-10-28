@@ -1,0 +1,29 @@
+{
+  "training_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "test_years": [
+    2025,
+    2026
+  ],
+  "experts": [
+    "base__candidate_02",
+    "base_macro__candidate_07",
+    "financial_macro__candidate_08",
+    "trajectory__candidate_19",
+    "gmp_only_control"
+  ],
+  "meta_C": 0.5,
+  "direction_threshold": 0.5,
+  "return_ridge_alpha": 20,
+  "meta_training": "Expanding-year out-of-fold expert predictions from 2022, 2023 and 2024 only",
+  "no_test_tuning": true,
+  "calibration": "none",
+  "live_promotion": false,
+  "primary_test": "Matched issuers with verified Day-2 evidence; all richer-input rows and prior 155 also reported separately",
+  "warning": "Architecture and these years have already been inspected during development; this is a leakage-checked retrospective comparison, not a fresh independent holdout.",
+  "source_sha256": "7b94521e0d7befd718ad61cfd103d1e57e43d14de49f3328d949874426321524"
+}

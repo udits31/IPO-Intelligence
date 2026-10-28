@@ -1,0 +1,12 @@
+{
+  "model_cutoff": 0.5,
+  "gmp_cutoff": 0.5,
+  "raw_gmp_rule": "positive if dated GMP > 0%",
+  "periods": "2023\u20132025 expanding causal base/meta fits; 2026 same actual frozen release and fitted GMP expert",
+  "primary": "Only identical stage-verified Day-2 issuer rows with observed dated GMP in both arms",
+  "all69": "Separate sensitivity includes five unresolved-stage rows and GMP imputation when applicable",
+  "missing": "Reported explicitly, never zero-filled; exclusions identical across arms",
+  "posthoc_selection": false,
+  "warning": "Previously examined retrospective data; small quarters are descriptive, not independent validation",
+  "architecture_selection_caveat": "The expert architecture was chosen during earlier development. Earlier-year folds refit weights causally but are retrospective diagnostics of that fixed design, not untouched architecture-selection holdouts."
+}
