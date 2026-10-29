@@ -1,0 +1,9 @@
+{
+  "research_only": true,
+  "created_at_utc": "2026-10-29T14:19:03.333715+00:00",
+  "weekly_artifact_sha256": "638a35bd53218208c6fa796e66a7715389cd3c79751e3cf499e55103f29333e0",
+  "daily_artifact_sha256": "32626f1893c61437f9bb524c63a8eb8af9f603073f7564b6fee382d53d362436",
+  "policy_code_sha256": "4733f0707f9a66013d802dd07423c12df91e1c5b5214ed85fef2d90c3f728ca1",
+  "note": "Research logging only. Live monitor is unchanged. A changed artifact or policy blocks logging until an explicit new protocol is created.",
+  "feature_builder_sha256": "2ba08ce33033c0474c4b910e3635248ea0e0ce257e0d91ed82b113778074a6bc"
+}

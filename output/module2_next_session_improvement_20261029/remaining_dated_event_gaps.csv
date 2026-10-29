@@ -1,0 +1,368 @@
+ipo_id,company_name,decisions,missing_headline_decisions,missing_filing_decisions,headline_status,note
+247,CMS Info Systems Ltd.,41,37,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+248,Supriya Lifescience Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+250,Data Patterns (India) Ltd.,41,29,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+251,Medplus Health Services Ltd.,41,37,37,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+252,Metro Brands Ltd.,41,39,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+253,C.E.Info systems Ltd.,41,37,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+254,Shriram Properties Ltd.,41,41,35,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+255,Rategain Travel Technologies Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+257,Tega Industries Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+258,Star Health & Allied Insurance Co.Ltd.,41,37,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+259,Go Fashion (India) Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+260,Tarsons Products Ltd.,41,33,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+261,Latent View Analytics Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+262,One 97 Communications Ltd.,41,41,30,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+264,S.J.S.Enterprises Ltd.,41,31,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+266,PB Fintech Ltd.,41,37,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+267,Fino Payments Bank Ltd.,41,33,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+269,Aditya Birla Sun Life AMC Ltd.,41,34,34,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+270,Paras Defence & Space Technologies Ltd.,41,41,34,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+271,Sansera Engineering Ltd.,41,41,32,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+273,Vijaya Diagnostic Centre Ltd.,41,39,37,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+274,Aptus Value Housing Finance India Ltd.,41,38,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+275,Chemplast Sanmar Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+276,Nuvoco Vistas Corp.Ltd.,41,37,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+277,CarTrade Tech Ltd.,41,40,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+278,Krsnaa Diagnostics Ltd.,41,41,41,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+279,Devyani International Ltd.,41,38,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+281,Windlas Biotech Ltd.,41,41,29,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+284,Tatva Chintan Pharma Chem Ltd.,41,39,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+286,G R Infraprojects Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+287,Clean Science & Technology Ltd.,41,33,29,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+288,India Pesticides Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+289,Dodla Dairy Ltd.,41,37,26,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+291,Shyam Metalics & Energy Ltd.,41,32,38,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+292,Sona BLW Precision Forgings Ltd.,41,41,27,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+297,Kalyan Jewellers India Ltd.,41,33,32,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+298,Suryoday Small Finance Bank Ltd.,41,36,38,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+299,Craftsman Automation Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+300,Laxmi Organic Industries Ltd.,41,37,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+301,Anupam Rasayan India Ltd.,41,31,32,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+303,MTAR Technologies Ltd.,41,33,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+304,Heranba Industries Ltd.,41,34,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+305,RailTel Corp.of India Ltd.,41,41,32,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+306,Nureca Ltd.,41,38,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+308,Stove Kraft Ltd.,41,41,32,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+309,Home First Finance Co.India Ltd.,41,5,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+310,Indigo Paints Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+311,Indian Railway Finance Corp.Ltd.,41,41,27,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+312,Antony Waste Handling Cell Ltd.,41,41,30,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+313,Elin Electronics Ltd.,41,41,26,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+314,KFin Technologies Ltd.,41,29,29,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+316,Landmark Cars Ltd.,41,38,34,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+317,Sula Vineyards Ltd.,41,29,39,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+318,Uniparts India Ltd.,41,41,34,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+319,Dharmaj Crop Guard Ltd.,41,35,30,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+320,Keystone Realtors Ltd.,41,37,39,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+321,Inox Green Energy Services Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+322,Kaynes Technology India Ltd.,41,41,34,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+323,Archean Chemical Industries Ltd.,41,36,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+324,Five-Star Business Finance Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+325,Global Health Ltd.,41,4,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+326,Bikaji Foods International Ltd.,41,36,35,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+327,Fusion Micro Finance Ltd.,41,32,32,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+328,DCX Systems Ltd.,41,41,26,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+329,Tracxn Technologies Ltd.,41,41,33,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+330,Electronics Mart India Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+331,Harsha Engineers International Ltd.,41,41,33,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+332,Tamilnad Mercantile Bank Ltd.,41,26,26,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+333,Dreamfolks Services Ltd.,41,38,40,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+334,Syrma SGS Technology Ltd.,41,41,37,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+335,Aether Industries Ltd.,41,41,30,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+336,eMudhra Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+337,Ethos Ltd.,41,32,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+338,Paradeep Phosphates Ltd.,41,40,29,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+339,Delhivery Ltd.,41,34,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+340,Venus Pipes & Tubes Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+341,Prudent Corporate Advisory Services Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+343,Rainbow Children's Medicare Ltd.,41,41,33,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+344,Campus Activewear Ltd.,41,39,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+345,Hariom Pipe Industries Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+346,Veranda Learning Solutions Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+348,Uma Exports Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+349,Vedant Fashions Ltd.,41,38,26,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+350,Adani Wilmar Ltd.,41,24,35,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+351,AGS Transact Technologies Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+352,Innova Captab Ltd.,41,41,34,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+353,Azad Engineering Ltd.,41,19,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+355,Credo Brands Marketing Ltd.,41,41,35,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+356,Happy Forgings Ltd.,41,29,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+357,Muthoot Microfin Ltd.,41,33,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+359,Suraj Estate Developers Ltd.,41,32,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+360,Inox India Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+361,India Shelter Finance Corp.Ltd.,41,36,34,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+362,DOMS Industries Ltd.,41,37,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+363,Flair Writing Industries Ltd.,41,38,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+364,Tata Technologies Ltd.,41,21,30,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+365,Gandhar Oil Refinery (India) Ltd.,41,41,33,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+366,Fedbank Financial Services Ltd.,41,37,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+367,Indian Renewable Energy Development Agency Ltd.,11,7,8,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+368,ASK Automotive Ltd.,41,35,29,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+370,ESAF Small Finance Bank Ltd.,41,26,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+371,Honasa Consumer Ltd.,41,33,37,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+372,Cello World Ltd.,41,38,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+373,Blue Jet Healthcare Ltd.,29,29,29,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+374,IRM Energy Ltd.,41,38,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+375,Plaza Wires Ltd.,41,41,34,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+376,Valiant Laboratories Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+377,Updater Services Ltd.,41,41,29,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+378,JSW Infrastructure Ltd.,41,23,32,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+379,Manoj Vaibhav Gems 'N' Jewellers Ltd.,41,41,35,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+380,Yatra Online Ltd.,41,34,37,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+381,Sai Silks (Kalamandir) Ltd.,41,36,32,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+382,Signatureglobal (India) Ltd.,41,41,30,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+383,SAMHI Hotels Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+384,Zaggle Prepaid Ocean Services Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+385,EMS Ltd.,41,14,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+386,R R Kabel Ltd.,41,22,32,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+388,Ratnaveer Precision Engineering Ltd.,41,41,35,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+389,Rishabh Instruments Ltd.,41,41,38,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+390,Vishnu Prakash R.Punglia Ltd.,41,41,35,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+391,Aeroflex Industries Ltd.,41,41,34,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+392,Pyramid Technoplast Ltd.,41,39,30,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+393,TVS Supply Chain Solutions Ltd.,41,37,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+394,Concord Biotech Ltd.,41,41,30,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+395,SBFC Finance Ltd.,41,37,32,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+396,Yatharth Hospital & Trauma Care Services Ltd.,41,31,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+397,Netweb Technologies India Ltd.,41,41,40,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+398,Utkarsh Small Finance Bank Ltd.,41,37,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+400,Cyient DLM Ltd.,41,41,33,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+401,ideaForge Technology Ltd.,41,36,26,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+403,IKIO Lighting Ltd.,41,37,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+404,Mankind Pharma Ltd.,41,22,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+405,Avalon Technologies Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+406,Global Surfaces Ltd.,41,41,27,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+407,Divgi TorqTransfer Systems Ltd.,41,41,36,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+409,Radiant Cash Management Services Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+425,Enviro Infra Engineers Ltd.,1,1,1,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+426,NTPC Green Energy Ltd.,3,0,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+427,Zinka Logistics Solutions Ltd.,6,6,6,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+428,Niva Bupa Health Insurance Co.Ltd.,10,6,10,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+429,Swiggy Ltd.,11,5,11,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+430,ACME Solar Holdings Ltd.,11,2,11,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+431,Sagility India Ltd.,12,5,12,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+432,Afcons Infrastructure Ltd.,18,11,18,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+433,Godavari Biorefineries Ltd.,21,9,21,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+434,Waaree Energies Ltd.,23,1,23,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+436,Hyundai Motor India Ltd.,27,1,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+437,Garuda Construction & Engineering Ltd.,32,32,32,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+438,Diffusion Engineers Ltd.,39,39,39,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+439,KRN Heat Exchanger & Refrigeration Ltd.,40,34,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+440,Manba Finance Ltd.,41,41,41,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+441,Western Carriers (India) Ltd.,41,39,39,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+442,Arkade Developers Ltd.,41,41,38,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+443,Northern Arc Capital Ltd.,41,37,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+444,P N Gadgil Jewellers Ltd.,41,33,30,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+445,Bajaj Housing Finance Ltd.,41,25,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+446,Kross Ltd.,41,37,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+447,Tolins Tyres Ltd.,41,41,40,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+448,Shree Tirupati Balajee Agro Trading Co.Ltd.,41,41,38,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+449,Gala Precision Engineering Ltd.,41,40,35,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+450,Baazar Style Retail Ltd.,41,37,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+451,ECOS (India) Mobility & Hospitality Ltd.,41,41,34,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+452,Premier Energies Ltd.,41,27,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+454,Interarch Building Products Ltd.,41,34,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+455,Saraswati Saree Depot Ltd.,41,41,28,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+456,Unicommerce eSolutions Ltd.,41,41,30,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+457,Brainbees Solutions Ltd.,41,33,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+458,Ola Electric Mobility Ltd.,41,41,33,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+459,Ceigall India Ltd.,41,33,26,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+460,Akums Drugs & Pharmaceuticals Ltd.,41,34,30,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+461,Sanstar Ltd.,41,41,41,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+462,Emcure Pharmaceuticals Ltd.,41,27,30,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+463,Bansal Wire Industries Ltd.,41,32,34,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+464,Vraj Iron & Steel Ltd.,41,41,37,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+465,Allied Blenders & Distillers Ltd.,41,25,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+466,Stanley Lifestyles Ltd.,41,37,35,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+467,DEE Development Engineers Ltd.,41,27,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+469,Le Travenues Technology Ltd.,41,35,39,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+470,Kronox Lab Sciences Ltd.,41,41,35,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+471,Awfis Space Solutions Ltd.,41,33,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+472,Go Digit General Insurance Ltd.,41,25,26,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+473,TBO Tek Ltd.,41,33,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+474,Aadhar Housing Finance Ltd.,41,32,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+475,Indegene Ltd.,41,34,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+476,JNK India Ltd.,41,34,34,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+477,Vodafone Idea Ltd.,41,1,29,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+478,Bharti Hexacom Ltd.,41,37,30,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+479,SRM Contractors Ltd.,41,41,41,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+480,Krystal Integrated Services Ltd.,41,41,33,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+481,Popular Vehicles & Services Ltd.,41,37,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+482,Gopal Snacks Ltd.,41,37,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+483,J.G.Chemicals Ltd.,41,12,41,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+484,R K SWAMY Ltd.,41,18,37,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+485,Mukka Proteins Ltd.,41,41,32,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+486,Platinum Industries Ltd.,41,41,37,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+487,Exicom Tele-Systems Ltd.,41,38,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+488,GPT Healthcare Ltd.,41,41,29,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+489,Juniper Hotels Ltd.,41,41,38,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+490,Vibhor Steel Tubes Ltd.,41,34,36,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+491,Entero Healthcare Solutions Ltd.,41,41,33,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+492,Rashi Peripherals Ltd.,41,38,34,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+493,Jana Small Finance Bank Ltd.,41,30,27,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+494,Capital Small Finance Bank Ltd.,41,41,27,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+495,Apeejay Surrendra Park Hotels Ltd.,41,36,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+497,Nova AgriTech Ltd.,41,37,37,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+498,EPACK Durable Ltd.,41,38,31,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+499,Medi Assist Healthcare Services Ltd.,41,37,28,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+500,Jyoti CNC Automation Ltd.,41,36,32,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+506,Corona Remedies Ltd.,1,0,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+507,Wakefit Innovations Ltd.,41,30,21,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+508,Vidya Wires Ltd.,4,4,0,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+509,Aequs Ltd.,4,2,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+510,Meesho Ltd.,4,0,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+511,Sudeep Pharma Ltd.,12,12,4,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+512,Excelsoft Technologies Ltd.,14,14,8,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+513,Capillary Technologies India Ltd.,17,16,13,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+514,Fujiyama Power Systems Ltd.,18,18,4,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+515,Tenneco Clean Air India Ltd.,19,16,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+516,PhysicsWallah Ltd.,20,7,2,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+517,Emmvee Photovoltaic Power Ltd.,20,14,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+518,Pine Labs Ltd.,22,5,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+519,Billionbrains Garage Ventures Ltd.,24,9,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+520,Lenskart Solutions Ltd.,26,12,2,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+521,Studds Accessories Ltd.,27,19,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+522,Orkla India Ltd.,28,28,19,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+523,Midwest Ltd.,36,13,14,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+524,Canara HSBC Life Insurance Co.Ltd.,40,22,21,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+525,Rubicon Research Ltd.,41,41,17,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+526,Canara Robeco Asset Management Co.Ltd.,41,36,19,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+528,LG Electronics India Ltd.,41,12,1,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+529,Tata Capital Ltd.,41,9,16,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+530,WeWork India Management Ltd.,41,23,9,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+531,Advance Agrolife Ltd.,41,41,29,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+532,Om Freight Forwarders Ltd.,41,41,23,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+533,Glottis Ltd.,41,35,17,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+534,Fabtech Technologies Ltd.,41,29,9,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+535,Pace Digitek Ltd.,41,24,8,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+536,Trualt Bioenergy Ltd.,40,30,24,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+537,Jinkushal Industries Ltd.,41,41,7,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+538,Epack Prefab Technologies Ltd.,39,30,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+539,BMW Ventures Ltd.,41,41,9,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+540,Jain Resource Recycling Ltd.,39,38,15,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+541,Anand Rathi Share & Stock Brokers Ltd.,41,32,26,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+542,Seshaasai Technologies Ltd.,41,41,24,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+543,Jaro Institute of Technology Management & Research Ltd.,41,37,21,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+544,Solarworld Energy Solutions Ltd.,41,29,12,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+545,Atlanta Electricals Ltd.,41,30,15,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+546,Ganesh Consumer Products Ltd.,41,41,14,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+547,GK Energy Ltd.,41,25,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+548,Saatvik Green Energy Ltd.,41,13,14,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+549,Ivalue Infosolutions Ltd.,41,41,20,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+550,VMS TMT Ltd.,41,41,35,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+551,Euro Pratik Sales Ltd.,41,37,19,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+552,Shringar House of Mangalsutra Ltd.,41,37,33,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+553,Dev Accelerator Ltd.,41,41,22,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+554,Urban Co.Ltd.,41,37,10,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+555,Amanta Healthcare Ltd.,39,35,24,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+557,Vikran Engineering Ltd.,41,20,10,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+558,Mangal Electrical Industries Ltd.,41,41,24,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+559,Shreeji Shipping Global Ltd.,41,33,25,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+560,Gem Aromatics Ltd.,41,33,12,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+561,Vikram Solar Ltd.,41,21,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+562,Patel Retail Ltd.,41,30,17,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+563,Regaal Resources Ltd.,41,36,14,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+564,BlueStone Jewellery & Lifestyle Ltd.,41,33,11,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+566,All Time Plastics Ltd.,41,2,24,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+567,JSW Cement Ltd.,41,18,11,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+568,Highway Infrastructure Ltd.,41,16,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+569,Sri Lotus Developers & Realty Ltd.,41,26,9,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+570,M&B Engineering Ltd.,41,41,15,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+572,Laxmi India Finance Ltd.,41,41,20,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+573,Aditya Infotech Ltd.,41,27,23,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+575,Shanti Gold International Ltd.,41,41,31,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+576,Brigade Hotel Ventures Ltd.,41,38,12,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+577,Indiqube Spaces Ltd.,41,33,24,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+578,GNG Electronics Ltd.,41,34,17,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+579,Anthem Biosciences Ltd.,41,31,15,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+580,Smartworks Coworking Spaces Ltd.,41,26,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+581,Travel Food Services Ltd.,41,19,7,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+582,Crizac Ltd.,41,41,27,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+583,Indogulf Cropsciences Ltd.,41,41,8,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+584,Sambhv Steel Tubes Ltd.,41,41,9,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+585,HDB Financial Services Ltd.,41,14,9,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+586,Globe Civil Projects Ltd.,41,28,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+587,Ellenbarrie Industrial Gases Ltd.,41,37,14,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+588,Kalpataru Ltd.,41,41,13,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+590,Oswal Pumps Ltd.,41,26,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+591,Scoda Tubes Ltd.,41,37,18,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+592,Prostarm Info Systems Ltd.,41,24,13,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+593,Aegis Vopak Terminals Ltd.,41,31,7,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+594,Schloss Bangalore Ltd.,41,32,18,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+595,Belrise Industries Ltd.,41,25,9,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+596,Borana Weaves Ltd.,41,37,18,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+597,Ather Energy Ltd.,41,8,7,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+599,Hexaware Technologies Ltd.,41,38,1,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+600,Ajax Engineering Ltd.,41,41,15,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+601,Dr.Agarwal's Health Care Ltd.,41,37,13,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+602,Denta Water & Infra Solutions Ltd.,12,12,7,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+603,Stallion India Fluorochemicals Ltd.,16,16,8,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+604,Laxmi Dental Ltd.,41,31,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+606,Quadrant Future Tek Ltd.,23,23,5,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+608,Indo Farm Equipment Ltd.,41,41,20,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+617,Glass Wall Systems (India) Ltd.,1,0,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+618,Prasol Chemicals Ltd.,1,0,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+619,Kanohar Electricals Ltd.,1,0,1,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+620,Pranav Constructions Ltd.,2,2,2,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+621,Rays of Belief Ltd.,5,1,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+622,Deepa Jewellers Ltd.,6,0,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+623,Purple Style Labs Ltd.,7,0,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+624,ESDS Software Solution Ltd.,8,0,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+625,Priority Jewels Ltd.,8,4,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+626,Lumino Industries Ltd.,9,2,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+627,Annu Projects Ltd.,10,6,1,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+628,Symbiotec Pharmalab Ltd.,11,4,4,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+629,Skyways Air Services Ltd.,11,0,2,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+630,Hy-Tech Engineers Ltd.,11,2,1,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+631,Augmont Enterprises Ltd.,12,0,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+632,Tempsens Instruments (India) Ltd.,13,5,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+633,Gaja Alternative Asset Management Ltd.,15,13,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+634,Sunshine Pictures Ltd.,16,14,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+635,Shankesh Jewellers Ltd.,16,16,9,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+636,Lalithaa Jewellery Mart Ltd.,17,2,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+637,Horizon Industrial Parks Ltd.,17,9,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+638,Behari Lal Engineering Ltd.,20,17,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+639,Shiprocket Ltd.,20,11,8,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+640,Milky Mist Dairy Food Ltd.,21,0,2,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+641,Molbio Diagnostics Ltd.,22,5,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+642,Dhoot Transmission Ltd.,22,7,22,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+643,Technocraft Ventures Ltd.,23,23,6,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+644,LEAP India Ltd.,23,10,8,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+645,Ardee Industries Ltd.,25,13,8,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+646,Juniper Green Energy Ltd.,29,8,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+647,MV Electrosystems Ltd.,29,15,11,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+648,Manipal Health Enterprises Ltd.,30,7,4,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+650,Indo-MIM Ltd.,34,10,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+651,Lohia Corp Ltd.,34,26,18,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+652,Xtranet Technologies Ltd.,34,3,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+653,Caliber Mining & Logistics Ltd.,38,36,14,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+654,Alpine Texworld Ltd.,41,33,24,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+655,SBI Funds Management Ltd.,41,1,8,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+656,Laser Power & Infra Ltd.,41,12,20,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+657,Kusumgar Ltd.,41,27,22,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+658,Knack Packaging Ltd.,41,25,26,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+660,CSM Technologies Ltd.,41,25,15,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+662,Advit Jewels Ltd.,41,36,10,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+663,Turtlemint Fintech Solutions Ltd.,41,29,11,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+664,Hexagon Nutrition Ltd.,41,29,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+665,CMR Green Technologies Ltd.,41,26,15,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+667,OnEMI Technology Solutions Ltd.,41,21,6,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+670,Om Power Transmission Ltd.,41,23,14,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+671,Powerica Ltd.,41,22,4,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+672,Sai Parenteral's Ltd.,41,41,23,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+674,Central Mine Planning & Design Institute Ltd.,41,29,17,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+675,GSP Crop Science Ltd.,41,30,16,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+677,Innovision Ltd.,41,33,10,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+678,Rajputana Stainless Ltd.,41,41,22,NO_ELIGIBLE_DATED_HEADLINES_RECOVERED,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+679,SEDEMAC Mechatronics Ltd.,41,31,15,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+680,Omnitech Engineering Ltd.,41,35,15,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+681,PNGS Reva Diamond Jewellery Ltd.,41,29,8,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+682,Shree Ram Twistex Ltd.,41,9,21,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+683,Clean Max Enviro Energy Solutions Ltd.,41,10,0,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+684,Gaudium IVF & Women Health Ltd.,41,26,15,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+685,Aye Finance Ltd.,41,26,5,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+686,Fractal Analytics Ltd.,41,19,11,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+687,Shadowfax Technologies Ltd.,41,30,17,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+688,Amagi Media Labs Ltd.,41,32,3,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.
+689,Bharat Coking Coal Ltd.,41,30,14,PARTIAL_ARCHIVE,Missing evidence remains unknown; no zero sentiment or clean-news assumption.

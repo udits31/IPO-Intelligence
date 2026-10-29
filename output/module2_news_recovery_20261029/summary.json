@@ -1,0 +1,10 @@
+{
+  "planned_issuers": 367,
+  "attempted": 367,
+  "verified": 367,
+  "nonempty": 256,
+  "articles": 1953,
+  "rate_limit_paused": false,
+  "empty_is_not_no_news": true,
+  "database_source_versions": 367
+}

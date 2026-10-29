@@ -1,0 +1,281 @@
+{
+  "selected": {
+    "group": "market",
+    "family": "boosting",
+    "alpha": 20.0,
+    "policy": {
+      "weekly_exit": -0.5,
+      "confirmation": 2,
+      "require_daily": false,
+      "ema_span": 3,
+      "min_hold": 5,
+      "cooldown": 2
+    },
+    "folds": {
+      "2023": {
+        "weekly_train_issuers": 83,
+        "validation_issuers": 38,
+        "last_training_label": "2023-02-01",
+        "first_validation_decision": "2023-02-02",
+        "strategy": {
+          "issuers": 38,
+          "mean_net_return_pct": 10.617423480873317,
+          "median_net_return_pct": 6.116926005483803,
+          "mean_max_drawdown_pct": -10.129442007605872,
+          "worst_decile_mean_return_pct": -16.65246401007637,
+          "buys": 52,
+          "sells": 52,
+          "exposure_sessions": 1173
+        },
+        "rules": {
+          "issuers": 38,
+          "mean_net_return_pct": 10.077961143274823,
+          "median_net_return_pct": 6.116926005483803,
+          "mean_max_drawdown_pct": -11.197818778894465,
+          "worst_decile_mean_return_pct": -16.379919650341733,
+          "buys": 41,
+          "sells": 41,
+          "exposure_sessions": 1294
+        },
+        "mean_gain_vs_rules_pct": 0.5394623375984935,
+        "drawdown_gain_vs_rules_pct": 1.0683767712885928
+      },
+      "2024": {
+        "weekly_train_issuers": 136,
+        "validation_issuers": 72,
+        "last_training_label": "2024-02-14",
+        "first_validation_decision": "2024-02-15",
+        "strategy": {
+          "issuers": 72,
+          "mean_net_return_pct": 1.777579971426714,
+          "median_net_return_pct": 0.0,
+          "mean_max_drawdown_pct": -13.381180173589705,
+          "worst_decile_mean_return_pct": -20.4193239707732,
+          "buys": 84,
+          "sells": 84,
+          "exposure_sessions": 2035
+        },
+        "rules": {
+          "issuers": 72,
+          "mean_net_return_pct": 1.4750151256085742,
+          "median_net_return_pct": -1.24291515971523,
+          "mean_max_drawdown_pct": -13.749353871907333,
+          "worst_decile_mean_return_pct": -23.029457275980192,
+          "buys": 84,
+          "sells": 84,
+          "exposure_sessions": 2108
+        },
+        "mean_gain_vs_rules_pct": 0.3025648458181398,
+        "drawdown_gain_vs_rules_pct": 0.36817369831762825
+      }
+    }
+  },
+  "earlier_selection_qualified": true,
+  "comparison": {
+    "multihorizon": {
+      "issuers": 159,
+      "mean_net_return_pct": 2.688377748038668,
+      "median_net_return_pct": 0.0,
+      "mean_max_drawdown_pct": -10.719348660470361,
+      "worst_decile_mean_return_pct": -15.348913405468217,
+      "buys": 185,
+      "sells": 185,
+      "exposure_sessions": 3743
+    },
+    "current_rules": {
+      "issuers": 159,
+      "mean_net_return_pct": 2.598693313402563,
+      "median_net_return_pct": 0.0,
+      "mean_max_drawdown_pct": -11.144527623385535,
+      "worst_decile_mean_return_pct": -16.828650517677723,
+      "buys": 198,
+      "sells": 198,
+      "exposure_sessions": 3978
+    },
+    "always_hold": {
+      "issuers": 159,
+      "mean_net_return_pct": 1.9416849767954178,
+      "median_net_return_pct": -0.17174448802275144,
+      "mean_max_drawdown_pct": -14.337225941247775,
+      "worst_decile_mean_return_pct": -23.79630807992988,
+      "buys": 159,
+      "sells": 159,
+      "exposure_sessions": 5163
+    }
+  },
+  "paired_comparisons": {
+    "current_rules": {
+      "mean_gain_pct": 0.0896844346361056,
+      "bootstrap95_pct": [
+        -0.4167643366274747,
+        0.5946277927128358
+      ],
+      "improved_issuers": 28,
+      "worsened_issuers": 21,
+      "ties": 110,
+      "limitation": "Issuer-block interval retains each issuer path; shared market-date correlation is not fully modeled."
+    },
+    "always_hold": {
+      "mean_gain_pct": 0.7466927712432513,
+      "bootstrap95_pct": [
+        -0.5685777209099825,
+        2.124379276668819
+      ],
+      "improved_issuers": 41,
+      "worsened_issuers": 38,
+      "ties": 80,
+      "limitation": "Issuer-block interval retains each issuer path; shared market-date correlation is not fully modeled."
+    }
+  },
+  "costs": {
+    "15": {
+      "multihorizon": {
+        "issuers": 159,
+        "mean_net_return_pct": 2.9237281061024145,
+        "median_net_return_pct": 0.0,
+        "mean_max_drawdown_pct": -10.643518466767167,
+        "worst_decile_mean_return_pct": -15.041758234989274,
+        "buys": 185,
+        "sells": 185,
+        "exposure_sessions": 3743
+      },
+      "current_rules": {
+        "issuers": 159,
+        "mean_net_return_pct": 2.848892329659261,
+        "median_net_return_pct": 0.0,
+        "mean_max_drawdown_pct": -11.061845999838944,
+        "worst_decile_mean_return_pct": -16.507680761649937,
+        "buys": 198,
+        "sells": 198,
+        "exposure_sessions": 3978
+      }
+    },
+    "35": {
+      "multihorizon": {
+        "issuers": 159,
+        "mean_net_return_pct": 2.688377748038668,
+        "median_net_return_pct": 0.0,
+        "mean_max_drawdown_pct": -10.719348660470361,
+        "worst_decile_mean_return_pct": -15.348913405468217,
+        "buys": 185,
+        "sells": 185,
+        "exposure_sessions": 3743
+      },
+      "current_rules": {
+        "issuers": 159,
+        "mean_net_return_pct": 2.598693313402563,
+        "median_net_return_pct": 0.0,
+        "mean_max_drawdown_pct": -11.144527623385535,
+        "worst_decile_mean_return_pct": -16.828650517677723,
+        "buys": 198,
+        "sells": 198,
+        "exposure_sessions": 3978
+      }
+    },
+    "60": {
+      "multihorizon": {
+        "issuers": 159,
+        "mean_net_return_pct": 2.3949012185482985,
+        "median_net_return_pct": 0.0,
+        "mean_max_drawdown_pct": -10.818541539240682,
+        "worst_decile_mean_return_pct": -15.731474463605558,
+        "buys": 185,
+        "sells": 185,
+        "exposure_sessions": 3743
+      },
+      "current_rules": {
+        "issuers": 159,
+        "mean_net_return_pct": 2.2869343224532312,
+        "median_net_return_pct": 0.0,
+        "mean_max_drawdown_pct": -11.25608024359963,
+        "worst_decile_mean_return_pct": -17.227968585015226,
+        "buys": 198,
+        "sells": 198,
+        "exposure_sessions": 3978
+      }
+    }
+  },
+  "by_year": {
+    "2025": {
+      "multihorizon": {
+        "issuers": 94,
+        "mean_net_return_pct": -1.6687658861378079,
+        "median_net_return_pct": -3.244332959902102,
+        "mean_max_drawdown_pct": -11.183273049036174,
+        "worst_decile_mean_return_pct": -15.865983312449961,
+        "buys": 115,
+        "sells": 115,
+        "exposure_sessions": 2277
+      },
+      "current_rules": {
+        "issuers": 94,
+        "mean_net_return_pct": -2.027557643614163,
+        "median_net_return_pct": -3.2795853194614977,
+        "mean_max_drawdown_pct": -11.874279958617816,
+        "worst_decile_mean_return_pct": -17.973249876795588,
+        "buys": 122,
+        "sells": 122,
+        "exposure_sessions": 2473
+      },
+      "always_hold": {
+        "issuers": 94,
+        "mean_net_return_pct": -3.7301388468523555,
+        "median_net_return_pct": -4.369996564096357,
+        "mean_max_drawdown_pct": -16.166383431179835,
+        "worst_decile_mean_return_pct": -25.705071331948194,
+        "buys": 94,
+        "sells": 94,
+        "exposure_sessions": 3373
+      }
+    },
+    "2026": {
+      "multihorizon": {
+        "issuers": 65,
+        "mean_net_return_pct": 8.989477772847726,
+        "median_net_return_pct": 2.434654418336435,
+        "mean_max_drawdown_pct": -10.048442621621335,
+        "worst_decile_mean_return_pct": -14.07819095280205,
+        "buys": 70,
+        "sells": 70,
+        "exposure_sessions": 1466
+      },
+      "current_rules": {
+        "issuers": 65,
+        "mean_net_return_pct": 9.288963928165213,
+        "median_net_return_pct": 3.972750341401121,
+        "mean_max_drawdown_pct": -10.089193477049617,
+        "worst_decile_mean_return_pct": -13.868005905506127,
+        "buys": 76,
+        "sells": 76,
+        "exposure_sessions": 1505
+      },
+      "always_hold": {
+        "issuers": 65,
+        "mean_net_return_pct": 10.144014814070658,
+        "median_net_return_pct": 4.294149580940632,
+        "mean_max_drawdown_pct": -11.691982801961407,
+        "worst_decile_mean_return_pct": -15.440477660148787,
+        "buys": 65,
+        "sells": 65,
+        "exposure_sessions": 1790
+      }
+    }
+  },
+  "test_issuers": 159,
+  "test_decisions": 5163,
+  "training_issuers": 206,
+  "training_examples": 7132,
+  "protocol": "Five-session target: open[t+6]/open[t+1]-1; targets must mature before the next cohort. Signals at 18:00 IST execute next open. Same later IPOs and dates; 17.5bps on each buy/sell including terminal liquidation. Daily forecast is unchanged.",
+  "interpretation": "Research after repeated inspection of later outcomes. All model/policy settings selected on 2023-2024, but this is not an independent prospective test. No shorting; terminal windows and circuit/slippage assumptions remain limitations.",
+  "promotion_gate_passed": false,
+  "live_promoted": false,
+  "input_sha256": {
+    "output\\module2_next_session_improvement_20261029\\daily_examples.csv": "0242f76b3b49d9579e1adbc588acf17f2d2e6bd18d7343e2797b0f442d9d3d10",
+    "output\\module2_next_session_improvement_20261029\\module2_retrained_research.joblib": "32626f1893c61437f9bb524c63a8eb8af9f603073f7564b6fee382d53d362436",
+    "ml\\research_module2_multihorizon.py": "4733f0707f9a66013d802dd07423c12df91e1c5b5214ed85fef2d90c3f728ca1",
+    "data\\audit\\module2_development_ohlcv_2021_2024.csv": "b8a30138abe43c07b80eee1b4ca8e015b0025fe87ff6037681a06966e789a2c3",
+    "data\\audit\\module2_holdout_ohlcv_2025_2026.csv": "818471f82d3cdfaa4869233d0cb7fc32ff3319d5213699df44126e199b25b2b5",
+    "data\\audit\\module2_development_prices_2021_2024_nse_extended_ca_reconciled.csv": "522de60642a6a7788cf194551e75631043640973b91c9c1e3ed429820736282c",
+    "data\\audit\\module2_holdout_prices_2025_2026_nse_full_ca_reconciled.csv": "84e6359639f44034ed65358a1919d85d07e62be0ce281edcba8fc1ae2d38f605"
+  }
+}

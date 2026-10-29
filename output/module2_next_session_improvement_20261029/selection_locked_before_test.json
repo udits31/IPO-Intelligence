@@ -1,0 +1,592 @@
+{
+  "selected": {
+    "group": "execution_aligned_price",
+    "family": "boosting",
+    "alpha": 20.0,
+    "policy": [
+      "return_hysteresis",
+      0.35,
+      0.0
+    ],
+    "validation": {
+      "issuers": 72,
+      "mean_net_return_pct": 2.9030011219565526,
+      "median_net_return_pct": -0.3449218155320788,
+      "mean_max_drawdown_pct": -9.138450719606565,
+      "worst_decile_mean_return_pct": -13.109484285986639,
+      "buys": 285,
+      "sells": 285,
+      "exposure_sessions": 994
+    },
+    "validation_gain_vs_rules_pct": 1.4279859963479784
+  },
+  "candidates": [
+    {
+      "group": "execution_aligned_price",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 2.047361794617922,
+        "median_net_return_pct": -0.761993450580839,
+        "mean_max_drawdown_pct": -12.310187507402325,
+        "worst_decile_mean_return_pct": -16.132686927413506,
+        "buys": 297,
+        "sells": 297,
+        "exposure_sessions": 1628
+      },
+      "validation_gain_vs_rules_pct": 0.5723466690093479
+    },
+    {
+      "group": "execution_aligned_price",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 2.703442548213829,
+        "median_net_return_pct": -0.07324419931204473,
+        "mean_max_drawdown_pct": -8.573873595648317,
+        "worst_decile_mean_return_pct": -16.06169197820107,
+        "buys": 276,
+        "sells": 276,
+        "exposure_sessions": 938
+      },
+      "validation_gain_vs_rules_pct": 1.2284274226052547
+    },
+    {
+      "group": "execution_aligned_price",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.8928312771098486,
+        "median_net_return_pct": -1.2577489081991244,
+        "mean_max_drawdown_pct": -14.195461300211498,
+        "worst_decile_mean_return_pct": -23.67321970484796,
+        "buys": 243,
+        "sells": 243,
+        "exposure_sessions": 2031
+      },
+      "validation_gain_vs_rules_pct": -0.5821838484987256
+    },
+    {
+      "group": "execution_aligned_price",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.9985436501503455,
+        "median_net_return_pct": -0.8501744841960202,
+        "mean_max_drawdown_pct": -13.322930131523194,
+        "worst_decile_mean_return_pct": -19.077476312608326,
+        "buys": 245,
+        "sells": 245,
+        "exposure_sessions": 1768
+      },
+      "validation_gain_vs_rules_pct": -0.47647147545822865
+    },
+    {
+      "group": "execution_aligned_price",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 1.3395991402295369,
+        "median_net_return_pct": 0.0,
+        "mean_max_drawdown_pct": -8.20510622534173,
+        "worst_decile_mean_return_pct": -13.481390470865165,
+        "buys": 204,
+        "sells": 204,
+        "exposure_sessions": 867
+      },
+      "validation_gain_vs_rules_pct": -0.13541598537903732
+    },
+    {
+      "group": "execution_aligned_price",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.548542128455596,
+        "median_net_return_pct": -1.2384021521617827,
+        "mean_max_drawdown_pct": -14.523181987199543,
+        "worst_decile_mean_return_pct": -24.816356418680698,
+        "buys": 187,
+        "sells": 187,
+        "exposure_sessions": 2085
+      },
+      "validation_gain_vs_rules_pct": -0.9264729971529782
+    },
+    {
+      "group": "execution_aligned_price",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 2.3195545668951345,
+        "median_net_return_pct": 0.08816232458386253,
+        "mean_max_drawdown_pct": -12.14819295979715,
+        "worst_decile_mean_return_pct": -20.579902385845244,
+        "buys": 322,
+        "sells": 322,
+        "exposure_sessions": 1618
+      },
+      "validation_gain_vs_rules_pct": 0.8445394412865603
+    },
+    {
+      "group": "execution_aligned_price",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 2.9030011219565526,
+        "median_net_return_pct": -0.3449218155320788,
+        "mean_max_drawdown_pct": -9.138450719606565,
+        "worst_decile_mean_return_pct": -13.109484285986639,
+        "buys": 285,
+        "sells": 285,
+        "exposure_sessions": 994
+      },
+      "validation_gain_vs_rules_pct": 1.4279859963479784
+    },
+    {
+      "group": "execution_aligned_price",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.05848018023831022,
+        "median_net_return_pct": -3.154983824759766,
+        "mean_max_drawdown_pct": -14.611387149359988,
+        "worst_decile_mean_return_pct": -25.1456006440123,
+        "buys": 334,
+        "sells": 334,
+        "exposure_sessions": 1877
+      },
+      "validation_gain_vs_rules_pct": -1.416534945370264
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 2.67180990235081,
+        "median_net_return_pct": 0.8738365703804263,
+        "mean_max_drawdown_pct": -12.26540276726373,
+        "worst_decile_mean_return_pct": -17.797337626470835,
+        "buys": 297,
+        "sells": 297,
+        "exposure_sessions": 1635
+      },
+      "validation_gain_vs_rules_pct": 1.196794776742236
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 2.240771301698546,
+        "median_net_return_pct": 0.07844333299740214,
+        "mean_max_drawdown_pct": -8.41054041367303,
+        "worst_decile_mean_return_pct": -15.748928004741673,
+        "buys": 264,
+        "sells": 264,
+        "exposure_sessions": 915
+      },
+      "validation_gain_vs_rules_pct": 0.765756176089972
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 1.229483304671743,
+        "median_net_return_pct": -1.2577489081991244,
+        "mean_max_drawdown_pct": -14.217714735411306,
+        "worst_decile_mean_return_pct": -22.947845277386875,
+        "buys": 249,
+        "sells": 249,
+        "exposure_sessions": 2022
+      },
+      "validation_gain_vs_rules_pct": -0.24553182093683112
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 1.7742060664854342,
+        "median_net_return_pct": -0.5683346305781045,
+        "mean_max_drawdown_pct": -12.785567881180803,
+        "worst_decile_mean_return_pct": -16.94152370556462,
+        "buys": 242,
+        "sells": 242,
+        "exposure_sessions": 1707
+      },
+      "validation_gain_vs_rules_pct": 0.29919094087686005
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 1.1714134110621142,
+        "median_net_return_pct": -0.0997470247974308,
+        "mean_max_drawdown_pct": -8.226642422984197,
+        "worst_decile_mean_return_pct": -13.053659777418687,
+        "buys": 211,
+        "sells": 211,
+        "exposure_sessions": 863
+      },
+      "validation_gain_vs_rules_pct": -0.30360171454646
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.5891395284840572,
+        "median_net_return_pct": -1.1298793652081196,
+        "mean_max_drawdown_pct": -14.465152705794658,
+        "worst_decile_mean_return_pct": -24.753307162895943,
+        "buys": 190,
+        "sells": 190,
+        "exposure_sessions": 2078
+      },
+      "validation_gain_vs_rules_pct": -0.885875597124517
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 1.4110527303275013,
+        "median_net_return_pct": 0.0,
+        "mean_max_drawdown_pct": -12.351560820117449,
+        "worst_decile_mean_return_pct": -20.27992974472566,
+        "buys": 335,
+        "sells": 335,
+        "exposure_sessions": 1573
+      },
+      "validation_gain_vs_rules_pct": -0.06396239528107284
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.8737797409889934,
+        "median_net_return_pct": -0.10215608849726276,
+        "mean_max_drawdown_pct": -9.901316019476397,
+        "worst_decile_mean_return_pct": -17.44651156122325,
+        "buys": 290,
+        "sells": 290,
+        "exposure_sessions": 1027
+      },
+      "validation_gain_vs_rules_pct": -0.6012353846195808
+    },
+    {
+      "group": "execution_aligned_flow",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.4868683168536527,
+        "median_net_return_pct": -2.8762948041943845,
+        "mean_max_drawdown_pct": -14.53215239423922,
+        "worst_decile_mean_return_pct": -25.12335927318573,
+        "buys": 334,
+        "sells": 334,
+        "exposure_sessions": 1901
+      },
+      "validation_gain_vs_rules_pct": -0.9881468087549214
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 2.8861702939848595,
+        "median_net_return_pct": 0.47512846551250876,
+        "mean_max_drawdown_pct": -12.217282185608843,
+        "worst_decile_mean_return_pct": -17.049759755903736,
+        "buys": 295,
+        "sells": 295,
+        "exposure_sessions": 1624
+      },
+      "validation_gain_vs_rules_pct": 1.4111551683762853
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 1.5478352460834273,
+        "median_net_return_pct": -0.8861808921876546,
+        "mean_max_drawdown_pct": -9.080981981345602,
+        "worst_decile_mean_return_pct": -15.148006194274089,
+        "buys": 279,
+        "sells": 279,
+        "exposure_sessions": 975
+      },
+      "validation_gain_vs_rules_pct": 0.07282012047485309
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "ridge",
+      "alpha": 100.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.8002026837351959,
+        "median_net_return_pct": -0.01606451529653774,
+        "mean_max_drawdown_pct": -14.204061954714112,
+        "worst_decile_mean_return_pct": -21.849937613820437,
+        "buys": 263,
+        "sells": 263,
+        "exposure_sessions": 1976
+      },
+      "validation_gain_vs_rules_pct": -0.6748124418733783
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.923605744258441,
+        "median_net_return_pct": -0.5630111858940745,
+        "mean_max_drawdown_pct": -13.434681718778815,
+        "worst_decile_mean_return_pct": -18.545267427095794,
+        "buys": 234,
+        "sells": 234,
+        "exposure_sessions": 1732
+      },
+      "validation_gain_vs_rules_pct": -0.5514093813501332
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.296154620694068,
+        "median_net_return_pct": -0.9515559651265548,
+        "mean_max_drawdown_pct": -9.224168772274872,
+        "worst_decile_mean_return_pct": -13.554961335116559,
+        "buys": 221,
+        "sells": 221,
+        "exposure_sessions": 951
+      },
+      "validation_gain_vs_rules_pct": -1.1788605049145062
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.9441910933336715,
+        "median_net_return_pct": -1.0606016756303405,
+        "mean_max_drawdown_pct": -14.295795633188334,
+        "worst_decile_mean_return_pct": -24.69764743437431,
+        "buys": 212,
+        "sells": 212,
+        "exposure_sessions": 2028
+      },
+      "validation_gain_vs_rules_pct": -0.5308240322749027
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "return_hysteresis",
+        0.15,
+        -0.15
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 2.252720704571695,
+        "median_net_return_pct": -0.3426385404067811,
+        "mean_max_drawdown_pct": -12.44470620688918,
+        "worst_decile_mean_return_pct": -21.020175504307282,
+        "buys": 324,
+        "sells": 324,
+        "exposure_sessions": 1601
+      },
+      "validation_gain_vs_rules_pct": 0.7777055789631206
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "return_hysteresis",
+        0.35,
+        0.0
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 1.453493561720804,
+        "median_net_return_pct": -0.6774121912199782,
+        "mean_max_drawdown_pct": -9.683672640209316,
+        "worst_decile_mean_return_pct": -15.878679590754622,
+        "buys": 273,
+        "sells": 273,
+        "exposure_sessions": 1069
+      },
+      "validation_gain_vs_rules_pct": -0.021521563887770156
+    },
+    {
+      "group": "execution_aligned_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": [
+        "rules_with_ml_guard",
+        0.35,
+        -0.35
+      ],
+      "validation": {
+        "issuers": 72,
+        "mean_net_return_pct": 0.37113150737952494,
+        "median_net_return_pct": -2.9392153077588135,
+        "mean_max_drawdown_pct": -14.32180860012243,
+        "worst_decile_mean_return_pct": -24.159888218241882,
+        "buys": 323,
+        "sells": 323,
+        "exposure_sessions": 1888
+      },
+      "validation_gain_vs_rules_pct": -1.1038836182290492
+    }
+  ]
+}

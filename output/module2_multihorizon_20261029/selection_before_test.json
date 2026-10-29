@@ -1,0 +1,2348 @@
+{
+  "selected": {
+    "group": "market",
+    "family": "boosting",
+    "alpha": 20.0,
+    "policy": {
+      "weekly_exit": -0.5,
+      "confirmation": 2,
+      "require_daily": false,
+      "ema_span": 3,
+      "min_hold": 5,
+      "cooldown": 2
+    },
+    "folds": {
+      "2023": {
+        "weekly_train_issuers": 83,
+        "validation_issuers": 38,
+        "last_training_label": "2023-02-01",
+        "first_validation_decision": "2023-02-02",
+        "strategy": {
+          "issuers": 38,
+          "mean_net_return_pct": 10.617423480873317,
+          "median_net_return_pct": 6.116926005483803,
+          "mean_max_drawdown_pct": -10.129442007605872,
+          "worst_decile_mean_return_pct": -16.65246401007637,
+          "buys": 52,
+          "sells": 52,
+          "exposure_sessions": 1173
+        },
+        "rules": {
+          "issuers": 38,
+          "mean_net_return_pct": 10.077961143274823,
+          "median_net_return_pct": 6.116926005483803,
+          "mean_max_drawdown_pct": -11.197818778894465,
+          "worst_decile_mean_return_pct": -16.379919650341733,
+          "buys": 41,
+          "sells": 41,
+          "exposure_sessions": 1294
+        },
+        "mean_gain_vs_rules_pct": 0.5394623375984935,
+        "drawdown_gain_vs_rules_pct": 1.0683767712885928
+      },
+      "2024": {
+        "weekly_train_issuers": 136,
+        "validation_issuers": 72,
+        "last_training_label": "2024-02-14",
+        "first_validation_decision": "2024-02-15",
+        "strategy": {
+          "issuers": 72,
+          "mean_net_return_pct": 1.777579971426714,
+          "median_net_return_pct": 0.0,
+          "mean_max_drawdown_pct": -13.381180173589705,
+          "worst_decile_mean_return_pct": -20.4193239707732,
+          "buys": 84,
+          "sells": 84,
+          "exposure_sessions": 2035
+        },
+        "rules": {
+          "issuers": 72,
+          "mean_net_return_pct": 1.4750151256085742,
+          "median_net_return_pct": -1.24291515971523,
+          "mean_max_drawdown_pct": -13.749353871907333,
+          "worst_decile_mean_return_pct": -23.029457275980192,
+          "buys": 84,
+          "sells": 84,
+          "exposure_sessions": 2108
+        },
+        "mean_gain_vs_rules_pct": 0.3025648458181398,
+        "drawdown_gain_vs_rules_pct": 0.36817369831762825
+      }
+    }
+  },
+  "candidates": [
+    {
+      "group": "market",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 2,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.25015035080828,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.427584830511437,
+            "worst_decile_mean_return_pct": -20.2141471590987,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2010
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.2248647748002941,
+          "drawdown_gain_vs_rules_pct": 0.32176904139589624
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 2,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.562713523432125,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.56983534761772,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 77,
+            "sells": 77,
+            "exposure_sessions": 2064
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.08769839782355082,
+          "drawdown_gain_vs_rules_pct": 0.17951852428961246
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 3,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.2738605986311926,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.610360780629925,
+            "worst_decile_mean_return_pct": -21.0900045997209,
+            "buys": 82,
+            "sells": 82,
+            "exposure_sessions": 2033
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.20115452697738156,
+          "drawdown_gain_vs_rules_pct": 0.138993091277408
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 3,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.5048826754480644,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.604950786161547,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 77,
+            "sells": 77,
+            "exposure_sessions": 2069
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.02986754983949025,
+          "drawdown_gain_vs_rules_pct": 0.1444030857457861
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 2,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.5207500910918326,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.620195118012507,
+            "worst_decile_mean_return_pct": -21.025101938105294,
+            "buys": 79,
+            "sells": 79,
+            "exposure_sessions": 2060
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.045734965483258394,
+          "drawdown_gain_vs_rules_pct": 0.129158753894826
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 2,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4782776162177085,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.655282907093778,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 77,
+            "sells": 77,
+            "exposure_sessions": 2081
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.0032624906091343053,
+          "drawdown_gain_vs_rules_pct": 0.09407096481355559
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 3,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4921565239001247,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.628627228980083,
+            "worst_decile_mean_return_pct": -21.099262770875384,
+            "buys": 79,
+            "sells": 79,
+            "exposure_sessions": 2063
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.01714139829155048,
+          "drawdown_gain_vs_rules_pct": 0.12072664292725044
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 3,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4782776162177085,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.655282907093778,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 77,
+            "sells": 77,
+            "exposure_sessions": 2081
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.0032624906091343053,
+          "drawdown_gain_vs_rules_pct": 0.09407096481355559
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 2,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.617423480873317,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.129442007605872,
+            "worst_decile_mean_return_pct": -16.65246401007637,
+            "buys": 52,
+            "sells": 52,
+            "exposure_sessions": 1173
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": 0.5394623375984935,
+          "drawdown_gain_vs_rules_pct": 1.0683767712885928
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.777579971426714,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.381180173589705,
+            "worst_decile_mean_return_pct": -20.4193239707732,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2035
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.3025648458181398,
+          "drawdown_gain_vs_rules_pct": 0.36817369831762825
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 2,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.271270980796473,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.840537144776274,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 42,
+            "sells": 42,
+            "exposure_sessions": 1271
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": 0.19330983752164954,
+          "drawdown_gain_vs_rules_pct": 0.35728163411819125
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4633387602162908,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.608593140039618,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 80,
+            "sells": 80,
+            "exposure_sessions": 2059
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.011676365392283339,
+          "drawdown_gain_vs_rules_pct": 0.1407607318677151
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 3,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.408811139768353,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.27169754414916,
+            "worst_decile_mean_return_pct": -16.53800596771471,
+            "buys": 47,
+            "sells": 47,
+            "exposure_sessions": 1209
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": 0.3308499964935301,
+          "drawdown_gain_vs_rules_pct": 0.926121234745306
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.5036466473186483,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.600938918183834,
+            "worst_decile_mean_return_pct": -21.696697161804746,
+            "buys": 81,
+            "sells": 81,
+            "exposure_sessions": 2055
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.028631521710074104,
+          "drawdown_gain_vs_rules_pct": 0.1484149537234991
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 3,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.234099947818489,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.845251801777824,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1275
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": 0.1561388045436658,
+          "drawdown_gain_vs_rules_pct": 0.3525669771166413
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.5403115589179996,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.578556805316527,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 80,
+            "sells": 80,
+            "exposure_sessions": 2063
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.06529643330942547,
+          "drawdown_gain_vs_rules_pct": 0.17079706659080607
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 2,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.320085277242114,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.399502275547276,
+            "worst_decile_mean_return_pct": -16.53800596771471,
+            "buys": 46,
+            "sells": 46,
+            "exposure_sessions": 1218
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": 0.24212413396729104,
+          "drawdown_gain_vs_rules_pct": 0.7983165033471895
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.6758440660462794,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.514853542774482,
+            "worst_decile_mean_return_pct": -21.71413807138746,
+            "buys": 81,
+            "sells": 81,
+            "exposure_sessions": 2060
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.20082894043770527,
+          "drawdown_gain_vs_rules_pct": 0.23450032913285135
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 2,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.5169475696570656,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.603289611955297,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 79,
+            "sells": 79,
+            "exposure_sessions": 2068
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.04193244404849139,
+          "drawdown_gain_vs_rules_pct": 0.14606425995203587
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 3,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.81463620658936,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.709918883830094,
+            "worst_decile_mean_return_pct": -16.642099900618696,
+            "buys": 45,
+            "sells": 45,
+            "exposure_sessions": 1235
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.2633249366854624,
+          "drawdown_gain_vs_rules_pct": 0.4878998950643716
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4822547306325002,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.6282408664921,
+            "worst_decile_mean_return_pct": -21.938553258245918,
+            "buys": 80,
+            "sells": 80,
+            "exposure_sessions": 2065
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.007239605023926066,
+          "drawdown_gain_vs_rules_pct": 0.12111300541523384
+        }
+      }
+    },
+    {
+      "group": "market",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 3,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4287547426163967,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.675359437898484,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 78,
+            "sells": 78,
+            "exposure_sessions": 2078
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.046260382992177496,
+          "drawdown_gain_vs_rules_pct": 0.0739944340088492
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 2,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.999128113586794,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.060052389771569,
+            "worst_decile_mean_return_pct": -16.624361135185346,
+            "buys": 42,
+            "sells": 42,
+            "exposure_sessions": 1272
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.0788330296880293,
+          "drawdown_gain_vs_rules_pct": 0.13776638912289663
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.282167551305478,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.495627818538289,
+            "worst_decile_mean_return_pct": -21.13416156051663,
+            "buys": 89,
+            "sells": 89,
+            "exposure_sessions": 1971
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.19284757430309618,
+          "drawdown_gain_vs_rules_pct": 0.25372605336904464
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 2,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4830801491951295,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.641851748012957,
+            "worst_decile_mean_return_pct": -21.70214358453044,
+            "buys": 79,
+            "sells": 79,
+            "exposure_sessions": 2052
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.008065023586555364,
+          "drawdown_gain_vs_rules_pct": 0.10750212389437586
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 3,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.5602860279499562,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.518037299039873,
+            "worst_decile_mean_return_pct": -21.652417682334445,
+            "buys": 85,
+            "sells": 85,
+            "exposure_sessions": 1997
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.08527090234138202,
+          "drawdown_gain_vs_rules_pct": 0.23131657286745977
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 3,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4669442042787741,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.641572190965327,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 78,
+            "sells": 78,
+            "exposure_sessions": 2061
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.00807092132980003,
+          "drawdown_gain_vs_rules_pct": 0.10778168094200602
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 2,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.923995212648883,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.130047854465401,
+            "worst_decile_mean_return_pct": -16.70256555851135,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1281
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.15396593062594022,
+          "drawdown_gain_vs_rules_pct": 0.0677709244290643
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4477293660188508,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.633710889793772,
+            "worst_decile_mean_return_pct": -21.542490083325514,
+            "buys": 82,
+            "sells": 82,
+            "exposure_sessions": 2043
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.027285759589723346,
+          "drawdown_gain_vs_rules_pct": 0.11564298211356139
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 2,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4161846198425876,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.710367858796083,
+            "worst_decile_mean_return_pct": -21.70214358453044,
+            "buys": 78,
+            "sells": 78,
+            "exposure_sessions": 2078
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.058830505765986585,
+          "drawdown_gain_vs_rules_pct": 0.03898601311125027
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 3,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.574916188038438,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.476067976755166,
+            "worst_decile_mean_return_pct": -21.099262770875384,
+            "buys": 81,
+            "sells": 81,
+            "exposure_sessions": 2047
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.09990106242986374,
+          "drawdown_gain_vs_rules_pct": 0.27328589515216706
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "ridge",
+      "alpha": 1000.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 3,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4782776162177085,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.655282907093778,
+            "worst_decile_mean_return_pct": -21.18475543931022,
+            "buys": 77,
+            "sells": 77,
+            "exposure_sessions": 2081
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.0032624906091343053,
+          "drawdown_gain_vs_rules_pct": 0.09407096481355559
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 2,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.9894141321336,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.655875349422343,
+            "worst_decile_mean_return_pct": -17.578945296754515,
+            "buys": 47,
+            "sells": 47,
+            "exposure_sessions": 1220
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.08854701114122321,
+          "drawdown_gain_vs_rules_pct": 0.5419434294721217
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.6950921901348688,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.563836178507207,
+            "worst_decile_mean_return_pct": -21.77341367893429,
+            "buys": 81,
+            "sells": 81,
+            "exposure_sessions": 2043
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.2200770645262946,
+          "drawdown_gain_vs_rules_pct": 0.1855176934001257
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 2,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.894036630986113,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1281
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.18392451228871032,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.426617994222993,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.714811479282206,
+            "worst_decile_mean_return_pct": -21.43587706045085,
+            "buys": 80,
+            "sells": 80,
+            "exposure_sessions": 2062
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.048397131385581105,
+          "drawdown_gain_vs_rules_pct": 0.03454239262512715
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 3,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.157946942820834,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.540859682002468,
+            "worst_decile_mean_return_pct": -16.121630236098788,
+            "buys": 44,
+            "sells": 44,
+            "exposure_sessions": 1228
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": 0.07998579954601048,
+          "drawdown_gain_vs_rules_pct": 0.6569590968919972
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.6562409473388386,
+            "median_net_return_pct": 0.0,
+            "mean_max_drawdown_pct": -13.577781661145833,
+            "worst_decile_mean_return_pct": -21.930378538665337,
+            "buys": 80,
+            "sells": 80,
+            "exposure_sessions": 2053
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.18122582173026447,
+          "drawdown_gain_vs_rules_pct": 0.1715722107615001
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -0.5,
+        "confirmation": 3,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.3970656387825129,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.735096045492648,
+            "worst_decile_mean_return_pct": -21.43587706045085,
+            "buys": 78,
+            "sells": 78,
+            "exposure_sessions": 2072
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.07794948682606129,
+          "drawdown_gain_vs_rules_pct": 0.014257826414684871
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 2,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.12090120527547,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.53977793841311,
+            "worst_decile_mean_return_pct": -16.32981810190675,
+            "buys": 47,
+            "sells": 47,
+            "exposure_sessions": 1222
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": 0.04294006200064615,
+          "drawdown_gain_vs_rules_pct": 0.6580408404813554
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.5888780923341226,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.624831725734659,
+            "worst_decile_mean_return_pct": -21.965259692528093,
+            "buys": 78,
+            "sells": 78,
+            "exposure_sessions": 2068
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": 0.11386296672554841,
+          "drawdown_gain_vs_rules_pct": 0.12452214617267465
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 2,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.894036630986113,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1281
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.18392451228871032,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4350041099518032,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.69847464068887,
+            "worst_decile_mean_return_pct": -21.43587706045085,
+            "buys": 77,
+            "sells": 77,
+            "exposure_sessions": 2080
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.04001101565677101,
+          "drawdown_gain_vs_rules_pct": 0.05087923121846316
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 3,
+        "require_daily": false,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.258386902146459,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -10.62133099739516,
+            "worst_decile_mean_return_pct": -16.53800596771471,
+            "buys": 44,
+            "sells": 44,
+            "exposure_sessions": 1240
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": 0.18042575887163537,
+          "drawdown_gain_vs_rules_pct": 0.5764877814993046
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.3512487967367257,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.763528952868224,
+            "worst_decile_mean_return_pct": -22.18967487938655,
+            "buys": 78,
+            "sells": 78,
+            "exposure_sessions": 2077
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.12376632887184846,
+          "drawdown_gain_vs_rules_pct": -0.014175080960891151
+        }
+      }
+    },
+    {
+      "group": "market_flow_events",
+      "family": "boosting",
+      "alpha": 20.0,
+      "policy": {
+        "weekly_exit": -1.0,
+        "confirmation": 3,
+        "require_daily": true,
+        "ema_span": 3,
+        "min_hold": 5,
+        "cooldown": 2
+      },
+      "folds": {
+        "2023": {
+          "weekly_train_issuers": 83,
+          "validation_issuers": 38,
+          "last_training_label": "2023-02-01",
+          "first_validation_decision": "2023-02-02",
+          "strategy": {
+            "issuers": 38,
+            "mean_net_return_pct": 9.957957939824633,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.097645507213755,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 40,
+            "sells": 40,
+            "exposure_sessions": 1284
+          },
+          "rules": {
+            "issuers": 38,
+            "mean_net_return_pct": 10.077961143274823,
+            "median_net_return_pct": 6.116926005483803,
+            "mean_max_drawdown_pct": -11.197818778894465,
+            "worst_decile_mean_return_pct": -16.379919650341733,
+            "buys": 41,
+            "sells": 41,
+            "exposure_sessions": 1294
+          },
+          "mean_gain_vs_rules_pct": -0.12000320345019055,
+          "drawdown_gain_vs_rules_pct": 0.10017327168070977
+        },
+        "2024": {
+          "weekly_train_issuers": 136,
+          "validation_issuers": 72,
+          "last_training_label": "2024-02-14",
+          "first_validation_decision": "2024-02-15",
+          "strategy": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4350041099518032,
+            "median_net_return_pct": -0.5372130073118153,
+            "mean_max_drawdown_pct": -13.69847464068887,
+            "worst_decile_mean_return_pct": -21.43587706045085,
+            "buys": 77,
+            "sells": 77,
+            "exposure_sessions": 2080
+          },
+          "rules": {
+            "issuers": 72,
+            "mean_net_return_pct": 1.4750151256085742,
+            "median_net_return_pct": -1.24291515971523,
+            "mean_max_drawdown_pct": -13.749353871907333,
+            "worst_decile_mean_return_pct": -23.029457275980192,
+            "buys": 84,
+            "sells": 84,
+            "exposure_sessions": 2108
+          },
+          "mean_gain_vs_rules_pct": -0.04001101565677101,
+          "drawdown_gain_vs_rules_pct": 0.05087923121846316
+        }
+      }
+    }
+  ],
+  "qualified_on_both_earlier_folds": true
+}
