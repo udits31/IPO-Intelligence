@@ -1,0 +1,100 @@
+subset,variant,decision_date,n,eligible_ids,model_choice,gmp_choice,model_opening_return_pct,gmp_opening_return_pct,difference_pp
+original_primary,gmp_pct,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+original_primary,gmp_pct,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,gmp_pct,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,gmp_pct,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+original_primary,r_gmp_fitted_ridge,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+original_primary,r_gmp_fitted_ridge,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,r_gmp_fitted_ridge,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,r_gmp_fitted_ridge,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+original_primary,r_gmp_fitted_huber,2024-02-08,3,"[492, 493, 494]",Capital Small Finance Bank Ltd.,Rashi Peripherals Ltd.,-8.06623931623932,9.163987138263677,-17.230226454502997
+original_primary,r_gmp_fitted_huber,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,r_gmp_fitted_huber,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,r_gmp_fitted_huber,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+original_primary,r_bids_offer_gmp_ridge,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+original_primary,r_bids_offer_gmp_ridge,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,r_bids_offer_gmp_ridge,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,r_bids_offer_gmp_ridge,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+original_primary,r_bids_offer_gmp_huber,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+original_primary,r_bids_offer_gmp_huber,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,r_bids_offer_gmp_huber,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,r_bids_offer_gmp_huber,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+original_primary,r_full_facts_gmp_ridge,2024-02-08,3,"[492, 493, 494]",SKIP ALL,Rashi Peripherals Ltd.,0.0,9.163987138263677,-9.163987138263677
+original_primary,r_full_facts_gmp_ridge,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,r_full_facts_gmp_ridge,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,r_full_facts_gmp_ridge,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+original_primary,r_full_facts_gmp_huber,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+original_primary,r_full_facts_gmp_huber,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,r_full_facts_gmp_huber,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,r_full_facts_gmp_huber,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+original_primary,r_sector_relative_gmp_ridge,2024-02-08,3,"[492, 493, 494]",SKIP ALL,Rashi Peripherals Ltd.,0.0,9.163987138263677,-9.163987138263677
+original_primary,r_sector_relative_gmp_ridge,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,r_sector_relative_gmp_ridge,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,r_sector_relative_gmp_ridge,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+original_primary,r_sector_relative_gmp_huber,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+original_primary,r_sector_relative_gmp_huber,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+original_primary,r_sector_relative_gmp_huber,2024-12-20,3,"[414, 416, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+original_primary,r_sector_relative_gmp_huber,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,gmp_pct,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+expanded_secondary,gmp_pct,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,gmp_pct,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,gmp_pct,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,gmp_pct,2024-12-12,2,"[421, 422]",Vishal Mega Mart Ltd.,Vishal Mega Mart Ltd.,33.33333333333333,33.33333333333333,0.0
+expanded_secondary,gmp_pct,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,gmp_pct,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,r_gmp_fitted_ridge,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+expanded_secondary,r_gmp_fitted_ridge,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,r_gmp_fitted_ridge,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,r_gmp_fitted_ridge,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,r_gmp_fitted_ridge,2024-12-12,2,"[421, 422]",Vishal Mega Mart Ltd.,Vishal Mega Mart Ltd.,33.33333333333333,33.33333333333333,0.0
+expanded_secondary,r_gmp_fitted_ridge,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,r_gmp_fitted_ridge,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,r_gmp_fitted_huber,2024-02-08,3,"[492, 493, 494]",Capital Small Finance Bank Ltd.,Rashi Peripherals Ltd.,-8.06623931623932,9.163987138263677,-17.230226454502997
+expanded_secondary,r_gmp_fitted_huber,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,r_gmp_fitted_huber,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,r_gmp_fitted_huber,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,r_gmp_fitted_huber,2024-12-12,2,"[421, 422]",Vishal Mega Mart Ltd.,Vishal Mega Mart Ltd.,33.33333333333333,33.33333333333333,0.0
+expanded_secondary,r_gmp_fitted_huber,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,r_gmp_fitted_huber,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,r_bids_offer_gmp_ridge,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+expanded_secondary,r_bids_offer_gmp_ridge,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,r_bids_offer_gmp_ridge,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,r_bids_offer_gmp_ridge,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,r_bids_offer_gmp_ridge,2024-12-12,2,"[421, 422]",Sai Life Sciences Ltd.,Vishal Mega Mart Ltd.,18.39708561020037,33.33333333333333,-14.936247723132958
+expanded_secondary,r_bids_offer_gmp_ridge,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,r_bids_offer_gmp_ridge,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,r_bids_offer_gmp_huber,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+expanded_secondary,r_bids_offer_gmp_huber,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,r_bids_offer_gmp_huber,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,r_bids_offer_gmp_huber,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,r_bids_offer_gmp_huber,2024-12-12,2,"[421, 422]",Sai Life Sciences Ltd.,Vishal Mega Mart Ltd.,18.39708561020037,33.33333333333333,-14.936247723132958
+expanded_secondary,r_bids_offer_gmp_huber,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,r_bids_offer_gmp_huber,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,r_full_facts_gmp_ridge,2024-02-08,3,"[492, 493, 494]",SKIP ALL,Rashi Peripherals Ltd.,0.0,9.163987138263677,-9.163987138263677
+expanded_secondary,r_full_facts_gmp_ridge,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,r_full_facts_gmp_ridge,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,r_full_facts_gmp_ridge,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,r_full_facts_gmp_ridge,2024-12-12,2,"[421, 422]",Sai Life Sciences Ltd.,Vishal Mega Mart Ltd.,18.39708561020037,33.33333333333333,-14.936247723132958
+expanded_secondary,r_full_facts_gmp_ridge,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,r_full_facts_gmp_ridge,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,r_full_facts_gmp_huber,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+expanded_secondary,r_full_facts_gmp_huber,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,r_full_facts_gmp_huber,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,r_full_facts_gmp_huber,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,r_full_facts_gmp_huber,2024-12-12,2,"[421, 422]",Sai Life Sciences Ltd.,Vishal Mega Mart Ltd.,18.39708561020037,33.33333333333333,-14.936247723132958
+expanded_secondary,r_full_facts_gmp_huber,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,r_full_facts_gmp_huber,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,r_sector_relative_gmp_ridge,2024-02-08,3,"[492, 493, 494]",SKIP ALL,Rashi Peripherals Ltd.,0.0,9.163987138263677,-9.163987138263677
+expanded_secondary,r_sector_relative_gmp_ridge,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,r_sector_relative_gmp_ridge,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,r_sector_relative_gmp_ridge,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,r_sector_relative_gmp_ridge,2024-12-12,2,"[421, 422]",Sai Life Sciences Ltd.,Vishal Mega Mart Ltd.,18.39708561020037,33.33333333333333,-14.936247723132958
+expanded_secondary,r_sector_relative_gmp_ridge,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,r_sector_relative_gmp_ridge,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0
+expanded_secondary,r_sector_relative_gmp_huber,2024-02-08,3,"[492, 493, 494]",Rashi Peripherals Ltd.,Rashi Peripherals Ltd.,9.163987138263677,9.163987138263677,0.0
+expanded_secondary,r_sector_relative_gmp_huber,2024-09-10,2,"[445, 447]",Bajaj Housing Finance Ltd.,Bajaj Housing Finance Ltd.,114.28571428571428,114.28571428571428,0.0
+expanded_secondary,r_sector_relative_gmp_huber,2024-09-18,2,"[441, 442]",Arkade Developers Ltd.,Arkade Developers Ltd.,36.71875,36.71875,0.0
+expanded_secondary,r_sector_relative_gmp_huber,2024-10-22,2,"[434, 435]",Waaree Energies Ltd.,Waaree Energies Ltd.,66.33399866932801,66.33399866932801,0.0
+expanded_secondary,r_sector_relative_gmp_huber,2024-12-12,2,"[421, 422]",Sai Life Sciences Ltd.,Vishal Mega Mart Ltd.,18.39708561020037,33.33333333333333,-14.936247723132958
+expanded_secondary,r_sector_relative_gmp_huber,2024-12-20,4,"[414, 416, 417, 418]",Mamata Machinery Ltd.,Mamata Machinery Ltd.,146.91358024691357,146.91358024691357,0.0
+expanded_secondary,r_sector_relative_gmp_huber,2024-12-23,2,"[411, 413]",Senores Pharmaceuticals Ltd.,Senores Pharmaceuticals Ltd.,53.452685421994886,53.452685421994886,0.0

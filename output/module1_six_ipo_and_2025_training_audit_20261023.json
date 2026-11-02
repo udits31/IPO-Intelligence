@@ -1,0 +1,482 @@
+{
+  "six_ipos": [
+    {
+      "ipo_id": "chitto_3091",
+      "company_name": "Zetwerk Manufacturing Business",
+      "probability_pct": 45.16100084181504,
+      "qib_x": 4.71,
+      "retail_x": 0.68,
+      "hni_x": 1.43,
+      "issue_price": 151.0,
+      "listing_open": 159.25,
+      "actual_return_pct": 5.464,
+      "correct": false,
+      "predicted_at": "2026-10-20T18:30:46+05:30",
+      "bid_capture_at": "2026-10-19T19:15:06+05:30",
+      "source_family": "chittorgarh_investorgain",
+      "source_phase": "post_close_reconciliation",
+      "closing_date": "2026-10-19",
+      "snapshot_stage": "POST_CLOSE_RECONCILIATION",
+      "source_hash_verified": true,
+      "explanation": {
+        "probability": 0.4516100084181504,
+        "linear_score": -0.19416770314570897,
+        "base_log_odds": 1.491374341036397,
+        "contributions_log_odds": {
+          "QIB": -0.7278730727769634,
+          "Retail": -0.7040404798818437,
+          "HNI": -0.25362849152329886
+        }
+      }
+    },
+    {
+      "ipo_id": "chitto_2455",
+      "company_name": "Fusion CX",
+      "probability_pct": 26.071216465482554,
+      "qib_x": 0.0019046293357053495,
+      "retail_x": 1.5460666181695104,
+      "hni_x": 0.4567782423500101,
+      "issue_price": 289.0,
+      "listing_open": 305.0,
+      "actual_return_pct": 5.536,
+      "correct": false,
+      "predicted_at": "2026-10-20T18:29:30+05:30",
+      "bid_capture_at": "2026-10-14T17:00:08+05:30",
+      "source_family": "nse_exchange",
+      "source_phase": "pre_deadline",
+      "closing_date": "2026-10-16",
+      "snapshot_stage": "HOURLY",
+      "source_hash_verified": true,
+      "explanation": {
+        "probability": 0.26071216465482555,
+        "linear_score": -1.0422703567824245,
+        "base_log_odds": 1.491374341036397,
+        "contributions_log_odds": {
+          "QIB": -1.6796598014176713,
+          "Retail": -0.5444920190675674,
+          "HNI": -0.30949287733358294
+        }
+      }
+    },
+    {
+      "ipo_id": "chitto_2550",
+      "company_name": "Sahajanand Medical Technologies",
+      "probability_pct": 79.44427131859763,
+      "qib_x": 34.69606763573695,
+      "retail_x": 3.0296805993632745,
+      "hni_x": 14.642006309011906,
+      "issue_price": 344.0,
+      "listing_open": 371.15,
+      "actual_return_pct": 7.892,
+      "correct": true,
+      "predicted_at": "2026-10-20T18:29:30+05:30",
+      "bid_capture_at": "2026-10-19T19:15:08+05:30",
+      "source_family": "nse_exchange",
+      "source_phase": "post_close_reconciliation",
+      "closing_date": "2026-10-19",
+      "snapshot_stage": "POST_CLOSE_RECONCILIATION",
+      "source_hash_verified": true,
+      "explanation": {
+        "probability": 0.7944427131859763,
+        "linear_score": 1.3519161161038191,
+        "base_log_odds": 1.491374341036397,
+        "contributions_log_odds": {
+          "QIB": 0.2791619185442553,
+          "Retail": -0.3682956534045424,
+          "HNI": -0.050324490072291
+        }
+      }
+    },
+    {
+      "ipo_id": "chitto_2628",
+      "company_name": "HD Fire Protect",
+      "probability_pct": 60.923177448574585,
+      "qib_x": 1.491796549545728,
+      "retail_x": 11.314225013044055,
+      "hni_x": 48.65978934411324,
+      "issue_price": 271.0,
+      "listing_open": 335.0,
+      "actual_return_pct": 23.616,
+      "correct": true,
+      "predicted_at": "2026-10-20T18:29:30+05:30",
+      "bid_capture_at": "2026-10-14T17:00:07+05:30",
+      "source_family": "nse_exchange",
+      "source_phase": "pre_deadline",
+      "closing_date": "2026-10-15",
+      "snapshot_stage": "HOURLY",
+      "source_hash_verified": true,
+      "explanation": {
+        "probability": 0.6092317744857458,
+        "linear_score": 0.4440841667805191,
+        "base_log_odds": 1.491374341036397,
+        "contributions_log_odds": {
+          "QIB": -1.183481316300873,
+          "Retail": 0.06038494764783568,
+          "HNI": 0.07580619439715928
+        }
+      }
+    },
+    {
+      "ipo_id": "chitto_2861",
+      "company_name": "Bonfiglioli Transmissions",
+      "probability_pct": 91.20698868302227,
+      "qib_x": 120.78396220429998,
+      "retail_x": 5.905707565377859,
+      "hni_x": 40.39682823901184,
+      "issue_price": 586.0,
+      "listing_open": 586.0,
+      "actual_return_pct": 0.0,
+      "correct": false,
+      "predicted_at": "2026-10-20T18:29:30+05:30",
+      "bid_capture_at": "2026-10-19T19:15:07+05:30",
+      "source_family": "nse_exchange",
+      "source_phase": "post_close_reconciliation",
+      "closing_date": "2026-10-19",
+      "snapshot_stage": "POST_CLOSE_RECONCILIATION",
+      "source_hash_verified": true,
+      "explanation": {
+        "probability": 0.9120698868302227,
+        "linear_score": 2.339174287000613,
+        "base_log_odds": 1.491374341036397,
+        "contributions_log_odds": {
+          "QIB": 0.9534455482597473,
+          "Retail": -0.16158166354896167,
+          "HNI": 0.055936061253430196
+        }
+      }
+    },
+    {
+      "ipo_id": "chitto_3215",
+      "company_name": "Tonbo Imaging India",
+      "probability_pct": 97.25933984127003,
+      "qib_x": 293.5569379060686,
+      "retail_x": 31.067530510333956,
+      "hni_x": 170.9431893627601,
+      "issue_price": 700.0,
+      "listing_open": 1160.0,
+      "actual_return_pct": 65.714,
+      "correct": true,
+      "predicted_at": "2026-10-20T18:29:30+05:30",
+      "bid_capture_at": "2026-10-19T19:15:06+05:30",
+      "source_family": "nse_exchange",
+      "source_phase": "post_close_reconciliation",
+      "closing_date": "2026-10-19",
+      "snapshot_stage": "POST_CLOSE_RECONCILIATION",
+      "source_hash_verified": true,
+      "explanation": {
+        "probability": 0.9725933984127003,
+        "linear_score": 3.5691821921628426,
+        "base_log_odds": 1.491374341036397,
+        "contributions_log_odds": {
+          "QIB": 1.4387285477092326,
+          "Retail": 0.42767275379739056,
+          "HNI": 0.21140654961982233
+        }
+      }
+    }
+  ],
+  "calibration_2025_2026": [
+    {
+      "score_band": "0\u201350%",
+      "n": 54,
+      "mean_predicted_positive_pct": 38.34849960359917,
+      "actual_positive_pct": 35.18518518518518,
+      "positive_count": 19,
+      "actual_rate_wilson_95_pct": [
+        23.82283172242002,
+        48.51541618220226
+      ]
+    },
+    {
+      "score_band": "50\u201380%",
+      "n": 35,
+      "mean_predicted_positive_pct": 65.8212670902247,
+      "actual_positive_pct": 57.14285714285714,
+      "positive_count": 20,
+      "actual_rate_wilson_95_pct": [
+        40.857129258973366,
+        72.01566691832107
+      ]
+    },
+    {
+      "score_band": "80\u201390%",
+      "n": 29,
+      "mean_predicted_positive_pct": 86.38412819908757,
+      "actual_positive_pct": 82.75862068965517,
+      "positive_count": 24,
+      "actual_rate_wilson_95_pct": [
+        65.45119942718487,
+        92.40225472852008
+      ]
+    },
+    {
+      "score_band": "90\u2013100%",
+      "n": 61,
+      "mean_predicted_positive_pct": 93.97030784220907,
+      "actual_positive_pct": 93.44262295081968,
+      "positive_count": 57,
+      "actual_rate_wilson_95_pct": [
+        84.31697859953277,
+        97.42067130423271
+      ]
+    }
+  ],
+  "adding_2025": {
+    "test_year": 2026,
+    "test_n": 75,
+    "fixed_direction_threshold": 0.5,
+    "excluded_2025_noncorporate": [
+      {
+        "id": 527,
+        "company_name": "Anantam Highways Trust"
+      },
+      {
+        "id": 565,
+        "company_name": "Knowledge Realty Trust"
+      },
+      {
+        "id": 574,
+        "company_name": "Property Share Investment Trust-PropShare Titania"
+      },
+      {
+        "id": 605,
+        "company_name": "Capital Infra Trust"
+      }
+    ],
+    "unverified_2026_openings": [
+      {
+        "id": 609,
+        "company_name": "Manika Plastech Ltd."
+      },
+      {
+        "id": 649,
+        "company_name": "Cube Highways Trust"
+      },
+      {
+        "id": 666,
+        "company_name": "Bagmane Prime Office REIT"
+      },
+      {
+        "id": 668,
+        "company_name": "Citius Transnet Investment Trust"
+      },
+      {
+        "id": 669,
+        "company_name": "Property Share Investment Trust-Propshare Celestia"
+      },
+      {
+        "id": 676,
+        "company_name": "Raajmarg Infra Investment Trust"
+      }
+    ],
+    "comparisons": [
+      {
+        "label_source": "canonical",
+        "trained_through": 2024,
+        "training_n": 252,
+        "training_ids_sha256": "d93c740ac7aa34eb39b3f27620e4ded5d557fb79927a1592714b41fcdc9a8e58",
+        "result": {
+          "sample_size": 75,
+          "positive_listings": 49,
+          "nonpositive_listings": 26,
+          "threshold": 0.5,
+          "roc_auc": 0.8524,
+          "brier_score": 0.1543,
+          "classifier_accuracy_pct": 80.0,
+          "always_positive_baseline_pct": 65.3,
+          "balanced_accuracy_pct": 77.5,
+          "negative_recall_pct": 69.2,
+          "positive_recall_pct": 85.7,
+          "apply_precision_pct": 84.0,
+          "warning_precision_pct": 72.0,
+          "tn": 18,
+          "fp": 8,
+          "fn": 7,
+          "tp": 42
+        },
+        "candidate_parameters": {
+          "scaler_mean": [
+            3.066960899523992,
+            2.3534023022007404,
+            3.210883844051662
+          ],
+          "scaler_scale": [
+            1.4512312882895162,
+            1.2913574628740003,
+            1.785960577857343
+          ],
+          "coefficients": [
+            0.7973720740387652,
+            0.49556508841367924,
+            0.19499437487472748
+          ],
+          "intercept": 1.491374341036397
+        }
+      },
+      {
+        "label_source": "canonical",
+        "trained_through": 2025,
+        "training_n": 356,
+        "training_ids_sha256": "7b41e632e67485bd37ae63913db0cfce0fc1c9faa017ac0ca8b933cd4afbaaea",
+        "result": {
+          "sample_size": 75,
+          "positive_listings": 49,
+          "nonpositive_listings": 26,
+          "threshold": 0.5,
+          "roc_auc": 0.8571,
+          "brier_score": 0.1514,
+          "classifier_accuracy_pct": 78.7,
+          "always_positive_baseline_pct": 65.3,
+          "balanced_accuracy_pct": 76.5,
+          "negative_recall_pct": 69.2,
+          "positive_recall_pct": 83.7,
+          "apply_precision_pct": 83.7,
+          "warning_precision_pct": 69.2,
+          "tn": 18,
+          "fp": 8,
+          "fn": 8,
+          "tp": 41
+        },
+        "candidate_parameters": {
+          "scaler_mean": [
+            2.957493088662185,
+            2.338531005072762,
+            3.197810810165933
+          ],
+          "scaler_scale": [
+            1.4354421188460693,
+            1.3111803352200375,
+            1.7813948940372881
+          ],
+          "coefficients": [
+            0.968126492591916,
+            0.3260924105484092,
+            0.13495997634345383
+          ],
+          "intercept": 1.3525646602843158
+        },
+        "paired_change_from_2024_fit": {
+          "change_pp": -1.3333333333333335,
+          "bootstrap_95_pp": [
+            -4.0,
+            0.0
+          ],
+          "corrected_errors": 0,
+          "introduced_errors": 1
+        }
+      },
+      {
+        "label_source": "exchange_verified",
+        "trained_through": 2024,
+        "training_n": 252,
+        "training_ids_sha256": "d93c740ac7aa34eb39b3f27620e4ded5d557fb79927a1592714b41fcdc9a8e58",
+        "result": {
+          "sample_size": 75,
+          "positive_listings": 49,
+          "nonpositive_listings": 26,
+          "threshold": 0.5,
+          "roc_auc": 0.8454,
+          "brier_score": 0.1549,
+          "classifier_accuracy_pct": 77.3,
+          "always_positive_baseline_pct": 65.3,
+          "balanced_accuracy_pct": 74.5,
+          "negative_recall_pct": 65.4,
+          "positive_recall_pct": 83.7,
+          "apply_precision_pct": 82.0,
+          "warning_precision_pct": 68.0,
+          "tn": 17,
+          "fp": 9,
+          "fn": 8,
+          "tp": 41
+        },
+        "candidate_parameters": {
+          "scaler_mean": [
+            3.066960899523992,
+            2.3534023022007404,
+            3.210883844051662
+          ],
+          "scaler_scale": [
+            1.4512312882895162,
+            1.2913574628740003,
+            1.785960577857343
+          ],
+          "coefficients": [
+            0.9458667854148798,
+            0.4730907401442588,
+            0.020683195332950814
+          ],
+          "intercept": 1.526579492137832
+        }
+      },
+      {
+        "label_source": "exchange_verified",
+        "trained_through": 2025,
+        "training_n": 356,
+        "training_ids_sha256": "7b41e632e67485bd37ae63913db0cfce0fc1c9faa017ac0ca8b933cd4afbaaea",
+        "result": {
+          "sample_size": 75,
+          "positive_listings": 49,
+          "nonpositive_listings": 26,
+          "threshold": 0.5,
+          "roc_auc": 0.8532,
+          "brier_score": 0.152,
+          "classifier_accuracy_pct": 78.7,
+          "always_positive_baseline_pct": 65.3,
+          "balanced_accuracy_pct": 76.5,
+          "negative_recall_pct": 69.2,
+          "positive_recall_pct": 83.7,
+          "apply_precision_pct": 83.7,
+          "warning_precision_pct": 69.2,
+          "tn": 18,
+          "fp": 8,
+          "fn": 8,
+          "tp": 41
+        },
+        "candidate_parameters": {
+          "scaler_mean": [
+            2.957493088662185,
+            2.338531005072762,
+            3.197810810165933
+          ],
+          "scaler_scale": [
+            1.4354421188460693,
+            1.3111803352200375,
+            1.7813948940372881
+          ],
+          "coefficients": [
+            1.0845452241071802,
+            0.3245206437820228,
+            -0.0033608371729454767
+          ],
+          "intercept": 1.385052917472151
+        },
+        "paired_change_from_2024_fit": {
+          "change_pp": 1.3333333333333335,
+          "bootstrap_95_pp": [
+            0.0,
+            4.0
+          ],
+          "corrected_errors": 1,
+          "introduced_errors": 0
+        }
+      }
+    ],
+    "live_model_changed": false,
+    "protocol": "Same fixed three log-bid inputs, StandardScaler and LogisticRegression(C=0.5). No 2026 tuning; canonical-vs-canonical isolates adding 2025, verified-vs-verified is a separate label-source comparison."
+  },
+  "live_model_changed": false,
+  "limitations": [
+    "Six cases are too few to establish calibration or select new parameters.",
+    "All six saved forecasts were created after bidding; this is not live pre-close accuracy.",
+    "Final-book training does not validate interim subscription probabilities.",
+    "2026 outcomes have been inspected before: this is retrospective research, not untouched prospective validation.",
+    "Missing features are plausible omissions, not proven causes of an individual price move."
+  ],
+  "input_sha256": {
+    "ml/model_bundle.json": "223a2861acc31952c5404cbe9eb0621f2241775404a4912a26fba0d579eacb2f",
+    "data/canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "data/subscription_observations.csv": "fab209435ee157b3cacc753b0d2d81b39e6c287f7b1eec6ef50d7d7a74e27fcd",
+    "data/audit/module1_exchange_listing_open_audit.csv": "0dfb32b9c6d34378814f2fcb8d57dfc5e48f652b5f25697c2062ef931084417b",
+    "ml/audit_module1_six_and_2025.py": "a28a342f9ae7b36be0eb15f35385d75b1a4bf74b745e51224f40588a142196db"
+  }
+}

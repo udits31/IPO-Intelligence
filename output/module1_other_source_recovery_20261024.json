@@ -1,0 +1,2955 @@
+{
+  "attempted": 63,
+  "completed": 63,
+  "history_issuers": 53,
+  "quote_rows": 715,
+  "access_limitations": [
+    "InvestorGain public history preview is limited to latest three rows; no paid-history bypass attempted.",
+    "IPOcentral returned HTTP 403 during source probe; no bypass attempted."
+  ],
+  "sources": [
+    {
+      "ipo_id": 249,
+      "company_name": "HP Adhesives Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/hp-adhesives-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "29d8417d2eeeb137712526eeb43c5bb54ec10af17e589444ce617d407c0ad07f"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/hp-adhesives-limited",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "3fade8ed5a53d45101b69a725aaf4320ef0dde750a232e1345286b7dbf614fba"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/hp-adhesives-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "157a577456f923ab77691d773664a2171908b7f31f3d5f6c9338d7f57aad493d"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/jyoti-global-plast-ipo-date-gmp-review-price-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "94ea9ca0f05973163877ffd437f368d7f9df48f6141042319e7dfe32a13ed214"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/hp-telecom-ipo/273",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "12db424e2c1f72e787b758f6f156ad596781e2b9470d9d561bb486a1df88acb4",
+          "identity_url": "https://www.a2zipo.com/ipo/hp-telecom-ipo/273",
+          "identity_sha256": "a74796168479ead9c2da95525d6e007037d9f55d3a4f6a055079df57acd5028a"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/speb-adhesives-ipo/902",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "0f18dee60edf3c072680991591b1470e2f7cea0c2483fefd924e78eac9aeb09d",
+          "identity_url": "https://www.a2zipo.com/ipo/speb-adhesives-ipo/902",
+          "identity_sha256": "873d3cecfba1cdcbbea24bc933105a35d2d31465c546a3608633776d5df1bce1"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/hp-adhesives-ipo-gmp-today-live-data-latest-grey-market-premium-updates/",
+          "status": "verified_offer",
+          "source_sha256": "99d9833c68740a217a185c889f71727acf1d4c07e8a0130e9091089518d367b6"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/cms-info-systems-ltd-ipo-gmp-today-live-data-latest-grey-market-premium-updates/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "4ddd8a5d2384d4ded2f6786d230f9379502e52cfc8ba99ea48a75ad2c7fe9dd5"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 251,
+      "company_name": "Medplus Health Services Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/medplus-health-services-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "07e0071038d1ee35838ba1b8b700c59f003de6ea8cc8b5a1d66a96d4f652ed4b"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/medplus-health-services-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "3efa9defd3d77e7f09efeea9a25be909dfcb5d8fd1539d5cf68f2bb1bc0a02fe"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/medplus-health-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "d1c55448ce7b2ced8f8d60656fd99c3b4793d090d44db0223c30d41ae60a7634"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/akums-drugs-and-pharma-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "9f52c8c4d0c886efae179558736719bb53455071132a56a3e7f373ee3fdb82cf"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/nephrocare-health-services-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "53bde7e80b71d66f55f49c15bf3ac6f7674dd9734a8e3fa55c87b536fd550550"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/nephrocare-health-services-ipo/770",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "b043a8f2a814b49b6794942438b528595266cd2d68b29685b5360ad5983e00e0",
+          "identity_url": "https://www.a2zipo.com/ipo/nephrocare-health-services-ipo/770",
+          "identity_sha256": "e64f0865b51053c910ea768466e7ba3a32ceb37249608ff5ece3c0a52eb6cb36"
+        }
+      ]
+    },
+    {
+      "ipo_id": 255,
+      "company_name": "Rategain Travel Technologies Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/rategain-travel-technologies-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "33c904c0e75e16c5494019673555eb867f842cef02d4ddca1b81b6acebd15c8f"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/rategain-travel-technologies-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "e5a4e772ba6b4d120de53057454091b7e8a807a72d9e7b375cf3cf3b3c500a27"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/rategain-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "5004d90141295cc4198308d79b1299102d7c23ee001705762b1eaf0a0235ea11"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 263,
+      "company_name": "Sapphire Foods India Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/sapphire-foods-india-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "16b1b46d955792fdbc87f50f5b40c4d3da84a81c681929ec2ddfdaef375c1753"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/sapphire-foods-india-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "adf4fd7824c7fe28f3792c0e64be412e16d719a9a9c42681f91b50974eae86bb"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/sapphire-foods-ipo-gmp-grey-market-premium-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "0aecf374bd2974c26fd25d14316e1fcef6ee44d2b017b2b2b6bcd41394ae3591"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/dsm-fresh-foods-ipo/639",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "3f6b8a0cdef742d2a608a792dc9296a569f60161b37ba39657a7bcf3b7bae77a",
+          "identity_url": "https://www.a2zipo.com/ipo/dsm-fresh-foods-ipo/639",
+          "identity_sha256": "a340a0a830b136cc79052163feb623fb03a15807f646ed785f392a98533ca04f"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/m-r-maniveni-foods-ipo/832",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "a01a48b781532d811473b20b8434e0575cda011b3de3fe8e118e0b254b10af45",
+          "identity_url": "https://www.a2zipo.com/ipo/m-r-maniveni-foods-ipo/832",
+          "identity_sha256": "0325c67d8ca21bcf23f1f96e9c5cbba7118230a3bdc169381d05177fae4d1021"
+        }
+      ]
+    },
+    {
+      "ipo_id": 267,
+      "company_name": "Fino Payments Bank Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/fino-payments-bank-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "a3eefd7f207742bbba5d4073824d8ade71256755b04305cfdba3c59866c1e094"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/fino-payments-bank-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "07310009cfaf35c7271148d745efec911f56bd707901245174a3f67bb628a396"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/fino-payments-bank-ipo-gmp-grey-market-premium-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "2e94ea5e6db28211fce7cda7f0f7c1479133432b46e24a03cbe7d14b5300ea67"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/fino-payments-bank-ipo-gmp-today-live-data-latest-grey-market-premium/",
+          "status": "verified_offer",
+          "source_sha256": "4fc86b45f8d0e73be4259a2a89385fdf47f2b6d4a64b4818ccbe2d3d3750e0e9"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/nykaa-ipo-gmp-today-live-data-latest-grey-market-premium-updates/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "93bb7eb5936bc123844ea1f19796a1e32756796dbc733fa8b04ec4d2974b370a"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 273,
+      "company_name": "Vijaya Diagnostic Centre Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/vijaya-diagnostic-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "8ddd700fd8bc178ecddd227a2a91e0d8025b0c2b6fb12e2c950c8cfcd4a56c4d"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/vijaya-diagnostic-centre-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "a7f3a780f6e089fe077e9cd1fba57f42d36b8daf859a9d0359e5f82e10681ce1"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/vijaya-diagnostic-ipo-gmp-grey-market-premium-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "277cf53e475ab68ff323b6aeb06981d5806fdf472a54a8081a06f6588d8e2b4b"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/vijaya-diagnostic-ipo-date-price-gmp-reviews/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "b4b752fb7f86162923fcdfe69b1a8efd6a298fdddc2060c9d908da0c934b24dd"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/modern-diagnostic-and-research-centre-ipo/326",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e7d53b941011a5c3d8cf4dfd03ca0a16436d5a386658eb02814d30d620803ce1",
+          "identity_url": "https://www.a2zipo.com/ipo/modern-diagnostic-and-research-centre-ipo/326",
+          "identity_sha256": "5bd8f35548dec501b97828b4da6b93c4002cfc6d65553ded2bc44ba3c07e8a0b"
+        }
+      ]
+    },
+    {
+      "ipo_id": 277,
+      "company_name": "CarTrade Tech Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/cartrade-tech-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "f87bbe416149a60ff42acf6024afb3126498eaec8e24c32824aa789be4fa9dee"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/cartrade-tech-ltd-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "a2f79584df67758d6444dbea8d113858d09dbb194a6b4cd37b5ef85d7b3c595a"
+        },
+        {
+          "provider": "ipowala",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/abril-paper-tech-ipo/595",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "53fcc0063e9344563a9147aaef26c98c0b3177c50c1d46aa5d223a47baa17f7b",
+          "identity_url": "https://www.a2zipo.com/ipo/abril-paper-tech-ipo/595",
+          "identity_sha256": "803856b8449b806e36c719d84f2566168585800c4af64c6298a47eed7667bc5c"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/ace-alpha-tech-ipo/432",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "db43e8f713257bfd67e7838314d0b5505601d26a8eeb439895698f205e9657ac",
+          "identity_url": "https://www.a2zipo.com/ipo/ace-alpha-tech-ipo/432",
+          "identity_sha256": "1d1d6e295f435e1ed21627403b499b27832508ff795c1fd4e6571aac8f6793a6"
+        }
+      ]
+    },
+    {
+      "ipo_id": 284,
+      "company_name": "Tatva Chintan Pharma Chem Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/tatva-chintan-pharma-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "282f57f95c11fc148420afa8bd2dae29045f0d3c2c89cd9c397216f86e47c199"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/tatva-chintan-pharma-chem-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "3202c686393e0008c7b0fce70662cde54687411a1b33759df44df9477810f381"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/tatva-chintan-pharma-chem-ipo-date-details-gmp-reviews/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "eb37f9a16f8e254ea7e28f60235e5884be21d06a1ebf54769e2a5722854b8071"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 291,
+      "company_name": "Shyam Metalics & Energy Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/shyam-metalics-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "76bb9ca9c7a30d4dca4f923ef36aafc795df0580ff8ce9cc37986bd6e362c2a7"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/shyam-metalics-and-energy-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "583c424c92d50aa8603e64972be0389b6201c9a284974caef68eaa32a756f59d"
+        },
+        {
+          "provider": "ipowala",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 295,
+      "company_name": "Barbeque-Nation Hospitality Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/barbeque-nation-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "b6b9c6d5ec7cbc7d5181319d46418a2801a0e9b8b8d6d43690b72c8b920ceaff"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/barbeque-nation-hospitality-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "0d8eaa55af4f4fb9b6e43c6646b2fa11996153b295087dad91a67fb3e64c6004"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/barbeque-nation-ipo-details-review-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "1b0abe12592691901d3c160c74900d92f9dc3f22142032d13a7599f25e058075"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/barbeque-nation-ipo-gmp-today-live-data-latest-grey-market-premium/",
+          "status": "verified_offer",
+          "source_sha256": "ce85f2ea8d03436a20f2e25865fa934c3bc3f351cc6de7d61d7f3e57aab593ef"
+        },
+        {
+          "provider": "adigitalblogger",
+          "url": "https://www.adigitalblogger.com/ipo/barbeque-nation-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "72a02021d99834af44de8b6ec55502d414fcf74d2cc27dd425350dd283b68706"
+        }
+      ]
+    },
+    {
+      "ipo_id": 296,
+      "company_name": "Nazara Technologies Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/nazara-technologies-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "b1d4db50a70800cc490bf7b29031975d456068117bbc1af9fe98ea1d7b6aa87a"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/nazara-technologies-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "4e4194eb9e8579cdfbdb654d6b3eb835990078c532c0ac0fbe800a25e755be56"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/nazara-technologies-ipo-details-review-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "aa2548aec2e429f49f8ae26ec0b3edf69110c72b1df3c7cae0f2f772dc0ebcb5"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/capillary-technologies-india-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "9ca59b6c046146250ec51f8ac1204aa391693458ac841b746035307ebef32043"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/cmr-green-technologies",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "7fe94c5eb85872ea102cf930186f890a06f7d7643d11d1af04bda7f5cfeab35b"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/aakaar-medical-technologies-ipo/425",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "6c15924f78f886a18d6f5df9e42e9a7a4360c23e73d656ec26b9236a04ca12d6",
+          "identity_url": "https://www.a2zipo.com/ipo/aakaar-medical-technologies-ipo/425",
+          "identity_sha256": "07faaa90992e62068f2998cc6e8690430c3904cd7148975a76057812cb1572c6"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/adisoft-technologies-ipo/1006",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "14a9f02dbfe5faa622560d9ee5ff19ae8104ba10a310434c741ce439a2a50f72",
+          "identity_url": "https://www.a2zipo.com/ipo/adisoft-technologies-ipo/1006",
+          "identity_sha256": "0edfc0a437beb71a576fbb3b72d922f389356476e0742dab04ef040c439189ea"
+        }
+      ]
+    },
+    {
+      "ipo_id": 297,
+      "company_name": "Kalyan Jewellers India Ltd.",
+      "bid_rows": 0,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/kalyan-jewellers-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "d881c2b39392d13371cc2c219f0456382d7598821b4dad02a1c63d484f6f64db"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/kalyan-jewellers-ipo",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "a1c67dd00f57b6845c3bb073edcd09edeb6981b251ff06a68e54f5bf7e45fc1b"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/deepa-jewellers-ipo",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "5bace75a36d426a8cda218764f6ab7c87f4b5ac7726c4b0c740fde908600eb2a"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/shankesh-jewellers-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "9bd215fa0c9597b223596eddcc8a380cba5d796e67ee0e681a42c282750d62b1"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/deepa-jewellers-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "b316bedd060a375ce7b7bc80c22c791b211b32b792986595331cc04c63948bfa"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/deepa-jewellers",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "bc9c896d71547db849ce355c39145043d9ff5c40d2aeb2bf21f948e0dd239e57"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/shankesh-jewellers",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "eb88db5d5af77e2a02479a79198c53d1f0950c7bc152182af23ff284f0fa6064"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/arjun-jewellers-ipo/997",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "455a87fd6114f71b83582f241e6f61c908bd5589b165e08afe3f7e5af4c73b6c",
+          "identity_url": "https://www.a2zipo.com/ipo/arjun-jewellers-ipo/997",
+          "identity_sha256": "cdf4ede09de12f226ae6c0029cba9a42a8da2f591e76fd4798768ce422c298bc"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/deepa-jewellers-ipo/2048",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "61d3ed34deff37278af6bbc9fbf1614e2f1d418cac49354fe4eea131cb23580b",
+          "identity_url": "https://www.a2zipo.com/ipo/deepa-jewellers-ipo/2048",
+          "identity_sha256": "577d967ce54962b442e0d3b6f2ac62f019d9994c31102ea9ffb46ec51ba229db"
+        }
+      ]
+    },
+    {
+      "ipo_id": 299,
+      "company_name": "Craftsman Automation Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/craftsman-automation-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "8ee96984aaee3578733d461147fb60a5f65ab78913498b52e08fdd7d2c8730a6"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/craftsman-automation-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "962d8949e3aa0c1acab277deba56a4867c4e52138880d45e094568d54d414122"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/craftsman-automation-ipo-details-price-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "b74ca5d86883c23e72cc1e285201dfda57ae8edb818d18005fce7f735e3d91a7"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/jyoti-cnc-automation-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "9e5aeb44b23510b79d8fc48d4886c8fd4dad7b0c443ceef92e7b6b28f99be6c3"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/amazin-automation-solutions-india-ipo/2058",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "1accf13bead3f74a9159029223b38853812b58e40f9f62157d5d624e12821457",
+          "identity_url": "https://www.a2zipo.com/ipo/amazin-automation-solutions-india-ipo/2058",
+          "identity_sha256": "b014986b57e4cdb3d4ff58bf5e4e64ced7dae479c9a652941ef7cae6aaa6749f"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/patil-automation-ipo/405",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "47dfa348f41a3e51d43ed02f8361f31ce393b179f467a8f991c63c4a6e462a26",
+          "identity_url": "https://www.a2zipo.com/ipo/patil-automation-ipo/405",
+          "identity_sha256": "03bd8e468c04aa73cda0ed4fe6d58faf16868307dabf0060b09aa6e20f75c6a9"
+        }
+      ]
+    },
+    {
+      "ipo_id": 300,
+      "company_name": "Laxmi Organic Industries Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/laxmi-organic-industries-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "f071fab2deca99f03f7dcad7a9ae20771c83ce79066ba5665e87bce93e8b9c02"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/laxmi-organic-industries-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "661d3840eca653c80be809cc00866428c70c588b551e9d6ff0c7565f9a69dd11"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/laxmi-organic-ipo-details-reviews-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "3cc0cece7d9f8bd83bd443d69d90958492ae24e67e7f5abb466aa2418a320244"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/craftsman-automation-ipo-details-price-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "1599f5200d8be9b47a24f5c077f8d12a14daa7958c58216f45e172727a943bfb"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 303,
+      "company_name": "MTAR Technologies Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/mtar-technologies-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "edc5f7cd22cdcf7fadc5cd6709c09f435ab3d42b0518c767cbd83c6d444142da"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/mtar-technologies-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "03493305b75e58080f73678ad4fdc77fbe28b3cfba817e3bf87c1ec12f7978fd"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/adjia-technologies-ipo-details-gmp-allotment/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "ae0453ef8805b1a751c8a66eb039ff3561401ae193a31a243d6bfe09740b56c5"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/cff-fluid-control-ipo-date-gmp-review-price-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "2a216d4c7ffe8ad0070a66f0ab78f26a3f8f56399cc516d44da550ca70e8c559"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/capillary-technologies-india-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "4e5b859e646dd58d66dd53c5ba475826ea1259d760f4ab66b37d66c91c3bac60"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/cmr-green-technologies",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "1dcdc7af8882421b585c0d5c2a62123ec54727eba79291c692e7a95a513d1ded"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/aakaar-medical-technologies-ipo/425",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "641412e30d7937d3e932a7c9afde75899a13434f0c5993367dd5f5f1d3f3c5c3",
+          "identity_url": "https://www.a2zipo.com/ipo/aakaar-medical-technologies-ipo/425",
+          "identity_sha256": "ce4c2971347fd39904573faf29781681290b08d596e1adcd744ecf9b3acdad75"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/adisoft-technologies-ipo/1006",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "17489b2c9f7573a94f7f999bea25a4cbdd25528b85f7d0a2de587f8fec13bbe1",
+          "identity_url": "https://www.a2zipo.com/ipo/adisoft-technologies-ipo/1006",
+          "identity_sha256": "f5afd3c15355f8202c56a9be1dc3e750aab0e36ecd05ad700fe9e728cad4cf9d"
+        }
+      ]
+    },
+    {
+      "ipo_id": 304,
+      "company_name": "Heranba Industries Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/heranba-industries-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "6603b3401636feef6c74d334af678394278201b2707d55e00572ee0758021fe9"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/heranba-industries-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "545fc4e4698299abd82e5dc0804aff6f84e9475779987468efa4d429b980d2a7"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/party-cruisers-ipo-details-review-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "9e821da20e6c9e89ff99fcce8381b6c76609f89f5a5c83ebcd3d36a29ca4d166"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/adroit-industries-india",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "7ba2ee1bec95c7a83bbb8fb307ec9056ee102803d15e27b0cb7511cb4071680a"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/ardee-industries",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "8062c8739ff0bec1fcb56d1efa02a6e8b3d5fa6527c21fb4247c34e58e86baa2"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/aaradhya-disposal-industries-ipo/542",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "757da151894577bada1fc5e409e7b4879ce0bc72812ec9318caaa538a3fc4497",
+          "identity_url": "https://www.a2zipo.com/ipo/aaradhya-disposal-industries-ipo/542",
+          "identity_sha256": "1e08288153c856a7c55b2a78b313cf7a681112fd67262dba9b1009a8b8e98311"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/acme-india-industries-ipo/968",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "1bc85aff930b8452364a7ff930213ed5f52a5d29e88b16250befdfca67a6a1ce",
+          "identity_url": "https://www.a2zipo.com/ipo/acme-india-industries-ipo/968",
+          "identity_sha256": "7565cd9363a7163e9740246bf7a09491ea0192d0b2f9ccc04ba91b71bb5f792d"
+        }
+      ]
+    },
+    {
+      "ipo_id": 305,
+      "company_name": "RailTel Corp.of India Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/railtel-corporation-ipo-gmp-2/",
+          "status": "verified_offer",
+          "source_sha256": "18410205b563af7eb6cda94496ae8a554c7c32f79baf06fda3292cce283ca698"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/mtar-technologies-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "edc5f7cd22cdcf7fadc5cd6709c09f435ab3d42b0518c767cbd83c6d444142da"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/railtel-corporation-of-india-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "61688a1df1f5e0c401b5e2037be517044c1ebb5a1df72e3325794b3662bf7e39"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/irfc-ipo-details-gmp-allotment/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "7b45eed7eb90b753d8c255cc206a0f453f31c9bfa9fbacad7745ef36d612aa04"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 308,
+      "company_name": "Stove Kraft Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/stove-kraft-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "2ddacebf4b8c59a97f2712b643f0ad12da1982eddd563652776231783765ed9d"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/stove-kraft-ipo-date-review-gmp-allotment-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "7c084a2e43c9eed39b6681433b20513093995fd483a4bdd7786c7b9c63a354d5"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/cello-world-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "00c8dd739dd6d5fb28dbf5b1729703654a40031731855c280fbd1dc72d48406f"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/stove-kraft-ipo-gmp-today-latest-grey-market-premium-updates/",
+          "status": "verified_offer",
+          "source_sha256": "5d9740f6b399fdb05193c46316940f64c2ae1e49fa111bea9686d14e5c94b72e"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/brookfield-reit-ipo-gmp-today-latest-grey-market-premium-updates/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "85b2be7ee4e943ed88c5bfd1093f7bb74b89b7e10fc369cf0d86243756cf8578"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 314,
+      "company_name": "KFin Technologies Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/kfin-technologies-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "2ca05241299c6f7ed8ca8a7be89d23cdae01460f9cd94f3a3a9d3db8a9ef981f"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/kfin-technologies-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "15e5ac6623518c2e2f3755e523439692513ca40dd9a6cee09b602ef3bc79e8e6"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/kfin-technologies-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "verified_offer",
+          "source_sha256": "bebd4d5d4b33ecada95b3828cc85ec5867c6dfb139fff748712f5da99326c4c3"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/kfin-technologies-ipo-date-gmp-review-price-form-market-lot-details/",
+          "status": "verified_offer",
+          "source_sha256": "682d7a09d592086efd83aa9e01939ba08bb31aa8afed5c9e5a32478f7db96490"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/capillary-technologies-india-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "7e8eb1e496df5caf92928615711b15c78a833df38a49807c4e07888cf7fc27d2"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/cmr-green-technologies",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "1dcdc7af8882421b585c0d5c2a62123ec54727eba79291c692e7a95a513d1ded"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/aakaar-medical-technologies-ipo/425",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "1a2cd62c7bab3c406721454a1c8e19fed7b945d597c364d559d05aef6a65fcd8",
+          "identity_url": "https://www.a2zipo.com/ipo/aakaar-medical-technologies-ipo/425",
+          "identity_sha256": "236f45015b5fb3d0a2837d36dfec129ad7ee9ddff9656e2c4ffbb833d7f6a3f2"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/adisoft-technologies-ipo/1006",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "5d882e1b200aeb7935926ba1ac53529bcb19102890854010e1eed6397145a320",
+          "identity_url": "https://www.a2zipo.com/ipo/adisoft-technologies-ipo/1006",
+          "identity_sha256": "296c9ae9e045f4978443df773d8a155a849f9068c3b24c8a377995666fc31846"
+        }
+      ]
+    },
+    {
+      "ipo_id": 320,
+      "company_name": "Keystone Realtors Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/keystone-realtors-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "166213105eccc5466270bf1d40d098503ed573e3b8774fb8723181995e4b6de6"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/keystone-realtors-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "746872a974649531ffae76fae08de335850c9835c096740734156d50e6c35a4c"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/keystone-realtors-ipo-gmp-grey-market-premium/",
+          "status": "verified_offer",
+          "source_sha256": "4eed7e806744e8534670545c0f86c46430af4505779b07fe3c100025e591fbe8"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/keystone-realtors-ipo-gmp-price-date-allotment/",
+          "status": "verified_offer",
+          "source_sha256": "e2dc8cc9e9de80b14378ac8bcdbdbf8fd27a23dccb3c655958fd99886b567088"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/mahendra-realtors-infrastructure-ipo/561",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "add5bb1e98ca02513e2f53aeaec59f6525b39191a86c05f91f110b16d21e29b1",
+          "identity_url": "https://www.a2zipo.com/ipo/mahendra-realtors-infrastructure-ipo/561",
+          "identity_sha256": "a61f0b9c9f1e316bcb2ed687bbfe7c51c78db2390a913088a4c4d1a00637017d"
+        }
+      ]
+    },
+    {
+      "ipo_id": 327,
+      "company_name": "Fusion Micro Finance Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/fusion-micro-finance-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "dc218d66d18abe3f5b168866ef83c8bf7e65f48a150ba3e3af37fd46202dccaf"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/fusion-micro-finance-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "bceec42bca163df540aeb0b8b1aae8b0c297cbf102ed13e02076d20aef56ec2c"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/fusion-microfinanc-ipo-gmp-price-date-allotment/",
+          "status": "verified_offer",
+          "source_sha256": "890e583a54d44e4443837dfde63b524f0e68ab037a7c3bc52b888fc7a7a88fde"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/fusion-microfinance-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "d4d96cd0abd69329bdddeb639e4eb5139d4543c9c2d2571f239f09c52cf25e15"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/fusion-cx",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "795fc3971fde3fdb7fc9c8dedd13ebea46857c0270c291ad280ef4cde14b2ef5"
+        }
+      ]
+    },
+    {
+      "ipo_id": 329,
+      "company_name": "Tracxn Technologies Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/tracxn-technologies-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "5f2a2ccf15ef1dc610f0a80540881df3774c063178203e86b804fa1a3ddba6ae"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/tracxn-technologies-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "720e46f9591948d73e9352b1cde613e47751f24d1aa2bd66f8f568c7d25eb582"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/tracxn-technologies-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "41103e90edd698f3748904ac82d2b6d501f20b1d434f3391a05725e7497587e9"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/tracxn-technologies-ipo-gmp-date-review-price-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "f62edb4eac7304a17e240b336caa5cde9f38668f74a7a083e5d5dce230936f6f"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/capillary-technologies-india-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "b9858f5a64515f02f06f5ec8d61606f813b5ccd327f1f1dbf5c7c5665a2259b0"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/cmr-green-technologies",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "1dcdc7af8882421b585c0d5c2a62123ec54727eba79291c692e7a95a513d1ded"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/aakaar-medical-technologies-ipo/425",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "67e192f41651f9d164ac0a3acf6e2e724d00135dd84b9ecd5b23f8d36c93687d",
+          "identity_url": "https://www.a2zipo.com/ipo/aakaar-medical-technologies-ipo/425",
+          "identity_sha256": "20d5353ad13b4c27e26eda04daa8d487f592d910840bc7453e4b3bbdde151c78"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/adisoft-technologies-ipo/1006",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "58bff935661bdc8bfb79e0a4c23decceb3aea6f301f11263c0120c24930c7032",
+          "identity_url": "https://www.a2zipo.com/ipo/adisoft-technologies-ipo/1006",
+          "identity_sha256": "7e6a32a08726a0b6eb9326009f3c3a87649d6f169144729a05bfcbe49d20dd89"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/tracxn-technologies-ipo-gmp-today-live-data-latest-grey-market-premium-updates/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "0276df39bed646d24b9ccabed2385450d27ea87d9d746d659bcaedf501d9c33f"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 332,
+      "company_name": "Tamilnad Mercantile Bank Ltd.",
+      "bid_rows": 0,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/tamilnad-mercantile-bank-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "8b17b8ecd69552b3fc75c6599f2b36cc98c1926012b54a45891fc72819f2ff44"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/tamilnad-mercantile-bank-ltd-ipo",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "2ea71aeeba33d78cedeb2fa2f20410284bac8626a713c8f75327b843d51e4f12"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/tamilnad-mercantile-bank-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "a957b6b330ae1efcfdfe6371fc47edff2fff902e03243b6d62bb911f4a3e36c3"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 336,
+      "company_name": "eMudhra Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/emudhra-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "34f96e54adcf1b97fe5d3fb3220ad34e6a44b4403f6789e481a9b91208f438d7"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/emudhra-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "a2e78bf41bce3bb3a24417487efe38c9fb7f791d2a50784fd891aeefcac8993e"
+        },
+        {
+          "provider": "ipowala",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/emudhra-ltd-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "da58886cd257fa393d91a9b70fce653f5215658210a56f106d619eab52bcaede"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 337,
+      "company_name": "Ethos Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/ethos-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "54ae647be28e8b741ec55bdc77cf3c4a0dee8ca96fb80516fb888c2f3be98d44"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/bharat-fih-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "7919f1ea36a97bf195a3ac7050e4fabac5d3ab6eb74e3693fbaf3bfc6aabbc62"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/ethos-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "e99bc0a8f9044a39104da857da4184a9044093a16de35329243ea6776f7c55f5"
+        },
+        {
+          "provider": "ipowala",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/ethos-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "d6d967dd51356dd22ce697ad73cce0f017b2cacfc1f2be86d60f6cc9c014471e"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 340,
+      "company_name": "Venus Pipes & Tubes Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/venus-pipes-tubes-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "13a57d30e140e62497a855d21793deb2197355d2bc0193f2d4d42c23b427934f"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/venus-pipes-and-tubes-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "b563af8ad3e2ef8469d05a9b979c422d462f20772ab4a96d285e20a5311b2a58"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/venus-pipes-tubes-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "5f6229dcc7f3df584ab801da8396ee59df51c7105441bd41589098904ecdba58"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 346,
+      "company_name": "Veranda Learning Solutions Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/veranda-learning-solutions-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "98e2a05c13bf44f6f6ea78d7fe11aad571f219fac2e860fe5679bb65cc55835c"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/veranda-learning-solutions-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "86483b2394c9c2462df48772e4fb5f03184df841df5cd731b72f489d6b467efe"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/veranda-learning-ipo-gmp-grey-market-premium-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "579da1c8820982544e7a11d16fdf8d5cb436a93a07397e399d67d596ff5998a8"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/arihant-academy-ipo-date-gmp-review-price-form-market-lot-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "4e9de307831ef1cae75478180fc343612937f8a9b985338dd13eddebe96d24f4"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/veranda-learning-solutions-ltd-ipo-gmp-today-live-data-latest-grey-market-premium-updates/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "9187fd356a0d29c87e1969942d6a3774c74b2db0e35fb894aabcf800103fffab"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 348,
+      "company_name": "Uma Exports Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/uma-exports-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "7b336d055d235e7e5d4d13530c03cb89b6c33628d083c78ba39af77470aa994f"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/uma-exports-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "a98256fc0b3f34b0bff2d3bbdd64958e41134887596f9b397cbb21887d4a7051"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/uma-exports-ipo-date-gmp-review-price-form-market-lot-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "266767a3bee984592362df2efb328bdf878af1570e3e9c078c0bfe69eae40cc5"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/uma-exports-ipo-gmp-grey-market-premium-kostak-rates-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "19d579aee4d88cf8fb7e4ff442e58572bc2e8be4037bc6657f48f9699442ca18"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/amir-chand-jagdish-kumar-exports",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "569ac9c498b188c051d005502a71b094353251df1f33f6e45fb8e9391019014e"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/amir-chand-jagdish-kumar-exports-ipo/485",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "2f8f2c3f6708f5493cfcced2259aa28a499e33a0f7a40a2ab82d5e01e524f536",
+          "identity_url": "https://www.a2zipo.com/ipo/amir-chand-jagdish-kumar-exports-ipo/485",
+          "identity_sha256": "a0f65a92625507f911ffc8591284f291dbe73aaad9c995a53a8292d2905910c4"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/freshara-agro-exports-ipo/165",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "8da40f9ac8ca38370241f76a35dabe49e43963d7872ab402d86a1a8a69f3712e",
+          "identity_url": "https://www.a2zipo.com/ipo/freshara-agro-exports-ipo/165",
+          "identity_sha256": "2ec62a116729cbe81713b3d85af424fab52a7b473519b0339c8a99a2abcdb58d"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/uma_exports_gmp/",
+          "status": "verified_offer",
+          "source_sha256": "d1a0a62f0f0c83bcae2bc703f82f466363289eec0ce9973dfc2924fefe25e848"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 355,
+      "company_name": "Credo Brands Marketing Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/credo-brands-marketing-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "06a6b17f43a2086b1c0c43aaa5e28c7ac12514d7b042725b8f64db5b0cb7f173"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/credo-brands-marketing-limited-(mufti)-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "0c5098d47cb95e4e39d44eba4c677f01ccbb46b1fff3038d2a811360e4c1d5f5"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/mufti-menswear-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "5389e36ee4be72b8a2dabf5c30943a32ea85a58936fffa4af1dd15e7714c6b0b"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 359,
+      "company_name": "Suraj Estate Developers Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/suraj-estate-developers-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "d1fc3cfbabbdb99d53bffb95f6e96e881e0a4f96bb6ca00aa8aac86d901d08b9"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/suraj-estate-developers-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "43daa631e2886d0f86c4ef7ac16ec7a18d0dbc01e9c97f9111d821da070b979a"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/suraj-estate-developers-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "b6566d20f325ac5f7df4e28a91f1d8fb0b17d494dccfd4592d41b5cd1b6185f6"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/suraj-estate-developers-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "2ec9a11fff72813fa8ffa776ae491100ee03ab381d9619fed46d44387cb6372c"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 361,
+      "company_name": "India Shelter Finance Corp.Ltd.",
+      "bid_rows": 0,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/india-shelter-finance-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "fcd9af1dcf8464778184365dd4345f0adac52fdf461c17a2bea5c0680292d0e7"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/india-shelter-finance-corporation-limited-ipo",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "60ab67e8679386f574fb291114f5621299f3bd0bfc0e4c3d7ccfa269ff0b088b"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/india-shelter-finance-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "440501fd009977f6324e76eeac9772f3c14df1102e84f11462cb3b2d571619d3"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/india-shelter-finance-corporation-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "e893413d16c1d52870851aa55c0454f50a2de44fe7edff137d9d365fea3ad78a"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 362,
+      "company_name": "DOMS Industries Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/doms-industries-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "7ba49bb5a630576c05e5fc6c45713cedb83caff49992871add96e102bc5a5502"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/doms-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "315958f7de8305a5173afefeaf8365e5f5ce19a6233896b75330b0ff3b51466f"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/mankind-pharma-ipo-gmp-price-date-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "aab2ab42a4f1ecfc7f8fbc8f75bda4562bfcbba7d339c4801833c59a23183645"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/adroit-industries-india",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "5c227bf002d3f2dc40af5d8761dbce732d5f47d257d6d0f07fb1337e4a060746"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/ardee-industries",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "bd59ff4b8747b2c273b5e6d69e34ecd0232885e9d7de31b8cc4f9288b6bf901c"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/aaradhya-disposal-industries-ipo/542",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "5cfec3ee46ee69951f716492ed2aeb38c31e99dc071fcd9664dfb04d6bc3263e",
+          "identity_url": "https://www.a2zipo.com/ipo/aaradhya-disposal-industries-ipo/542",
+          "identity_sha256": "9502c2c845b3f3b1bdd16df3ecaa6892d5343fa56e582f4b7f16c0d70249bb28"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/acme-india-industries-ipo/968",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "231ba8b3423c68e2cf2bff2f8bff711d77d49311ec364d0d165b2979c96e70eb",
+          "identity_url": "https://www.a2zipo.com/ipo/acme-india-industries-ipo/968",
+          "identity_sha256": "99458fdced487323b2c552ec56fe478cbae0c28cc0322329017fd3eb94d4a323"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 365,
+      "company_name": "Gandhar Oil Refinery (India) Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/gandhar-oil-refinery-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "f596d2c94afb542ca7dc44808703c31d228b90ffad9d1375cfd802196a26c7b9"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/gandhar-oil-refinery-india-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "4516109da4884203bbc09ca1faa7d3d731cc1601c02b60c1e90047acd91909fe"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/gandhar-oil-refinery-india-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "ff75e3ab96509f248c0ac32a55b0d2eefabf2b736522f9a038ed448ba12c740d"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/gandhar-oil-refinery-india-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "e0c445fe3710ac5f057f5dae4bf4d6a779ca28d45652a0bc0c3a1bf7b8ba5ae5"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 371,
+      "company_name": "Honasa Consumer Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/mamaearth-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "0fd7684e850128c0cfb95db8efdf8916439354fd3418e82d5c7935937d52cacb"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/honasa-consumer-limited-(mamaearth)-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "ff026eae07f2d7ffee3d31c2022c43cc9de55df8fa3283bf491410a1db35962e"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/honasa-consumer-mamaearth-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "176f981352e10e9c009bae3125e87c20921739406c9342c19ce99bcb8a714a44"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/honasa-consumer-mamaearth-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "0107cf983ca1ec5c808dde83147f078058a0e5f92e11683b70d27fb0a662f30a"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/ganesh-consumer-products-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e1b02ffac386f3197df98f883f8c61ec813e84e693c23fb2da142b36a6ca0b35"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/ganesh-consumer-products-ipo/642",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "f5a5fa67345880e9bd0f22c9f151a5524c936b9706a9b6487470b91a9460089b",
+          "identity_url": "https://www.a2zipo.com/ipo/ganesh-consumer-products-ipo/642",
+          "identity_sha256": "884614e1fcd825a75564aafbd924ba709da2916a7cf902cc4dcdcdcf98b2a290"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/silver-consumer-electricals-ipo/579",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "f0479659d724ab70c6155710f199cec489bf0ceb01cbd896ec21fb6265e88613",
+          "identity_url": "https://www.a2zipo.com/ipo/silver-consumer-electricals-ipo/579",
+          "identity_sha256": "49687ccb90415708565904f0ee20b7fd58fc76b830521a1d1fb5c466b8f081c3"
+        }
+      ]
+    },
+    {
+      "ipo_id": 373,
+      "company_name": "Blue Jet Healthcare Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/blue-jet-healthcare-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "402136a70d775b413adc233edb82919d1bcc75575e1b86e0ee6f56e7e77fbf88"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/blue-jet-healthcare-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "22760185920b3fd0d9d2cfc99a094aec3fa3defa960e99b35547ce41111407ad"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/blue-jet-healthcare-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "02120f4f504e3d9a339ab795370e4991851511f545fadb348e242608b839b86e"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/blue-jet-healthcare-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "6d0c6d329fb142dd60b8b7f6ce9aadc93acb8b7b9a19c3bb1a9e9052c40ae5ba"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 379,
+      "company_name": "Manoj Vaibhav Gems 'N' Jewellers Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/manoj-vaibhav-gems-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "a9aa869558f13217f53192e5f0cf66e63c3af93ff5aabbec160926a2ece9d3eb"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/manoj-vaibhav-gems-n-jewellers-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "261598b4b6882e5e3e5c81564d4c2e01d24d7eb79f44e7eb07d6844fcd4d3bb9"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/manoj-vaibhav-gems-n-jewellers-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "c190bbc24a2cd3eede9302d13afec8442d3648407cf1198b3fdbd36ac52ed7bf"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/manoj-vaibhav-gems-ipo-gmp-grey-market-premium-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "bd1c823c2a409337fb754e2b9bd0835592a6b75cd7adaf5e9210fa4d18fe03c9"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 382,
+      "company_name": "Signatureglobal (India) Ltd.",
+      "bid_rows": 3,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/signatureglobal-(india)-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "586315f092e1402f26bdb4152119792921f897f7a40ce19d052c82d17502e7a2"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/signatureglobal-india-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "4d6f9b103bcf36e56a0a2677b215ce64534112d3b4e9fef42e8b48ea03484a23"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/signatureglobal-india-ipo-gmp-price-date-allotment/",
+          "status": "verified_offer",
+          "source_sha256": "774bc32bc5bc9540786c18a36a6f9aec7ff3d7546d9c455f8168a46d15d235f9"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 396,
+      "company_name": "Yatharth Hospital & Trauma Care Services Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/yatharth-hospital-trauma-care-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "71d4b403cd4028aa58ac2e2011cd123fe05c70d23d44361f0cc0db6b08b640e7"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/yatharth-hospital-and-trauma-care-services-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "afe0429b2c7c5293b74fc59d1f2578cf56b7ba95b226c95734a8cf30d3e442df"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/yatharth-hospital-ipo-gmp-grey-market-premium-today/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "150eb64fd9807b3fe342cf9da47063997e1ab6424843b84040953a7334e4d1e7"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/yatharth-hospital-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "d23ac40bb2edd58f970a1617c4037f51ddf78d5fcd71cb8611fc6a38b8dc86b7"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 397,
+      "company_name": "Netweb Technologies India Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/netweb-technologies-india-ipo-gmp/",
+          "status": "verified_offer",
+          "source_sha256": "7409e2c35e283e9823ddf228303a895fb470e0851d074216ba5578108479a48e"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/netweb-technologies-india-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "8dfcc8768bc93c4f9e059acac8cb52e68197c90f2cc48607cc9c5fae5bf0842c"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/netweb-technologies-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "1a2ab496aae778c8e177b881ac0877cffff9b9d08b752b55b96371b837d4e8fd"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/netweb-technologies-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "42ac4a08b579f6be516fb00b0d573863d6b8e2f2b37f8e2aec638fcf0091059c"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/capillary-technologies-india-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "d1a76d088d8eee7d10e9b453ed1f04b897d7f6df6f0fa3a1c27b30bc1e356930"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/cmr-green-technologies",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "6160384e2071b53a80893427a84594ff95e10498e0531c41fa9ba680f71933b9"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/aakaar-medical-technologies-ipo/425",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "9d5bd3fc79101e419d00c925c7a69394160163486e95c7ad49ba500ff3dd946d",
+          "identity_url": "https://www.a2zipo.com/ipo/aakaar-medical-technologies-ipo/425",
+          "identity_sha256": "cf5425040bac677d2e93b62207fa55e7830ed1373420685112b60b76f8f35200"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/adisoft-technologies-ipo/1006",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "45274bf3e22ddc7e35a2f77ac753d543648abd12fda3bbf94a435d7dcbbd8a30",
+          "identity_url": "https://www.a2zipo.com/ipo/adisoft-technologies-ipo/1006",
+          "identity_sha256": "d5339cee466ed12b1cabd404dcccfec0392ca1ab39dc8e9ee18a38d6568fe079"
+        }
+      ]
+    },
+    {
+      "ipo_id": 412,
+      "company_name": "Carraro India Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/carraro-india-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "8eb6d9f8a46c3cacd93d97dc68c90f14531be2459c9927d42afe2b5bbbdb3595"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/carraro-india-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "1a2dfeb3c44e1253298c9179e774b9a89da14cb3163aa1b895ed45354b943e36"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/carraro-india-limited",
+          "status": "verified_offer",
+          "source_sha256": "df1f1d46ac15bfc53fdec933dac760f378b77c7807f9eec2fcad4fa7250516ce"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/carraro-india-ipo/220",
+          "status": "verified_offer",
+          "source_sha256": "a6fd7a298f6c46e23471b4e87e8cdd33cb0b2d4250340f4a08ec0f258541101c",
+          "identity_url": "https://www.a2zipo.com/ipo/carraro-india-ipo/220",
+          "identity_sha256": "fd5a32b398d878156e05e891391a121ce72c595cf9d5b577419f8826397afced"
+        }
+      ]
+    },
+    {
+      "ipo_id": 415,
+      "company_name": "Concord Enviro Systems Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/concord-enviro-systems-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "deaf9317a03fc9947cc1cf7a40a6c06eddb58f2e6a8866e45a2b63dc46c5634f"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/concord-enviro-systems-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "8ce42239ebf3e531ed39f9c7642107cda65f8af9319cc1e90b5804b4000d1a64"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/concord-enviro-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "fc89689f1bb22909716f1ff3b276949ebc25251504885f1c3f13fef9c4d79025"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/concord-enviro-systems-limited",
+          "status": "verified_offer",
+          "source_sha256": "b59ccb0303c9082a09047f87f71ffb78623bca78a392e03a39f951ce43e548eb"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/concord-enviro-systems-ipo/219",
+          "status": "verified_offer",
+          "source_sha256": "422e9302ee1eb1008024491781e4acc9979304be5b7129eaecd257a4e9965ee4",
+          "identity_url": "https://www.a2zipo.com/ipo/concord-enviro-systems-ipo/219",
+          "identity_sha256": "ed23b4fda4bbb272f45d9d94075a6d7ce2078b47a90e55b688d5885570254205"
+        }
+      ]
+    },
+    {
+      "ipo_id": 419,
+      "company_name": "International Gemmological Institute (India) Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/international-gemmological-institute-india-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "54b050dee2e4c64d802f7d33643d72667409e35212268e806d3816b4c44d25ca"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/international-gemmological-institute-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "b3429d91929ed5638c121076669d639c6e1f34add70c47aea99241524a865df7"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/international-gemmological-institute-limited",
+          "status": "verified_offer",
+          "source_sha256": "e9b1df6b5c01499ee22b2808bd8242eb0cbb1c8d464380eb35c837ec3bbe4514"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/international-gemological-institute-of-india-ipo/209",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "bb396d2792f05dd50a1065f5c01f81d2211fb3d7c4f86b11da7266e340df3909",
+          "identity_url": "https://www.a2zipo.com/ipo/international-gemological-institute-of-india-ipo/209",
+          "identity_sha256": "061a63312f2b5eab475be8e37a0591c9c8eb417d7a2d1e97db8880adbe076674"
+        }
+      ]
+    },
+    {
+      "ipo_id": 423,
+      "company_name": "One Mobikwik Systems Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/one-mobikwik-systems-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "59dfb25c49151a6ba74f1f58588a9a54208af64717c0956ccb96221264117091"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/mobikwik-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "906c46abd40246e134b10608511bee07d8d79fe4b138654a2bb7398651117000"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/mobikwik-ipo-gmp-price-review-date-subscription-allotment/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "b6804f50779c00b036424cbc131a612d6879fa797dd596670da5cfd11e4aed86"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/one-mobikwik-systems-limited-mobikwik",
+          "status": "verified_offer",
+          "source_sha256": "f84014c2b0d3a439a8f495b2d405f3d8c9905ac0729acd3f8c02a9f7cc408e34"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/one-mobikwik-systems-ipo/189",
+          "status": "verified_offer",
+          "source_sha256": "f1e6754794c603c1eb4cee4fc68cf974b2f04ac2dbd58d06d5429e118868ccbb",
+          "identity_url": "https://www.a2zipo.com/ipo/one-mobikwik-systems-ipo/189",
+          "identity_sha256": "e88851229a325edbdfd954882064a8f240081bb0b0f01f51537a1274b38d612f"
+        }
+      ]
+    },
+    {
+      "ipo_id": 424,
+      "company_name": "Suraksha Diagnostic Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/suraksha-diagnostic-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "504375fb7505d535b00011a6b55ada368f600834f97f217a38be7d0090fd86e6"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/suraksha-diagnostic-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "c0505e2c716f2af76c59b7a0301a9ad7a692f2d7af0eb00d8cd1a2ab0751fd43"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/suraksha-diagnostic-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "202b9a2d272f397c953295d94d2da8ac8460e67e81558f7f9efaf6e8fba26a87"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/suraksha-diagnostic-ipo/198",
+          "status": "verified_offer",
+          "source_sha256": "b75b5d38666e78a0e45bdcee7e03e4dd5b6ea354f0e22b04b1211f0fc36c6cbb",
+          "identity_url": "https://www.a2zipo.com/ipo/suraksha-diagnostic-ipo/198",
+          "identity_sha256": "19616c277ce2aa75c7beb1afae4e3d6346fa734f32ddde24f5d63a1d63811685"
+        }
+      ]
+    },
+    {
+      "ipo_id": 427,
+      "company_name": "Zinka Logistics Solutions Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/zinka-logistics-solution-blackbuck-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "511c3ac99a17bc5747dd3797c2583af6def76cb435ba5e9f6021b1a132b0c388"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/blackbuck-zinka-logistics-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "097c6d30d5030abbd38b93fecd57918997caefc467af7edb916d8a3d5afd3296"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/zinka-logistics-solution-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "998f8c719c4d9218d0cf2b9d674ac0505bc943d764116c2dd06a68cf454331bf"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/zinka-logistics-solution-ipo/182",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "bdc3dd3d84ed9b6c5141934ce246b2e946669107d5f16cf730e2d85b6eabc5ba",
+          "identity_url": "https://www.a2zipo.com/ipo/zinka-logistics-solution-ipo/182",
+          "identity_sha256": "2a28bb2ffa3051680bae63303b118afc01fcf8bb6af13824732bcf4147ce912b"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 428,
+      "company_name": "Niva Bupa Health Insurance Co.Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/niva-bupa-health-insurance-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "ec6f292172f7341bc7016ce9b96dd6cf4abb6e933bfa5e5deaecd332d84e8bb0"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/niva-bupa-health-insurance-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "e9a28cf50315a2838cc241a514d6755550674453ad91a3ebf5007541e22d0f1a"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/niva-bupa-health-insurance-company-limited",
+          "status": "verified_offer",
+          "source_sha256": "e0e7268f88383d092b0d554dc856a28cb23da3f149714e6be01ed2a3f95b5506"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/niva-bupa-health-insurance-company-ipo/179",
+          "status": "verified_offer",
+          "source_sha256": "978c1c067b72dc46bdcedd83a4caeb362c153d594f2dbc80e1001c864ac50e5c",
+          "identity_url": "https://www.a2zipo.com/ipo/niva-bupa-health-insurance-company-ipo/179",
+          "identity_sha256": "0aea872975a704e93b867f8da40dd4572f7d6cf105a4a73f00785017448e0b90"
+        }
+      ]
+    },
+    {
+      "ipo_id": 438,
+      "company_name": "Diffusion Engineers Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/diffusion-engineers-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "cd1f705e16394d046a491b8d72cc4a27b0ca96f81274809aeddc662618e0619a"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/diffusion-engineers-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "65c33a1a690a36cd2946c318f8bb60404c8b2d1a07dc5e688a72df8694f6f0d0"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/dee-development-engineers-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "c7dab6af2924043f9137a2f3fed72bb415762b1c76b8925a0e2533765ebf28de"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/enviro-infra-engineers-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "5ab438e1e9bc18b3d930b04a9215ccd07073e49e86b3682ba4e25d1252396403"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/diffusion-engineers-ipo/153",
+          "status": "verified_offer",
+          "source_sha256": "a7d367da41a5a131b7dbdaeeb7db5237014298357382527373aaedd55c080750",
+          "identity_url": "https://www.a2zipo.com/ipo/diffusion-engineers-ipo/153",
+          "identity_sha256": "3ea12e37a56ca3c383b460b5ffa995c666d2f55b620e3ee9cbc5626524d8708c"
+        }
+      ]
+    },
+    {
+      "ipo_id": 446,
+      "company_name": "Kross Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/kross-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "49f917834ac5e37e6ba0a8cba80d4f3581d9e6b7c8c2e3e4a6c1854f90ac6c95"
+        },
+        {
+          "provider": "ipowala",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/kross-ipo/110",
+          "status": "verified_offer",
+          "source_sha256": "f3d6e1c48b07dba1b64746462d86e12933723aa7aa20f38c7d1af47367e97485",
+          "identity_url": "https://www.a2zipo.com/ipo/kross-ipo/110",
+          "identity_sha256": "782622a55d6d2a43bda9d9cea23322f13f754311b7563f52b7b019b1272acb80"
+        }
+      ]
+    },
+    {
+      "ipo_id": 451,
+      "company_name": "ECOS (India) Mobility & Hospitality Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/ecos-india-mobility-hospitality-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "c8357f99558edc467ff1750cb32e8542602b0e6c1abff39035984e8f1b79b920"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/eco-mobility-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "a10816132e4bae46ee2b2a07a461c4c75c156b666bc6b646a197faf0bb3aa2cb"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/jio-platforms-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "efabec56b0307e6a74eb85aaf68b161a692f801894ed860ea27cc91345d11808"
+        },
+        {
+          "provider": "top10stock",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/paytm-ipo-gmp-today-live-data-latest-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "2b65a428394ad58a37ae4cea5608aa727816b2afc1006989e51300f0d1fe21ad"
+        },
+        {
+          "provider": "investoracademy",
+          "url": "https://investoracademy.in/nazara-technologies-ipo-gmp-today-live-data-latest-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e92cff201fee2d41d6fdcd462961c00014d2a0e10fea2b0a3be52b2aee09e05e"
+        },
+        {
+          "provider": "adigitalblogger",
+          "url": "https://www.adigitalblogger.com/ipo/paytm-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "c55f5e5389bab25e2c34f0c0d5fefba0103067250082cf82ce41c0cf224da212"
+        }
+      ]
+    },
+    {
+      "ipo_id": 457,
+      "company_name": "Brainbees Solutions Ltd.",
+      "bid_rows": 0,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/3c-it-solutions-&-telecoms-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "67d828d41faf195e4fee2821f45d60cf04f99f764ede6caed22ecd1b42fa7349"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/anlon-technology-solutions-limited-ipo",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "34439e78207cad469f4d1aa2215f15d17c43f835019844ce01eda1f5aba1bdac"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/firstcry-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "6ea8d144511dfcc68b287d0dbaeddb61bd5997cae020efc279190b5c332cd721"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/arisinfra-solutions-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "979182b788f91ba78298a69a32f29800be2f3d00b3de984faa41a451f1711493"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/awfis-space-solutions-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "ad759fcb29039ef1c82c8afc5dfafb84a12f9abdac601da2cb72ae0eaa61a5ea"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/amazin-automation-solutions-india-ipo/2058",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "7c1f5ccb3ce2b60c9f008ac7c8f95f2a81dc5fcc275ad0fe23ecae5d6fb934f7",
+          "identity_url": "https://www.a2zipo.com/ipo/amazin-automation-solutions-india-ipo/2058",
+          "identity_sha256": "a5ff74b17fe6bb8011e5e5f3afdb04cd3113817b092343505e72b6073461f532"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/arisinfra-solutions-ipo/250",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "ebd9ea6046a30023f11b74cc017e488fb9dc7fe7a5e976918e4805676ffb58fd",
+          "identity_url": "https://www.a2zipo.com/ipo/arisinfra-solutions-ipo/250",
+          "identity_sha256": "841abe4a9a432621a57bada162e7f7a582c186779aafad5fb74ddf52f7f5a1c0"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 458,
+      "company_name": "Ola Electric Mobility Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/ola-electric-mobility-limited",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "c244f5a884c714083d171c2f7ddc16c5df7f5e6ed62b3b0b8728ea5c7305ba66"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/ola-electric-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "3c550a773076d469385a80527532b49dee92686ec931ca14f9a7fd5117a6da3b"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/ola-electric-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "7f37917fe603b65499d0d8ef85d3770789a3bf7fa09f46c8888224b78cb26c07"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/ola-electric-mobility-limited",
+          "status": "verified_offer",
+          "source_sha256": "2640bfaa19c11d9d9d80e10b74da98997803ffb1043b18da9ce3a58680a5e34a"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/greaves-electric-mobility-ipo/376",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "79088efe3e5b5ac7227c3be6ca2512979f83c88d9a8a03d1c3b0ffdde3b9e11a",
+          "identity_url": "https://www.a2zipo.com/ipo/greaves-electric-mobility-ipo/376",
+          "identity_sha256": "3909023373df984594cead0aba1e4c5d40f281da6a015d5c1c75b2a9a07fe8ff"
+        }
+      ]
+    },
+    {
+      "ipo_id": 463,
+      "company_name": "Bansal Wire Industries Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/bansal-wire-industries-limited",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "1faa1f8ceb7aa312d398bce5f44e52630c996edad892a3e9cdb6ac97bc7b20c1"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/bansal-wire-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "16bea912d98d583b2aff34021d62ef9d3de5bffaa5f07d2d8b113e225bbbbdf3"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/dam-capital-advisors-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "7a24bbe27c68fa8c7c54c3c8f4b21c64b370db9cde41d431318efe53ab58b2a8"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/bansal-wire-industries-limited",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "338d7414b9cdd58f1753acd9a02718f53a48e738a53d3c9f9f9c4fb6ed5cc531"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 464,
+      "company_name": "Vraj Iron & Steel Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/vraj-iron-and-steel-limited",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "8402d5605d847e18fd1625e05ba44d1c4e279f6ac5a0cd331a970b643091adf2"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/vraj-iron-and-steel-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "d7b8beba64ab215593523b7cb33b648f7972d3a1f5f734e881631d7790d38511"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/emcure-pharma-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "61c15dc0c8071c5d3f3c3cdeedded140b9dc62cbedb181344e4d76abfab805ed"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/vraj-iron-and-steel-limited",
+          "status": "verified_offer",
+          "source_sha256": "026c25c1b0cc3f5002c9298141bc58ec85667f16894081dbc8a8a947c82a5072"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/madhur-iron-steel-india-ipo/2089",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "68e8e6ce8b0c5f123d60e3d8b239973a669c196ae2c8a6f0c9c1f0e3160a5189",
+          "identity_url": "https://www.a2zipo.com/ipo/madhur-iron-steel-india-ipo/2089",
+          "identity_sha256": "531dcae0bb74658549e06bbe5e68711aacea53a09e2a5a7e36f22fc81bd36ad8"
+        }
+      ]
+    },
+    {
+      "ipo_id": 465,
+      "company_name": "Allied Blenders & Distillers Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/allied-blenders-and-distillers-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "d837ab22e16ebd0c50d60bd53194892eff960c61b8398594a4bbe91bc626da6a"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/allied-blenders-and-distillers",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "428dd45220208248064951c0c1fcaf79c808c68d421b2fd365338ca8f32662e0"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/allied-blenders-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "86ad956ccd0d3596fdb276b20f85711a7527a1fe86d7ea767d1382d60e156e4b"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/allied-blenders-and-distillers-limited",
+          "status": "verified_offer",
+          "source_sha256": "3e5968fa93cfe15ffa84bbac92f2575ca8dc08f5aab1aee159060dc1eb65fc50"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 466,
+      "company_name": "Stanley Lifestyles Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/stanley-lifestyles-limited",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "80f3817c2fcb3f9fefcde6a114989acbc825fcc1d7f542b7d5f12c26543105e5"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/stanley-lifestyles-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "a43525af21b7dafe95fe2cc3e7b632a5daa92bf966efda84a24afe6986898ee5"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/stanley-lifestyles-limited",
+          "status": "verified_offer",
+          "source_sha256": "5ca9c1fab46eaec560d491f0946677e0b0631d1c75cac2974eee2c4d4a4662ba"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 467,
+      "company_name": "DEE Development Engineers Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/dee-development-engineers-limited",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "8e37f62853b73b68cade55b7df5097bb90bf70fb148e91f02d05f0f51a8df5d7"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/deepak-builders-engineers-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "78bb664a7f688d55b55cdb7e80d931ad93508fce4a34d680b95abab6dbdc8da6"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/dee-piping-systems-ipo-date-price-gmp-review-details/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "88789b5c8afa7cf5a0e719f90885f22e38ee754a4cd26f90b5af93e9aff4ae3b"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/dee-development-engineers-limited",
+          "status": "verified_offer",
+          "source_sha256": "e3ba25378a6c023a9393a2fc9bb840521bbb0228d2e503e9ea11253717c9a98d"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 469,
+      "company_name": "Le Travenues Technology Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/le-travenues-technology-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "76abe0e6751ff9cba4617ae606f96cb5a34af0b605ab69a99e5f50ddc77cbc6b"
+        },
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e82db594fded9bbe347100425aeebfd6aac520b0c5f1842b8cb9c3c7240aec4e"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/le-travenues-technology-limited-ixigo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "776e0149ca142c6595786776e43b84167fa2157b55796dffb0f2ffd9a0849b91"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/ixigo-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "ecddc20f07731bc8f062f37b060ba9ce9946567fbfd549ecd9ee9833b5e7d539"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/le-travenues-technology-ltd-ixigo",
+          "status": "verified_offer",
+          "source_sha256": "08d63abfa52bfcd9f12651679b6587dc3852dcdede2eb73bc1ebf6157bcd07dd"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 470,
+      "company_name": "Kronox Lab Sciences Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/kronox-lab-sciences-limited",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "c9c85a86d7ea07628db4543ca801f07f0875eda8c33f3c5c912d772499825854"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/kronox-lab-sciences-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "09e831a885c11c31eb32a323250c0eafd2c20f006f65b989bd2f95992692512e"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/kronox-lab-sciences-limited",
+          "status": "verified_offer",
+          "source_sha256": "5c129193724d1c5d2b378fd0175e1f077f57a9efe6bbe7dd6f6503b3e2577cf8"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 480,
+      "company_name": "Krystal Integrated Services Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/krystal-integrated-service-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "c8c2f6120c54dd2c0e9f93bea78f0acc44dce41370bbe183d6736b1f19c46e07"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/krystal-integrated-services-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "c7f38ba5cdea5c134bab6a59f64993b2edd688bbca2b9171b554e958d4c59dc2"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/krystal-integrated-services-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "8498b674347156eb038b8c5ae42a7ecc15c9de95c3794aa13083b04d35afae79"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/krystal-integrated-services-limited",
+          "status": "verified_offer",
+          "source_sha256": "29cd4e0234e3c489d3b1410b97e4a38aee80d85db80a803814b5f49d0d78f2e2"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        },
+        {
+          "provider": "investoracademy",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "adigitalblogger",
+          "status": "no_matching_history_page"
+        }
+      ]
+    },
+    {
+      "ipo_id": 488,
+      "company_name": "GPT Healthcare Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/gpt-healthcare-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "470581b2aa6e2ad558c4e092ec0fc61a3a07f3bc015b769e4a9951670814aaa8"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/gpt-healthcare-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "f058c2dd03956f790902607536b2784253d9d59277219b5a4b7d58c5f14fbfc7"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/gpt-healthcare-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "881dbe437769a451282a601f8ee1a26b28dcdbf1a70408662aa696c2cc519fa2"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/gpt-healthcare-limited",
+          "status": "verified_offer",
+          "source_sha256": "1ed4569b3c5d4e0871f8a4f8eb7efb1e784d6207c7ecce80290a495d7a3d6c65"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/abh-healthcare-ipo/900",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "4261bd4c64b27e3b806c879d37f168cf6e9e3bbc1f9b8fef4f6f91ff323a9e2d",
+          "identity_url": "https://www.a2zipo.com/ipo/abh-healthcare-ipo/900",
+          "identity_sha256": "41a479b16f9349f661ed2284918202d840cde2a878a435f731d945496617412d"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/amanta-healthcare-ipo/464",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e241322e4a514d05780f5fc2c383d16bc1208d922e40a5b1c1e405da6fa5fc8a",
+          "identity_url": "https://www.a2zipo.com/ipo/amanta-healthcare-ipo/464",
+          "identity_sha256": "de342397914850f5e2d26cdbef970f23297fc2f8cd957defecab3f8c8fba8cf7"
+        }
+      ]
+    },
+    {
+      "ipo_id": 496,
+      "company_name": "BLS E-Services Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/bls-e-services-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "9786cbff1768b39ecb843a87673058cfedce69a131c487deeda8becdde8b8fbe"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/bls-e-services-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "5310eb1546c37b0179b82c05b53edc42a4c42109871a3118e8c8b9111bd24a4c"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/bls-e-services-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "77197abe79c839ab0cc20cf1aca23c0a6b9df436aa1fa0b3cd8a45c339fd3cfd"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/bls-eservices-limited",
+          "status": "verified_offer",
+          "source_sha256": "1216144f010586fa9e1a163f8bea362d8b1fc6dc668784101e6aaa82ede3eeae"
+        },
+        {
+          "provider": "a2zipo",
+          "status": "no_identity_candidate"
+        }
+      ]
+    },
+    {
+      "ipo_id": 497,
+      "company_name": "Nova AgriTech Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "status": "no_matching_history_page"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/nova-agri-tech-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "ad4d089e18ef72e3cf0956a30e3a7f31eba1d2ad701e2504b3e9df2b8b1d10b6"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/nova-agritech-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "23d6d892148611c69bef5ed5f2a7ec601d5610d31a5af2de0ba8b75ed2594677"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/nova-agritech-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "c2b21999365f193c6a924b405ede8e8f9f9e08b21128f7a991b273809c4c4d9a"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/nova-agritech-limited",
+          "status": "verified_offer",
+          "source_sha256": "f6803e13db7720a9013ac2b346da59f29d06630b1c8276c62b0ad53dc4015ac3"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/eldorado-agritech-ipo/679",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "72e87f7f4a2ea02a3849147532ed2c8c1b16ed6d56a93c3b00d26b7d0d913c75",
+          "identity_url": "https://www.a2zipo.com/ipo/eldorado-agritech-ipo/679",
+          "identity_sha256": "709ea3ae4b8710d7a2f89e5f1a79cd8c5c46bf85dff68978280044dede20ac53"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/unisem-agritech-ipo/828",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "e595f76806618e7f0eb287550597fa7023cc034fb85fbd85c8143f19b89ea74e",
+          "identity_url": "https://www.a2zipo.com/ipo/unisem-agritech-ipo/828",
+          "identity_sha256": "40cf5104d81710a7663f6cbe48f88e743a901e94e91c2b10892ce73d8a4a932a"
+        }
+      ]
+    },
+    {
+      "ipo_id": 499,
+      "company_name": "Medi Assist Healthcare Services Ltd.",
+      "bid_rows": 4,
+      "providers": [
+        {
+          "provider": "top10stockbroker",
+          "url": "https://top10stockbroker.com/ipo-grey-market-premium/medi-assist-healthcare-ipo-gmp/",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "235f8fef30bd93e99e6790ef508b825aae8c1c8e36c104174d4c0cafdea0f5d8"
+        },
+        {
+          "provider": "ipoji",
+          "url": "https://www.ipoji.com/ipo/medi-assist-healthcare-services-limited-ipo",
+          "status": "verified_offer_no_public_gmp_rows",
+          "source_sha256": "936df1fa9ec988dade6630387e6e4a5a6afda3d5ad81acf30f9e7f0c1cd03bb6"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/medi-assist-healthcare-ipo-gmp-grey-market-premium-today/",
+          "status": "verified_offer",
+          "source_sha256": "9e3b4e24ddb510b4e8fdd0b8cf073a95ee1503d45ebafcf878e9922b24b1d011"
+        },
+        {
+          "provider": "ipowala",
+          "url": "https://ipowala.in/medi-assist-healthcare-ipo-date-price-gmp-review-details/",
+          "status": "verified_offer",
+          "source_sha256": "91a429ccc2102870e7a6df72a727b4cc8677f5a3a84ea5dc9dc970d9b4b669ef"
+        },
+        {
+          "provider": "top10stock",
+          "url": "https://www.top10stock.com/ipo/main/medi-assist-healthcare-services-limited",
+          "status": "verified_offer",
+          "source_sha256": "382d86010c5ac2e5aa5145e640b3f40e1feee669f08c55255c3a13a849151832"
+        },
+        {
+          "provider": "a2zipo",
+          "url": "https://www.a2zipo.com/gmp/yashoda-healthcare-services-ipo/1015",
+          "status": "identity_or_dates_rejected",
+          "source_sha256": "bbc370bdc554f06da2f4d851d968536a54819398d1862f64796cb0ba05b45516",
+          "identity_url": "https://www.a2zipo.com/ipo/yashoda-healthcare-services-ipo/1015",
+          "identity_sha256": "d515736a471436f9eb1cc1ea10c9e234ed7812cab1204b740da9e8471f598814"
+        }
+      ]
+    }
+  ]
+}

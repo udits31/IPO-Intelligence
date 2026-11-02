@@ -1,0 +1,839 @@
+{
+  "protocol": "Fixed logistic C=0.5, fixed cutoff=0.5; paired training/test identities for all variants; earlier-year matured labels only.",
+  "live_promoted": false,
+  "stage": "penultimate_session",
+  "selected_by": "lowest pooled 2022/2023 Brier score; lexical tie break",
+  "selected_variant": "bids_all_facts_gmp",
+  "development": {
+    "bids": {
+      "sample_size": 40,
+      "positive_listings": 31,
+      "nonpositive_listings": 9,
+      "threshold": 0.5,
+      "roc_auc": 0.6918,
+      "brier_score": 0.1646,
+      "classifier_accuracy_pct": 77.5,
+      "always_positive_baseline_pct": 77.5,
+      "balanced_accuracy_pct": 50.0,
+      "negative_recall_pct": 0.0,
+      "positive_recall_pct": 100.0,
+      "apply_precision_pct": 77.5,
+      "warning_precision_pct": null,
+      "tn": 0,
+      "fp": 9,
+      "fn": 0,
+      "tp": 31
+    },
+    "bids_offer_terms": {
+      "sample_size": 40,
+      "positive_listings": 31,
+      "nonpositive_listings": 9,
+      "threshold": 0.5,
+      "roc_auc": 0.7634,
+      "brier_score": 0.1565,
+      "classifier_accuracy_pct": 77.5,
+      "always_positive_baseline_pct": 77.5,
+      "balanced_accuracy_pct": 53.9,
+      "negative_recall_pct": 11.1,
+      "positive_recall_pct": 96.8,
+      "apply_precision_pct": 78.9,
+      "warning_precision_pct": 50.0,
+      "tn": 1,
+      "fp": 8,
+      "fn": 1,
+      "tp": 30
+    },
+    "bids_all_facts": {
+      "sample_size": 40,
+      "positive_listings": 31,
+      "nonpositive_listings": 9,
+      "threshold": 0.5,
+      "roc_auc": 0.8065,
+      "brier_score": 0.1418,
+      "classifier_accuracy_pct": 80.0,
+      "always_positive_baseline_pct": 77.5,
+      "balanced_accuracy_pct": 55.6,
+      "negative_recall_pct": 11.1,
+      "positive_recall_pct": 100.0,
+      "apply_precision_pct": 79.5,
+      "warning_precision_pct": 100.0,
+      "tn": 1,
+      "fp": 8,
+      "fn": 0,
+      "tp": 31
+    },
+    "gmp_logistic": {
+      "sample_size": 40,
+      "positive_listings": 31,
+      "nonpositive_listings": 9,
+      "threshold": 0.5,
+      "roc_auc": 0.6416,
+      "brier_score": 0.1691,
+      "classifier_accuracy_pct": 77.5,
+      "always_positive_baseline_pct": 77.5,
+      "balanced_accuracy_pct": 50.0,
+      "negative_recall_pct": 0.0,
+      "positive_recall_pct": 100.0,
+      "apply_precision_pct": 77.5,
+      "warning_precision_pct": null,
+      "tn": 0,
+      "fp": 9,
+      "fn": 0,
+      "tp": 31
+    },
+    "bids_gmp": {
+      "sample_size": 40,
+      "positive_listings": 31,
+      "nonpositive_listings": 9,
+      "threshold": 0.5,
+      "roc_auc": 0.6918,
+      "brier_score": 0.1627,
+      "classifier_accuracy_pct": 77.5,
+      "always_positive_baseline_pct": 77.5,
+      "balanced_accuracy_pct": 50.0,
+      "negative_recall_pct": 0.0,
+      "positive_recall_pct": 100.0,
+      "apply_precision_pct": 77.5,
+      "warning_precision_pct": null,
+      "tn": 0,
+      "fp": 9,
+      "fn": 0,
+      "tp": 31
+    },
+    "bids_offer_terms_gmp": {
+      "sample_size": 40,
+      "positive_listings": 31,
+      "nonpositive_listings": 9,
+      "threshold": 0.5,
+      "roc_auc": 0.7599,
+      "brier_score": 0.1532,
+      "classifier_accuracy_pct": 77.5,
+      "always_positive_baseline_pct": 77.5,
+      "balanced_accuracy_pct": 53.9,
+      "negative_recall_pct": 11.1,
+      "positive_recall_pct": 96.8,
+      "apply_precision_pct": 78.9,
+      "warning_precision_pct": 50.0,
+      "tn": 1,
+      "fp": 8,
+      "fn": 1,
+      "tp": 30
+    },
+    "bids_all_facts_gmp": {
+      "sample_size": 40,
+      "positive_listings": 31,
+      "nonpositive_listings": 9,
+      "threshold": 0.5,
+      "roc_auc": 0.8387,
+      "brier_score": 0.1399,
+      "classifier_accuracy_pct": 80.0,
+      "always_positive_baseline_pct": 77.5,
+      "balanced_accuracy_pct": 55.6,
+      "negative_recall_pct": 11.1,
+      "positive_recall_pct": 100.0,
+      "apply_precision_pct": 79.5,
+      "warning_precision_pct": 100.0,
+      "tn": 1,
+      "fp": 8,
+      "fn": 0,
+      "tp": 31
+    }
+  },
+  "results": {
+    "bids": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.7529,
+        "brier_score": 0.1057,
+        "classifier_accuracy_pct": 87.2,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 87.2,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 5,
+        "fn": 0,
+        "tp": 34
+      },
+      "vs_gmp_sign": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      },
+      "vs_gmp_logistic": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      }
+    },
+    "bids_offer_terms": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.7765,
+        "brier_score": 0.1062,
+        "classifier_accuracy_pct": 87.2,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 87.2,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 5,
+        "fn": 0,
+        "tp": 34
+      },
+      "vs_gmp_sign": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      },
+      "vs_gmp_logistic": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      }
+    },
+    "bids_all_facts": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.7706,
+        "brier_score": 0.1432,
+        "classifier_accuracy_pct": 82.1,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 64.1,
+        "negative_recall_pct": 40.0,
+        "positive_recall_pct": 88.2,
+        "apply_precision_pct": 90.9,
+        "warning_precision_pct": 33.3,
+        "tn": 2,
+        "fp": 3,
+        "fn": 4,
+        "tp": 30
+      },
+      "vs_gmp_sign": {
+        "change_pp": -5.128205128205128,
+        "bootstrap_95_pp": [
+          -17.94871794871795,
+          7.6923076923076925
+        ],
+        "corrected_errors": 2,
+        "introduced_errors": 4
+      },
+      "vs_gmp_logistic": {
+        "change_pp": -5.128205128205128,
+        "bootstrap_95_pp": [
+          -17.94871794871795,
+          7.6923076923076925
+        ],
+        "corrected_errors": 2,
+        "introduced_errors": 4
+      }
+    },
+    "gmp_logistic": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.6853,
+        "brier_score": 0.1082,
+        "classifier_accuracy_pct": 87.2,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 87.2,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 5,
+        "fn": 0,
+        "tp": 34
+      },
+      "vs_gmp_sign": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      },
+      "vs_gmp_logistic": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      }
+    },
+    "bids_gmp": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.7529,
+        "brier_score": 0.1061,
+        "classifier_accuracy_pct": 87.2,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 87.2,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 5,
+        "fn": 0,
+        "tp": 34
+      },
+      "vs_gmp_sign": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      },
+      "vs_gmp_logistic": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      }
+    },
+    "bids_offer_terms_gmp": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.7706,
+        "brier_score": 0.1077,
+        "classifier_accuracy_pct": 84.6,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 48.5,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 97.1,
+        "apply_precision_pct": 86.8,
+        "warning_precision_pct": 0.0,
+        "tn": 0,
+        "fp": 5,
+        "fn": 1,
+        "tp": 33
+      },
+      "vs_gmp_sign": {
+        "change_pp": -2.564102564102564,
+        "bootstrap_95_pp": [
+          -7.6923076923076925,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 1
+      },
+      "vs_gmp_logistic": {
+        "change_pp": -2.564102564102564,
+        "bootstrap_95_pp": [
+          -7.6923076923076925,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 1
+      }
+    },
+    "bids_all_facts_gmp": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.7588,
+        "brier_score": 0.1479,
+        "classifier_accuracy_pct": 82.1,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 64.1,
+        "negative_recall_pct": 40.0,
+        "positive_recall_pct": 88.2,
+        "apply_precision_pct": 90.9,
+        "warning_precision_pct": 33.3,
+        "tn": 2,
+        "fp": 3,
+        "fn": 4,
+        "tp": 30
+      },
+      "vs_gmp_sign": {
+        "change_pp": -5.128205128205128,
+        "bootstrap_95_pp": [
+          -17.94871794871795,
+          7.6923076923076925
+        ],
+        "corrected_errors": 2,
+        "introduced_errors": 4
+      },
+      "vs_gmp_logistic": {
+        "change_pp": -5.128205128205128,
+        "bootstrap_95_pp": [
+          -17.94871794871795,
+          7.6923076923076925
+        ],
+        "corrected_errors": 2,
+        "introduced_errors": 4
+      }
+    },
+    "gmp_sign": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.5,
+        "brier_score": 0.1282,
+        "classifier_accuracy_pct": 87.2,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 87.2,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 5,
+        "fn": 0,
+        "tp": 34
+      },
+      "vs_gmp_sign": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      },
+      "vs_gmp_logistic": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      }
+    },
+    "always_positive": {
+      "metrics": {
+        "sample_size": 39,
+        "positive_listings": 34,
+        "nonpositive_listings": 5,
+        "threshold": 0.5,
+        "roc_auc": 0.5,
+        "brier_score": 0.1282,
+        "classifier_accuracy_pct": 87.2,
+        "always_positive_baseline_pct": 87.2,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 87.2,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 5,
+        "fn": 0,
+        "tp": 34
+      },
+      "vs_gmp_sign": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      },
+      "vs_gmp_logistic": {
+        "change_pp": 0.0,
+        "bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "corrected_errors": 0,
+        "introduced_errors": 0
+      }
+    }
+  },
+  "trace": [
+    {
+      "test_year": 2022,
+      "train_n": 23,
+      "test_n": 12,
+      "training_ids": [
+        247,
+        248,
+        252,
+        254,
+        256,
+        257,
+        260,
+        261,
+        265,
+        269,
+        271,
+        272,
+        275,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        285,
+        287,
+        288,
+        289
+      ],
+      "test_ids": [
+        313,
+        316,
+        317,
+        319,
+        325,
+        335,
+        338,
+        339,
+        344,
+        349,
+        350,
+        351
+      ],
+      "latest_training_outcome": "2021-12-31",
+      "first_test_decision": "2022-01-20"
+    },
+    {
+      "test_year": 2023,
+      "train_n": 35,
+      "test_n": 28,
+      "training_ids": [
+        247,
+        248,
+        252,
+        254,
+        256,
+        257,
+        260,
+        261,
+        265,
+        269,
+        271,
+        272,
+        275,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        285,
+        287,
+        288,
+        289,
+        313,
+        316,
+        317,
+        319,
+        325,
+        335,
+        338,
+        339,
+        344,
+        349,
+        350,
+        351
+      ],
+      "test_ids": [
+        353,
+        354,
+        356,
+        357,
+        358,
+        360,
+        364,
+        366,
+        368,
+        372,
+        374,
+        378,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        398,
+        399,
+        403,
+        404,
+        405,
+        406,
+        407
+      ],
+      "latest_training_outcome": "2022-12-30",
+      "first_test_decision": "2023-03-02"
+    },
+    {
+      "test_year": 2024,
+      "train_n": 63,
+      "test_n": 39,
+      "training_ids": [
+        247,
+        248,
+        252,
+        254,
+        256,
+        257,
+        260,
+        261,
+        265,
+        269,
+        271,
+        272,
+        275,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        285,
+        287,
+        288,
+        289,
+        313,
+        316,
+        317,
+        319,
+        325,
+        335,
+        338,
+        339,
+        344,
+        349,
+        350,
+        351,
+        353,
+        354,
+        356,
+        357,
+        358,
+        360,
+        364,
+        366,
+        368,
+        372,
+        374,
+        378,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        398,
+        399,
+        403,
+        404,
+        405,
+        406,
+        407
+      ],
+      "test_ids": [
+        411,
+        413,
+        414,
+        416,
+        418,
+        421,
+        431,
+        434,
+        440,
+        442,
+        444,
+        445,
+        447,
+        449,
+        450,
+        452,
+        453,
+        454,
+        455,
+        456,
+        459,
+        461,
+        462,
+        471,
+        475,
+        476,
+        478,
+        479,
+        482,
+        484,
+        485,
+        486,
+        489,
+        490,
+        492,
+        493,
+        494,
+        495,
+        500
+      ],
+      "latest_training_outcome": "2023-12-28",
+      "first_test_decision": "2024-01-10"
+    }
+  ],
+  "confirmation_n": 39,
+  "confirmation_positive_n": 34,
+  "positive_gmp_n": 39,
+  "same_test_ids_sha256": "2a65c327b782751bdb4f4255ab3d06cdbc661448a0aaa15a8673490112a65031",
+  "coverage": {
+    "all_early_n": 186,
+    "paired_n": 102,
+    "full_2024_n": 75,
+    "paired_2024_n": 39,
+    "unpaired_2024_ids": [
+      412,
+      415,
+      417,
+      419,
+      422,
+      423,
+      424,
+      425,
+      427,
+      428,
+      435,
+      436,
+      437,
+      438,
+      441,
+      446,
+      448,
+      451,
+      457,
+      458,
+      460,
+      463,
+      464,
+      465,
+      466,
+      467,
+      469,
+      470,
+      472,
+      480,
+      481,
+      483,
+      488,
+      496,
+      497,
+      499
+    ],
+    "paired_2024_financial_observed": 29,
+    "paired_2024_offer_observed": 22
+  },
+  "selected_error_counts": {
+    "both_correct": 30,
+    "introduced_error": 4,
+    "both_wrong": 3,
+    "corrected_gmp_error": 2
+  },
+  "previous_model_diagnosis": {
+    "stage_plus_offer_terms": {
+      "corrected_gmp_errors": 0,
+      "introduced_errors": 1
+    },
+    "stage_plus_dated_fundamentals": {
+      "corrected_gmp_errors": 2,
+      "introduced_errors": 5
+    }
+  },
+  "offer_data_correction": "Systematic offer-placeholder spillover fix and amount/share consistency guard; corrected across issuers, not chosen by outcomes.",
+  "limitations": [
+    "All 2024 outcomes have been inspected before; this is retrospective, not new blind or prospective validation.",
+    "Only IPOs with a genuine preceding-date GMP are in this paired experiment. No missing GMP is replaced with zero.",
+    "Daily source dates are not verified intraday publication clocks; later historical revisions remain possible.",
+    "GMP-sign is a hard direction baseline; its 0/1 Brier score is not a calibrated market probability.",
+    "Direction accuracy does not establish return ranking, allotment-adjusted profit or a tradable edge."
+  ],
+  "input_sha256": {
+    "ml/model_bundle.json": "223a2861acc31952c5404cbe9eb0621f2241775404a4912a26fba0d579eacb2f",
+    "output/module1_stage_fundamental_challenger_all_20261024.json": "cb78165fcd32dec048b9f2e536fd1accdeda4d7d7f695858c058c6db1625404e",
+    "data/audit/ipo_dated_fundamentals_all_20261024.json": "45e367c12c3a8072feeef34c3545d1587d72225e8e0a748f993d8f60a76c6085",
+    "data/preclose_gmp_history.csv": "ec2bba1fd8a37ae0cab722a149c1ce577901a965b9d7bbf2d25a85c513e06f23",
+    "data/daywise_subscription_research_cohort.csv": "ce56c335987aec0e966e6be9612f98f133e8cbbb450b376740755c03501e65b7",
+    "data/canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "data/nse_verified_offer_dates.csv": "ff425f82473ad28f635750bbf1914929b227e869d5b3b449ed090a75e065b653",
+    "data/raw_daily_market_time_series.csv": "814ce05cebceaf5bcfd985081a8acd2803d77559206b9894ded1d1cdd461528f",
+    "data/audit/module1_exchange_listing_open_audit.csv": "0dfb32b9c6d34378814f2fcb8d57dfc5e48f652b5f25697c2062ef931084417b",
+    "ml/model_pipeline.py": "20756469ef7a8104f6546deeba03fba4f50c1560f82c9766e505d685c7c0e61f",
+    "ml/return_pipeline.py": "5661bf9b09dc4b8083216a7b12de7177bc75647d82ffbf1a9aa986cd07361213",
+    "ml/research_module1_stage_transfer.py": "6d4d791015f243d48b29eb2bac4e607036d2ade09164758e353ccc5b8b994265",
+    "ml/train_stage_fundamental_challenger.py": "73e10542975e795338fadeb7ffe8081dcc9cb54d8f8cab4ad5488ef788b5da14",
+    "services/dated_ipo_fundamentals.py": "dcdc82699b743d1e14d5c61bf0637de89350bb061a5afe3111c62096fad19ff5",
+    "ml/research_module1_gmp_fundamentals.py": "3fd36bc1092c292f633c1487710b6b4c16f0c105179164b03f93ebe563fab4cd"
+  },
+  "selected_training": {
+    "n": 63,
+    "positive_n": 51,
+    "features": [
+      "log_qib",
+      "log_retail",
+      "log_hni",
+      "log_offer_cap_price",
+      "log_issue_size",
+      "earnings_yield_pct",
+      "eps_growth_asinh",
+      "loss_making",
+      "ofs_ratio",
+      "gmp_pct"
+    ],
+    "transformed_feature_count": 14
+  },
+  "artifact_sha256": "c18b6d9409556a60db0299fab82a834ad660208a9b360980a5a3ad61f5916b53"
+}

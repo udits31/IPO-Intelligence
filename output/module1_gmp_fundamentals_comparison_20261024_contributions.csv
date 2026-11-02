@@ -1,0 +1,547 @@
+ipo_id,company_name,feature,log_odds_contribution,intercept
+500,Jyoti CNC Automation Ltd.,log_qib,-0.45840176988938564,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,log_retail,0.16822393516459244,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,log_hni,0.2552454476706917,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,log_offer_cap_price,0.014388888376800245,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,log_issue_size,0.060353120698307526,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,earnings_yield_pct,1.8290632989618625,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,loss_making,0.0,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,gmp_pct,-0.08596962642027971,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+500,Jyoti CNC Automation Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,log_qib,0.3910565381729002,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,log_retail,0.20416680017056868,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,log_hni,0.4465367556345645,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,log_offer_cap_price,-0.08794361126379201,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,log_issue_size,0.03305728430045308,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,loss_making,0.0,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,ofs_ratio,-0.29715815391764766,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,gmp_pct,0.18159047788986457,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+495,Apeejay Surrendra Park Hotels Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+492,Rashi Peripherals Ltd.,log_qib,0.0091821259047923,2.1352046288953908
+492,Rashi Peripherals Ltd.,log_retail,-0.05565865293435072,2.1352046288953908
+492,Rashi Peripherals Ltd.,log_hni,0.21776004794636294,2.1352046288953908
+492,Rashi Peripherals Ltd.,log_offer_cap_price,0.0059706736634322684,2.1352046288953908
+492,Rashi Peripherals Ltd.,log_issue_size,-0.10682717361935049,2.1352046288953908
+492,Rashi Peripherals Ltd.,earnings_yield_pct,-4.654286677290883,2.1352046288953908
+492,Rashi Peripherals Ltd.,eps_growth_asinh,0.24793794248508327,2.1352046288953908
+492,Rashi Peripherals Ltd.,loss_making,0.0,2.1352046288953908
+492,Rashi Peripherals Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+492,Rashi Peripherals Ltd.,gmp_pct,-0.18663339865235495,2.1352046288953908
+492,Rashi Peripherals Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+492,Rashi Peripherals Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+492,Rashi Peripherals Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+492,Rashi Peripherals Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,log_qib,-0.5115601993644573,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,log_retail,-0.12441262206751001,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,log_hni,-0.02900214131447089,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,log_offer_cap_price,0.04462253520613047,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,log_issue_size,-0.12360738132022238,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,earnings_yield_pct,-5.229326855027608,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,eps_growth_asinh,-0.7725341054558597,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,loss_making,0.0,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,ofs_ratio,-0.4823820037271141,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,gmp_pct,-0.2776574013309833,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+493,Jana Small Finance Bank Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,log_qib,0.2478132964066458,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,log_retail,-0.20281919926477884,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,log_hni,-0.3457281459956486,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,log_offer_cap_price,0.06119620761311661,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,log_issue_size,-0.15171238009567212,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,earnings_yield_pct,-2.0606085774565686,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,eps_growth_asinh,0.01811787739737367,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,loss_making,0.0,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,ofs_ratio,-0.540602008120989,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,gmp_pct,-0.3788345667963936,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+494,Capital Small Finance Bank Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,log_qib,2.3253262551495366,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,log_retail,0.6245288965244793,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,log_hni,1.8642939616264231,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,log_offer_cap_price,-0.0914630214260441,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,log_issue_size,-0.7969046944099606,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,loss_making,0.0,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,gmp_pct,0.7392746187852273,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+490,Vibhor Steel Tubes Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+489,Juniper Hotels Ltd.,log_qib,-0.6731016441913842,2.1352046288953908
+489,Juniper Hotels Ltd.,log_retail,-0.25147095124692304,2.1352046288953908
+489,Juniper Hotels Ltd.,log_hni,-0.6146521418447448,2.1352046288953908
+489,Juniper Hotels Ltd.,log_offer_cap_price,0.02573519864001921,2.1352046288953908
+489,Juniper Hotels Ltd.,log_issue_size,0.2528263308707543,2.1352046288953908
+489,Juniper Hotels Ltd.,earnings_yield_pct,2.0663842919997837,2.1352046288953908
+489,Juniper Hotels Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+489,Juniper Hotels Ltd.,loss_making,0.0,2.1352046288953908
+489,Juniper Hotels Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+489,Juniper Hotels Ltd.,gmp_pct,-0.5073446680069369,2.1352046288953908
+489,Juniper Hotels Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+489,Juniper Hotels Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+489,Juniper Hotels Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+489,Juniper Hotels Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+486,Platinum Industries Ltd.,log_qib,0.08684311752047467,2.1352046288953908
+486,Platinum Industries Ltd.,log_retail,0.3354759951307219,2.1352046288953908
+486,Platinum Industries Ltd.,log_hni,1.038876033790095,2.1352046288953908
+486,Platinum Industries Ltd.,log_offer_cap_price,-0.07471460693735707,2.1352046288953908
+486,Platinum Industries Ltd.,log_issue_size,-0.4127066839465941,2.1352046288953908
+486,Platinum Industries Ltd.,earnings_yield_pct,0.807375783119893,2.1352046288953908
+486,Platinum Industries Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+486,Platinum Industries Ltd.,loss_making,0.0,2.1352046288953908
+486,Platinum Industries Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+486,Platinum Industries Ltd.,gmp_pct,0.39807571790461566,2.1352046288953908
+486,Platinum Industries Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+486,Platinum Industries Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+486,Platinum Industries Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+486,Platinum Industries Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+485,Mukka Proteins Ltd.,log_qib,0.6194011894274318,2.1352046288953908
+485,Mukka Proteins Ltd.,log_retail,0.14342665674688165,2.1352046288953908
+485,Mukka Proteins Ltd.,log_hni,0.22090053807914997,2.1352046288953908
+485,Mukka Proteins Ltd.,log_offer_cap_price,-0.3159131397080018,2.1352046288953908
+485,Mukka Proteins Ltd.,log_issue_size,-0.4287923905238268,2.1352046288953908
+485,Mukka Proteins Ltd.,earnings_yield_pct,-5.522340029718185,2.1352046288953908
+485,Mukka Proteins Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+485,Mukka Proteins Ltd.,loss_making,0.0,2.1352046288953908
+485,Mukka Proteins Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+485,Mukka Proteins Ltd.,gmp_pct,0.43440117020777874,2.1352046288953908
+485,Mukka Proteins Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+485,Mukka Proteins Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+485,Mukka Proteins Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+485,Mukka Proteins Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+484,R K SWAMY Ltd.,log_qib,-0.33903269364274957,2.1352046288953908
+484,R K SWAMY Ltd.,log_retail,0.2652838915683239,2.1352046288953908
+484,R K SWAMY Ltd.,log_hni,0.3996539141720664,2.1352046288953908
+484,R K SWAMY Ltd.,log_offer_cap_price,-0.004404651250201019,2.1352046288953908
+484,R K SWAMY Ltd.,log_issue_size,-0.22071717673115088,2.1352046288953908
+484,R K SWAMY Ltd.,earnings_yield_pct,0.3223373327649144,2.1352046288953908
+484,R K SWAMY Ltd.,eps_growth_asinh,-0.014811489672309235,2.1352046288953908
+484,R K SWAMY Ltd.,loss_making,0.0,2.1352046288953908
+484,R K SWAMY Ltd.,ofs_ratio,-0.012074316662929109,2.1352046288953908
+484,R K SWAMY Ltd.,gmp_pct,-0.04453464135004751,2.1352046288953908
+484,R K SWAMY Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+484,R K SWAMY Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+484,R K SWAMY Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+484,R K SWAMY Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+482,Gopal Snacks Ltd.,log_qib,-0.6248664746111768,2.1352046288953908
+482,Gopal Snacks Ltd.,log_retail,-0.1435384381426111,2.1352046288953908
+482,Gopal Snacks Ltd.,log_hni,-0.22566166677493008,2.1352046288953908
+482,Gopal Snacks Ltd.,log_offer_cap_price,0.04031038239007017,2.1352046288953908
+482,Gopal Snacks Ltd.,log_issue_size,-0.0806389808679135,2.1352046288953908
+482,Gopal Snacks Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+482,Gopal Snacks Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+482,Gopal Snacks Ltd.,loss_making,0.0,2.1352046288953908
+482,Gopal Snacks Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+482,Gopal Snacks Ltd.,gmp_pct,-0.2687473937569646,2.1352046288953908
+482,Gopal Snacks Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+482,Gopal Snacks Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+482,Gopal Snacks Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+482,Gopal Snacks Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+479,SRM Contractors Ltd.,log_qib,0.848446136848918,2.1352046288953908
+479,SRM Contractors Ltd.,log_retail,0.2093635086893914,2.1352046288953908
+479,SRM Contractors Ltd.,log_hni,1.0662113350166325,2.1352046288953908
+479,SRM Contractors Ltd.,log_offer_cap_price,-0.04702544189584636,2.1352046288953908
+479,SRM Contractors Ltd.,log_issue_size,-0.6055473711766242,2.1352046288953908
+479,SRM Contractors Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+479,SRM Contractors Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+479,SRM Contractors Ltd.,loss_making,0.0,2.1352046288953908
+479,SRM Contractors Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+479,SRM Contractors Ltd.,gmp_pct,-0.049372376820328585,2.1352046288953908
+479,SRM Contractors Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+479,SRM Contractors Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+479,SRM Contractors Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+479,SRM Contractors Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+478,Bharti Hexacom Ltd.,log_qib,0.030825848936531827,2.1352046288953908
+478,Bharti Hexacom Ltd.,log_retail,-0.22633837082470637,2.1352046288953908
+478,Bharti Hexacom Ltd.,log_hni,-0.22399021364016694,2.1352046288953908
+478,Bharti Hexacom Ltd.,log_offer_cap_price,0.0878587382096569,2.1352046288953908
+478,Bharti Hexacom Ltd.,log_issue_size,0.5361821799035265,2.1352046288953908
+478,Bharti Hexacom Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+478,Bharti Hexacom Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+478,Bharti Hexacom Ltd.,loss_making,0.0,2.1352046288953908
+478,Bharti Hexacom Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+478,Bharti Hexacom Ltd.,gmp_pct,-0.40991097818443395,2.1352046288953908
+478,Bharti Hexacom Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+478,Bharti Hexacom Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+478,Bharti Hexacom Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+478,Bharti Hexacom Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+476,JNK India Ltd.,log_qib,-0.08118017588656253,2.1352046288953908
+476,JNK India Ltd.,log_retail,-0.22530730354734976,2.1352046288953908
+476,JNK India Ltd.,log_hni,-0.3040659707533722,2.1352046288953908
+476,JNK India Ltd.,log_offer_cap_price,0.04494862362618822,2.1352046288953908
+476,JNK India Ltd.,log_issue_size,-0.08090588207700472,2.1352046288953908
+476,JNK India Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+476,JNK India Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+476,JNK India Ltd.,loss_making,0.0,2.1352046288953908
+476,JNK India Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+476,JNK India Ltd.,gmp_pct,-0.49374460845192997,2.1352046288953908
+476,JNK India Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+476,JNK India Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+476,JNK India Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+476,JNK India Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+475,Indegene Ltd.,log_qib,1.6784269779266274,2.1352046288953908
+475,Indegene Ltd.,log_retail,-0.04167334938749013,2.1352046288953908
+475,Indegene Ltd.,log_hni,0.6684967222558408,2.1352046288953908
+475,Indegene Ltd.,log_offer_cap_price,0.05649327394378545,2.1352046288953908
+475,Indegene Ltd.,log_issue_size,0.26033803633588876,2.1352046288953908
+475,Indegene Ltd.,earnings_yield_pct,0.1759201372402366,2.1352046288953908
+475,Indegene Ltd.,eps_growth_asinh,-0.010118678213576735,2.1352046288953908
+475,Indegene Ltd.,loss_making,0.0,2.1352046288953908
+475,Indegene Ltd.,ofs_ratio,-0.01699411733379446,2.1352046288953908
+475,Indegene Ltd.,gmp_pct,0.3825132464026403,2.1352046288953908
+475,Indegene Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+475,Indegene Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+475,Indegene Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+475,Indegene Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+471,Awfis Space Solutions Ltd.,log_qib,1.177404085212423,2.1352046288953908
+471,Awfis Space Solutions Ltd.,log_retail,0.2938744100429569,2.1352046288953908
+471,Awfis Space Solutions Ltd.,log_hni,0.725254436593239,2.1352046288953908
+471,Awfis Space Solutions Ltd.,log_offer_cap_price,0.034103663326809336,2.1352046288953908
+471,Awfis Space Solutions Ltd.,log_issue_size,-0.10741112273891298,2.1352046288953908
+471,Awfis Space Solutions Ltd.,earnings_yield_pct,3.5426626932934213,2.1352046288953908
+471,Awfis Space Solutions Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+471,Awfis Space Solutions Ltd.,loss_making,0.0,2.1352046288953908
+471,Awfis Space Solutions Ltd.,ofs_ratio,0.21569054371526364,2.1352046288953908
+471,Awfis Space Solutions Ltd.,gmp_pct,0.08411375490272734,2.1352046288953908
+471,Awfis Space Solutions Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+471,Awfis Space Solutions Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+471,Awfis Space Solutions Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+471,Awfis Space Solutions Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,log_qib,0.13395629131831996,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,log_retail,-0.06003100385720653,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,log_hni,0.5505319016477982,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,log_offer_cap_price,0.16499650620733414,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,log_issue_size,0.27938326642142997,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,earnings_yield_pct,0.11664001207556975,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,eps_growth_asinh,0.17439997252640532,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,loss_making,0.0,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,ofs_ratio,-0.013697436520987184,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,gmp_pct,-0.07678621115192134,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+462,Emcure Pharmaceuticals Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+461,Sanstar Ltd.,log_qib,0.32996129280248376,2.1352046288953908
+461,Sanstar Ltd.,log_retail,0.17924116159890427,2.1352046288953908
+461,Sanstar Ltd.,log_hni,0.9209801270378302,2.1352046288953908
+461,Sanstar Ltd.,log_offer_cap_price,-0.1537249065276392,2.1352046288953908
+461,Sanstar Ltd.,log_issue_size,-0.1598925291917982,2.1352046288953908
+461,Sanstar Ltd.,earnings_yield_pct,-0.18413214840159628,2.1352046288953908
+461,Sanstar Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+461,Sanstar Ltd.,loss_making,0.0,2.1352046288953908
+461,Sanstar Ltd.,ofs_ratio,-0.4447986450861402,2.1352046288953908
+461,Sanstar Ltd.,gmp_pct,0.13191539448704634,2.1352046288953908
+461,Sanstar Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+461,Sanstar Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+461,Sanstar Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+461,Sanstar Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+459,Ceigall India Ltd.,log_qib,-0.7360221289048776,2.1352046288953908
+459,Ceigall India Ltd.,log_retail,-0.17487957298508966,2.1352046288953908
+459,Ceigall India Ltd.,log_hni,-0.20921787450919063,2.1352046288953908
+459,Ceigall India Ltd.,log_offer_cap_price,0.04031038239007017,2.1352046288953908
+459,Ceigall India Ltd.,log_issue_size,0.13410823269466798,2.1352046288953908
+459,Ceigall India Ltd.,earnings_yield_pct,-1.3656894025828625,2.1352046288953908
+459,Ceigall India Ltd.,eps_growth_asinh,-0.06070902444436681,2.1352046288953908
+459,Ceigall India Ltd.,loss_making,0.0,2.1352046288953908
+459,Ceigall India Ltd.,ofs_ratio,-0.17324846022402943,2.1352046288953908
+459,Ceigall India Ltd.,gmp_pct,-0.18767611605050874,2.1352046288953908
+459,Ceigall India Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+459,Ceigall India Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+459,Ceigall India Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+459,Ceigall India Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,log_qib,0.016436744618166958,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,log_retail,0.40744099063084804,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,log_hni,0.6936953382514819,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,log_offer_cap_price,-0.1365177599383799,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,log_issue_size,-0.3599839440321167,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,earnings_yield_pct,1.2879817110379483,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,eps_growth_asinh,-0.09958106066970288,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,loss_making,0.0,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,gmp_pct,0.04953243723875118,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+456,Unicommerce eSolutions Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,log_qib,0.34690991415253297,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,log_retail,0.28693313498553713,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,log_hni,1.166812398819097,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,log_offer_cap_price,-0.08366913458639952,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,log_issue_size,-0.5384525275084711,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,earnings_yield_pct,0.722168070254765,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,loss_making,0.0,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,ofs_ratio,-0.2945311948155487,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,gmp_pct,-0.19692330866390137,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+455,Saraswati Saree Depot Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+454,Interarch Building Products Ltd.,log_qib,0.39647110186195994,2.1352046288953908
+454,Interarch Building Products Ltd.,log_retail,0.08025787502480099,2.1352046288953908
+454,Interarch Building Products Ltd.,log_hni,0.9012882585482569,2.1352046288953908
+454,Interarch Building Products Ltd.,log_offer_cap_price,0.1496577524574971,2.1352046288953908
+454,Interarch Building Products Ltd.,log_issue_size,-0.10666908610146136,2.1352046288953908
+454,Interarch Building Products Ltd.,earnings_yield_pct,1.8112775637854008,2.1352046288953908
+454,Interarch Building Products Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+454,Interarch Building Products Ltd.,loss_making,0.0,2.1352046288953908
+454,Interarch Building Products Ltd.,ofs_ratio,0.07596471956477746,2.1352046288953908
+454,Interarch Building Products Ltd.,gmp_pct,0.007390386030969329,2.1352046288953908
+454,Interarch Building Products Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+454,Interarch Building Products Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+454,Interarch Building Products Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+454,Interarch Building Products Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+453,Orient Technologies Ltd.,log_qib,-0.5557068233848247,2.1352046288953908
+453,Orient Technologies Ltd.,log_retail,0.3332965308083462,2.1352046288953908
+453,Orient Technologies Ltd.,log_hni,0.7390500152185872,2.1352046288953908
+453,Orient Technologies Ltd.,log_offer_cap_price,-0.04961862484497776,2.1352046288953908
+453,Orient Technologies Ltd.,log_issue_size,-0.4425341467342697,2.1352046288953908
+453,Orient Technologies Ltd.,earnings_yield_pct,-1.9998912123165566,2.1352046288953908
+453,Orient Technologies Ltd.,eps_growth_asinh,0.1331278264946448,2.1352046288953908
+453,Orient Technologies Ltd.,loss_making,0.0,2.1352046288953908
+453,Orient Technologies Ltd.,ofs_ratio,-0.18789899656867554,2.1352046288953908
+453,Orient Technologies Ltd.,gmp_pct,-0.3157766058245447,2.1352046288953908
+453,Orient Technologies Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+453,Orient Technologies Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+453,Orient Technologies Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+453,Orient Technologies Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+452,Premier Energies Ltd.,log_qib,0.3746764392903267,2.1352046288953908
+452,Premier Energies Ltd.,log_retail,-0.024292926996427027,2.1352046288953908
+452,Premier Energies Ltd.,log_hni,0.6888109572978129,2.1352046288953908
+452,Premier Energies Ltd.,log_offer_cap_price,0.05589376113762296,2.1352046288953908
+452,Premier Energies Ltd.,log_issue_size,0.40108819702297527,2.1352046288953908
+452,Premier Energies Ltd.,earnings_yield_pct,1.1864623156049423,2.1352046288953908
+452,Premier Energies Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+452,Premier Energies Ltd.,loss_making,0.0,2.1352046288953908
+452,Premier Energies Ltd.,ofs_ratio,-0.06800521128224263,2.1352046288953908
+452,Premier Energies Ltd.,gmp_pct,0.6395211541476964,2.1352046288953908
+452,Premier Energies Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+452,Premier Energies Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+452,Premier Energies Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+452,Premier Energies Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+450,Baazar Style Retail Ltd.,log_qib,0.04505769213628662,2.1352046288953908
+450,Baazar Style Retail Ltd.,log_retail,-0.049023006467422574,2.1352046288953908
+450,Baazar Style Retail Ltd.,log_hni,0.47315149010121954,2.1352046288953908
+450,Baazar Style Retail Ltd.,log_offer_cap_price,0.036204320492762496,2.1352046288953908
+450,Baazar Style Retail Ltd.,log_issue_size,0.0011999934948445589,2.1352046288953908
+450,Baazar Style Retail Ltd.,earnings_yield_pct,1.4765161937180395,2.1352046288953908
+450,Baazar Style Retail Ltd.,eps_growth_asinh,-0.3830253535851714,2.1352046288953908
+450,Baazar Style Retail Ltd.,loss_making,0.0,2.1352046288953908
+450,Baazar Style Retail Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+450,Baazar Style Retail Ltd.,gmp_pct,-0.030170670994842767,2.1352046288953908
+450,Baazar Style Retail Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+450,Baazar Style Retail Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+450,Baazar Style Retail Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+450,Baazar Style Retail Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+449,Gala Precision Engineering Ltd.,log_qib,1.5972082901524616,2.1352046288953908
+449,Gala Precision Engineering Ltd.,log_retail,0.45303099038457423,2.1352046288953908
+449,Gala Precision Engineering Ltd.,log_hni,1.544491157721865,2.1352046288953908
+449,Gala Precision Engineering Ltd.,log_offer_cap_price,0.07776310416587416,2.1352046288953908
+449,Gala Precision Engineering Ltd.,log_issue_size,-0.5227169583330139,2.1352046288953908
+449,Gala Precision Engineering Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+449,Gala Precision Engineering Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+449,Gala Precision Engineering Ltd.,loss_making,0.0,2.1352046288953908
+449,Gala Precision Engineering Ltd.,ofs_ratio,-0.4770229720422554,2.1352046288953908
+449,Gala Precision Engineering Ltd.,gmp_pct,0.18496057911631084,2.1352046288953908
+449,Gala Precision Engineering Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+449,Gala Precision Engineering Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+449,Gala Precision Engineering Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+449,Gala Precision Engineering Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,log_qib,2.09916035212783,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,log_retail,-0.032814025242229435,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,log_hni,0.6460055051897522,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,log_offer_cap_price,-0.19459784784391365,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,log_issue_size,0.676479520935352,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,earnings_yield_pct,-0.5771942212547582,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,eps_growth_asinh,0.051380370382961005,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,loss_making,0.0,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,ofs_ratio,-0.16909038153447728,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,gmp_pct,0.7246652984246433,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+445,Bajaj Housing Finance Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+447,Tolins Tyres Ltd.,log_qib,-0.23846197898834984,2.1352046288953908
+447,Tolins Tyres Ltd.,log_retail,0.11418172913712524,2.1352046288953908
+447,Tolins Tyres Ltd.,log_hni,0.07958315368915571,2.1352046288953908
+447,Tolins Tyres Ltd.,log_offer_cap_price,-0.037122246423277994,2.1352046288953908
+447,Tolins Tyres Ltd.,log_issue_size,-0.42016816148039,2.1352046288953908
+447,Tolins Tyres Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+447,Tolins Tyres Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+447,Tolins Tyres Ltd.,loss_making,0.0,2.1352046288953908
+447,Tolins Tyres Ltd.,ofs_ratio,-0.5514331499326589,2.1352046288953908
+447,Tolins Tyres Ltd.,gmp_pct,-0.3367253013913602,2.1352046288953908
+447,Tolins Tyres Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+447,Tolins Tyres Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+447,Tolins Tyres Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+447,Tolins Tyres Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,log_qib,-0.6248664746111768,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,log_retail,0.06871146038377622,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,log_hni,0.608433561966407,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,log_offer_cap_price,0.06461928668483148,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,log_issue_size,0.09155667456284523,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,loss_making,0.0,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,ofs_ratio,-0.4381651971623357,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,gmp_pct,0.2602426932776602,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+444,P N Gadgil Jewellers Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+442,Arkade Developers Ltd.,log_qib,-0.09686953062855255,2.1352046288953908
+442,Arkade Developers Ltd.,log_retail,0.4058034087576872,2.1352046288953908
+442,Arkade Developers Ltd.,log_hni,1.2049466316822761,2.1352046288953908
+442,Arkade Developers Ltd.,log_offer_cap_price,-0.11369255690011303,2.1352046288953908
+442,Arkade Developers Ltd.,log_issue_size,-0.2313544174770599,2.1352046288953908
+442,Arkade Developers Ltd.,earnings_yield_pct,-2.412701147610443,2.1352046288953908
+442,Arkade Developers Ltd.,eps_growth_asinh,-0.17717420875068046,2.1352046288953908
+442,Arkade Developers Ltd.,loss_making,0.0,2.1352046288953908
+442,Arkade Developers Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+442,Arkade Developers Ltd.,gmp_pct,0.5269228610769044,2.1352046288953908
+442,Arkade Developers Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+442,Arkade Developers Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+442,Arkade Developers Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+442,Arkade Developers Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+440,Manba Finance Ltd.,log_qib,1.3853231978914264,2.1352046288953908
+440,Manba Finance Ltd.,log_retail,0.5553898910793924,2.1352046288953908
+440,Manba Finance Ltd.,log_hni,1.6614783570479283,2.1352046288953908
+440,Manba Finance Ltd.,log_offer_cap_price,-0.12236685761754952,2.1352046288953908
+440,Manba Finance Ltd.,log_issue_size,-0.5576686786486378,2.1352046288953908
+440,Manba Finance Ltd.,earnings_yield_pct,0.2806371944991018,2.1352046288953908
+440,Manba Finance Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+440,Manba Finance Ltd.,loss_making,0.0,2.1352046288953908
+440,Manba Finance Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+440,Manba Finance Ltd.,gmp_pct,0.2602426932776602,2.1352046288953908
+440,Manba Finance Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+440,Manba Finance Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+440,Manba Finance Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+440,Manba Finance Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+434,Waaree Energies Ltd.,log_qib,0.601060031419911,2.1352046288953908
+434,Waaree Energies Ltd.,log_retail,0.056535070208979306,2.1352046288953908
+434,Waaree Energies Ltd.,log_hni,0.795531448307937,2.1352046288953908
+434,Waaree Energies Ltd.,log_offer_cap_price,0.21907971365070536,2.1352046288953908
+434,Waaree Energies Ltd.,log_issue_size,0.5397220357627629,2.1352046288953908
+434,Waaree Energies Ltd.,earnings_yield_pct,-0.2027847676722352,2.1352046288953908
+434,Waaree Energies Ltd.,eps_growth_asinh,-0.1420721287644778,2.1352046288953908
+434,Waaree Energies Ltd.,loss_making,0.0,2.1352046288953908
+434,Waaree Energies Ltd.,ofs_ratio,-0.5087291852570289,2.1352046288953908
+434,Waaree Energies Ltd.,gmp_pct,1.0805526806455599,2.1352046288953908
+434,Waaree Energies Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+434,Waaree Energies Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+434,Waaree Energies Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+434,Waaree Energies Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+431,Sagility India Ltd.,log_qib,-0.6608743178188698,2.1352046288953908
+431,Sagility India Ltd.,log_retail,-0.1386011762751926,2.1352046288953908
+431,Sagility India Ltd.,log_hni,-0.5878376499134107,2.1352046288953908
+431,Sagility India Ltd.,log_offer_cap_price,-0.3068771471763769,2.1352046288953908
+431,Sagility India Ltd.,log_issue_size,0.3043125074622991,2.1352046288953908
+431,Sagility India Ltd.,earnings_yield_pct,0.07428071836128433,2.1352046288953908
+431,Sagility India Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+431,Sagility India Ltd.,loss_making,0.0,2.1352046288953908
+431,Sagility India Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+431,Sagility India Ltd.,gmp_pct,-0.38994895392811624,2.1352046288953908
+431,Sagility India Ltd.,missingindicator_earnings_yield_pct,0.005423448919045415,2.1352046288953908
+431,Sagility India Ltd.,missingindicator_eps_growth_asinh,0.005423448919045415,2.1352046288953908
+431,Sagility India Ltd.,missingindicator_loss_making,0.00542344891904535,2.1352046288953908
+431,Sagility India Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+421,Vishal Mega Mart Ltd.,log_qib,-0.2209825126356094,2.1352046288953908
+421,Vishal Mega Mart Ltd.,log_retail,-0.21921895336944341,2.1352046288953908
+421,Vishal Mega Mart Ltd.,log_hni,0.05680081320279084,2.1352046288953908
+421,Vishal Mega Mart Ltd.,log_offer_cap_price,-0.1801318897523977,2.1352046288953908
+421,Vishal Mega Mart Ltd.,log_issue_size,0.7415032582109745,2.1352046288953908
+421,Vishal Mega Mart Ltd.,earnings_yield_pct,1.1319992933920728,2.1352046288953908
+421,Vishal Mega Mart Ltd.,eps_growth_asinh,0.031389204875172334,2.1352046288953908
+421,Vishal Mega Mart Ltd.,loss_making,0.0,2.1352046288953908
+421,Vishal Mega Mart Ltd.,ofs_ratio,0.4656668341273863,2.1352046288953908
+421,Vishal Mega Mart Ltd.,gmp_pct,-0.23990472764986012,2.1352046288953908
+421,Vishal Mega Mart Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+421,Vishal Mega Mart Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+421,Vishal Mega Mart Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+421,Vishal Mega Mart Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+414,Transrail Lighting Ltd.,log_qib,0.3691702970864383,2.1352046288953908
+414,Transrail Lighting Ltd.,log_retail,0.0681596043086994,2.1352046288953908
+414,Transrail Lighting Ltd.,log_hni,0.2882533899197814,2.1352046288953908
+414,Transrail Lighting Ltd.,log_offer_cap_price,0.05037531938862261,2.1352046288953908
+414,Transrail Lighting Ltd.,log_issue_size,0.002854552803985336,2.1352046288953908
+414,Transrail Lighting Ltd.,earnings_yield_pct,-1.1567911010165572,2.1352046288953908
+414,Transrail Lighting Ltd.,eps_growth_asinh,-0.11427655137850519,2.1352046288953908
+414,Transrail Lighting Ltd.,loss_making,0.0,2.1352046288953908
+414,Transrail Lighting Ltd.,ofs_ratio,-0.0920388521276926,2.1352046288953908
+414,Transrail Lighting Ltd.,gmp_pct,-0.04453464135004751,2.1352046288953908
+414,Transrail Lighting Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+414,Transrail Lighting Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+414,Transrail Lighting Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+414,Transrail Lighting Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+416,Sanathan Textiles Ltd.,log_qib,-0.6248664746111768,2.1352046288953908
+416,Sanathan Textiles Ltd.,log_retail,-0.13308915131831178,2.1352046288953908
+416,Sanathan Textiles Ltd.,log_hni,-0.2427237897396202,2.1352046288953908
+416,Sanathan Textiles Ltd.,log_offer_cap_price,0.010245150340824752,2.1352046288953908
+416,Sanathan Textiles Ltd.,log_issue_size,-0.13529139218626285,2.1352046288953908
+416,Sanathan Textiles Ltd.,earnings_yield_pct,-2.0466844309793477,2.1352046288953908
+416,Sanathan Textiles Ltd.,eps_growth_asinh,0.19182530694076105,2.1352046288953908
+416,Sanathan Textiles Ltd.,loss_making,0.0,2.1352046288953908
+416,Sanathan Textiles Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+416,Sanathan Textiles Ltd.,gmp_pct,-0.4005829294665284,2.1352046288953908
+416,Sanathan Textiles Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+416,Sanathan Textiles Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+416,Sanathan Textiles Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+416,Sanathan Textiles Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+418,Mamata Machinery Ltd.,log_qib,1.526563134689465,2.1352046288953908
+418,Mamata Machinery Ltd.,log_retail,0.4860788866650199,2.1352046288953908
+418,Mamata Machinery Ltd.,log_hni,1.1097279411081495,2.1352046288953908
+418,Mamata Machinery Ltd.,log_offer_cap_price,-0.027337425052596172,2.1352046288953908
+418,Mamata Machinery Ltd.,log_issue_size,-0.5012803524863028,2.1352046288953908
+418,Mamata Machinery Ltd.,earnings_yield_pct,1.1746009429426667,2.1352046288953908
+418,Mamata Machinery Ltd.,eps_growth_asinh,0.01640813572386732,2.1352046288953908
+418,Mamata Machinery Ltd.,loss_making,0.0,2.1352046288953908
+418,Mamata Machinery Ltd.,ofs_ratio,0.4656668341273863,2.1352046288953908
+418,Mamata Machinery Ltd.,gmp_pct,0.4508853058842921,2.1352046288953908
+418,Mamata Machinery Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+418,Mamata Machinery Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+418,Mamata Machinery Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+418,Mamata Machinery Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908
+411,Ventive Hospitality Ltd.,log_qib,0.3242623747742509,2.1352046288953908
+411,Ventive Hospitality Ltd.,log_retail,-0.16367593370299768,2.1352046288953908
+411,Ventive Hospitality Ltd.,log_hni,-0.33494856520909144,2.1352046288953908
+411,Ventive Hospitality Ltd.,log_offer_cap_price,0.10415943526804902,2.1352046288953908
+411,Ventive Hospitality Ltd.,log_issue_size,0.2142513628988784,2.1352046288953908
+411,Ventive Hospitality Ltd.,earnings_yield_pct,0.2976666901736592,2.1352046288953908
+411,Ventive Hospitality Ltd.,eps_growth_asinh,0.07351743382757192,2.1352046288953908
+411,Ventive Hospitality Ltd.,loss_making,0.0,2.1352046288953908
+411,Ventive Hospitality Ltd.,ofs_ratio,0.001787053193288425,2.1352046288953908
+411,Ventive Hospitality Ltd.,gmp_pct,-0.4134589940486984,2.1352046288953908
+411,Ventive Hospitality Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+411,Ventive Hospitality Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+411,Ventive Hospitality Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+411,Ventive Hospitality Ltd.,missingindicator_ofs_ratio,-0.22266420445548696,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,log_qib,-0.3485726681134426,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,log_retail,0.4316419704745473,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,log_hni,0.8128409079544362,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,log_offer_cap_price,0.03689736381014627,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,log_issue_size,-0.11673002243510039,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,earnings_yield_pct,-0.15931275228966119,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,eps_growth_asinh,-0.06457489447126859,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,loss_making,0.0,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,ofs_ratio,-0.5390101012190707,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,gmp_pct,0.23737789749996335,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,missingindicator_earnings_yield_pct,-0.008813104493448801,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,missingindicator_eps_growth_asinh,-0.008813104493448801,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,missingindicator_loss_making,-0.008813104493448696,2.1352046288953908
+413,Senores Pharmaceuticals Ltd.,missingindicator_ofs_ratio,0.5156434208442855,2.1352046288953908

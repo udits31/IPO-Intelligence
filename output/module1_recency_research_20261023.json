@@ -1,0 +1,156 @@
+{
+  "selected_half_life_days": 730,
+  "candidates": [
+    {
+      "half_life_days": null,
+      "earlier": {
+        "sample_size": 97,
+        "positive_listings": 73,
+        "nonpositive_listings": 24,
+        "threshold": 0.5,
+        "roc_auc": 0.7449,
+        "brier_score": 0.1783,
+        "classifier_accuracy_pct": 73.2,
+        "always_positive_baseline_pct": 75.3,
+        "balanced_accuracy_pct": 66.8,
+        "negative_recall_pct": 54.2,
+        "positive_recall_pct": 79.5,
+        "apply_precision_pct": 84.1,
+        "warning_precision_pct": 46.4,
+        "tn": 13,
+        "fp": 11,
+        "fn": 15,
+        "tp": 58
+      }
+    },
+    {
+      "half_life_days": 180,
+      "earlier": {
+        "sample_size": 97,
+        "positive_listings": 73,
+        "nonpositive_listings": 24,
+        "threshold": 0.5,
+        "roc_auc": 0.7437,
+        "brier_score": 0.1754,
+        "classifier_accuracy_pct": 71.1,
+        "always_positive_baseline_pct": 75.3,
+        "balanced_accuracy_pct": 61.2,
+        "negative_recall_pct": 41.7,
+        "positive_recall_pct": 80.8,
+        "apply_precision_pct": 80.8,
+        "warning_precision_pct": 41.7,
+        "tn": 10,
+        "fp": 14,
+        "fn": 14,
+        "tp": 59
+      }
+    },
+    {
+      "half_life_days": 365,
+      "earlier": {
+        "sample_size": 97,
+        "positive_listings": 73,
+        "nonpositive_listings": 24,
+        "threshold": 0.5,
+        "roc_auc": 0.7437,
+        "brier_score": 0.1764,
+        "classifier_accuracy_pct": 72.2,
+        "always_positive_baseline_pct": 75.3,
+        "balanced_accuracy_pct": 63.3,
+        "negative_recall_pct": 45.8,
+        "positive_recall_pct": 80.8,
+        "apply_precision_pct": 81.9,
+        "warning_precision_pct": 44.0,
+        "tn": 11,
+        "fp": 13,
+        "fn": 14,
+        "tp": 59
+      }
+    },
+    {
+      "half_life_days": 730,
+      "earlier": {
+        "sample_size": 97,
+        "positive_listings": 73,
+        "nonpositive_listings": 24,
+        "threshold": 0.5,
+        "roc_auc": 0.7449,
+        "brier_score": 0.1772,
+        "classifier_accuracy_pct": 73.2,
+        "always_positive_baseline_pct": 75.3,
+        "balanced_accuracy_pct": 66.8,
+        "negative_recall_pct": 54.2,
+        "positive_recall_pct": 79.5,
+        "apply_precision_pct": 84.1,
+        "warning_precision_pct": 46.4,
+        "tn": 13,
+        "fp": 11,
+        "fn": 15,
+        "tp": 58
+      }
+    }
+  ],
+  "training_n": 252,
+  "later": {
+    "sample_size": 179,
+    "positive_listings": 120,
+    "nonpositive_listings": 59,
+    "threshold": 0.5,
+    "roc_auc": 0.8182,
+    "brier_score": 0.1619,
+    "classifier_accuracy_pct": 74.9,
+    "always_positive_baseline_pct": 67.0,
+    "balanced_accuracy_pct": 70.5,
+    "negative_recall_pct": 57.6,
+    "positive_recall_pct": 83.3,
+    "apply_precision_pct": 80.0,
+    "warning_precision_pct": 63.0,
+    "tn": 34,
+    "fp": 25,
+    "fn": 20,
+    "tp": 100
+  },
+  "exchange_label_unweighted": {
+    "sample_size": 179,
+    "positive_listings": 120,
+    "nonpositive_listings": 59,
+    "threshold": 0.5,
+    "roc_auc": 0.8167,
+    "brier_score": 0.1631,
+    "classifier_accuracy_pct": 74.9,
+    "always_positive_baseline_pct": 67.0,
+    "balanced_accuracy_pct": 70.5,
+    "negative_recall_pct": 57.6,
+    "positive_recall_pct": 83.3,
+    "apply_precision_pct": 80.0,
+    "warning_precision_pct": 63.0,
+    "tn": 34,
+    "fp": 25,
+    "fn": 20,
+    "tp": 100
+  },
+  "paired_change": {
+    "change_pp": 0.0,
+    "bootstrap_95_pp": [
+      0.0,
+      0.0
+    ],
+    "corrected_errors": 0,
+    "introduced_errors": 0
+  },
+  "live_promoted": false,
+  "synthetic_rows": 0,
+  "limitations": [
+    "Retrospective final-book study, not pre-close prediction validation.",
+    "Prior studies inspected later outcomes: this is exploratory, not a blind test.",
+    "Selection uses only 2022/2023 folds; fixed 50% direction threshold.",
+    "All 252 training issuers and all 179 verified later cases are retained."
+  ],
+  "input_sha256": {
+    "data/canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "data/subscription_observations.csv": "fab209435ee157b3cacc753b0d2d81b39e6c287f7b1eec6ef50d7d7a74e27fcd",
+    "data/audit/module1_exchange_listing_open_audit.csv": "0dfb32b9c6d34378814f2fcb8d57dfc5e48f652b5f25697c2062ef931084417b",
+    "ml/research_module1_recency.py": "5643e679f23656aae5d900cc5b0b376369bc263f45ceeb45d43c1263483e42b1",
+    "ml/research_monitor_daily_learning.py": "f6b28eede4b5d108cd89cfbdc7791ea2971c8c2710a35912554565278bcb0484"
+  }
+}

@@ -1,0 +1,11 @@
+# Downside-error investigation and training-only challenger selection
+
+Keep the exact 155 test IDs and their verified opening outcomes. Do not change the earlier prediction ledger. All fit, calibration/cutoff selection and model selection use 2021–2024 only. Later years have already been inspected, so this is exploratory retrospective development, not independent confirmation.
+
+Recover a second public day-wise subscription table for every test IPO, not only wrong calls. Preserve conflicts and original values. Do not infer decimal corrections. For a sensitivity analysis, prefer a valid issuer/date/day-matched IPOWatch table where available, consistently across all 155, because that source supplies most early-year training tables. Report original-input and source-cross-checked results separately. Keep final bids out of features.
+
+Candidate families: regularised logistic regression (C .05/.5/5, ordinary/balanced class weights, raw/signed-log GMP), shallow gradient boosting (depth 1/2, 80/160 trees, minimum leaf 10), random forests (depth 3/5, minimum leaf 8, 250 trees, ordinary/balanced weights), histogram boosting (3/7 leaf nodes, 120 iterations, minimum leaf 15, L2 5, ordinary/balanced weights). Seed 42. No test-based grid expansion.
+
+Use expanding chronological validation: fit through 2021 and validate 2022; fit through 2022 and validate 2023; fit through 2023 and validate 2024. Training outcomes must precede each validation decision. Select model and probability cutoff (0.35–0.85 in steps of 0.025, including 0.5) by pooled early-year validation accuracy; ties prefer balanced accuracy, then Brier score, then simpler models and cutoff closest to 0.5. Also report fixed-0.5 results and negative recall. Refit selected model on all eligible 2021–2024 rows once. Never select a model or cutoff based on 2025–2026 accuracy. Report every candidate's later-year results as diagnostics only after selection is saved, and do not promote a test winner.
+
+Primary success is fewer wrong calls on the unchanged input ledger. Corrected-source results are a separately labelled sensitivity test on the same IPOs. Preserve zero/missing distinctions, raw-source hashes and feature contributions from the previous logistic model. If 80% is not reached, state that directly. No live-model promotion, Module 2 or paper edits, commit or push.

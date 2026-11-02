@@ -1,0 +1,30 @@
+{
+  "bridge_status": "insufficient_distinct_training_pairs",
+  "training_pair_n": 0,
+  "previous_total_ratio_n": 161,
+  "previous_total_ratios_equal_one": 159,
+  "coverage": {
+    "training_290": {
+      "n": 290,
+      "day2_categories": 287,
+      "closing_stage": 0
+    },
+    "test_69": {
+      "n": 69,
+      "day2_categories": 69,
+      "closing_stage": 0
+    },
+    "recent_24": {
+      "n": 24,
+      "day2_categories": 24,
+      "closing_stage": 24
+    }
+  },
+  "final_book_deflation_status": "not_fitted_without_paired_preclose_and_postclose_training_books",
+  "limitations": [
+    "Total-ratio coverage does not establish distinct Day2/Day3 category pairs.",
+    "Recovered publisher clocks are not independent archived capture clocks.",
+    "Day-label-only inputs are stage assumptions and not timestamp-certified observations.",
+    "No statutory quota fallback inferred without the issuer eligibility/reservation regime."
+  ]
+}

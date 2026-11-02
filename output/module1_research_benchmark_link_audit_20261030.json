@@ -1,0 +1,18 @@
+{
+  "records": 93,
+  "opening_prices_verified": 93,
+  "cohorts": {
+    "earlier_2026": {
+      "ipos": 69,
+      "correct": 56
+    },
+    "recent_2026": {
+      "ipos": 24,
+      "correct": 17
+    }
+  },
+  "replayed_predictions_checked": 93,
+  "replay_mismatches": 0,
+  "ledger_rewritten": false,
+  "model_sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38"
+}

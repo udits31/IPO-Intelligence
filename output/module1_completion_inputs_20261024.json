@@ -1,0 +1,14 @@
+{
+  "data/canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+  "data/subscription_observations.csv": "fab209435ee157b3cacc753b0d2d81b39e6c287f7b1eec6ef50d7d7a74e27fcd",
+  "data/daywise_subscription_research_cohort.csv": "ce56c335987aec0e966e6be9612f98f133e8cbbb450b376740755c03501e65b7",
+  "data/audit/ipo_dated_fundamentals_all_20261024.json": "45e367c12c3a8072feeef34c3545d1587d72225e8e0a748f993d8f60a76c6085",
+  "ml/train_stage_fundamental_challenger.py": "73e10542975e795338fadeb7ffe8081dcc9cb54d8f8cab4ad5488ef788b5da14",
+  "services/dated_ipo_fundamentals.py": "dcdc82699b743d1e14d5c61bf0637de89350bb061a5afe3111c62096fad19ff5",
+  "ml/extract_dated_ipo_fundamentals.py": "7646e994528f46033a44082c8ccb4383ed6be6e66b9136e3910112a0082a182e",
+  "ml/extract_all_ipo_fundamentals.py": "466e2564a4cfaec98581e7e74b29ce84a2b7355c3dcfdac56a88883a306bf292",
+  "data/nse_verified_offer_dates.csv": "ff425f82473ad28f635750bbf1914929b227e869d5b3b449ed090a75e065b653",
+  "output/module1_stage_fundamental_challenger_all_20261024.json": "cb78165fcd32dec048b9f2e536fd1accdeda4d7d7f695858c058c6db1625404e",
+  "data/preclose_gmp_history.csv": "ec2bba1fd8a37ae0cab722a149c1ce577901a965b9d7bbf2d25a85c513e06f23",
+  "data/audit/module1_completion_early_20261024.csv": "95ce60fa7abd59e8486b3a46eff2bab515bcf47afde9098d4ea67498b1efd743"
+}

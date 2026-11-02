@@ -1,0 +1,442 @@
+ipo_id,company_name,source_status,document_date,eps_extracted,source_path,used_in_early_cohort,decision_date,financial_joined,offer_joined,asof_status
+247,CMS Info Systems Ltd.,dated_document_facts,2021-12-24,True,data/prospectus_pdfs/247_cms_info_systems_ltd_rhp.pdf,True,2021-12-22,False,False,not_available_before_decision
+248,Supriya Lifescience Ltd.,dated_document_facts,2021-12-21,True,data/prospectus_pdfs/248_supriya_lifescience_ltd_rhp.pdf,True,2021-12-17,False,False,not_available_before_decision
+249,HP Adhesives Ltd.,dated_document_facts,2021-12-20,True,data/prospectus_pdfs/249_hp_adhesives_ltd_rhp.pdf,True,2021-12-16,False,False,not_available_before_decision
+250,Data Patterns (India) Ltd.,dated_document_facts,2021-12-17,True,data/prospectus_pdfs/250_data_patterns_india_ltd_rhp.pdf,False,,,,
+251,Medplus Health Services Ltd.,dated_document_facts,2021-12-16,True,data/prospectus_pdfs/251_medplus_health_services_ltd_rhp.pdf,True,2021-12-14,False,False,not_available_before_decision
+252,Metro Brands Ltd.,dated_document_facts,2021-12-15,True,data/prospectus_pdfs/252_metro_brands_ltd_rhp.pdf,True,2021-12-13,False,False,not_available_before_decision
+253,C.E.Info systems Ltd.,dated_document_facts,2021-12-14,True,data/prospectus_pdfs/253_c_e_info_systems_ltd_rhp.pdf,False,,,,
+254,Shriram Properties Ltd.,dated_document_facts,2021-12-13,True,data/prospectus_pdfs/254_shriram_properties_ltd_rhp.pdf,True,2021-12-09,False,False,not_available_before_decision
+255,Rategain Travel Technologies Ltd.,dated_document_facts,2021-12-10,True,data/prospectus_pdfs/255_rategain_travel_technologies_ltd_rhp.pdf,True,2021-12-08,False,False,not_available_before_decision
+256,Anand Rathi Wealth Ltd.,dated_document_facts,2021-12-07,True,data/prospectus_pdfs/256_anand_rathi_wealth_ltd_rhp.pdf,True,2021-12-03,False,False,not_available_before_decision
+257,Tega Industries Ltd.,dated_document_facts,2021-12-06,True,data/prospectus_pdfs/257_tega_industries_ltd_rhp.pdf,True,2021-12-02,False,False,not_available_before_decision
+258,Star Health & Allied Insurance Co.Ltd.,dated_document_facts,2021-12-07,True,data/prospectus_pdfs/258_star_health_allied_insurance_co_ltd_rhp.pdf,False,,,,
+259,Go Fashion (India) Ltd.,dated_document_facts,2021-11-23,True,data/prospectus_pdfs/259_go_fashion_india_ltd_rhp.pdf,False,,,,
+260,Tarsons Products Ltd.,dated_document_facts,2021-11-18,True,data/prospectus_pdfs/260_tarsons_products_ltd_rhp.pdf,True,2021-11-16,False,False,not_available_before_decision
+261,Latent View Analytics Ltd.,dated_document_facts,2021-11-17,True,data/prospectus_pdfs/261_latent_view_analytics_ltd_rhp.pdf,True,2021-11-11,False,False,not_available_before_decision
+262,One 97 Communications Ltd.,dated_document_facts,2021-10-26,True,data/prospectus_pdfs/262_one_97_communications_ltd_rhp.pdf,False,,,,
+263,Sapphire Foods India Ltd.,dated_document_facts,2021-11-12,True,data/prospectus_pdfs/263_sapphire_foods_india_ltd_rhp.pdf,True,2021-11-10,False,False,not_available_before_decision
+264,S.J.S.Enterprises Ltd.,dated_document_facts,2021-11-08,True,data/prospectus_pdfs/264_s_j_s_enterprises_ltd_rhp.pdf,False,,,,
+265,Sigachi Industries Ltd.,dated_document_facts,2021-11-08,True,data/prospectus_pdfs/265_sigachi_industries_ltd_rhp.pdf,True,2021-11-02,False,False,not_available_before_decision
+266,PB Fintech Ltd.,dated_document_facts,2021-11-08,True,data/prospectus_pdfs/266_pb_fintech_ltd_rhp.pdf,False,,,,
+267,Fino Payments Bank Ltd.,dated_document_facts,2021-11-03,True,data/prospectus_pdfs/267_fino_payments_bank_ltd_rhp.pdf,True,2021-11-01,False,False,not_available_before_decision
+268,FSN E-Commerce Ventures Ltd.,dated_document_facts,2021-11-02,True,data/prospectus_pdfs/268_fsn_e_commerce_ventures_ltd_rhp.pdf,False,,,,
+269,Aditya Birla Sun Life AMC Ltd.,dated_document_facts,2021-09-22,True,data/prospectus_pdfs/269_aditya_birla_sun_life_amc_ltd_rhp.pdf,True,2021-09-30,True,True,retrospective_dated_rhp
+270,Paras Defence & Space Technologies Ltd.,dated_document_facts,2021-09-13,True,data/prospectus_pdfs/270_paras_defence_space_technologies_ltd_rhp.pdf,False,,,,
+271,Sansera Engineering Ltd.,dated_document_facts,2021-09-17,True,data/prospectus_pdfs/271_sansera_engineering_ltd_rhp.pdf,True,2021-09-15,False,False,not_available_before_decision
+272,Ami Organics Ltd.,dated_document_facts,2021-08-25,True,data/prospectus_pdfs/272_ami_organics_ltd_rhp.pdf,True,2021-09-02,True,True,retrospective_dated_rhp
+273,Vijaya Diagnostic Centre Ltd.,dated_document_facts,2021-08-24,True,data/prospectus_pdfs/273_vijaya_diagnostic_centre_ltd_rhp.pdf,True,2021-09-02,True,True,retrospective_dated_rhp
+274,Aptus Value Housing Finance India Ltd.,dated_document_facts,2021-08-13,True,data/prospectus_pdfs/274_aptus_value_housing_finance_india_ltd_rhp.pdf,True,2021-08-11,False,False,not_available_before_decision
+275,Chemplast Sanmar Ltd.,dated_document_facts,2021-08-13,True,data/prospectus_pdfs/275_chemplast_sanmar_ltd_rhp.pdf,True,2021-08-11,False,False,not_available_before_decision
+276,Nuvoco Vistas Corp.Ltd.,dated_document_facts,2021-08-13,True,data/prospectus_pdfs/276_nuvoco_vistas_corp_ltd_rhp.pdf,False,,,,
+277,CarTrade Tech Ltd.,dated_document_facts,2021-08-12,True,data/prospectus_pdfs/277_cartrade_tech_ltd_rhp.pdf,True,2021-08-10,False,False,not_available_before_decision
+278,Krsnaa Diagnostics Ltd.,dated_document_facts,2021-08-10,True,data/prospectus_pdfs/278_krsnaa_diagnostics_ltd_rhp.pdf,True,2021-08-05,False,False,not_available_before_decision
+279,Devyani International Ltd.,dated_document_facts,2021-08-09,True,data/prospectus_pdfs/279_devyani_international_ltd_rhp.pdf,True,2021-08-05,False,False,not_available_before_decision
+280,Exxaro Tiles Ltd.,dated_document_facts,2021-08-10,True,data/prospectus_pdfs/280_exxaro_tiles_ltd_rhp.pdf,True,2021-08-05,False,False,not_available_before_decision
+281,Windlas Biotech Ltd.,dated_document_facts,2021-08-08,True,data/prospectus_pdfs/281_windlas_biotech_ltd_rhp.pdf,True,2021-08-05,False,False,not_available_before_decision
+282,Rolex Rings Ltd.,dated_document_facts,2021-08-03,True,data/prospectus_pdfs/282_rolex_rings_ltd_rhp.pdf,True,2021-07-29,False,False,not_available_before_decision
+283,Glenmark Life Sciences Ltd.,dated_document_facts,2021-07-30,True,data/prospectus_pdfs/283_glenmark_life_sciences_ltd_rhp.pdf,True,2021-07-28,False,False,not_available_before_decision
+284,Tatva Chintan Pharma Chem Ltd.,dated_document_facts,2021-07-22,True,data/prospectus_pdfs/284_tatva_chintan_pharma_chem_ltd_rhp.pdf,True,2021-07-19,False,False,not_available_before_decision
+285,Zomato Ltd.,dated_document_facts,2021-07-19,True,data/prospectus_pdfs/285_zomato_ltd_rhp.pdf,True,2021-07-15,False,False,not_available_before_decision
+286,G R Infraprojects Ltd.,dated_document_facts,2021-07-10,True,data/prospectus_pdfs/286_g_r_infraprojects_ltd_rhp.pdf,False,,,,
+287,Clean Science & Technology Ltd.,dated_document_facts,2021-07-12,True,data/prospectus_pdfs/287_clean_science_technology_ltd_rhp.pdf,True,2021-07-08,False,False,not_available_before_decision
+288,India Pesticides Ltd.,dated_document_facts,2021-06-28,True,data/prospectus_pdfs/288_india_pesticides_ltd_rhp.pdf,True,2021-06-24,False,False,not_available_before_decision
+289,Dodla Dairy Ltd.,dated_document_facts,2021-06-21,True,data/prospectus_pdfs/289_dodla_dairy_ltd_rhp.pdf,True,2021-06-17,False,False,not_available_before_decision
+290,Krishna Institute of Medical Sciences Ltd.,dated_document_facts,2021-06-22,True,data/prospectus_pdfs/290_krishna_institute_of_medical_sciences_ltd_rhp.pdf,False,,,,
+291,Shyam Metalics & Energy Ltd.,dated_document_facts,2021-06-17,True,data/prospectus_pdfs/291_shyam_metalics_energy_ltd_rhp.pdf,True,2021-06-15,False,False,not_available_before_decision
+292,Sona BLW Precision Forgings Ltd.,dated_document_facts,2021-06-17,True,data/prospectus_pdfs/292_sona_blw_precision_forgings_ltd_rhp.pdf,False,,,,
+294,Macrotech Developers Ltd.,dated_document_facts,2021-04-10,True,data/prospectus_pdfs/294_macrotech_developers_ltd_rhp.pdf,False,,,,
+295,Barbeque-Nation Hospitality Ltd.,dated_document_facts,2021-03-31,False,data/prospectus_pdfs/295_barbeque_nation_hospitality_ltd_rhp.pdf,True,2021-03-25,False,False,not_available_before_decision
+296,Nazara Technologies Ltd.,dated_document_facts,2021-03-22,True,data/prospectus_pdfs/296_nazara_technologies_ltd_rhp.pdf,True,2021-03-18,False,False,not_available_before_decision
+297,Kalyan Jewellers India Ltd.,dated_document_facts,2021-03-09,True,data/prospectus_pdfs/297_kalyan_jewellers_india_ltd_rhp.pdf,True,2021-03-17,True,True,retrospective_dated_rhp
+298,Suryoday Small Finance Bank Ltd.,dated_document_facts,2021-03-09,True,data/prospectus_pdfs/298_suryoday_small_finance_bank_ltd_rhp.pdf,False,,,,
+299,Craftsman Automation Ltd.,dated_document_facts,2021-03-18,True,data/prospectus_pdfs/299_craftsman_automation_ltd_rhp.pdf,True,2021-03-16,False,False,not_available_before_decision
+300,Laxmi Organic Industries Ltd.,dated_document_facts,2021-03-04,True,data/prospectus_pdfs/300_laxmi_organic_industries_ltd_rhp.pdf,True,2021-03-16,True,True,retrospective_dated_rhp
+301,Anupam Rasayan India Ltd.,dated_document_facts,2021-03-05,True,data/prospectus_pdfs/301_anupam_rasayan_india_ltd_rhp.pdf,False,,,,
+302,Easy Trip Planners Ltd.,no_unambiguous_facts,2021-03-11,False,data/prospectus_pdfs/302_easy_trip_planners_ltd_rhp.pdf,False,,,,
+303,MTAR Technologies Ltd.,dated_document_facts,2021-03-08,True,data/prospectus_pdfs/303_mtar_technologies_ltd_rhp.pdf,True,2021-03-04,False,False,not_available_before_decision
+304,Heranba Industries Ltd.,dated_document_facts,2021-02-10,True,data/prospectus_pdfs/304_heranba_industries_ltd_rhp.pdf,True,2021-02-24,True,True,retrospective_dated_rhp
+305,RailTel Corp.of India Ltd.,dated_document_facts,2021-02-19,True,data/prospectus_pdfs/305_railtel_corp_of_india_ltd_rhp.pdf,True,2021-02-16,False,False,not_available_before_decision
+306,Nureca Ltd.,dated_document_facts,2021-01-29,True,data/prospectus_pdfs/306_nureca_ltd_rhp.pdf,False,,,,
+308,Stove Kraft Ltd.,dated_document_facts,2021-01-19,True,data/prospectus_pdfs/308_stove_kraft_ltd_rhp.pdf,True,2021-01-27,True,True,retrospective_dated_rhp
+309,Home First Finance Co.India Ltd.,dated_document_facts,2021-01-27,True,data/prospectus_pdfs/309_home_first_finance_co_india_ltd_rhp.pdf,False,,,,
+310,Indigo Paints Ltd.,dated_document_facts,2021-01-25,True,data/prospectus_pdfs/310_indigo_paints_ltd_rhp.pdf,False,,,,
+311,Indian Railway Finance Corp.Ltd.,dated_document_facts,2021-01-22,True,data/prospectus_pdfs/311_indian_railway_finance_corp_ltd_rhp.pdf,False,,,,
+312,Antony Waste Handling Cell Ltd.,dated_document_facts,2020-12-26,True,data/prospectus_pdfs/312_antony_waste_handling_cell_ltd_rhp.pdf,False,,,,
+313,Elin Electronics Ltd.,dated_document_facts,2022-12-23,True,data/prospectus_pdfs/313_elin_electronics_ltd_rhp.pdf,True,2022-12-21,False,False,not_available_before_decision
+314,KFin Technologies Ltd.,dated_document_facts,2022-12-22,True,data/prospectus_pdfs/314_kfin_technologies_ltd_rhp.pdf,True,2022-12-20,False,False,not_available_before_decision
+315,Abans Holdings Ltd.,dated_document_facts,2022-12-17,False,data/prospectus_pdfs/315_abans_holdings_ltd_rhp.pdf,False,,,,
+316,Landmark Cars Ltd.,dated_document_facts,2022-12-05,True,data/prospectus_pdfs/316_landmark_cars_ltd_rhp.pdf,True,2022-12-14,True,True,retrospective_dated_rhp
+317,Sula Vineyards Ltd.,dated_document_facts,2022-07-15,True,data/prospectus_pdfs/317_sula_vineyards_ltd_rhp.pdf,True,2022-12-13,True,True,retrospective_dated_rhp
+318,Uniparts India Ltd.,dated_document_facts,2022-12-03,True,data/prospectus_pdfs/318_uniparts_india_ltd_rhp.pdf,False,,,,
+319,Dharmaj Crop Guard Ltd.,dated_document_facts,2022-11-21,True,data/prospectus_pdfs/319_dharmaj_crop_guard_ltd_rhp.pdf,True,2022-11-29,True,True,retrospective_dated_rhp
+320,Keystone Realtors Ltd.,dated_document_facts,2022-11-05,True,data/prospectus_pdfs/320_keystone_realtors_ltd_rhp.pdf,True,2022-11-15,True,False,retrospective_dated_rhp
+321,Inox Green Energy Services Ltd.,dated_document_facts,2022-11-03,True,data/prospectus_pdfs/321_inox_green_energy_services_ltd_rhp.pdf,True,2022-11-14,True,True,retrospective_dated_rhp
+322,Kaynes Technology India Ltd.,dated_document_facts,2022-11-01,True,data/prospectus_pdfs/322_kaynes_technology_india_ltd_rhp.pdf,True,2022-11-11,True,True,retrospective_dated_rhp
+323,Archean Chemical Industries Ltd.,dated_document_facts,2022-10-31,True,data/prospectus_pdfs/323_archean_chemical_industries_ltd_rhp.pdf,True,2022-11-10,True,True,retrospective_dated_rhp
+324,Five-Star Business Finance Ltd.,dated_document_facts,2022-11-15,True,data/prospectus_pdfs/324_five_star_business_finance_ltd_rhp.pdf,False,,,,
+325,Global Health Ltd.,dated_document_facts,2022-11-09,True,data/prospectus_pdfs/325_global_health_ltd_rhp.pdf,True,2022-11-04,False,False,not_available_before_decision
+326,Bikaji Foods International Ltd.,dated_document_facts,2022-11-10,True,data/prospectus_pdfs/326_bikaji_foods_international_ltd_rhp.pdf,True,2022-11-04,False,False,not_available_before_decision
+327,Fusion Micro Finance Ltd.,dated_document_facts,2022-11-07,True,data/prospectus_pdfs/327_fusion_micro_finance_ltd_rhp.pdf,True,2022-11-03,False,False,not_available_before_decision
+328,DCX Systems Ltd.,dated_document_facts,2022-10-19,False,data/prospectus_pdfs/328_dcx_systems_ltd_rhp.pdf,False,,,,
+329,Tracxn Technologies Ltd.,dated_document_facts,2022-10-13,True,data/prospectus_pdfs/329_tracxn_technologies_ltd_rhp.pdf,True,2022-10-11,False,False,not_available_before_decision
+330,Electronics Mart India Ltd.,dated_document_facts,2022-09-23,True,data/prospectus_pdfs/330_electronics_mart_india_ltd_rhp.pdf,True,2022-10-06,True,False,retrospective_dated_rhp
+331,Harsha Engineers International Ltd.,dated_document_facts,2022-09-19,True,data/prospectus_pdfs/331_harsha_engineers_international_ltd_rhp.pdf,False,,,,
+332,Tamilnad Mercantile Bank Ltd.,dated_document_facts,2022-09-08,True,data/prospectus_pdfs/332_tamilnad_mercantile_bank_ltd_rhp.pdf,True,2022-09-06,False,False,not_available_before_decision
+333,Dreamfolks Services Ltd.,dated_document_facts,2022-08-30,True,data/prospectus_pdfs/333_dreamfolks_services_ltd_rhp.pdf,False,,,,
+334,Syrma SGS Technology Ltd.,dated_document_facts,2022-08-04,True,data/prospectus_pdfs/334_syrma_sgs_technology_ltd_rhp.pdf,False,,,,
+335,Aether Industries Ltd.,dated_document_facts,2022-05-16,True,data/prospectus_pdfs/335_aether_industries_ltd_rhp.pdf,True,2022-05-25,True,False,retrospective_dated_rhp
+336,eMudhra Ltd.,dated_document_facts,2022-05-25,True,data/prospectus_pdfs/336_emudhra_ltd_rhp.pdf,True,2022-05-23,False,False,not_available_before_decision
+337,Ethos Ltd.,dated_document_facts,2022-05-25,True,data/prospectus_pdfs/337_ethos_ltd_rhp.pdf,True,2022-05-19,False,False,not_available_before_decision
+338,Paradeep Phosphates Ltd.,dated_document_facts,2022-05-20,True,data/prospectus_pdfs/338_paradeep_phosphates_ltd_rhp.pdf,True,2022-05-18,False,False,not_available_before_decision
+339,Delhivery Ltd.,dated_document_facts,2022-04-30,True,data/prospectus_pdfs/339_delhivery_ltd_rhp.pdf,True,2022-05-12,True,False,retrospective_dated_rhp
+340,Venus Pipes & Tubes Ltd.,dated_document_facts,2022-05-18,True,data/prospectus_pdfs/340_venus_pipes_tubes_ltd_rhp.pdf,True,2022-05-12,False,False,not_available_before_decision
+341,Prudent Corporate Advisory Services Ltd.,dated_document_facts,2022-05-14,True,data/prospectus_pdfs/341_prudent_corporate_advisory_services_ltd_rhp.pdf,False,,,,
+342,Life Insurance Corp.of India,dated_document_facts,2022-05-12,True,data/prospectus_pdfs/342_life_insurance_corp_of_india_rhp.pdf,False,,,,
+343,Rainbow Children's Medicare Ltd.,dated_document_facts,2022-05-02,True,data/prospectus_pdfs/343_rainbow_children_s_medicare_ltd_rhp.pdf,True,2022-04-28,False,False,not_available_before_decision
+344,Campus Activewear Ltd.,no_unambiguous_facts,2022-04-29,False,data/prospectus_pdfs/344_campus_activewear_ltd_rhp.pdf,True,2022-04-27,False,False,missing
+345,Hariom Pipe Industries Ltd.,dated_document_facts,2022-04-07,True,data/prospectus_pdfs/345_hariom_pipe_industries_ltd_rhp.pdf,False,,,,
+346,Veranda Learning Solutions Ltd.,dated_document_facts,2022-04-04,True,data/prospectus_pdfs/346_veranda_learning_solutions_ltd_rhp.pdf,True,2022-03-30,False,False,not_available_before_decision
+347,Ruchi Soya Industries Ltd.,dated_document_facts,2022-03-31,True,data/prospectus_pdfs/347_ruchi_soya_industries_ltd_rhp.pdf,False,,,,
+348,Uma Exports Ltd.,dated_document_facts,2022-03-31,True,data/prospectus_pdfs/348_uma_exports_ltd_rhp.pdf,True,2022-03-29,False,False,not_available_before_decision
+349,Vedant Fashions Ltd.,dated_document_facts,2022-02-09,True,data/prospectus_pdfs/349_vedant_fashions_ltd_rhp.pdf,True,2022-02-07,False,False,not_available_before_decision
+350,Adani Wilmar Ltd.,dated_document_facts,2022-02-01,True,data/prospectus_pdfs/350_adani_wilmar_ltd_rhp.pdf,True,2022-01-28,False,False,not_available_before_decision
+351,AGS Transact Technologies Ltd.,dated_document_facts,2022-01-22,True,data/prospectus_pdfs/351_ags_transact_technologies_ltd_rhp.pdf,True,2022-01-20,False,False,not_available_before_decision
+352,Innova Captab Ltd.,dated_document_facts,2023-12-14,True,data/prospectus_pdfs/352_innova_captab_ltd_rhp.pdf,False,,,,
+353,Azad Engineering Ltd.,dated_document_facts,2023-12-14,True,data/prospectus_pdfs/353_azad_engineering_ltd_rhp.pdf,True,2023-12-21,True,True,retrospective_dated_rhp
+354,RBZ Jewellers Ltd.,dated_document_facts,2023-12-12,True,data/prospectus_pdfs/354_rbz_jewellers_ltd_rhp.pdf,True,2023-12-20,True,False,retrospective_dated_rhp
+355,Credo Brands Marketing Ltd.,dated_document_facts,2023-12-12,True,data/prospectus_pdfs/355_credo_brands_marketing_ltd_rhp.pdf,True,2023-12-20,True,False,retrospective_dated_rhp
+356,Happy Forgings Ltd.,dated_document_facts,2023-12-09,True,data/prospectus_pdfs/356_happy_forgings_ltd_rhp.pdf,True,2023-12-20,True,True,retrospective_dated_rhp
+357,Muthoot Microfin Ltd.,dated_document_facts,2023-12-11,True,data/prospectus_pdfs/357_muthoot_microfin_ltd_rhp.pdf,True,2023-12-19,True,True,retrospective_dated_rhp
+358,Motisons Jewellers Ltd.,dated_document_facts,2023-12-08,True,data/prospectus_pdfs/358_motisons_jewellers_ltd_rhp.pdf,True,2023-12-19,True,False,retrospective_dated_rhp
+359,Suraj Estate Developers Ltd.,dated_document_facts,2023-12-06,True,data/prospectus_pdfs/359_suraj_estate_developers_ltd_rhp.pdf,True,2023-12-19,True,False,retrospective_dated_rhp
+360,Inox India Ltd.,dated_document_facts,2023-12-08,True,data/prospectus_pdfs/360_inox_india_ltd_rhp.pdf,True,2023-12-15,True,True,retrospective_dated_rhp
+361,India Shelter Finance Corp.Ltd.,dated_document_facts,2023-12-16,True,data/prospectus_pdfs/361_india_shelter_finance_corp_ltd_rhp.pdf,True,2023-12-14,False,False,not_available_before_decision
+362,DOMS Industries Ltd.,dated_document_facts,2023-12-02,True,data/prospectus_pdfs/362_doms_industries_ltd_rhp.pdf,True,2023-12-14,True,True,retrospective_dated_rhp
+363,Flair Writing Industries Ltd.,dated_document_facts,2023-11-16,True,data/prospectus_pdfs/363_flair_writing_industries_ltd_rhp.pdf,True,2023-11-23,True,True,retrospective_dated_rhp
+364,Tata Technologies Ltd.,dated_document_facts,2023-11-24,True,data/prospectus_pdfs/364_tata_technologies_ltd_rhp.pdf,True,2023-11-23,False,False,not_available_before_decision
+365,Gandhar Oil Refinery (India) Ltd.,dated_document_facts,2023-11-15,False,data/prospectus_pdfs/365_gandhar_oil_refinery_india_ltd_rhp.pdf,True,2023-11-23,False,True,retrospective_dated_rhp
+366,Fedbank Financial Services Ltd.,dated_document_facts,2023-11-16,True,data/prospectus_pdfs/366_fedbank_financial_services_ltd_rhp.pdf,True,2023-11-23,True,True,retrospective_dated_rhp
+367,Indian Renewable Energy Development Agency Ltd.,dated_document_facts,2023-11-11,True,data/prospectus_pdfs/367_indian_renewable_energy_development_agency_ltd_rhp.pdf,False,,,,
+368,ASK Automotive Ltd.,dated_document_facts,2023-10-30,True,data/prospectus_pdfs/368_ask_automotive_ltd_rhp.pdf,True,2023-11-08,True,True,retrospective_dated_rhp
+369,Protean eGov Technologies Ltd.,dated_document_facts,2023-10-30,True,data/prospectus_pdfs/369_protean_egov_technologies_ltd_rhp.pdf,False,,,,
+370,ESAF Small Finance Bank Ltd.,dated_document_facts,2023-10-28,True,data/prospectus_pdfs/370_esaf_small_finance_bank_ltd_rhp.pdf,False,,,,
+371,Honasa Consumer Ltd.,dated_document_facts,2023-10-23,True,data/prospectus_pdfs/371_honasa_consumer_ltd_rhp.pdf,True,2023-11-01,True,True,retrospective_dated_rhp
+372,Cello World Ltd.,dated_document_facts,2023-10-21,False,data/prospectus_pdfs/372_cello_world_ltd_rhp.pdf,True,2023-10-31,False,True,retrospective_dated_rhp
+373,Blue Jet Healthcare Ltd.,dated_document_facts,2023-10-17,True,data/prospectus_pdfs/373_blue_jet_healthcare_ltd_rhp.pdf,True,2023-10-26,True,True,retrospective_dated_rhp
+374,IRM Energy Ltd.,dated_document_facts,2023-10-09,True,data/prospectus_pdfs/374_irm_energy_ltd_rhp.pdf,True,2023-10-19,True,False,retrospective_dated_rhp
+375,Plaza Wires Ltd.,dated_document_facts,2023-09-22,True,data/prospectus_pdfs/375_plaza_wires_ltd_rhp.pdf,False,,,,
+376,Valiant Laboratories Ltd.,dated_document_facts,2023-09-18,True,data/prospectus_pdfs/376_valiant_laboratories_ltd_rhp.pdf,False,,,,
+377,Updater Services Ltd.,dated_document_facts,2023-09-18,True,data/prospectus_pdfs/377_updater_services_ltd_rhp.pdf,False,,,,
+378,JSW Infrastructure Ltd.,dated_document_facts,2023-09-13,True,data/prospectus_pdfs/378_jsw_infrastructure_ltd_rhp.pdf,True,2023-09-26,True,False,retrospective_dated_rhp
+379,Manoj Vaibhav Gems 'N' Jewellers Ltd.,rejected_cover_identity_or_date,,False,data/prospectus_pdfs/379_manoj_vaibhav_gems_n_jewellers_ltd_rhp.pdf,True,2023-09-25,False,False,missing
+380,Yatra Online Ltd.,dated_document_facts,2023-09-08,True,data/prospectus_pdfs/380_yatra_online_ltd_rhp.pdf,False,,,,
+381,Sai Silks (Kalamandir) Ltd.,dated_document_facts,2023-09-23,True,data/prospectus_pdfs/381_sai_silks_kalamandir_ltd_rhp.pdf,False,,,,
+382,Signatureglobal (India) Ltd.,dated_document_facts,2023-09-12,True,data/prospectus_pdfs/382_signatureglobal_india_ltd_rhp.pdf,True,2023-09-21,True,True,retrospective_dated_rhp
+383,SAMHI Hotels Ltd.,dated_document_facts,2023-09-05,True,data/prospectus_pdfs/383_samhi_hotels_ltd_rhp.pdf,False,,,,
+384,Zaggle Prepaid Ocean Services Ltd.,dated_document_facts,2023-09-08,True,data/prospectus_pdfs/384_zaggle_prepaid_ocean_services_ltd_rhp.pdf,False,,,,
+385,EMS Ltd.,dated_document_facts,2023-09-01,False,data/prospectus_pdfs/385_ems_ltd_rhp.pdf,True,2023-09-11,False,False,retrospective_dated_rhp
+386,R R Kabel Ltd.,dated_document_facts,2023-09-06,True,data/prospectus_pdfs/386_r_r_kabel_ltd_rhp.pdf,False,,,,
+387,Jupiter Life Line Hospitals Ltd.,dated_document_facts,2023-09-11,True,data/prospectus_pdfs/387_jupiter_life_line_hospitals_ltd_rhp.pdf,True,2023-09-07,False,False,not_available_before_decision
+388,Ratnaveer Precision Engineering Ltd.,dated_document_facts,2023-08-22,True,data/prospectus_pdfs/388_ratnaveer_precision_engineering_ltd_rhp.pdf,True,2023-09-05,True,True,retrospective_dated_rhp
+389,Rishabh Instruments Ltd.,dated_document_facts,2023-08-23,True,data/prospectus_pdfs/389_rishabh_instruments_ltd_rhp.pdf,True,2023-08-31,True,True,retrospective_dated_rhp
+390,Vishnu Prakash R.Punglia Ltd.,dated_document_facts,2023-08-17,True,data/prospectus_pdfs/390_vishnu_prakash_r_punglia_ltd_rhp.pdf,True,2023-08-25,True,False,retrospective_dated_rhp
+391,Aeroflex Industries Ltd.,dated_document_facts,2023-08-25,True,data/prospectus_pdfs/391_aeroflex_industries_ltd_rhp.pdf,True,2023-08-23,False,False,not_available_before_decision
+392,Pyramid Technoplast Ltd.,dated_document_facts,2023-08-08,True,data/prospectus_pdfs/392_pyramid_technoplast_ltd_rhp.pdf,True,2023-08-21,True,True,retrospective_dated_rhp
+393,TVS Supply Chain Solutions Ltd.,dated_document_facts,2023-08-17,True,data/prospectus_pdfs/393_tvs_supply_chain_solutions_ltd_rhp.pdf,True,2023-08-11,False,False,not_available_before_decision
+394,Concord Biotech Ltd.,dated_document_facts,2023-08-09,True,data/prospectus_pdfs/394_concord_biotech_ltd_rhp.pdf,True,2023-08-07,False,False,not_available_before_decision
+395,SBFC Finance Ltd.,dated_document_facts,2023-08-08,False,data/prospectus_pdfs/395_sbfc_finance_ltd_rhp.pdf,True,2023-08-04,False,False,not_available_before_decision
+396,Yatharth Hospital & Trauma Care Services Ltd.,dated_document_facts,2023-07-30,True,data/prospectus_pdfs/396_yatharth_hospital_trauma_care_services_ltd_rhp.pdf,True,2023-07-27,False,False,not_available_before_decision
+397,Netweb Technologies India Ltd.,dated_document_facts,2023-07-10,True,data/prospectus_pdfs/397_netweb_technologies_india_ltd_rhp.pdf,True,2023-07-18,True,True,retrospective_dated_rhp
+398,Utkarsh Small Finance Bank Ltd.,dated_document_facts,2023-07-17,True,data/prospectus_pdfs/398_utkarsh_small_finance_bank_ltd_rhp.pdf,True,2023-07-13,False,False,not_available_before_decision
+399,Senco Gold Ltd.,dated_document_facts,2023-06-27,False,data/prospectus_pdfs/399_senco_gold_ltd_rhp.pdf,True,2023-07-05,False,True,retrospective_dated_rhp
+400,Cyient DLM Ltd.,dated_document_facts,2023-06-19,True,data/prospectus_pdfs/400_cyient_dlm_ltd_rhp.pdf,False,,,,
+401,ideaForge Technology Ltd.,dated_document_facts,2023-06-19,True,data/prospectus_pdfs/401_ideaforge_technology_ltd_rhp.pdf,False,,,,
+402,HMA Agro Industries Ltd.,dated_document_facts,2023-06-05,True,data/prospectus_pdfs/402_hma_agro_industries_ltd_rhp.pdf,False,,,,
+403,IKIO Lighting Ltd.,dated_document_facts,2023-05-29,True,data/prospectus_pdfs/403_ikio_lighting_ltd_rhp.pdf,True,2023-06-07,True,True,retrospective_dated_rhp
+404,Mankind Pharma Ltd.,dated_document_facts,2023-04-28,True,data/prospectus_pdfs/404_mankind_pharma_ltd_rhp.pdf,True,2023-04-26,False,False,not_available_before_decision
+405,Avalon Technologies Ltd.,dated_document_facts,2023-04-07,True,data/prospectus_pdfs/405_avalon_technologies_ltd_rhp.pdf,True,2023-04-05,False,False,not_available_before_decision
+406,Global Surfaces Ltd.,dated_document_facts,2023-02-25,True,data/prospectus_pdfs/406_global_surfaces_ltd_rhp.pdf,True,2023-03-14,True,True,retrospective_dated_rhp
+407,Divgi TorqTransfer Systems Ltd.,dated_document_facts,2023-02-23,True,data/prospectus_pdfs/407_divgi_torqtransfer_systems_ltd_rhp.pdf,True,2023-03-02,True,True,retrospective_dated_rhp
+408,Sah Polymers Ltd.,dated_document_facts,2023-01-06,True,data/prospectus_pdfs/408_sah_polymers_ltd_rhp.pdf,False,,,,
+409,Radiant Cash Management Services Ltd.,dated_document_facts,2022-12-31,True,data/prospectus_pdfs/409_radiant_cash_management_services_ltd_rhp.pdf,False,,,,
+410,Unimech Aerospace & Manufacturing Ltd.,dated_document_facts,2024-12-16,True,data/prospectus_pdfs/410_unimech_aerospace_manufacturing_ltd_rhp.pdf,False,,,,
+411,Ventive Hospitality Ltd.,dated_document_facts,2024-12-14,True,data/prospectus_pdfs/411_ventive_hospitality_ltd_rhp.pdf,True,2024-12-23,True,False,retrospective_dated_rhp
+412,Carraro India Ltd.,dated_document_facts,2024-12-16,True,data/prospectus_pdfs/412_carraro_india_ltd_rhp.pdf,True,2024-12-23,True,True,retrospective_dated_rhp
+413,Senores Pharmaceuticals Ltd.,dated_document_facts,2024-12-15,True,data/prospectus_pdfs/413_senores_pharmaceuticals_ltd_rhp.pdf,True,2024-12-23,True,True,retrospective_dated_rhp
+414,Transrail Lighting Ltd.,dated_document_facts,2024-12-10,True,data/prospectus_pdfs/414_transrail_lighting_ltd_rhp.pdf,True,2024-12-20,True,True,retrospective_dated_rhp
+415,Concord Enviro Systems Ltd.,dated_document_facts,2024-12-14,True,data/prospectus_pdfs/415_concord_enviro_systems_ltd_rhp.pdf,True,2024-12-20,True,True,retrospective_dated_rhp
+416,Sanathan Textiles Ltd.,dated_document_facts,2024-12-13,True,data/prospectus_pdfs/416_sanathan_textiles_ltd_rhp.pdf,True,2024-12-20,True,False,retrospective_dated_rhp
+417,DAM Capital Advisors Ltd.,dated_document_facts,2024-12-14,True,data/prospectus_pdfs/417_dam_capital_advisors_ltd_rhp.pdf,True,2024-12-20,True,True,retrospective_dated_rhp
+418,Mamata Machinery Ltd.,dated_document_facts,2024-12-12,True,data/prospectus_pdfs/418_mamata_machinery_ltd_rhp.pdf,True,2024-12-20,True,True,retrospective_dated_rhp
+419,International Gemmological Institute (India) Ltd.,dated_document_facts,2024-12-17,False,data/prospectus_pdfs/419_international_gemmological_institute_india_ltd_rhp.pdf,True,2024-12-16,False,False,not_available_before_decision
+420,Inventurus Knowledge Solutions Ltd.,dated_document_facts,2024-12-05,True,data/prospectus_pdfs/420_inventurus_knowledge_solutions_ltd_rhp.pdf,False,,,,
+421,Vishal Mega Mart Ltd.,dated_document_facts,2024-12-04,True,data/prospectus_pdfs/421_vishal_mega_mart_ltd_rhp.pdf,True,2024-12-12,True,True,retrospective_dated_rhp
+422,Sai Life Sciences Ltd.,dated_document_facts,2024-12-05,True,data/prospectus_pdfs/422_sai_life_sciences_ltd_rhp.pdf,True,2024-12-12,True,True,retrospective_dated_rhp
+423,One Mobikwik Systems Ltd.,dated_document_facts,2024-12-05,True,data/prospectus_pdfs/423_one_mobikwik_systems_ltd_rhp.pdf,True,2024-12-12,True,False,retrospective_dated_rhp
+424,Suraksha Diagnostic Ltd.,dated_document_facts,2024-12-03,True,data/prospectus_pdfs/424_suraksha_diagnostic_ltd_rhp.pdf,True,2024-12-02,False,False,not_available_before_decision
+425,Enviro Infra Engineers Ltd.,dated_document_facts,2024-11-16,True,data/prospectus_pdfs/425_enviro_infra_engineers_ltd_rhp.pdf,True,2024-11-25,True,True,retrospective_dated_rhp
+426,NTPC Green Energy Ltd.,no_unambiguous_facts,2024-11-12,False,data/prospectus_pdfs/426_ntpc_green_energy_ltd_rhp.pdf,False,,,,
+427,Zinka Logistics Solutions Ltd.,dated_document_facts,2024-11-07,True,data/prospectus_pdfs/427_zinka_logistics_solutions_ltd_rhp.pdf,True,2024-11-14,True,True,retrospective_dated_rhp
+428,Niva Bupa Health Insurance Co.Ltd.,dated_document_facts,2024-10-31,True,data/prospectus_pdfs/428_niva_bupa_health_insurance_co_ltd_rhp.pdf,True,2024-11-08,True,True,retrospective_dated_rhp
+429,Swiggy Ltd.,dated_document_facts,2024-11-08,True,data/prospectus_pdfs/429_swiggy_ltd_rhp.pdf,False,,,,
+430,ACME Solar Holdings Ltd.,dated_document_facts,2024-11-09,True,data/prospectus_pdfs/430_acme_solar_holdings_ltd_rhp.pdf,False,,,,
+431,Sagility India Ltd.,dated_document_facts,2024-11-07,True,data/prospectus_pdfs/431_sagility_india_ltd_rhp.pdf,True,2024-11-06,False,False,not_available_before_decision
+432,Afcons Infrastructure Ltd.,dated_document_facts,2024-10-18,True,data/prospectus_pdfs/432_afcons_infrastructure_ltd_rhp.pdf,False,,,,
+433,Godavari Biorefineries Ltd.,dated_document_facts,2024-10-17,True,data/prospectus_pdfs/433_godavari_biorefineries_ltd_rhp.pdf,False,,,,
+434,Waaree Energies Ltd.,dated_document_facts,2024-10-14,True,data/prospectus_pdfs/434_waaree_energies_ltd_rhp.pdf,True,2024-10-22,True,True,retrospective_dated_rhp
+435,Deepak Builders & Engineers India Ltd.,dated_document_facts,2024-10-23,True,data/prospectus_pdfs/435_deepak_builders_engineers_india_ltd_rhp.pdf,True,2024-10-22,False,False,not_available_before_decision
+436,Hyundai Motor India Ltd.,dated_document_facts,2024-10-08,True,data/prospectus_pdfs/436_hyundai_motor_india_ltd_rhp.pdf,True,2024-10-16,True,True,retrospective_dated_rhp
+437,Garuda Construction & Engineering Ltd.,dated_document_facts,2024-09-28,False,data/prospectus_pdfs/437_garuda_construction_engineering_ltd_rhp.pdf,True,2024-10-09,False,True,retrospective_dated_rhp
+438,Diffusion Engineers Ltd.,dated_document_facts,2024-09-20,True,data/prospectus_pdfs/438_diffusion_engineers_ltd_rhp.pdf,True,2024-09-27,True,False,retrospective_dated_rhp
+439,KRN Heat Exchanger & Refrigeration Ltd.,dated_document_facts,2024-09-13,True,data/prospectus_pdfs/439_krn_heat_exchanger_refrigeration_ltd_rhp.pdf,False,,,,
+440,Manba Finance Ltd.,dated_document_facts,2024-09-16,True,data/prospectus_pdfs/440_manba_finance_ltd_rhp.pdf,True,2024-09-24,True,False,retrospective_dated_rhp
+441,Western Carriers (India) Ltd.,dated_document_facts,2024-09-20,True,data/prospectus_pdfs/441_western_carriers_india_ltd_rhp.pdf,True,2024-09-18,False,False,not_available_before_decision
+442,Arkade Developers Ltd.,dated_document_facts,2024-09-05,True,data/prospectus_pdfs/442_arkade_developers_ltd_rhp.pdf,True,2024-09-18,True,False,retrospective_dated_rhp
+443,Northern Arc Capital Ltd.,rejected_cover_identity_or_date,,False,data/prospectus_pdfs/443_northern_arc_capital_ltd_rhp.pdf,False,,,,
+444,P N Gadgil Jewellers Ltd.,dated_document_facts,2024-09-04,False,data/prospectus_pdfs/444_p_n_gadgil_jewellers_ltd_rhp.pdf,True,2024-09-11,False,True,retrospective_dated_rhp
+445,Bajaj Housing Finance Ltd.,dated_document_facts,2024-08-30,True,data/prospectus_pdfs/445_bajaj_housing_finance_ltd_rhp.pdf,True,2024-09-10,True,True,retrospective_dated_rhp
+446,Kross Ltd.,dated_document_facts,2024-09-02,False,data/prospectus_pdfs/446_kross_ltd_rhp.pdf,True,2024-09-10,False,False,retrospective_dated_rhp
+447,Tolins Tyres Ltd.,dated_document_facts,2024-08-28,False,data/prospectus_pdfs/447_tolins_tyres_ltd_rhp.pdf,True,2024-09-10,False,True,retrospective_dated_rhp
+448,Shree Tirupati Balajee Agro Trading Co.Ltd.,dated_document_facts,2024-08-31,True,data/prospectus_pdfs/448_shree_tirupati_balajee_agro_trading_co_ltd_rhp.pdf,True,2024-09-06,True,True,retrospective_dated_rhp
+449,Gala Precision Engineering Ltd.,dated_document_facts,2024-08-23,False,data/prospectus_pdfs/449_gala_precision_engineering_ltd_rhp.pdf,True,2024-09-03,False,True,retrospective_dated_rhp
+450,Baazar Style Retail Ltd.,dated_document_facts,2024-08-23,True,data/prospectus_pdfs/450_baazar_style_retail_ltd_rhp.pdf,True,2024-09-02,True,False,retrospective_dated_rhp
+451,ECOS (India) Mobility & Hospitality Ltd.,dated_document_facts,2024-08-20,True,data/prospectus_pdfs/451_ecos_india_mobility_hospitality_ltd_rhp.pdf,True,2024-08-29,True,True,retrospective_dated_rhp
+452,Premier Energies Ltd.,dated_document_facts,2024-08-20,True,data/prospectus_pdfs/452_premier_energies_ltd_rhp.pdf,True,2024-08-28,True,True,retrospective_dated_rhp
+453,Orient Technologies Ltd.,dated_document_facts,2024-08-09,True,data/prospectus_pdfs/453_orient_technologies_ltd_rhp.pdf,True,2024-08-22,True,True,retrospective_dated_rhp
+454,Interarch Building Products Ltd.,dated_document_facts,2024-08-12,True,data/prospectus_pdfs/454_interarch_building_products_ltd_rhp.pdf,True,2024-08-20,True,True,retrospective_dated_rhp
+455,Saraswati Saree Depot Ltd.,dated_document_facts,2024-08-06,True,data/prospectus_pdfs/455_saraswati_saree_depot_ltd_rhp.pdf,True,2024-08-13,True,True,retrospective_dated_rhp
+456,Unicommerce eSolutions Ltd.,dated_document_facts,2024-07-30,True,data/prospectus_pdfs/456_unicommerce_esolutions_ltd_rhp.pdf,True,2024-08-07,True,False,retrospective_dated_rhp
+457,Brainbees Solutions Ltd.,dated_document_facts,2024-07-30,True,data/prospectus_pdfs/457_brainbees_solutions_ltd_rhp.pdf,True,2024-08-07,True,True,retrospective_dated_rhp
+458,Ola Electric Mobility Ltd.,dated_document_facts,2024-08-06,True,data/prospectus_pdfs/458_ola_electric_mobility_ltd_rhp.pdf,True,2024-08-05,False,False,not_available_before_decision
+459,Ceigall India Ltd.,dated_document_facts,2024-07-26,True,data/prospectus_pdfs/459_ceigall_india_ltd_rhp.pdf,True,2024-08-02,True,True,retrospective_dated_rhp
+460,Akums Drugs & Pharmaceuticals Ltd.,dated_document_facts,2024-07-24,True,data/prospectus_pdfs/460_akums_drugs_pharmaceuticals_ltd_rhp.pdf,True,2024-07-31,True,True,retrospective_dated_rhp
+461,Sanstar Ltd.,dated_document_facts,2024-07-12,True,data/prospectus_pdfs/461_sanstar_ltd_rhp.pdf,True,2024-07-22,True,True,retrospective_dated_rhp
+462,Emcure Pharmaceuticals Ltd.,dated_document_facts,2024-06-26,True,data/prospectus_pdfs/462_emcure_pharmaceuticals_ltd_rhp.pdf,True,2024-07-04,True,True,retrospective_dated_rhp
+463,Bansal Wire Industries Ltd.,dated_document_facts,2024-07-05,True,data/prospectus_pdfs/463_bansal_wire_industries_ltd_rhp.pdf,True,2024-07-04,False,False,not_available_before_decision
+464,Vraj Iron & Steel Ltd.,dated_document_facts,2024-06-18,True,data/prospectus_pdfs/464_vraj_iron_steel_ltd_rhp.pdf,True,2024-06-27,True,False,retrospective_dated_rhp
+465,Allied Blenders & Distillers Ltd.,dated_document_facts,2024-06-27,True,data/prospectus_pdfs/465_allied_blenders_distillers_ltd_rhp.pdf,True,2024-06-26,False,False,not_available_before_decision
+466,Stanley Lifestyles Ltd.,dated_document_facts,2024-06-13,True,data/prospectus_pdfs/466_stanley_lifestyles_ltd_rhp.pdf,True,2024-06-24,True,True,retrospective_dated_rhp
+467,DEE Development Engineers Ltd.,dated_document_facts,2024-06-11,True,data/prospectus_pdfs/467_dee_development_engineers_ltd_rhp.pdf,True,2024-06-20,True,True,retrospective_dated_rhp
+468,Akme Fintrade (India) Ltd.,dated_document_facts,2024-06-11,True,data/prospectus_pdfs/468_akme_fintrade_india_ltd_rhp.pdf,False,,,,
+469,Le Travenues Technology Ltd.,dated_document_facts,2024-06-04,True,data/prospectus_pdfs/469_le_travenues_technology_ltd_rhp.pdf,True,2024-06-11,True,True,retrospective_dated_rhp
+470,Kronox Lab Sciences Ltd.,dated_document_facts,2024-05-28,True,data/prospectus_pdfs/470_kronox_lab_sciences_ltd_rhp.pdf,True,2024-06-04,True,False,retrospective_dated_rhp
+471,Awfis Space Solutions Ltd.,dated_document_facts,2024-05-14,True,data/prospectus_pdfs/471_awfis_space_solutions_ltd_rhp.pdf,True,2024-05-24,True,True,retrospective_dated_rhp
+472,Go Digit General Insurance Ltd.,dated_document_facts,2024-05-08,True,data/prospectus_pdfs/472_go_digit_general_insurance_ltd_rhp.pdf,True,2024-05-16,True,True,retrospective_dated_rhp
+473,TBO Tek Ltd.,dated_document_facts,2024-04-28,True,data/prospectus_pdfs/473_tbo_tek_ltd_rhp.pdf,False,,,,
+474,Aadhar Housing Finance Ltd.,dated_document_facts,2024-04-30,True,data/prospectus_pdfs/474_aadhar_housing_finance_ltd_rhp.pdf,False,,,,
+475,Indegene Ltd.,dated_document_facts,2024-04-26,True,data/prospectus_pdfs/475_indegene_ltd_rhp.pdf,True,2024-05-07,True,True,retrospective_dated_rhp
+476,JNK India Ltd.,dated_document_facts,2024-04-25,True,data/prospectus_pdfs/476_jnk_india_ltd_rhp.pdf,True,2024-04-24,False,False,not_available_before_decision
+477,Vodafone Idea Ltd.,dated_document_facts,2024-04-11,True,data/prospectus_pdfs/477_vodafone_idea_ltd_rhp.pdf,False,,,,
+478,Bharti Hexacom Ltd.,dated_document_facts,2024-04-05,True,data/prospectus_pdfs/478_bharti_hexacom_ltd_rhp.pdf,True,2024-04-04,False,False,not_available_before_decision
+479,SRM Contractors Ltd.,dated_document_facts,2024-03-16,False,data/prospectus_pdfs/479_srm_contractors_ltd_rhp.pdf,True,2024-03-27,False,False,retrospective_dated_rhp
+480,Krystal Integrated Services Ltd.,dated_document_facts,2024-03-04,True,data/prospectus_pdfs/480_krystal_integrated_services_ltd_rhp.pdf,True,2024-03-15,True,True,retrospective_dated_rhp
+481,Popular Vehicles & Services Ltd.,dated_document_facts,2024-03-04,True,data/prospectus_pdfs/481_popular_vehicles_services_ltd_rhp.pdf,True,2024-03-13,True,True,retrospective_dated_rhp
+482,Gopal Snacks Ltd.,dated_document_facts,2024-03-11,True,data/prospectus_pdfs/482_gopal_snacks_ltd_rhp.pdf,True,2024-03-07,False,False,not_available_before_decision
+483,J.G.Chemicals Ltd.,dated_document_facts,2024-02-27,True,data/prospectus_pdfs/483_j_g_chemicals_ltd_rhp.pdf,True,2024-03-06,True,True,retrospective_dated_rhp
+484,R K SWAMY Ltd.,dated_document_facts,2024-02-26,True,data/prospectus_pdfs/484_r_k_swamy_ltd_rhp.pdf,True,2024-03-05,True,True,retrospective_dated_rhp
+485,Mukka Proteins Ltd.,dated_document_facts,2024-02-24,True,data/prospectus_pdfs/485_mukka_proteins_ltd_rhp.pdf,True,2024-03-01,True,False,retrospective_dated_rhp
+486,Platinum Industries Ltd.,dated_document_facts,2024-02-20,True,data/prospectus_pdfs/486_platinum_industries_ltd_rhp.pdf,True,2024-02-28,True,False,retrospective_dated_rhp
+487,Exicom Tele-Systems Ltd.,dated_document_facts,2024-02-20,True,data/prospectus_pdfs/487_exicom_tele_systems_ltd_rhp.pdf,False,,,,
+488,GPT Healthcare Ltd.,dated_document_facts,2024-02-15,True,data/prospectus_pdfs/488_gpt_healthcare_ltd_rhp.pdf,True,2024-02-23,True,True,retrospective_dated_rhp
+489,Juniper Hotels Ltd.,dated_document_facts,2024-02-13,True,data/prospectus_pdfs/489_juniper_hotels_ltd_rhp.pdf,True,2024-02-22,True,False,retrospective_dated_rhp
+490,Vibhor Steel Tubes Ltd.,no_unambiguous_facts,2024-02-05,False,data/prospectus_pdfs/490_vibhor_steel_tubes_ltd_rhp.pdf,True,2024-02-14,False,False,missing
+491,Entero Healthcare Solutions Ltd.,dated_document_facts,2024-02-05,False,data/prospectus_pdfs/491_entero_healthcare_solutions_ltd_rhp.pdf,False,,,,
+492,Rashi Peripherals Ltd.,dated_document_facts,2024-01-29,True,data/prospectus_pdfs/492_rashi_peripherals_ltd_rhp.pdf,True,2024-02-08,True,False,retrospective_dated_rhp
+493,Jana Small Finance Bank Ltd.,dated_document_facts,2024-02-01,True,data/prospectus_pdfs/493_jana_small_finance_bank_ltd_rhp.pdf,True,2024-02-08,True,True,retrospective_dated_rhp
+494,Capital Small Finance Bank Ltd.,dated_document_facts,2024-02-01,True,data/prospectus_pdfs/494_capital_small_finance_bank_ltd_rhp.pdf,True,2024-02-08,True,True,retrospective_dated_rhp
+495,Apeejay Surrendra Park Hotels Ltd.,dated_document_facts,2024-01-29,False,data/prospectus_pdfs/495_apeejay_surrendra_park_hotels_ltd_rhp.pdf,True,2024-02-06,False,True,retrospective_dated_rhp
+496,BLS E-Services Ltd.,dated_document_facts,2024-01-23,True,data/prospectus_pdfs/496_bls_e_services_ltd_rhp.pdf,True,2024-01-31,True,False,retrospective_dated_rhp
+497,Nova AgriTech Ltd.,dated_document_facts,2024-01-12,True,data/prospectus_pdfs/497_nova_agritech_ltd_rhp.pdf,True,2024-01-24,True,False,retrospective_dated_rhp
+498,EPACK Durable Ltd.,dated_document_facts,2024-01-12,False,data/prospectus_pdfs/498_epack_durable_ltd_rhp.pdf,False,,,,
+499,Medi Assist Healthcare Services Ltd.,dated_document_facts,2024-01-09,True,data/prospectus_pdfs/499_medi_assist_healthcare_services_ltd_rhp.pdf,True,2024-01-16,True,True,retrospective_dated_rhp
+500,Jyoti CNC Automation Ltd.,dated_document_facts,2024-01-02,True,data/prospectus_pdfs/500_jyoti_cnc_automation_ltd_rhp.pdf,True,2024-01-10,True,False,retrospective_dated_rhp
+501,Gujarat Kidney & Super Speciality Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+502,KSH International Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+503,ICICI Prudential Asset Management Co.Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+504,Park Medi World Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+505,Nephrocare Health Services Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+506,Corona Remedies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+507,Wakefit Innovations Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+508,Vidya Wires Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+509,Aequs Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+510,Meesho Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+511,Sudeep Pharma Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+512,Excelsoft Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+513,Capillary Technologies India Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+514,Fujiyama Power Systems Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+515,Tenneco Clean Air India Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+516,PhysicsWallah Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+517,Emmvee Photovoltaic Power Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+518,Pine Labs Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+519,Billionbrains Garage Ventures Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+520,Lenskart Solutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+521,Studds Accessories Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+522,Orkla India Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+523,Midwest Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+524,Canara HSBC Life Insurance Co.Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+525,Rubicon Research Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+526,Canara Robeco Asset Management Co.Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+527,Anantam Highways Trust,missing_or_ambiguous_pdf,,False,,False,,,,
+528,LG Electronics India Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+529,Tata Capital Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+530,WeWork India Management Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+531,Advance Agrolife Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+532,Om Freight Forwarders Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+533,Glottis Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+534,Fabtech Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+535,Pace Digitek Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+536,Trualt Bioenergy Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+537,Jinkushal Industries Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+538,Epack Prefab Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+539,BMW Ventures Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+540,Jain Resource Recycling Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+541,Anand Rathi Share & Stock Brokers Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+542,Seshaasai Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+543,Jaro Institute of Technology Management & Research Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+544,Solarworld Energy Solutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+545,Atlanta Electricals Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+546,Ganesh Consumer Products Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+547,GK Energy Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+548,Saatvik Green Energy Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+549,Ivalue Infosolutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+550,VMS TMT Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+551,Euro Pratik Sales Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+552,Shringar House of Mangalsutra Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+553,Dev Accelerator Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+554,Urban Co.Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+555,Amanta Healthcare Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+556,Anlon Healthcare Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+557,Vikran Engineering Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+558,Mangal Electrical Industries Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+559,Shreeji Shipping Global Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+560,Gem Aromatics Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+561,Vikram Solar Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+562,Patel Retail Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+563,Regaal Resources Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+564,BlueStone Jewellery & Lifestyle Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+565,Knowledge Realty Trust,missing_or_ambiguous_pdf,,False,,False,,,,
+566,All Time Plastics Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+567,JSW Cement Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+568,Highway Infrastructure Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+569,Sri Lotus Developers & Realty Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+570,M&B Engineering Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+571,National Securities Depository Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+572,Laxmi India Finance Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+573,Aditya Infotech Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+574,Property Share Investment Trust-PropShare Titania,missing_or_ambiguous_pdf,,False,,False,,,,
+575,Shanti Gold International Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+576,Brigade Hotel Ventures Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+577,Indiqube Spaces Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+578,GNG Electronics Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+579,Anthem Biosciences Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+580,Smartworks Coworking Spaces Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+581,Travel Food Services Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+582,Crizac Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+583,Indogulf Cropsciences Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+584,Sambhv Steel Tubes Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+585,HDB Financial Services Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+586,Globe Civil Projects Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+587,Ellenbarrie Industrial Gases Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+588,Kalpataru Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+589,Arisinfra Solutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+590,Oswal Pumps Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+591,Scoda Tubes Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+592,Prostarm Info Systems Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+593,Aegis Vopak Terminals Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+594,Schloss Bangalore Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+595,Belrise Industries Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+596,Borana Weaves Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+597,Ather Energy Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+598,Quality Power Electrical Equipments Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+599,Hexaware Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+600,Ajax Engineering Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+601,Dr.Agarwal's Health Care Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+602,Denta Water & Infra Solutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+603,Stallion India Fluorochemicals Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+604,Laxmi Dental Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+605,Capital Infra Trust,missing_or_ambiguous_pdf,,False,,False,,,,
+606,Quadrant Future Tek Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+607,Standard Glass Lining Technology Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+608,Indo Farm Equipment Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+609,Manika Plastech Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+610,Veegaland Developers Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+611,LCC Projects Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+612,Karamtara Engineering Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+613,Rentomojo Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+614,Asset Reconstruction Co.(India) Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+615,Manipal Payment & Identity Solutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+616,Steamhouse India Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+617,Glass Wall Systems (India) Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+618,Prasol Chemicals Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+619,Kanohar Electricals Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+620,Pranav Constructions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+621,Rays of Belief Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+622,Deepa Jewellers Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+623,Purple Style Labs Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+624,ESDS Software Solution Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+625,Priority Jewels Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+626,Lumino Industries Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+627,Annu Projects Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+628,Symbiotec Pharmalab Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+629,Skyways Air Services Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+630,Hy-Tech Engineers Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+631,Augmont Enterprises Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+632,Tempsens Instruments (India) Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+633,Gaja Alternative Asset Management Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+634,Sunshine Pictures Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+635,Shankesh Jewellers Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+636,Lalithaa Jewellery Mart Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+637,Horizon Industrial Parks Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+638,Behari Lal Engineering Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+639,Shiprocket Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+640,Milky Mist Dairy Food Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+641,Molbio Diagnostics Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+642,Dhoot Transmission Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+643,Technocraft Ventures Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+644,LEAP India Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+645,Ardee Industries Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+646,Juniper Green Energy Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+647,MV Electrosystems Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+648,Manipal Health Enterprises Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+649,Cube Highways Trust,missing_or_ambiguous_pdf,,False,,False,,,,
+650,Indo-MIM Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+651,Lohia Corp Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+652,Xtranet Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+653,Caliber Mining & Logistics Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+654,Alpine Texworld Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+655,SBI Funds Management Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+656,Laser Power & Infra Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+657,Kusumgar Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+658,Knack Packaging Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+659,Aastha Spintex Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+660,CSM Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+661,Waterways Leisure Tourism Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+662,Advit Jewels Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+663,Turtlemint Fintech Solutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+664,Hexagon Nutrition Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+665,CMR Green Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+666,Bagmane Prime Office REIT,missing_or_ambiguous_pdf,,False,,False,,,,
+667,OnEMI Technology Solutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+668,Citius Transnet Investment Trust,missing_or_ambiguous_pdf,,False,,False,,,,
+669,Property Share Investment Trust-Propshare Celestia,missing_or_ambiguous_pdf,,False,,False,,,,
+670,Om Power Transmission Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+671,Powerica Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+672,Sai Parenteral's Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+673,Amir Chand Jagdish Kumar (Exports) Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+674,Central Mine Planning & Design Institute Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+675,GSP Crop Science Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+676,Raajmarg Infra Investment Trust,missing_or_ambiguous_pdf,,False,,False,,,,
+677,Innovision Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+678,Rajputana Stainless Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+679,SEDEMAC Mechatronics Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+680,Omnitech Engineering Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+681,PNGS Reva Diamond Jewellery Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+682,Shree Ram Twistex Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+683,Clean Max Enviro Energy Solutions Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+684,Gaudium IVF & Women Health Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+685,Aye Finance Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+686,Fractal Analytics Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+687,Shadowfax Technologies Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+688,Amagi Media Labs Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,
+689,Bharat Coking Coal Ltd.,missing_or_ambiguous_pdf,,False,,False,,,,

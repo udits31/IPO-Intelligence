@@ -1,0 +1,372 @@
+{
+  "model_version": "module1-preclose-return-2021-2024-v1",
+  "training_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "trained_through_date": "2024-12-31",
+  "feature_cols": [
+    "log_qib_subscription",
+    "log_hni_subscription",
+    "log_retail_subscription",
+    "log_issue_price",
+    "log_issue_size_cr"
+  ],
+  "training_stage": "penultimate_session_end",
+  "input_sha256": {
+    "data/canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "data/daywise_subscription_research_cohort.csv": "ce56c335987aec0e966e6be9612f98f133e8cbbb450b376740755c03501e65b7",
+    "data/nse_verified_offer_dates.csv": "ff425f82473ad28f635750bbf1914929b227e869d5b3b449ed090a75e065b653",
+    "data/raw_daily_market_time_series.csv": "814ce05cebceaf5bcfd985081a8acd2803d77559206b9894ded1d1cdd461528f",
+    "data/preclose_gmp_history.csv": "ec2bba1fd8a37ae0cab722a149c1ce577901a965b9d7bbf2d25a85c513e06f23"
+  },
+  "status": "experimental_retrospective_challenger",
+  "risk_weight": 0.5,
+  "cost_scenario_pp": 0.5,
+  "better_than_gmp_established": false,
+  "conclusion": "A reliable advantage over GMP-only selection has NOT been established. Use the new forecasts as experimental research, not a proven superior allocation strategy.",
+  "runtime": {
+    "sklearn": "1.5.2",
+    "numpy": "2.1.2",
+    "pandas": "2.2.3",
+    "seed": 42
+  },
+  "generated_at_ist": "2026-10-21T15:55:46.225151+05:30",
+  "cohort_audit": {
+    "source_rows": 196,
+    "source_with_valid_dates_and_features": 188,
+    "excluded_after_close_or_listing": 8,
+    "excluded_invalid_or_missing_features": 0,
+    "source_coverage_by_year": {
+      "2021": 44,
+      "2022": 30,
+      "2023": 41,
+      "2024": 81
+    },
+    "return_rows": 186,
+    "paired_gmp_rows": 102,
+    "rows_by_year": {
+      "2021": 42,
+      "2022": 28,
+      "2023": 41,
+      "2024": 75
+    }
+  },
+  "tracks": {
+    "bids_only": {
+      "selected_candidate": "boosted_huber",
+      "development_mae_pp": {
+        "ridge": 19.508814692035983,
+        "forest": 19.013969906943775,
+        "boosted_huber": 16.402133932801505
+      },
+      "residual_calibration_rows": 69,
+      "residual_bounds_pp": [
+        -31.179485916059953,
+        13.63778218683477
+      ],
+      "confirmation_2024": {
+        "n": 75,
+        "mae_pp": 26.846361695452796,
+        "rmse_pp": 35.27104056714183,
+        "direction_accuracy": 0.8133333333333334,
+        "interval_80_coverage": 0.5466666666666666,
+        "average_interval_width_pp": 44.817268102894715,
+        "positive_probability_brier": 0.14346771440331713,
+        "gmp_mae_pp": null
+      },
+      "paired_2024": {
+        "n": 39,
+        "mae_pp": 31.819902628909684,
+        "rmse_pp": 39.98489466369684,
+        "direction_accuracy": 0.8461538461538461,
+        "interval_80_coverage": 0.46153846153846156,
+        "average_interval_width_pp": 44.81726810289474,
+        "positive_probability_brier": 0.11522331827974205,
+        "gmp_mae_pp": 24.9618392167212,
+        "mae_improvement_over_gmp_pp": -6.85806341218849,
+        "mae_improvement_bootstrap_95_pp": [
+          -12.229119130343255,
+          -1.5957190219971495
+        ]
+      },
+      "training_median_baseline_mae_pp": 26.135798831339,
+      "confirmation_ranking_supported_rows": 69,
+      "largest_return_misses": [
+        {
+          "company_name": "Vibhor Steel Tubes Ltd.",
+          "prediction": 77.34131690458652,
+          "target_return": 178.80794701986753,
+          "gmp_pct": 79.47019867549669,
+          "error": 101.466630115281
+        },
+        {
+          "company_name": "Premier Energies Ltd.",
+          "prediction": 33.72088069911586,
+          "target_return": 120.22222222222223,
+          "gmp_pct": 73.33333333333333,
+          "error": 86.50134152310636
+        },
+        {
+          "company_name": "Mamata Machinery Ltd.",
+          "prediction": 77.52011514863493,
+          "target_return": 146.91358024691357,
+          "gmp_pct": 61.72839506172839,
+          "error": 69.39346509827864
+        },
+        {
+          "company_name": "Bajaj Housing Finance Ltd.",
+          "prediction": 47.1917806552684,
+          "target_return": 114.28571428571428,
+          "gmp_pct": 78.57142857142857,
+          "error": 67.09393363044587
+        },
+        {
+          "company_name": "SRM Contractors Ltd.",
+          "prediction": 69.62222568220413,
+          "target_return": 7.14285714285714,
+          "gmp_pct": 30.952380952380953,
+          "error": 62.47936853934699
+        },
+        {
+          "company_name": "Diffusion Engineers Ltd.",
+          "prediction": 73.77367088336183,
+          "target_return": 11.904761904761907,
+          "gmp_pct": null,
+          "error": 61.868908978599926
+        },
+        {
+          "company_name": "Awfis Space Solutions Ltd.",
+          "prediction": 74.31752663646917,
+          "target_return": 12.859007832898172,
+          "gmp_pct": 39.1644908616188,
+          "error": 61.458518803570996
+        },
+        {
+          "company_name": "R K SWAMY Ltd.",
+          "prediction": 48.09953943510756,
+          "target_return": -12.5,
+          "gmp_pct": 31.25,
+          "error": 60.59953943510756
+        }
+      ],
+      "ranking_2024": {
+        "panels": 4,
+        "choices": [
+          {
+            "decision_date": "2024-02-08",
+            "ipos": 3,
+            "model_choice": "Rashi Peripherals Ltd.",
+            "gmp_choice": "Rashi Peripherals Ltd.",
+            "model_conditional_return_pct": 7.217041800643076,
+            "gmp_conditional_return_pct": 7.217041800643076,
+            "difference_pp": 0.0
+          },
+          {
+            "decision_date": "2024-09-10",
+            "ipos": 2,
+            "model_choice": "Bajaj Housing Finance Ltd.",
+            "gmp_choice": "Bajaj Housing Finance Ltd.",
+            "model_conditional_return_pct": 113.78571428571428,
+            "gmp_conditional_return_pct": 113.78571428571428,
+            "difference_pp": 0.0
+          },
+          {
+            "decision_date": "2024-12-20",
+            "ipos": 3,
+            "model_choice": "Mamata Machinery Ltd.",
+            "gmp_choice": "Mamata Machinery Ltd.",
+            "model_conditional_return_pct": 146.41358024691357,
+            "gmp_conditional_return_pct": 146.41358024691357,
+            "difference_pp": 0.0
+          },
+          {
+            "decision_date": "2024-12-23",
+            "ipos": 2,
+            "model_choice": "Senores Pharmaceuticals Ltd.",
+            "gmp_choice": "Senores Pharmaceuticals Ltd.",
+            "model_conditional_return_pct": 51.34143222506394,
+            "gmp_conditional_return_pct": 51.34143222506394,
+            "difference_pp": 0.0
+          }
+        ],
+        "model_mean_conditional_return_pct": 79.68944213958372,
+        "gmp_mean_conditional_return_pct": 79.68944213958372,
+        "paired_difference_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "model_wins": 0,
+        "gmp_wins": 0,
+        "ties": 4,
+        "pairwise_ranking_accuracy": 0.875,
+        "better_than_gmp_established": false
+      },
+      "training_rows": 186
+    },
+    "bids_plus_gmp": {
+      "selected_candidate": "boosted_huber",
+      "development_mae_pp": {
+        "ridge": 21.01383578732894,
+        "forest": 15.97143526906832,
+        "boosted_huber": 14.78188028539293
+      },
+      "residual_calibration_rows": 40,
+      "residual_bounds_pp": [
+        -16.621103390503606,
+        20.797806806380287
+      ],
+      "confirmation_2024": {
+        "n": 39,
+        "mae_pp": 24.264445716260532,
+        "rmse_pp": 34.83419279988673,
+        "direction_accuracy": 0.7435897435897436,
+        "interval_80_coverage": 0.5384615384615384,
+        "average_interval_width_pp": 37.418910196883886,
+        "positive_probability_brier": 0.10922242423023651,
+        "gmp_mae_pp": 24.9618392167212
+      },
+      "paired_2024": {
+        "n": 39,
+        "mae_pp": 24.264445716260532,
+        "rmse_pp": 34.83419279988673,
+        "direction_accuracy": 0.7435897435897436,
+        "interval_80_coverage": 0.5384615384615384,
+        "average_interval_width_pp": 37.418910196883886,
+        "positive_probability_brier": 0.10922242423023651,
+        "gmp_mae_pp": 24.9618392167212,
+        "mae_improvement_over_gmp_pp": 0.6973935004606623,
+        "mae_improvement_bootstrap_95_pp": [
+          -4.040980751859009,
+          5.3250336929352375
+        ]
+      },
+      "training_median_baseline_mae_pp": 33.55366173636112,
+      "confirmation_ranking_supported_rows": 34,
+      "largest_return_misses": [
+        {
+          "company_name": "Unicommerce eSolutions Ltd.",
+          "prediction": 9.855617678887072,
+          "target_return": 112.96296296296298,
+          "gmp_pct": 37.03703703703704,
+          "error": 103.1073452840759
+        },
+        {
+          "company_name": "Vibhor Steel Tubes Ltd.",
+          "prediction": 84.03120835157291,
+          "target_return": 178.80794701986753,
+          "gmp_pct": 79.47019867549669,
+          "error": 94.77673866829461
+        },
+        {
+          "company_name": "Mamata Machinery Ltd.",
+          "prediction": 67.8553511118066,
+          "target_return": 146.91358024691357,
+          "gmp_pct": 61.72839506172839,
+          "error": 79.05822913510697
+        },
+        {
+          "company_name": "JNK India Ltd.",
+          "prediction": -5.275449349858557,
+          "target_return": 49.39759036144578,
+          "gmp_pct": 3.614457831325301,
+          "error": 54.673039711304334
+        },
+        {
+          "company_name": "P N Gadgil Jewellers Ltd.",
+          "prediction": 19.81808913275116,
+          "target_return": 73.75,
+          "gmp_pct": 50.0,
+          "error": 53.93191086724884
+        },
+        {
+          "company_name": "Premier Energies Ltd.",
+          "prediction": 69.91966031300096,
+          "target_return": 120.22222222222223,
+          "gmp_pct": 73.33333333333333,
+          "error": 50.30256190922127
+        },
+        {
+          "company_name": "Waaree Energies Ltd.",
+          "prediction": 116.07272122907865,
+          "target_return": 69.66067864271457,
+          "gmp_pct": 100.46573519627411,
+          "error": 46.41204258636408
+        },
+        {
+          "company_name": "Orient Technologies Ltd.",
+          "prediction": -5.17800321672722,
+          "target_return": 40.77669902912622,
+          "gmp_pct": 14.563106796116504,
+          "error": 45.95470224585344
+        }
+      ],
+      "ranking_2024": {
+        "panels": 4,
+        "choices": [
+          {
+            "decision_date": "2024-02-08",
+            "ipos": 3,
+            "model_choice": "Rashi Peripherals Ltd.",
+            "gmp_choice": "Rashi Peripherals Ltd.",
+            "model_conditional_return_pct": 7.217041800643076,
+            "gmp_conditional_return_pct": 7.217041800643076,
+            "difference_pp": 0.0
+          },
+          {
+            "decision_date": "2024-09-10",
+            "ipos": 2,
+            "model_choice": "Bajaj Housing Finance Ltd.",
+            "gmp_choice": "Bajaj Housing Finance Ltd.",
+            "model_conditional_return_pct": 113.78571428571428,
+            "gmp_conditional_return_pct": 113.78571428571428,
+            "difference_pp": 0.0
+          },
+          {
+            "decision_date": "2024-12-20",
+            "ipos": 3,
+            "model_choice": "Mamata Machinery Ltd.",
+            "gmp_choice": "Mamata Machinery Ltd.",
+            "model_conditional_return_pct": 146.41358024691357,
+            "gmp_conditional_return_pct": 146.41358024691357,
+            "difference_pp": 0.0
+          },
+          {
+            "decision_date": "2024-12-23",
+            "ipos": 2,
+            "model_choice": "Senores Pharmaceuticals Ltd.",
+            "gmp_choice": "Senores Pharmaceuticals Ltd.",
+            "model_conditional_return_pct": 51.34143222506394,
+            "gmp_conditional_return_pct": 51.34143222506394,
+            "difference_pp": 0.0
+          }
+        ],
+        "model_mean_conditional_return_pct": 79.68944213958372,
+        "gmp_mean_conditional_return_pct": 79.68944213958372,
+        "paired_difference_pp": 0.0,
+        "paired_bootstrap_95_pp": [
+          0.0,
+          0.0
+        ],
+        "model_wins": 0,
+        "gmp_wins": 0,
+        "ties": 4,
+        "pairwise_ranking_accuracy": 1.0,
+        "better_than_gmp_established": false
+      },
+      "training_rows": 102
+    }
+  },
+  "limitations": [
+    "Daily subscription and GMP archive pages can have been edited later; not immutable investor-time evidence.",
+    "GMP coverage is incomplete and selected. Quotes are at least a day older than the bid snapshot.",
+    "Training is penultimate-session end-of-day, not a validated day-one or final-hour model.",
+    "Live intraday or closing-day use is a stage extrapolation; prospective accuracy remains unmeasured.",
+    "A residual band is empirical and can miss; the upper bound is not a cap or guarantee.",
+    "Small simultaneous choice sets and repeated overlapping offer exposures limit inference.",
+    "No paper numbers or final-book classifier were replaced by this experiment."
+  ]
+}

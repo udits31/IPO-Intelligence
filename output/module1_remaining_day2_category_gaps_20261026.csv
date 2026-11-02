@@ -1,0 +1,18 @@
+issuer_key,company_name,cohort,year,previous_total_ratio_present,day2_categories_recovered,day2_quality,day2_timestamp,day2_source_url,stage,eligible_bridge_pair,local_capture_rows_with_numbers,observation_csv_rows,independent_intraday_clock_verified
+305,RailTel Corp.of India Ltd.,historical,2021.0,False,False,,,,day2,False,0,1,False
+338,Paradeep Phosphates Ltd.,historical,2022.0,False,False,,,,day2,False,0,1,False
+391,Aeroflex Industries Ltd.,historical,2023.0,False,False,,,https://www.ipopremium.in/view/ipo/228/aeroflex-industries-limited,day2,False,0,1,False
+457,Brainbees Solutions Ltd.,historical,2024.0,False,False,,,https://www.ipopremium.in/view/ipo/557/brainbees-solutions-limited,day2,False,0,1,False
+503,ICICI Prudential Asset Management Co.Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/1032/icici-prudential-asset-management-co-ltd,unresolved_interim,False,0,1,False
+519,Billionbrains Garage Ventures Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/1029/billionbrains-garage-ventures-ltd,unresolved_interim,False,0,1,False
+524,Canara HSBC Life Insurance Co.Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/1022/canara-hsbc-life-insurance,unresolved_interim,False,0,1,False
+526,Canara Robeco Asset Management Co.Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/1021/canara-robeco-asset-management-coltd,unresolved_interim,False,0,1,False
+529,Tata Capital Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/1011/tata-capital-ltd,unresolved_interim,False,0,1,False
+543,Jaro Institute of Technology Management & Research Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/975/jaro-institute-of-technology-management-research-ltd,unresolved_interim,False,0,1,False
+551,Euro Pratik Sales Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/955/euro-pratik-sales-ltd,unresolved_interim,False,0,1,False
+564,BlueStone Jewellery & Lifestyle Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/905/bluestone-jewellery-lifestyle-ltd,unresolved_interim,False,0,1,False
+571,National Securities Depository Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/800/national-securities-depository-ltd,unresolved_interim,False,0,1,False
+585,HDB Financial Services Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/809/hdb-financial-services-limited,unresolved_interim,False,0,1,False
+593,Aegis Vopak Terminals Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/792/aegis-vopak-terminals-limited,unresolved_interim,False,0,1,False
+594,Schloss Bangalore Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/788/schloss-bangalore-limited,unresolved_interim,False,0,1,False
+601,Dr.Agarwal's Health Care Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/731/dr-agarwals-health-care-limited,unresolved_interim,False,0,1,False

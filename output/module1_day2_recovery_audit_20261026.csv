@@ -1,0 +1,384 @@
+issuer_key,company_name,cohort,year,previous_total_ratio_present,day2_categories_recovered,day2_quality,day2_timestamp,day2_source_url,stage,eligible_bridge_pair,local_capture_rows_with_numbers,observation_csv_rows,independent_intraday_clock_verified
+308,Stove Kraft Ltd.,historical,2021.0,False,True,publisher_reported_recovered_later,2021-01-27T17:00:00+05:30,https://www.ipoji.com/ipo/stove-kraft-ipo,day2,False,0,1,False
+305,RailTel Corp.of India Ltd.,historical,2021.0,False,False,,,,day2,False,0,1,False
+304,Heranba Industries Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-02-24T17:00:00+05:30,https://www.ipoji.com/ipo/heranba-industries-limited-ipo,day2,False,0,1,False
+303,MTAR Technologies Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-03-04T17:00:00+05:30,https://www.ipoji.com/ipo/mtar-technologies-limited-ipo,day2,False,0,1,False
+299,Craftsman Automation Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-03-16T17:00:00+05:30,https://www.ipoji.com/ipo/craftsman-automation-limited-ipo,day2,False,0,1,False
+300,Laxmi Organic Industries Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-03-16T17:00:00+05:30,https://www.ipoji.com/ipo/laxmi-organic-industries-limited-ipo,day2,False,0,1,False
+297,Kalyan Jewellers India Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-03-17T17:00:00+05:30,https://www.ipoji.com/ipo/kalyan-jewellers-ipo,day2,False,0,1,False
+296,Nazara Technologies Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-03-18T17:00:00+05:30,https://www.ipoji.com/ipo/nazara-technologies-limited-ipo,day2,False,0,1,False
+295,Barbeque-Nation Hospitality Ltd.,historical,2021.0,False,True,publisher_reported_recovered_later,2021-03-25T17:00:00+05:30,https://www.ipoji.com/ipo/barbeque-nation-hospitality-limited-ipo,day2,False,0,1,False
+291,Shyam Metalics & Energy Ltd.,historical,2021.0,False,True,publisher_reported_recovered_later,2020-06-15T16:30:00+05:30,https://www.ipoji.com/ipo/shyam-metalics-and-energy-limited-ipo,day2,False,0,1,False
+289,Dodla Dairy Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2020-06-17T17:00:00+05:30,https://www.ipoji.com/ipo/dodla-dairy-ipo,day2,False,0,1,False
+288,India Pesticides Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2020-06-24T16:45:00+05:30,https://www.ipoji.com/ipo/india-pesticides-limited-ipo,day2,False,0,1,False
+287,Clean Science & Technology Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-07-08T17:00:00+05:30,https://www.ipoji.com/ipo/clean-science-and-technology-ltd-ipo,day2,False,0,1,False
+285,Zomato Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-07-15T17:00:00+05:30,https://www.ipoji.com/ipo/zomato-limited-ipo,day2,False,0,1,False
+284,Tatva Chintan Pharma Chem Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2020-07-19T17:00:00+05:30,https://www.ipoji.com/ipo/tatva-chintan-pharma-chem-limited-ipo,day2,False,0,1,False
+283,Glenmark Life Sciences Ltd.,historical,2021.0,False,True,publisher_reported_recovered_later,2020-07-28T17:00:00+05:30,https://www.ipoji.com/ipo/glenmark-life-sciences-limited-ipo,day2,False,0,1,False
+282,Rolex Rings Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2020-07-29T17:00:00+05:30,https://www.ipoji.com/ipo/rolex-rings-limited-ipo,day2,False,0,1,False
+278,Krsnaa Diagnostics Ltd.,historical,2021.0,False,True,publisher_reported_recovered_later,2021-08-05T17:00:00+05:30,https://www.ipoji.com/ipo/krsnaa-diagnostics-limited-ipo,day2,False,0,1,False
+279,Devyani International Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-08-05T17:00:00+05:30,https://www.ipoji.com/ipo/devyani-international-limited-ipo,day2,False,0,1,False
+280,Exxaro Tiles Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-08-05T17:00:00+05:30,https://www.ipoji.com/ipo/exxaro-tiles-limited-ipo,day2,False,0,1,False
+281,Windlas Biotech Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-08-05T17:00:00+05:30,https://www.ipoji.com/ipo/windlas-biotech-limited-ipo,day2,False,0,1,False
+277,CarTrade Tech Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-08-10T17:00:00+05:30,https://www.ipoji.com/ipo/cartrade-tech-ltd-ipo,day2,False,0,1,False
+274,Aptus Value Housing Finance India Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-08-11T17:00:00+05:30,https://www.ipoji.com/ipo/aptus-value-housing-finance-india-ltd-ipo,day2,False,0,1,False
+275,Chemplast Sanmar Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-08-11T17:00:00+05:30,https://www.ipoji.com/ipo/chemplast-sanmar-ipo,day2,False,0,1,False
+272,Ami Organics Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-09-02T17:00:00+05:30,https://www.ipoji.com/ipo/ami-organics-limited-ipo,day2,False,0,1,False
+273,Vijaya Diagnostic Centre Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-09-02T17:00:00+05:30,https://www.ipoji.com/ipo/vijaya-diagnostic-centre-limited-ipo,day2,False,0,1,False
+271,Sansera Engineering Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-09-15T17:00:00+05:30,https://www.ipoji.com/ipo/sansera-engineering-limited-ipo,day2,False,0,1,False
+269,Aditya Birla Sun Life AMC Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-09-30T17:00:00+05:30,https://www.ipoji.com/ipo/aditya-birla-sun-life-amc-limited-ipo,day2,False,0,1,False
+267,Fino Payments Bank Ltd.,historical,2021.0,False,True,publisher_reported_recovered_later,2021-11-01T16:30:00+05:30,https://www.ipoji.com/ipo/fino-payments-bank-limited-ipo,day2,False,0,1,False
+265,Sigachi Industries Ltd.,historical,2021.0,False,True,publisher_reported_recovered_later,2021-11-02T16:30:00+05:30,https://www.ipoji.com/ipo/sigachi-industries-limited-ipo,day2,False,0,1,False
+263,Sapphire Foods India Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-11-10T17:00:00+05:30,https://www.ipoji.com/ipo/sapphire-foods-india-limited-ipo,day2,False,0,1,False
+261,Latent View Analytics Ltd.,historical,2021.0,False,True,publisher_reported_recovered_later,2021-11-11T16:30:00+05:30,https://www.ipoji.com/ipo/latent-view-analytics-limited-ipo,day2,False,0,1,False
+260,Tarsons Products Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-11-16T17:00:00+05:30,https://www.ipoji.com/ipo/tarsons-products-limited-ipo,day2,False,0,1,False
+257,Tega Industries Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-02T17:00:00+05:30,https://www.ipoji.com/ipo/tega-industries-ipo,day2,False,0,1,False
+256,Anand Rathi Wealth Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-03T17:00:00+05:30,https://www.ipoji.com/ipo/anand-rathi-wealth-limited-ipo,day2,False,0,1,False
+255,Rategain Travel Technologies Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-08T17:00:00+05:30,https://www.ipoji.com/ipo/rategain-travel-technologies-ipo,day2,False,0,1,False
+254,Shriram Properties Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-09T17:00:00+05:30,https://www.ipoji.com/ipo/shriram-properties-limited-ipo,day2,False,0,1,False
+252,Metro Brands Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-13T17:00:00+05:30,https://www.ipoji.com/ipo/metro-brands-limited-ipo,day2,False,0,1,False
+251,Medplus Health Services Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-14T17:00:00+05:30,https://www.ipoji.com/ipo/medplus-health-services-limited-ipo,day2,False,0,1,False
+249,HP Adhesives Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-16T17:00:00+05:30,https://www.ipoji.com/ipo/hp-adhesives-limited,day2,False,0,1,False
+248,Supriya Lifescience Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-17T17:00:00+05:30,https://www.ipoji.com/ipo/supriya-lifescience-ipo,day2,False,0,1,False
+247,CMS Info Systems Ltd.,historical,2021.0,True,True,publisher_reported_recovered_later,2021-12-22T17:00:00+05:30,https://www.ipoji.com/ipo/cms-info-systems-limited-ipo,day2,False,0,1,False
+351,AGS Transact Technologies Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-01-20T17:00:00+05:30,https://www.ipoji.com/ipo/ags-transact-technologies-ipo,day2,False,0,1,False
+350,Adani Wilmar Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-01-28T17:00:00+05:30,https://www.ipoji.com/ipo/adani-wilmar-limited-ipo,day2,False,0,1,False
+349,Vedant Fashions Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-02-07T17:00:00+05:30,https://www.ipoji.com/ipo/vedant-fashions-limited-ipo-(manyavar-ipo),day2,False,0,1,False
+348,Uma Exports Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2021-03-29T17:00:00+05:30,https://www.ipoji.com/ipo/uma-exports-limited-ipo,day2,False,0,1,False
+346,Veranda Learning Solutions Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2021-03-30T17:00:00+05:30,https://www.ipoji.com/ipo/veranda-learning-solutions-limited-ipo,day2,False,0,1,False
+344,Campus Activewear Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-04-27T17:00:00+05:30,https://www.ipoji.com/ipo/campus-activewear-limited-ipo,day2,False,0,1,False
+343,Rainbow Children's Medicare Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-04-28T17:00:00+05:30,https://www.ipoji.com/ipo/rainbow-children's-medicare-limited-ipo,day2,False,0,1,False
+339,Delhivery Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-05-12T17:00:00+05:30,https://www.ipoji.com/ipo/delhivery-limited-ipo,day2,False,0,1,False
+340,Venus Pipes & Tubes Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-05-12T17:00:00+05:30,https://www.ipoji.com/ipo/venus-pipes-and-tubes-limited-ipo,day2,False,0,1,False
+338,Paradeep Phosphates Ltd.,historical,2022.0,False,True,publisher_reported_recovered_later,2022-05-18T17:00:00+05:30,https://www.ipoji.com/ipo/paradeep-phospates-limited-ipo,day2,False,0,1,False
+337,Ethos Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-05-19T17:00:00+05:30,https://www.ipoji.com/ipo/ethos-limited-ipo,day2,False,0,1,False
+336,eMudhra Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-05-23T17:00:00+05:30,https://www.ipoji.com/ipo/emudhra-limited-ipo,day2,False,0,1,False
+335,Aether Industries Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-05-25T17:00:00+05:30,https://www.ipoji.com/ipo/aether-industries-ipo,day2,False,0,1,False
+332,Tamilnad Mercantile Bank Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-09-06T17:00:00+05:30,https://www.ipoji.com/ipo/tamilnad-mercantile-bank-ltd-ipo,day2,False,0,1,False
+330,Electronics Mart India Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-10-06T17:00:00+05:30,https://www.ipoji.com/ipo/electronics-mart-india-limited-ipo,day2,False,0,1,False
+329,Tracxn Technologies Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-10-11T17:00:00+05:30,https://www.ipoji.com/ipo/tracxn-technologies-limited-ipo,day2,False,0,1,False
+327,Fusion Micro Finance Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-11-03T17:00:00+05:30,https://www.ipoji.com/ipo/fusion-micro-finance-limited-ipo,day2,False,0,1,False
+325,Global Health Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-11-04T17:00:00+05:30,https://www.ipoji.com/ipo/global-health-limited-ipo,day2,False,0,1,False
+326,Bikaji Foods International Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-11-04T17:00:00+05:30,https://www.ipoji.com/ipo/bikaji-foods-international-limited-ipo,day2,False,0,1,False
+323,Archean Chemical Industries Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-11-10T17:00:00+05:30,https://www.ipoji.com/ipo/archean-chemical-industries-limited-ipo,day2,False,0,1,False
+322,Kaynes Technology India Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-11-11T17:00:00+05:30,https://www.ipoji.com/ipo/kaynes-technology-india-ltd-ipo,day2,False,0,1,False
+321,Inox Green Energy Services Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-11-14T17:00:00+05:30,https://www.ipoji.com/ipo/inox-green-energy-services-limited-ipo,day2,False,0,1,False
+320,Keystone Realtors Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-11-15T17:00:00+05:30,https://www.ipoji.com/ipo/keystone-realtors-limited-ipo,day2,False,0,1,False
+319,Dharmaj Crop Guard Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-11-29T17:00:00+05:30,https://www.ipoji.com/ipo/dharmaj-crop-guard-limited-ipo,day2,False,0,1,False
+317,Sula Vineyards Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-12-13T17:00:00+05:30,https://www.ipoji.com/ipo/sula-vineyards-limited-ipo,day2,False,0,1,False
+316,Landmark Cars Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-12-14T17:00:00+05:30,https://www.ipoji.com/ipo/landmark-cars-limited-ipo,day2,False,0,1,False
+314,KFin Technologies Ltd.,historical,2022.0,False,True,publisher_reported_recovered_later,2022-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/kfin-technologies-limited-ipo,day2,False,0,1,False
+313,Elin Electronics Ltd.,historical,2022.0,True,True,publisher_reported_recovered_later,2022-12-21T17:00:00+05:30,https://www.ipoji.com/ipo/elin-electronics-limited-ipo,day2,False,0,1,False
+407,Divgi TorqTransfer Systems Ltd.,historical,2023.0,True,True,publisher_reported_recovered_later,2023-03-02T17:00:00+05:30,https://www.ipoji.com/ipo/divgi-torqtransfer-systems-limited-ipo,day2,False,0,1,False
+406,Global Surfaces Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-03-14T17:00:00+05:30,https://www.ipoji.com/ipo/global-surfaces-limited-ipo,day2,False,0,1,False
+405,Avalon Technologies Ltd.,historical,2023.0,True,True,publisher_reported_recovered_later,2023-04-05T17:00:00+05:30,https://www.ipoji.com/ipo/avalon-technologies-limited-ipo,day2,False,0,1,False
+404,Mankind Pharma Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-04-26T17:00:00+05:30,https://www.ipoji.com/ipo/mankind-pharma-limited-ipo,day2,False,0,1,False
+403,IKIO Lighting Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-06-07T17:00:00+05:30,https://www.ipoji.com/ipo/ikio-lighting-limited-ipo,day2,False,0,1,False
+399,Senco Gold Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-07-05T17:00:00+05:30,https://www.ipoji.com/ipo/senco-gold-limited-ipo,day2,False,0,1,False
+398,Utkarsh Small Finance Bank Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-07-13T17:00:00+05:30,https://www.ipoji.com/ipo/utkarsh-small-finance-bank-limited-ipo,day2,False,0,1,False
+397,Netweb Technologies India Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-07-18T17:00:00+05:30,https://www.ipoji.com/ipo/netweb-technologies-india-limited-ipo,day2,False,0,1,False
+396,Yatharth Hospital & Trauma Care Services Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-07-27T17:00:00+05:30,https://www.ipoji.com/ipo/yatharth-hospital-and-trauma-care-services-limited-ipo,day2,False,0,1,False
+395,SBFC Finance Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-08-04T17:00:00+05:30,https://www.ipoji.com/ipo/sbfc-finance-limited-ipo,day2,False,0,1,False
+394,Concord Biotech Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-08-07T17:00:00+05:30,https://www.ipoji.com/ipo/concord-biotech-limited-ipo,day2,False,0,1,False
+393,TVS Supply Chain Solutions Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-08-11T17:00:00+05:30,https://www.ipoji.com/ipo/tvs-supply-chain-solutions-limited-ipo,day2,False,0,1,False
+392,Pyramid Technoplast Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-08-21T17:00:00+05:30,https://www.ipoji.com/ipo/pyramid-technoplast-limited-ipo,day2,False,0,1,False
+391,Aeroflex Industries Ltd.,historical,2023.0,False,False,,,https://www.ipopremium.in/view/ipo/228/aeroflex-industries-limited,day2,False,0,1,False
+390,Vishnu Prakash R.Punglia Ltd.,historical,2023.0,True,True,publisher_reported_recovered_later,2023-08-25T17:00:00+05:30,https://www.ipoji.com/ipo/vishnu-prakash-r-punglia-limited-ipo,day2,False,0,1,False
+388,Ratnaveer Precision Engineering Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-09-05T17:00:00+05:30,https://www.ipoji.com/ipo/ratnaveer-precision-engineering-limited-ipo,day2,False,0,1,False
+389,Rishabh Instruments Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-08-31T17:00:00+05:30,https://www.ipoji.com/ipo/rishabh-instruments-limited-ipo,day2,False,0,1,False
+387,Jupiter Life Line Hospitals Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-09-07T17:00:00+05:30,https://www.ipoji.com/ipo/jupiter-life-line-hospitals-limited-ipo,day2,False,0,1,False
+385,EMS Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-09-11T17:00:00+05:30,https://www.ipoji.com/ipo/ems-limited-ipo,day2,False,0,1,False
+382,Signatureglobal (India) Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-09-21T17:00:00+05:30,https://www.ipoji.com/ipo/signatureglobal-(india)-limited-ipo,day2,False,0,1,False
+378,JSW Infrastructure Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-09-26T17:00:00+05:30,https://www.ipoji.com/ipo/jsw-infrastructure-limited-ipo,day2,False,0,1,False
+379,Manoj Vaibhav Gems 'N' Jewellers Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-09-25T17:00:00+05:30,https://www.ipoji.com/ipo/manoj-vaibhav-gems-n-jewellers-limited-ipo,day2,False,0,1,False
+374,IRM Energy Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-10-19T17:00:00+05:30,https://www.ipoji.com/ipo/irm-energy-limited-ipo,day2,False,0,1,False
+373,Blue Jet Healthcare Ltd.,historical,2023.0,True,True,publisher_reported_recovered_later,2023-10-26T17:00:00+05:30,https://www.ipoji.com/ipo/blue-jet-healthcare-limited-ipo,day2,False,0,1,False
+372,Cello World Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-10-31T17:00:00+05:30,https://www.ipoji.com/ipo/cello-world-limited-ipo,day2,False,0,1,False
+371,Honasa Consumer Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-11-01T17:00:00+05:30,https://www.ipoji.com/ipo/honasa-consumer-limited-(mamaearth)-ipo,day2,False,0,1,False
+368,ASK Automotive Ltd.,historical,2023.0,True,True,publisher_reported_recovered_later,2023-11-08T17:00:00+05:30,https://www.ipoji.com/ipo/ask-automotive-limited-ipo,day2,False,0,1,False
+364,Tata Technologies Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-11-23T17:00:00+05:30,https://www.ipoji.com/ipo/tata-technologies-limited-ipo,day2,False,0,1,False
+365,Gandhar Oil Refinery (India) Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-11-23T17:00:00+05:30,https://www.ipoji.com/ipo/gandhar-oil-refinery-india-limited-ipo,day2,False,0,1,False
+366,Fedbank Financial Services Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-11-23T17:00:00+05:30,https://www.ipoji.com/ipo/fedbank-financial-services-limited,day2,False,0,1,False
+363,Flair Writing Industries Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-11-23T17:00:00+05:30,https://www.ipoji.com/ipo/flair-writing-industries-limited-ipo,day2,False,0,1,False
+361,India Shelter Finance Corp.Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-12-14T17:00:00+05:30,https://www.ipoji.com/ipo/india-shelter-finance-corporation-limited-ipo,day2,False,0,1,False
+362,DOMS Industries Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-12-14T17:00:00+05:30,https://www.ipoji.com/ipo/doms-industries-limited-ipo,day2,False,0,1,False
+360,Inox India Ltd.,historical,2023.0,True,True,publisher_reported_recovered_later,2023-12-15T17:00:00+05:30,https://www.ipoji.com/ipo/inox-india-(cva)-limited-ipo,day2,False,0,1,False
+357,Muthoot Microfin Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-12-19T17:00:00+05:30,https://www.ipoji.com/ipo/muthoot-microfin-limited-ipo,day2,False,0,1,False
+358,Motisons Jewellers Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-12-19T17:00:00+05:30,https://www.ipoji.com/ipo/motisons-jewellers-limited-ipo,day2,False,0,1,False
+359,Suraj Estate Developers Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-12-19T17:00:00+05:30,https://www.ipoji.com/ipo/suraj-estate-developers-limited-ipo,day2,False,0,1,False
+354,RBZ Jewellers Ltd.,historical,2023.0,True,True,publisher_reported_recovered_later,2023-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/rbz-jewellers-limited-ipo,day2,False,0,1,False
+355,Credo Brands Marketing Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/credo-brands-marketing-limited-(mufti)-ipo,day2,False,0,1,False
+356,Happy Forgings Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/happy-forgings-limited-ipo,day2,False,0,1,False
+353,Azad Engineering Ltd.,historical,2023.0,False,True,publisher_reported_recovered_later,2023-12-21T17:00:00+05:30,https://www.ipoji.com/ipo/azad-engineering-limited-ipo,day2,False,0,1,False
+500,Jyoti CNC Automation Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-01-10T17:00:00+05:30,https://www.ipoji.com/ipo/jyoti-cnc-automation-limited-ipo,day2,False,0,1,False
+499,Medi Assist Healthcare Services Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-01-16T17:00:00+05:30,https://www.ipoji.com/ipo/medi-assist-healthcare-services-limited-ipo,day2,False,0,1,False
+497,Nova AgriTech Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-01-24T17:00:00+05:30,https://www.ipoji.com/ipo/nova-agri-tech-limited-ipo,day2,False,0,1,False
+496,BLS E-Services Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-01-31T17:00:00+05:30,https://www.ipoji.com/ipo/bls-e-services-limited-ipo,day2,False,0,1,False
+495,Apeejay Surrendra Park Hotels Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-02-06T17:00:00+05:30,https://www.ipoji.com/ipo/apeejay-surrendra-park-hotels-limited-ipo,day2,False,0,1,False
+492,Rashi Peripherals Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-02-08T17:00:00+05:30,https://www.ipoji.com/ipo/rashi-peripherals-limited-ipo,day2,False,0,1,False
+493,Jana Small Finance Bank Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-02-08T17:00:00+05:30,https://www.ipoji.com/ipo/jana-small-finance-bank-limited-ipo,day2,False,0,1,False
+494,Capital Small Finance Bank Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-02-08T17:00:00+05:30,https://www.ipoji.com/ipo/capital-small-finance-bank-limited-ipo,day2,False,0,1,False
+490,Vibhor Steel Tubes Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-02-14T17:00:00+05:30,https://www.ipoji.com/ipo/vibhor-steel-tubes-limited-ipo,day2,False,0,1,False
+489,Juniper Hotels Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-02-22T17:00:00+05:30,https://www.ipoji.com/ipo/juniper-hotels-limited-ipo,day2,False,0,1,False
+488,GPT Healthcare Ltd.,historical,2024.0,True,True,publisher_reported_recovered_later,2024-02-23T17:00:00+05:30,https://www.ipoji.com/ipo/gpt-healthcare-limited-ipo,day2,False,0,1,False
+486,Platinum Industries Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-02-28T17:00:00+05:30,https://www.ipoji.com/ipo/platinum-industries-limited-ipo,day2,False,0,1,False
+485,Mukka Proteins Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-03-01T17:00:00+05:30,https://www.ipoji.com/ipo/mukka-proteins-limited-ipo,day2,False,0,1,False
+484,R K SWAMY Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-03-05T17:00:00+05:30,https://www.ipoji.com/ipo/rk-swamy-ipo,day2,False,0,1,False
+483,J.G.Chemicals Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-03-06T17:00:00+05:30,https://www.ipoji.com/ipo/jg-chemicals-ipo,day2,False,0,1,False
+482,Gopal Snacks Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-03-07T17:00:00+05:30,https://www.ipoji.com/ipo/gopal-snacks-ipo,day2,False,0,1,False
+481,Popular Vehicles & Services Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-03-13T17:00:00+05:30,https://www.ipoji.com/ipo/popular-vehicles-ipo,day2,False,0,1,False
+480,Krystal Integrated Services Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-03-15T17:00:00+05:30,https://www.ipoji.com/ipo/krystal-integrated-service-ipo,day2,False,0,1,False
+479,SRM Contractors Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-03-27T17:00:00+05:30,https://www.ipoji.com/ipo/srm-contractors-limited,day2,False,0,1,False
+478,Bharti Hexacom Ltd.,historical,2024.0,True,True,publisher_reported_recovered_later,2024-04-04T17:00:00+05:30,https://www.ipoji.com/ipo/bharti-hexacom-limited,day2,False,0,1,False
+476,JNK India Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-04-24T17:00:00+05:30,https://www.ipoji.com/ipo/jnk-india-limited,day2,False,0,1,False
+475,Indegene Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-05-07T17:00:00+05:30,https://www.ipoji.com/ipo/indegene-limited,day2,False,0,1,False
+472,Go Digit General Insurance Ltd.,historical,2024.0,True,True,publisher_reported_recovered_later,2024-05-16T17:00:00+05:30,https://www.ipoji.com/ipo/go-digit-general-insurance-limited,day2,False,0,1,False
+471,Awfis Space Solutions Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-05-23T17:00:00+05:30,https://www.ipoji.com/ipo/awfis-space-solutions-limited,day2,False,0,1,False
+470,Kronox Lab Sciences Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-06-04T17:00:00+05:30,https://www.ipoji.com/ipo/kronox-lab-sciences-limited,day2,False,0,1,False
+469,Le Travenues Technology Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-06-11T17:00:00+05:30,https://www.ipoji.com/ipo/le-travenues-technology-limited-ixigo,day2,False,0,1,False
+467,DEE Development Engineers Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-06-20T17:00:00+05:30,https://www.ipoji.com/ipo/dee-development-engineers-limited,day2,False,0,1,False
+466,Stanley Lifestyles Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-06-24T17:00:00+05:30,https://www.ipoji.com/ipo/stanley-lifestyles-limited,day2,False,0,1,False
+465,Allied Blenders & Distillers Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-06-26T17:00:00+05:30,https://www.ipoji.com/ipo/allied-blenders-and-distillers,day2,False,0,1,False
+464,Vraj Iron & Steel Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-06-27T17:00:00+05:30,https://www.ipoji.com/ipo/vraj-iron-and-steel-limited,day2,False,0,1,False
+462,Emcure Pharmaceuticals Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-07-04T17:00:00+05:30,https://www.ipoji.com/ipo/emcure-pharmaceuticals-limited,day2,False,0,1,False
+463,Bansal Wire Industries Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-07-04T17:00:00+05:30,https://www.ipoji.com/ipo/bansal-wire-industries-limited,day2,False,0,1,False
+461,Sanstar Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-07-22T17:00:00+05:30,https://www.ipoji.com/ipo/sanstar-limited,day2,False,0,1,False
+460,Akums Drugs & Pharmaceuticals Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-07-31T17:00:00+05:30,https://www.ipoji.com/ipo/akums-drugs-and-pharmaceuticals-limited,day2,False,0,1,False
+459,Ceigall India Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-02T17:00:00+05:30,https://www.ipoji.com/ipo/ceigall-india-limited,day2,False,0,1,False
+458,Ola Electric Mobility Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-05T17:00:00+05:30,https://www.ipoji.com/ipo/ola-electric-mobility-limited,day2,False,0,1,False
+456,Unicommerce eSolutions Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-07T17:00:00+05:30,https://www.ipoji.com/ipo/unicommerce-esolutions-ipo,day2,False,0,1,False
+457,Brainbees Solutions Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-07T17:00:00+05:30,https://www.ipoji.com/ipo/brainbees-firstcry-ipo,day2,False,0,1,False
+455,Saraswati Saree Depot Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-13T17:00:00+05:30,https://www.ipoji.com/ipo/saraswati-saree-ipo,day2,False,0,1,False
+454,Interarch Building Products Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-20T17:00:00+05:30,https://www.ipoji.com/ipo/interarch-building-products-ipo,day2,False,0,1,False
+453,Orient Technologies Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-22T17:00:00+05:30,https://www.ipoji.com/ipo/orient-technologies-ipo,day2,False,0,1,False
+452,Premier Energies Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-28T17:00:00+05:30,https://www.ipoji.com/ipo/premier-energies-ipo,day2,False,0,1,False
+451,ECOS (India) Mobility & Hospitality Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-08-29T17:00:00+05:30,https://www.ipoji.com/ipo/ecos-india-mobility-hospitality-ipo,day2,False,0,1,False
+450,Baazar Style Retail Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-02T17:00:00+05:30,https://www.ipoji.com/ipo/baazar-style-retail-ipo,day2,False,0,1,False
+449,Gala Precision Engineering Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-03T17:00:00+05:30,https://www.ipoji.com/ipo/gala-precision-ipo,day2,False,0,1,False
+448,Shree Tirupati Balajee Agro Trading Co.Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-06T17:00:00+05:30,https://www.ipoji.com/ipo/shree-tirupati-balajee-agro-ipo,day2,False,0,1,False
+445,Bajaj Housing Finance Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-10T17:00:00+05:30,https://www.ipoji.com/ipo/bajaj-housing-finance-ipo,day2,False,0,1,False
+446,Kross Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-10T17:00:00+05:30,https://www.ipoji.com/ipo/kross-ipo,day2,False,0,1,False
+447,Tolins Tyres Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-10T17:00:00+05:30,https://www.ipoji.com/ipo/tolins-tyres-ipo,day2,False,0,1,False
+444,P N Gadgil Jewellers Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-11T17:00:00+05:30,https://www.ipoji.com/ipo/p-n-gadgil-jewellers-ipo,day2,False,0,1,False
+441,Western Carriers (India) Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-16T17:00:00+05:30,https://www.ipoji.com/ipo/western-carriers-india-ipo,day2,False,0,1,False
+442,Arkade Developers Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-17T17:00:00+05:30,https://www.ipoji.com/ipo/arkade-developers-ipo,day2,False,0,1,False
+440,Manba Finance Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/manba-finance-ipo,day2,False,0,1,False
+438,Diffusion Engineers Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-09-27T17:00:00+05:30,https://www.ipoji.com/ipo/diffusion-engineers-ipo,day2,False,0,1,False
+437,Garuda Construction & Engineering Ltd.,historical,2024.0,True,True,publisher_reported_recovered_later,2024-10-09T17:00:00+05:30,https://www.ipoji.com/ipo/garuda-construction-engineering-ipo,day2,False,0,1,False
+436,Hyundai Motor India Ltd.,historical,2024.0,True,True,publisher_reported_recovered_later,2024-10-16T17:00:00+05:30,https://www.ipoji.com/ipo/hyundai-motor-ipo,day2,False,0,1,False
+434,Waaree Energies Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-10-22T17:00:00+05:30,https://www.ipoji.com/ipo/waaree-energies-ipo,day2,False,0,1,False
+435,Deepak Builders & Engineers India Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-10-22T17:00:00+05:30,https://www.ipoji.com/ipo/deepak-builders-engineers-india-ipo,day2,False,0,1,False
+431,Sagility India Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-11-06T17:00:00+05:30,https://www.ipoji.com/ipo/sagility-india-ipo,day2,False,0,1,False
+428,Niva Bupa Health Insurance Co.Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-11-08T17:00:00+05:30,https://www.ipoji.com/ipo/niva-bupa-health-insurance-ipo,day2,False,0,1,False
+427,Zinka Logistics Solutions Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-11-14T17:00:00+05:30,https://www.ipoji.com/ipo/zinka-logistics-solution-blackbuck-ipo,day2,False,0,1,False
+425,Enviro Infra Engineers Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-11-25T17:00:00+05:30,https://www.ipoji.com/ipo/enviro-infra-engineers-ipo,day2,False,0,1,False
+424,Suraksha Diagnostic Ltd.,historical,2024.0,True,True,publisher_reported_recovered_later,2024-12-02T17:00:00+05:30,https://www.ipoji.com/ipo/suraksha-diagnostic-ipo,day2,False,0,1,False
+421,Vishal Mega Mart Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-12T17:00:00+05:30,https://www.ipoji.com/ipo/vishal-mega-mart-ipo,day2,False,0,1,False
+422,Sai Life Sciences Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-12T17:00:00+05:30,https://www.ipoji.com/ipo/sai-life-sciences-ipo,day2,False,0,1,False
+423,One Mobikwik Systems Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-12T17:00:00+05:30,https://www.ipoji.com/ipo/one-mobikwik-systems-ipo,day2,False,0,1,False
+419,International Gemmological Institute (India) Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-16T17:00:00+05:30,https://www.ipoji.com/ipo/international-gemmological-institute-india-ipo,day2,False,0,1,False
+414,Transrail Lighting Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/transrail-lighting-ipo,day2,False,0,1,False
+415,Concord Enviro Systems Ltd.,historical,2024.0,True,True,publisher_reported_recovered_later,2024-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/concord-enviro-systems-ipo,day2,False,0,1,False
+416,Sanathan Textiles Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/sanathan-textiles-ipo,day2,False,0,1,False
+417,DAM Capital Advisors Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/dam-capital-advisors,day2,False,0,1,False
+418,Mamata Machinery Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-20T17:00:00+05:30,https://www.ipoji.com/ipo/mamata-machinery-ipo,day2,False,0,1,False
+411,Ventive Hospitality Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-23T17:00:00+05:30,https://www.ipoji.com/ipo/ventive-hospitality-ipo,day2,False,0,1,False
+412,Carraro India Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-23T17:00:00+05:30,https://www.ipoji.com/ipo/carraro-india-ipo,day2,False,0,1,False
+413,Senores Pharmaceuticals Ltd.,historical,2024.0,False,True,publisher_reported_recovered_later,2024-12-23T17:00:00+05:30,https://www.ipoji.com/ipo/senores-pharmaceuticals-ipo,day2,False,0,1,False
+501,Gujarat Kidney & Super Speciality Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-23T17:00:00+05:30,https://www.ipoji.com/ipo/gujarat-kidney-and-super-speciality-ipo,day2,False,0,1,False
+502,KSH International Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-17T17:00:00+05:30,https://www.ipoji.com/ipo/ksh-international-ipo,day2,False,0,1,False
+504,Park Medi World Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-11T17:00:00+05:30,https://www.ipoji.com/ipo/park-medi-world-ipo,day2,False,0,1,False
+505,Nephrocare Health Services Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-11T17:00:00+05:30,https://www.ipoji.com/ipo/nephrocare-health-ipo,day2,False,0,1,False
+506,Corona Remedies Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-09T17:00:00+05:30,https://www.ipoji.com/ipo/corona-remedies-ipo,day2,False,0,1,False
+507,Wakefit Innovations Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-09T17:00:00+05:30,https://www.ipoji.com/ipo/wakefit-innovations-ipo,day2,False,0,1,False
+508,Vidya Wires Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-04T17:00:00+05:30,https://www.ipoji.com/ipo/vidya-wires-ipo,day2,False,0,1,False
+509,Aequs Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-04T17:00:00+05:30,https://www.ipoji.com/ipo/aequs-ipo,day2,False,0,1,False
+510,Meesho Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-12-04T17:00:00+05:30,https://www.ipoji.com/ipo/meesho-ipo,day2,False,0,1,False
+511,Sudeep Pharma Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-24T17:00:00+05:30,https://www.ipoji.com/ipo/sudeep-pharma-ipo,day2,False,0,1,False
+512,Excelsoft Technologies Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-20T17:00:00+05:30,https://www.ipoji.com/ipo/excelsoft-technologies-ipo,day2,False,0,1,False
+513,Capillary Technologies India Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-17T17:00:00+05:30,https://www.ipoji.com/ipo/capillary-technologies-ipo,day2,False,0,1,False
+514,Fujiyama Power Systems Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-14T17:00:00+05:30,https://www.ipoji.com/ipo/fujiyama-power-systems-ipo,day2,False,0,1,False
+515,Tenneco Clean Air India Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-13T17:00:00+05:30,https://www.ipoji.com/ipo/tenneco-clean-air-ipo,day2,False,0,1,False
+516,PhysicsWallah Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-12T17:00:00+05:30,https://www.ipoji.com/ipo/physicswallah-ipo,day2,False,0,1,False
+517,Emmvee Photovoltaic Power Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-12T17:00:00+05:30,https://www.ipoji.com/ipo/emmvee-photovoltaic-ipo,day2,False,0,1,False
+518,Pine Labs Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-10T17:00:00+05:30,https://www.ipoji.com/ipo/pine-labs-ipo,day2,False,0,1,False
+520,Lenskart Solutions Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-11-03T17:00:00+05:30,https://www.ipoji.com/ipo/lenskart-solutions-ipo,day2,False,0,1,False
+521,Studds Accessories Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-10-31T17:00:00+05:30,https://www.ipoji.com/ipo/studds-accessories-ipo,day2,False,0,1,False
+522,Orkla India Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-10-30T17:00:00+05:30,https://www.ipoji.com/ipo/orkla-india-ipo,day2,False,0,1,False
+523,Midwest Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-10-16T17:00:00+05:30,https://www.ipoji.com/ipo/midwest-ipo,day2,False,0,1,False
+525,Rubicon Research Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-10-10T17:00:00+05:30,https://www.ipoji.com/ipo/rubicon-research-ipo,day2,False,0,1,False
+528,LG Electronics India Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-10-08T17:00:00+05:30,https://www.ipoji.com/ipo/lg-electronics-india-ipo,day2,False,0,1,False
+531,Advance Agrolife Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-10-01T17:00:00+05:30,https://www.ipoji.com/ipo/advance-agrolife-ipo,day2,False,0,1,False
+532,Om Freight Forwarders Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-30T17:00:00+05:30,https://www.ipoji.com/ipo/om-freight-forwarders-ipo,unresolved_interim,False,0,1,False
+533,Glottis Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-30T17:00:00+05:30,https://www.ipoji.com/ipo/glottis-ipo,day2,False,0,1,False
+534,Fabtech Technologies Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-30T17:00:00+05:30,https://www.ipoji.com/ipo/fabtech-technologies-ipo,day2,False,0,1,False
+536,Trualt Bioenergy Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-26T17:00:00+05:30,https://www.ipoji.com/ipo/trualt-bioenergy-ipo,day2,False,0,1,False
+537,Jinkushal Industries Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-26T17:00:00+05:30,https://www.ipoji.com/ipo/jinkushal-industries-ipo,day2,False,0,1,False
+538,Epack Prefab Technologies Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-25T17:00:00+05:30,https://www.ipoji.com/ipo/epack-prefab-technologies-ipo,day2,False,0,1,False
+539,BMW Ventures Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-25T17:00:00+05:30,https://www.ipoji.com/ipo/bmw-ventures-ipo,day2,False,0,1,False
+540,Jain Resource Recycling Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-25T17:00:00+05:30,https://www.ipoji.com/ipo/jain-resource-recycling-ipo,day2,False,0,1,False
+541,Anand Rathi Share & Stock Brokers Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/anand-rathi-stock-brokers-ipo,day2,False,0,1,False
+542,Seshaasai Technologies Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/seshaasai-technologies-ipo,day2,False,0,1,False
+544,Solarworld Energy Solutions Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/solarworld-energy-ipo,day2,False,0,1,False
+545,Atlanta Electricals Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-23T17:00:00+05:30,https://www.ipoji.com/ipo/atlanta-electricals-ipo,day2,False,0,1,False
+546,Ganesh Consumer Products Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-23T17:00:00+05:30,https://www.ipoji.com/ipo/ganesh-consumer-products-ipo,day2,False,0,1,False
+547,GK Energy Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-22T17:00:00+05:30,https://www.ipoji.com/ipo/gk-energy-ipo,day2,False,0,1,False
+548,Saatvik Green Energy Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-22T17:00:00+05:30,https://www.ipoji.com/ipo/saatvik-green-energy-ipo,day2,False,0,1,False
+549,Ivalue Infosolutions Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-19T17:00:00+05:30,https://www.ipoji.com/ipo/ivalue-infosolutions-ipo,day2,False,0,1,False
+550,VMS TMT Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-18T17:00:00+05:30,https://www.ipoji.com/ipo/vms-tmt-ipo,day2,False,0,1,False
+552,Shringar House of Mangalsutra Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-11T17:00:00+05:30,https://www.ipoji.com/ipo/shringar-house-of-mangalsutra-ipo,day2,False,0,1,False
+553,Dev Accelerator Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-11T17:00:00+05:30,https://www.ipoji.com/ipo/dev-accelerator-ipo,day2,False,0,1,False
+555,Amanta Healthcare Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-09-02T17:00:00+05:30,https://www.ipoji.com/ipo/amanta-healthcare-ipo,day2,False,0,1,False
+557,Vikran Engineering Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-28T17:00:00+05:30,https://www.ipoji.com/ipo/vikran-engineering-ipo,day2,False,0,1,False
+558,Mangal Electrical Industries Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-21T17:00:00+05:30,https://www.ipoji.com/ipo/mangal-electrical-industries-ipo,day2,False,0,1,False
+559,Shreeji Shipping Global Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-20T17:00:00+05:30,https://www.ipoji.com/ipo/shreeji-shipping-global-ipo,day2,False,0,1,False
+560,Gem Aromatics Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-20T17:00:00+05:30,https://www.ipoji.com/ipo/gem-aromatics-ipo,day2,False,0,1,False
+561,Vikram Solar Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-20T17:00:00+05:30,https://www.ipoji.com/ipo/vikram-solar-ipo,day2,False,0,1,False
+562,Patel Retail Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-20T17:00:00+05:30,https://www.ipoji.com/ipo/patel-retail-ipo,day2,False,0,1,False
+563,Regaal Resources Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-13T17:00:00+05:30,https://www.ipoji.com/ipo/regaal-resources-ipo,day2,False,0,1,False
+566,All Time Plastics Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-08T17:00:00+05:30,https://www.ipoji.com/ipo/all-time-plastics-ipo,day2,False,0,1,False
+567,JSW Cement Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-08T17:00:00+05:30,https://www.ipoji.com/ipo/jsw-cement-ipo,day2,False,0,1,False
+568,Highway Infrastructure Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-06T17:00:00+05:30,https://www.ipoji.com/ipo/highway-infrastructure-ipo,day2,False,0,1,False
+569,Sri Lotus Developers & Realty Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-31T17:00:00+05:30,https://www.ipoji.com/ipo/sri-lotus-developers-and-realty-ipo,day2,False,0,1,False
+570,M&B Engineering Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-31T17:00:00+05:30,https://www.ipoji.com/ipo/mb-engineering-ipo,day2,False,0,1,False
+572,Laxmi India Finance Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-30T17:00:00+05:30,https://www.ipoji.com/ipo/laxmi-india-finance-ipo,day2,False,0,1,False
+573,Aditya Infotech Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-30T17:00:00+05:30,https://www.ipoji.com/ipo/aditya-infotech-ipo,day2,False,0,1,False
+575,Shanti Gold International Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-28T17:00:00+05:30,https://www.ipoji.com/ipo/shanti-gold-ipo,day2,False,0,1,False
+576,Brigade Hotel Ventures Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-25T17:00:00+05:30,https://www.ipoji.com/ipo/brigade-hotel-ventures-ipo,day2,False,0,1,False
+577,Indiqube Spaces Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-24T17:00:00+05:30,https://www.ipoji.com/ipo/indiqube-spaces-ipo,day2,False,0,1,False
+578,GNG Electronics Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-24T17:00:00+05:30,https://www.ipoji.com/ipo/gng-electronics-ipo,day2,False,0,1,False
+579,Anthem Biosciences Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-15T17:00:00+05:30,https://www.ipoji.com/ipo/anthem-biosciences-ipo,day2,False,0,1,False
+580,Smartworks Coworking Spaces Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-11T17:00:00+05:30,https://www.ipoji.com/ipo/smartworks-coworking-ipo,day2,False,0,1,False
+581,Travel Food Services Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-08T17:00:00+05:30,https://www.ipoji.com/ipo/travel-food-services-ipo,day2,False,0,1,False
+582,Crizac Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-07-03T17:00:00+05:30,https://www.ipoji.com/ipo/crizac-ipo,day2,False,0,1,False
+583,Indogulf Cropsciences Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-06-27T17:00:00+05:30,https://www.ipoji.com/ipo/indogulf-cropsciences-ipo,day2,False,0,1,False
+584,Sambhv Steel Tubes Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-06-26T17:00:00+05:30,https://www.ipoji.com/ipo/sambhv-steel-tubes-ipo,day2,False,0,1,False
+586,Globe Civil Projects Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-06-25T17:00:00+05:30,https://www.ipoji.com/ipo/globe-civil-projects-ipo,day2,False,0,1,False
+587,Ellenbarrie Industrial Gases Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-06-25T17:00:00+05:30,https://www.ipoji.com/ipo/ellenbarrie-industrial-gases-ipo,day2,False,0,1,False
+588,Kalpataru Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-06-25T17:00:00+05:30,https://www.ipoji.com/ipo/kalpataru-ipo,day2,False,0,1,False
+590,Oswal Pumps Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-06-16T17:00:00+05:30,https://www.ipoji.com/ipo/oswal-pumps-ipo,day2,False,0,1,False
+591,Scoda Tubes Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-05-29T17:00:00+05:30,https://www.ipoji.com/ipo/scoda-tubes-ipo,day2,False,0,1,False
+592,Prostarm Info Systems Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-05-28T17:00:00+05:30,https://www.ipoji.com/ipo/prostarm-info-systems-ipo,day2,False,0,1,False
+595,Belrise Industries Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-05-22T17:00:00+05:30,https://www.ipoji.com/ipo/belrise-industries-ipo,day2,False,0,1,False
+596,Borana Weaves Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-05-21T17:00:00+05:30,https://www.ipoji.com/ipo/borana-weaves-ipo,day2,False,0,1,False
+597,Ather Energy Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-04-29T17:00:00+05:30,https://www.ipoji.com/ipo/ather-energy-ipo,day2,False,0,1,False
+598,Quality Power Electrical Equipments Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-02-17T17:00:00+05:30,https://www.ipoji.com/ipo/quality-power-electrical-ipo,day2,False,0,1,False
+599,Hexaware Technologies Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-02-13T17:00:00+05:30,https://www.ipoji.com/ipo/hexaware-technologies-ipo,day2,False,0,1,False
+600,Ajax Engineering Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-02-11T17:00:00+05:30,https://www.ipoji.com/ipo/ajax-engineering-ipo,day2,False,0,1,False
+602,Denta Water & Infra Solutions Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-01-23T17:00:00+05:30,https://www.ipoji.com/ipo/denta-water-and-infra-ipo,day2,False,0,1,False
+603,Stallion India Fluorochemicals Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-01-17T17:00:00+05:30,https://www.ipoji.com/ipo/stallion-india-fluorochemicals-ipo,day2,False,0,1,False
+604,Laxmi Dental Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-01-14T17:00:00+05:30,https://www.ipoji.com/ipo/laxmi-dental-ipo,day2,False,0,1,False
+606,Quadrant Future Tek Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-01-08T17:00:00+05:30,https://www.ipoji.com/ipo/quadrant-future-tek-ipo,day2,False,0,1,False
+607,Standard Glass Lining Technology Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-01-07T17:00:00+05:30,https://www.ipoji.com/ipo/standard-glass-lining-ipo,day2,False,0,1,False
+608,Indo Farm Equipment Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-01-01T17:00:00+05:30,https://www.ipoji.com/ipo/indo-farm-equipment-ipo,day2,False,0,1,False
+610,Veegaland Developers Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-11T17:00:00+05:30,https://www.ipoji.com/ipo/veegaland-developers-ipo,day2,False,0,1,False
+611,LCC Projects Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-10T17:00:00+05:30,https://www.ipoji.com/ipo/lcc-projects-ipo,day2,False,0,1,False
+612,Karamtara Engineering Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-10T17:00:00+05:30,https://www.ipoji.com/ipo/karamtara-engineering-ipo,day2,False,0,1,False
+613,Rentomojo Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-10T17:00:00+05:30,https://www.ipoji.com/ipo/rentomojo-ipo,day2,False,0,1,False
+615,Manipal Payment & Identity Solutions Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-10T17:00:00+05:30,https://www.ipoji.com/ipo/manipal-payment-and-identity-ipo,day2,False,0,1,False
+616,Steamhouse India Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-10T17:00:00+05:30,https://www.ipoji.com/ipo/steamhouse-india-ipo,day2,False,0,1,False
+617,Glass Wall Systems (India) Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-09T17:00:00+05:30,https://www.ipoji.com/ipo/glass-wall-systems-ipo,day2,False,0,1,False
+618,Prasol Chemicals Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-09T17:00:00+05:30,https://www.ipoji.com/ipo/prasol-chemicals-ipo,day2,False,0,1,False
+620,Pranav Constructions Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-08T17:00:00+05:30,https://www.ipoji.com/ipo/pranav-constructions-ipo,day2,False,0,1,False
+622,Deepa Jewellers Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-02T17:00:00+05:30,https://www.ipoji.com/ipo/deepa-jewellers-ipo,day2,False,0,1,False
+623,Purple Style Labs Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-09-01T17:00:00+05:30,https://www.ipoji.com/ipo/purple-style-labs-ipo,day2,False,0,1,False
+624,ESDS Software Solution Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-31T17:00:00+05:30,https://www.ipoji.com/ipo/esds-software-ipo,day2,False,0,1,False
+625,Priority Jewels Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-31T17:00:00+05:30,https://www.ipoji.com/ipo/priority-jewels-ipo,day2,False,0,1,False
+626,Lumino Industries Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-28T17:00:00+05:30,https://www.ipoji.com/ipo/lumino-industries-ipo,day2,False,0,1,False
+627,Annu Projects Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-26T17:00:00+05:30,https://www.ipoji.com/ipo/annu-projects-ipo,unresolved_interim,False,0,1,False
+628,Symbiotec Pharmalab Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-25T17:00:00+05:30,https://www.ipoji.com/ipo/symbiotec-pharmalab-ipo,unresolved_interim,False,0,1,False
+629,Skyways Air Services Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-25T17:00:00+05:30,https://www.ipoji.com/ipo/skyways-air-ipo,unresolved_interim,False,0,1,False
+630,Hy-Tech Engineers Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-25T17:00:00+05:30,https://www.ipoji.com/ipo/hy-tech-engineers-ipo,unresolved_interim,False,0,1,False
+631,Augmont Enterprises Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-24T17:00:00+05:30,https://www.ipoji.com/ipo/augmont-enterprises-ipo,day2,False,0,1,False
+632,Tempsens Instruments (India) Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-21T17:00:00+05:30,https://www.ipoji.com/ipo/tempsens-instruments-ipo,day2,False,0,1,False
+633,Gaja Alternative Asset Management Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-20T17:00:00+05:30,https://www.ipoji.com/ipo/gaja-alternative-asset-management-ipo,day2,False,0,1,False
+634,Sunshine Pictures Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-19T17:00:00+05:30,https://www.ipoji.com/ipo/sunshine-pictures-ipo,day2,False,0,1,False
+635,Shankesh Jewellers Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-19T17:00:00+05:30,https://www.ipoji.com/ipo/shankesh-jewellers-ipo,day2,False,0,1,False
+636,Lalithaa Jewellery Mart Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-18T17:00:00+05:30,https://www.ipoji.com/ipo/lalithaa-jewellery-mart-ipo,day2,False,0,1,False
+637,Horizon Industrial Parks Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-18T17:00:00+05:30,https://www.ipoji.com/ipo/horizon-industrial-parks-ipo,day2,False,0,1,False
+638,Behari Lal Engineering Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-13T17:00:00+05:30,https://www.ipoji.com/ipo/behari-lal-engineering-ipo,day2,False,0,1,False
+639,Shiprocket Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-13T17:00:00+05:30,https://www.ipoji.com/ipo/shiprocket-ipo,day2,False,0,1,False
+640,Milky Mist Dairy Food Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-12T17:00:00+05:30,https://www.ipoji.com/ipo/milky-mist-dairy-food-ipo,day2,False,0,1,False
+641,Molbio Diagnostics Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-11T17:00:00+05:30,https://www.ipoji.com/ipo/molbio-diagnostics-ipo,day2,False,0,1,False
+643,Technocraft Ventures Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-10T17:00:00+05:30,https://www.ipoji.com/ipo/technocraft-ventures-ipo,day2,False,0,1,False
+644,LEAP India Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-10T17:00:00+05:30,https://www.ipoji.com/ipo/leap-india-ipo,day2,False,0,1,False
+645,Ardee Industries Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-08-06T17:00:00+05:30,https://www.ipoji.com/ipo/ardee-industries-ipo,day2,False,0,1,False
+646,Juniper Green Energy Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-31T17:00:00+05:30,https://www.ipoji.com/ipo/juniper-green-energy-ipo,day2,False,0,1,False
+647,MV Electrosystems Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-31T17:00:00+05:30,https://www.ipoji.com/ipo/mv-electrosystems-ipo,day2,False,0,1,False
+648,Manipal Health Enterprises Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-30T17:00:00+05:30,https://www.ipoji.com/ipo/manipal-health-enterprises-ipo,day2,False,0,1,False
+650,Indo-MIM Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-24T17:00:00+05:30,https://www.ipoji.com/ipo/indo-mim-ipo,day2,False,0,1,False
+651,Lohia Corp Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-24T17:00:00+05:30,https://www.ipoji.com/ipo/lohia-corp-ipo,day2,False,0,1,False
+652,Xtranet Technologies Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-24T17:00:00+05:30,https://www.ipoji.com/ipo/xtranet-technologies-ipo,day2,False,0,1,False
+653,Caliber Mining & Logistics Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-20T17:00:00+05:30,https://www.ipoji.com/ipo/caliber-mining-logistics-ipo,day2,False,0,1,False
+654,Alpine Texworld Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-15T17:00:00+05:30,https://www.ipoji.com/ipo/alpine-texworld-ipo,day2,False,0,1,False
+656,Laser Power & Infra Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-10T17:00:00+05:30,https://www.ipoji.com/ipo/laser-power-infra-ipo,day2,False,0,1,False
+657,Kusumgar Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-09T17:00:00+05:30,https://www.ipoji.com/ipo/kusumgar-ipo,day2,False,0,1,False
+658,Knack Packaging Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-07-02T17:00:00+05:30,https://www.ipoji.com/ipo/knack-packaging-ipo,day2,False,0,1,False
+659,Aastha Spintex Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-06-30T17:00:00+05:30,https://www.ipoji.com/ipo/aastha-spintex-ipo,day2,False,0,1,False
+660,CSM Technologies Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-06-25T17:00:00+05:30,https://www.ipoji.com/ipo/csm-technologies-ipo,day2,False,0,1,False
+662,Advit Jewels Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-06-24T17:00:00+05:30,https://www.ipoji.com/ipo/advit-jewels-ipo,day2,False,0,1,False
+663,Turtlemint Fintech Solutions Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-06-22T17:00:00+05:30,https://www.ipoji.com/ipo/turtlemint-fintech-ipo,day2,False,0,1,False
+664,Hexagon Nutrition Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-06-08T17:00:00+05:30,https://www.ipoji.com/ipo/hexagon-nutrition-ipo,day2,False,0,1,False
+665,CMR Green Technologies Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-06-04T17:00:00+05:30,https://www.ipoji.com/ipo/cmr-green-technologies-ipo,day2,False,0,1,False
+667,OnEMI Technology Solutions Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-05-04T17:00:00+05:30,https://www.ipoji.com/ipo/onemi-technology-kissht-ipo,day2,False,0,1,False
+670,Om Power Transmission Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-04-10T17:00:00+05:30,https://www.ipoji.com/ipo/om-power-transmission-ipo,day2,False,0,1,False
+671,Powerica Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-03-25T17:00:00+05:30,https://www.ipoji.com/ipo/powerica-ipo,day2,False,0,1,False
+672,Sai Parenteral's Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-03-25T17:00:00+05:30,https://www.ipoji.com/ipo/sai-parenterals-ipo,day2,False,0,1,False
+673,Amir Chand Jagdish Kumar (Exports) Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-03-25T17:00:00+05:30,https://www.ipoji.com/ipo/amir-chand-jagdish-kumar-ipo,day2,False,0,1,False
+674,Central Mine Planning & Design Institute Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-03-23T17:00:00+05:30,https://www.ipoji.com/ipo/central-mine-planning-design-institute-ipo,day2,False,0,1,False
+675,GSP Crop Science Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-03-17T17:00:00+05:30,https://www.ipoji.com/ipo/gsp-crop-science-ipo,day2,False,0,1,False
+677,Innovision Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-03-11T17:00:00+05:30,https://www.ipoji.com/ipo/innovision-limited-ipo,unresolved_interim,False,0,1,False
+678,Rajputana Stainless Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-03-10T17:00:00+05:30,https://www.ipoji.com/ipo/rajputana-stainless-ipo,day2,False,0,1,False
+679,SEDEMAC Mechatronics Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-03-05T17:00:00+05:30,https://www.ipoji.com/ipo/sedemac-mechatronics-ipo,day2,False,0,1,False
+680,Omnitech Engineering Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-02-26T17:00:00+05:30,https://www.ipoji.com/ipo/omnitech-engineering-ipo,day2,False,0,1,False
+681,PNGS Reva Diamond Jewellery Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-02-25T17:00:00+05:30,https://www.ipoji.com/ipo/pngs-reva-diamond-ipo,day2,False,0,1,False
+682,Shree Ram Twistex Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-02-24T17:00:00+05:30,https://www.ipoji.com/ipo/shree-ram-twistex-ipo,day2,False,0,1,False
+683,Clean Max Enviro Energy Solutions Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-02-24T17:00:00+05:30,https://www.ipoji.com/ipo/clean-max-enviro-energy-ipo,day2,False,0,1,False
+684,Gaudium IVF & Women Health Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-02-23T17:00:00+05:30,https://www.ipoji.com/ipo/gaudium-ivf-ipo,day2,False,0,1,False
+685,Aye Finance Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-02-10T17:00:00+05:30,https://www.ipoji.com/ipo/aye-finance-ipo,day2,False,0,1,False
+686,Fractal Analytics Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-02-10T17:00:00+05:30,https://www.ipoji.com/ipo/fractal-analytics-ipo,day2,False,0,1,False
+687,Shadowfax Technologies Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-01-21T17:00:00+05:30,https://www.ipoji.com/ipo/shadowfax-technologies-ipo,day2,False,0,1,False
+688,Amagi Media Labs Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-01-14T17:00:00+05:30,https://www.ipoji.com/ipo/amagi-media-labs-ipo,day2,False,0,1,False
+689,Bharat Coking Coal Ltd.,historical,2026.0,True,True,publisher_reported_recovered_later,2026-01-12T17:00:00+05:30,https://www.ipoji.com/ipo/bharat-coking-coal-ipo,day2,False,0,1,False
+503,ICICI Prudential Asset Management Co.Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-12-15T17:00:00+05:30,https://www.ipoji.com/ipo/icici-prudential-amc-ipo,day2,False,0,1,False
+519,Billionbrains Garage Ventures Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-11-06T17:00:00+05:30,https://www.ipoji.com/ipo/groww-ipo,day2,False,0,1,False
+524,Canara HSBC Life Insurance Co.Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-10-13T17:00:00+05:30,https://www.ipoji.com/ipo/canara-hsbc-life-insurance-ipo,day2,False,0,1,False
+526,Canara Robeco Asset Management Co.Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-10-10T17:00:00+05:30,https://www.ipoji.com/ipo/canara-robeco-ipo,day2,False,0,1,False
+529,Tata Capital Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-10-07T17:00:00+05:30,https://www.ipoji.com/ipo/tata-capital-ipo,day2,False,0,1,False
+530,WeWork India Management Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-10-06T17:00:00+05:30,https://www.ipoji.com/ipo/wework-india-management-ipo,day2,False,0,1,False
+535,Pace Digitek Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-09-29T17:00:00+05:30,https://www.ipoji.com/ipo/pace-digitek-ipo,unresolved_interim,False,0,1,False
+543,Jaro Institute of Technology Management & Research Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/jaro-institute-ipo,day2,False,0,1,False
+551,Euro Pratik Sales Ltd.,historical,2025.0,False,False,,,https://www.ipopremium.in/view/ipo/955/euro-pratik-sales-ltd,unresolved_interim,False,0,1,False
+554,Urban Co.Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-09-11T17:00:00+05:30,https://www.ipoji.com/ipo/urban-company-ipo,day2,False,0,1,False
+556,Anlon Healthcare Ltd.,historical,2025.0,True,True,publisher_reported_recovered_later,2025-08-28T17:00:00+05:30,https://www.ipoji.com/ipo/anlon-healthcare-ipo,day2,False,0,1,False
+564,BlueStone Jewellery & Lifestyle Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-08-12T17:00:00+05:30,https://www.ipoji.com/ipo/blueStone-jewellery-ipo,day2,False,0,1,False
+571,National Securities Depository Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-07-31T17:00:00+05:30,https://www.ipoji.com/ipo/nsdl-ipo,day2,False,0,1,False
+585,HDB Financial Services Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-06-26T17:00:00+05:30,https://www.ipoji.com/ipo/hdb-financial-ipo,unresolved_interim,False,0,1,False
+589,Arisinfra Solutions Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-06-19T17:00:00+05:30,https://www.ipoji.com/ipo/arisinfra-solutions-ipo,unresolved_interim,False,0,1,False
+593,Aegis Vopak Terminals Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-05-27T17:00:00+05:30,https://www.ipoji.com/ipo/aegis-vopak-terminals-ipo,day2,False,0,1,False
+594,Schloss Bangalore Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-05-27T17:00:00+05:30,https://www.ipoji.com/ipo/leela-hotels-ipo,day2,False,0,1,False
+601,Dr.Agarwal's Health Care Ltd.,historical,2025.0,False,True,publisher_reported_recovered_later,2025-01-30T17:00:00+05:30,https://www.ipoji.com/ipo/dr-agarwals-ipo,day2,False,0,1,False
+recent_ae67183c2d,HD Fire Protect,recent,2026.0,False,True,actual_local_capture_before_Day2_session_close,2026-10-14T16:55:14+05:30,https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/,closing_pre_cutoff,False,95,0,False
+recent_e503578014,Nityas Gems & Jewellery,recent,2026.0,False,True,publisher_reported_recovered_later,2026-10-01T17:00:00+05:30,https://www.ipoji.com/ipo/nityas-gems-jewellery-ipo,closing_pre_cutoff,False,0,0,False
+recent_ac52a6551c,Vishal Nirmiti,recent,2026.0,False,True,publisher_reported_recovered_later,2026-10-01T17:00:00+05:30,https://www.ipoji.com/ipo/vishal-nirmiti-ipo,closing_pre_cutoff,False,0,0,False
+recent_a916c7c47d,SRIT India,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-29T17:00:00+05:30,https://www.ipoji.com/ipo/srit-india-ipo,closing_pre_cutoff,False,0,0,False
+recent_512da047a2,Shah Investor's Home,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-29T17:00:00+05:30,https://www.ipoji.com/ipo/shah-investors-home-ipo,closing_pre_cutoff,False,0,0,False
+recent_3e04a21a47,Acevector,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-28T17:00:00+05:30,https://www.ipoji.com/ipo/acevector-ipo,closing_pre_cutoff,False,0,0,False
+recent_441d5c7241,Orient Cables (India),recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-28T17:00:00+05:30,https://www.ipoji.com/ipo/orient-cables-ipo,closing_pre_cutoff,False,0,0,False
+recent_c12767f56d,German Green Steel & Power,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-28T17:00:00+05:30,https://www.ipoji.com/ipo/german-green-steel-and-power-ipo,closing_pre_cutoff,False,0,0,False
+recent_7d22cf387d,Runwal Enterprises,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-28T17:00:00+05:30,https://www.ipoji.com/ipo/runwal-enterprises-ipo,closing_pre_cutoff,False,0,0,False
+recent_d53c9d0384,Moneyview,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-25T17:00:00+05:30,https://www.ipoji.com/ipo/moneyview-ipo,closing_pre_cutoff,False,0,0,False
+recent_67e9dc9edb,A-One Steels India,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-25T17:00:00+05:30,https://www.ipoji.com/ipo/a-one-steels-ipo,closing_pre_cutoff,False,0,0,False
+recent_0d5dd12e62,Adroit Industries (India),recent,2026.0,True,True,publisher_reported_recovered_later,2026-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/adroit-industries-ipo,closing_pre_cutoff,False,0,0,False
+recent_174d15b284,Elevate Campuses,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/elevate-campuses-ipo,closing_pre_cutoff,False,0,0,False
+recent_a6de278fa0,Swastika Infra,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/swastika-infra-ipo,closing_pre_cutoff,False,0,0,False
+recent_2b432db888,ArMee Infotech,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-24T17:00:00+05:30,https://www.ipoji.com/ipo/armee-infotech-ipo,closing_pre_cutoff,False,0,0,False
+recent_3a2cdcb97d,Varmora Granito,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-23T17:00:00+05:30,https://www.ipoji.com/ipo/varmora-granito-ipo,closing_pre_cutoff,False,0,0,False
+recent_48aef4b8bb,National Stock Exchange of India,recent,2026.0,False,True,source_reported_day2_no_individual_clock,,,closing_pre_cutoff,False,0,0,False
+recent_dd5742cace,Sonaselection India,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-18T17:00:00+05:30,https://www.ipoji.com/ipo/sonaselection-india-ipo,closing_pre_cutoff,False,0,0,False
+recent_9dd18c9528,SS Retail,recent,2026.0,False,True,publisher_reported_recovered_later,2026-09-17T17:00:00+05:30,https://www.ipoji.com/ipo/ss-retail-ipo,closing_pre_cutoff,False,0,0,False
+recent_1632623840,Tonbo Imaging India,recent,2026.0,False,True,publisher_reported_recovered_later,2026-10-16T17:00:00+05:30,https://www.ipoji.com/ipo/tonbo-imaging-india-ipo,closing_pre_cutoff,False,10,0,False
+recent_924328a61a,Zetwerk Manufacturing Business,recent,2026.0,False,True,publisher_reported_recovered_later,2026-10-16T17:00:00+05:30,https://www.ipoji.com/ipo/zetwerk-ipo,closing_pre_cutoff,False,5,0,False
+recent_5d0fe44409,Bonfiglioli Transmissions,recent,2026.0,False,True,publisher_reported_recovered_later,2026-10-16T17:00:00+05:30,https://www.ipoji.com/ipo/bonfiglioli-transmissions-ipo,closing_pre_cutoff,False,10,0,False
+recent_5cfb669d34,Sahajanand Medical Technologies,recent,2026.0,False,True,publisher_reported_recovered_later,2026-10-16T17:00:00+05:30,https://www.ipoji.com/ipo/sahajanand-medical-technologies-ipo,closing_pre_cutoff,False,10,0,False
+recent_cbd5426c2a,Fusion CX,recent,2026.0,False,True,publisher_reported_recovered_later,2026-10-15T17:00:00+05:30,https://www.ipoji.com/ipo/fusion-cx-ipo,closing_pre_cutoff,False,26,0,False

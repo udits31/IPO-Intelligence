@@ -1,0 +1,3966 @@
+{
+  "created_at_utc": "2026-10-25T21:47:57.569189+00:00",
+  "artifact_sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+  "training_n": 290,
+  "training_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "training_test_issuer_overlap": 0,
+  "results": {
+    "M1_V0_FROZEN_PRIOR": {
+      "test_69": {
+        "n": 69,
+        "correct": 56,
+        "accuracy_pct": 81.15942028985508,
+        "accuracy_wilson_95_pct": [
+          70.38684285696075,
+          88.6453585224708
+        ],
+        "positive_calls": 43,
+        "nonpositive_calls": 26,
+        "wrong_positive_calls": 5,
+        "missed_positive_calls": 8,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 19,
+        "apply_precision_pct": 94.73684210526315,
+        "skip_recall_on_losers_pct": 78.26086956521739,
+        "selective_portfolio": {
+          "covered_n": 69,
+          "apply_n": 14,
+          "apply_precision_pct": 100.0,
+          "skip_recall_on_losers_pct": 100.0,
+          "retail_allotment_weighted_net_rupee_scenario": 8887.214659085896,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "610",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 552.365480689294
+            },
+            {
+              "issuer_key": "611",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 609.4490780294811
+            },
+            {
+              "issuer_key": "612",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1101.2742774566466,
+              "EU_scenario_rupees": 1014.7209219492574
+            },
+            {
+              "issuer_key": "613",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1079.503336180624
+            },
+            {
+              "issuer_key": "615",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -372.05331029981056
+            },
+            {
+              "issuer_key": "616",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 873.690433212997,
+              "EU_scenario_rupees": 891.9987922402469
+            },
+            {
+              "issuer_key": "617",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 312.27003093157344
+            },
+            {
+              "issuer_key": "618",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -49.429708060822996
+            },
+            {
+              "issuer_key": "620",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 274.2201304514761
+            },
+            {
+              "issuer_key": "622",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 490.8320355852276
+            },
+            {
+              "issuer_key": "623",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -569.3656225062027
+            },
+            {
+              "issuer_key": "624",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 607.0957239902032
+            },
+            {
+              "issuer_key": "625",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 39.18207335518151
+            },
+            {
+              "issuer_key": "626",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1391.9036048787357
+            },
+            {
+              "issuer_key": "627",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -311.2579586945139
+            },
+            {
+              "issuer_key": "628",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 863.4097954196021
+            },
+            {
+              "issuer_key": "629",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 269.08638472174107
+            },
+            {
+              "issuer_key": "630",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 111.64400098926664
+            },
+            {
+              "issuer_key": "631",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 221.0567567567565,
+              "EU_scenario_rupees": 382.15553902304515
+            },
+            {
+              "issuer_key": "632",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 882.1937901498918,
+              "EU_scenario_rupees": 657.4778752432967
+            },
+            {
+              "issuer_key": "633",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 225.1191728936704
+            },
+            {
+              "issuer_key": "634",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 92.63269947505246
+            },
+            {
+              "issuer_key": "635",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -184.55698600193153
+            },
+            {
+              "issuer_key": "636",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 425.40587149264155
+            },
+            {
+              "issuer_key": "637",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -379.9234718410912
+            },
+            {
+              "issuer_key": "638",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 968.7447478991592,
+              "EU_scenario_rupees": 297.22666430701213
+            },
+            {
+              "issuer_key": "639",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 381.0960590061472
+            },
+            {
+              "issuer_key": "640",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 590.4627666963612
+            },
+            {
+              "issuer_key": "641",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 954.257547169811,
+              "EU_scenario_rupees": 523.3083712557623
+            },
+            {
+              "issuer_key": "643",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1198.7627118644064,
+              "EU_scenario_rupees": 88.40478820808566
+            },
+            {
+              "issuer_key": "644",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 360.1677616938184
+            },
+            {
+              "issuer_key": "645",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 344.4007018716576,
+              "EU_scenario_rupees": 206.8611760099357
+            },
+            {
+              "issuer_key": "646",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -208.8588211168553
+            },
+            {
+              "issuer_key": "647",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 64.36945569485854
+            },
+            {
+              "issuer_key": "648",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -311.2754769482746
+            },
+            {
+              "issuer_key": "650",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 2704.5526823540076
+            },
+            {
+              "issuer_key": "651",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -288.22856040093836
+            },
+            {
+              "issuer_key": "652",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -8.873936158039408
+            },
+            {
+              "issuer_key": "653",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 153.0315789473686,
+              "EU_scenario_rupees": 207.89816058882855
+            },
+            {
+              "issuer_key": "654",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -324.9692026512942
+            },
+            {
+              "issuer_key": "656",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 651.6393012226915
+            },
+            {
+              "issuer_key": "657",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 510.8672499999999,
+              "EU_scenario_rupees": 500.269683705226
+            },
+            {
+              "issuer_key": "658",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 335.96396396396443,
+              "EU_scenario_rupees": 395.43414014837833
+            },
+            {
+              "issuer_key": "659",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -206.86991632361185
+            },
+            {
+              "issuer_key": "660",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -438.6251687508073
+            },
+            {
+              "issuer_key": "662",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 132.93975225225233,
+              "EU_scenario_rupees": 143.23781741305555
+            },
+            {
+              "issuer_key": "663",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -479.64815502512926
+            },
+            {
+              "issuer_key": "664",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 382.1122384519273
+            },
+            {
+              "issuer_key": "665",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 731.9311475409833,
+              "EU_scenario_rupees": 560.5286838711675
+            },
+            {
+              "issuer_key": "667",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -344.92607218427275
+            },
+            {
+              "issuer_key": "670",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -536.3005857564984
+            },
+            {
+              "issuer_key": "671",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -510.01702372584566
+            },
+            {
+              "issuer_key": "672",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -443.02849110229477
+            },
+            {
+              "issuer_key": "673",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -202.52005131149724
+            },
+            {
+              "issuer_key": "674",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -391.22853837207833
+            },
+            {
+              "issuer_key": "675",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -346.2975694283452
+            },
+            {
+              "issuer_key": "677",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -92.95706610430118
+            },
+            {
+              "issuer_key": "678",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -402.295477984542
+            },
+            {
+              "issuer_key": "679",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -385.7175541385661
+            },
+            {
+              "issuer_key": "680",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -579.5759773276114
+            },
+            {
+              "issuer_key": "681",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -376.63476230010167
+            },
+            {
+              "issuer_key": "682",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -52.301826804421516
+            },
+            {
+              "issuer_key": "683",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -316.1206363882393
+            },
+            {
+              "issuer_key": "684",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 74.74630206225862
+            },
+            {
+              "issuer_key": "685",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -583.4541661862871
+            },
+            {
+              "issuer_key": "686",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -425.2488606161134
+            },
+            {
+              "issuer_key": "687",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -193.96173923954674
+            },
+            {
+              "issuer_key": "688",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -185.2209608048643
+            },
+            {
+              "issuer_key": "689",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 478.1000000000002,
+              "EU_scenario_rupees": 202.6418929692469
+            }
+          ]
+        }
+      },
+      "recent_23": {
+        "n": 23,
+        "correct": 15,
+        "accuracy_pct": 65.21739130434783,
+        "accuracy_wilson_95_pct": [
+          44.88997690689164,
+          81.18894536301777
+        ],
+        "positive_calls": 21,
+        "nonpositive_calls": 2,
+        "wrong_positive_calls": 6,
+        "missed_positive_calls": 2,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 11,
+        "apply_precision_pct": 90.9090909090909,
+        "skip_recall_on_losers_pct": 0.0,
+        "selective_portfolio": {
+          "covered_n": 23,
+          "apply_n": 14,
+          "apply_precision_pct": 85.71428571428571,
+          "skip_recall_on_losers_pct": 66.66666666666667,
+          "retail_allotment_weighted_net_rupee_scenario": 2111.7649688724127,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "recent_ae67183c2d",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 106.21038205980065,
+              "EU_scenario_rupees": 150.659783155738
+            },
+            {
+              "issuer_key": "recent_e503578014",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -234.88140921461905
+            },
+            {
+              "issuer_key": "recent_ac52a6551c",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 173.49442810779357
+            },
+            {
+              "issuer_key": "recent_a916c7c47d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 30.223853032659378,
+              "EU_scenario_rupees": 57.27435547221083
+            },
+            {
+              "issuer_key": "recent_512da047a2",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 19.659180651530047,
+              "EU_scenario_rupees": 74.22994171084598
+            },
+            {
+              "issuer_key": "recent_3e04a21a47",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -79.05502079928768
+            },
+            {
+              "issuer_key": "recent_441d5c7241",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 208.60323427257438
+            },
+            {
+              "issuer_key": "recent_c12767f56d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 11.115519820493727,
+              "EU_scenario_rupees": 134.0371756859488
+            },
+            {
+              "issuer_key": "recent_7d22cf387d",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 28.394679272362403
+            },
+            {
+              "issuer_key": "recent_d53c9d0384",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 476.42546125461223,
+              "EU_scenario_rupees": 312.00146202207526
+            },
+            {
+              "issuer_key": "recent_67e9dc9edb",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 210.74969437652834,
+              "EU_scenario_rupees": 72.01655051975577
+            },
+            {
+              "issuer_key": "recent_0d5dd12e62",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 102.80183348361892,
+              "EU_scenario_rupees": 31.028793159836
+            },
+            {
+              "issuer_key": "recent_174d15b284",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -250.90345953818306
+            },
+            {
+              "issuer_key": "recent_a6de278fa0",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 219.84891732283486,
+              "EU_scenario_rupees": 28.37501946439052
+            },
+            {
+              "issuer_key": "recent_2b432db888",
+              "tier": 2,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -30.69421487603305,
+              "EU_scenario_rupees": 10.141752243573261
+            },
+            {
+              "issuer_key": "recent_3a2cdcb97d",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -347.80489086217267
+            },
+            {
+              "issuer_key": "recent_dd5742cace",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -203.66895466121505
+            },
+            {
+              "issuer_key": "recent_9dd18c9528",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 185.0256911477241,
+              "EU_scenario_rupees": 117.011159016136
+            },
+            {
+              "issuer_key": "recent_1632623840",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 304.18611473272495,
+              "EU_scenario_rupees": 341.39011043059645
+            },
+            {
+              "issuer_key": "recent_924328a61a",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -105.65321864396564
+            },
+            {
+              "issuer_key": "recent_5d0fe44409",
+              "tier": 1,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -17.871107266435992,
+              "EU_scenario_rupees": 379.78749230449523
+            },
+            {
+              "issuer_key": "recent_5cfb669d34",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 374.39450171821323,
+              "EU_scenario_rupees": 126.11198598457733
+            },
+            {
+              "issuer_key": "recent_cbd5426c2a",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 119.68914141414129,
+              "EU_scenario_rupees": 61.770882406667354
+            }
+          ]
+        }
+      },
+      "passes_user_gate": false,
+      "components": [],
+      "recent_24_user_supplied_BSE_sensitivity": {
+        "n": 24,
+        "correct": 16,
+        "accuracy_pct": 66.66666666666667,
+        "extra_probability": 0.8014122996848975,
+        "issue_price": 1785,
+        "open_price": 1800,
+        "primary_archive_verified": false
+      }
+    },
+    "M1_V1_FROZEN_WITH_RECOVERED_INPUTS": {
+      "test_69": {
+        "n": 69,
+        "correct": 56,
+        "accuracy_pct": 81.15942028985508,
+        "accuracy_wilson_95_pct": [
+          70.38684285696075,
+          88.6453585224708
+        ],
+        "positive_calls": 43,
+        "nonpositive_calls": 26,
+        "wrong_positive_calls": 5,
+        "missed_positive_calls": 8,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 19,
+        "apply_precision_pct": 94.73684210526315,
+        "skip_recall_on_losers_pct": 78.26086956521739,
+        "selective_portfolio": {
+          "covered_n": 69,
+          "apply_n": 14,
+          "apply_precision_pct": 100.0,
+          "skip_recall_on_losers_pct": 100.0,
+          "retail_allotment_weighted_net_rupee_scenario": 8887.214659085896,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "610",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 552.365480689294
+            },
+            {
+              "issuer_key": "611",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 609.4490780294811
+            },
+            {
+              "issuer_key": "612",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1101.2742774566466,
+              "EU_scenario_rupees": 1014.7209219492574
+            },
+            {
+              "issuer_key": "613",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1079.503336180624
+            },
+            {
+              "issuer_key": "615",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -372.05331029981056
+            },
+            {
+              "issuer_key": "616",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 873.690433212997,
+              "EU_scenario_rupees": 891.9987922402469
+            },
+            {
+              "issuer_key": "617",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 312.27003093157344
+            },
+            {
+              "issuer_key": "618",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -50.17463387059448
+            },
+            {
+              "issuer_key": "620",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 274.2201304514761
+            },
+            {
+              "issuer_key": "622",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 489.9884529138916
+            },
+            {
+              "issuer_key": "623",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -568.328010259944
+            },
+            {
+              "issuer_key": "624",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 607.0957239902032
+            },
+            {
+              "issuer_key": "625",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 39.18207335518151
+            },
+            {
+              "issuer_key": "626",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1391.9036048787357
+            },
+            {
+              "issuer_key": "627",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -311.2579586945139
+            },
+            {
+              "issuer_key": "628",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 863.4097954196021
+            },
+            {
+              "issuer_key": "629",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 266.62374488417464
+            },
+            {
+              "issuer_key": "630",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 111.64400098926664
+            },
+            {
+              "issuer_key": "631",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 221.0567567567565,
+              "EU_scenario_rupees": 382.15553902304515
+            },
+            {
+              "issuer_key": "632",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 882.1937901498918,
+              "EU_scenario_rupees": 657.4778752432967
+            },
+            {
+              "issuer_key": "633",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 225.1191728936704
+            },
+            {
+              "issuer_key": "634",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 92.63269947505246
+            },
+            {
+              "issuer_key": "635",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -184.55698600193153
+            },
+            {
+              "issuer_key": "636",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 425.40587149264155
+            },
+            {
+              "issuer_key": "637",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -379.70582048269006
+            },
+            {
+              "issuer_key": "638",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 968.7447478991592,
+              "EU_scenario_rupees": 297.22666430701213
+            },
+            {
+              "issuer_key": "639",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 381.11652988922333
+            },
+            {
+              "issuer_key": "640",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 582.9598104788367
+            },
+            {
+              "issuer_key": "641",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 954.257547169811,
+              "EU_scenario_rupees": 523.3083712557623
+            },
+            {
+              "issuer_key": "643",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1198.7627118644064,
+              "EU_scenario_rupees": 88.40478820808566
+            },
+            {
+              "issuer_key": "644",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 360.1677616938184
+            },
+            {
+              "issuer_key": "645",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 344.4007018716576,
+              "EU_scenario_rupees": 206.8611760099357
+            },
+            {
+              "issuer_key": "646",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -208.8588211168553
+            },
+            {
+              "issuer_key": "647",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 63.892605698651565
+            },
+            {
+              "issuer_key": "648",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -311.2754769482746
+            },
+            {
+              "issuer_key": "650",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 2704.5526823540076
+            },
+            {
+              "issuer_key": "651",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -288.22856040093836
+            },
+            {
+              "issuer_key": "652",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -8.873936158039408
+            },
+            {
+              "issuer_key": "653",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 153.0315789473686,
+              "EU_scenario_rupees": 207.89816058882855
+            },
+            {
+              "issuer_key": "654",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -324.9692026512942
+            },
+            {
+              "issuer_key": "656",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 651.6393012226915
+            },
+            {
+              "issuer_key": "657",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 510.8672499999999,
+              "EU_scenario_rupees": 500.269683705226
+            },
+            {
+              "issuer_key": "658",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 335.96396396396443,
+              "EU_scenario_rupees": 395.43414014837833
+            },
+            {
+              "issuer_key": "659",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -206.86991632361185
+            },
+            {
+              "issuer_key": "660",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -438.62516875080723
+            },
+            {
+              "issuer_key": "662",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 132.93975225225233,
+              "EU_scenario_rupees": 143.23781741305555
+            },
+            {
+              "issuer_key": "663",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -478.9754329428954
+            },
+            {
+              "issuer_key": "664",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 382.1122384519273
+            },
+            {
+              "issuer_key": "665",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 731.9311475409833,
+              "EU_scenario_rupees": 560.5286838711675
+            },
+            {
+              "issuer_key": "667",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -344.92607218427275
+            },
+            {
+              "issuer_key": "670",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -536.3005857564984
+            },
+            {
+              "issuer_key": "671",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -510.01702372584566
+            },
+            {
+              "issuer_key": "672",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -443.02849110229477
+            },
+            {
+              "issuer_key": "673",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -210.1662764454283
+            },
+            {
+              "issuer_key": "674",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -391.22853837207833
+            },
+            {
+              "issuer_key": "675",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -346.2975694283452
+            },
+            {
+              "issuer_key": "677",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -93.48273766799011
+            },
+            {
+              "issuer_key": "678",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -402.295477984542
+            },
+            {
+              "issuer_key": "679",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -385.7175541385661
+            },
+            {
+              "issuer_key": "680",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -579.5759773276114
+            },
+            {
+              "issuer_key": "681",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -376.63476230010167
+            },
+            {
+              "issuer_key": "682",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -52.301826804421516
+            },
+            {
+              "issuer_key": "683",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -316.3226838571187
+            },
+            {
+              "issuer_key": "684",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 74.74630206225862
+            },
+            {
+              "issuer_key": "685",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -583.4541661862871
+            },
+            {
+              "issuer_key": "686",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -425.2488606161135
+            },
+            {
+              "issuer_key": "687",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -193.96173923954674
+            },
+            {
+              "issuer_key": "688",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -185.2209608048643
+            },
+            {
+              "issuer_key": "689",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 478.1000000000002,
+              "EU_scenario_rupees": 202.6418929692469
+            }
+          ]
+        }
+      },
+      "recent_23": {
+        "n": 23,
+        "correct": 16,
+        "accuracy_pct": 69.56521739130434,
+        "accuracy_wilson_95_pct": [
+          49.133870939427396,
+          84.39617197902754
+        ],
+        "positive_calls": 20,
+        "nonpositive_calls": 3,
+        "wrong_positive_calls": 5,
+        "missed_positive_calls": 2,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 11,
+        "apply_precision_pct": 90.9090909090909,
+        "skip_recall_on_losers_pct": 16.666666666666664,
+        "selective_portfolio": {
+          "covered_n": 23,
+          "apply_n": 14,
+          "apply_precision_pct": 85.71428571428571,
+          "skip_recall_on_losers_pct": 66.66666666666667,
+          "retail_allotment_weighted_net_rupee_scenario": 2111.7649688724127,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "recent_ae67183c2d",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 106.21038205980065,
+              "EU_scenario_rupees": 150.68105751945126
+            },
+            {
+              "issuer_key": "recent_e503578014",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -230.29678901457265
+            },
+            {
+              "issuer_key": "recent_ac52a6551c",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 146.3188155576191
+            },
+            {
+              "issuer_key": "recent_a916c7c47d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 30.223853032659378,
+              "EU_scenario_rupees": 57.34528031063613
+            },
+            {
+              "issuer_key": "recent_512da047a2",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 19.659180651530047,
+              "EU_scenario_rupees": 75.52964625866026
+            },
+            {
+              "issuer_key": "recent_3e04a21a47",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -80.44618672142731
+            },
+            {
+              "issuer_key": "recent_441d5c7241",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 206.8582652135702
+            },
+            {
+              "issuer_key": "recent_c12767f56d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 11.115519820493727,
+              "EU_scenario_rupees": 132.96668191003062
+            },
+            {
+              "issuer_key": "recent_7d22cf387d",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 44.63022200329936
+            },
+            {
+              "issuer_key": "recent_d53c9d0384",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 476.42546125461223,
+              "EU_scenario_rupees": 311.880296697793
+            },
+            {
+              "issuer_key": "recent_67e9dc9edb",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 210.74969437652834,
+              "EU_scenario_rupees": 73.40028057634606
+            },
+            {
+              "issuer_key": "recent_0d5dd12e62",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 102.80183348361892,
+              "EU_scenario_rupees": 31.028080517400902
+            },
+            {
+              "issuer_key": "recent_174d15b284",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -230.0000165509121
+            },
+            {
+              "issuer_key": "recent_a6de278fa0",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 219.84891732283486,
+              "EU_scenario_rupees": 36.096479955058875
+            },
+            {
+              "issuer_key": "recent_2b432db888",
+              "tier": 2,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -30.69421487603305,
+              "EU_scenario_rupees": 13.982221407758242
+            },
+            {
+              "issuer_key": "recent_3a2cdcb97d",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -317.0069300136618
+            },
+            {
+              "issuer_key": "recent_dd5742cace",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -196.81351339412427
+            },
+            {
+              "issuer_key": "recent_9dd18c9528",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 185.0256911477241,
+              "EU_scenario_rupees": 117.07301614066847
+            },
+            {
+              "issuer_key": "recent_1632623840",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 304.18611473272495,
+              "EU_scenario_rupees": 341.3939857168667
+            },
+            {
+              "issuer_key": "recent_924328a61a",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -82.03592509532521
+            },
+            {
+              "issuer_key": "recent_5d0fe44409",
+              "tier": 1,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -17.871107266435992,
+              "EU_scenario_rupees": 381.26859639279166
+            },
+            {
+              "issuer_key": "recent_5cfb669d34",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 374.39450171821323,
+              "EU_scenario_rupees": 132.47873302624458
+            },
+            {
+              "issuer_key": "recent_cbd5426c2a",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 119.68914141414129,
+              "EU_scenario_rupees": 62.991953961302116
+            }
+          ]
+        }
+      },
+      "passes_user_gate": true,
+      "components": [],
+      "recent_24_user_supplied_BSE_sensitivity": {
+        "n": 24,
+        "correct": 17,
+        "accuracy_pct": 70.83333333333333,
+        "extra_probability": 0.8149337416030153,
+        "issue_price": 1785,
+        "open_price": 1800,
+        "primary_archive_verified": false
+      }
+    },
+    "M1_V2_STAGE_ALIGNED": {
+      "status": "blocked_no_genuine_training_Day2_preclose_pairs",
+      "bridge_training_pair_n": 0,
+      "final_deflation": "not_identified_without_paired_final_and_preclose_books",
+      "passes_user_gate": false
+    },
+    "M1_V3_QUOTA_DENOMINATORS": {
+      "test_69": {
+        "n": 69,
+        "correct": 52,
+        "accuracy_pct": 75.36231884057972,
+        "accuracy_wilson_95_pct": [
+          64.03911369020479,
+          84.01035254886739
+        ],
+        "positive_calls": 45,
+        "nonpositive_calls": 24,
+        "wrong_positive_calls": 8,
+        "missed_positive_calls": 9,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 19,
+        "apply_precision_pct": 94.73684210526315,
+        "skip_recall_on_losers_pct": 65.21739130434783,
+        "selective_portfolio": {
+          "covered_n": 69,
+          "apply_n": 14,
+          "apply_precision_pct": 100.0,
+          "skip_recall_on_losers_pct": 100.0,
+          "retail_allotment_weighted_net_rupee_scenario": 8887.214659085896,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "610",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 620.2326542313405
+            },
+            {
+              "issuer_key": "611",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 623.978327867249
+            },
+            {
+              "issuer_key": "612",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1101.2742774566466,
+              "EU_scenario_rupees": 1012.1444703981892
+            },
+            {
+              "issuer_key": "613",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1067.330099581395
+            },
+            {
+              "issuer_key": "615",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -325.22211032856
+            },
+            {
+              "issuer_key": "616",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 873.690433212997,
+              "EU_scenario_rupees": 950.574156356842
+            },
+            {
+              "issuer_key": "617",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 316.2963962752449
+            },
+            {
+              "issuer_key": "618",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 37.585443285307754
+            },
+            {
+              "issuer_key": "620",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 269.11860759763607
+            },
+            {
+              "issuer_key": "622",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 521.528899598184
+            },
+            {
+              "issuer_key": "623",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -467.9638116565061
+            },
+            {
+              "issuer_key": "624",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 605.7791447864947
+            },
+            {
+              "issuer_key": "625",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 40.86150992249076
+            },
+            {
+              "issuer_key": "626",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1410.5362432443278
+            },
+            {
+              "issuer_key": "627",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -209.87416053064152
+            },
+            {
+              "issuer_key": "628",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 861.2650962297099
+            },
+            {
+              "issuer_key": "629",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 279.908820186782
+            },
+            {
+              "issuer_key": "630",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 112.58003275151856
+            },
+            {
+              "issuer_key": "631",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 221.0567567567565,
+              "EU_scenario_rupees": 379.12028879178985
+            },
+            {
+              "issuer_key": "632",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 882.1937901498918,
+              "EU_scenario_rupees": 658.167311060005
+            },
+            {
+              "issuer_key": "633",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 240.2497140538743
+            },
+            {
+              "issuer_key": "634",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 88.22687498048955
+            },
+            {
+              "issuer_key": "635",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -103.15909162625562
+            },
+            {
+              "issuer_key": "636",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 419.93013948520553
+            },
+            {
+              "issuer_key": "637",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -403.58268840838696
+            },
+            {
+              "issuer_key": "638",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 968.7447478991592,
+              "EU_scenario_rupees": 299.84782307608316
+            },
+            {
+              "issuer_key": "639",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 397.54701679705397
+            },
+            {
+              "issuer_key": "640",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 621.9638865263396
+            },
+            {
+              "issuer_key": "641",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 954.257547169811,
+              "EU_scenario_rupees": 542.8783971680642
+            },
+            {
+              "issuer_key": "643",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1198.7627118644064,
+              "EU_scenario_rupees": 67.32203860097314
+            },
+            {
+              "issuer_key": "644",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 292.70725505068515
+            },
+            {
+              "issuer_key": "645",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 344.4007018716576,
+              "EU_scenario_rupees": 200.5272137580174
+            },
+            {
+              "issuer_key": "646",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -257.09969212818737
+            },
+            {
+              "issuer_key": "647",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 65.0042495882584
+            },
+            {
+              "issuer_key": "648",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -406.89161977754674
+            },
+            {
+              "issuer_key": "650",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 2688.6089020977643
+            },
+            {
+              "issuer_key": "651",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -323.3480192027899
+            },
+            {
+              "issuer_key": "652",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 22.656053196101276
+            },
+            {
+              "issuer_key": "653",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 153.0315789473686,
+              "EU_scenario_rupees": 197.10142359340003
+            },
+            {
+              "issuer_key": "654",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -208.7271728978407
+            },
+            {
+              "issuer_key": "656",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 750.1691017767398
+            },
+            {
+              "issuer_key": "657",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 510.8672499999999,
+              "EU_scenario_rupees": 504.19544131012015
+            },
+            {
+              "issuer_key": "658",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 335.96396396396443,
+              "EU_scenario_rupees": 357.2588741027607
+            },
+            {
+              "issuer_key": "659",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -146.54933476990138
+            },
+            {
+              "issuer_key": "660",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -343.74266070255277
+            },
+            {
+              "issuer_key": "662",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 132.93975225225233,
+              "EU_scenario_rupees": 143.00977291139378
+            },
+            {
+              "issuer_key": "663",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -453.91942888042837
+            },
+            {
+              "issuer_key": "664",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 441.6266210944319
+            },
+            {
+              "issuer_key": "665",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 731.9311475409833,
+              "EU_scenario_rupees": 558.5140949479417
+            },
+            {
+              "issuer_key": "667",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -390.52788099249744
+            },
+            {
+              "issuer_key": "670",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -488.8593190818056
+            },
+            {
+              "issuer_key": "671",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -489.80548927129115
+            },
+            {
+              "issuer_key": "672",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -445.5317777391876
+            },
+            {
+              "issuer_key": "673",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -304.6328845930643
+            },
+            {
+              "issuer_key": "674",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -407.74609587221175
+            },
+            {
+              "issuer_key": "675",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -372.87541513765836
+            },
+            {
+              "issuer_key": "677",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -247.5285193017168
+            },
+            {
+              "issuer_key": "678",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -463.23856181921633
+            },
+            {
+              "issuer_key": "679",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -458.61488232984425
+            },
+            {
+              "issuer_key": "680",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -552.5537599629686
+            },
+            {
+              "issuer_key": "681",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -331.05921333279485
+            },
+            {
+              "issuer_key": "682",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 11.214642748053642
+            },
+            {
+              "issuer_key": "683",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -384.16311850196723
+            },
+            {
+              "issuer_key": "684",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 126.94721201958254
+            },
+            {
+              "issuer_key": "685",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -509.96764954579595
+            },
+            {
+              "issuer_key": "686",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -378.75203132020874
+            },
+            {
+              "issuer_key": "687",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -207.24097345590732
+            },
+            {
+              "issuer_key": "688",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -138.26577625575428
+            },
+            {
+              "issuer_key": "689",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 478.1000000000002,
+              "EU_scenario_rupees": 202.17422041003246
+            }
+          ]
+        }
+      },
+      "recent_23": {
+        "n": 23,
+        "correct": 16,
+        "accuracy_pct": 69.56521739130434,
+        "accuracy_wilson_95_pct": [
+          49.133870939427396,
+          84.39617197902754
+        ],
+        "positive_calls": 22,
+        "nonpositive_calls": 1,
+        "wrong_positive_calls": 6,
+        "missed_positive_calls": 1,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 8,
+        "apply_precision_pct": 87.5,
+        "skip_recall_on_losers_pct": 0.0,
+        "selective_portfolio": {
+          "covered_n": 23,
+          "apply_n": 14,
+          "apply_precision_pct": 85.71428571428571,
+          "skip_recall_on_losers_pct": 66.66666666666667,
+          "retail_allotment_weighted_net_rupee_scenario": 2111.7649688724127,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "recent_ae67183c2d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 106.21038205980065,
+              "EU_scenario_rupees": 142.2728377079004
+            },
+            {
+              "issuer_key": "recent_e503578014",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -192.9570851148578
+            },
+            {
+              "issuer_key": "recent_ac52a6551c",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 212.7462680000187
+            },
+            {
+              "issuer_key": "recent_a916c7c47d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 30.223853032659378,
+              "EU_scenario_rupees": 51.11039174923001
+            },
+            {
+              "issuer_key": "recent_512da047a2",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 19.659180651530047,
+              "EU_scenario_rupees": 63.108570491415975
+            },
+            {
+              "issuer_key": "recent_3e04a21a47",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -75.12298284245875
+            },
+            {
+              "issuer_key": "recent_441d5c7241",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 194.36944686036514
+            },
+            {
+              "issuer_key": "recent_c12767f56d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 11.115519820493727,
+              "EU_scenario_rupees": 125.22432701339366
+            },
+            {
+              "issuer_key": "recent_7d22cf387d",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -17.916701295155313
+            },
+            {
+              "issuer_key": "recent_d53c9d0384",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 476.42546125461223,
+              "EU_scenario_rupees": 303.92205665587414
+            },
+            {
+              "issuer_key": "recent_67e9dc9edb",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 210.74969437652834,
+              "EU_scenario_rupees": 56.57704708598068
+            },
+            {
+              "issuer_key": "recent_0d5dd12e62",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 102.80183348361892,
+              "EU_scenario_rupees": 27.543814493956837
+            },
+            {
+              "issuer_key": "recent_174d15b284",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -269.11929842512245
+            },
+            {
+              "issuer_key": "recent_a6de278fa0",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 219.84891732283486,
+              "EU_scenario_rupees": 30.455383738874644
+            },
+            {
+              "issuer_key": "recent_2b432db888",
+              "tier": 2,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -30.69421487603305,
+              "EU_scenario_rupees": 17.547391668788173
+            },
+            {
+              "issuer_key": "recent_3a2cdcb97d",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -295.26723506557323
+            },
+            {
+              "issuer_key": "recent_dd5742cace",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -153.69396351046143
+            },
+            {
+              "issuer_key": "recent_9dd18c9528",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 185.0256911477241,
+              "EU_scenario_rupees": 109.38923442617047
+            },
+            {
+              "issuer_key": "recent_1632623840",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 304.18611473272495,
+              "EU_scenario_rupees": 339.0034534951093
+            },
+            {
+              "issuer_key": "recent_924328a61a",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -152.73149161920747
+            },
+            {
+              "issuer_key": "recent_5d0fe44409",
+              "tier": 1,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -17.871107266435992,
+              "EU_scenario_rupees": 336.84635721158577
+            },
+            {
+              "issuer_key": "recent_5cfb669d34",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 374.39450171821323,
+              "EU_scenario_rupees": 61.5687090387287
+            },
+            {
+              "issuer_key": "recent_cbd5426c2a",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 119.68914141414129,
+              "EU_scenario_rupees": 62.481999077505776
+            }
+          ]
+        }
+      },
+      "passes_user_gate": false,
+      "components": [
+        "quota"
+      ],
+      "recent_24_user_supplied_BSE_sensitivity": {
+        "n": 24,
+        "correct": 17,
+        "accuracy_pct": 70.83333333333333,
+        "extra_probability": 0.6173902568161841,
+        "issue_price": 1785,
+        "open_price": 1800,
+        "primary_archive_verified": false
+      }
+    },
+    "M1_V4_OFS_SPLIT": {
+      "test_69": {
+        "n": 69,
+        "correct": 54,
+        "accuracy_pct": 78.26086956521739,
+        "accuracy_wilson_95_pct": [
+          67.1814807665879,
+          86.35935304266395
+        ],
+        "positive_calls": 41,
+        "nonpositive_calls": 28,
+        "wrong_positive_calls": 5,
+        "missed_positive_calls": 10,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 20,
+        "apply_precision_pct": 95.0,
+        "skip_recall_on_losers_pct": 78.26086956521739,
+        "selective_portfolio": {
+          "covered_n": 69,
+          "apply_n": 14,
+          "apply_precision_pct": 100.0,
+          "skip_recall_on_losers_pct": 100.0,
+          "retail_allotment_weighted_net_rupee_scenario": 8887.214659085896,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "610",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 572.6381324914365
+            },
+            {
+              "issuer_key": "611",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 622.4925731201724
+            },
+            {
+              "issuer_key": "612",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1101.2742774566466,
+              "EU_scenario_rupees": 1019.2316175577398
+            },
+            {
+              "issuer_key": "613",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1093.4568728479574
+            },
+            {
+              "issuer_key": "615",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -358.4693429123174
+            },
+            {
+              "issuer_key": "616",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 873.690433212997,
+              "EU_scenario_rupees": 913.427399400615
+            },
+            {
+              "issuer_key": "617",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 323.16686223227686
+            },
+            {
+              "issuer_key": "618",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 4.533318695476826
+            },
+            {
+              "issuer_key": "620",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 273.2060895748732
+            },
+            {
+              "issuer_key": "622",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 504.6812629775185
+            },
+            {
+              "issuer_key": "623",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -577.4669012939938
+            },
+            {
+              "issuer_key": "624",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 606.8825022444827
+            },
+            {
+              "issuer_key": "625",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 40.79052273385349
+            },
+            {
+              "issuer_key": "626",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1402.5699018580171
+            },
+            {
+              "issuer_key": "627",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -335.93284903920505
+            },
+            {
+              "issuer_key": "628",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 874.9756473019387
+            },
+            {
+              "issuer_key": "629",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 273.6361320295018
+            },
+            {
+              "issuer_key": "630",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 112.85132654090285
+            },
+            {
+              "issuer_key": "631",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 221.0567567567565,
+              "EU_scenario_rupees": 382.4449920795442
+            },
+            {
+              "issuer_key": "632",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 882.1937901498918,
+              "EU_scenario_rupees": 658.3673465133819
+            },
+            {
+              "issuer_key": "633",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 221.5449954766891
+            },
+            {
+              "issuer_key": "634",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 94.28703936429463
+            },
+            {
+              "issuer_key": "635",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -179.9654891605331
+            },
+            {
+              "issuer_key": "636",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 417.5308310958003
+            },
+            {
+              "issuer_key": "637",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -433.9309248029134
+            },
+            {
+              "issuer_key": "638",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 968.7447478991592,
+              "EU_scenario_rupees": 306.6616206783428
+            },
+            {
+              "issuer_key": "639",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 387.0006961702405
+            },
+            {
+              "issuer_key": "640",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 575.2614989345943
+            },
+            {
+              "issuer_key": "641",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 954.257547169811,
+              "EU_scenario_rupees": 542.4420796693748
+            },
+            {
+              "issuer_key": "643",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1198.7627118644064,
+              "EU_scenario_rupees": 80.82964387610032
+            },
+            {
+              "issuer_key": "644",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 370.53012954574524
+            },
+            {
+              "issuer_key": "645",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 344.4007018716576,
+              "EU_scenario_rupees": 206.73006103135774
+            },
+            {
+              "issuer_key": "646",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -278.18966994121917
+            },
+            {
+              "issuer_key": "647",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 65.17524639679587
+            },
+            {
+              "issuer_key": "648",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -385.3627617239714
+            },
+            {
+              "issuer_key": "650",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 2724.006737239064
+            },
+            {
+              "issuer_key": "651",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -258.9436347363868
+            },
+            {
+              "issuer_key": "652",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -8.90852749281515
+            },
+            {
+              "issuer_key": "653",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 153.0315789473686,
+              "EU_scenario_rupees": 206.57113238165724
+            },
+            {
+              "issuer_key": "654",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -320.6142990329489
+            },
+            {
+              "issuer_key": "656",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 637.6608679614291
+            },
+            {
+              "issuer_key": "657",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 510.8672499999999,
+              "EU_scenario_rupees": 506.8379279388872
+            },
+            {
+              "issuer_key": "658",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 335.96396396396443,
+              "EU_scenario_rupees": 383.22981810486203
+            },
+            {
+              "issuer_key": "659",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -221.10025567555985
+            },
+            {
+              "issuer_key": "660",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -440.88005406987895
+            },
+            {
+              "issuer_key": "662",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 132.93975225225233,
+              "EU_scenario_rupees": 143.15886077285597
+            },
+            {
+              "issuer_key": "663",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -516.024588265777
+            },
+            {
+              "issuer_key": "664",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 428.9948848238832
+            },
+            {
+              "issuer_key": "665",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 731.9311475409833,
+              "EU_scenario_rupees": 568.9336313268147
+            },
+            {
+              "issuer_key": "667",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -394.43879985579093
+            },
+            {
+              "issuer_key": "670",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -552.3314965021501
+            },
+            {
+              "issuer_key": "671",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -523.0524685175883
+            },
+            {
+              "issuer_key": "672",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -455.3022310577187
+            },
+            {
+              "issuer_key": "673",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -264.44685020877637
+            },
+            {
+              "issuer_key": "674",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -395.43994402974386
+            },
+            {
+              "issuer_key": "675",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -380.7592058893561
+            },
+            {
+              "issuer_key": "677",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -126.5285815151861
+            },
+            {
+              "issuer_key": "678",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -401.30692826363395
+            },
+            {
+              "issuer_key": "679",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -369.47051064477847
+            },
+            {
+              "issuer_key": "680",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -610.4521734275608
+            },
+            {
+              "issuer_key": "681",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -405.16139868265503
+            },
+            {
+              "issuer_key": "682",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -40.57746051709926
+            },
+            {
+              "issuer_key": "683",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -351.05682726826046
+            },
+            {
+              "issuer_key": "684",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 91.08174023986265
+            },
+            {
+              "issuer_key": "685",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -602.9603125528963
+            },
+            {
+              "issuer_key": "686",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -437.2742439874582
+            },
+            {
+              "issuer_key": "687",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -195.50512099026346
+            },
+            {
+              "issuer_key": "688",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -170.10361183380903
+            },
+            {
+              "issuer_key": "689",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 478.1000000000002,
+              "EU_scenario_rupees": 204.21611282533743
+            }
+          ]
+        }
+      },
+      "recent_23": {
+        "n": 23,
+        "correct": 15,
+        "accuracy_pct": 65.21739130434783,
+        "accuracy_wilson_95_pct": [
+          44.88997690689164,
+          81.18894536301777
+        ],
+        "positive_calls": 21,
+        "nonpositive_calls": 2,
+        "wrong_positive_calls": 6,
+        "missed_positive_calls": 2,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 11,
+        "apply_precision_pct": 90.9090909090909,
+        "skip_recall_on_losers_pct": 0.0,
+        "selective_portfolio": {
+          "covered_n": 23,
+          "apply_n": 14,
+          "apply_precision_pct": 85.71428571428571,
+          "skip_recall_on_losers_pct": 66.66666666666667,
+          "retail_allotment_weighted_net_rupee_scenario": 2111.7649688724127,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "recent_ae67183c2d",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 106.21038205980065,
+              "EU_scenario_rupees": 150.44824555017215
+            },
+            {
+              "issuer_key": "recent_e503578014",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -228.22651326067137
+            },
+            {
+              "issuer_key": "recent_ac52a6551c",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 172.94469042293923
+            },
+            {
+              "issuer_key": "recent_a916c7c47d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 30.223853032659378,
+              "EU_scenario_rupees": 56.864145540623326
+            },
+            {
+              "issuer_key": "recent_512da047a2",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 19.659180651530047,
+              "EU_scenario_rupees": 74.20934921738342
+            },
+            {
+              "issuer_key": "recent_3e04a21a47",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -78.95109757244701
+            },
+            {
+              "issuer_key": "recent_441d5c7241",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 209.2841590872228
+            },
+            {
+              "issuer_key": "recent_c12767f56d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 11.115519820493727,
+              "EU_scenario_rupees": 132.52758829107583
+            },
+            {
+              "issuer_key": "recent_7d22cf387d",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 7.744717402896402
+            },
+            {
+              "issuer_key": "recent_d53c9d0384",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 476.42546125461223,
+              "EU_scenario_rupees": 311.32307842683497
+            },
+            {
+              "issuer_key": "recent_67e9dc9edb",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 210.74969437652834,
+              "EU_scenario_rupees": 70.26574160557674
+            },
+            {
+              "issuer_key": "recent_0d5dd12e62",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 102.80183348361892,
+              "EU_scenario_rupees": 30.848264683573987
+            },
+            {
+              "issuer_key": "recent_174d15b284",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -296.75460652612344
+            },
+            {
+              "issuer_key": "recent_a6de278fa0",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 219.84891732283486,
+              "EU_scenario_rupees": 34.64786714699707
+            },
+            {
+              "issuer_key": "recent_2b432db888",
+              "tier": 2,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -30.69421487603305,
+              "EU_scenario_rupees": 7.60663371181894
+            },
+            {
+              "issuer_key": "recent_3a2cdcb97d",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -324.4002497138504
+            },
+            {
+              "issuer_key": "recent_dd5742cace",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -201.92804463696845
+            },
+            {
+              "issuer_key": "recent_9dd18c9528",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 185.0256911477241,
+              "EU_scenario_rupees": 116.63784004132538
+            },
+            {
+              "issuer_key": "recent_1632623840",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 304.18611473272495,
+              "EU_scenario_rupees": 341.34741889926516
+            },
+            {
+              "issuer_key": "recent_924328a61a",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -132.5255017325025
+            },
+            {
+              "issuer_key": "recent_5d0fe44409",
+              "tier": 1,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -17.871107266435992,
+              "EU_scenario_rupees": 378.90961990143916
+            },
+            {
+              "issuer_key": "recent_5cfb669d34",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 374.39450171821323,
+              "EU_scenario_rupees": 128.47796212693655
+            },
+            {
+              "issuer_key": "recent_cbd5426c2a",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 119.68914141414129,
+              "EU_scenario_rupees": 69.39155738468645
+            }
+          ]
+        }
+      },
+      "passes_user_gate": false,
+      "components": [
+        "ofs"
+      ],
+      "recent_24_user_supplied_BSE_sensitivity": {
+        "n": 24,
+        "correct": 16,
+        "accuracy_pct": 66.66666666666667,
+        "extra_probability": 0.7650682528740004,
+        "issue_price": 1785,
+        "open_price": 1800,
+        "primary_archive_verified": false
+      }
+    },
+    "M1_V5_PROGRESSIVE_REGIME": {
+      "test_69": {
+        "n": 69,
+        "correct": 52,
+        "accuracy_pct": 75.36231884057972,
+        "accuracy_wilson_95_pct": [
+          64.03911369020479,
+          84.01035254886739
+        ],
+        "positive_calls": 47,
+        "nonpositive_calls": 22,
+        "wrong_positive_calls": 9,
+        "missed_positive_calls": 8,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 18,
+        "apply_precision_pct": 88.88888888888889,
+        "skip_recall_on_losers_pct": 60.86956521739131,
+        "selective_portfolio": {
+          "covered_n": 69,
+          "apply_n": 14,
+          "apply_precision_pct": 100.0,
+          "skip_recall_on_losers_pct": 100.0,
+          "retail_allotment_weighted_net_rupee_scenario": 8887.214659085896,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "610",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 411.22266605869436
+            },
+            {
+              "issuer_key": "611",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 584.3793344116749
+            },
+            {
+              "issuer_key": "612",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1101.2742774566466,
+              "EU_scenario_rupees": 993.5759982642193
+            },
+            {
+              "issuer_key": "613",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1073.7441261715517
+            },
+            {
+              "issuer_key": "615",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -417.3029673005699
+            },
+            {
+              "issuer_key": "616",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 873.690433212997,
+              "EU_scenario_rupees": 801.4432792281555
+            },
+            {
+              "issuer_key": "617",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 307.3897661327743
+            },
+            {
+              "issuer_key": "618",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -109.03617724901943
+            },
+            {
+              "issuer_key": "620",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 277.0575814652698
+            },
+            {
+              "issuer_key": "622",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 454.41395310385377
+            },
+            {
+              "issuer_key": "623",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -729.9502718533815
+            },
+            {
+              "issuer_key": "624",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 600.324170527658
+            },
+            {
+              "issuer_key": "625",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 34.814345430371276
+            },
+            {
+              "issuer_key": "626",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 1309.3348638915327
+            },
+            {
+              "issuer_key": "627",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -482.440050726765
+            },
+            {
+              "issuer_key": "628",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 811.9086781275633
+            },
+            {
+              "issuer_key": "629",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 221.07436413444833
+            },
+            {
+              "issuer_key": "630",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 107.70674776840652
+            },
+            {
+              "issuer_key": "631",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 221.0567567567565,
+              "EU_scenario_rupees": 374.3065318947154
+            },
+            {
+              "issuer_key": "632",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 882.1937901498918,
+              "EU_scenario_rupees": 652.5763787775903
+            },
+            {
+              "issuer_key": "633",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 143.7618835546716
+            },
+            {
+              "issuer_key": "634",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 87.06404793071077
+            },
+            {
+              "issuer_key": "635",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -357.03989554082796
+            },
+            {
+              "issuer_key": "636",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 389.09941784307836
+            },
+            {
+              "issuer_key": "637",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -543.8756205848664
+            },
+            {
+              "issuer_key": "638",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 968.7447478991592,
+              "EU_scenario_rupees": 275.7897183186619
+            },
+            {
+              "issuer_key": "639",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 354.6971029978224
+            },
+            {
+              "issuer_key": "640",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 518.5737453808847
+            },
+            {
+              "issuer_key": "641",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 954.257547169811,
+              "EU_scenario_rupees": 485.108573499558
+            },
+            {
+              "issuer_key": "643",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 1198.7627118644064,
+              "EU_scenario_rupees": 62.84676975702055
+            },
+            {
+              "issuer_key": "644",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 150.27093012674158
+            },
+            {
+              "issuer_key": "645",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 344.4007018716576,
+              "EU_scenario_rupees": 207.62871531293462
+            },
+            {
+              "issuer_key": "646",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -295.69095338501324
+            },
+            {
+              "issuer_key": "647",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 61.39891842792396
+            },
+            {
+              "issuer_key": "648",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -300.9755511678152
+            },
+            {
+              "issuer_key": "650",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 2724.0731919543696
+            },
+            {
+              "issuer_key": "651",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -279.57086736288437
+            },
+            {
+              "issuer_key": "652",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -2.6417993398821196
+            },
+            {
+              "issuer_key": "653",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 153.0315789473686,
+              "EU_scenario_rupees": 212.7767499583839
+            },
+            {
+              "issuer_key": "654",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -342.1623250431935
+            },
+            {
+              "issuer_key": "656",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 715.5130200317876
+            },
+            {
+              "issuer_key": "657",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 510.8672499999999,
+              "EU_scenario_rupees": 504.4936705782767
+            },
+            {
+              "issuer_key": "658",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 335.96396396396443,
+              "EU_scenario_rupees": 408.506472039191
+            },
+            {
+              "issuer_key": "659",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -194.50030865231997
+            },
+            {
+              "issuer_key": "660",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -448.2611564985171
+            },
+            {
+              "issuer_key": "662",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 132.93975225225233,
+              "EU_scenario_rupees": 145.7089163676022
+            },
+            {
+              "issuer_key": "663",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -486.6414182399687
+            },
+            {
+              "issuer_key": "664",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 414.6075924988247
+            },
+            {
+              "issuer_key": "665",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 731.9311475409833,
+              "EU_scenario_rupees": 575.1603188990524
+            },
+            {
+              "issuer_key": "667",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -272.0539567714457
+            },
+            {
+              "issuer_key": "670",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -454.00761335540045
+            },
+            {
+              "issuer_key": "671",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -343.8793904354323
+            },
+            {
+              "issuer_key": "672",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -280.65588630866193
+            },
+            {
+              "issuer_key": "673",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -4.495224187547598
+            },
+            {
+              "issuer_key": "674",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -208.81572842445513
+            },
+            {
+              "issuer_key": "675",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -158.67242115778257
+            },
+            {
+              "issuer_key": "677",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 28.92261394596303
+            },
+            {
+              "issuer_key": "678",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -233.7608062761934
+            },
+            {
+              "issuer_key": "679",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -252.87508166812452
+            },
+            {
+              "issuer_key": "680",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -503.4995226314144
+            },
+            {
+              "issuer_key": "681",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -281.2734170602437
+            },
+            {
+              "issuer_key": "682",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -18.980589332071403
+            },
+            {
+              "issuer_key": "683",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -245.3381015147437
+            },
+            {
+              "issuer_key": "684",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 136.25584566539084
+            },
+            {
+              "issuer_key": "685",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -573.3119789898308
+            },
+            {
+              "issuer_key": "686",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -380.2588779599383
+            },
+            {
+              "issuer_key": "687",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -205.36199823280262
+            },
+            {
+              "issuer_key": "688",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -178.5529576358332
+            },
+            {
+              "issuer_key": "689",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 478.1000000000002,
+              "EU_scenario_rupees": 205.3534692438378
+            }
+          ]
+        }
+      },
+      "recent_23": {
+        "n": 23,
+        "correct": 15,
+        "accuracy_pct": 65.21739130434783,
+        "accuracy_wilson_95_pct": [
+          44.88997690689164,
+          81.18894536301777
+        ],
+        "positive_calls": 19,
+        "nonpositive_calls": 4,
+        "wrong_positive_calls": 5,
+        "missed_positive_calls": 3,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 11,
+        "apply_precision_pct": 90.9090909090909,
+        "skip_recall_on_losers_pct": 16.666666666666664,
+        "selective_portfolio": {
+          "covered_n": 23,
+          "apply_n": 13,
+          "apply_precision_pct": 92.3076923076923,
+          "skip_recall_on_losers_pct": 83.33333333333333,
+          "retail_allotment_weighted_net_rupee_scenario": 2142.459183748446,
+          "snii_net_return": null,
+          "bnii_net_return": null,
+          "hni_status": "eligible_dated_split_books_and_valid_allotment_basis_not_available_for_all_cases",
+          "exact_allotment_probability": false,
+          "records": [
+            {
+              "issuer_key": "recent_ae67183c2d",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 106.21038205980065,
+              "EU_scenario_rupees": 150.84404988902438
+            },
+            {
+              "issuer_key": "recent_e503578014",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -245.9011689584132
+            },
+            {
+              "issuer_key": "recent_ac52a6551c",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 21.08706909010021
+            },
+            {
+              "issuer_key": "recent_a916c7c47d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 30.223853032659378,
+              "EU_scenario_rupees": 57.757652341085915
+            },
+            {
+              "issuer_key": "recent_512da047a2",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 19.659180651530047,
+              "EU_scenario_rupees": 77.52530242143322
+            },
+            {
+              "issuer_key": "recent_3e04a21a47",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -104.5163588712321
+            },
+            {
+              "issuer_key": "recent_441d5c7241",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 208.1689379574742
+            },
+            {
+              "issuer_key": "recent_c12767f56d",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 11.115519820493727,
+              "EU_scenario_rupees": 135.46473607306623
+            },
+            {
+              "issuer_key": "recent_7d22cf387d",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": 0.33856003792971023
+            },
+            {
+              "issuer_key": "recent_d53c9d0384",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 476.42546125461223,
+              "EU_scenario_rupees": 311.8139813662924
+            },
+            {
+              "issuer_key": "recent_67e9dc9edb",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 210.74969437652834,
+              "EU_scenario_rupees": 72.00982265172725
+            },
+            {
+              "issuer_key": "recent_0d5dd12e62",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 102.80183348361892,
+              "EU_scenario_rupees": 31.05091332537892
+            },
+            {
+              "issuer_key": "recent_174d15b284",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -277.3586319945288
+            },
+            {
+              "issuer_key": "recent_a6de278fa0",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 219.84891732283486,
+              "EU_scenario_rupees": 33.14227516714417
+            },
+            {
+              "issuer_key": "recent_2b432db888",
+              "tier": 3,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -35.012570725744794
+            },
+            {
+              "issuer_key": "recent_3a2cdcb97d",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -446.2186557338615
+            },
+            {
+              "issuer_key": "recent_dd5742cace",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -231.65100188287082
+            },
+            {
+              "issuer_key": "recent_9dd18c9528",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 185.0256911477241,
+              "EU_scenario_rupees": 117.11238476193286
+            },
+            {
+              "issuer_key": "recent_1632623840",
+              "tier": 1,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 304.18611473272495,
+              "EU_scenario_rupees": 341.22028795658247
+            },
+            {
+              "issuer_key": "recent_924328a61a",
+              "tier": 3,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": null,
+              "EU_scenario_rupees": -71.58134392277614
+            },
+            {
+              "issuer_key": "recent_5d0fe44409",
+              "tier": 1,
+              "actual_positive": 0,
+              "retail_realized_return_scenario_rupees": -17.871107266435992,
+              "EU_scenario_rupees": 382.43366935557214
+            },
+            {
+              "issuer_key": "recent_5cfb669d34",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 374.39450171821323,
+              "EU_scenario_rupees": 130.85057520664677
+            },
+            {
+              "issuer_key": "recent_cbd5426c2a",
+              "tier": 2,
+              "actual_positive": 1,
+              "retail_realized_return_scenario_rupees": 119.68914141414129,
+              "EU_scenario_rupees": 62.36640572100298
+            }
+          ]
+        }
+      },
+      "passes_user_gate": false,
+      "components": [
+        "decay",
+        "regime"
+      ],
+      "recent_24_user_supplied_BSE_sensitivity": {
+        "n": 24,
+        "correct": 16,
+        "accuracy_pct": 66.66666666666667,
+        "extra_probability": 0.8163187677144019,
+        "issue_price": 1785,
+        "open_price": 1800,
+        "primary_archive_verified": false
+      }
+    },
+    "M1_DAY2_TRACK": {
+      "training_n": 273,
+      "training_ids": [
+        "308",
+        "304",
+        "303",
+        "299",
+        "300",
+        "297",
+        "296",
+        "295",
+        "291",
+        "289",
+        "288",
+        "287",
+        "285",
+        "284",
+        "283",
+        "282",
+        "278",
+        "279",
+        "280",
+        "281",
+        "277",
+        "274",
+        "275",
+        "272",
+        "273",
+        "271",
+        "269",
+        "267",
+        "265",
+        "263",
+        "261",
+        "260",
+        "257",
+        "256",
+        "255",
+        "254",
+        "252",
+        "251",
+        "249",
+        "248",
+        "247",
+        "351",
+        "350",
+        "349",
+        "348",
+        "346",
+        "344",
+        "343",
+        "339",
+        "340",
+        "337",
+        "336",
+        "335",
+        "332",
+        "330",
+        "329",
+        "327",
+        "325",
+        "326",
+        "323",
+        "322",
+        "321",
+        "320",
+        "319",
+        "317",
+        "316",
+        "314",
+        "313",
+        "407",
+        "406",
+        "405",
+        "404",
+        "403",
+        "399",
+        "398",
+        "397",
+        "396",
+        "395",
+        "394",
+        "393",
+        "392",
+        "390",
+        "388",
+        "389",
+        "387",
+        "385",
+        "382",
+        "378",
+        "379",
+        "374",
+        "373",
+        "372",
+        "371",
+        "368",
+        "364",
+        "365",
+        "366",
+        "363",
+        "361",
+        "362",
+        "360",
+        "357",
+        "358",
+        "359",
+        "354",
+        "355",
+        "356",
+        "353",
+        "500",
+        "499",
+        "497",
+        "496",
+        "495",
+        "492",
+        "493",
+        "494",
+        "490",
+        "489",
+        "488",
+        "486",
+        "485",
+        "484",
+        "483",
+        "482",
+        "481",
+        "480",
+        "479",
+        "478",
+        "476",
+        "475",
+        "472",
+        "471",
+        "470",
+        "469",
+        "467",
+        "466",
+        "465",
+        "464",
+        "462",
+        "463",
+        "461",
+        "460",
+        "459",
+        "458",
+        "456",
+        "455",
+        "454",
+        "453",
+        "452",
+        "451",
+        "450",
+        "449",
+        "448",
+        "445",
+        "446",
+        "447",
+        "444",
+        "441",
+        "442",
+        "440",
+        "438",
+        "437",
+        "436",
+        "434",
+        "435",
+        "431",
+        "428",
+        "427",
+        "425",
+        "424",
+        "421",
+        "422",
+        "423",
+        "419",
+        "414",
+        "415",
+        "416",
+        "417",
+        "418",
+        "411",
+        "412",
+        "413",
+        "501",
+        "502",
+        "504",
+        "505",
+        "506",
+        "507",
+        "508",
+        "509",
+        "510",
+        "511",
+        "512",
+        "513",
+        "514",
+        "515",
+        "516",
+        "517",
+        "518",
+        "520",
+        "521",
+        "522",
+        "523",
+        "525",
+        "528",
+        "531",
+        "532",
+        "533",
+        "534",
+        "536",
+        "537",
+        "538",
+        "539",
+        "540",
+        "541",
+        "542",
+        "544",
+        "545",
+        "546",
+        "547",
+        "548",
+        "549",
+        "550",
+        "552",
+        "553",
+        "555",
+        "557",
+        "558",
+        "559",
+        "560",
+        "561",
+        "562",
+        "563",
+        "566",
+        "567",
+        "568",
+        "569",
+        "570",
+        "572",
+        "573",
+        "575",
+        "576",
+        "577",
+        "578",
+        "579",
+        "580",
+        "581",
+        "582",
+        "583",
+        "584",
+        "586",
+        "587",
+        "588",
+        "590",
+        "591",
+        "592",
+        "595",
+        "596",
+        "597",
+        "598",
+        "599",
+        "600",
+        "602",
+        "603",
+        "604",
+        "606",
+        "607",
+        "608",
+        "530",
+        "535",
+        "554",
+        "556",
+        "589"
+      ],
+      "metrics": {
+        "test_69": {
+          "n": 69,
+          "correct": 55,
+          "accuracy_pct": 79.71014492753623,
+          "accuracy_wilson_95_pct": [
+            68.77573759423548,
+            87.51078000010621
+          ],
+          "positive_calls": 52,
+          "nonpositive_calls": 17,
+          "wrong_positive_calls": 10,
+          "missed_positive_calls": 4,
+          "decision_threshold": 0.5,
+          "apply_threshold": 0.82,
+          "apply_n": 17,
+          "apply_precision_pct": 94.11764705882352,
+          "skip_recall_on_losers_pct": 56.52173913043478
+        },
+        "recent_23": {
+          "n": 23,
+          "correct": 17,
+          "accuracy_pct": 73.91304347826086,
+          "accuracy_wilson_95_pct": [
+            53.52960945624944,
+            87.45155411075103
+          ],
+          "positive_calls": 23,
+          "nonpositive_calls": 0,
+          "wrong_positive_calls": 6,
+          "missed_positive_calls": 0,
+          "decision_threshold": 0.5,
+          "apply_threshold": 0.82,
+          "apply_n": 5,
+          "apply_precision_pct": 100.0,
+          "skip_recall_on_losers_pct": 0.0
+        }
+      },
+      "source_basis": "Publisher-labelled Day2 EOD tables recovered later; date-only same-day GMP withheld.",
+      "live_promoted": false,
+      "passes_user_gate": false
+    }
+  },
+  "selected": "M1_V1_FROZEN_WITH_RECOVERED_INPUTS",
+  "accepted_components": [],
+  "additional_24th_case_sensitivity": [
+    {
+      "company_name": "National Stock Exchange of India",
+      "issue_price": 1785.0,
+      "actual_open": 1800.0,
+      "actual_return_pct": 0.8403361344537785,
+      "probability": 0.8149337416030153,
+      "correct": true,
+      "outcome_evidence": "user_supplied_BSE_open_not_bound_to_primary_archive",
+      "included_in_primary_23": false
+    }
+  ],
+  "stage_bridge_status": "insufficient_distinct_training_pairs",
+  "live_promoted": false,
+  "integrity_preserved": true,
+  "limitations": [
+    "The inspected 69 and 23 cohorts are development comparisons, not a fresh independent test.",
+    "The 161 total ratios are not 161 verified distinct Day2/preclose category pairs.",
+    "No arbitrary final-book discount or unverified statutory reservation fallback is applied.",
+    "Allotment-weighted returns are scenarios; no exact HNI return is fabricated from aggregate NII.",
+    "Frozen-model recovered-input inference is a changed-input replay, not a saved historical call."
+  ]
+}
