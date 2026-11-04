@@ -1,0 +1,3351 @@
+{
+  "mode": "historical_backtest",
+  "computed_at_ist": "2026-10-25T19:06:31.917590+05:30",
+  "model_sha": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+  "protocol_sha": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02",
+  "limitation": "Retrospective replay of publisher-reported timestamps, recovered later. Frozen model selected after test inspection; not prospective or an untouched holdout. Missing inputs use frozen training imputation. Flat opens count nonpositive.",
+  "summary": {
+    "listed_ipos": 24,
+    "predictions": 24,
+    "evaluated": 23,
+    "correct": 15,
+    "accuracy_pct": 65.21739130434783,
+    "always_positive_correct": 17,
+    "always_positive_accuracy_pct": 73.91304347826087,
+    "excluded": 0,
+    "gmp_paired_count": 23,
+    "pending_openings": 1,
+    "gmp_correct": 13,
+    "model_correct_on_gmp_pairs": 15,
+    "gmp_accuracy_pct": 56.52173913043478,
+    "gmp_simple_correct": 15,
+    "gmp_simple_accuracy_pct": 65.21739130434783,
+    "positive_calls": 21,
+    "nonpositive_calls": 2
+  },
+  "records": [
+    {
+      "company_name": "HD Fire Protect",
+      "cutoff_at_ist": "2026-10-15T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2628",
+        "company_name": "HD Fire Protect",
+        "listing_date": "2026-10-21",
+        "issue_price": 271.0,
+        "nse_open_price": 335.0,
+        "nse_symbol": "HDFIRE",
+        "isin": "INE18AK01028",
+        "archive_sha256": "7d19ef4c8f7e3bf80828a7a33c4fe7d2cd8a56cbecc5e2ce42ce81a35e2ba243",
+        "recorded_at_ist": "2026-10-21T17:30:38+05:30",
+        "actual_open": 335.0,
+        "return_pct": 23.616236162361616,
+        "positive": true
+      },
+      "probability": 0.9936209201914796,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-10-15T16:44:00+05:30",
+        "recovered_at_ist": "2026-10-21T00:13:16+05:30",
+        "qib": 256.65,
+        "hni": 203.08,
+        "retail": 30.1,
+        "source": "https://theipolist.in/ipo-details/hd-fire-protect",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "04e8089b13c3054f1d01c7ebf19df7df9f9cd3585030064d23fdb045ccadd757"
+      },
+      "features": {
+        "log_qib": 5.551602074774233,
+        "log_hni": 5.318512073833556,
+        "log_retail": 3.4372078191851885,
+        "log_offer_cap_price": 5.605802066295998,
+        "log_issue_size": 6.569481420414296,
+        "gmp_pct": 32.84132841328413,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": 1.4760147601476015,
+        "pub_profit_margin_pct": 23.121238517579982,
+        "pub_return_on_assets_pct": 27.03284494132352,
+        "pub_revenue_growth_asinh": 0.12050339128246877,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 2.4575645756457565,
+        "pub_log_ipo_price_book": 2.612273245708441,
+        "log_qib_growth": 0.1993329026204912,
+        "log_hni_growth": 1.388306839158743,
+        "log_retail_growth": 0.9437683679118749,
+        "macro_nifty_5d": 0.08692825446510177,
+        "macro_nifty_20d": -2.1450278087947194,
+        "macro_nifty_vol20": 0.9278553931615485,
+        "macro_vix": 14.630000114440918,
+        "macro_vix_change5": 5.3275720145960825
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-10-15T16:44:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:16+05:30",
+          "qib": 256.65,
+          "hni": 203.08,
+          "retail": 30.1,
+          "source": "https://theipolist.in/ipo-details/hd-fire-protect",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "04e8089b13c3054f1d01c7ebf19df7df9f9cd3585030064d23fdb045ccadd757"
+        },
+        "gmp": {
+          "gmp_date": "2026-10-14",
+          "gmp_asof_ist": "2026-10-14T22:00:00+05:30",
+          "gmp_rs": 89.0,
+          "url": "https://www.iporise.com/ipo/hd-fire-protect-ipo/gmp",
+          "raw_sha256": "27af07fd93b8243054c2f81286337073013d3e73d7d3ed125168d3f9181ae287",
+          "recovered_at_ist": "2026-10-25T19:00:28.283505+05:30",
+          "conflicting_same_day_values": [
+            82.0,
+            89.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 23.121238517579982,
+          "return_on_assets_pct": 27.03284494132352,
+          "debt_to_networth": null,
+          "revenue_growth_asinh": 0.12050339128246877,
+          "profit_growth_asinh": 0.06439223995228416,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 2.4575645756457565,
+          "log_ipo_price_book": 2.612273245708441,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 116.79,
+          "annual_revenue": 505.12,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 6.66,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/hd-fire-protect-ipo",
+          "raw_sha256": "b3735f5bb81fce554c064c4a68305df7290b2e745d1101db39f372f6157bba90",
+          "recovered_at_ist": "2026-10-25T19:00:26.445717+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-10-13",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.04,
+            "hni_subscription": 11.41,
+            "retail_subscription": 3.81,
+            "url": "https://www.ipoji.com/ipo/hd-fire-protect-ipo",
+            "raw_sha256": "b3735f5bb81fce554c064c4a68305df7290b2e745d1101db39f372f6157bba90",
+            "recovered_at_ist": "2026-10-25T19:00:26.445717+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-10-14",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.49,
+            "hni_subscription": 48.74,
+            "retail_subscription": 11.36,
+            "url": "https://www.ipoji.com/ipo/hd-fire-protect-ipo",
+            "raw_sha256": "b3735f5bb81fce554c064c4a68305df7290b2e745d1101db39f372f6157bba90",
+            "recovered_at_ist": "2026-10-25T19:00:26.445717+05:30"
+          }
+        ],
+        "market_date": "2026-10-14"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.8595376690838816,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Nityas Gems & Jewellery",
+      "cutoff_at_ist": "2026-10-05T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2974",
+        "company_name": "Nityas Gems & Jewellery",
+        "listing_date": "2026-10-08",
+        "issue_price": 75.0,
+        "nse_open_price": 80.0,
+        "nse_symbol": "NITYAS",
+        "isin": "INE211501023",
+        "archive_sha256": "07fdfc3409b83fac6ee4a736ceb4fde20069c5d1a490d960b332c178cb703e39",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 80.0,
+        "return_pct": 6.666666666666665,
+        "positive": true
+      },
+      "probability": 0.3282300372964153,
+      "correct": false,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": false,
+      "bid": {
+        "observed_at_ist": "2026-10-05T11:57:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:46+05:30",
+        "qib": 0.47,
+        "hni": 0.94,
+        "retail": 2.54,
+        "source": "https://choiceindia.com/news/nityas-gems-and-jewellery-ipo-subscription-day-3",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "8a9e8cbc68a4d9db4469965bc8639a76453491a9c155413d65c5da89e518e74f"
+      },
+      "features": {
+        "log_qib": 0.3852624007906449,
+        "log_hni": 0.6626879730752367,
+        "log_retail": 1.264126727145683,
+        "log_offer_cap_price": 4.330733340286331,
+        "log_issue_size": 4.6913478822291435,
+        "gmp_pct": 1.3333333333333333,
+        "gmp_quote_age_days": 0,
+        "gmp_slope_pp_per_day": -2.6666666666666665,
+        "pub_profit_margin_pct": 10.97722913490385,
+        "pub_return_on_assets_pct": 19.17196358014087,
+        "pub_revenue_growth_asinh": 0.9499648726913064,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 6.8933333333333335,
+        "pub_log_ipo_price_book": 1.7850704810772584,
+        "log_qib_growth": 0.3220834991691133,
+        "log_hni_growth": 0.13465688514625715,
+        "log_retail_growth": 0.4185371896755172,
+        "macro_nifty_5d": -2.7799836166183645,
+        "macro_nifty_20d": -6.240996756177908,
+        "macro_nifty_vol20": 0.6483588471025635,
+        "macro_vix": 14.460000038146973,
+        "macro_vix_change5": 13.94799461222842
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-10-05T11:57:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:46+05:30",
+          "qib": 0.47,
+          "hni": 0.94,
+          "retail": 2.54,
+          "source": "https://choiceindia.com/news/nityas-gems-and-jewellery-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "8a9e8cbc68a4d9db4469965bc8639a76453491a9c155413d65c5da89e518e74f"
+        },
+        "gmp": {
+          "gmp_date": "2026-10-05",
+          "gmp_asof_ist": "2026-10-05T11:15:00+05:30",
+          "gmp_rs": 1.0,
+          "url": "https://www.ipoji.com/ipo/nityas-gems-jewellery-ipo",
+          "raw_sha256": "aa5423f9226873f80bcb88175aa997eea8b93ddac28171c84dc400153751a558",
+          "recovered_at_ist": "2026-10-25T19:00:26.765763+05:30",
+          "conflicting_same_day_values": [
+            1.0,
+            2.0,
+            3.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 10.97722913490385,
+          "return_on_assets_pct": 19.17196358014087,
+          "debt_to_networth": 0.1143144907465693,
+          "revenue_growth_asinh": 0.9499648726913064,
+          "profit_growth_asinh": 1.0661221806764853,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 6.8933333333333335,
+          "log_ipo_price_book": 1.7850704810772584,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 22.32,
+          "annual_revenue": 203.33,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 5.17,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/nityas-gems-jewellery-ipo",
+          "raw_sha256": "aa5423f9226873f80bcb88175aa997eea8b93ddac28171c84dc400153751a558",
+          "recovered_at_ist": "2026-10-25T19:00:26.765763+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-30",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.0,
+            "hni_subscription": 0.11,
+            "retail_subscription": 0.52,
+            "url": "https://www.ipoji.com/ipo/nityas-gems-jewellery-ipo",
+            "raw_sha256": "aa5423f9226873f80bcb88175aa997eea8b93ddac28171c84dc400153751a558",
+            "recovered_at_ist": "2026-10-25T19:00:26.765763+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-10-01",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.38,
+            "hni_subscription": 0.27,
+            "retail_subscription": 1.31,
+            "url": "https://www.ipoji.com/ipo/nityas-gems-jewellery-ipo",
+            "raw_sha256": "aa5423f9226873f80bcb88175aa997eea8b93ddac28171c84dc400153751a558",
+            "recovered_at_ist": "2026-10-25T19:00:26.765763+05:30"
+          },
+          {
+            "day": 3,
+            "date": "2026-10-02",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.38,
+            "hni_subscription": 0.27,
+            "retail_subscription": 1.31,
+            "url": "https://www.ipoji.com/ipo/nityas-gems-jewellery-ipo",
+            "raw_sha256": "aa5423f9226873f80bcb88175aa997eea8b93ddac28171c84dc400153751a558",
+            "recovered_at_ist": "2026-10-25T19:00:26.765763+05:30"
+          }
+        ],
+        "market_date": "2026-10-01"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5236393775927577,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Vishal Nirmiti",
+      "cutoff_at_ist": "2026-10-05T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2665",
+        "company_name": "Vishal Nirmiti",
+        "listing_date": "2026-10-08",
+        "issue_price": 220.0,
+        "nse_open_price": 215.0,
+        "nse_symbol": "VNL",
+        "isin": "INE1O5L01025",
+        "archive_sha256": "07fdfc3409b83fac6ee4a736ceb4fde20069c5d1a490d960b332c178cb703e39",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 215.0,
+        "return_pct": -2.2727272727272707,
+        "positive": false
+      },
+      "probability": 0.5081245577577365,
+      "correct": false,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-10-05T11:18:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:47+05:30",
+        "qib": 0.96,
+        "hni": 1.19,
+        "retail": 1.02,
+        "source": "https://choiceindia.com/news/vishal-nirmiti-ipo-subscription-day-3",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "f6a5a0efcc0ce336db03c985e9ec11de34199559c29121dd860e702e83463034"
+      },
+      "features": {
+        "log_qib": 0.6729444732424258,
+        "log_hni": 0.7839015438284094,
+        "log_retail": 0.7030975114131134,
+        "log_offer_cap_price": 5.3981627015177525,
+        "log_issue_size": 5.187385805840755,
+        "gmp_pct": 9.090909090909092,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": 0.0,
+        "pub_profit_margin_pct": 7.25888472379624,
+        "pub_return_on_assets_pct": 7.458497551654126,
+        "pub_revenue_growth_asinh": 0.05928312891092667,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 5.7318181818181815,
+        "pub_log_ipo_price_book": 1.7984040119467235,
+        "log_qib_growth": 0.0,
+        "log_hni_growth": 0.5998152407677262,
+        "log_retail_growth": 0.340507211833392,
+        "macro_nifty_5d": -2.7799836166183645,
+        "macro_nifty_20d": -6.240996756177908,
+        "macro_nifty_vol20": 0.6483588471025635,
+        "macro_vix": 14.460000038146973,
+        "macro_vix_change5": 13.94799461222842
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-10-05T11:18:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:47+05:30",
+          "qib": 0.96,
+          "hni": 1.19,
+          "retail": 1.02,
+          "source": "https://choiceindia.com/news/vishal-nirmiti-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "f6a5a0efcc0ce336db03c985e9ec11de34199559c29121dd860e702e83463034"
+        },
+        "gmp": {
+          "gmp_date": "2026-10-04",
+          "gmp_asof_ist": "2026-10-04T11:21:00+05:30",
+          "gmp_rs": 20.0,
+          "url": "https://www.iporise.com/ipo/vishal-nirmiti-ipo/gmp",
+          "raw_sha256": "bcc79caa6c149c12da910c35b74d1bfb6623a65394f9af429afe14bd4f6b2f56",
+          "recovered_at_ist": "2026-10-25T19:00:28.823284+05:30",
+          "conflicting_same_day_values": [
+            2.0,
+            20.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 7.25888472379624,
+          "return_on_assets_pct": 7.458497551654126,
+          "debt_to_networth": 1.0125086865879083,
+          "revenue_growth_asinh": 0.05928312891092667,
+          "profit_growth_asinh": 0.056653276609531476,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 5.7318181818181815,
+          "log_ipo_price_book": 1.7984040119467235,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 24.98,
+          "annual_revenue": 344.13,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 12.61,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/vishal-nirmiti-ipo",
+          "raw_sha256": "a82da54294c6a928d3d2be532e373c83eb9db4c6047fa84ee2daa70bf3e36059",
+          "recovered_at_ist": "2026-10-25T19:00:26.728012+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-30",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.0,
+            "hni_subscription": 0.01,
+            "retail_subscription": 0.06,
+            "url": "https://www.ipoji.com/ipo/vishal-nirmiti-ipo",
+            "raw_sha256": "a82da54294c6a928d3d2be532e373c83eb9db4c6047fa84ee2daa70bf3e36059",
+            "recovered_at_ist": "2026-10-25T19:00:26.728012+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-10-01",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.0,
+            "hni_subscription": 0.84,
+            "retail_subscription": 0.49,
+            "url": "https://www.ipoji.com/ipo/vishal-nirmiti-ipo",
+            "raw_sha256": "a82da54294c6a928d3d2be532e373c83eb9db4c6047fa84ee2daa70bf3e36059",
+            "recovered_at_ist": "2026-10-25T19:00:26.728012+05:30"
+          },
+          {
+            "day": 3,
+            "date": "2026-10-02",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.0,
+            "hni_subscription": 0.84,
+            "retail_subscription": 0.49,
+            "url": "https://www.ipoji.com/ipo/vishal-nirmiti-ipo",
+            "raw_sha256": "a82da54294c6a928d3d2be532e373c83eb9db4c6047fa84ee2daa70bf3e36059",
+            "recovered_at_ist": "2026-10-25T19:00:26.728012+05:30"
+          }
+        ],
+        "market_date": "2026-10-01"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.6265226753904398,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": false
+    },
+    {
+      "company_name": "SRIT India",
+      "cutoff_at_ist": "2026-09-30T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2858",
+        "company_name": "SRIT India",
+        "listing_date": "2026-10-06",
+        "issue_price": 130.0,
+        "nse_open_price": 148.0,
+        "nse_symbol": "SRIT",
+        "isin": "INE307K01028",
+        "archive_sha256": "f444e5ba9821fe09ac3bff69f53144369ce536be6481acc78ab00d175ae55b56",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 148.0,
+        "return_pct": 13.846153846153841,
+        "positive": true
+      },
+      "probability": 0.9769151776405061,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-30T15:23:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:49+05:30",
+        "qib": 47.64,
+        "hni": 298.58,
+        "retail": 51.44,
+        "source": "https://www.5paisa.com/blog/srit-india-subscription-status",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "article_also_labels_detailed_table_17_05_conflicting_with_intro",
+          "article_first_published_after_application_cutoff"
+        ],
+        "raw_sha256": "a7bb1403ad3e5551b41d43f666d32141e03621bccd939a7952f9ac77e11b7e0d"
+      },
+      "features": {
+        "log_qib": 3.8844462376579116,
+        "log_hni": 5.702381493740573,
+        "log_retail": 3.959669658895499,
+        "log_offer_cap_price": 4.875197323201151,
+        "log_issue_size": 5.389071729816501,
+        "gmp_pct": 23.846153846153847,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -2.3076923076923075,
+        "pub_profit_margin_pct": 9.359190556492411,
+        "pub_return_on_assets_pct": 7.0486518171160615,
+        "pub_revenue_growth_asinh": 0.15429344099131226,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 7.015384615384614,
+        "pub_log_ipo_price_book": 1.4327007339340463,
+        "log_qib_growth": 0.0295588022415444,
+        "log_hni_growth": 1.1960046346767592,
+        "log_retail_growth": 0.997516171796741,
+        "macro_nifty_5d": -2.6267768924943202,
+        "macro_nifty_20d": -5.665193060519513,
+        "macro_nifty_vol20": 0.639325247954166,
+        "macro_vix": 13.40999984741211,
+        "macro_vix_change5": 21.909089521928273
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-30T15:23:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:49+05:30",
+          "qib": 47.64,
+          "hni": 298.58,
+          "retail": 51.44,
+          "source": "https://www.5paisa.com/blog/srit-india-subscription-status",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "article_also_labels_detailed_table_17_05_conflicting_with_intro",
+            "article_first_published_after_application_cutoff"
+          ],
+          "raw_sha256": "a7bb1403ad3e5551b41d43f666d32141e03621bccd939a7952f9ac77e11b7e0d"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-29",
+          "gmp_asof_ist": "2026-09-29T23:14:00+05:30",
+          "gmp_rs": 31.0,
+          "url": "https://www.iporise.com/ipo/srit-india-ipo/gmp",
+          "raw_sha256": "2bede4a05b7f54f2d867fec03327706383372fae212d9f56bf8daa541409040b",
+          "recovered_at_ist": "2026-10-25T19:00:29.350976+05:30",
+          "conflicting_same_day_values": [
+            31.0,
+            48.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 9.359190556492411,
+          "return_on_assets_pct": 7.0486518171160615,
+          "debt_to_networth": 0.1870440316655456,
+          "revenue_growth_asinh": 0.15429344099131226,
+          "profit_growth_asinh": 0.284537836417721,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 7.015384615384614,
+          "log_ipo_price_book": 1.4327007339340463,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 43.29,
+          "annual_revenue": 462.54,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 9.12,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/srit-india-ipo",
+          "raw_sha256": "b096e067a04fd660bf299d36885a73785ec6ec9136046da6a0c8055a561f7816",
+          "recovered_at_ist": "2026-10-25T19:00:27.140843+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-28",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.0,
+            "hni_subscription": 0.89,
+            "retail_subscription": 1.6,
+            "url": "https://www.ipoji.com/ipo/srit-india-ipo",
+            "raw_sha256": "b096e067a04fd660bf299d36885a73785ec6ec9136046da6a0c8055a561f7816",
+            "recovered_at_ist": "2026-10-25T19:00:27.140843+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-29",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.03,
+            "hni_subscription": 5.25,
+            "retail_subscription": 6.05,
+            "url": "https://www.ipoji.com/ipo/srit-india-ipo",
+            "raw_sha256": "b096e067a04fd660bf299d36885a73785ec6ec9136046da6a0c8055a561f7816",
+            "recovered_at_ist": "2026-10-25T19:00:27.140843+05:30"
+          }
+        ],
+        "market_date": "2026-09-29"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.7894013418408827,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Shah Investor's Home",
+      "cutoff_at_ist": "2026-09-30T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2657",
+        "company_name": "Shah Investor's Home",
+        "listing_date": "2026-10-06",
+        "issue_price": 167.0,
+        "nse_open_price": 171.0,
+        "nse_symbol": "SHAHINVEST",
+        "isin": "INE029N01014",
+        "archive_sha256": "f444e5ba9821fe09ac3bff69f53144369ce536be6481acc78ab00d175ae55b56",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 171.0,
+        "return_pct": 2.39520958083832,
+        "positive": true
+      },
+      "probability": 0.8220672602585298,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-30T14:23:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:50+05:30",
+        "qib": 5.51,
+        "hni": 47.25,
+        "retail": 10.13,
+        "source": "https://www.5paisa.com/blog/shah-investors-home-ipo-subscription-status",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "article_also_labels_detailed_table_17_05_conflicting_with_intro"
+        ],
+        "raw_sha256": "c33e588976a02d9f62245601e4d78acb6b4a7baffe279fe5b10ef50c2b3cf063"
+      },
+      "features": {
+        "log_qib": 1.873339456220478,
+        "log_hni": 3.876395827784995,
+        "log_retail": 2.4096441652874536,
+        "log_offer_cap_price": 5.123963979403259,
+        "log_issue_size": 4.51085950651685,
+        "gmp_pct": 8.982035928143713,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": 1.4970059880239521,
+        "pub_profit_margin_pct": 18.107734806629832,
+        "pub_return_on_assets_pct": 4.306267244777296,
+        "pub_revenue_growth_asinh": -0.23154462154695796,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 4.982035928143713,
+        "pub_log_ipo_price_book": 0.9001613499442714,
+        "log_qib_growth": 0.32690278560506225,
+        "log_hni_growth": 0.7285143243972367,
+        "log_retail_growth": 0.43483971678806865,
+        "macro_nifty_5d": -2.6267768924943202,
+        "macro_nifty_20d": -5.665193060519513,
+        "macro_nifty_vol20": 0.639325247954166,
+        "macro_vix": 13.40999984741211,
+        "macro_vix_change5": 21.909089521928273
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-30T14:23:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:50+05:30",
+          "qib": 5.51,
+          "hni": 47.25,
+          "retail": 10.13,
+          "source": "https://www.5paisa.com/blog/shah-investors-home-ipo-subscription-status",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "article_also_labels_detailed_table_17_05_conflicting_with_intro"
+          ],
+          "raw_sha256": "c33e588976a02d9f62245601e4d78acb6b4a7baffe279fe5b10ef50c2b3cf063"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-29",
+          "gmp_asof_ist": "2026-09-29T23:14:00+05:30",
+          "gmp_rs": 15.0,
+          "url": "https://www.iporise.com/ipo/shah-investors-home-ipo/gmp",
+          "raw_sha256": "45fcc8082803c078e7a87ede4f8d8975193cce700d314d6609993217f12c3e55",
+          "recovered_at_ist": "2026-10-25T19:00:30.987502+05:30",
+          "conflicting_same_day_values": [
+            15.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 18.107734806629832,
+          "return_on_assets_pct": 4.306267244777296,
+          "debt_to_networth": 0.10277669578765788,
+          "revenue_growth_asinh": -0.23154462154695796,
+          "profit_growth_asinh": -0.4271166754483771,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 4.982035928143713,
+          "log_ipo_price_book": 0.9001613499442714,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 13.11,
+          "annual_revenue": 72.4,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 8.32,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/shah-investors-home-ipo",
+          "raw_sha256": "3ae2e49e5ae82bc28133974ca4ec412cb5a91f5bfea412f832773e243bcb76ac",
+          "recovered_at_ist": "2026-10-25T19:00:29.625237+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-28",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.5,
+            "hni_subscription": 0.25,
+            "retail_subscription": 0.23,
+            "url": "https://www.ipoji.com/ipo/shah-investors-home-ipo",
+            "raw_sha256": "3ae2e49e5ae82bc28133974ca4ec412cb5a91f5bfea412f832773e243bcb76ac",
+            "recovered_at_ist": "2026-10-25T19:00:29.625237+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-29",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.08,
+            "hni_subscription": 1.59,
+            "retail_subscription": 0.9,
+            "url": "https://www.ipoji.com/ipo/shah-investors-home-ipo",
+            "raw_sha256": "3ae2e49e5ae82bc28133974ca4ec412cb5a91f5bfea412f832773e243bcb76ac",
+            "recovered_at_ist": "2026-10-25T19:00:29.625237+05:30"
+          }
+        ],
+        "market_date": "2026-09-29"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.6251335145919077,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Acevector",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2543",
+        "company_name": "Acevector",
+        "listing_date": "2026-10-05",
+        "issue_price": 32.0,
+        "nse_open_price": 28.32,
+        "nse_symbol": "ACEVECTOR",
+        "isin": "INE580P01029",
+        "archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 28.32,
+        "return_pct": -11.5,
+        "positive": false
+      },
+      "probability": 0.5550523172314219,
+      "correct": false,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-29T13:57:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:50+05:30",
+        "qib": 1.5,
+        "hni": 3.11,
+        "retail": 2.89,
+        "source": "https://choiceindia.com/news/acevector-ipo-subscription-day-3",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "publisher_publication_and_modification_precede_claimed_bid_time"
+        ],
+        "raw_sha256": "3fc91d37d008be647fe41025d01db33bb9c490cf85ef92692f9d6c3a89d9d83d"
+      },
+      "features": {
+        "log_qib": 0.9162907318741551,
+        "log_hni": 1.413423028508143,
+        "log_retail": 1.358409157630355,
+        "log_offer_cap_price": 3.4965075614664802,
+        "log_issue_size": 6.042632833682381,
+        "gmp_pct": 3.125,
+        "gmp_quote_age_days": 0,
+        "gmp_slope_pp_per_day": 0.0,
+        "pub_profit_margin_pct": -8.464299663362286,
+        "pub_return_on_assets_pct": -7.91093032957864,
+        "pub_revenue_growth_asinh": 0.31649320405376935,
+        "pub_annual_loss": 1.0,
+        "log_qib_growth": 0.7178397931503169,
+        "log_hni_growth": 0.4726044109457929,
+        "log_retail_growth": 0.38711596943996784,
+        "macro_nifty_5d": -2.7079637661345135,
+        "macro_nifty_20d": -5.771924924783489,
+        "macro_nifty_vol20": 0.6397480611087458,
+        "macro_vix": 13.640000343322754,
+        "macro_vix_change5": 21.24444749620227
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-29T13:57:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:50+05:30",
+          "qib": 1.5,
+          "hni": 3.11,
+          "retail": 2.89,
+          "source": "https://choiceindia.com/news/acevector-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "publisher_publication_and_modification_precede_claimed_bid_time"
+          ],
+          "raw_sha256": "3fc91d37d008be647fe41025d01db33bb9c490cf85ef92692f9d6c3a89d9d83d"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-29",
+          "gmp_asof_ist": "2026-09-29T12:45:00+05:30",
+          "gmp_rs": 1.0,
+          "url": "https://www.iposignal.in/ipo/acevector.html",
+          "raw_sha256": "e53dd02eab1739ba1fc8077e5befd40c087842259ab329636385558478da6d1f",
+          "recovered_at_ist": "2026-10-25T19:00:33.939833+05:30",
+          "conflicting_same_day_values": [
+            0.0,
+            1.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": -8.464299663362286,
+          "return_on_assets_pct": -7.91093032957864,
+          "debt_to_networth": null,
+          "revenue_growth_asinh": 0.31649320405376935,
+          "profit_growth_asinh": 0.60256465289757,
+          "annual_loss": 1.0,
+          "ipo_earnings_yield_pct": null,
+          "log_ipo_price_book": null,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": -45.51,
+          "annual_revenue": 537.67,
+          "financial_status": "period_checked_public_ipo_table",
+          "url": "https://www.ipoji.com/ipo/acevector-ipo",
+          "raw_sha256": "27f9f7af3c69fc51df7a3db8ab20680bfd120ec1a70640f3105a0d5d1278d29a",
+          "recovered_at_ist": "2026-10-25T19:00:30.471379+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-25",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.0,
+            "hni_subscription": 0.44,
+            "retail_subscription": 0.65,
+            "url": "https://www.ipoji.com/ipo/acevector-ipo",
+            "raw_sha256": "27f9f7af3c69fc51df7a3db8ab20680bfd120ec1a70640f3105a0d5d1278d29a",
+            "recovered_at_ist": "2026-10-25T19:00:30.471379+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-28",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.05,
+            "hni_subscription": 1.31,
+            "retail_subscription": 1.43,
+            "url": "https://www.ipoji.com/ipo/acevector-ipo",
+            "raw_sha256": "27f9f7af3c69fc51df7a3db8ab20680bfd120ec1a70640f3105a0d5d1278d29a",
+            "recovered_at_ist": "2026-10-25T19:00:30.471379+05:30"
+          }
+        ],
+        "market_date": "2026-09-28"
+      },
+      "missing_features": [
+        "pub_financial_sector",
+        "pub_ipo_earnings_yield_pct",
+        "pub_log_ipo_price_book"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5479158811978981,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": false
+    },
+    {
+      "company_name": "Orient Cables (India)",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2532",
+        "company_name": "Orient Cables (India)",
+        "listing_date": "2026-10-05",
+        "issue_price": 272.0,
+        "nse_open_price": 450.0,
+        "nse_symbol": "ORIENTCABL",
+        "isin": "INE0J1N01028",
+        "archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 450.0,
+        "return_pct": 65.44117647058823,
+        "positive": true
+      },
+      "probability": 0.8660360447082458,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-29T12:00:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:51+05:30",
+        "qib": 0.22,
+        "hni": 37.11,
+        "retail": 15.61,
+        "source": "https://choiceindia.com/news/orient-cables-ipo-subscription-status-day-3",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "11761eadaeb3f353b9dc4be3fdba4f4ba7116154f32a971ce4c78babf99e39bb"
+      },
+      "features": {
+        "log_qib": 0.1988508587451652,
+        "log_hni": 3.640476714885769,
+        "log_retail": 2.8100049236252036,
+        "log_offer_cap_price": 5.60947179518496,
+        "log_issue_size": 6.315358001522335,
+        "gmp_pct": 27.573529411764707,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -5.514705882352941,
+        "pub_profit_margin_pct": 4.532568314334797,
+        "pub_return_on_assets_pct": 9.221921865045886,
+        "pub_revenue_growth_asinh": 0.4090154194520675,
+        "pub_annual_loss": 0.0,
+        "log_qib_growth": 0.04831857727080768,
+        "log_hni_growth": 1.4216076483028686,
+        "log_retail_growth": 1.0986122886681098,
+        "macro_nifty_5d": -2.7079637661345135,
+        "macro_nifty_20d": -5.771924924783489,
+        "macro_nifty_vol20": 0.6397480611087458,
+        "macro_vix": 13.640000343322754,
+        "macro_vix_change5": 21.24444749620227
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-29T12:00:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:51+05:30",
+          "qib": 0.22,
+          "hni": 37.11,
+          "retail": 15.61,
+          "source": "https://choiceindia.com/news/orient-cables-ipo-subscription-status-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "11761eadaeb3f353b9dc4be3fdba4f4ba7116154f32a971ce4c78babf99e39bb"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-28",
+          "gmp_asof_ist": "2026-09-28T21:30:00+05:30",
+          "gmp_rs": 75.0,
+          "url": "https://www.iporise.com/ipo/orient-cables-ipo/gmp",
+          "raw_sha256": "91b3dcadb9deb68492631e03acd38fe10d2240e8fde6242eec756ac35abc16dd",
+          "recovered_at_ist": "2026-10-25T19:00:33.595688+05:30",
+          "conflicting_same_day_values": [
+            75.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 4.532568314334797,
+          "return_on_assets_pct": 9.221921865045886,
+          "debt_to_networth": 0.9930037313432836,
+          "revenue_growth_asinh": 0.4090154194520675,
+          "profit_growth_asinh": 0.004501110082562612,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": null,
+          "log_ipo_price_book": null,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 53.56,
+          "annual_revenue": 1181.67,
+          "financial_status": "period_checked_public_ipo_table",
+          "url": "https://www.ipoji.com/ipo/orient-cables-ipo",
+          "raw_sha256": "114ee9c89e4848e304a27c3319e592ca8613e18360d34d97915e8cd0da0926ea",
+          "recovered_at_ist": "2026-10-25T19:00:30.365799+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-25",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.01,
+            "hni_subscription": 3.66,
+            "retail_subscription": 2.55,
+            "url": "https://www.ipoji.com/ipo/orient-cables-ipo",
+            "raw_sha256": "114ee9c89e4848e304a27c3319e592ca8613e18360d34d97915e8cd0da0926ea",
+            "recovered_at_ist": "2026-10-25T19:00:30.365799+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-28",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.06,
+            "hni_subscription": 18.31,
+            "retail_subscription": 9.65,
+            "url": "https://www.ipoji.com/ipo/orient-cables-ipo",
+            "raw_sha256": "114ee9c89e4848e304a27c3319e592ca8613e18360d34d97915e8cd0da0926ea",
+            "recovered_at_ist": "2026-10-25T19:00:30.365799+05:30"
+          }
+        ],
+        "market_date": "2026-09-28"
+      },
+      "missing_features": [
+        "pub_financial_sector",
+        "pub_ipo_earnings_yield_pct",
+        "pub_log_ipo_price_book"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.8211884547373722,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "German Green Steel & Power",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2497",
+        "company_name": "German Green Steel & Power",
+        "listing_date": "2026-10-05",
+        "issue_price": 139.0,
+        "nse_open_price": 142.0,
+        "nse_symbol": "GERMAN",
+        "isin": "INE0D4501011",
+        "archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 142.0,
+        "return_pct": 2.158273381294973,
+        "positive": true
+      },
+      "probability": 0.8020615819059383,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-29T12:39:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:51+05:30",
+        "qib": 1.35,
+        "hni": 22.35,
+        "retail": 13.37,
+        "source": "https://choiceindia.com/news/german-green-steel-power-ipo-subscription-status-day-3",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "724eaed5777d9f5bbb69e3c9c859679bb39f21d1daa8a44632194d2134afc0ee"
+      },
+      "features": {
+        "log_qib": 0.8544153281560676,
+        "log_hni": 3.150596984114906,
+        "log_retail": 2.6651427000909336,
+        "log_offer_cap_price": 4.941642422609304,
+        "log_issue_size": 5.720311776607412,
+        "gmp_pct": 17.985611510791365,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -1.7985611510791366,
+        "pub_profit_margin_pct": 4.740177289394676,
+        "pub_return_on_assets_pct": 6.547072707008457,
+        "pub_revenue_growth_asinh": 0.11061589215637789,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 10.546762589928058,
+        "log_qib_growth": 0.004175371410480522,
+        "log_hni_growth": 0.9432228350683152,
+        "log_retail_growth": 1.0052538050188011,
+        "macro_nifty_5d": -2.7079637661345135,
+        "macro_nifty_20d": -5.771924924783489,
+        "macro_nifty_vol20": 0.6397480611087458,
+        "macro_vix": 13.640000343322754,
+        "macro_vix_change5": 21.24444749620227
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-29T12:39:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:51+05:30",
+          "qib": 1.35,
+          "hni": 22.35,
+          "retail": 13.37,
+          "source": "https://choiceindia.com/news/german-green-steel-power-ipo-subscription-status-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "724eaed5777d9f5bbb69e3c9c859679bb39f21d1daa8a44632194d2134afc0ee"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-28",
+          "gmp_asof_ist": "2026-09-28T21:30:00+05:30",
+          "gmp_rs": 25.0,
+          "url": "https://www.iporise.com/ipo/german-green-steel-ipo/gmp",
+          "raw_sha256": "355f81728924ef8b600966a236b5216efc28b007558fcd8f3e87f4379066388b",
+          "recovered_at_ist": "2026-10-25T19:00:33.032842+05:30",
+          "conflicting_same_day_values": [
+            25.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 4.740177289394676,
+          "return_on_assets_pct": 6.547072707008457,
+          "debt_to_networth": 0.7931917921954691,
+          "revenue_growth_asinh": 0.11061589215637789,
+          "profit_growth_asinh": 0.32697529813737986,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 10.546762589928058,
+          "log_ipo_price_book": null,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 79.89,
+          "annual_revenue": 1685.38,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 14.66,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/german-green-steel-and-power-ipo",
+          "raw_sha256": "fddd172f3b111517b83c1332dd2799b53beca6b6356ee191da7f31be9c280b7f",
+          "recovered_at_ist": "2026-10-25T19:00:30.421996+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-25",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.39,
+            "hni_subscription": 2.59,
+            "retail_subscription": 1.73,
+            "url": "https://www.ipoji.com/ipo/german-green-steel-and-power-ipo",
+            "raw_sha256": "fddd172f3b111517b83c1332dd2799b53beca6b6356ee191da7f31be9c280b7f",
+            "recovered_at_ist": "2026-10-25T19:00:30.421996+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-28",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.4,
+            "hni_subscription": 8.22,
+            "retail_subscription": 6.46,
+            "url": "https://www.ipoji.com/ipo/german-green-steel-and-power-ipo",
+            "raw_sha256": "fddd172f3b111517b83c1332dd2799b53beca6b6356ee191da7f31be9c280b7f",
+            "recovered_at_ist": "2026-10-25T19:00:30.421996+05:30"
+          }
+        ],
+        "market_date": "2026-09-28"
+      },
+      "missing_features": [
+        "pub_financial_sector",
+        "pub_log_ipo_price_book"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.731449215758124,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Runwal Enterprises",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2298",
+        "company_name": "Runwal Enterprises",
+        "listing_date": "2026-10-05",
+        "issue_price": 305.0,
+        "nse_open_price": 305.0,
+        "nse_symbol": "RUNWALENTR",
+        "isin": "INE804W01029",
+        "archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 305.0,
+        "return_pct": 0.0,
+        "positive": false
+      },
+      "probability": 0.6285020749399108,
+      "correct": false,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-29T14:24:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:52+05:30",
+        "qib": 2.2,
+        "hni": 2.85,
+        "retail": 0.82,
+        "source": "https://choiceindia.com/news/lumino-industries-ipo-subscription-day-3",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "3896776d2a977c70d6e36b858fdc1f94a44133f8aaca039c982363795f18b87b"
+      },
+      "features": {
+        "log_qib": 1.1631508098056809,
+        "log_hni": 1.3480731482996928,
+        "log_retail": 0.598836501088704,
+        "log_offer_cap_price": 5.723585101952381,
+        "log_issue_size": 6.2166061010848646,
+        "gmp_pct": 4.590163934426229,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -0.16393442622950818,
+        "pub_profit_margin_pct": 10.036795098309371,
+        "pub_return_on_assets_pct": 1.8114973913891463,
+        "pub_revenue_growth_asinh": 0.7022947941855023,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 4.636065573770492,
+        "pub_log_ipo_price_book": 1.7867469274045107,
+        "log_qib_growth": 0.04855322541699081,
+        "log_hni_growth": 0.4334924203628203,
+        "log_retail_growth": 0.19068980646447126,
+        "macro_nifty_5d": -2.7079637661345135,
+        "macro_nifty_20d": -5.771924924783489,
+        "macro_nifty_vol20": 0.6397480611087458,
+        "macro_vix": 13.640000343322754,
+        "macro_vix_change5": 21.24444749620227
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-29T14:24:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:52+05:30",
+          "qib": 2.2,
+          "hni": 2.85,
+          "retail": 0.82,
+          "source": "https://choiceindia.com/news/lumino-industries-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "3896776d2a977c70d6e36b858fdc1f94a44133f8aaca039c982363795f18b87b"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-28",
+          "gmp_asof_ist": "2026-09-28T21:30:00+05:30",
+          "gmp_rs": 14.0,
+          "url": "https://www.iporise.com/ipo/runwal-enterprises-ipo/gmp",
+          "raw_sha256": "892de40e307e4ca4a58f5e260c89264e13ea04a5aea89467b2a66c52c6ebf25d",
+          "recovered_at_ist": "2026-10-25T19:00:33.045027+05:30",
+          "conflicting_same_day_values": [
+            2.0,
+            14.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 10.036795098309371,
+          "return_on_assets_pct": 1.8114973913891463,
+          "debt_to_networth": 3.786943504295756,
+          "revenue_growth_asinh": 0.7022947941855023,
+          "profit_growth_asinh": 1.5853278651836493,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 4.636065573770492,
+          "log_ipo_price_book": 1.7867469274045107,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 185.76,
+          "annual_revenue": 1850.79,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 14.14,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/runwal-enterprises-ipo",
+          "raw_sha256": "f6313952846afab7b53e8b71a1b3d7d95adf1a508309eccf9a06c6cd073609ce",
+          "recovered_at_ist": "2026-10-25T19:00:31.606774+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-25",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.01,
+            "hni_subscription": 0.29,
+            "retail_subscription": 0.19,
+            "url": "https://www.ipoji.com/ipo/runwal-enterprises-ipo",
+            "raw_sha256": "f6313952846afab7b53e8b71a1b3d7d95adf1a508309eccf9a06c6cd073609ce",
+            "recovered_at_ist": "2026-10-25T19:00:31.606774+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-28",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.11,
+            "hni_subscription": 0.99,
+            "retail_subscription": 0.44,
+            "url": "https://www.ipoji.com/ipo/runwal-enterprises-ipo",
+            "raw_sha256": "f6313952846afab7b53e8b71a1b3d7d95adf1a508309eccf9a06c6cd073609ce",
+            "recovered_at_ist": "2026-10-25T19:00:31.606774+05:30"
+          }
+        ],
+        "market_date": "2026-09-28"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5676055006896161,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": false
+    },
+    {
+      "company_name": "Moneyview",
+      "cutoff_at_ist": "2026-09-28T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2936",
+        "company_name": "Moneyview",
+        "listing_date": "2026-10-01",
+        "issue_price": 34.0,
+        "nse_open_price": 55.0,
+        "nse_symbol": "MONEYVIEW",
+        "isin": "INE0PTN01011",
+        "archive_sha256": "ccc5fb27872716bbcc99d2d87e522ab304f6620e11c3a5045c30e1ff25cbfb73",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 55.0,
+        "return_pct": 61.76470588235294,
+        "positive": true
+      },
+      "probability": 0.9954731295911493,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-28T15:54:00+05:30",
+        "recovered_at_ist": "2026-10-21T14:54:53+05:30",
+        "qib": 230.54,
+        "hni": 119.8,
+        "retail": 18.97,
+        "source": "https://www.5paisa.com/blog/moneyview-ipo-subscription-status",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "article_also_labels_detailed_table_17_05_conflicting_with_intro"
+        ],
+        "raw_sha256": "65f1163e67276a795de07dc9fa2c82a9e5b49efabd167e649acc8da023b65932"
+      },
+      "features": {
+        "log_qib": 5.444752644777583,
+        "log_hni": 4.794136285500715,
+        "log_retail": 2.994231147427724,
+        "log_offer_cap_price": 3.5553480614894135,
+        "log_issue_size": 6.996681488176539,
+        "gmp_pct": 41.1764705882353,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": 1.4705882352941178,
+        "pub_profit_margin_pct": 7.129575503705641,
+        "pub_return_on_assets_pct": 2.9946266741518968,
+        "pub_revenue_growth_asinh": 0.41889116514768265,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 4.647058823529412,
+        "log_qib_growth": 0.18232155679395465,
+        "log_hni_growth": 1.5766103174152184,
+        "log_retail_growth": 0.8035472411610489,
+        "macro_nifty_5d": -0.8819363464171559,
+        "macro_nifty_20d": -3.9448571751706463,
+        "macro_nifty_vol20": 0.581290059304147,
+        "macro_vix": 12.15999984741211,
+        "macro_vix_change5": 6.760311509040107
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-28T15:54:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:53+05:30",
+          "qib": 230.54,
+          "hni": 119.8,
+          "retail": 18.97,
+          "source": "https://www.5paisa.com/blog/moneyview-ipo-subscription-status",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "article_also_labels_detailed_table_17_05_conflicting_with_intro"
+          ],
+          "raw_sha256": "65f1163e67276a795de07dc9fa2c82a9e5b49efabd167e649acc8da023b65932"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-27",
+          "gmp_asof_ist": "2026-09-27T11:04:00+05:30",
+          "gmp_rs": 14.0,
+          "url": "https://www.iporise.com/ipo/moneyview-ipo/gmp",
+          "raw_sha256": "344fb9337b04424d3dcaaa56076f8e305f3982375ceb9fe3dddec166b9bb1b35",
+          "recovered_at_ist": "2026-10-25T19:00:37.533000+05:30",
+          "conflicting_same_day_values": [
+            13.0,
+            14.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 7.129575503705641,
+          "return_on_assets_pct": 2.9946266741518968,
+          "debt_to_networth": 2.317333357298847,
+          "revenue_growth_asinh": 0.41889116514768265,
+          "profit_growth_asinh": 0.010113028882080053,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 4.647058823529412,
+          "log_ipo_price_book": null,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 242.71,
+          "annual_revenue": 3404.27,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 1.58,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/moneyview-ipo",
+          "raw_sha256": "995985c3fc173e75659100d57e01b77f26d795a724fb877ddff6853ba8fcba18",
+          "recovered_at_ist": "2026-10-25T19:00:34.591591+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-24",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.05,
+            "hni_subscription": 2.53,
+            "retail_subscription": 1.87,
+            "url": "https://www.ipoji.com/ipo/moneyview-ipo",
+            "raw_sha256": "995985c3fc173e75659100d57e01b77f26d795a724fb877ddff6853ba8fcba18",
+            "recovered_at_ist": "2026-10-25T19:00:34.591591+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-25",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.26,
+            "hni_subscription": 16.08,
+            "retail_subscription": 5.41,
+            "url": "https://www.ipoji.com/ipo/moneyview-ipo",
+            "raw_sha256": "995985c3fc173e75659100d57e01b77f26d795a724fb877ddff6853ba8fcba18",
+            "recovered_at_ist": "2026-10-25T19:00:34.591591+05:30"
+          }
+        ],
+        "market_date": "2026-09-25"
+      },
+      "missing_features": [
+        "pub_financial_sector",
+        "pub_log_ipo_price_book"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.9059898816740497,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "A-One Steels India",
+      "cutoff_at_ist": "2026-09-28T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2000",
+        "company_name": "A-One Steels India",
+        "listing_date": "2026-10-01",
+        "issue_price": 405.0,
+        "nse_open_price": 455.0,
+        "nse_symbol": "AONESTEELS",
+        "isin": "INE0OTC01025",
+        "archive_sha256": "ccc5fb27872716bbcc99d2d87e522ab304f6620e11c3a5045c30e1ff25cbfb73",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 455.0,
+        "return_pct": 12.34567901234569,
+        "positive": true
+      },
+      "probability": 0.8361050243229717,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-28T16:55:00+05:30",
+        "observed_on": "2026-09-28",
+        "recovered_at_ist": "2026-10-25T15:31:41.502412+05:30",
+        "qib": 7.3,
+        "hni": 24.38,
+        "retail": 8.18,
+        "source": "https://groww.in/ipo/a-one-steels-ipo",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "0aa2b9547c3179eb8a6c3ba774f21bf5f04ca6161768a1d83fa1231f97ab8574"
+      },
+      "features": {
+        "log_qib": 2.1162555148025524,
+        "log_hni": 3.2339614622862416,
+        "log_retail": 2.217027204632399,
+        "log_offer_cap_price": 6.0063531596017325,
+        "log_issue_size": 6.0063531596017325,
+        "gmp_pct": 6.91358024691358,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -6.91358024691358,
+        "pub_profit_margin_pct": 3.0320914791589817,
+        "pub_return_on_assets_pct": 3.99240437312577,
+        "pub_revenue_growth_asinh": 0.176252851611223,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 4.595061728395062,
+        "log_qib_growth": 0.0,
+        "log_hni_growth": 0.5635543515143512,
+        "log_retail_growth": 0.45749477955402684,
+        "macro_nifty_5d": -0.8819363464171559,
+        "macro_nifty_20d": -3.9448571751706463,
+        "macro_nifty_vol20": 0.581290059304147,
+        "macro_vix": 12.15999984741211,
+        "macro_vix_change5": 6.760311509040107
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-28T16:55:00+05:30",
+          "observed_on": "2026-09-28",
+          "recovered_at_ist": "2026-10-25T15:31:41.502412+05:30",
+          "qib": 7.3,
+          "hni": 24.38,
+          "retail": 8.18,
+          "source": "https://groww.in/ipo/a-one-steels-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "0aa2b9547c3179eb8a6c3ba774f21bf5f04ca6161768a1d83fa1231f97ab8574"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-27",
+          "gmp_rs": 28.0,
+          "url": "https://theipolist.in/ipo-details/a-one-steels-india",
+          "raw_sha256": "7b40ae81f847e45dd1eed60fe80911c36e197c7fd9e3ae346891244a3ac1ac44",
+          "recovered_at_ist": "2026-10-25T19:00:34.051522+05:30",
+          "conflicting_same_day_values": [
+            28.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 3.0320914791589817,
+          "return_on_assets_pct": 3.99240437312577,
+          "debt_to_networth": 1.233575751659508,
+          "revenue_growth_asinh": 0.176252851611223,
+          "profit_growth_asinh": 3.436653190715381,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 4.595061728395062,
+          "log_ipo_price_book": null,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 127.41,
+          "annual_revenue": 4202.05,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 18.61,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/a-one-steels-ipo",
+          "raw_sha256": "97855690958b230e9a62bffa2f73368d5097d36a6e91418208f7980fde34e325",
+          "recovered_at_ist": "2026-10-25T19:00:34.963536+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-24",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.1,
+            "hni_subscription": 0.81,
+            "retail_subscription": 0.81,
+            "url": "https://www.ipoji.com/ipo/a-one-steels-ipo",
+            "raw_sha256": "97855690958b230e9a62bffa2f73368d5097d36a6e91418208f7980fde34e325",
+            "recovered_at_ist": "2026-10-25T19:00:34.963536+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-25",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.1,
+            "hni_subscription": 2.18,
+            "retail_subscription": 1.86,
+            "url": "https://www.ipoji.com/ipo/a-one-steels-ipo",
+            "raw_sha256": "97855690958b230e9a62bffa2f73368d5097d36a6e91418208f7980fde34e325",
+            "recovered_at_ist": "2026-10-25T19:00:34.963536+05:30"
+          }
+        ],
+        "market_date": "2026-09-25"
+      },
+      "missing_features": [
+        "pub_financial_sector",
+        "pub_log_ipo_price_book"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.598372403506903,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Adroit Industries (India)",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_3007",
+        "company_name": "Adroit Industries (India)",
+        "listing_date": "2026-09-30",
+        "issue_price": 134.0,
+        "nse_open_price": 235.0,
+        "nse_symbol": "ADROITIND",
+        "isin": "INE505M01015",
+        "archive_sha256": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 235.0,
+        "return_pct": 75.37313432835822,
+        "positive": true
+      },
+      "probability": 0.9881182570149794,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-25T16:55:00+05:30",
+        "observed_on": "2026-09-25",
+        "recovered_at_ist": "2026-10-25T15:31:41.791436+05:30",
+        "qib": 195.04,
+        "hni": 332.35,
+        "retail": 99.81,
+        "source": "https://groww.in/ipo/adroit-industries-ipo",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "547112ac1776f91e7855750e81c8cd7b445a6422299e6946a6ff2ec7472cf65b"
+      },
+      "features": {
+        "log_qib": 5.278318720041347,
+        "log_hni": 5.809192989064069,
+        "log_retail": 4.61323755706585,
+        "log_offer_cap_price": 4.90527477843843,
+        "log_issue_size": 5.0238805208462765,
+        "gmp_pct": 27.611940298507463,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": 1.492537313432836,
+        "pub_profit_margin_pct": 18.288590604026847,
+        "pub_return_on_assets_pct": 12.296700197424085,
+        "pub_revenue_growth_asinh": 0.04705093453758272,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 5.58955223880597,
+        "pub_log_ipo_price_book": 1.534714366238164,
+        "log_qib_growth": 0.9879467207805902,
+        "log_hni_growth": 1.2237754316221157,
+        "log_retail_growth": 1.0791706070535243,
+        "macro_nifty_5d": -0.8916830828733957,
+        "macro_nifty_20d": -4.728446016771493,
+        "macro_nifty_vol20": 0.5703496705920581,
+        "macro_vix": 12.6899995803833,
+        "macro_vix_change5": 3.2546755066870103
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-25T16:55:00+05:30",
+          "observed_on": "2026-09-25",
+          "recovered_at_ist": "2026-10-25T15:31:41.791436+05:30",
+          "qib": 195.04,
+          "hni": 332.35,
+          "retail": 99.81,
+          "source": "https://groww.in/ipo/adroit-industries-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "547112ac1776f91e7855750e81c8cd7b445a6422299e6946a6ff2ec7472cf65b"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-24",
+          "gmp_asof_ist": "2026-09-24T23:43:00+05:30",
+          "gmp_rs": 37.0,
+          "url": "https://www.iporise.com/ipo/adroit-industries-india-ipo/gmp",
+          "raw_sha256": "50c57f5fa447d174d833119300555624f2b63dd48b73ad6621ffe97074cb75c7",
+          "recovered_at_ist": "2026-10-25T19:00:38.365133+05:30",
+          "conflicting_same_day_values": [
+            37.0,
+            47.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 18.288590604026847,
+          "return_on_assets_pct": 12.296700197424085,
+          "debt_to_networth": 0.40736997589986784,
+          "revenue_growth_asinh": 0.04705093453758272,
+          "profit_growth_asinh": 0.4288502993369509,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 5.58955223880597,
+          "log_ipo_price_book": 1.534714366238164,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 26.16,
+          "annual_revenue": 143.04,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 7.49,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/adroit-industries-ipo",
+          "raw_sha256": "73281d1f20d4a42116d8cf33529fc5af539088b21a5e1876d1943158f68bf5c6",
+          "recovered_at_ist": "2026-10-25T19:00:35.134454+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-23",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.05,
+            "hni_subscription": 7.3,
+            "retail_subscription": 7.31,
+            "url": "https://www.ipoji.com/ipo/adroit-industries-ipo",
+            "raw_sha256": "73281d1f20d4a42116d8cf33529fc5af539088b21a5e1876d1943158f68bf5c6",
+            "recovered_at_ist": "2026-10-25T19:00:35.134454+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-24",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.82,
+            "hni_subscription": 27.22,
+            "retail_subscription": 23.45,
+            "url": "https://www.ipoji.com/ipo/adroit-industries-ipo",
+            "raw_sha256": "73281d1f20d4a42116d8cf33529fc5af539088b21a5e1876d1943158f68bf5c6",
+            "recovered_at_ist": "2026-10-25T19:00:35.134454+05:30"
+          }
+        ],
+        "market_date": "2026-09-24"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.8214955736382182,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Elevate Campuses",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2647",
+        "company_name": "Elevate Campuses",
+        "listing_date": "2026-09-30",
+        "issue_price": 362.0,
+        "nse_open_price": 355.1,
+        "nse_symbol": "ELEVATE",
+        "isin": "INE147X01013",
+        "archive_sha256": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 355.1,
+        "return_pct": -1.906077348066293,
+        "positive": false
+      },
+      "probability": 0.5975634891712681,
+      "correct": false,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-25T16:55:00+05:30",
+        "observed_on": "2026-09-25",
+        "recovered_at_ist": "2026-10-25T15:31:42.852075+05:30",
+        "qib": 2.52,
+        "hni": 0.81,
+        "retail": 0.69,
+        "source": "https://groww.in/ipo/elevate-campuses-ipo",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "cad74a76ce8fc6f438a20726028f978f48be700d6d417af3383d0e29a77f7711"
+      },
+      "features": {
+        "log_qib": 1.2584609896100056,
+        "log_hni": 0.5933268452777344,
+        "log_retail": 0.5247285289349821,
+        "log_offer_cap_price": 5.8944028342648505,
+        "log_issue_size": 7.650168700845001,
+        "gmp_pct": 0.6906077348066298,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -0.13812154696132597,
+        "pub_profit_margin_pct": 28.79729528165863,
+        "pub_return_on_assets_pct": 3.009691080568474,
+        "pub_revenue_growth_asinh": 0.5087141947471817,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 4.342541436464089,
+        "pub_log_ipo_price_book": 0.76080582903376,
+        "log_qib_growth": 0.0,
+        "log_hni_growth": 0.022472855852058604,
+        "log_retail_growth": 0.09211528890780568,
+        "macro_nifty_5d": -0.8916830828733957,
+        "macro_nifty_20d": -4.728446016771493,
+        "macro_nifty_vol20": 0.5703496705920581,
+        "macro_vix": 12.6899995803833,
+        "macro_vix_change5": 3.2546755066870103
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-25T16:55:00+05:30",
+          "observed_on": "2026-09-25",
+          "recovered_at_ist": "2026-10-25T15:31:42.852075+05:30",
+          "qib": 2.52,
+          "hni": 0.81,
+          "retail": 0.69,
+          "source": "https://groww.in/ipo/elevate-campuses-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "cad74a76ce8fc6f438a20726028f978f48be700d6d417af3383d0e29a77f7711"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-24",
+          "gmp_asof_ist": "2026-09-24T23:44:00+05:30",
+          "gmp_rs": 2.5,
+          "url": "https://www.iporise.com/ipo/elevate-campuses-ipo/gmp",
+          "raw_sha256": "b8bc619e588d59430e6119f617a72b2289a7d679b7fed1f0407e498565fc47d6",
+          "recovered_at_ist": "2026-10-25T19:00:38.563033+05:30",
+          "conflicting_same_day_values": [
+            2.5,
+            4.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 28.79729528165863,
+          "return_on_assets_pct": 3.009691080568474,
+          "debt_to_networth": 4.308870740047475,
+          "revenue_growth_asinh": 0.5087141947471817,
+          "profit_growth_asinh": 1.6447643326840775,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 4.342541436464089,
+          "log_ipo_price_book": 0.76080582903376,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 173.76,
+          "annual_revenue": 603.39,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 15.72,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/elevate-campuses-ipo",
+          "raw_sha256": "d6414456f5470eb3c031745d9774f2ff023be850b58c3f24e83769fd368654e8",
+          "recovered_at_ist": "2026-10-25T19:00:35.977859+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-23",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.19,
+            "hni_subscription": 0.32,
+            "retail_subscription": 0.14,
+            "url": "https://www.ipoji.com/ipo/elevate-campuses-ipo",
+            "raw_sha256": "d6414456f5470eb3c031745d9774f2ff023be850b58c3f24e83769fd368654e8",
+            "recovered_at_ist": "2026-10-25T19:00:35.977859+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-24",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.19,
+            "hni_subscription": 0.35,
+            "retail_subscription": 0.25,
+            "url": "https://www.ipoji.com/ipo/elevate-campuses-ipo",
+            "raw_sha256": "d6414456f5470eb3c031745d9774f2ff023be850b58c3f24e83769fd368654e8",
+            "recovered_at_ist": "2026-10-25T19:00:35.977859+05:30"
+          }
+        ],
+        "market_date": "2026-09-24"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5148972961456071,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": false
+    },
+    {
+      "company_name": "Swastika Infra",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2287",
+        "company_name": "Swastika Infra",
+        "listing_date": "2026-09-30",
+        "issue_price": 185.0,
+        "nse_open_price": 200.0,
+        "nse_symbol": "SWASTIKAIN",
+        "isin": "INE1QJA01015",
+        "archive_sha256": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 200.0,
+        "return_pct": 8.108108108108114,
+        "positive": true
+      },
+      "probability": 0.7051411393158478,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-25T16:55:00+05:30",
+        "observed_on": "2026-09-25",
+        "recovered_at_ist": "2026-10-25T15:31:44.022329+05:30",
+        "qib": 3.22,
+        "hni": 18.43,
+        "retail": 5.08,
+        "source": "https://groww.in/ipo/swastika-infra-ipo",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "52c4b9ed3408ea3a693479676e7eb0167581cd7140ca9392093435323f4a522f"
+      },
+      "features": {
+        "log_qib": 1.4398351280479207,
+        "log_hni": 2.9668182633893485,
+        "log_retail": 1.8050046959780757,
+        "log_offer_cap_price": 5.225746673713202,
+        "log_issue_size": 5.087596335232384,
+        "gmp_pct": 4.864864864864865,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -0.2702702702702703,
+        "pub_profit_margin_pct": 8.194710920347331,
+        "pub_return_on_assets_pct": 10.049970890743257,
+        "pub_revenue_growth_asinh": 0.4212635653397784,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 8.486486486486486,
+        "pub_log_ipo_price_book": 1.43746264769429,
+        "log_qib_growth": 0.16660414089854492,
+        "log_hni_growth": 0.21575848921674878,
+        "log_retail_growth": 0.418710334858185,
+        "macro_nifty_5d": -0.8916830828733957,
+        "macro_nifty_20d": -4.728446016771493,
+        "macro_nifty_vol20": 0.5703496705920581,
+        "macro_vix": 12.6899995803833,
+        "macro_vix_change5": 3.2546755066870103
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-25T16:55:00+05:30",
+          "observed_on": "2026-09-25",
+          "recovered_at_ist": "2026-10-25T15:31:44.022329+05:30",
+          "qib": 3.22,
+          "hni": 18.43,
+          "retail": 5.08,
+          "source": "https://groww.in/ipo/swastika-infra-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "52c4b9ed3408ea3a693479676e7eb0167581cd7140ca9392093435323f4a522f"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-24",
+          "gmp_asof_ist": "2026-09-24T23:43:00+05:30",
+          "gmp_rs": 9.0,
+          "url": "https://www.iporise.com/ipo/swastika-infra-ipo/gmp",
+          "raw_sha256": "2b1600dd82c2562946dad85fc174bcb8a935fa724e0314582fcec3eb5a85406d",
+          "recovered_at_ist": "2026-10-25T19:00:41.216145+05:30",
+          "conflicting_same_day_values": [
+            5.0,
+            9.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 8.194710920347331,
+          "return_on_assets_pct": 10.049970890743257,
+          "debt_to_networth": 0.7312157162903432,
+          "revenue_growth_asinh": 0.4212635653397784,
+          "profit_growth_asinh": 0.4895052365475366,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 8.486486486486486,
+          "log_ipo_price_book": 1.43746264769429,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 41.43,
+          "annual_revenue": 505.57,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 15.7,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/swastika-infra-ipo",
+          "raw_sha256": "925915035994ef2ca2ed72c5b76bd6d36a285cabfe509c54ef3882aa439b20e3",
+          "recovered_at_ist": "2026-10-25T19:00:39.100819+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-23",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.71,
+            "hni_subscription": 1.99,
+            "retail_subscription": 0.75,
+            "url": "https://www.ipoji.com/ipo/swastika-infra-ipo",
+            "raw_sha256": "925915035994ef2ca2ed72c5b76bd6d36a285cabfe509c54ef3882aa439b20e3",
+            "recovered_at_ist": "2026-10-25T19:00:39.100819+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-24",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.02,
+            "hni_subscription": 2.71,
+            "retail_subscription": 1.66,
+            "url": "https://www.ipoji.com/ipo/swastika-infra-ipo",
+            "raw_sha256": "925915035994ef2ca2ed72c5b76bd6d36a285cabfe509c54ef3882aa439b20e3",
+            "recovered_at_ist": "2026-10-25T19:00:39.100819+05:30"
+          }
+        ],
+        "market_date": "2026-09-24"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5712753257612861,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "ArMee Infotech",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2140",
+        "company_name": "ArMee Infotech",
+        "listing_date": "2026-09-30",
+        "issue_price": 375.0,
+        "nse_open_price": 375.0,
+        "nse_symbol": "ARMEE",
+        "isin": "INE0TWE01016",
+        "archive_sha256": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 375.0,
+        "return_pct": 0.0,
+        "positive": false
+      },
+      "probability": 0.5929306475642656,
+      "correct": false,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-25T16:55:00+05:30",
+        "observed_on": "2026-09-25",
+        "recovered_at_ist": "2026-10-25T15:31:45.189834+05:30",
+        "qib": 2.99,
+        "hni": 2.09,
+        "retail": 2.42,
+        "source": "https://groww.in/ipo/armee-infotech-ipo",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "62fbe05e268d009b27bf704b8f96775965d7948425156573a5798b7df73dbe5f"
+      },
+      "features": {
+        "log_qib": 1.3837912309017721,
+        "log_hni": 1.128171090909654,
+        "log_retail": 1.2296405510745139,
+        "log_offer_cap_price": 5.929589143389895,
+        "log_issue_size": 5.707110264748875,
+        "gmp_pct": 5.333333333333333,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -9.6,
+        "pub_profit_margin_pct": 3.224616868426838,
+        "pub_return_on_assets_pct": 4.742040109712474,
+        "pub_revenue_growth_asinh": 0.07161488525610106,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 5.109333333333334,
+        "pub_log_ipo_price_book": 1.7715567619105355,
+        "log_qib_growth": 0.004987541511039084,
+        "log_hni_growth": 0.30686313130362475,
+        "log_retail_growth": 0.4643056081310978,
+        "macro_nifty_5d": -0.8916830828733957,
+        "macro_nifty_20d": -4.728446016771493,
+        "macro_nifty_vol20": 0.5703496705920581,
+        "macro_vix": 12.6899995803833,
+        "macro_vix_change5": 3.2546755066870103
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-25T16:55:00+05:30",
+          "observed_on": "2026-09-25",
+          "recovered_at_ist": "2026-10-25T15:31:45.189834+05:30",
+          "qib": 2.99,
+          "hni": 2.09,
+          "retail": 2.42,
+          "source": "https://groww.in/ipo/armee-infotech-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "62fbe05e268d009b27bf704b8f96775965d7948425156573a5798b7df73dbe5f"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-24",
+          "gmp_asof_ist": "2026-09-24T23:44:00+05:30",
+          "gmp_rs": 20.0,
+          "url": "https://www.iporise.com/ipo/armee-infotech-ipo/gmp",
+          "raw_sha256": "78d29ff3a6ca9d920e3fee6404aca444f7c563681d08364e66278844b03e423b",
+          "recovered_at_ist": "2026-10-25T19:00:41.828573+05:30",
+          "conflicting_same_day_values": [
+            8.0,
+            20.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 3.224616868426838,
+          "return_on_assets_pct": 4.742040109712474,
+          "debt_to_networth": 0.9570754199143704,
+          "revenue_growth_asinh": 0.07161488525610106,
+          "profit_growth_asinh": 0.09106678050524407,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 5.109333333333334,
+          "log_ipo_price_book": 1.7715567619105355,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 45.47,
+          "annual_revenue": 1410.09,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 19.16,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/armee-infotech-ipo",
+          "raw_sha256": "8eb6f474a7890cfdb38c74bf6149483a1e0d3b58072a66222c4a4570b954b786",
+          "recovered_at_ist": "2026-10-25T19:00:39.663971+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-23",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.0,
+            "hni_subscription": 0.42,
+            "retail_subscription": 0.54,
+            "url": "https://www.ipoji.com/ipo/armee-infotech-ipo",
+            "raw_sha256": "8eb6f474a7890cfdb38c74bf6149483a1e0d3b58072a66222c4a4570b954b786",
+            "recovered_at_ist": "2026-10-25T19:00:39.663971+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-24",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.01,
+            "hni_subscription": 0.93,
+            "retail_subscription": 1.45,
+            "url": "https://www.ipoji.com/ipo/armee-infotech-ipo",
+            "raw_sha256": "8eb6f474a7890cfdb38c74bf6149483a1e0d3b58072a66222c4a4570b954b786",
+            "recovered_at_ist": "2026-10-25T19:00:39.663971+05:30"
+          }
+        ],
+        "market_date": "2026-09-24"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5775155064914436,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": false
+    },
+    {
+      "company_name": "Varmora Granito",
+      "cutoff_at_ist": "2026-09-24T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2563",
+        "company_name": "Varmora Granito",
+        "listing_date": "2026-09-29",
+        "issue_price": 148.0,
+        "nse_open_price": 155.0,
+        "nse_symbol": "VARMORA",
+        "isin": "INE0M5301040",
+        "archive_sha256": "a30fa5330e5434937fa583473b3ee89d7678bce9209177fa29805c66c33369a7",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 155.0,
+        "return_pct": 4.729729729729737,
+        "positive": true
+      },
+      "probability": 0.5194408995255759,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-24T16:57:00+05:30",
+        "observed_on": "2026-09-24",
+        "recovered_at_ist": "2026-10-25T15:31:46.807374+05:30",
+        "qib": 3.1,
+        "hni": 0.93,
+        "retail": 0.99,
+        "source": "https://www.iporise.com/ipo/varmora-granito-ipo/subscription",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "d8e10a8cfae1bb406bd203a1fee6a6fea7f88d3a774e6ef14eacbd99658acbeb"
+      },
+      "features": {
+        "log_qib": 1.410986973710262,
+        "log_hni": 0.6575200029167941,
+        "log_retail": 0.688134638736401,
+        "log_offer_cap_price": 5.003946305945459,
+        "log_issue_size": 6.5638555265321274,
+        "gmp_pct": 0.0,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -2.027027027027027,
+        "pub_profit_margin_pct": 3.525692306707711,
+        "pub_return_on_assets_pct": 3.64865849377761,
+        "pub_revenue_growth_asinh": 0.04677796477674416,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 1.8243243243243243,
+        "pub_log_ipo_price_book": 1.556037135706985,
+        "log_qib_growth": 0.10436001532424277,
+        "log_hni_growth": 0.11672427430814139,
+        "log_retail_growth": 0.16126814759612226,
+        "macro_nifty_5d": 0.9871872016539163,
+        "macro_nifty_20d": -3.648105148848768,
+        "macro_nifty_vol20": 0.4728472106920655,
+        "macro_vix": 10.350000381469728,
+        "macro_vix_change5": -21.412298242125505
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-24T16:57:00+05:30",
+          "observed_on": "2026-09-24",
+          "recovered_at_ist": "2026-10-25T15:31:46.807374+05:30",
+          "qib": 3.1,
+          "hni": 0.93,
+          "retail": 0.99,
+          "source": "https://www.iporise.com/ipo/varmora-granito-ipo/subscription",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "d8e10a8cfae1bb406bd203a1fee6a6fea7f88d3a774e6ef14eacbd99658acbeb"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-23",
+          "gmp_asof_ist": "2026-09-23T16:58:00+05:30",
+          "gmp_rs": 0.0,
+          "url": "https://www.iporise.com/ipo/varmora-granito-ipo/gmp",
+          "raw_sha256": "90bbf4fb55fdf967b06ea639bd9582ea76d1f6e671fe161955a25b3a8012633b",
+          "recovered_at_ist": "2026-10-25T19:00:42.557221+05:30",
+          "conflicting_same_day_values": [
+            0.0,
+            1.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 3.525692306707711,
+          "return_on_assets_pct": 3.64865849377761,
+          "debt_to_networth": 0.4491893384198374,
+          "revenue_growth_asinh": 0.04677796477674416,
+          "profit_growth_asinh": 0.7251388493572686,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 1.8243243243243243,
+          "log_ipo_price_book": 1.556037135706985,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 55.09,
+          "annual_revenue": 1562.53,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 2.7,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/varmora-granito-ipo",
+          "raw_sha256": "5d6365ce33f9fb9b0a73aacea6a10ccdc4fa1256cd1804e6110972f05227bc17",
+          "recovered_at_ist": "2026-10-25T19:00:40.432839+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-22",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.0,
+            "hni_subscription": 0.05,
+            "retail_subscription": 0.2,
+            "url": "https://www.ipoji.com/ipo/varmora-granito-ipo",
+            "raw_sha256": "5d6365ce33f9fb9b0a73aacea6a10ccdc4fa1256cd1804e6110972f05227bc17",
+            "recovered_at_ist": "2026-10-25T19:00:40.432839+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-23",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.11,
+            "hni_subscription": 0.18,
+            "retail_subscription": 0.41,
+            "url": "https://www.ipoji.com/ipo/varmora-granito-ipo",
+            "raw_sha256": "5d6365ce33f9fb9b0a73aacea6a10ccdc4fa1256cd1804e6110972f05227bc17",
+            "recovered_at_ist": "2026-10-25T19:00:40.432839+05:30"
+          }
+        ],
+        "market_date": "2026-09-23"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5054939195595616,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": false,
+      "gmp_simple_correct": false
+    },
+    {
+      "company_name": "National Stock Exchange of India",
+      "cutoff_at_ist": "2026-09-21T17:00:00+05:30",
+      "outcome": null,
+      "probability": 0.8014122996848975,
+      "correct": null,
+      "status": "opening_unverified",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-21T16:43:00+05:30",
+        "observed_on": "2026-09-21",
+        "recovered_at_ist": "2026-10-25T15:31:50.922283+05:30",
+        "qib": 4.95,
+        "hni": 1.54,
+        "retail": 0.33,
+        "source": "https://ipometrics.in/ipo/national-stock-exchange-of-india/subscription",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "60f7c255f8a40644369e032257c97b9c08d86babd3b4972dd03ff0208960aff2"
+      },
+      "features": {
+        "log_qib": 1.7833912195575383,
+        "log_hni": 0.9321640810304452,
+        "log_retail": 0.2851789422336624,
+        "log_offer_cap_price": 7.487733761436444,
+        "log_issue_size": 10.024110994859866,
+        "gmp_pct": 2.689075630252101,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -0.7282913165266106,
+        "log_qib_growth": -0.3799318061029995,
+        "log_hni_growth": -0.8529064000468132,
+        "log_retail_growth": -0.3723410606831317,
+        "macro_nifty_5d": -0.5596792981135579,
+        "macro_nifty_20d": -3.6540719467301086,
+        "macro_nifty_vol20": 0.4603161115314556,
+        "macro_vix": 11.390000343322754,
+        "macro_vix_change5": -3.474574921905793
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-21T16:43:00+05:30",
+          "observed_on": "2026-09-21",
+          "recovered_at_ist": "2026-10-25T15:31:50.922283+05:30",
+          "qib": 4.95,
+          "hni": 1.54,
+          "retail": 0.33,
+          "source": "https://ipometrics.in/ipo/national-stock-exchange-of-india/subscription",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "60f7c255f8a40644369e032257c97b9c08d86babd3b4972dd03ff0208960aff2"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-20",
+          "gmp_asof_ist": "2026-09-20T23:37:00+05:30",
+          "gmp_rs": 48.0,
+          "url": "https://ipobarta.ai/ipo/nse-ipo/gmp",
+          "raw_sha256": "99533168c98891220e092f5841a57e00133477d0a7c57037ca34aae37e84fafe",
+          "recovered_at_ist": "2026-10-25T19:00:53.941557+05:30",
+          "conflicting_same_day_values": [
+            48.0
+          ]
+        },
+        "growth_start": {
+          "observed_at_ist": "2026-09-21T15:43:00+05:30",
+          "observed_on": "2026-09-21",
+          "recovered_at_ist": "2026-10-25T15:31:50.946947+05:30",
+          "qib": 7.7,
+          "hni": 4.96,
+          "retail": 0.93,
+          "source": "https://ipometrics.in/ipo/national-stock-exchange-of-india/subscription",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "60f7c255f8a40644369e032257c97b9c08d86babd3b4972dd03ff0208960aff2"
+        },
+        "market_date": "2026-09-18"
+      },
+      "missing_features": [
+        "pub_annual_loss",
+        "pub_financial_sector",
+        "pub_ipo_earnings_yield_pct",
+        "pub_log_ipo_price_book",
+        "pub_profit_margin_pct",
+        "pub_return_on_assets_pct",
+        "pub_revenue_growth_asinh"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5420257598200829,
+      "gmp_correct": null,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": null
+    },
+    {
+      "company_name": "Sonaselection India",
+      "cutoff_at_ist": "2026-09-21T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2805",
+        "company_name": "Sonaselection India",
+        "listing_date": "2026-09-24",
+        "issue_price": 99.0,
+        "nse_open_price": 102.31,
+        "nse_symbol": "SONA",
+        "isin": "INE0LLZ01011",
+        "archive_sha256": "f6e4d459c5f13bdc123784318522abbae1fbf9a3b5358d333f09984cca94c444",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 102.31,
+        "return_pct": 3.343434343434337,
+        "positive": true
+      },
+      "probability": 0.4002542248553419,
+      "correct": false,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": false,
+      "bid": {
+        "observed_at_ist": "2026-09-21T16:55:00+05:30",
+        "observed_on": "2026-09-21",
+        "recovered_at_ist": "2026-10-25T15:31:51.397647+05:30",
+        "qib": 1.16,
+        "hni": 1.99,
+        "retail": 2.47,
+        "source": "https://groww.in/ipo/sonaselection-india-ipo",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "a255938d7fe3fda2f78731df926f434e4a6239a0c2ae36fd7e6a91741233e10b"
+      },
+      "features": {
+        "log_qib": 0.7701082216960736,
+        "log_hni": 1.095273387402595,
+        "log_retail": 1.244154593958768,
+        "log_offer_cap_price": 4.605170185988092,
+        "log_issue_size": 4.962844630259907,
+        "gmp_pct": 0.0,
+        "gmp_quote_age_days": 0,
+        "gmp_slope_pp_per_day": -2.0202020202020203,
+        "pub_profit_margin_pct": 6.572642967542505,
+        "pub_return_on_assets_pct": 7.162256047495737,
+        "pub_revenue_growth_asinh": 0.5990621500671625,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 8.080808080808081,
+        "pub_log_ipo_price_book": 1.6094379124341003,
+        "log_qib_growth": 0.27407642039600233,
+        "log_hni_growth": 0.2548922496287901,
+        "log_retail_growth": 0.25757227098041047,
+        "macro_nifty_5d": -0.5596792981135579,
+        "macro_nifty_20d": -3.6540719467301086,
+        "macro_nifty_vol20": 0.4603161115314556,
+        "macro_vix": 11.390000343322754,
+        "macro_vix_change5": -3.474574921905793
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-21T16:55:00+05:30",
+          "observed_on": "2026-09-21",
+          "recovered_at_ist": "2026-10-25T15:31:51.397647+05:30",
+          "qib": 1.16,
+          "hni": 1.99,
+          "retail": 2.47,
+          "source": "https://groww.in/ipo/sonaselection-india-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "a255938d7fe3fda2f78731df926f434e4a6239a0c2ae36fd7e6a91741233e10b"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-21",
+          "gmp_asof_ist": "2026-09-21T09:15:00+05:30",
+          "gmp_rs": 0.0,
+          "url": "https://www.ipoji.com/ipo/sonaselection-india-ipo",
+          "raw_sha256": "b21c1a6b75035d5d0f3b492ed5126c06270f014156367c52453fc6238b347b2c",
+          "recovered_at_ist": "2026-10-25T19:00:43.091447+05:30",
+          "conflicting_same_day_values": [
+            0.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 6.572642967542505,
+          "return_on_assets_pct": 7.162256047495737,
+          "debt_to_networth": 2.47926267281106,
+          "revenue_growth_asinh": 0.5990621500671625,
+          "profit_growth_asinh": 0.7582101712683424,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 8.080808080808081,
+          "log_ipo_price_book": 1.6094379124341003,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 34.02,
+          "annual_revenue": 517.6,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 8.0,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/sonaselection-india-ipo",
+          "raw_sha256": "b21c1a6b75035d5d0f3b492ed5126c06270f014156367c52453fc6238b347b2c",
+          "recovered_at_ist": "2026-10-25T19:00:43.091447+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-17",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.11,
+            "hni_subscription": 0.24,
+            "retail_subscription": 0.77,
+            "url": "https://www.ipoji.com/ipo/sonaselection-india-ipo",
+            "raw_sha256": "b21c1a6b75035d5d0f3b492ed5126c06270f014156367c52453fc6238b347b2c",
+            "recovered_at_ist": "2026-10-25T19:00:43.091447+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-18",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.46,
+            "hni_subscription": 0.6,
+            "retail_subscription": 1.29,
+            "url": "https://www.ipoji.com/ipo/sonaselection-india-ipo",
+            "raw_sha256": "b21c1a6b75035d5d0f3b492ed5126c06270f014156367c52453fc6238b347b2c",
+            "recovered_at_ist": "2026-10-25T19:00:43.091447+05:30"
+          }
+        ],
+        "market_date": "2026-09-18"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5054939195595616,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": false,
+      "gmp_simple_correct": false
+    },
+    {
+      "company_name": "SS Retail",
+      "cutoff_at_ist": "2026-09-18T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2822",
+        "company_name": "SS Retail",
+        "listing_date": "2026-09-23",
+        "issue_price": 424.0,
+        "nse_open_price": 624.0,
+        "nse_symbol": "SSRETAIL",
+        "isin": "INE1EQW01028",
+        "archive_sha256": "364b21265ccf12193f8a304f6f4e68b3cae6e61013fb12a798063229d2753d0a",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 624.0,
+        "return_pct": 47.169811320754704,
+        "positive": true
+      },
+      "probability": 0.9899505128397244,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-09-18T16:55:00+05:30",
+        "observed_on": "2026-09-18",
+        "recovered_at_ist": "2026-10-25T15:31:54.978378+05:30",
+        "qib": 203.61,
+        "hni": 143.23,
+        "retail": 35.81,
+        "source": "https://groww.in/ipo/ss-retail-ipo",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [
+          "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+        ],
+        "raw_sha256": "bddf852bc4f15aaa239fd6c6627ad5bea8604a21b5cc340d15cd4dc12eb69c84"
+      },
+      "features": {
+        "log_qib": 5.321105728178468,
+        "log_hni": 4.971409247595418,
+        "log_retail": 3.60576954739093,
+        "log_offer_cap_price": 6.052089168924417,
+        "log_issue_size": 6.2166061010848646,
+        "gmp_pct": 31.132075471698112,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": 6.367924528301887,
+        "pub_profit_margin_pct": 2.5194976305331833,
+        "pub_return_on_assets_pct": 10.302040248861701,
+        "pub_revenue_growth_asinh": 0.454733369013007,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 2.1226415094339623,
+        "pub_log_ipo_price_book": 2.5915163848462583,
+        "log_qib_growth": 0.024491020008295755,
+        "log_hni_growth": 1.4768912564721175,
+        "log_retail_growth": 0.991688749358367,
+        "macro_nifty_5d": -0.6866841244691946,
+        "macro_nifty_20d": -3.3544774575785863,
+        "macro_nifty_vol20": 0.4832466736133114,
+        "macro_vix": 12.289999961853027,
+        "macro_vix_change5": 3.10402586569547
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-09-18T16:55:00+05:30",
+          "observed_on": "2026-09-18",
+          "recovered_at_ist": "2026-10-25T15:31:54.978378+05:30",
+          "qib": 203.61,
+          "hni": 143.23,
+          "retail": 35.81,
+          "source": "https://groww.in/ipo/ss-retail-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Recovered historical page; publisher-reported bid time, not an immutable capture made by this application"
+          ],
+          "raw_sha256": "bddf852bc4f15aaa239fd6c6627ad5bea8604a21b5cc340d15cd4dc12eb69c84"
+        },
+        "gmp": {
+          "gmp_date": "2026-09-17",
+          "gmp_asof_ist": "2026-09-17T20:14:00+05:30",
+          "gmp_rs": 132.0,
+          "url": "https://www.iporise.com/ipo/ss-retail-ipo/gmp",
+          "raw_sha256": "8f3af74946d8a6a71f712e442522c98330204013be5124a761cded2ed2e12d93",
+          "recovered_at_ist": "2026-10-25T19:00:45.423410+05:30",
+          "conflicting_same_day_values": [
+            132.0,
+            145.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 2.5194976305331833,
+          "return_on_assets_pct": 10.302040248861701,
+          "debt_to_networth": 0.7203491205529219,
+          "revenue_growth_asinh": 0.454733369013007,
+          "profit_growth_asinh": 0.46973864151685035,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 2.1226415094339623,
+          "log_ipo_price_book": 2.5915163848462583,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 59.28,
+          "annual_revenue": 2352.85,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 9.0,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/ss-retail-ipo",
+          "raw_sha256": "d39805398a6b0f45c0b28ba1b6d0944e595a1cec614e1ad4fffde8709ab64706",
+          "recovered_at_ist": "2026-10-25T19:00:43.686224+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-09-16",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.21,
+            "hni_subscription": 1.61,
+            "retail_subscription": 2.32,
+            "url": "https://www.ipoji.com/ipo/ss-retail-ipo",
+            "raw_sha256": "d39805398a6b0f45c0b28ba1b6d0944e595a1cec614e1ad4fffde8709ab64706",
+            "recovered_at_ist": "2026-10-25T19:00:43.686224+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-09-17",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.24,
+            "hni_subscription": 10.43,
+            "retail_subscription": 7.95,
+            "url": "https://www.ipoji.com/ipo/ss-retail-ipo",
+            "raw_sha256": "d39805398a6b0f45c0b28ba1b6d0944e595a1cec614e1ad4fffde8709ab64706",
+            "recovered_at_ist": "2026-10-25T19:00:43.686224+05:30"
+          }
+        ],
+        "market_date": "2026-09-17"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.8479123753829327,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Tonbo Imaging India",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_3215",
+        "company_name": "Tonbo Imaging India",
+        "listing_date": "2026-10-23",
+        "issue_price": 700.0,
+        "nse_open_price": 1160.0,
+        "nse_symbol": "TONBO",
+        "isin": "INE0LDG01026",
+        "archive_sha256": "009b57f15cb36e14fa956b2e585b69b23f279eb8532c2c63c0adf0aa2ed77689",
+        "recorded_at_ist": "2026-10-23T19:11:41+05:30",
+        "actual_open": 1160.0,
+        "return_pct": 65.71428571428572,
+        "positive": true
+      },
+      "probability": 0.9988410825118672,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-10-19T16:43:00+05:30",
+        "recovered_at_ist": "2026-10-21T00:13:08+05:30",
+        "qib": 293.56,
+        "hni": 170.83,
+        "retail": 30.68,
+        "source": "https://theipolist.in/ipo-details/tonbo-imaging-india",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "83def1c2f5df126d2f65658e9e1cbc68a5ae6ac4079428dfd99a3d5d8f6f3dba"
+      },
+      "features": {
+        "log_qib": 5.685482717484768,
+        "log_hni": 5.146505615958654,
+        "log_retail": 3.455685566946225,
+        "log_offer_cap_price": 6.55250788703459,
+        "log_issue_size": 6.748759547491679,
+        "gmp_pct": 73.57142857142857,
+        "gmp_quote_age_days": 0,
+        "gmp_slope_pp_per_day": 1.4285714285714286,
+        "pub_profit_margin_pct": 13.753581661891118,
+        "pub_return_on_assets_pct": 6.5022364217252395,
+        "pub_revenue_growth_asinh": -0.21843624990564692,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 1.2685714285714287,
+        "pub_log_ipo_price_book": 2.1102132003465894,
+        "log_qib_growth": 0.006079046076382211,
+        "log_hni_growth": 0.7909359996868777,
+        "log_retail_growth": 0.6580982758654292,
+        "macro_nifty_5d": 2.7783689650118237,
+        "macro_nifty_20d": -0.5347916290900478,
+        "macro_nifty_vol20": 1.0128377600878924,
+        "macro_vix": 14.0600004196167,
+        "macro_vix_change5": -2.2253107946978656
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-10-19T16:43:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:08+05:30",
+          "qib": 293.56,
+          "hni": 170.83,
+          "retail": 30.68,
+          "source": "https://theipolist.in/ipo-details/tonbo-imaging-india",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "83def1c2f5df126d2f65658e9e1cbc68a5ae6ac4079428dfd99a3d5d8f6f3dba"
+        },
+        "gmp": {
+          "gmp_date": "2026-10-19",
+          "gmp_asof_ist": "2026-10-19T13:30:00+05:30",
+          "gmp_rs": 515.0,
+          "url": "https://www.iporise.com/ipo/tonbo-imaging-india-ipo/gmp",
+          "raw_sha256": "94d12d80aac07eece136bd902d76efbcf98f9180860a55fa2866b89945116e89",
+          "recovered_at_ist": "2026-10-25T19:00:47.219369+05:30",
+          "conflicting_same_day_values": [
+            515.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 13.753581661891118,
+          "return_on_assets_pct": 6.5022364217252395,
+          "debt_to_networth": 0.20981271241593755,
+          "revenue_growth_asinh": -0.21843624990564692,
+          "profit_growth_asinh": -0.2963575179507182,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 1.2685714285714287,
+          "log_ipo_price_book": 2.1102132003465894,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 50.88,
+          "annual_revenue": 369.94,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 8.88,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/tonbo-imaging-india-ipo",
+          "raw_sha256": "df7374f6bd67f63ea3b1b3c66022fbb90e89e57da5082f32408104e53e2d7820",
+          "recovered_at_ist": "2026-10-25T19:00:45.600537+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-10-15",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 3.92,
+            "hni_subscription": 5.96,
+            "retail_subscription": 3.21,
+            "url": "https://www.ipoji.com/ipo/tonbo-imaging-india-ipo",
+            "raw_sha256": "df7374f6bd67f63ea3b1b3c66022fbb90e89e57da5082f32408104e53e2d7820",
+            "recovered_at_ist": "2026-10-25T19:00:45.600537+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-10-16",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 3.95,
+            "hni_subscription": 14.35,
+            "retail_subscription": 7.13,
+            "url": "https://www.ipoji.com/ipo/tonbo-imaging-india-ipo",
+            "raw_sha256": "df7374f6bd67f63ea3b1b3c66022fbb90e89e57da5082f32408104e53e2d7820",
+            "recovered_at_ist": "2026-10-25T19:00:45.600537+05:30"
+          }
+        ],
+        "market_date": "2026-10-16"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.9825494987932505,
+      "gmp_correct": true,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Zetwerk Manufacturing Business",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_3091",
+        "company_name": "Zetwerk Manufacturing Business",
+        "listing_date": "2026-10-23",
+        "issue_price": 151.0,
+        "nse_open_price": 159.25,
+        "nse_symbol": "ZETWERK",
+        "isin": "INE09PO01019",
+        "archive_sha256": "009b57f15cb36e14fa956b2e585b69b23f279eb8532c2c63c0adf0aa2ed77689",
+        "recorded_at_ist": "2026-10-23T19:35:30+05:30",
+        "actual_open": 159.25,
+        "return_pct": 5.4635761589403975,
+        "positive": true
+      },
+      "probability": 0.7107067794139963,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-10-19T16:44:00+05:30",
+        "recovered_at_ist": "2026-10-21T00:13:09+05:30",
+        "qib": 4.71,
+        "hni": 1.44,
+        "retail": 0.74,
+        "source": "https://theipolist.in/ipo-details/zetwerk",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "48864c943ab5a8b9f985f90a95704e3c5c1650350bd944fbecbd63631388a4b7"
+      },
+      "features": {
+        "log_qib": 1.742219023667919,
+        "log_hni": 0.8919980393051105,
+        "log_retail": 0.5538851132264376,
+        "log_offer_cap_price": 5.0238805208462765,
+        "log_issue_size": 8.519789817263504,
+        "gmp_pct": 2.0860927152317883,
+        "gmp_quote_age_days": 0,
+        "gmp_slope_pp_per_day": -2.5496688741721854,
+        "pub_profit_margin_pct": -9.975820821918148,
+        "pub_return_on_assets_pct": -12.000107586089419,
+        "pub_revenue_growth_asinh": 0.3909649099462894,
+        "pub_annual_loss": 1.0,
+        "log_qib_growth": 0.052446475372542545,
+        "log_hni_growth": 0.07082605256861245,
+        "log_retail_growth": 0.11595988109486835,
+        "macro_nifty_5d": 2.7783689650118237,
+        "macro_nifty_20d": -0.5347916290900478,
+        "macro_nifty_vol20": 1.0128377600878924,
+        "macro_vix": 14.0600004196167,
+        "macro_vix_change5": -2.2253107946978656
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-10-19T16:44:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:09+05:30",
+          "qib": 4.71,
+          "hni": 1.44,
+          "retail": 0.74,
+          "source": "https://theipolist.in/ipo-details/zetwerk",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "48864c943ab5a8b9f985f90a95704e3c5c1650350bd944fbecbd63631388a4b7"
+        },
+        "gmp": {
+          "gmp_date": "2026-10-19",
+          "gmp_asof_ist": "2026-10-19T13:30:00+05:30",
+          "gmp_rs": 3.15,
+          "url": "https://www.iporise.com/ipo/zetwerk-manufacturing-business-ipo/gmp",
+          "raw_sha256": "92ab0d3d1d225387aebf630d5509e201c55cd8f7f0afd6570d38ec65edb97d6f",
+          "recovered_at_ist": "2026-10-25T19:00:47.677322+05:30",
+          "conflicting_same_day_values": [
+            3.15
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": -9.975820821918148,
+          "return_on_assets_pct": -12.000107586089419,
+          "debt_to_networth": 0.4022169964185702,
+          "revenue_growth_asinh": 0.3909649099462894,
+          "profit_growth_asinh": -1.9187104246831097,
+          "annual_loss": 1.0,
+          "ipo_earnings_yield_pct": null,
+          "log_ipo_price_book": null,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": -1606.17,
+          "annual_revenue": 16100.63,
+          "financial_status": "period_checked_public_ipo_table",
+          "url": "https://www.ipoji.com/ipo/zetwerk-ipo",
+          "raw_sha256": "d6bf996a98f6029fc40e606b31ae9f694b0f23741ccb6b3c3d475270755fe3bf",
+          "recovered_at_ist": "2026-10-25T19:00:46.598956+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-10-15",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.3,
+            "hni_subscription": 0.09,
+            "retail_subscription": 0.22,
+            "url": "https://www.ipoji.com/ipo/zetwerk-ipo",
+            "raw_sha256": "d6bf996a98f6029fc40e606b31ae9f694b0f23741ccb6b3c3d475270755fe3bf",
+            "recovered_at_ist": "2026-10-25T19:00:46.598956+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-10-16",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.37,
+            "hni_subscription": 0.17,
+            "retail_subscription": 0.37,
+            "url": "https://www.ipoji.com/ipo/zetwerk-ipo",
+            "raw_sha256": "d6bf996a98f6029fc40e606b31ae9f694b0f23741ccb6b3c3d475270755fe3bf",
+            "recovered_at_ist": "2026-10-25T19:00:46.598956+05:30"
+          }
+        ],
+        "market_date": "2026-10-16"
+      },
+      "missing_features": [
+        "pub_financial_sector",
+        "pub_ipo_earnings_yield_pct",
+        "pub_log_ipo_price_book"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5338593198331465,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Bonfiglioli Transmissions",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2861",
+        "company_name": "Bonfiglioli Transmissions",
+        "listing_date": "2026-10-23",
+        "issue_price": 586.0,
+        "nse_open_price": 586.0,
+        "nse_symbol": "BONFIG",
+        "isin": "INE28SO01013",
+        "archive_sha256": "009b57f15cb36e14fa956b2e585b69b23f279eb8532c2c63c0adf0aa2ed77689",
+        "recorded_at_ist": "2026-10-23T20:13:23+05:30",
+        "actual_open": 586.0,
+        "return_pct": 0.0,
+        "positive": false
+      },
+      "probability": 0.9766380102168,
+      "correct": false,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-10-19T16:44:00+05:30",
+        "recovered_at_ist": "2026-10-21T00:13:11+05:30",
+        "qib": 120.78,
+        "hni": 40.36,
+        "retail": 5.78,
+        "source": "https://theipolist.in/ipo-details/bonfiglioli-transmissions",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "4aa6500131ead5d675881a29913a2ba08f6fd180c4d5d0590e0a2d7e0b363915"
+      },
+      "features": {
+        "log_qib": 4.802216138180428,
+        "log_hni": 3.7223142302001735,
+        "log_retail": 1.9139771019523042,
+        "log_offer_cap_price": 6.375024819828097,
+        "log_issue_size": 7.837948916025283,
+        "gmp_pct": 16.21160409556314,
+        "gmp_quote_age_days": 0,
+        "gmp_slope_pp_per_day": -6.313993174061434,
+        "pub_profit_margin_pct": 11.754851526247906,
+        "pub_return_on_assets_pct": 16.524946855070652,
+        "pub_revenue_growth_asinh": 0.08716311742762284,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 2.1587030716723548,
+        "pub_log_ipo_price_book": 2.492378664626701,
+        "log_qib_growth": 0.07145896398214498,
+        "log_hni_growth": 0.4203352705876158,
+        "log_retail_growth": 0.319032602335857,
+        "macro_nifty_5d": 2.7783689650118237,
+        "macro_nifty_20d": -0.5347916290900478,
+        "macro_nifty_vol20": 1.0128377600878924,
+        "macro_vix": 14.0600004196167,
+        "macro_vix_change5": -2.2253107946978656
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-10-19T16:44:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:11+05:30",
+          "qib": 120.78,
+          "hni": 40.36,
+          "retail": 5.78,
+          "source": "https://theipolist.in/ipo-details/bonfiglioli-transmissions",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "4aa6500131ead5d675881a29913a2ba08f6fd180c4d5d0590e0a2d7e0b363915"
+        },
+        "gmp": {
+          "gmp_date": "2026-10-19",
+          "gmp_asof_ist": "2026-10-19T13:30:00+05:30",
+          "gmp_rs": 95.0,
+          "url": "https://www.iporise.com/ipo/bonfiglioli-transmissions-ipo/gmp",
+          "raw_sha256": "936e208b5480082ab9ecb3372c44beefeae64fc43e7c22a9671ec1b799a69694",
+          "recovered_at_ist": "2026-10-25T19:00:49.813177+05:30",
+          "conflicting_same_day_values": [
+            95.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 11.754851526247906,
+          "return_on_assets_pct": 16.524946855070652,
+          "debt_to_networth": null,
+          "revenue_growth_asinh": 0.08716311742762284,
+          "profit_growth_asinh": 0.21713579674938552,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 2.1587030716723548,
+          "log_ipo_price_book": 2.492378664626701,
+          "annual_period": "2025-12-31",
+          "annual_profit_after_tax": 237.87,
+          "annual_revenue": 2023.59,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 12.65,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/bonfiglioli-transmissions-ipo",
+          "raw_sha256": "3c26973ef96e3cd225b8905b869c6591d5912aa2058f139b171f6386772a5f6c",
+          "recovered_at_ist": "2026-10-25T19:00:48.230574+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-10-15",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.08,
+            "hni_subscription": 0.78,
+            "retail_subscription": 0.57,
+            "url": "https://www.ipoji.com/ipo/bonfiglioli-transmissions-ipo",
+            "raw_sha256": "3c26973ef96e3cd225b8905b869c6591d5912aa2058f139b171f6386772a5f6c",
+            "recovered_at_ist": "2026-10-25T19:00:48.230574+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-10-16",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.16,
+            "hni_subscription": 1.71,
+            "retail_subscription": 1.16,
+            "url": "https://www.ipoji.com/ipo/bonfiglioli-transmissions-ipo",
+            "raw_sha256": "3c26973ef96e3cd225b8905b869c6591d5912aa2058f139b171f6386772a5f6c",
+            "recovered_at_ist": "2026-10-25T19:00:48.230574+05:30"
+          }
+        ],
+        "market_date": "2026-10-16"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.712042466297554,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": false
+    },
+    {
+      "company_name": "Sahajanand Medical Technologies",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2550",
+        "company_name": "Sahajanand Medical Technologies",
+        "listing_date": "2026-10-23",
+        "issue_price": 344.0,
+        "nse_open_price": 371.15,
+        "nse_symbol": "SMT",
+        "isin": "INE356Y01018",
+        "archive_sha256": "009b57f15cb36e14fa956b2e585b69b23f279eb8532c2c63c0adf0aa2ed77689",
+        "recorded_at_ist": "2026-10-23T19:11:41+05:30",
+        "actual_open": 371.15,
+        "return_pct": 7.892441860465116,
+        "positive": true
+      },
+      "probability": 0.8713249556927216,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-10-19T16:43:00+05:30",
+        "recovered_at_ist": "2026-10-21T00:13:13+05:30",
+        "qib": 34.7,
+        "hni": 14.6,
+        "retail": 2.91,
+        "source": "https://theipolist.in/ipo-details/sahajanand-medical-technologies",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "e908a6d4cb3f910a310d63d4aed084072079e6505f5b4d06ffe890ccad1b7936"
+      },
+      "features": {
+        "log_qib": 3.5751506887855933,
+        "log_hni": 2.747270914255491,
+        "log_retail": 1.3635373739972745,
+        "log_offer_cap_price": 5.84354441703136,
+        "log_issue_size": 6.16541785423142,
+        "gmp_pct": 4.3604651162790695,
+        "gmp_quote_age_days": 0,
+        "gmp_slope_pp_per_day": 0.0,
+        "pub_profit_margin_pct": 5.668195580645426,
+        "pub_return_on_assets_pct": 5.411969320683468,
+        "pub_revenue_growth_asinh": 0.1755230786106535,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 1.9767441860465116,
+        "pub_log_ipo_price_book": 1.8687205103641833,
+        "log_qib_growth": 0.43660534884388763,
+        "log_hni_growth": 0.22978809403287834,
+        "log_retail_growth": 0.2678437302321165,
+        "macro_nifty_5d": 2.7783689650118237,
+        "macro_nifty_20d": -0.5347916290900478,
+        "macro_nifty_vol20": 1.0128377600878924,
+        "macro_vix": 14.0600004196167,
+        "macro_vix_change5": -2.2253107946978656
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-10-19T16:43:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:13+05:30",
+          "qib": 34.7,
+          "hni": 14.6,
+          "retail": 2.91,
+          "source": "https://theipolist.in/ipo-details/sahajanand-medical-technologies",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "e908a6d4cb3f910a310d63d4aed084072079e6505f5b4d06ffe890ccad1b7936"
+        },
+        "gmp": {
+          "gmp_date": "2026-10-19",
+          "gmp_asof_ist": "2026-10-19T13:30:00+05:30",
+          "gmp_rs": 15.0,
+          "url": "https://www.iporise.com/ipo/sahajanand-medical-technologies-ipo/gmp",
+          "raw_sha256": "76eb8b0b11a7b5660202464aaa39d923daead80f22f031e165326d6a65fdaca0",
+          "recovered_at_ist": "2026-10-25T19:00:50.142295+05:30",
+          "conflicting_same_day_values": [
+            15.0
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 5.668195580645426,
+          "return_on_assets_pct": 5.411969320683468,
+          "debt_to_networth": 0.4375131888645402,
+          "revenue_growth_asinh": 0.1755230786106535,
+          "profit_growth_asinh": 1.3242691225857235,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 1.9767441860465116,
+          "log_ipo_price_book": 1.8687205103641833,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 69.08,
+          "annual_revenue": 1218.73,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 6.8,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/sahajanand-medical-technologies-ipo",
+          "raw_sha256": "daa7583d0e91cbff71792aef234e0a324889f4987de5fd89fb6624671d413171",
+          "recovered_at_ist": "2026-10-25T19:00:48.932640+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-10-15",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.37,
+            "hni_subscription": 0.2,
+            "retail_subscription": 0.4,
+            "url": "https://www.ipoji.com/ipo/sahajanand-medical-technologies-ipo",
+            "raw_sha256": "daa7583d0e91cbff71792aef234e0a324889f4987de5fd89fb6624671d413171",
+            "recovered_at_ist": "2026-10-25T19:00:48.932640+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-10-16",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 1.12,
+            "hni_subscription": 0.51,
+            "retail_subscription": 0.83,
+            "url": "https://www.ipoji.com/ipo/sahajanand-medical-technologies-ipo",
+            "raw_sha256": "daa7583d0e91cbff71792aef234e0a324889f4987de5fd89fb6624671d413171",
+            "recovered_at_ist": "2026-10-25T19:00:48.932640+05:30"
+          }
+        ],
+        "market_date": "2026-10-16"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5645311507221282,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    },
+    {
+      "company_name": "Fusion CX",
+      "cutoff_at_ist": "2026-10-16T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2455",
+        "company_name": "Fusion CX",
+        "listing_date": "2026-10-22",
+        "issue_price": 289.0,
+        "nse_open_price": 305.0,
+        "nse_symbol": "FUSIONCX",
+        "isin": "INE0N2201019",
+        "archive_sha256": "4e1e097210a023fa6a2bfd67610528d28ac0307c6417c8c85cfa4b01196d37b2",
+        "recorded_at_ist": "2026-10-22T18:41:52+05:30",
+        "actual_open": 305.0,
+        "return_pct": 5.536332179930792,
+        "positive": true
+      },
+      "probability": 0.7251190873901129,
+      "correct": true,
+      "status": "scored",
+      "mode": "historical_backtest",
+      "predicted_positive": true,
+      "bid": {
+        "observed_at_ist": "2026-10-16T16:44:00+05:30",
+        "recovered_at_ist": "2026-10-21T00:13:14+05:30",
+        "qib": 4.21,
+        "hni": 4.72,
+        "retail": 5.94,
+        "source": "https://theipolist.in/ipo-details/fusion-cx",
+        "evidence": "publisher_reported_time_recovered_later",
+        "warnings": [],
+        "raw_sha256": "989fddcdb9e41730fc2b0c918b65ce5f3b5a05ff6dea606bdeff92c6df04524a"
+      },
+      "features": {
+        "log_qib": 1.6505798557652755,
+        "log_hni": 1.7439688053917064,
+        "log_retail": 1.937301774518713,
+        "log_offer_cap_price": 5.66988092298052,
+        "log_issue_size": 6.555356891810665,
+        "gmp_pct": 6.747404844290657,
+        "gmp_quote_age_days": 1,
+        "gmp_slope_pp_per_day": -4.671280276816609,
+        "pub_profit_margin_pct": 9.171468223325036,
+        "pub_return_on_assets_pct": 12.261487925495432,
+        "pub_revenue_growth_asinh": 0.3617261899878802,
+        "pub_annual_loss": 0.0,
+        "pub_ipo_earnings_yield_pct": 4.626297577854671,
+        "pub_log_ipo_price_book": 2.0294631718735947,
+        "log_qib_growth": 0.048790164169432,
+        "log_hni_growth": 0.5361772149634052,
+        "log_retail_growth": 0.6225296133459919,
+        "macro_nifty_5d": 3.4434854632678036,
+        "macro_nifty_20d": -0.9486338110123338,
+        "macro_nifty_vol20": 1.002556865321311,
+        "macro_vix": 14.029999732971191,
+        "macro_vix_change5": -8.180628415213576
+      },
+      "sources": {
+        "bids": {
+          "observed_at_ist": "2026-10-16T16:44:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:14+05:30",
+          "qib": 4.21,
+          "hni": 4.72,
+          "retail": 5.94,
+          "source": "https://theipolist.in/ipo-details/fusion-cx",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "989fddcdb9e41730fc2b0c918b65ce5f3b5a05ff6dea606bdeff92c6df04524a"
+        },
+        "gmp": {
+          "gmp_date": "2026-10-15",
+          "gmp_asof_ist": "2026-10-15T16:58:00+05:30",
+          "gmp_rs": 19.5,
+          "url": "https://www.iporise.com/ipo/fusion-cx-ipo/gmp",
+          "raw_sha256": "c3d0d48db2c366481cd13b9fcf40a4e1beaff6bd2b55d5619d3303219b515c30",
+          "recovered_at_ist": "2026-10-25T19:00:51.830357+05:30",
+          "conflicting_same_day_values": [
+            10.0,
+            19.5
+          ]
+        },
+        "financial": {
+          "profit_margin_pct": 9.171468223325036,
+          "return_on_assets_pct": 12.261487925495432,
+          "debt_to_networth": 2.196335078534031,
+          "revenue_growth_asinh": 0.3617261899878802,
+          "profit_growth_asinh": 1.0696163157410248,
+          "annual_loss": 0.0,
+          "ipo_earnings_yield_pct": 4.626297577854671,
+          "log_ipo_price_book": 2.0294631718735947,
+          "annual_period": "2026-03-31",
+          "annual_profit_after_tax": 169.84,
+          "annual_revenue": 1851.83,
+          "financial_status": "period_checked_public_ipo_table",
+          "ipo_pre_offer_eps": 13.37,
+          "valuation_basis": "explicit_ipo_panel_pre_offer_eps",
+          "url": "https://www.ipoji.com/ipo/fusion-cx-ipo",
+          "raw_sha256": "60ea6eb411d4fb595aca8da5b76d06dd1165556bc017a2d61be4cfdcc434e1ab",
+          "recovered_at_ist": "2026-10-25T19:00:50.837265+05:30",
+          "publication_basis": "recovered_ipo_panel_period_checked_not_publication_certified"
+        },
+        "growth_history": [
+          {
+            "day": 1,
+            "date": "2026-10-14",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.0,
+            "hni_subscription": 0.48,
+            "retail_subscription": 1.64,
+            "url": "https://www.ipoji.com/ipo/fusion-cx-ipo",
+            "raw_sha256": "60ea6eb411d4fb595aca8da5b76d06dd1165556bc017a2d61be4cfdcc434e1ab",
+            "recovered_at_ist": "2026-10-25T19:00:50.837265+05:30"
+          },
+          {
+            "day": 2,
+            "date": "2026-10-15",
+            "displayed_time": "05:00 PM",
+            "qib_subscription": 0.05,
+            "hni_subscription": 1.53,
+            "retail_subscription": 3.92,
+            "url": "https://www.ipoji.com/ipo/fusion-cx-ipo",
+            "raw_sha256": "60ea6eb411d4fb595aca8da5b76d06dd1165556bc017a2d61be4cfdcc434e1ab",
+            "recovered_at_ist": "2026-10-25T19:00:50.837265+05:30"
+          }
+        ],
+        "market_date": "2026-10-15"
+      },
+      "missing_features": [
+        "pub_financial_sector"
+      ],
+      "quality": "provisional_missing_inputs",
+      "gmp_probability": 0.5961944344199138,
+      "gmp_correct": false,
+      "training_overlap": "outside_training_years",
+      "gmp_simple_positive": true,
+      "gmp_simple_correct": true
+    }
+  ]
+}

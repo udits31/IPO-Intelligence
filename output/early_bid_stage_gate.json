@@ -1,0 +1,299 @@
+{
+  "collection": {
+    "equitymaster_matched_pages": 141,
+    "equitymaster_retrieval_failures": [],
+    "ipowatch_matched_pages": 143,
+    "ipowatch_retrieval_failures": [],
+    "same_day_source_conflicts": [
+      {
+        "ipo_id": 318,
+        "day": 1,
+        "categories": [
+          "hni"
+        ]
+      },
+      {
+        "ipo_id": 318,
+        "day": 2,
+        "categories": [
+          "qib"
+        ]
+      },
+      {
+        "ipo_id": 319,
+        "day": 1,
+        "categories": [
+          "hni",
+          "retail"
+        ]
+      },
+      {
+        "ipo_id": 324,
+        "day": 2,
+        "categories": [
+          "qib"
+        ]
+      },
+      {
+        "ipo_id": 409,
+        "day": 2,
+        "categories": [
+          "qib"
+        ]
+      },
+      {
+        "ipo_id": 420,
+        "day": 2,
+        "categories": [
+          "qib"
+        ]
+      },
+      {
+        "ipo_id": 431,
+        "day": 1,
+        "categories": [
+          "retail"
+        ]
+      },
+      {
+        "ipo_id": 439,
+        "day": 1,
+        "categories": [
+          "qib"
+        ]
+      },
+      {
+        "ipo_id": 446,
+        "day": 1,
+        "categories": [
+          "hni",
+          "retail"
+        ]
+      },
+      {
+        "ipo_id": 448,
+        "day": 1,
+        "categories": [
+          "hni"
+        ]
+      },
+      {
+        "ipo_id": 458,
+        "day": 1,
+        "categories": [
+          "hni",
+          "retail"
+        ]
+      },
+      {
+        "ipo_id": 470,
+        "day": 1,
+        "categories": [
+          "qib"
+        ]
+      },
+      {
+        "ipo_id": 487,
+        "day": 2,
+        "categories": [
+          "qib"
+        ]
+      }
+    ],
+    "rows_by_day": {
+      "1": 193,
+      "2": 196,
+      "3": 3,
+      "4": 1
+    }
+  },
+  "method": "expanding-year replay, day-number matched, final-day excluded",
+  "passes_research_gate": false,
+  "folds": [
+    {
+      "model": "bids_only",
+      "day": 1,
+      "test_year": 2022,
+      "train_rows": 44,
+      "test_rows": 30,
+      "positive_rate": 0.7,
+      "accuracy": 0.6,
+      "always_majority_accuracy": 0.7,
+      "balanced_accuracy": 0.5556,
+      "auc": 0.6402,
+      "brier": 0.2092,
+      "training_prior_brier": 0.2107,
+      "negative_recall": 0.4444
+    },
+    {
+      "model": "bids_only",
+      "day": 1,
+      "test_year": 2023,
+      "train_rows": 74,
+      "test_rows": 42,
+      "positive_rate": 0.8095,
+      "accuracy": 0.8333,
+      "always_majority_accuracy": 0.8095,
+      "balanced_accuracy": 0.6581,
+      "auc": 0.8382,
+      "brier": 0.117,
+      "training_prior_brier": 0.1629,
+      "negative_recall": 0.375
+    },
+    {
+      "model": "bids_only",
+      "day": 1,
+      "test_year": 2024,
+      "train_rows": 116,
+      "test_rows": 77,
+      "positive_rate": 0.8052,
+      "accuracy": 0.7662,
+      "always_majority_accuracy": 0.8052,
+      "balanced_accuracy": 0.4758,
+      "auc": 0.7591,
+      "brier": 0.1468,
+      "training_prior_brier": 0.1599,
+      "negative_recall": 0.0
+    },
+    {
+      "model": "bids_and_offer_terms",
+      "day": 1,
+      "test_year": 2022,
+      "train_rows": 44,
+      "test_rows": 30,
+      "positive_rate": 0.7,
+      "accuracy": 0.6667,
+      "always_majority_accuracy": 0.7,
+      "balanced_accuracy": 0.5714,
+      "auc": 0.6296,
+      "brier": 0.2085,
+      "training_prior_brier": 0.2107,
+      "negative_recall": 0.3333
+    },
+    {
+      "model": "bids_and_offer_terms",
+      "day": 1,
+      "test_year": 2023,
+      "train_rows": 74,
+      "test_rows": 42,
+      "positive_rate": 0.8095,
+      "accuracy": 0.8333,
+      "always_majority_accuracy": 0.8095,
+      "balanced_accuracy": 0.6103,
+      "auc": 0.8309,
+      "brier": 0.1206,
+      "training_prior_brier": 0.1629,
+      "negative_recall": 0.25
+    },
+    {
+      "model": "bids_and_offer_terms",
+      "day": 1,
+      "test_year": 2024,
+      "train_rows": 116,
+      "test_rows": 77,
+      "positive_rate": 0.8052,
+      "accuracy": 0.7662,
+      "always_majority_accuracy": 0.8052,
+      "balanced_accuracy": 0.5011,
+      "auc": 0.7559,
+      "brier": 0.1498,
+      "training_prior_brier": 0.1599,
+      "negative_recall": 0.0667
+    },
+    {
+      "model": "bids_only",
+      "day": 2,
+      "test_year": 2022,
+      "train_rows": 44,
+      "test_rows": 30,
+      "positive_rate": 0.7333,
+      "accuracy": 0.6333,
+      "always_majority_accuracy": 0.7333,
+      "balanced_accuracy": 0.6307,
+      "auc": 0.6477,
+      "brier": 0.2135,
+      "training_prior_brier": 0.1956,
+      "negative_recall": 0.625
+    },
+    {
+      "model": "bids_only",
+      "day": 2,
+      "test_year": 2023,
+      "train_rows": 74,
+      "test_rows": 41,
+      "positive_rate": 0.8049,
+      "accuracy": 0.8049,
+      "always_majority_accuracy": 0.8049,
+      "balanced_accuracy": 0.5473,
+      "auc": 0.8523,
+      "brier": 0.1236,
+      "training_prior_brier": 0.1627,
+      "negative_recall": 0.125
+    },
+    {
+      "model": "bids_only",
+      "day": 2,
+      "test_year": 2024,
+      "train_rows": 115,
+      "test_rows": 81,
+      "positive_rate": 0.7901,
+      "accuracy": 0.7778,
+      "always_majority_accuracy": 0.7901,
+      "balanced_accuracy": 0.5786,
+      "auc": 0.761,
+      "brier": 0.1508,
+      "training_prior_brier": 0.167,
+      "negative_recall": 0.2353
+    },
+    {
+      "model": "bids_and_offer_terms",
+      "day": 2,
+      "test_year": 2022,
+      "train_rows": 44,
+      "test_rows": 30,
+      "positive_rate": 0.7333,
+      "accuracy": 0.6667,
+      "always_majority_accuracy": 0.7333,
+      "balanced_accuracy": 0.6534,
+      "auc": 0.6761,
+      "brier": 0.2117,
+      "training_prior_brier": 0.1956,
+      "negative_recall": 0.625
+    },
+    {
+      "model": "bids_and_offer_terms",
+      "day": 2,
+      "test_year": 2023,
+      "train_rows": 74,
+      "test_rows": 41,
+      "positive_rate": 0.8049,
+      "accuracy": 0.8049,
+      "always_majority_accuracy": 0.8049,
+      "balanced_accuracy": 0.5473,
+      "auc": 0.8371,
+      "brier": 0.1287,
+      "training_prior_brier": 0.1627,
+      "negative_recall": 0.125
+    },
+    {
+      "model": "bids_and_offer_terms",
+      "day": 2,
+      "test_year": 2024,
+      "train_rows": 115,
+      "test_rows": 81,
+      "positive_rate": 0.7901,
+      "accuracy": 0.7778,
+      "always_majority_accuracy": 0.7901,
+      "balanced_accuracy": 0.5786,
+      "auc": 0.7619,
+      "brier": 0.151,
+      "training_prior_brier": 0.167,
+      "negative_recall": 0.2353
+    }
+  ],
+  "limitations": [
+    "Retrospective articles may have been edited after the bidding day.",
+    "End-of-day rows do not validate intraday forecasts.",
+    "Source coverage is incomplete and non-random."
+  ]
+}

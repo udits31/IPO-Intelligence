@@ -1,0 +1,519 @@
+{
+  "records": [
+    {
+      "company_name": "HD Fire Protect",
+      "cutoff_at_ist": "2026-10-15T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
+          "closing_date": "2026-10-15",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:13.537550+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Fhd-fire-protect-ipo%2F2628%2F&from=20261015083000&to=20261015113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "closing_date": "2026-10-15",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:15.802581+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Fhd-fire-protect-ipo%2F2628%2F&from=20261015083000&to=20261015113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://theipolist.in/ipo-details/hd-fire-protect",
+          "closing_date": "2026-10-15",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:17.484469+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Ftheipolist.in%2Fipo-details%2Fhd-fire-protect&from=20261015083000&to=20261015113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1416/hd-fire-protect-ltd",
+          "closing_date": "2026-10-15",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:18.935478+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1416%2Fhd-fire-protect-ltd&from=20261015083000&to=20261015113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "Nityas Gems & Jewellery",
+      "cutoff_at_ist": "2026-10-05T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/",
+          "closing_date": "2026-10-05",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:20.941799+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Fnityas-gems-jewellery-ipo%2F2974%2F&from=20261005083000&to=20261005113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/nityas-gems-jewellery-ipo/2974/",
+          "closing_date": "2026-10-05",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:22.347141+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Fnityas-gems-jewellery-ipo%2F2974%2F&from=20261005083000&to=20261005113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://choiceindia.com/news/nityas-gems-and-jewellery-ipo-subscription-day-3",
+          "closing_date": "2026-10-05",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:24.948483+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fchoiceindia.com%2Fnews%2Fnityas-gems-and-jewellery-ipo-subscription-day-3&from=20261005083000&to=20261005113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1403/nityas-gems-and-jewellery-ltd",
+          "closing_date": "2026-10-05",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:26.850737+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1403%2Fnityas-gems-and-jewellery-ltd&from=20261005083000&to=20261005113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "Vishal Nirmiti",
+      "cutoff_at_ist": "2026-10-05T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/vishal-nirmiti-ipo/2665/",
+          "closing_date": "2026-10-05",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:28.560372+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Fvishal-nirmiti-ipo%2F2665%2F&from=20261005083000&to=20261005113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/vishal-nirmiti-ipo/2665/",
+          "closing_date": "2026-10-05",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:30.006494+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Fvishal-nirmiti-ipo%2F2665%2F&from=20261005083000&to=20261005113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://choiceindia.com/news/vishal-nirmiti-ipo-subscription-day-3",
+          "closing_date": "2026-10-05",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:31.424899+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fchoiceindia.com%2Fnews%2Fvishal-nirmiti-ipo-subscription-day-3&from=20261005083000&to=20261005113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1405/vishal-nirmiti-ltd",
+          "closing_date": "2026-10-05",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:32.793855+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1405%2Fvishal-nirmiti-ltd&from=20261005083000&to=20261005113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "SRIT India",
+      "cutoff_at_ist": "2026-09-30T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
+          "closing_date": "2026-09-30",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:34.245201+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Fsrit-india-ipo%2F2858%2F&from=20260930083000&to=20260930113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/srit-india-ipo/2858/",
+          "closing_date": "2026-09-30",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:35.636925+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Fsrit-india-ipo%2F2858%2F&from=20260930083000&to=20260930113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.5paisa.com/blog/srit-india-subscription-status",
+          "closing_date": "2026-09-30",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:37.089414+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.5paisa.com%2Fblog%2Fsrit-india-subscription-status&from=20260930083000&to=20260930113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1392/srit-india-ltd",
+          "closing_date": "2026-09-30",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:38.539819+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1392%2Fsrit-india-ltd&from=20260930083000&to=20260930113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "Shah Investor's Home",
+      "cutoff_at_ist": "2026-09-30T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
+          "closing_date": "2026-09-30",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:39.876329+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Fshah-investors-home-ipo%2F2657%2F&from=20260930083000&to=20260930113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/shah-investors-home-ipo/2657/",
+          "closing_date": "2026-09-30",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:41.557159+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Fshah-investors-home-ipo%2F2657%2F&from=20260930083000&to=20260930113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.5paisa.com/blog/shah-investors-home-ipo-subscription-status",
+          "closing_date": "2026-09-30",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:48.177112+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.5paisa.com%2Fblog%2Fshah-investors-home-ipo-subscription-status&from=20260930083000&to=20260930113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1390/shah-investors-home-ltd",
+          "closing_date": "2026-09-30",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:49.559072+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1390%2Fshah-investors-home-ltd&from=20260930083000&to=20260930113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "Acevector",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:55.840207+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Fsnapdeal-ipo%2F2543%2F&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/snapdeal-ipo/2543/",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:57.372600+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Fsnapdeal-ipo%2F2543%2F&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://choiceindia.com/news/acevector-ipo-subscription-day-3",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:48:58.868423+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fchoiceindia.com%2Fnews%2Facevector-ipo-subscription-day-3&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1381/acevector-ltd",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:01.130685+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1381%2Facevector-ltd&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "Orient Cables (India)",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:04.249232+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Forient-cables-ipo%2F2532%2F&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/orient-cables-ipo/2532/",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:05.655438+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Forient-cables-ipo%2F2532%2F&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://choiceindia.com/news/orient-cables-ipo-subscription-status-day-3",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:07.026047+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fchoiceindia.com%2Fnews%2Forient-cables-ipo-subscription-status-day-3&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1383/orient-cables",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:08.432759+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1383%2Forient-cables&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "German Green Steel & Power",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:12.057432+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Fgerman-green-steel-and-power-ipo%2F2497%2F&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/german-green-steel-and-power-ipo/2497/",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:13.499774+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Fgerman-green-steel-and-power-ipo%2F2497%2F&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://choiceindia.com/news/german-green-steel-power-ipo-subscription-status-day-3",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:14.868435+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fchoiceindia.com%2Fnews%2Fgerman-green-steel-power-ipo-subscription-status-day-3&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1382/german-green-steel-power-ltd",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:16.327670+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1382%2Fgerman-green-steel-power-ltd&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "Runwal Enterprises",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:17.841890+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Frunwal-enterprises-ipo%2F2298%2F&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo_subscription/runwal-enterprises-ipo/2298/",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:19.244777+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo_subscription%2Frunwal-enterprises-ipo%2F2298%2F&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://choiceindia.com/news/lumino-industries-ipo-subscription-day-3",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:20.716050+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fchoiceindia.com%2Fnews%2Flumino-industries-ipo-subscription-day-3&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        },
+        {
+          "source_url": "https://www.ipopremium.in/view/ipo/1386/runwal-enterprises-ltd",
+          "closing_date": "2026-09-29",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:22.198309+00:00",
+          "http_status": 200,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ipopremium.in%2Fview%2Fipo%2F1386%2Frunwal-enterprises-ltd&from=20260929083000&to=20260929113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "no_capture_in_window",
+          "cdx_rows": []
+        }
+      ]
+    },
+    {
+      "company_name": "Moneyview",
+      "cutoff_at_ist": "2026-09-28T17:00:00+05:30",
+      "checks": [
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+          "closing_date": "2026-09-28",
+          "requested_ist_window": "14:00-17:00",
+          "fetched_at_utc": "2026-10-25T20:49:23.544726+00:00",
+          "http_status": 429,
+          "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.chittorgarh.com%2Fipo%2Fmoneyview-ipo%2F2936%2F&from=20260928083000&to=20260928113000&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+          "status": "restricted_or_rate_limited"
+        }
+      ]
+    },
+    {
+      "company_name": "A-One Steels India",
+      "cutoff_at_ist": "2026-09-28T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Adroit Industries (India)",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Elevate Campuses",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Swastika Infra",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "ArMee Infotech",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Varmora Granito",
+      "cutoff_at_ist": "2026-09-24T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "National Stock Exchange of India",
+      "cutoff_at_ist": "2026-09-21T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Sonaselection India",
+      "cutoff_at_ist": "2026-09-21T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "SS Retail",
+      "cutoff_at_ist": "2026-09-18T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Tonbo Imaging India",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Zetwerk Manufacturing Business",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Bonfiglioli Transmissions",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Sahajanand Medical Technologies",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    },
+    {
+      "company_name": "Fusion CX",
+      "cutoff_at_ist": "2026-10-16T17:00:00+05:30",
+      "checks": [],
+      "status": "deferred_after_archive_rate_limit"
+    }
+  ],
+  "complete": false,
+  "rate_limited_or_restricted": true
+}

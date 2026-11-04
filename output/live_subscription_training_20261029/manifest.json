@@ -1,0 +1,43 @@
+{
+  "days": {
+    "2026-10-26": {
+      "verified_raw_rows": 83,
+      "training_rows": 78,
+      "rejected": [],
+      "protocol": "One latest eligible complete reading per IPO/source/slot/phase; time and source checks precede selection. Raw rows retained.",
+      "csv": "C:\\Projects\\Capstone\\output\\live_subscription_training_20261029\\2026-10-26.csv",
+      "csv_sha256": "6adb677f267af2325e16618ab5740eb7d692636fce9a85f7e27404351108403d",
+      "removed_duplicate_verified_rows": 5
+    },
+    "2026-10-27": {
+      "verified_raw_rows": 1423,
+      "training_rows": 78,
+      "rejected": [],
+      "protocol": "One latest eligible complete reading per IPO/source/slot/phase; time and source checks precede selection. Raw rows retained.",
+      "csv": "C:\\Projects\\Capstone\\output\\live_subscription_training_20261029\\2026-10-27.csv",
+      "csv_sha256": "281bdc2636b0924d6a4148b2886b5b1fb053ea773bd254568ef5e077f9a3522b",
+      "removed_duplicate_verified_rows": 1345
+    },
+    "2026-10-28": {
+      "verified_raw_rows": 376,
+      "training_rows": 334,
+      "rejected": [],
+      "protocol": "One latest eligible complete reading per IPO/source/slot/phase; time and source checks precede selection. Raw rows retained.",
+      "csv": "C:\\Projects\\Capstone\\output\\live_subscription_training_20261029\\2026-10-28.csv",
+      "csv_sha256": "0c8177140027404c3f4d96234aeff23edc5dc0476eae337c3b9d4e8e641f9be2",
+      "removed_duplicate_verified_rows": 42
+    },
+    "2026-10-29": {
+      "verified_raw_rows": 331,
+      "training_rows": 331,
+      "rejected": [],
+      "protocol": "One latest eligible complete reading per IPO/source/slot/phase; time and source checks precede selection. Raw rows retained.",
+      "csv": "C:\\Projects\\Capstone\\output\\live_subscription_training_20261029\\2026-10-29.csv",
+      "csv_sha256": "1a9d1201785efb1766dc5806649a73c4f09f6476bacced19f1f8b1d451a946d0",
+      "removed_duplicate_verified_rows": 0
+    }
+  },
+  "raw_rows_before": 4210,
+  "raw_rows_after": 4210,
+  "raw_history_preserved": true
+}

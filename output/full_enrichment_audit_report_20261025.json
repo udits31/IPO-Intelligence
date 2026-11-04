@@ -1,0 +1,1072 @@
+{
+  "created_at_utc": "2026-10-25T18:20:01.767196+00:00",
+  "status": "implemented_with_data_and_performance_gates",
+  "integrity": {
+    "protected_files": {
+      "ml/model_bundle.json": {
+        "unchanged": true,
+        "expected_sha256": "223a2861acc31952c5404cbe9eb0621f2241775404a4912a26fba0d579eacb2f",
+        "actual_sha256": "223a2861acc31952c5404cbe9eb0621f2241775404a4912a26fba0d579eacb2f"
+      },
+      "output/prospective_module1_protocol.json": {
+        "unchanged": true,
+        "expected_sha256": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02",
+        "actual_sha256": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02"
+      },
+      "ml/artifacts/module1_2026_standard_classifier_research_20261025.joblib": {
+        "unchanged": true,
+        "expected_sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+        "actual_sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38"
+      },
+      "core/monitor_engine.py": {
+        "unchanged": true,
+        "expected_sha256": "af35583851cbdd94fd1d60d736c814517bbb8372c8cbdba867c6da24b3c626f8",
+        "actual_sha256": "af35583851cbdd94fd1d60d736c814517bbb8372c8cbdba867c6da24b3c626f8"
+      },
+      "output/module2_holdout_accuracy_2025_2026_governance_20261023.json": {
+        "unchanged": true,
+        "expected_sha256": "0fa6b07992ec92fce802c11b111b982daa55a294670ef3a0fe0299d5bf7f15d4",
+        "actual_sha256": "0fa6b07992ec92fce802c11b111b982daa55a294670ef3a0fe0299d5bf7f15d4"
+      }
+    },
+    "forecast_ledgers": {
+      "frozen_module1_forecast_v1": {
+        "original_rows": 217,
+        "current_rows": 247,
+        "original_prefix_unchanged": true,
+        "expected_sha256": "be9e53b7d846a04d59f1309d3676239b99d87085be2e8b84c32caa166682295c",
+        "actual_sha256": "be9e53b7d846a04d59f1309d3676239b99d87085be2e8b84c32caa166682295c"
+      },
+      "automatic_decision_v1": {
+        "original_rows": 296,
+        "current_rows": 296,
+        "original_prefix_unchanged": true,
+        "expected_sha256": "3f59271ccb0b5c62f88f490c20adc2df777170aab4058881eea18e3c754912f4",
+        "actual_sha256": "3f59271ccb0b5c62f88f490c20adc2df777170aab4058881eea18e3c754912f4"
+      },
+      "prelisting_outcome_forecast_v1": {
+        "original_rows": 6,
+        "current_rows": 6,
+        "original_prefix_unchanged": true,
+        "expected_sha256": "874d07f0079919344070a4d208067ba66c6fb988bda9b4cd074dfbb1b4ad8db0",
+        "actual_sha256": "874d07f0079919344070a4d208067ba66c6fb988bda9b4cd074dfbb1b4ad8db0"
+      },
+      "listing_outcome_v1": {
+        "original_rows": 23,
+        "current_rows": 23,
+        "original_prefix_unchanged": true,
+        "expected_sha256": "985cdea483007a5cf013fdceb68ad61c08dc2670f352ac928befc860473e1e8f",
+        "actual_sha256": "985cdea483007a5cf013fdceb68ad61c08dc2670f352ac928befc860473e1e8f"
+      }
+    },
+    "all_preserved": true
+  },
+  "cached_field_coverage": {
+    "historical_359": {
+      "issuers": 359,
+      "fields": {
+        "fresh_issue_cr": {
+          "extracted": 59,
+          "eligible_by_decision": 0,
+          "missing": 300
+        },
+        "ofs_issue_cr": {
+          "extracted": 65,
+          "eligible_by_decision": 0,
+          "missing": 294
+        },
+        "ofs_ratio": {
+          "extracted": 35,
+          "eligible_by_decision": 0,
+          "missing": 324
+        },
+        "qib_quota_pct": {
+          "extracted": 263,
+          "eligible_by_decision": 0,
+          "missing": 96
+        },
+        "nii_quota_pct": {
+          "extracted": 247,
+          "eligible_by_decision": 0,
+          "missing": 112
+        },
+        "retail_quota_pct": {
+          "extracted": 276,
+          "eligible_by_decision": 0,
+          "missing": 83
+        },
+        "snii_subscription_mult": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 359
+        },
+        "bnii_subscription_mult": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 359
+        },
+        "lot_size_shares": {
+          "extracted": 285,
+          "eligible_by_decision": 0,
+          "missing": 74
+        },
+        "anchor_total_cr": {
+          "extracted": 42,
+          "eligible_by_decision": 0,
+          "missing": 317
+        },
+        "anchor_domestic_mf_pct": {
+          "extracted": 8,
+          "eligible_by_decision": 0,
+          "missing": 351
+        },
+        "anchor_30d_unlock_date": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 359
+        },
+        "anchor_90d_unlock_date": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 359
+        },
+        "brlm_names": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 359
+        },
+        "brlm_prior_listing_win_rate": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 359
+        }
+      }
+    },
+    "recent_24": {
+      "issuers": 24,
+      "fields": {
+        "fresh_issue_cr": {
+          "extracted": 6,
+          "eligible_by_decision": 0,
+          "missing": 18
+        },
+        "ofs_issue_cr": {
+          "extracted": 3,
+          "eligible_by_decision": 0,
+          "missing": 21
+        },
+        "ofs_ratio": {
+          "extracted": 6,
+          "eligible_by_decision": 0,
+          "missing": 18
+        },
+        "qib_quota_pct": {
+          "extracted": 23,
+          "eligible_by_decision": 0,
+          "missing": 1
+        },
+        "nii_quota_pct": {
+          "extracted": 23,
+          "eligible_by_decision": 0,
+          "missing": 1
+        },
+        "retail_quota_pct": {
+          "extracted": 23,
+          "eligible_by_decision": 0,
+          "missing": 1
+        },
+        "snii_subscription_mult": {
+          "extracted": 7,
+          "eligible_by_decision": 0,
+          "missing": 17
+        },
+        "bnii_subscription_mult": {
+          "extracted": 7,
+          "eligible_by_decision": 0,
+          "missing": 17
+        },
+        "lot_size_shares": {
+          "extracted": 23,
+          "eligible_by_decision": 0,
+          "missing": 1
+        },
+        "anchor_total_cr": {
+          "extracted": 19,
+          "eligible_by_decision": 0,
+          "missing": 5
+        },
+        "anchor_domestic_mf_pct": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 24
+        },
+        "anchor_30d_unlock_date": {
+          "extracted": 16,
+          "eligible_by_decision": 0,
+          "missing": 8
+        },
+        "anchor_90d_unlock_date": {
+          "extracted": 16,
+          "eligible_by_decision": 0,
+          "missing": 8
+        },
+        "brlm_names": {
+          "extracted": 8,
+          "eligible_by_decision": 0,
+          "missing": 16
+        },
+        "brlm_prior_listing_win_rate": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 24
+        }
+      }
+    },
+    "all_extracted": {
+      "issuers": 395,
+      "fields": {
+        "fresh_issue_cr": {
+          "extracted": 67,
+          "eligible_by_decision": 0,
+          "missing": 328
+        },
+        "ofs_issue_cr": {
+          "extracted": 71,
+          "eligible_by_decision": 0,
+          "missing": 324
+        },
+        "ofs_ratio": {
+          "extracted": 43,
+          "eligible_by_decision": 0,
+          "missing": 352
+        },
+        "qib_quota_pct": {
+          "extracted": 290,
+          "eligible_by_decision": 0,
+          "missing": 105
+        },
+        "nii_quota_pct": {
+          "extracted": 274,
+          "eligible_by_decision": 0,
+          "missing": 121
+        },
+        "retail_quota_pct": {
+          "extracted": 303,
+          "eligible_by_decision": 0,
+          "missing": 92
+        },
+        "snii_subscription_mult": {
+          "extracted": 7,
+          "eligible_by_decision": 0,
+          "missing": 388
+        },
+        "bnii_subscription_mult": {
+          "extracted": 7,
+          "eligible_by_decision": 0,
+          "missing": 388
+        },
+        "lot_size_shares": {
+          "extracted": 312,
+          "eligible_by_decision": 0,
+          "missing": 83
+        },
+        "anchor_total_cr": {
+          "extracted": 64,
+          "eligible_by_decision": 0,
+          "missing": 331
+        },
+        "anchor_domestic_mf_pct": {
+          "extracted": 9,
+          "eligible_by_decision": 0,
+          "missing": 386
+        },
+        "anchor_30d_unlock_date": {
+          "extracted": 21,
+          "eligible_by_decision": 0,
+          "missing": 374
+        },
+        "anchor_90d_unlock_date": {
+          "extracted": 21,
+          "eligible_by_decision": 0,
+          "missing": 374
+        },
+        "brlm_names": {
+          "extracted": 8,
+          "eligible_by_decision": 0,
+          "missing": 387
+        },
+        "brlm_prior_listing_win_rate": {
+          "extracted": 0,
+          "eligible_by_decision": 0,
+          "missing": 395
+        }
+      }
+    }
+  },
+  "module1": {
+    "cohort_69": {
+      "frozen_model": {
+        "n": 69,
+        "correct": 56,
+        "accuracy_pct": 81.15942028985508,
+        "accuracy_wilson_95_pct": [
+          70.38684285696075,
+          88.6453585224708
+        ],
+        "positive_calls": 43,
+        "nonpositive_calls": 26,
+        "wrong_positive_calls": 5,
+        "missed_positive_calls": 8,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 19,
+        "apply_precision_pct": 94.73684210526315,
+        "skip_recall_on_losers_pct": 78.26086956521739
+      },
+      "enriched_calibrated": {
+        "n": 69,
+        "correct": 51,
+        "accuracy_pct": 73.91304347826086,
+        "accuracy_wilson_95_pct": [
+          62.489202028576315,
+          82.814580425406
+        ],
+        "positive_calls": 62,
+        "nonpositive_calls": 7,
+        "wrong_positive_calls": 17,
+        "missed_positive_calls": 1,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 9,
+        "apply_precision_pct": 88.88888888888889,
+        "skip_recall_on_losers_pct": 26.08695652173913
+      },
+      "gmp_fitted": {
+        "n": 69,
+        "correct": 55,
+        "accuracy_pct": 79.71014492753623,
+        "accuracy_wilson_95_pct": [
+          68.77573759423548,
+          87.51078000010621
+        ],
+        "positive_calls": 40,
+        "nonpositive_calls": 29,
+        "wrong_positive_calls": 4,
+        "missed_positive_calls": 10,
+        "decision_threshold": 0.625,
+        "apply_threshold": 0.82,
+        "apply_n": 14,
+        "apply_precision_pct": 92.85714285714286,
+        "skip_recall_on_losers_pct": 82.6086956521739
+      },
+      "gmp_sign": {
+        "n": 69,
+        "correct": 46,
+        "accuracy_pct": 66.66666666666666,
+        "accuracy_wilson_95_pct": [
+          54.92625453552142,
+          76.64910899301172
+        ],
+        "positive_calls": 65,
+        "nonpositive_calls": 4,
+        "wrong_positive_calls": 21,
+        "missed_positive_calls": 2,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 65,
+        "apply_precision_pct": 67.6923076923077,
+        "skip_recall_on_losers_pct": 8.695652173913043
+      },
+      "always_positive": {
+        "n": 69,
+        "correct": 46,
+        "accuracy_pct": 66.66666666666666,
+        "accuracy_wilson_95_pct": [
+          54.92625453552142,
+          76.64910899301172
+        ],
+        "positive_calls": 69,
+        "nonpositive_calls": 0,
+        "wrong_positive_calls": 23,
+        "missed_positive_calls": 0,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 69,
+        "apply_precision_pct": 66.66666666666666,
+        "skip_recall_on_losers_pct": 0.0
+      }
+    },
+    "recent_23": {
+      "frozen_model": {
+        "n": 23,
+        "correct": 15,
+        "accuracy_pct": 65.21739130434783,
+        "accuracy_wilson_95_pct": [
+          44.88997690689164,
+          81.18894536301777
+        ],
+        "positive_calls": 21,
+        "nonpositive_calls": 2,
+        "wrong_positive_calls": 6,
+        "missed_positive_calls": 2,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 11,
+        "apply_precision_pct": 90.9090909090909,
+        "skip_recall_on_losers_pct": 0.0
+      },
+      "enriched_calibrated": {
+        "n": 23,
+        "correct": 17,
+        "accuracy_pct": 73.91304347826086,
+        "accuracy_wilson_95_pct": [
+          53.52960945624944,
+          87.45155411075103
+        ],
+        "positive_calls": 23,
+        "nonpositive_calls": 0,
+        "wrong_positive_calls": 6,
+        "missed_positive_calls": 0,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 7,
+        "apply_precision_pct": 85.71428571428571,
+        "skip_recall_on_losers_pct": 0.0
+      },
+      "gmp_fitted": {
+        "n": 23,
+        "correct": 13,
+        "accuracy_pct": 56.52173913043478,
+        "accuracy_wilson_95_pct": [
+          36.81104930501695,
+          74.36563166780135
+        ],
+        "positive_calls": 11,
+        "nonpositive_calls": 12,
+        "wrong_positive_calls": 2,
+        "missed_positive_calls": 8,
+        "decision_threshold": 0.625,
+        "apply_threshold": 0.82,
+        "apply_n": 6,
+        "apply_precision_pct": 100.0,
+        "skip_recall_on_losers_pct": 66.66666666666666
+      },
+      "gmp_sign": {
+        "n": 23,
+        "correct": 15,
+        "accuracy_pct": 65.21739130434783,
+        "accuracy_wilson_95_pct": [
+          44.88997690689164,
+          81.18894536301777
+        ],
+        "positive_calls": 21,
+        "nonpositive_calls": 2,
+        "wrong_positive_calls": 6,
+        "missed_positive_calls": 2,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 21,
+        "apply_precision_pct": 71.42857142857143,
+        "skip_recall_on_losers_pct": 0.0
+      },
+      "always_positive": {
+        "n": 23,
+        "correct": 17,
+        "accuracy_pct": 73.91304347826086,
+        "accuracy_wilson_95_pct": [
+          53.52960945624944,
+          87.45155411075103
+        ],
+        "positive_calls": 23,
+        "nonpositive_calls": 0,
+        "wrong_positive_calls": 6,
+        "missed_positive_calls": 0,
+        "decision_threshold": 0.5,
+        "apply_threshold": 0.82,
+        "apply_n": 23,
+        "apply_precision_pct": 73.91304347826086,
+        "skip_recall_on_losers_pct": 0.0
+      }
+    },
+    "recent_total": 24,
+    "pending_outcomes": [
+      "National Stock Exchange of India"
+    ],
+    "training_n": 290,
+    "training_end_year": 2025,
+    "training_test_overlap": 0,
+    "enriched_selected_policy": {
+      "n": 69,
+      "correct": 51,
+      "accuracy_pct": 73.91304347826086,
+      "brier": 0.1853318630539802,
+      "apply_count": 9,
+      "apply_precision_pct": 88.88888888888889,
+      "skip_recall_on_losers_pct": 26.08695652173913
+    },
+    "enriched_raw": {
+      "n": 69,
+      "correct": 54,
+      "accuracy_pct": 78.26086956521739,
+      "brier": 0.16638410689837388,
+      "apply_count": 34,
+      "apply_precision_pct": 85.29411764705883,
+      "skip_recall_on_losers_pct": 43.47826086956522
+    },
+    "return_cqr": {
+      "nominal_central_coverage": 0.6,
+      "calibration_year": 2025,
+      "fit_through": 2024,
+      "correction_pp": 1.1112226067188162,
+      "observed_2026_coverage": 0.6086956521739131,
+      "median_mae_pp": 11.89575239652695
+    },
+    "observed_new_training_features": {
+      "ofs_ratio": 0,
+      "ofs_x_pe_interaction": 0,
+      "anchor_domestic_mf_pct": 0,
+      "brlm_prior_listing_win_rate": 0,
+      "quota_weighted_book_mult": 0,
+      "log_min_category_mult": 290,
+      "bnii_to_snii_ratio": 0,
+      "day3_late_surge_ratio": 0,
+      "is_missing_financials": 290,
+      "is_missing_gmp": 290
+    },
+    "input_scope_note": "New deal-structure fields are timestamp gated. Reused legacy financial panels are fiscal-period checked, but their original publication instants are not certified. This is not a fully as-published reconstruction of every input.",
+    "live_promotion": false,
+    "reason": "The calibrated challenger did not beat the frozen model on the fixed 69 cases. Recent outcomes have already been inspected; neither cohort is a new untouched test."
+  },
+  "module2": {
+    "protocol": "One case per issuer; earlier outcomes mature before validation/test decisions; select C on 2024 Brier only; 132 fixed 2025-2026 cases.",
+    "holdout_n": 132,
+    "old_rule_correct": 62,
+    "old_rule_accuracy_pct": 46.96969696969697,
+    "always_sell_correct": 77,
+    "always_sell_accuracy_pct": 58.333333333333336,
+    "enriched_rule_correct": 63,
+    "enriched_rule_accuracy_pct": 47.72727272727273,
+    "enriched_ml_correct": 56,
+    "enriched_ml_accuracy_pct": 42.42424242424242,
+    "enriched_ml_raw_correct": 60,
+    "enriched_ml_raw_accuracy_pct": 45.45454545454545,
+    "calibration": "Isotonic on 2024 predictions from pre-2024 matured training only; final classifier refit on pre-test matured 2021-2024 outcomes.",
+    "binary_rule_mapping": "REDUCE / EXIT means sell; HOLD, ACCUMULATE and REVIEW / TRIM mean retain for this fixed direction test.",
+    "training_issuers": 226,
+    "training_ids": [
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      284,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      294,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      409,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500
+    ],
+    "test_ids": [
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      566,
+      567,
+      568,
+      569,
+      570,
+      572,
+      573,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      606,
+      608,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662,
+      663,
+      664,
+      665,
+      667,
+      670,
+      671,
+      672,
+      674,
+      675,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689
+    ],
+    "training_test_overlap": 0,
+    "calibration_issuers": 73,
+    "calibration_latest_outcome": "2025-02-11",
+    "first_test_decision": "2025-02-17",
+    "validation": [
+      {
+        "C": 0.05,
+        "brier": 0.26704202729634696
+      },
+      {
+        "C": 0.5,
+        "brier": 0.26902811981113617
+      },
+      {
+        "C": 5.0,
+        "brier": 0.2677403347095343
+      }
+    ],
+    "selected": {
+      "C": 0.05,
+      "brier": 0.26704202729634696
+    },
+    "live_promoted": false,
+    "coverage": {
+      "strict_delivery_cases": 0,
+      "filing_cases": 132,
+      "bulk_cases": 0
+    },
+    "limitations": [
+      "Strict delivery/bulk publication clocks remain missing; those inputs are excluded, not zero.",
+      "Missing anchor calendars cannot imply safe unlock status.",
+      "Exchange-summary snippets are not full attachments.",
+      "These later cases were inspected previously; research is not an untouched prospective test."
+    ]
+  },
+  "exchange_backfill": {
+    "delivery_rows": 34877,
+    "delivery_issuers": 399,
+    "filing_rows": 13581,
+    "filing_issuers": 380,
+    "deal_rows": 2820,
+    "network_requests": 0,
+    "cached_responses": 688,
+    "unique_delivery_sessions": 25206,
+    "unique_filings": 7866,
+    "unique_deals": 2819,
+    "strict_limitations": [
+      "Delivery/bulk dates without publication clocks are retained but excluded from strict same-session features.",
+      "No client name is assumed institutional without explicit source classification.",
+      "BSE enrichment is not fabricated when a verified adapter or identity is unavailable."
+    ],
+    "request_status_counts": {
+      "fetched": 688
+    }
+  },
+  "capital_economics": {
+    "implemented": true,
+    "categories": [
+      "retail",
+      "snii",
+      "bnii"
+    ],
+    "exact_allotment_adjusted_portfolio_return": null,
+    "valid_application_count_coverage": 0,
+    "status": "Exact portfolio score unavailable: verified valid application counts and category allocation basis were not recovered.",
+    "scenario_endpoint": "/api/v1/module1/capital-scenario",
+    "rules": [
+      "Charge financing on all borrowed blocked capital, including failed allotments.",
+      "Share oversubscription reciprocals and the bNII factor 5 are explicit scenarios, not exact lottery mechanics.",
+      "A category below 1x triggers a conservative optional gate, not a claim of certain loss."
+    ]
+  },
+  "outstanding": [
+    "Recover versioned pre-close RHP/anchor/BRLM evidence and bind category split tables to their own update clocks.",
+    "Verify BSE-only NSE issuer opening: archive access has returned HTTP 403; no NSE self-listing substitute is used.",
+    "BSE delivery, filings and deals need a verified exchange adapter.",
+    "Historical delivery/bulk original publication clocks and institutional client classifications remain incomplete.",
+    "Full filing attachments are not extracted by this exchange-summary collector.",
+    "Trendlyne metrics without historical publication clocks remain supplementary context.",
+    "Do not promote an enriched monitor until it beats baselines under a frozen prospective protocol."
+  ],
+  "non_promoted": true,
+  "notes": [
+    "No git push performed.",
+    "Original prediction rows are checked by their saved keys; later legitimate appends do not invalidate the prefix check.",
+    "69-case and recent-case comparisons are shown separately; stage/selection differences prevent a single pooled headline.",
+    "New rules are proposals under test, not scientifically established trading laws."
+  ],
+  "verification": {
+    "targeted_tests_passed": 48,
+    "runtime_smoke": {
+      "checked_at_utc": "2026-10-25T18:16:31.086695+00:00",
+      "checks": [
+        {
+          "check": "frontend",
+          "http_status": 200,
+          "status": null
+        },
+        {
+          "check": "performance",
+          "http_status": 200,
+          "status": "verified_current_snapshot"
+        },
+        {
+          "check": "enrichment",
+          "http_status": 200,
+          "status": "implemented_with_data_and_performance_gates"
+        },
+        {
+          "check": "calendar",
+          "http_status": 200,
+          "status": null
+        },
+        {
+          "check": "capital_scenario",
+          "http_status": 200,
+          "policy": "WATCH",
+          "EU_rupees": 150.0
+        },
+        {
+          "check": "dated_monitor_preview",
+          "http_status": 200,
+          "live_promoted": false
+        }
+      ],
+      "all_passed": true
+    }
+  },
+  "bse_outcome_status": {
+    "chitto_3151": {
+      "status": "pending",
+      "attempt_date": "2026-10-25",
+      "reason": "403 Client Error: Forbidden for url: https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20260924_F_0000.CSV",
+      "fetch_timestamp": "2026-10-25T23:40:59.399948+05:30"
+    }
+  },
+  "input_sha256": {
+    "data/deal_structure_enriched.csv": "60156d4b9923376340a8058a0543d608134810ec2db9035a2feb29f77a2bfce6",
+    "output/module1_full_enrichment_benchmark_20261025.json": "c5ab21e2c0643979653b9b6131bf8af759d7dd59f3ff12e52a2bf1edd52c9bf0",
+    "output/module2_enriched_benchmark_20261025.json": "a50ffe80e92c2127c3e9df48cd8e2268876812fadfc4716ad0a8f374a526cb0c",
+    "output/exchange_enrichment_backfill.json": "3f67d27003a093a127a0e01807ae620ca78967f742c2f11ecfd8e0d242e042c2",
+    "services/point_in_time.py": "5cacee6d22511a59598ce00946b163c67cc9cb59b5c13cfd371232078733fb12",
+    "services/enriched_monitor.py": "af1e04e1f856b4a5b3762d7fadaacb9af91f30be3f2501790dca46d17730cbde",
+    "services/retail_hni_economics.py": "65584d2262025655c595e3fdaa878c399fc98a2a0cb68be6d5316824344a5930",
+    "services/enrichment_runtime.py": "67a659e156ccef32b95a3105b1686523eea874c677d32c9c931041bcc63de45e",
+    "services/bse_listing_outcomes.py": "569dbf7f57391840ffcb39a1461d5608b7e1e6958252dad530f78df5551bdb58",
+    "ml/run_full_enrichment_audit.py": "0b118808c049d8968347ad676eb17f82a7ca66896c64e6a0dfeaf8540ef7e0f0",
+    "ml/train_module2_enriched.py": "35db523fa24f28e5807feaa789bec15027b4164e128967a5ffc5e1d592e79416",
+    "ml/research_module1_enriched.py": "b62df12a168fbfe877ebee9fe00e2eed69eb207e71ce47fbd3e3e452d648ba9f",
+    "ml/extract_cached_deal_structure.py": "4db8d5451f2fb3e28b75863a8ab6b785ce500179eb20c6cbafa130d7a0f54bb2",
+    "scrapers/exchange_enrichment_scraper.py": "2048c7badf6074aac41228ba03f448f3797eca0dd38311795e7401939ea4d22f",
+    "ml/artifacts/module1_full_enrichment_research_20261025.joblib": "0e0855c4d12bae39fd992a8b17b2f0e29df853c8770b6cee83d37c0f79ace20d",
+    "ml/artifacts/module2_enriched_research_20261025.joblib": "38a1f5d2a2e713c1c98e585a83b80a3de3b3241fef4762771f74b6e144ee9cc9"
+  }
+}

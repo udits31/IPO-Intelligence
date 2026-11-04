@@ -1,0 +1,54 @@
+{
+  "candidate_pages": 27,
+  "accepted": 17,
+  "rejection_counts": {
+    "missing_category": 4,
+    "identity_or_nse_date_mismatch": 4,
+    "day_number_date_mismatch": 1,
+    "missing_penultimate_or_final_day": 1
+  },
+  "rejected_examples": [
+    {
+      "page_id": 102,
+      "reason": "day_number_date_mismatch"
+    },
+    {
+      "page_id": 101,
+      "reason": "missing_category"
+    },
+    {
+      "page_id": 100,
+      "reason": "missing_category"
+    },
+    {
+      "page_id": 103,
+      "reason": "missing_category"
+    },
+    {
+      "page_id": 108,
+      "reason": "missing_category"
+    },
+    {
+      "page_id": 109,
+      "reason": "missing_penultimate_or_final_day"
+    },
+    {
+      "page_id": 110,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 118,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 117,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 120,
+      "reason": "identity_or_nse_date_mismatch"
+    }
+  ],
+  "page_ids_checked": 31,
+  "limitations": "Retrospective cells may have been changed after each bidding day. Separate source agreement and dated publication evidence are needed before promotion."
+}

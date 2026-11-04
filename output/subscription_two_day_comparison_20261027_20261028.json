@@ -1,0 +1,289 @@
+{
+  "dates_ist": [
+    "2026-10-27",
+    "2026-10-28"
+  ],
+  "policy": "One latest attempt per IPO/source/slot for coverage; latest verified NSE book; last saved five-expert call before 17:00 IST each day. Repeated captures are not independent IPO outcomes.",
+  "coverage": [
+    {
+      "day": "2026-10-27",
+      "company_name": "BLS Polymers",
+      "source_family": "chittorgarh_investorgain",
+      "slots": 48,
+      "complete": 0
+    },
+    {
+      "day": "2026-10-27",
+      "company_name": "BLS Polymers",
+      "source_family": "nse_exchange",
+      "slots": 48,
+      "complete": 48
+    },
+    {
+      "day": "2026-10-27",
+      "company_name": "EAAA India Alternatives",
+      "source_family": "chittorgarh_investorgain",
+      "slots": 9,
+      "complete": 9
+    },
+    {
+      "day": "2026-10-27",
+      "company_name": "EAAA India Alternatives",
+      "source_family": "nse_exchange",
+      "slots": 9,
+      "complete": 9
+    },
+    {
+      "day": "2026-10-27",
+      "company_name": "SFC Environmental Technologies",
+      "source_family": "chittorgarh_investorgain",
+      "slots": 9,
+      "complete": 0
+    },
+    {
+      "day": "2026-10-27",
+      "company_name": "SFC Environmental Technologies",
+      "source_family": "nse_exchange",
+      "slots": 9,
+      "complete": 9
+    },
+    {
+      "day": "2026-10-28",
+      "company_name": "BLS Polymers",
+      "source_family": "chittorgarh_investorgain",
+      "slots": 48,
+      "complete": 48
+    },
+    {
+      "day": "2026-10-28",
+      "company_name": "BLS Polymers",
+      "source_family": "nse_exchange",
+      "slots": 48,
+      "complete": 48
+    },
+    {
+      "day": "2026-10-28",
+      "company_name": "EAAA India Alternatives",
+      "source_family": "chittorgarh_investorgain",
+      "slots": 48,
+      "complete": 48
+    },
+    {
+      "day": "2026-10-28",
+      "company_name": "EAAA India Alternatives",
+      "source_family": "nse_exchange",
+      "slots": 48,
+      "complete": 48
+    },
+    {
+      "day": "2026-10-28",
+      "company_name": "M.K.Sons Fine Jewels",
+      "source_family": "chittorgarh_investorgain",
+      "slots": 48,
+      "complete": 39
+    },
+    {
+      "day": "2026-10-28",
+      "company_name": "M.K.Sons Fine Jewels",
+      "source_family": "nse_exchange",
+      "slots": 48,
+      "complete": 47
+    },
+    {
+      "day": "2026-10-28",
+      "company_name": "SFC Environmental Technologies",
+      "source_family": "chittorgarh_investorgain",
+      "slots": 48,
+      "complete": 8
+    },
+    {
+      "day": "2026-10-28",
+      "company_name": "SFC Environmental Technologies",
+      "source_family": "nse_exchange",
+      "slots": 48,
+      "complete": 48
+    }
+  ],
+  "near_cutoff_books": [
+    {
+      "day": "2026-10-27",
+      "company": "EAAA India Alternatives",
+      "qib": 0.45410861877103015,
+      "nii": 0.47497681938137465,
+      "retail": 0.10545911793986207,
+      "total": 0.28425562731664755,
+      "publisher_time": "Updated as on 27-Oct-2026 16:51:00",
+      "source_sha256": "e1a059cb1c89572b4b68499e6096223184527a29e1aa6b6a6b893cfc4e4a3ece",
+      "source_hash_valid": true
+    },
+    {
+      "day": "2026-10-27",
+      "company": "SFC Environmental Technologies",
+      "qib": 0.0007563696333906048,
+      "nii": 0.08864354757432773,
+      "retail": 0.1562507062274572,
+      "total": 0.09733650551874384,
+      "publisher_time": "Updated as on 27-Oct-2026 16:51:00",
+      "source_sha256": "ea6551600b5f2ac55f7b421391a2936813e66b905416707507f0278d632442a5",
+      "source_hash_valid": true
+    },
+    {
+      "day": "2026-10-27",
+      "company": "BLS Polymers",
+      "qib": 12.022764705882352,
+      "nii": 12.686901960784313,
+      "retail": 6.695361344537815,
+      "total": 9.501378151260504,
+      "publisher_time": "Updated as on 27-Oct-2026 16:51:00",
+      "source_sha256": "5a1f9f1e0c26024992db1e0293ed36ff0872a52763e6b57d23490710a21c52b2",
+      "source_hash_valid": true
+    },
+    {
+      "day": "2026-10-28",
+      "company": "EAAA India Alternatives",
+      "qib": 13.134759393605183,
+      "nii": 4.560788695783109,
+      "retail": 0.9718745495014419,
+      "total": 5.216036842951391,
+      "publisher_time": "Updated as on 28-Oct-2026 16:51:00",
+      "source_sha256": "86f6653133f82e35ef266777a6622bdb20a5ac882b52cac2ddb75c0c4629ab76",
+      "source_hash_valid": true
+    },
+    {
+      "day": "2026-10-28",
+      "company": "SFC Environmental Technologies",
+      "qib": 0.07792831840492026,
+      "nii": 0.36885622749223773,
+      "retail": 0.33830696374171737,
+      "total": 0.27045933881290507,
+      "publisher_time": "Updated as on 28-Oct-2026 16:51:00",
+      "source_sha256": "dc10569b6ace1f1cae88c1ef6c853b8e3f69dcd5175155abe20f45e1350cdfb5",
+      "source_hash_valid": true
+    },
+    {
+      "day": "2026-10-28",
+      "company": "BLS Polymers",
+      "qib": 12.199264705882353,
+      "nii": 78.07529411764706,
+      "retail": 29.491210084033614,
+      "total": 34.96152941176471,
+      "publisher_time": "Updated as on 28-Oct-2026 16:51:00",
+      "source_sha256": "e2de5661df1d97b87773d1f02e97b06996f663675418af027ad2140db4a2c308",
+      "source_hash_valid": true
+    },
+    {
+      "day": "2026-10-28",
+      "company": "M.K.Sons Fine Jewels",
+      "qib": 0.9624588235294118,
+      "nii": 1.1603035294117647,
+      "retail": 0.22789764705882354,
+      "total": 0.6375735294117647,
+      "publisher_time": "Updated as on 28-Oct-2026 16:51:00",
+      "source_sha256": "13d4684bd1d7ad1088102e002a422ff8c3ebbe9a6294c8bdcd8520672b5b1187",
+      "source_hash_valid": true
+    }
+  ],
+  "saved_near_cutoff_forecasts": [
+    {
+      "day": "2026-10-27",
+      "company": "EAAA India Alternatives",
+      "score": 0.4578563884819667,
+      "gmp_pct": 0.6,
+      "application_screen": "HARD_SKIP",
+      "missing_features": [],
+      "saved_at": "2026-10-27T16:55:16.055230+05:30",
+      "model_sha": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+      "protocol_sha": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02"
+    },
+    {
+      "day": "2026-10-27",
+      "company": "SFC Environmental Technologies",
+      "score": 0.4291463484609196,
+      "gmp_pct": 5.45,
+      "application_screen": "HARD_SKIP",
+      "missing_features": [
+        "log_hni_growth",
+        "log_qib_growth",
+        "log_retail_growth",
+        "pub_ipo_earnings_yield_pct",
+        "pub_log_ipo_price_book"
+      ],
+      "saved_at": "2026-10-27T16:55:12.426291+05:30",
+      "model_sha": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+      "protocol_sha": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02"
+    },
+    {
+      "day": "2026-10-27",
+      "company": "BLS Polymers",
+      "score": 0.9145349275418199,
+      "gmp_pct": 28.67,
+      "application_screen": "APPLY_TIER_1",
+      "missing_features": [
+        "log_hni_growth",
+        "log_qib_growth",
+        "log_retail_growth"
+      ],
+      "saved_at": "2026-10-27T16:55:12.008469+05:30",
+      "model_sha": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+      "protocol_sha": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02"
+    },
+    {
+      "day": "2026-10-28",
+      "company": "EAAA India Alternatives",
+      "score": 0.8215055298494471,
+      "gmp_pct": 1.14,
+      "application_screen": "HARD_SKIP",
+      "missing_features": [],
+      "saved_at": "2026-10-28T16:55:17.287070+05:30",
+      "model_sha": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+      "protocol_sha": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02"
+    },
+    {
+      "day": "2026-10-28",
+      "company": "SFC Environmental Technologies",
+      "score": 0.416036433282175,
+      "gmp_pct": 4.55,
+      "application_screen": "HARD_SKIP",
+      "missing_features": [
+        "pub_ipo_earnings_yield_pct",
+        "pub_log_ipo_price_book"
+      ],
+      "saved_at": "2026-10-28T16:55:11.979824+05:30",
+      "model_sha": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+      "protocol_sha": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02"
+    },
+    {
+      "day": "2026-10-28",
+      "company": "BLS Polymers",
+      "score": 0.9542506690624245,
+      "gmp_pct": 31.33,
+      "application_screen": "APPLY_TIER_1",
+      "missing_features": [],
+      "saved_at": "2026-10-28T16:55:11.407988+05:30",
+      "model_sha": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+      "protocol_sha": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02"
+    },
+    {
+      "day": "2026-10-28",
+      "company": "M.K.Sons Fine Jewels",
+      "score": 0.5149537273147938,
+      "gmp_pct": 7.41,
+      "application_screen": "HARD_SKIP",
+      "missing_features": [
+        "log_hni_growth",
+        "log_qib_growth",
+        "log_retail_growth"
+      ],
+      "saved_at": "2026-10-28T16:55:19.913023+05:30",
+      "model_sha": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+      "protocol_sha": "88fc9d916c25f9a70d8534ce6fd55141666049088b34b803b9188cf6e508ac02"
+    }
+  ],
+  "outcomes_pending": [
+    "BLS Polymers",
+    "EAAA India Alternatives",
+    "M.K.Sons Fine Jewels",
+    "SFC Environmental Technologies"
+  ],
+  "accuracy_improvement_established": false
+}

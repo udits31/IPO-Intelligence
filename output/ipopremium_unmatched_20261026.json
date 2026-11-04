@@ -1,0 +1,476 @@
+[
+  {
+    "issuer_key": "247",
+    "company_name": "CMS Info Systems Ltd.",
+    "issue_price": 216.0,
+    "listing_date": "2021-12-31"
+  },
+  {
+    "issuer_key": "248",
+    "company_name": "Supriya Lifescience Ltd.",
+    "issue_price": 274.0,
+    "listing_date": "2021-12-28"
+  },
+  {
+    "issuer_key": "249",
+    "company_name": "HP Adhesives Ltd.",
+    "issue_price": 274.0,
+    "listing_date": "2021-12-27"
+  },
+  {
+    "issuer_key": "250",
+    "company_name": "Data Patterns (India) Ltd.",
+    "issue_price": 585.0,
+    "listing_date": "2021-12-24"
+  },
+  {
+    "issuer_key": "251",
+    "company_name": "Medplus Health Services Ltd.",
+    "issue_price": 796.0,
+    "listing_date": "2021-12-23"
+  },
+  {
+    "issuer_key": "252",
+    "company_name": "Metro Brands Ltd.",
+    "issue_price": 500.0,
+    "listing_date": "2021-12-22"
+  },
+  {
+    "issuer_key": "253",
+    "company_name": "C.E.Info systems Ltd.",
+    "issue_price": 1033.0,
+    "listing_date": "2021-12-21"
+  },
+  {
+    "issuer_key": "254",
+    "company_name": "Shriram Properties Ltd.",
+    "issue_price": 118.0,
+    "listing_date": "2021-12-20"
+  },
+  {
+    "issuer_key": "258",
+    "company_name": "Star Health & Allied Insurance Co.Ltd.",
+    "issue_price": 900.0,
+    "listing_date": "2021-12-10"
+  },
+  {
+    "issuer_key": "259",
+    "company_name": "Go Fashion (India) Ltd.",
+    "issue_price": 690.0,
+    "listing_date": "2021-11-30"
+  },
+  {
+    "issuer_key": "260",
+    "company_name": "Tarsons Products Ltd.",
+    "issue_price": 662.0,
+    "listing_date": "2021-11-26"
+  },
+  {
+    "issuer_key": "261",
+    "company_name": "Latent View Analytics Ltd.",
+    "issue_price": 197.0,
+    "listing_date": "2021-11-23"
+  },
+  {
+    "issuer_key": "262",
+    "company_name": "One 97 Communications Ltd.",
+    "issue_price": 2150.0,
+    "listing_date": "2021-11-18"
+  },
+  {
+    "issuer_key": "263",
+    "company_name": "Sapphire Foods India Ltd.",
+    "issue_price": 1180.0,
+    "listing_date": "2021-11-18"
+  },
+  {
+    "issuer_key": "264",
+    "company_name": "S.J.S.Enterprises Ltd.",
+    "issue_price": 542.0,
+    "listing_date": "2021-11-15"
+  },
+  {
+    "issuer_key": "265",
+    "company_name": "Sigachi Industries Ltd.",
+    "issue_price": 163.0,
+    "listing_date": "2021-11-15"
+  },
+  {
+    "issuer_key": "266",
+    "company_name": "PB Fintech Ltd.",
+    "issue_price": 980.0,
+    "listing_date": "2021-11-15"
+  },
+  {
+    "issuer_key": "267",
+    "company_name": "Fino Payments Bank Ltd.",
+    "issue_price": 577.0,
+    "listing_date": "2021-11-12"
+  },
+  {
+    "issuer_key": "268",
+    "company_name": "FSN E-Commerce Ventures Ltd.",
+    "issue_price": 1125.0,
+    "listing_date": "2021-11-10"
+  },
+  {
+    "issuer_key": "269",
+    "company_name": "Aditya Birla Sun Life AMC Ltd.",
+    "issue_price": 712.0,
+    "listing_date": "2021-10-11"
+  },
+  {
+    "issuer_key": "270",
+    "company_name": "Paras Defence & Space Technologies Ltd.",
+    "issue_price": 175.0,
+    "listing_date": "2021-10-01"
+  },
+  {
+    "issuer_key": "271",
+    "company_name": "Sansera Engineering Ltd.",
+    "issue_price": 744.0,
+    "listing_date": "2021-09-24"
+  },
+  {
+    "issuer_key": "273",
+    "company_name": "Vijaya Diagnostic Centre Ltd.",
+    "issue_price": 531.0,
+    "listing_date": "2021-09-14"
+  },
+  {
+    "issuer_key": "275",
+    "company_name": "Chemplast Sanmar Ltd.",
+    "issue_price": 541.0,
+    "listing_date": "2021-08-24"
+  },
+  {
+    "issuer_key": "276",
+    "company_name": "Nuvoco Vistas Corp.Ltd.",
+    "issue_price": 570.0,
+    "listing_date": "2021-08-23"
+  },
+  {
+    "issuer_key": "277",
+    "company_name": "CarTrade Tech Ltd.",
+    "issue_price": 1618.0,
+    "listing_date": "2021-08-20"
+  },
+  {
+    "issuer_key": "278",
+    "company_name": "Krsnaa Diagnostics Ltd.",
+    "issue_price": 954.0,
+    "listing_date": "2021-08-16"
+  },
+  {
+    "issuer_key": "279",
+    "company_name": "Devyani International Ltd.",
+    "issue_price": 90.0,
+    "listing_date": "2021-08-16"
+  },
+  {
+    "issuer_key": "280",
+    "company_name": "Exxaro Tiles Ltd.",
+    "issue_price": 120.0,
+    "listing_date": "2021-08-16"
+  },
+  {
+    "issuer_key": "281",
+    "company_name": "Windlas Biotech Ltd.",
+    "issue_price": 460.0,
+    "listing_date": "2021-08-16"
+  },
+  {
+    "issuer_key": "282",
+    "company_name": "Rolex Rings Ltd.",
+    "issue_price": 900.0,
+    "listing_date": "2021-08-09"
+  },
+  {
+    "issuer_key": "283",
+    "company_name": "Glenmark Life Sciences Ltd.",
+    "issue_price": 720.0,
+    "listing_date": "2021-08-06"
+  },
+  {
+    "issuer_key": "284",
+    "company_name": "Tatva Chintan Pharma Chem Ltd.",
+    "issue_price": 1083.0,
+    "listing_date": "2021-07-29"
+  },
+  {
+    "issuer_key": "257",
+    "company_name": "Tega Industries Ltd.",
+    "issue_price": 453.0,
+    "listing_date": "2021-12-13"
+  },
+  {
+    "issuer_key": "256",
+    "company_name": "Anand Rathi Wealth Ltd.",
+    "issue_price": 550.0,
+    "listing_date": "2021-12-14"
+  },
+  {
+    "issuer_key": "285",
+    "company_name": "Zomato Ltd.",
+    "issue_price": 76.0,
+    "listing_date": "2021-07-23"
+  },
+  {
+    "issuer_key": "255",
+    "company_name": "Rategain Travel Technologies Ltd.",
+    "issue_price": 425.0,
+    "listing_date": "2021-12-17"
+  },
+  {
+    "issuer_key": "289",
+    "company_name": "Dodla Dairy Ltd.",
+    "issue_price": 428.0,
+    "listing_date": "2021-06-28"
+  },
+  {
+    "issuer_key": "290",
+    "company_name": "Krishna Institute of Medical Sciences Ltd.",
+    "issue_price": 825.0,
+    "listing_date": "2021-06-28"
+  },
+  {
+    "issuer_key": "291",
+    "company_name": "Shyam Metalics & Energy Ltd.",
+    "issue_price": 306.0,
+    "listing_date": "2021-06-24"
+  },
+  {
+    "issuer_key": "292",
+    "company_name": "Sona BLW Precision Forgings Ltd.",
+    "issue_price": 291.0,
+    "listing_date": "2021-06-24"
+  },
+  {
+    "issuer_key": "294",
+    "company_name": "Macrotech Developers Ltd.",
+    "issue_price": 486.0,
+    "listing_date": "2021-04-19"
+  },
+  {
+    "issuer_key": "295",
+    "company_name": "Barbeque-Nation Hospitality Ltd.",
+    "issue_price": 500.0,
+    "listing_date": "2021-04-07"
+  },
+  {
+    "issuer_key": "296",
+    "company_name": "Nazara Technologies Ltd.",
+    "issue_price": 1101.0,
+    "listing_date": "2021-03-30"
+  },
+  {
+    "issuer_key": "297",
+    "company_name": "Kalyan Jewellers India Ltd.",
+    "issue_price": 87.0,
+    "listing_date": "2021-03-26"
+  },
+  {
+    "issuer_key": "299",
+    "company_name": "Craftsman Automation Ltd.",
+    "issue_price": 1490.0,
+    "listing_date": "2021-03-25"
+  },
+  {
+    "issuer_key": "300",
+    "company_name": "Laxmi Organic Industries Ltd.",
+    "issue_price": 130.0,
+    "listing_date": "2021-03-25"
+  },
+  {
+    "issuer_key": "301",
+    "company_name": "Anupam Rasayan India Ltd.",
+    "issue_price": 555.0,
+    "listing_date": "2021-03-24"
+  },
+  {
+    "issuer_key": "302",
+    "company_name": "Easy Trip Planners Ltd.",
+    "issue_price": 187.0,
+    "listing_date": "2021-03-19"
+  },
+  {
+    "issuer_key": "303",
+    "company_name": "MTAR Technologies Ltd.",
+    "issue_price": 575.0,
+    "listing_date": "2021-03-15"
+  },
+  {
+    "issuer_key": "304",
+    "company_name": "Heranba Industries Ltd.",
+    "issue_price": 627.0,
+    "listing_date": "2021-03-05"
+  },
+  {
+    "issuer_key": "305",
+    "company_name": "RailTel Corp.of India Ltd.",
+    "issue_price": 94.0,
+    "listing_date": "2021-02-26"
+  },
+  {
+    "issuer_key": "306",
+    "company_name": "Nureca Ltd.",
+    "issue_price": 400.0,
+    "listing_date": "2021-02-25"
+  },
+  {
+    "issuer_key": "308",
+    "company_name": "Stove Kraft Ltd.",
+    "issue_price": 385.0,
+    "listing_date": "2021-02-05"
+  },
+  {
+    "issuer_key": "309",
+    "company_name": "Home First Finance Co.India Ltd.",
+    "issue_price": 518.0,
+    "listing_date": "2021-02-03"
+  },
+  {
+    "issuer_key": "312",
+    "company_name": "Antony Waste Handling Cell Ltd.",
+    "issue_price": 315.0,
+    "listing_date": "2021-01-01"
+  },
+  {
+    "issuer_key": "310",
+    "company_name": "Indigo Paints Ltd.",
+    "issue_price": 1490.0,
+    "listing_date": "2021-02-02"
+  },
+  {
+    "issuer_key": "288",
+    "company_name": "India Pesticides Ltd.",
+    "issue_price": 296.0,
+    "listing_date": "2021-07-05"
+  },
+  {
+    "issuer_key": "311",
+    "company_name": "Indian Railway Finance Corp.Ltd.",
+    "issue_price": 26.0,
+    "listing_date": "2021-01-29"
+  },
+  {
+    "issuer_key": "287",
+    "company_name": "Clean Science & Technology Ltd.",
+    "issue_price": 900.0,
+    "listing_date": "2021-07-19"
+  },
+  {
+    "issuer_key": "336",
+    "company_name": "eMudhra Ltd.",
+    "issue_price": 256.0,
+    "listing_date": "2022-06-01"
+  },
+  {
+    "issuer_key": "337",
+    "company_name": "Ethos Ltd.",
+    "issue_price": 878.0,
+    "listing_date": "2022-05-30"
+  },
+  {
+    "issuer_key": "338",
+    "company_name": "Paradeep Phosphates Ltd.",
+    "issue_price": 42.0,
+    "listing_date": "2022-05-27"
+  },
+  {
+    "issuer_key": "339",
+    "company_name": "Delhivery Ltd.",
+    "issue_price": 487.0,
+    "listing_date": "2022-05-24"
+  },
+  {
+    "issuer_key": "340",
+    "company_name": "Venus Pipes & Tubes Ltd.",
+    "issue_price": 326.0,
+    "listing_date": "2022-05-24"
+  },
+  {
+    "issuer_key": "341",
+    "company_name": "Prudent Corporate Advisory Services Ltd.",
+    "issue_price": 630.0,
+    "listing_date": "2022-05-20"
+  },
+  {
+    "issuer_key": "342",
+    "company_name": "Life Insurance Corp.of India",
+    "issue_price": 949.0,
+    "listing_date": "2022-05-17"
+  },
+  {
+    "issuer_key": "343",
+    "company_name": "Rainbow Children's Medicare Ltd.",
+    "issue_price": 542.0,
+    "listing_date": "2022-05-10"
+  },
+  {
+    "issuer_key": "344",
+    "company_name": "Campus Activewear Ltd.",
+    "issue_price": 292.0,
+    "listing_date": "2022-05-09"
+  },
+  {
+    "issuer_key": "345",
+    "company_name": "Hariom Pipe Industries Ltd.",
+    "issue_price": 153.0,
+    "listing_date": "2022-04-13"
+  },
+  {
+    "issuer_key": "346",
+    "company_name": "Veranda Learning Solutions Ltd.",
+    "issue_price": 137.0,
+    "listing_date": "2022-04-11"
+  },
+  {
+    "issuer_key": "351",
+    "company_name": "AGS Transact Technologies Ltd.",
+    "issue_price": 175.0,
+    "listing_date": "2022-01-31"
+  },
+  {
+    "issuer_key": "350",
+    "company_name": "Adani Wilmar Ltd.",
+    "issue_price": 230.0,
+    "listing_date": "2022-02-08"
+  },
+  {
+    "issuer_key": "272",
+    "company_name": "Ami Organics Ltd.",
+    "issue_price": 610.0,
+    "listing_date": "2021-09-14"
+  },
+  {
+    "issuer_key": "274",
+    "company_name": "Aptus Value Housing Finance India Ltd.",
+    "issue_price": 353.0,
+    "listing_date": "2021-08-24"
+  },
+  {
+    "issuer_key": "286",
+    "company_name": "G R Infraprojects Ltd.",
+    "issue_price": 837.0,
+    "listing_date": "2021-07-19"
+  },
+  {
+    "issuer_key": "298",
+    "company_name": "Suryoday Small Finance Bank Ltd.",
+    "issue_price": 305.0,
+    "listing_date": "2021-03-26"
+  },
+  {
+    "issuer_key": "348",
+    "company_name": "Uma Exports Ltd.",
+    "issue_price": 68.0,
+    "listing_date": "2022-04-07"
+  },
+  {
+    "issuer_key": "349",
+    "company_name": "Vedant Fashions Ltd.",
+    "issue_price": 866.0,
+    "listing_date": "2022-02-16"
+  }
+]

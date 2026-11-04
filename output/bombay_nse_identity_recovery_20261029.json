@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "source_family": "nse_exchange",
+  "source_name": "nse_ipo_category_v1",
+  "values": {
+    "qib_subscription": 6.55461064796561,
+    "hni_subscription": 0.7217801073593447,
+    "bnii_subscription": 0.48848494919861857,
+    "snii_subscription": 1.188370622493485,
+    "retail_subscription": 1.241923731847822
+  },
+  "error": null,
+  "fetched_at_ist": "2026-10-29T19:05:11+05:30",
+  "http_status": 200,
+  "raw_sha256": "6aaf1a4fe01926bf67cb3ee5e5b27bc880cbf88699c60afe153e2c27b396e18c",
+  "nse_symbol": "BCSSL",
+  "series": "EQ",
+  "subscription_url": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=BCSSL",
+  "source_displayed_at_ist": "2026-10-29T17:00:00+05:30",
+  "historical_close": false,
+  "parser_version": "nse_category_json_v1"
+}

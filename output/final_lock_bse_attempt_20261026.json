@@ -1,0 +1,11 @@
+{
+  "saved": [],
+  "pending": [
+    {
+      "ipo_id": "chitto_3151",
+      "exchange": "BSE",
+      "reason": "403 Client Error: Forbidden for url: https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20260924_F_0000.CSV",
+      "cached_failure": true
+    }
+  ]
+}

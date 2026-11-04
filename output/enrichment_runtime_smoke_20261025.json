@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-10-25T18:16:31.086695+00:00",
+  "checks": [
+    {
+      "check": "frontend",
+      "http_status": 200,
+      "status": null
+    },
+    {
+      "check": "performance",
+      "http_status": 200,
+      "status": "verified_current_snapshot"
+    },
+    {
+      "check": "enrichment",
+      "http_status": 200,
+      "status": "implemented_with_data_and_performance_gates"
+    },
+    {
+      "check": "calendar",
+      "http_status": 200,
+      "status": null
+    },
+    {
+      "check": "capital_scenario",
+      "http_status": 200,
+      "policy": "WATCH",
+      "EU_rupees": 150.0
+    },
+    {
+      "check": "dated_monitor_preview",
+      "http_status": 200,
+      "live_promoted": false
+    }
+  ],
+  "all_passed": true
+}

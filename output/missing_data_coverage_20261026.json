@@ -1,0 +1,92 @@
+{
+  "training_290": {
+    "gmp_pct": {
+      "present": 270,
+      "missing": 20
+    },
+    "ofs_ratio": {
+      "present": 45,
+      "missing": 245
+    },
+    "quota_weighted_book_mult": {
+      "present": 107,
+      "missing": 183
+    },
+    "day2_to_cutoff_conviction": {
+      "present": 161,
+      "missing": 129
+    },
+    "pub_ipo_earnings_yield_pct": {
+      "present": 159,
+      "missing": 131
+    },
+    "pub_log_ipo_price_book": {
+      "present": 158,
+      "missing": 132
+    },
+    "lot_size_shares": {
+      "present": 216,
+      "missing": 74
+    }
+  },
+  "test_69": {
+    "gmp_pct": {
+      "present": 69,
+      "missing": 0
+    },
+    "ofs_ratio": {
+      "present": 5,
+      "missing": 64
+    },
+    "quota_weighted_book_mult": {
+      "present": 41,
+      "missing": 28
+    },
+    "day2_to_cutoff_conviction": {
+      "present": 69,
+      "missing": 0
+    },
+    "pub_ipo_earnings_yield_pct": {
+      "present": 59,
+      "missing": 10
+    },
+    "pub_log_ipo_price_book": {
+      "present": 55,
+      "missing": 14
+    },
+    "lot_size_shares": {
+      "present": 69,
+      "missing": 0
+    }
+  },
+  "recent_23": {
+    "gmp_pct": {
+      "present": 23,
+      "missing": 0
+    },
+    "ofs_ratio": {
+      "present": 6,
+      "missing": 17
+    },
+    "quota_weighted_book_mult": {
+      "present": 1,
+      "missing": 22
+    },
+    "day2_to_cutoff_conviction": {
+      "present": 1,
+      "missing": 22
+    },
+    "pub_ipo_earnings_yield_pct": {
+      "present": 20,
+      "missing": 3
+    },
+    "pub_log_ipo_price_book": {
+      "present": 17,
+      "missing": 6
+    },
+    "lot_size_shares": {
+      "present": 22,
+      "missing": 1
+    }
+  }
+}

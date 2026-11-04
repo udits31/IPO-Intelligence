@@ -1,0 +1,77 @@
+{
+  "status": "healthy",
+  "version": "5.1.0",
+  "live_data_refresh": {
+    "status": "fresh",
+    "last_refresh_at": "2026-10-26T11:00:12.824458",
+    "cache_age_seconds": 7.8,
+    "items_synced": 20,
+    "detail_rescrape": false,
+    "error": null,
+    "macro_timestamp": "2026-10-26T11:00:00+05:30",
+    "duration_seconds": 7.12
+  },
+  "news_refresh": {
+    "companies_cached": 67,
+    "fresh_companies": 51,
+    "ttl_seconds": 600,
+    "last_checked_at": "2026-10-26T05:26:25.063563+00:00"
+  },
+  "models_loaded": [
+    "Frozen five-expert stack (active)",
+    "Subscription-only logistic regression (legacy context)",
+    "SimilarityEngine (kNN)",
+    "AttributionEngine",
+    "HoldSellMonitor",
+    "AICopilotService"
+  ],
+  "module1_model": {
+    "model_name": "Frozen five-expert log-odds stack",
+    "configuration": "M1_V1_FROZEN_WITH_RECOVERED_INPUTS",
+    "artifact_sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+    "training_end_year": 2025,
+    "decision_threshold": 0.5,
+    "probability_calibration": "none"
+  },
+  "legacy_context_model": {
+    "model_name": "Subscription-only logistic regression",
+    "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+    "training_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "training_samples": 252,
+    "decision_threshold": 0.82
+  },
+  "collectors": {
+    "module1_bid_collector_running": true,
+    "module1_last_poll_slot": "2026-10-26_1100",
+    "frozen_forecast_collector_running": true,
+    "frozen_forecast_last_cycle": {
+      "state": "running",
+      "last_cycle_at": "2026-10-26T11:00:38.212100+05:30",
+      "error": null,
+      "outcome_error": null,
+      "saved_last_cycle": 5
+    },
+    "module2_reaction_collector_running": true,
+    "module2_last_news_check_ist": "2026-10-26T11:00:19.993057+05:30",
+    "module2_last_close_check_ist": null
+  },
+  "live_macro_regime": {
+    "india_vix": 17.62,
+    "vix_change_pct": 4.47,
+    "nifty_close": 22620.15,
+    "nifty_day_change_pct": 0.09,
+    "nifty_10d_return": 1.06,
+    "regime_label": "Moderate Volatility",
+    "source": "nse_india",
+    "history_source": "yahoo_finance",
+    "is_fallback": false,
+    "timestamp": "2026-10-26T10:59:00+05:30",
+    "retrieved_at_ist": "2026-10-26T11:00:39.449888+05:30",
+    "is_market_session_current": true
+  }
+}

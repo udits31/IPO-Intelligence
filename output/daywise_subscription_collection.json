@@ -1,0 +1,1119 @@
+{
+  "checked": 241,
+  "accepted": 143,
+  "reason_counts": {
+    "accepted": 143,
+    "article_date_or_day_table_mismatch": 57,
+    "no_matching_subscription_article": 41
+  },
+  "audit": [
+    {
+      "ipo_id": 312,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 310,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/indigo-paints-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 309,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 308,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/stove-kraft-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 307,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 306,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/nureca-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 305,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/railtel-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 304,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/heranba-industries-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 303,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/mtar-technologies-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 302,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 300,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/laxmi-organic-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 299,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/craftsman-automation-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 298,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 297,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/kalyan-jewellers-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 296,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/nazara-technologies-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 295,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/barbeque-nation-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 294,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 293,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 292,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 291,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/shyam-metalics-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 290,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 289,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/dodla-dairy-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 288,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/india-pesticides-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 287,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/clean-science-technology-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 286,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 285,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/zomato-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 284,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/tatva-chintan-pharma-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 283,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/glenmark-life-sciences-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 282,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/rolex-rings-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 278,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/krsnaa-diagnostics-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 279,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/devyani-international-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 280,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/exxaro-tiles-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 281,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/windlas-biotech-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 277,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/cartrade-ipo-subscription-status-live-numbers/"
+    },
+    {
+      "ipo_id": 274,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/aptus-value-housing-finance-ipo-subscription-status-live-numbers/"
+    },
+    {
+      "ipo_id": 275,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/chemplast-sanmar-ipo-subscription-status-live-numbers/"
+    },
+    {
+      "ipo_id": 273,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/vijaya-diagnostic-ipo-subscription-status-live-numbers-final-data/"
+    },
+    {
+      "ipo_id": 272,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/ami-organics-ipo-subscription-status-live-numbers-final-data/"
+    },
+    {
+      "ipo_id": 271,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/sansera-engineering-ipo-subscription-status-live-numbers-final-data/"
+    },
+    {
+      "ipo_id": 270,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 269,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/aditya-birla-sun-life-amc-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 268,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 267,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/fino-payments-bank-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 266,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 265,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/sigachi-industries-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 264,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 263,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/sapphire-foods-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 262,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 261,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/latent-view-analytics-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 260,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/tarsons-products-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 259,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 258,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 257,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/tega-industries-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 256,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/anand-rathi-wealth-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 255,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/rategain-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 254,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/shriram-properties-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 253,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 252,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/metro-brands-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 251,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/medplus-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 250,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 249,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/hp-adhesives-ipo-subscription-status-final-data/"
+    },
+    {
+      "ipo_id": 248,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/supriya-lifescience-ipo-subscription-status-final-data-2021/"
+    },
+    {
+      "ipo_id": 247,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/cms-info-systems-ipo-subscription-status-final-data-closed/"
+    },
+    {
+      "ipo_id": 351,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/ags-transact-technologies-ipo-subscription-status-final-data-2022/"
+    },
+    {
+      "ipo_id": 350,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/adani-wilmar-ipo-subscription-status-final-data-2022/"
+    },
+    {
+      "ipo_id": 349,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/manyavar-aka-vedant-fashions-ipo-subscription-status-final-data-2022/"
+    },
+    {
+      "ipo_id": 348,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/uma-exports-ipo-subscription-status-today-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 346,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/veranda-learning-ipo-subscription-status-today-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 345,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 344,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/campus-activewear-ipo-subscription-status-today-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 343,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/rainbow-children-medicare-ipo-subscription-status-today-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 342,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 341,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 339,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/delhivery-ipo-subscription-status-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 340,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/venus-pipes-ipo-subscription-status-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 338,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/paradeep-phosphates-ipo-subscription-status-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 337,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/ethos-ipo-subscription-status-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 336,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/emudhra-ipo-subscription-status-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 335,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/aether-industries-ipo-subscription-status-live-update-from-nse-bse/"
+    },
+    {
+      "ipo_id": 334,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 333,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/dreamfolks-services-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 332,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/tamilnad-mercantile-bank-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 331,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/harsha-engineers-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 330,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/electronics-mart-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 329,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/tracxn-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 327,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/fusion-micro-finance-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 325,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/global-health-medanta-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 326,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/bikaji-foods-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 324,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/five-star-business-finance-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 323,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/archean-chemical-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 322,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/kaynes-technology-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 321,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/inox-green-energy-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 320,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/keystone-realtors-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 319,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/dharmaj-crop-guard-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 318,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/uniparts-india-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 317,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/sula-vineyards-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 316,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/landmark-cars-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 315,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 314,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 313,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/elin-electronics-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 409,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/radiant-cash-management-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 408,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 407,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 406,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/global-surfaces-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 405,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/avalon-technologies-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 404,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 403,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 402,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 401,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 400,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 399,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 398,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 397,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 396,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 395,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 394,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 393,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 392,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 391,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 390,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 389,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 388,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 387,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 386,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 385,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 383,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 384,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 382,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 381,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 380,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 379,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 378,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 377,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 376,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 375,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 374,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 373,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 372,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 371,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 368,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 364,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 365,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 366,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 363,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 361,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 362,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 360,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 359,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 358,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 357,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 356,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 355,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 354,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 353,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 352,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 500,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 499,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 498,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 497,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 496,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 495,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 492,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 494,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 493,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 491,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 490,
+      "reason": "article_date_or_day_table_mismatch"
+    },
+    {
+      "ipo_id": 489,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/juniper-hotels-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 488,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/gpt-healthcare-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 487,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/exicom-tele-systems-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 486,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/platinum-industries-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 485,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/mukka-proteins-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 484,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/r-k-swamy-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 483,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 482,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/gopal-snacks-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 481,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/popular-vehicles-services-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 480,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/krystal-integrated-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 479,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/srm-contractors-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 478,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/bharti-hexacom-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 476,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/jnk-india-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 475,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/indegene-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 473,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/tbo-tek-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 474,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/aadhar-housing-finance-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 472,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 471,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/awfis-space-solutions-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 470,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/kronox-lab-sciences-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 469,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 467,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 466,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/stanley-lifestyles-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 465,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/allied-blenders-and-distillers-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 464,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/vraj-iron-and-steel-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 463,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/bansal-wire-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 462,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/emcure-pharmaceuticals-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 461,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/sanstar-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 460,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/akums-drugs-and-pharmaceuticals-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 459,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/ceigall-india-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 458,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/ola-electric-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 457,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/firstcry-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 456,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/unicommerce-esolutions-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 455,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/saraswati-saree-depot-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 454,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/interarch-building-products-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 453,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/orient-technologies-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 452,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/premier-energies-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 451,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 450,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/baazar-style-retail-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 449,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/gala-precision-engineering-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 448,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/shree-tirupati-balajee-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 447,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/tolins-tyres-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 446,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/kross-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 445,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/bajaj-housing-finance-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 444,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/p-n-gadgil-jewellers-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 441,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/western-carriers-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 442,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/arkade-developers-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 440,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/manba-finance-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 439,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/krn-heat-exchanger-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 438,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/diffusion-engineers-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 437,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/garuda-construction-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 436,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/hyundai-motor-india-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 435,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 434,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/waaree-energies-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 433,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/godavari-biorefineries-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 431,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/sagility-india-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 429,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/swiggy-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 430,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/acme-solar-holdings-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 428,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 427,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/blackbuck-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 425,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/enviro-infra-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 424,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/suraksha-diagnostic-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 423,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 422,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/sai-life-sciences-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 421,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/vishal-mega-mart-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 420,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/inventurus-knowledge-solutions-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 419,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 418,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/mamata-machinery-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 415,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/concord-enviro-systems-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 414,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/transrail-lighting-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 417,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/dam-capital-advisors-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 416,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/sanathan-textiles-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 411,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/ventive-hospitality-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 412,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/carraro-india-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 413,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/senores-pharmaceuticals-ipo-subscription-status/"
+    },
+    {
+      "ipo_id": 410,
+      "reason": "article_date_or_day_table_mismatch"
+    }
+  ],
+  "limitations": "Retrospective daily cells can be revised later; this is not a certified point-in-time snapshot."
+}

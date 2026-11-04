@@ -1,0 +1,153 @@
+{
+  "cohort_audit": {
+    "source_rows": 196,
+    "source_with_valid_dates_and_features": 188,
+    "excluded_after_close_or_listing": 8,
+    "excluded_invalid_or_missing_features": 0,
+    "source_coverage_by_year": {
+      "2021": 44,
+      "2022": 30,
+      "2023": 41,
+      "2024": 81
+    }
+  },
+  "stage": "penultimate_bidding_day_end_values_from_retrospective_tables",
+  "model_family": "StandardScaler + scikit-learn LogisticRegression(C=0.5)",
+  "threshold": 0.5,
+  "folds": [
+    {
+      "test_year": 2022,
+      "train_rows": 44,
+      "test_rows": 28,
+      "three_category_logistic": {
+        "sample_size": 28,
+        "positive_listings": 20,
+        "nonpositive_listings": 8,
+        "threshold": 0.5,
+        "roc_auc": 0.6125,
+        "brier_score": 0.2287,
+        "classifier_accuracy_pct": 60.7,
+        "always_positive_baseline_pct": 71.4,
+        "balanced_accuracy_pct": 61.3,
+        "negative_recall_pct": 62.5,
+        "positive_recall_pct": 60.0,
+        "apply_precision_pct": 80.0,
+        "warning_precision_pct": 38.5,
+        "tn": 5,
+        "fp": 3,
+        "fn": 8,
+        "tp": 12
+      },
+      "qib_only_logistic": {
+        "sample_size": 28,
+        "positive_listings": 20,
+        "nonpositive_listings": 8,
+        "threshold": 0.5,
+        "roc_auc": 0.65,
+        "brier_score": 0.1963,
+        "classifier_accuracy_pct": 71.4,
+        "always_positive_baseline_pct": 71.4,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 71.4,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 8,
+        "fn": 0,
+        "tp": 20
+      }
+    },
+    {
+      "test_year": 2023,
+      "train_rows": 72,
+      "test_rows": 41,
+      "three_category_logistic": {
+        "sample_size": 41,
+        "positive_listings": 33,
+        "nonpositive_listings": 8,
+        "threshold": 0.5,
+        "roc_auc": 0.8523,
+        "brier_score": 0.1235,
+        "classifier_accuracy_pct": 80.5,
+        "always_positive_baseline_pct": 80.5,
+        "balanced_accuracy_pct": 54.7,
+        "negative_recall_pct": 12.5,
+        "positive_recall_pct": 97.0,
+        "apply_precision_pct": 82.1,
+        "warning_precision_pct": 50.0,
+        "tn": 1,
+        "fp": 7,
+        "fn": 1,
+        "tp": 32
+      },
+      "qib_only_logistic": {
+        "sample_size": 41,
+        "positive_listings": 33,
+        "nonpositive_listings": 8,
+        "threshold": 0.5,
+        "roc_auc": 0.7197,
+        "brier_score": 0.1474,
+        "classifier_accuracy_pct": 80.5,
+        "always_positive_baseline_pct": 80.5,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 80.5,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 8,
+        "fn": 0,
+        "tp": 33
+      }
+    },
+    {
+      "test_year": 2024,
+      "train_rows": 113,
+      "test_rows": 75,
+      "three_category_logistic": {
+        "sample_size": 75,
+        "positive_listings": 61,
+        "nonpositive_listings": 14,
+        "threshold": 0.5,
+        "roc_auc": 0.7436,
+        "brier_score": 0.1438,
+        "classifier_accuracy_pct": 80.0,
+        "always_positive_baseline_pct": 81.3,
+        "balanced_accuracy_pct": 57.4,
+        "negative_recall_pct": 21.4,
+        "positive_recall_pct": 93.4,
+        "apply_precision_pct": 83.8,
+        "warning_precision_pct": 42.9,
+        "tn": 3,
+        "fp": 11,
+        "fn": 4,
+        "tp": 57
+      },
+      "qib_only_logistic": {
+        "sample_size": 75,
+        "positive_listings": 61,
+        "nonpositive_listings": 14,
+        "threshold": 0.5,
+        "roc_auc": 0.7213,
+        "brier_score": 0.1419,
+        "classifier_accuracy_pct": 81.3,
+        "always_positive_baseline_pct": 81.3,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 81.3,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 14,
+        "fn": 0,
+        "tp": 61
+      }
+    }
+  ],
+  "limitations": [
+    "Article pages may have been revised after the decision day; some have no publication timestamp. This is not prospective accuracy.",
+    "Source coverage is non-random; score only applies to matched and validated pages.",
+    "Final-day subscriptions, GMP, and future market prices are not features."
+  ]
+}

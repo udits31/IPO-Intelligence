@@ -1,0 +1,329 @@
+{
+  "checked_at_ist": "2026-10-28T18:55:29.248068+05:30",
+  "records": [
+    {
+      "company": "Acevector",
+      "state": "ready_with_limitations",
+      "next_check": "2026-11-04T18:54:21.830995+05:30",
+      "ofs_ratio": 0.31666666666666665,
+      "retail_quota_pct": 10.0,
+      "lot_size": 468,
+      "capex_ratio": null,
+      "capex_status": "NOT_SEPARATELY_ITEMISED",
+      "proceeds_uses": [
+        {
+          "description": "Funding a portion of the marketing and business promotion expense of the Marketplace business of Company",
+          "amount_cr": null
+        },
+        {
+          "description": "Funding the technology infrastructure costs of the Marketplace business of Company",
+          "amount_cr": null
+        },
+        {
+          "description": "Funding inorganic growth through acquisitions and general corporate purpose",
+          "amount_cr": null
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://www.ipoji.com/ipo/acevector-ipo",
+          "sha256": "87fde77bbb54bc63f3620a76d45cb342d7e13ded0ef9c58e95fa25d5756f6e44",
+          "fetch_timestamp": "2026-10-28T18:51:04.482432+05:30"
+        }
+      ],
+      "raw_hash_checks": [
+        true
+      ]
+    },
+    {
+      "company": "Moneyview",
+      "state": "ready_with_limitations",
+      "next_check": "2026-11-04T18:54:21.883107+05:30",
+      "ofs_ratio": 0.31298549025355415,
+      "retail_quota_pct": 35.0,
+      "lot_size": 441,
+      "capex_ratio": null,
+      "capex_status": "NOT_SEPARATELY_ITEMISED",
+      "proceeds_uses": [
+        {
+          "description": "Investment to drive growth in loan disbursals under default loss guarantee (DLG) arrangements",
+          "amount_cr": 325.0
+        },
+        {
+          "description": "Investment in WFPL, the Material Subsidiary, for the purpose of augmenting its capital base",
+          "amount_cr": 250.0
+        },
+        {
+          "description": "General corporate purposes",
+          "amount_cr": 111.72
+        },
+        {
+          "description": "Issue Expenses",
+          "amount_cr": 90.96
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://www.ipoji.com/ipo/moneyview-ipo",
+          "sha256": "94980301ba870ab5c522e74a539710f1a99fe9bb49e5fe539905fd2b1c1efcd6",
+          "fetch_timestamp": "2026-10-28T18:51:05.344421+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+          "sha256": "8d59ac6f8f745ed03e0dc3883e01780529e2fed9940d81c73ffabef5d834deb2",
+          "fetch_timestamp": "2026-10-28T18:50:05.832161+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+          "sha256": "0f5a35d060370e3500798f3a464dc389b576ddda3bfdedf87f09980f9c5a178f",
+          "fetch_timestamp": "2026-10-28T18:18:05.095527+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+          "sha256": "e7a8130240dafbef95f29834eb9e40f23b3655e2ccde251e534ec26a87bfb641",
+          "fetch_timestamp": "2026-10-28T17:17:31.352331+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+          "sha256": "f8bc0c97005d3597df54e6f507d74b475c328fdd52ab31d25656cdf81a854784",
+          "fetch_timestamp": "2026-10-28T16:16:48.810133+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+          "sha256": "6fce623794a4e0b606b673521c6be75b5d39cafb098756faae6dd814ce921fa3",
+          "fetch_timestamp": "2026-10-28T15:15:55.871423+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+          "sha256": "f92d9ac0a9a77d71a36e7116a6323be2757de0081decd695c92dd9d66681d00e",
+          "fetch_timestamp": "2026-10-28T15:07:14.168527+05:30"
+        }
+      ],
+      "raw_hash_checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "company": "Elevate Campuses",
+      "state": "ready_with_limitations",
+      "next_check": "2026-11-04T18:54:21.927599+05:30",
+      "ofs_ratio": 0.0,
+      "retail_quota_pct": 10.0,
+      "lot_size": 41,
+      "capex_ratio": null,
+      "capex_status": "NOT_SEPARATELY_ITEMISED",
+      "proceeds_uses": [
+        {
+          "description": "Payment of the purchase consideration for the acquisition of the K-12 Entities and Campuses",
+          "amount_cr": 1100.0
+        },
+        {
+          "description": "Repayment and/ or prepayment, in full or in part, of certain outstanding borrowings and prepayment penalties, as applicable of availed by Company and certain of Subsidiaries, namely GHS Shoolini, GHS Sonipat, Souk HIS UAE and Souk NLCS UAE, through investment in such Subsidiaries",
+          "amount_cr": 750.0
+        },
+        {
+          "description": "Funding inorganic growth through unidentified acquisitions, other strategic initiatives and general corporate purposes,",
+          "amount_cr": 129.61
+        },
+        {
+          "description": "Issue Expenses",
+          "amount_cr": 120.39
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://www.ipoji.com/ipo/elevate-campuses-ipo",
+          "sha256": "856c10bce99b0464a22411c46912a6e88e9df61303d09f4aef52c616886a2c7c",
+          "fetch_timestamp": "2026-10-28T18:50:30.905529+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
+          "sha256": "1ea177ceac94f34f246da6c9f6667ddb3ce4b36e148786ee1fee8924d9fea4be",
+          "fetch_timestamp": "2026-10-28T18:49:26.504868+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
+          "sha256": "421e2fdf6050d9955d42d1a7e7de53668ec8e022b22f89d2a609829d8c2912fb",
+          "fetch_timestamp": "2026-10-28T18:17:04.628524+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
+          "sha256": "ba216f07c3e2701782c8a1d646e56f22c8313c1551db3382a49df81f44e9db27",
+          "fetch_timestamp": "2026-10-28T17:16:27.440427+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
+          "sha256": "9a7adf7ec2ead00de57f5e3a9028706d8aa9ee7ff6adb8fd6b8f2ace0febd5ea",
+          "fetch_timestamp": "2026-10-28T16:15:48.360274+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
+          "sha256": "50c7ad5c74f36ded25bda35b37bc64d3d946ef57d2bcb7bae8fb2f4fa7215a1e",
+          "fetch_timestamp": "2026-10-28T15:14:54.470571+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
+          "sha256": "447a3ee40cb85106165e6db0ee7f393d48fd302aabaa0b68884e4b968e6e955a",
+          "fetch_timestamp": "2026-10-28T15:06:12.742322+05:30"
+        }
+      ],
+      "raw_hash_checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "company": "Swastika Infra",
+      "state": "ready_with_limitations",
+      "next_check": "2026-11-04T18:54:21.967788+05:30",
+      "ofs_ratio": 0.20126802585778222,
+      "retail_quota_pct": 35.0,
+      "lot_size": 81,
+      "capex_ratio": null,
+      "capex_status": "NOT_SEPARATELY_ITEMISED",
+      "proceeds_uses": [
+        {
+          "description": "Funding  of incremental working  capital requirements of the Company.",
+          "amount_cr": null
+        },
+        {
+          "description": "General corporate purposes.",
+          "amount_cr": null
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://www.ipoji.com/ipo/swastika-infra-ipo",
+          "sha256": "b8ec1088cf09ae0860a3675bcf8389583cd51b0a82ccf5b9202e8a252c33c840",
+          "fetch_timestamp": "2026-10-28T18:51:32.954135+05:30"
+        }
+      ],
+      "raw_hash_checks": [
+        true
+      ]
+    },
+    {
+      "company": "Zetwerk Manufacturing Business",
+      "state": "ready_with_limitations",
+      "next_check": "2026-11-04T18:54:22.003574+05:30",
+      "ofs_ratio": 0.4353923225326345,
+      "retail_quota_pct": 10.0,
+      "lot_size": 99,
+      "capex_ratio": null,
+      "capex_status": "NOT_SEPARATELY_ITEMISED",
+      "proceeds_uses": [
+        {
+          "description": "Repayment/prepayment, in part or full, of certain of or all of borrowings availed by the company - \u20b91,300 Cr",
+          "amount_cr": 1300.0
+        },
+        {
+          "description": "Funding inorganic growth through unidentified acquisitions and other strategic acquisitions",
+          "amount_cr": null
+        },
+        {
+          "description": "Repayment/prepayment, in part or full, of certain of or all of borrowings availed - \u20b9860 Cr",
+          "amount_cr": 860.0
+        },
+        {
+          "description": "General Corporate Purposes",
+          "amount_cr": null
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://www.ipoji.com/ipo/zetwerk-ipo",
+          "sha256": "705df70f261d94f863354ebf13cb107c2e6051b7f5c3577167f68c6d5c2e3459",
+          "fetch_timestamp": "2026-10-28T18:53:34.211351+05:30"
+        }
+      ],
+      "raw_hash_checks": [
+        true
+      ]
+    },
+    {
+      "company": "Fusion CX",
+      "state": "ready_with_limitations",
+      "next_check": "2026-11-04T18:54:22.037953+05:30",
+      "ofs_ratio": 0.28774928774928776,
+      "retail_quota_pct": 10.0,
+      "lot_size": 51,
+      "capex_ratio": null,
+      "capex_status": "NOT_SEPARATELY_ITEMISED",
+      "proceeds_uses": [
+        {
+          "description": "Repayment/prepayment, in full or in part, of certain outstanding borrowings availed by (i) Company; (ii) certain Subsidiaries (direct and certain step-down subsidiaries)",
+          "amount_cr": 275.7
+        },
+        {
+          "description": "Investment in step-down subsidiaries, Omind Technologies Inc. and Omind Technologies Pvt.Ltd., for upgrading IT tools i.e. Arya and MindVoice",
+          "amount_cr": 61.15
+        },
+        {
+          "description": "Pursuing inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+          "amount_cr": 126.11
+        },
+        {
+          "description": "Issue Expenses",
+          "amount_cr": 52.0
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://www.ipoji.com/ipo/fusion-cx-ipo",
+          "sha256": "25d1e83688e0bf3347441ae4d6c455ad4a6942abfd1fd00b5739558fb0af82e6",
+          "fetch_timestamp": "2026-10-28T18:52:34.542460+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+          "sha256": "78b98bb4c3a2b71753f9cc3873a2573b1eb58a592878edbd55a306420d022013",
+          "fetch_timestamp": "2026-10-28T18:50:08.139527+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+          "sha256": "5e584cab164ca046e404529af981f34904945e2d67894c73effc5d14fd8ef7fd",
+          "fetch_timestamp": "2026-10-28T18:20:08.450492+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+          "sha256": "9cb7dfd1a79b0944c653e2ffe9a730bc7a08acf867eeb976af6caa2c45288255",
+          "fetch_timestamp": "2026-10-28T17:19:34.769411+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+          "sha256": "29d21d8287b0b2aebe7e4783f631b70bd443ab05680f9098201f7e605f07c771",
+          "fetch_timestamp": "2026-10-28T16:18:52.767162+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+          "sha256": "2f4e6519a186baa0ac3c4d27b3b51ef332bf620ed08f4a43602ef0d16e379731",
+          "fetch_timestamp": "2026-10-28T15:18:02.457663+05:30"
+        },
+        {
+          "source_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+          "sha256": "f19c7ef8ea320aaa5e718e891c35607687dacae9d53e7488deed52bf849acee7",
+          "fetch_timestamp": "2026-10-28T15:09:17.423345+05:30"
+        }
+      ],
+      "raw_hash_checks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}

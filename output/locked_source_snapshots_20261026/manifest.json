@@ -1,0 +1,12 @@
+{
+  "services/prospective_module1.py": {
+    "original_sha256": "62d6e6ec38a1f9f269d21ce2a778eb243bfdf0634c9cadac930e1a4cec513d35",
+    "archive_path": "output/locked_source_snapshots_20261026/prospective_module1.py",
+    "active_sha256": "c4154dbe360320be7cef3d5b3532e8e169e413f9105988b5917f6fc15f644439"
+  },
+  "services/locked_model_configuration.py": {
+    "original_sha256": "54dcce8dc5268028e2b5cdf68a7ddd8bb9b635e3f6241757bfc65307ad757a73",
+    "archive_path": "output/locked_source_snapshots_20261026/locked_model_configuration.py",
+    "active_sha256": "0e06c007eda0e2f8ff5176a050ed0cb7f057d8a8adf22291ff80cae294b1076f"
+  }
+}

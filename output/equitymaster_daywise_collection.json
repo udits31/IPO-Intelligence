@@ -1,0 +1,114 @@
+{
+  "candidate_pages": 212,
+  "accepted": 141,
+  "rejection_counts": {
+    "identity_or_nse_date_mismatch": 30,
+    "missing_penultimate_or_final_day": 17,
+    "missing_category": 15,
+    "day_number_date_mismatch": 9
+  },
+  "rejected_examples": [
+    {
+      "page_id": 1,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 2,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 3,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 4,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 6,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 5,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 8,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 7,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 9,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 10,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 12,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 11,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 13,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 14,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 15,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 16,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 17,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 18,
+      "reason": "identity_or_nse_date_mismatch"
+    },
+    {
+      "page_id": 26,
+      "reason": "missing_penultimate_or_final_day"
+    },
+    {
+      "page_id": 29,
+      "reason": "missing_penultimate_or_final_day"
+    },
+    {
+      "page_id": 30,
+      "reason": "missing_category"
+    },
+    {
+      "page_id": 37,
+      "reason": "missing_category"
+    },
+    {
+      "page_id": 41,
+      "reason": "missing_penultimate_or_final_day"
+    },
+    {
+      "page_id": 46,
+      "reason": "day_number_date_mismatch"
+    },
+    {
+      "page_id": 47,
+      "reason": "missing_category"
+    }
+  ],
+  "page_ids_checked": 320,
+  "limitations": "Retrospective cells may have been changed after each bidding day. Separate source agreement and dated publication evidence are needed before promotion."
+}

@@ -1,0 +1,16 @@
+{
+  "issuer": "National Stock Exchange of India",
+  "exchange": "BSE",
+  "scrip_code": 544937,
+  "isin": "INE721I01024",
+  "symbol": "NSE",
+  "source_url": "https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20260924_F_0000.CSV",
+  "source_page": "https://www.bseindia.com/markets/marketinfo/bhavcopy",
+  "archive_path": "C:\\Projects\\Capstone\\data\\archive\\module2_corporate_actions\\BhavCopy_BSE_CM_0_0_0_20260924_F_0000.CSV",
+  "sha256": "1bb82443e1a55afd89d7c84daee355ce4341596f6b563a7f5af91b3e324117a7",
+  "actual_open": 1800.0,
+  "issue_price": 1785.0,
+  "return_pct": 0.8403361344537785,
+  "retrieved_at_ist": "2026-10-26T10:52:24.204674+05:30",
+  "retrieval_method": "Public historical date controls and browser download, no access-control bypass"
+}

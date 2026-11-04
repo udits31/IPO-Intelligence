@@ -1,0 +1,103 @@
+{
+  "checked": 20,
+  "accepted": 12,
+  "reason_counts": {
+    "accepted": 12,
+    "no_matching_subscription_article": 8
+  },
+  "audit": [
+    {
+      "ipo_id": 312,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 310,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/indigo-paints-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 309,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 308,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/stove-kraft-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 307,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 306,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/nureca-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 305,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/railtel-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 304,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/heranba-industries-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 303,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/mtar-technologies-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 302,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 300,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/laxmi-organic-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 299,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/craftsman-automation-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 298,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 297,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/kalyan-jewellers-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 296,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/nazara-technologies-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 295,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/barbeque-nation-ipo-subscription-numbers-status-should-you-subscribe/"
+    },
+    {
+      "ipo_id": 294,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 293,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 292,
+      "reason": "no_matching_subscription_article"
+    },
+    {
+      "ipo_id": 291,
+      "reason": "accepted",
+      "source_url": "https://ipowatch.in/shyam-metalics-ipo-subscription-live-numbers-status-should-you-subscribe/"
+    }
+  ],
+  "limitations": "Retrospective daily cells can be revised later; this is not a certified point-in-time snapshot."
+}

@@ -1,0 +1,132 @@
+{
+  "features": {
+    "context_total_mult": 9.383565832828616,
+    "context_snii_mult": 9.19652267626383,
+    "context_bnii_mult": 14.49217207058855,
+    "log_qib": 2.9862958183131263,
+    "log_qib_growth": 2.91125484302337,
+    "log_hni": 2.6193615045678436,
+    "log_hni_growth": 2.301989746843554,
+    "log_retail": 1.2705796188638778,
+    "log_retail_growth": 0.9779686635550839,
+    "log_offer_cap_price": 5.802118375377063,
+    "log_issue_size": 6.505081272124453,
+    "gmp_pct": 4.7,
+    "gmp_quote_age_days": 0,
+    "gmp_slope_pp_per_day": 0.7600000000000002,
+    "macro_nifty_5d": -0.6081503236329056,
+    "macro_nifty_20d": -1.688597912750378,
+    "macro_nifty_vol20": 0.9801851581450407,
+    "macro_vix": 16.399999618530273,
+    "macro_vix_change5": 11.035877523685599,
+    "pub_profit_margin_pct": 19.50759190034946,
+    "pub_return_on_assets_pct": 12.105664825491337,
+    "pub_revenue_growth_asinh": 0.12937085656714917,
+    "pub_annual_loss": 0.0,
+    "pub_ipo_earnings_yield_pct": 5.006060606060606,
+    "pub_log_ipo_price_book": 1.575508322345792,
+    "pub_financial_sector": 0.0
+  },
+  "evidence": {
+    "sources": {
+      "input_contract_version": "module1-input-contract-20261028-v2",
+      "bids": {
+        "id": 4205,
+        "fetched_at_ist": "2026-10-29T16:55:11+05:30",
+        "raw_sha256": "dc8d244828a3fa7a25e2be1dc2545f9bec0c9a37271bba69db6dd93c37d97e99",
+        "source_family": "nse_exchange",
+        "published_at_ist": "2026-10-29T16:48:00+05:30",
+        "time_basis": "publisher_timestamp"
+      },
+      "stage_alignment": {
+        "training_stage": "penultimate_session",
+        "live_stage": "closing_day",
+        "book_age_days": 0,
+        "comparable": false,
+        "reason": "Exact training-stage equivalence is not established by a generic live snapshot; continuous forecasts are logged for prospective scoring."
+      },
+      "total_subscription": {
+        "multiple": 9.383565832828616,
+        "offered_shares": 14159744.0,
+        "bid_shares": 132868890.0,
+        "method": "NSE_total_row",
+        "publisher_update": "Updated as on 29-Oct-2026 16:48:00",
+        "id": 4205,
+        "fetched_at_ist": "2026-10-29T16:55:11+05:30",
+        "raw_sha256": "dc8d244828a3fa7a25e2be1dc2545f9bec0c9a37271bba69db6dd93c37d97e99",
+        "source_family": "nse_exchange",
+        "published_at_ist": "2026-10-29T16:48:00+05:30",
+        "time_basis": "publisher_timestamp"
+      },
+      "growth_reference": {
+        "id": 3829,
+        "fetched_at_ist": "2026-10-29T10:00:20+05:30",
+        "raw_sha256": "56d2c945272e6402fb96515f02fc95c97da7c7ef7090dcdead8a29823d2109dc",
+        "source_family": "nse_exchange",
+        "effective_at_ist": "2026-10-28T17:00:00+05:30",
+        "published_at_ist": "2026-10-28T17:00:00+05:30"
+      },
+      "gmp": {
+        "fetched_at": "2026-10-29T19:11:59+05:30",
+        "url": "https://www.investorgain.com/report/live-ipo-gmp/331/",
+        "source": "live_investorgain",
+        "family": "chittorgarh_investorgain",
+        "publisher_time_verified": false,
+        "previous_quote_at": "2026-10-28T23:30:14+05:30"
+      },
+      "market": {
+        "date": "2026-10-28",
+        "source": "Yahoo Finance historical close"
+      },
+      "financial_valuation": {
+        "source_url": "https://www.samco.in/ipo/sfc-environmental-technologies-ipo",
+        "raw_sha256": "86cac75c09e4912370818e13005c778a9ae8b614fe996f9e0a79c0978987f7d7",
+        "captured_at_ist": "2026-10-29T19:05:10.399616+05:30",
+        "annual_period": "2026-03-31",
+        "valuation_basis": "reported_annual_diluted_eps_and_annual_nav_before_offer"
+      },
+      "financial": {
+        "source_url": "https://www.ipoji.com/ipo/sfc-environmental-technologies-ipo",
+        "raw_sha256": "799e50c5e516bcc326426f4931a19f06a69102d4005430d7fddb498c50377adc",
+        "captured_at_ist": "2026-10-29T00:00:12.930157+05:30",
+        "annual_period": "2026-03-31"
+      },
+      "offer": {
+        "company_name": "SFC Environmental Technologies",
+        "fetch_timestamp": "2026-10-29T00:00:12.930157+05:30",
+        "source_url": "https://www.ipoji.com/ipo/sfc-environmental-technologies-ipo",
+        "sha256": "799e50c5e516bcc326426f4931a19f06a69102d4005430d7fddb498c50377adc",
+        "offer": {
+          "ofs_ratio": 0.7752909981573862,
+          "fresh_issue_cr": 150.0,
+          "ofs_issue_cr": 517.53,
+          "total_issue_cr": 667.53,
+          "ofs_derivation": null
+        },
+        "lot_size_shares": 45,
+        "reservation": {
+          "QIB": {
+            "shares": 4045642.0
+          },
+          "HNI": {
+            "shares": 3034231.0
+          },
+          "Retail": {
+            "shares": 7079871.0,
+            "pct": 35.0
+          }
+        },
+        "identity_checks": {
+          "cap_reference": 330.0
+        },
+        "identity_verified": true
+      },
+      "active_configuration": "M1_V1_FROZEN_WITH_RECOVERED_INPUTS"
+    },
+    "missing_features": [],
+    "imputation": "frozen training medians and indicators",
+    "quality": "complete",
+    "asof_ist": "2026-10-29T19:12:20.562503+05:30"
+  },
+  "note": "Computed now after applications closed. Does not alter or backdate the saved pre-close forecast."
+}

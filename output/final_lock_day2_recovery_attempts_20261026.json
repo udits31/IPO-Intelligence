@@ -1,0 +1,282 @@
+[
+  {
+    "issuer_key": "305",
+    "company_name": "RailTel Corp.of India Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/railtel-corporation-of-india-limited-ipo",
+    "attempted_at": "2026-10-25T22:21:17.321352+00:00",
+    "status": "identity_or_table_not_recovered",
+    "http_status": 200,
+    "sha256": "b281d6bf799843d386b4c56a7b9b267cc832de763cd68c1f5ddf5eda08970aa7",
+    "day2_rows": []
+  },
+  {
+    "issuer_key": "338",
+    "company_name": "Paradeep Phosphates Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/paradeep-parivahan-ipo",
+    "attempted_at": "2026-10-25T22:21:18.474395+00:00",
+    "status": "identity_or_table_not_recovered",
+    "http_status": 200,
+    "sha256": "2a0ad4b3094fb8e8aef10fe63989db14afab8a86f5ce88366c21e5dddfc29ef3",
+    "day2_rows": []
+  },
+  {
+    "issuer_key": "391",
+    "company_name": "Aeroflex Industries Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/wiscon-industries-ipo",
+    "attempted_at": "2026-10-25T22:21:19.582105+00:00",
+    "status": "identity_or_table_not_recovered",
+    "http_status": 200,
+    "sha256": "b097b1155cf9ca7a4d9bb0cc2de2582d5896af1e1de2eef6ed5c31fbb30cc375",
+    "day2_rows": []
+  },
+  {
+    "issuer_key": "457",
+    "company_name": "Brainbees Solutions Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/brainbees-firstcry-ipo",
+    "attempted_at": "2026-10-25T22:21:20.701104+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "3e86c6fad05e8bf93b3ac8c40711489ab4d78d00af3f4de2fd998f8f06ebd7ed",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2024-08-07T17:00:00+05:30",
+        "qib": 0.03,
+        "hni": 0.3,
+        "retail": 1.06,
+        "total": 0.3,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "503",
+    "company_name": "ICICI Prudential Asset Management Co.Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/icici-prudential-amc-ipo",
+    "attempted_at": "2026-10-25T22:21:21.819227+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "bc2b8f0d242007a59c2f961120db7606baaf92ac4b8b9b2c0c023d2f74e67515",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-12-15T17:00:00+05:30",
+        "qib": 2.91,
+        "hni": 3.79,
+        "retail": 0.83,
+        "total": 2.11,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "519",
+    "company_name": "Billionbrains Garage Ventures Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/prestige-hospitality-ventures-ipo",
+    "attempted_at": "2026-10-25T22:21:22.953391+00:00",
+    "status": "identity_or_table_not_recovered",
+    "http_status": 200,
+    "sha256": "e8e986a51be1f6b51826b75d674a30a4462ad327e7418ef44e0fd7ddfbf4be82",
+    "day2_rows": []
+  },
+  {
+    "issuer_key": "524",
+    "company_name": "Canara HSBC Life Insurance Co.Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/canara-hsbc-life-insurance-ipo",
+    "attempted_at": "2026-10-25T22:21:24.061959+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "f42a4ed2c22fce405f170941a2212b3397e9b49dab4cf54bf23baac304414100",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-10-13T17:00:00+05:30",
+        "qib": 0.32,
+        "hni": 0.14,
+        "retail": 0.27,
+        "total": 0.27,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "526",
+    "company_name": "Canara Robeco Asset Management Co.Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/canara-robeco-ipo",
+    "attempted_at": "2026-10-25T22:21:25.180933+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "b87e2999029e7183d0f4f1ddf6e56ad375614d7cbb3640cddd22d15961e62699",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-10-10T17:00:00+05:30",
+        "qib": 0.0,
+        "hni": 0.53,
+        "retail": 0.74,
+        "total": 0.44,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "529",
+    "company_name": "Tata Capital Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/tata-capital-ipo",
+    "attempted_at": "2026-10-25T22:21:26.299719+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "ef9ad2ebe383e40602a9ae0645e79765c40980d3255cc7521ec62afa4d15abd0",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-10-07T17:00:00+05:30",
+        "qib": 0.86,
+        "hni": 0.76,
+        "retail": 0.68,
+        "total": 0.75,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "543",
+    "company_name": "Jaro Institute of Technology Management & Research Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/jaro-institute-ipo",
+    "attempted_at": "2026-10-25T22:21:27.443067+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "b961c75b20fe4f97b2e9bca5151d8de2c187a0ffac52b71e345a9084505f0cfd",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-09-24T17:00:00+05:30",
+        "qib": 0.71,
+        "hni": 3.67,
+        "retail": 2.12,
+        "total": 2.05,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "551",
+    "company_name": "Euro Pratik Sales Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/euro-pratik-ipo",
+    "attempted_at": "2026-10-25T22:21:28.576712+00:00",
+    "status": "identity_or_table_not_recovered",
+    "http_status": 200,
+    "sha256": "b4ea838498a0a8f95156e67966593eddd682a090d3b2944235dc2b838bada8b4",
+    "day2_rows": []
+  },
+  {
+    "issuer_key": "564",
+    "company_name": "BlueStone Jewellery & Lifestyle Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/blueStone-jewellery-ipo",
+    "attempted_at": "2026-10-25T22:21:29.704287+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "4345a71176edb2fb346252c88156ae2b7788cabd1a99a413d159562915c48348",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-08-12T17:00:00+05:30",
+        "qib": 0.85,
+        "hni": 0.23,
+        "retail": 0.73,
+        "total": 0.65,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "571",
+    "company_name": "National Securities Depository Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/nsdl-ipo",
+    "attempted_at": "2026-10-25T22:21:30.839246+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "7a8eb0cba5cb2d2a2ba22bca0fafeb00ce6e6877260def4d0d56f2914c87793b",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-07-31T17:00:00+05:30",
+        "qib": 1.96,
+        "hni": 11.08,
+        "retail": 4.17,
+        "total": 5.03,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "585",
+    "company_name": "HDB Financial Services Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/hdb-financial-ipo",
+    "attempted_at": "2026-10-25T22:21:31.960545+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "94c5336f935c4c2f7d7b43a80c1fdff49eb30e1a9517a37073203b969f6d3498",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-06-26T17:00:00+05:30",
+        "qib": 0.9,
+        "hni": 2.27,
+        "retail": 0.64,
+        "total": 1.15,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "593",
+    "company_name": "Aegis Vopak Terminals Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/aegis-vopak-terminals-ipo",
+    "attempted_at": "2026-10-25T22:21:33.087047+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "1de5e923edf85442b2515bc15e2dd5d41f6343b0938cf64f2c963c04c8def729",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-05-27T17:00:00+05:30",
+        "qib": 0.43,
+        "hni": 0.12,
+        "retail": 0.44,
+        "total": 0.35,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  },
+  {
+    "issuer_key": "594",
+    "company_name": "Schloss Bangalore Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/veritas-finance-ipo",
+    "attempted_at": "2026-10-25T22:21:34.202717+00:00",
+    "status": "identity_or_table_not_recovered",
+    "http_status": 200,
+    "sha256": "8990ae72488f47a958e6cd8c83be1629934695be3fff7496e342b252502119c7",
+    "day2_rows": []
+  },
+  {
+    "issuer_key": "601",
+    "company_name": "Dr.Agarwal's Health Care Ltd.",
+    "source_url": "https://www.ipoji.com/ipo/dr-agarwals-ipo",
+    "attempted_at": "2026-10-25T22:21:35.315839+00:00",
+    "status": "day2_recovered_candidate",
+    "http_status": 200,
+    "sha256": "37cfc96bba50c01e62950ad26d1f6485f2153de46b463858ac6b00c1d3510fef",
+    "day2_rows": [
+      {
+        "day": 2,
+        "timestamp": "2025-01-30T17:00:00+05:30",
+        "qib": 1.01,
+        "hni": 0.12,
+        "retail": 0.24,
+        "total": 0.42,
+        "clock_quality": "publisher_reported_recovered_later"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "module1_configuration": "M1_V1_FROZEN_WITH_RECOVERED_INPUTS",
+  "module1_artifact_sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+  "module2_policy": "M2_R1_WITH_DATED_FILINGS",
+  "active_monitor_sha256": "f984549d0c1805258aa6aae7436b61531b29f78e52f20dfef874b403ab460b5f",
+  "frozen_r0_source": "core/monitor_r0_frozen_20261026.py",
+  "activated_at_utc": "2026-10-25T22:23:53.802026+00:00",
+  "retraining": false
+}

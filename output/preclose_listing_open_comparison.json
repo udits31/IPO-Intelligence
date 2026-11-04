@@ -1,0 +1,941 @@
+{
+  "computed_at_ist": "2026-10-21T15:00:53.473725+05:30",
+  "prospective_accuracy_claim": false,
+  "model_file_sha256": "223a2861acc31952c5404cbe9eb0621f2241775404a4912a26fba0d579eacb2f",
+  "primary_clean_reconstruction_score": {
+    "n": 6,
+    "correct": 5,
+    "accuracy": 0.8333333333333334,
+    "accuracy_wilson_95": [
+      0.43649717781352987,
+      0.9699466302516935
+    ],
+    "confusion": {
+      "TP": 3,
+      "TN": 2,
+      "FP": 0,
+      "FN": 1
+    },
+    "positive_recall": 0.75,
+    "non_positive_recall": 1.0,
+    "always_positive_accuracy": 0.6666666666666666,
+    "brier_score": 0.1806943976397037,
+    "decisive_n": 4,
+    "mixed_n": 2,
+    "decisive_correct": 3
+  },
+  "all_recovered_matured_cases_diagnostic_only": {
+    "n": 9,
+    "correct": 8,
+    "accuracy": 0.8888888888888888,
+    "accuracy_wilson_95": [
+      0.5650002944233439,
+      0.9801091123614551
+    ],
+    "confusion": {
+      "TP": 5,
+      "TN": 3,
+      "FP": 0,
+      "FN": 1
+    },
+    "positive_recall": 0.8333333333333334,
+    "non_positive_recall": 1.0,
+    "always_positive_accuracy": 0.6666666666666666,
+    "brier_score": 0.17700212368407436,
+    "decisive_n": 5,
+    "mixed_n": 4,
+    "decisive_correct": 4
+  },
+  "ipos": [
+    {
+      "company_name": "Tonbo Imaging India",
+      "date_range": "15 - 19 Oct",
+      "status": "reconstructed",
+      "listing_date": "2026-10-23",
+      "issue_price": 700.0,
+      "nse_symbol": "TONBO",
+      "url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
+      "official_issuer_name": null,
+      "official_offer_evidence": null,
+      "observed_on": "2026-10-19",
+      "source_reported_at_ist": "2026-10-19T16:43:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:35+05:30",
+      "positive_listing_probability": 0.9724669808716809,
+      "inputs": {
+        "application_closing_date": "2026-10-19",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 170.83,
+        "observed_on": "2026-10-19",
+        "official_offer_evidence": null,
+        "publication_times_ist": {},
+        "qib_subscription": 293.56,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 30.68,
+        "source_reported_at_ist": "2026-10-19T16:43:00+05:30",
+        "time_basis": "publisher_subscription_table_update",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:33.686926+05:30",
+          "publisher": "theipolist.in",
+          "raw_sha256": "edf1dc341601548221f30febf749fe8f823f59184c79c84bff0833c1d8f6c2a9",
+          "url": "https://theipolist.in/ipo-details/tonbo-imaging-india"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "pending",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "HIGH",
+      "binary_prediction": "POSITIVE",
+      "outcome_reason": "listing date has not arrived"
+    },
+    {
+      "company_name": "Zetwerk Manufacturing Business",
+      "date_range": "15 - 19 Oct",
+      "status": "reconstructed",
+      "listing_date": "2026-10-23",
+      "issue_price": 151.0,
+      "nse_symbol": null,
+      "url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
+      "official_issuer_name": null,
+      "official_offer_evidence": null,
+      "observed_on": "2026-10-19",
+      "source_reported_at_ist": "2026-10-19T16:44:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:36+05:30",
+      "positive_listing_probability": 0.45505840701061817,
+      "inputs": {
+        "application_closing_date": "2026-10-19",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 1.44,
+        "observed_on": "2026-10-19",
+        "official_offer_evidence": null,
+        "publication_times_ist": {},
+        "qib_subscription": 4.71,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 0.74,
+        "source_reported_at_ist": "2026-10-19T16:44:00+05:30",
+        "time_basis": "publisher_subscription_table_update",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:36.773522+05:30",
+          "publisher": "theipolist.in",
+          "raw_sha256": "05e12ed4053d5b81bf5311eba60a147076b0053c9c32ab1958816c7aad5e969e",
+          "url": "https://theipolist.in/ipo-details/zetwerk"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "pending",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "MIXED",
+      "binary_prediction": "NON_POSITIVE",
+      "outcome_reason": "listing date has not arrived"
+    },
+    {
+      "company_name": "Bonfiglioli Transmissions",
+      "date_range": "15 - 19 Oct",
+      "status": "reconstructed",
+      "listing_date": "2026-10-23",
+      "issue_price": 586.0,
+      "nse_symbol": "BONFIG",
+      "url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
+      "official_issuer_name": null,
+      "official_offer_evidence": null,
+      "observed_on": "2026-10-19",
+      "source_reported_at_ist": "2026-10-19T16:44:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:41+05:30",
+      "positive_listing_probability": 0.9114935599955953,
+      "inputs": {
+        "application_closing_date": "2026-10-19",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 40.36,
+        "observed_on": "2026-10-19",
+        "official_offer_evidence": null,
+        "publication_times_ist": {},
+        "qib_subscription": 120.78,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 5.78,
+        "source_reported_at_ist": "2026-10-19T16:44:00+05:30",
+        "time_basis": "publisher_subscription_table_update",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:37.911968+05:30",
+          "publisher": "theipolist.in",
+          "raw_sha256": "3a9230c83e2140aeaa72630c1cc650c00aff5d910a12519e3a7e2c20ac7bf78c",
+          "url": "https://theipolist.in/ipo-details/bonfiglioli-transmissions"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "pending",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "HIGH",
+      "binary_prediction": "POSITIVE",
+      "outcome_reason": "listing date has not arrived"
+    },
+    {
+      "company_name": "Sahajanand Medical Technologies",
+      "date_range": "15 - 19 Oct",
+      "status": "reconstructed",
+      "listing_date": "2026-10-23",
+      "issue_price": 344.0,
+      "nse_symbol": "SMT",
+      "url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
+      "official_issuer_name": null,
+      "official_offer_evidence": null,
+      "observed_on": "2026-10-19",
+      "source_reported_at_ist": "2026-10-19T16:43:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:42+05:30",
+      "positive_listing_probability": 0.7925085107268732,
+      "inputs": {
+        "application_closing_date": "2026-10-19",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 14.6,
+        "observed_on": "2026-10-19",
+        "official_offer_evidence": null,
+        "publication_times_ist": {},
+        "qib_subscription": 34.7,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 2.91,
+        "source_reported_at_ist": "2026-10-19T16:43:00+05:30",
+        "time_basis": "publisher_subscription_table_update",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:42.866048+05:30",
+          "publisher": "theipolist.in",
+          "raw_sha256": "cfbe85a5950a37e8ec0dc1a5a78c171ec3b09f4eafd76b748a55e64b848f990b",
+          "url": "https://theipolist.in/ipo-details/sahajanand-medical-technologies"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "pending",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "HIGH",
+      "binary_prediction": "POSITIVE",
+      "outcome_reason": "listing date has not arrived"
+    },
+    {
+      "company_name": "Fusion CX",
+      "date_range": "14 - 16 Oct",
+      "status": "reconstructed",
+      "listing_date": "2026-10-22",
+      "issue_price": 289.0,
+      "nse_symbol": "FUSIONCX",
+      "url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
+      "official_issuer_name": null,
+      "official_offer_evidence": null,
+      "observed_on": "2026-10-16",
+      "source_reported_at_ist": "2026-10-16T16:44:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:43+05:30",
+      "positive_listing_probability": 0.5970791229862059,
+      "inputs": {
+        "application_closing_date": "2026-10-16",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 4.72,
+        "observed_on": "2026-10-16",
+        "official_offer_evidence": null,
+        "publication_times_ist": {},
+        "qib_subscription": 4.21,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 5.94,
+        "source_reported_at_ist": "2026-10-16T16:44:00+05:30",
+        "time_basis": "publisher_subscription_table_update",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:43.851672+05:30",
+          "publisher": "theipolist.in",
+          "raw_sha256": "2133407388f3f880dff80607fcd699f9951259934c5025b7b66741f4d10c9be5",
+          "url": "https://theipolist.in/ipo-details/fusion-cx"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "pending",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "MIXED",
+      "binary_prediction": "POSITIVE",
+      "outcome_reason": "listing date has not arrived"
+    },
+    {
+      "company_name": "HD Fire Protect",
+      "date_range": "13 - 15 Oct",
+      "status": "reconstructed",
+      "listing_date": "2026-10-21",
+      "issue_price": 271.0,
+      "nse_symbol": "HDFIRE",
+      "url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
+      "official_issuer_name": null,
+      "official_offer_evidence": null,
+      "observed_on": "2026-10-15",
+      "source_reported_at_ist": "2026-10-15T16:44:00+05:30",
+      "computed_at_ist": "2026-10-21T00:13:16+05:30",
+      "positive_listing_probability": 0.9707610636230604,
+      "inputs": {
+        "application_closing_date": "2026-10-15",
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "hni_subscription": 203.08,
+        "observed_on": "2026-10-15",
+        "qib_subscription": 256.65,
+        "recovery_protocol": "precutoff_timestamp_v2",
+        "retail_subscription": 30.1,
+        "source_reported_at_ist": "2026-10-15T16:44:00+05:30",
+        "time_basis": "publisher_subscription_table_update",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T00:13:16.352896+05:30",
+          "publisher": "theipolist.in",
+          "raw_sha256": "04e8089b13c3054f1d01c7ebf19df7df9f9cd3585030064d23fdb045ccadd757",
+          "url": "https://theipolist.in/ipo-details/hd-fire-protect"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "pending",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "HIGH",
+      "binary_prediction": "POSITIVE",
+      "outcome_reason": "official listing-day archive not available locally yet"
+    },
+    {
+      "company_name": "Nityas Gems & Jewellery",
+      "date_range": "2026-09-30 to 2026-10-05",
+      "status": "reconstructed",
+      "listing_date": "2026-10-08",
+      "issue_price": 75.0,
+      "nse_symbol": "NITYAS",
+      "url": "https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/",
+      "official_issuer_name": "Nityas Gems and Jewellery Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-10-05",
+      "source_reported_at_ist": "2026-10-05T11:57:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:46+05:30",
+      "positive_listing_probability": 0.33663999227193897,
+      "inputs": {
+        "application_closing_date": "2026-10-05",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 0.94,
+        "observed_on": "2026-10-05",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-10-05T12:04:00+05:30",
+          "datePublished": "2026-10-05T12:04:00+05:30"
+        },
+        "qib_subscription": 0.47,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 2.54,
+        "source_reported_at_ist": "2026-10-05T11:57:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:46.026129+05:30",
+          "publisher": "choiceindia.com",
+          "raw_sha256": "8a9e8cbc68a4d9db4469965bc8639a76453491a9c155413d65c5da89e518e74f",
+          "url": "https://choiceindia.com/news/nityas-gems-and-jewellery-ipo-subscription-day-3"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": true,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "LOW",
+      "binary_prediction": "NON_POSITIVE",
+      "actual_open_price": 80.0,
+      "actual_open_return_pct": 6.666666666666665,
+      "actual_direction": "POSITIVE",
+      "actual_flat": false,
+      "isin": "INE211501023",
+      "listing_archive_sha256": "07fdfc3409b83fac6ee4a736ceb4fde20069c5d1a490d960b332c178cb703e39",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261008_F_0000.csv.zip",
+      "direction_correct": false,
+      "band_result": "WRONG"
+    },
+    {
+      "company_name": "Vishal Nirmiti",
+      "date_range": "2026-09-30 to 2026-10-05",
+      "status": "reconstructed",
+      "listing_date": "2026-10-08",
+      "issue_price": 220.0,
+      "nse_symbol": "VNL",
+      "url": "https://www.chittorgarh.com/ipo/vishal-nirmiti-ipo/2665/",
+      "official_issuer_name": "Vishal Nirmiti Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-10-05",
+      "source_reported_at_ist": "2026-10-05T11:18:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:47+05:30",
+      "positive_listing_probability": 0.32688632136461904,
+      "inputs": {
+        "application_closing_date": "2026-10-05",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 1.19,
+        "observed_on": "2026-10-05",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-10-05T11:36:00+05:30",
+          "datePublished": "2026-10-05T11:36:00+05:30"
+        },
+        "qib_subscription": 0.96,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 1.02,
+        "source_reported_at_ist": "2026-10-05T11:18:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:47.608090+05:30",
+          "publisher": "choiceindia.com",
+          "raw_sha256": "f6a5a0efcc0ce336db03c985e9ec11de34199559c29121dd860e702e83463034",
+          "url": "https://choiceindia.com/news/vishal-nirmiti-ipo-subscription-day-3"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": true,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "LOW",
+      "binary_prediction": "NON_POSITIVE",
+      "actual_open_price": 215.0,
+      "actual_open_return_pct": -2.2727272727272707,
+      "actual_direction": "NON_POSITIVE",
+      "actual_flat": false,
+      "isin": "INE1O5L01025",
+      "listing_archive_sha256": "07fdfc3409b83fac6ee4a736ceb4fde20069c5d1a490d960b332c178cb703e39",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261008_F_0000.csv.zip",
+      "direction_correct": true,
+      "band_result": "RIGHT"
+    },
+    {
+      "company_name": "SRIT India",
+      "date_range": "2026-09-28 to 2026-09-30",
+      "status": "reconstructed",
+      "listing_date": "2026-10-06",
+      "issue_price": 130.0,
+      "nse_symbol": "SRIT",
+      "url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
+      "official_issuer_name": "Srit India Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-09-30",
+      "source_reported_at_ist": "2026-09-30T11:15:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:49+05:30",
+      "positive_listing_probability": 0.5090518167698918,
+      "inputs": {
+        "application_closing_date": "2026-09-30",
+        "clean_timestamp_evidence": false,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [
+          "single_small_news_publisher_not_independently_corroborated"
+        ],
+        "hni_subscription": 32.36,
+        "observed_on": "2026-09-30",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-09-30T12:23:50+05:30",
+          "datePublished": "2026-09-30T12:23:45+05:30"
+        },
+        "qib_subscription": 0.08,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 14.77,
+        "source_reported_at_ist": "2026-09-30T11:15:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:49.218933+05:30",
+          "publisher": "rajkotcityguide.com",
+          "raw_sha256": "579965d344c57d402d83c9e9e9e351e4e181410b2886fc4594e50a2b06c078ee",
+          "url": "https://rajkotcityguide.com/srit-india-ipo-gmp-today-subscription-status-listing-price/"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "needs_verification",
+      "signal": "MIXED",
+      "binary_prediction": "POSITIVE",
+      "actual_open_price": 148.0,
+      "actual_open_return_pct": 13.846153846153841,
+      "actual_direction": "POSITIVE",
+      "actual_flat": false,
+      "isin": "INE307K01028",
+      "listing_archive_sha256": "f444e5ba9821fe09ac3bff69f53144369ce536be6481acc78ab00d175ae55b56",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261006_F_0000.csv.zip",
+      "direction_correct": true,
+      "band_result": "ABSTAINED"
+    },
+    {
+      "company_name": "Shah Investor's Home",
+      "date_range": "2026-09-28 to 2026-09-30",
+      "status": "reconstructed",
+      "listing_date": "2026-10-06",
+      "issue_price": 167.0,
+      "nse_symbol": "SHAHINVEST",
+      "url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
+      "official_issuer_name": "Shah Investor's Home Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-09-30",
+      "source_reported_at_ist": "2026-09-30T14:23:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:50+05:30",
+      "positive_listing_probability": 0.7170326094837385,
+      "inputs": {
+        "application_closing_date": "2026-09-30",
+        "clean_timestamp_evidence": false,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [
+          "article_also_labels_detailed_table_17_05_conflicting_with_intro"
+        ],
+        "hni_subscription": 47.25,
+        "observed_on": "2026-09-30",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-09-30T15:54:17+05:30",
+          "datePublished": "2026-09-29T18:56:00+05:30"
+        },
+        "qib_subscription": 5.51,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 10.13,
+        "source_reported_at_ist": "2026-09-30T14:23:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:49.987722+05:30",
+          "publisher": "5paisa.com",
+          "raw_sha256": "c33e588976a02d9f62245601e4d78acb6b4a7baffe279fe5b10ef50c2b3cf063",
+          "url": "https://www.5paisa.com/blog/shah-investors-home-ipo-subscription-status"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "needs_verification",
+      "signal": "HIGH",
+      "binary_prediction": "POSITIVE",
+      "actual_open_price": 171.0,
+      "actual_open_return_pct": 2.39520958083832,
+      "actual_direction": "POSITIVE",
+      "actual_flat": false,
+      "isin": "INE029N01014",
+      "listing_archive_sha256": "f444e5ba9821fe09ac3bff69f53144369ce536be6481acc78ab00d175ae55b56",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261006_F_0000.csv.zip",
+      "direction_correct": true,
+      "band_result": "RIGHT"
+    },
+    {
+      "company_name": "Acevector",
+      "date_range": "2026-09-25 to 2026-09-29",
+      "status": "reconstructed",
+      "listing_date": "2026-10-05",
+      "issue_price": 32.0,
+      "nse_symbol": "ACEVECTOR",
+      "url": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
+      "official_issuer_name": "AceVector Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-09-29",
+      "source_reported_at_ist": "2026-09-29T13:57:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:50+05:30",
+      "positive_listing_probability": 0.4333036632731376,
+      "inputs": {
+        "application_closing_date": "2026-09-29",
+        "clean_timestamp_evidence": false,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [
+          "publisher_publication_and_modification_precede_claimed_bid_time"
+        ],
+        "hni_subscription": 3.11,
+        "observed_on": "2026-09-29",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-09-29T12:57:00+05:30",
+          "datePublished": "2026-09-29T12:57:00+05:30"
+        },
+        "qib_subscription": 1.5,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 2.89,
+        "source_reported_at_ist": "2026-09-29T13:57:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:50.622415+05:30",
+          "publisher": "choiceindia.com",
+          "raw_sha256": "3fc91d37d008be647fe41025d01db33bb9c490cf85ef92692f9d6c3a89d9d83d",
+          "url": "https://choiceindia.com/news/acevector-ipo-subscription-day-3"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": false,
+      "evidence_quality": "needs_verification",
+      "signal": "MIXED",
+      "binary_prediction": "NON_POSITIVE",
+      "actual_open_price": 28.32,
+      "actual_open_return_pct": -11.5,
+      "actual_direction": "NON_POSITIVE",
+      "actual_flat": false,
+      "isin": "INE580P01029",
+      "listing_archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261005_F_0000.csv.zip",
+      "direction_correct": true,
+      "band_result": "ABSTAINED"
+    },
+    {
+      "company_name": "Orient Cables (India)",
+      "date_range": "2026-09-25 to 2026-09-29",
+      "status": "reconstructed",
+      "listing_date": "2026-10-05",
+      "issue_price": 272.0,
+      "nse_symbol": "ORIENTCABL",
+      "url": "https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/",
+      "official_issuer_name": "Orient Cables (India) Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-09-29",
+      "source_reported_at_ist": "2026-09-29T12:00:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:51+05:30",
+      "positive_listing_probability": 0.5343538775446275,
+      "inputs": {
+        "application_closing_date": "2026-09-29",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 37.11,
+        "observed_on": "2026-09-29",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-09-29T12:13:00+05:30",
+          "datePublished": "2026-09-29T12:13:00+05:30"
+        },
+        "qib_subscription": 0.22,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 15.61,
+        "source_reported_at_ist": "2026-09-29T12:00:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:51.121964+05:30",
+          "publisher": "choiceindia.com",
+          "raw_sha256": "11761eadaeb3f353b9dc4be3fdba4f4ba7116154f32a971ce4c78babf99e39bb",
+          "url": "https://choiceindia.com/news/orient-cables-ipo-subscription-status-day-3"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": true,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "MIXED",
+      "binary_prediction": "POSITIVE",
+      "actual_open_price": 450.0,
+      "actual_open_return_pct": 65.44117647058823,
+      "actual_direction": "POSITIVE",
+      "actual_flat": false,
+      "isin": "INE0J1N01028",
+      "listing_archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261005_F_0000.csv.zip",
+      "direction_correct": true,
+      "band_result": "ABSTAINED"
+    },
+    {
+      "company_name": "German Green Steel & Power",
+      "date_range": "2026-09-25 to 2026-09-29",
+      "status": "reconstructed",
+      "listing_date": "2026-10-05",
+      "issue_price": 139.0,
+      "nse_symbol": "GERMAN",
+      "url": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
+      "official_issuer_name": "German Green Steel and Power Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-09-29",
+      "source_reported_at_ist": "2026-09-29T12:39:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:51+05:30",
+      "positive_listing_probability": 0.5959821224892532,
+      "inputs": {
+        "application_closing_date": "2026-09-29",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 22.35,
+        "observed_on": "2026-09-29",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-09-29T12:47:00+05:30",
+          "datePublished": "2026-09-29T12:47:00+05:30"
+        },
+        "qib_subscription": 1.35,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 13.37,
+        "source_reported_at_ist": "2026-09-29T12:39:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:51.680782+05:30",
+          "publisher": "choiceindia.com",
+          "raw_sha256": "724eaed5777d9f5bbb69e3c9c859679bb39f21d1daa8a44632194d2134afc0ee",
+          "url": "https://choiceindia.com/news/german-green-steel-power-ipo-subscription-status-day-3"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": true,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "MIXED",
+      "binary_prediction": "POSITIVE",
+      "actual_open_price": 142.0,
+      "actual_open_return_pct": 2.158273381294973,
+      "actual_direction": "POSITIVE",
+      "actual_flat": false,
+      "isin": "INE0D4501011",
+      "listing_archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261005_F_0000.csv.zip",
+      "direction_correct": true,
+      "band_result": "ABSTAINED"
+    },
+    {
+      "company_name": "Runwal Enterprises",
+      "date_range": "2026-09-25 to 2026-09-29",
+      "status": "reconstructed",
+      "listing_date": "2026-10-05",
+      "issue_price": 305.0,
+      "nse_symbol": "RUNWALENTR",
+      "url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
+      "official_issuer_name": "Runwal Enterprises Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-09-29",
+      "source_reported_at_ist": "2026-09-29T14:24:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:52+05:30",
+      "positive_listing_probability": 0.39379835912284356,
+      "inputs": {
+        "application_closing_date": "2026-09-29",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 2.85,
+        "observed_on": "2026-09-29",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-09-29T14:26:00+05:30",
+          "datePublished": "2026-09-29T14:26:00+05:30"
+        },
+        "qib_subscription": 2.2,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 0.82,
+        "source_reported_at_ist": "2026-09-29T14:24:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:52.377462+05:30",
+          "publisher": "choiceindia.com",
+          "raw_sha256": "3896776d2a977c70d6e36b858fdc1f94a44133f8aaca039c982363795f18b87b",
+          "url": "https://choiceindia.com/news/lumino-industries-ipo-subscription-day-3"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": true,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "LOW",
+      "binary_prediction": "NON_POSITIVE",
+      "actual_open_price": 305.0,
+      "actual_open_return_pct": 0.0,
+      "actual_direction": "NON_POSITIVE",
+      "actual_flat": true,
+      "isin": "INE804W01029",
+      "listing_archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261005_F_0000.csv.zip",
+      "direction_correct": true,
+      "band_result": "RIGHT"
+    },
+    {
+      "company_name": "Moneyview",
+      "date_range": "2026-09-24 to 2026-09-28",
+      "status": "reconstructed",
+      "listing_date": "2026-10-01",
+      "issue_price": 34.0,
+      "nse_symbol": "MONEYVIEW",
+      "url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
+      "official_issuer_name": "Moneyview Limited",
+      "official_offer_evidence": {
+        "url": "https://www.nseindia.com/api/public-past-issues",
+        "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02"
+      },
+      "observed_on": "2026-09-28",
+      "source_reported_at_ist": "2026-09-28T15:18:00+05:30",
+      "computed_at_ist": "2026-10-21T14:54:53+05:30",
+      "positive_listing_probability": 0.9538338377585973,
+      "inputs": {
+        "application_closing_date": "2026-09-28",
+        "clean_timestamp_evidence": true,
+        "evidence_class": "source_reported_historical_timestamped_table",
+        "evidence_warnings": [],
+        "hni_subscription": 110.17,
+        "observed_on": "2026-09-28",
+        "official_offer_evidence": {
+          "raw_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+          "url": "https://www.nseindia.com/api/public-past-issues"
+        },
+        "publication_times_ist": {
+          "dateModified": "2026-09-28T15:36:00+05:30",
+          "datePublished": "2026-09-28T15:36:00+05:30"
+        },
+        "qib_subscription": 178.29,
+        "recovery_protocol": "precutoff_timestamp_v3",
+        "retail_subscription": 17.05,
+        "source_reported_at_ist": "2026-09-28T15:18:00+05:30",
+        "time_basis": "publisher_article_explicit_bid_asof",
+        "timezone_basis": "publisher India market clock interpreted as IST"
+      },
+      "sources": [
+        {
+          "fetched_at_ist": "2026-10-21T14:54:53.156583+05:30",
+          "publisher": "choiceindia.com",
+          "raw_sha256": "47af2f13caeddb93bed3ac87a1310346bec02e55102f4cf0b105de2ca68bb319",
+          "url": "https://choiceindia.com/news/moneyview-ipo-subscription-day-3"
+        }
+      ],
+      "eligible_for_prospective_accuracy": false,
+      "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+      "model_sha256": "bf1518266ac8d2c624101d7aae3ddbdd59b5c6d224a33ae4dae3280f0ea104f0",
+      "closing_day_timestamp_found": true,
+      "outcome_status": "verified_nse_archive",
+      "eligible_for_primary_comparison": true,
+      "evidence_quality": "clean_reported_timestamp",
+      "signal": "HIGH",
+      "binary_prediction": "POSITIVE",
+      "actual_open_price": 55.0,
+      "actual_open_return_pct": 61.76470588235294,
+      "actual_direction": "POSITIVE",
+      "actual_flat": false,
+      "isin": "INE0PTN01011",
+      "listing_archive_sha256": "ccc5fb27872716bbcc99d2d87e522ab304f6620e11c3a5045c30e1ff25cbfb73",
+      "listing_archive_url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261001_F_0000.csv.zip",
+      "direction_correct": true,
+      "band_result": "RIGHT"
+    }
+  ]
+}

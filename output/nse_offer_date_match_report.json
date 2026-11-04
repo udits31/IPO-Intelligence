@@ -1,0 +1,122 @@
+{
+  "source_url": "https://www.nseindia.com/api/public-past-issues",
+  "source_response_sha256": "532bc9a4007d07c190fee698bce8262d44fa995b00b31e703e7579f220d03e02",
+  "nse_response_records": 1477,
+  "canonical_2021_2026_records": 443,
+  "accepted": 422,
+  "unresolved": 21,
+  "identity_match_counts": {
+    "name_and_symbol": 372,
+    "symbol": 38,
+    "name": 12
+  },
+  "unresolved_examples": [
+    {
+      "ipo_id": 276,
+      "company_name": "Nuvoco Vistas Corp.Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 301,
+      "company_name": "Anupam Rasayan India Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 311,
+      "company_name": "Indian Railway Finance Corp.Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 328,
+      "company_name": "DCX Systems Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 347,
+      "company_name": "Ruchi Soya Industries Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 367,
+      "company_name": "Indian Renewable Energy Development Agency Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 369,
+      "company_name": "Protean eGov Technologies Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 370,
+      "company_name": "ESAF Small Finance Bank Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 426,
+      "company_name": "NTPC Green Energy Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 432,
+      "company_name": "Afcons Infrastructure Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 468,
+      "company_name": "Akme Fintrade (India) Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 443,
+      "company_name": "Northern Arc Capital Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 477,
+      "company_name": "Vodafone Idea Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 524,
+      "company_name": "Canara HSBC Life Insurance Co.Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 529,
+      "company_name": "Tata Capital Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 571,
+      "company_name": "National Securities Depository Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 574,
+      "company_name": "Property Share Investment Trust-PropShare Titania",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 593,
+      "company_name": "Aegis Vopak Terminals Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 621,
+      "company_name": "Rays of Belief Ltd.",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 649,
+      "company_name": "Cube Highways Trust",
+      "candidate_count": 0
+    },
+    {
+      "ipo_id": 669,
+      "company_name": "Property Share Investment Trust-Propshare Celestia",
+      "candidate_count": 0
+    }
+  ],
+  "method": "Accept only one NSE record with identical listing date and issue price, valid offer chronology, and exact normalized company name or NSE symbol. No date inference or fuzzy match.",
+  "retrieved_at_utc": "2026-10-18T13:41:22.022224+00:00"
+}

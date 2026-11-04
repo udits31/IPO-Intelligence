@@ -1,0 +1,591 @@
+{
+  "2026-10-26": {
+    "attempts": 102,
+    "verified_attempts": 83,
+    "ipo_count": 1,
+    "statuses": {
+      "fetch_error": 2,
+      "no_subscription_table": 4,
+      "verified": 83,
+      "partial_subscription_table": 13
+    },
+    "duplicate_source_slots": 8,
+    "extra_attempts": 10,
+    "invalid_verified_category_rows": [],
+    "bad_hashes": 0,
+    "missing_hashes": 0,
+    "companies": [
+      {
+        "company": "EAAA India Alternatives",
+        "slots": 46,
+        "verified_slots": 46,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 51,
+            "slots": 46,
+            "verified_slots": 32,
+            "distinct_books": 2,
+            "statuses": {
+              "fetch_error": 1,
+              "no_subscription_table": 4,
+              "partial_subscription_table": 13,
+              "verified": 33
+            },
+            "first": "2026-10-26T10:30:05+05:30",
+            "last": "2026-10-26T16:55:02+05:30",
+            "latest": {
+              "qib_x": 0.08,
+              "nii_x": 0.08,
+              "retail_x": 0.02,
+              "fetched_at_ist": "2026-10-26T16:55:02+05:30",
+              "closing_date": "2026-10-28"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 51,
+            "slots": 46,
+            "verified_slots": 46,
+            "distinct_books": 49,
+            "statuses": {
+              "fetch_error": 1,
+              "verified": 50
+            },
+            "first": "2026-10-26T10:30:05+05:30",
+            "last": "2026-10-26T16:55:02+05:30",
+            "latest": {
+              "qib_x": 0.07934909308246296,
+              "nii_x": 0.31814111251119404,
+              "retail_x": 0.04025787197878213,
+              "fetched_at_ist": "2026-10-26T16:55:03+05:30",
+              "closing_date": "2026-10-28"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-27": {
+    "attempts": 2867,
+    "verified_attempts": 1423,
+    "ipo_count": 3,
+    "statuses": {
+      "no_subscription_table": 40,
+      "fetch_error": 22,
+      "verified": 1423,
+      "partial_subscription_table": 1382
+    },
+    "duplicate_source_slots": 84,
+    "extra_attempts": 2735,
+    "invalid_verified_category_rows": [],
+    "bad_hashes": 0,
+    "missing_hashes": 0,
+    "companies": [
+      {
+        "company": "BLS Polymers",
+        "slots": 48,
+        "verified_slots": 48,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 1415,
+            "slots": 48,
+            "verified_slots": 3,
+            "distinct_books": 1,
+            "statuses": {
+              "no_subscription_table": 40,
+              "partial_subscription_table": 1372,
+              "verified": 3
+            },
+            "first": "2026-10-27T10:00:05+05:30",
+            "last": "2026-10-27T16:55:08+05:30",
+            "latest": {
+              "qib_x": 7.52,
+              "nii_x": 2.97,
+              "retail_x": 2.33,
+              "fetched_at_ist": "2026-10-27T16:02:07+05:30",
+              "closing_date": "2026-10-29"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 1412,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 131,
+            "statuses": {
+              "fetch_error": 22,
+              "verified": 1390
+            },
+            "first": "2026-10-27T10:00:05+05:30",
+            "last": "2026-10-27T16:55:08+05:30",
+            "latest": {
+              "qib_x": 12.022764705882352,
+              "nii_x": 12.686901960784313,
+              "retail_x": 6.695361344537815,
+              "fetched_at_ist": "2026-10-27T16:55:09+05:30",
+              "closing_date": "2026-10-29"
+            }
+          }
+        }
+      },
+      {
+        "company": "EAAA India Alternatives",
+        "slots": 9,
+        "verified_slots": 9,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 10,
+            "slots": 9,
+            "verified_slots": 9,
+            "distinct_books": 2,
+            "statuses": {
+              "verified": 10
+            },
+            "first": "2026-10-27T16:16:49+05:30",
+            "last": "2026-10-27T16:55:09+05:30",
+            "latest": {
+              "qib_x": 0.25,
+              "nii_x": 0.38,
+              "retail_x": 0.09,
+              "fetched_at_ist": "2026-10-27T16:55:10+05:30",
+              "closing_date": "2026-10-28"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 10,
+            "slots": 9,
+            "verified_slots": 9,
+            "distinct_books": 9,
+            "statuses": {
+              "verified": 10
+            },
+            "first": "2026-10-27T16:16:49+05:30",
+            "last": "2026-10-27T16:55:09+05:30",
+            "latest": {
+              "qib_x": 0.45410861877103015,
+              "nii_x": 0.47497681938137465,
+              "retail_x": 0.10545911793986207,
+              "fetched_at_ist": "2026-10-27T16:55:10+05:30",
+              "closing_date": "2026-10-28"
+            }
+          }
+        }
+      },
+      {
+        "company": "SFC Environmental Technologies",
+        "slots": 9,
+        "verified_slots": 9,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 10,
+            "slots": 9,
+            "verified_slots": 0,
+            "distinct_books": 0,
+            "statuses": {
+              "partial_subscription_table": 10
+            },
+            "first": "2026-10-27T16:16:48+05:30",
+            "last": "2026-10-27T16:55:09+05:30",
+            "latest": null
+          },
+          "nse_exchange": {
+            "attempts": 10,
+            "slots": 9,
+            "verified_slots": 9,
+            "distinct_books": 9,
+            "statuses": {
+              "verified": 10
+            },
+            "first": "2026-10-27T16:16:48+05:30",
+            "last": "2026-10-27T16:55:09+05:30",
+            "latest": {
+              "qib_x": 0.0007563696333906048,
+              "nii_x": 0.08864354757432773,
+              "retail_x": 0.1562507062274572,
+              "fetched_at_ist": "2026-10-27T16:55:09+05:30",
+              "closing_date": "2026-10-29"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-28": {
+    "attempts": 432,
+    "verified_attempts": 376,
+    "ipo_count": 4,
+    "statuses": {
+      "verified": 376,
+      "partial_subscription_table": 54,
+      "no_subscription_table": 1,
+      "fetch_error": 1
+    },
+    "duplicate_source_slots": 40,
+    "extra_attempts": 48,
+    "invalid_verified_category_rows": [],
+    "bad_hashes": 0,
+    "missing_hashes": 0,
+    "companies": [
+      {
+        "company": "BLS Polymers",
+        "slots": 48,
+        "verified_slots": 48,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 54,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 9,
+            "statuses": {
+              "verified": 54
+            },
+            "first": "2026-10-28T10:00:06+05:30",
+            "last": "2026-10-28T16:55:13+05:30",
+            "latest": {
+              "qib_x": 12.18,
+              "nii_x": 66.37,
+              "retail_x": 27.88,
+              "fetched_at_ist": "2026-10-28T16:55:14+05:30",
+              "closing_date": "2026-10-29"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 54,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 51,
+            "statuses": {
+              "verified": 54
+            },
+            "first": "2026-10-28T10:00:06+05:30",
+            "last": "2026-10-28T16:55:13+05:30",
+            "latest": {
+              "qib_x": 12.199264705882353,
+              "nii_x": 78.07529411764706,
+              "retail_x": 29.491210084033614,
+              "fetched_at_ist": "2026-10-28T16:55:15+05:30",
+              "closing_date": "2026-10-29"
+            }
+          }
+        }
+      },
+      {
+        "company": "EAAA India Alternatives",
+        "slots": 48,
+        "verified_slots": 48,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 54,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 8,
+            "statuses": {
+              "verified": 54
+            },
+            "first": "2026-10-28T10:00:09+05:30",
+            "last": "2026-10-28T16:55:17+05:30",
+            "latest": {
+              "qib_x": 13.8,
+              "nii_x": 4.77,
+              "retail_x": 0.81,
+              "fetched_at_ist": "2026-10-28T16:55:17+05:30",
+              "closing_date": "2026-10-28"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 54,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 51,
+            "statuses": {
+              "verified": 54
+            },
+            "first": "2026-10-28T10:00:09+05:30",
+            "last": "2026-10-28T16:55:17+05:30",
+            "latest": {
+              "qib_x": 13.134759393605183,
+              "nii_x": 4.560788695783109,
+              "retail_x": 0.9718745495014419,
+              "fetched_at_ist": "2026-10-28T16:55:17+05:30",
+              "closing_date": "2026-10-28"
+            }
+          }
+        }
+      },
+      {
+        "company": "M.K.Sons Fine Jewels",
+        "slots": 48,
+        "verified_slots": 47,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 54,
+            "slots": 48,
+            "verified_slots": 39,
+            "distinct_books": 8,
+            "statuses": {
+              "no_subscription_table": 1,
+              "partial_subscription_table": 8,
+              "verified": 45
+            },
+            "first": "2026-10-28T10:00:10+05:30",
+            "last": "2026-10-28T16:55:17+05:30",
+            "latest": {
+              "qib_x": 0.96,
+              "nii_x": 1.02,
+              "retail_x": 0.21,
+              "fetched_at_ist": "2026-10-28T16:55:17+05:30",
+              "closing_date": "2026-10-30"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 54,
+            "slots": 48,
+            "verified_slots": 47,
+            "distinct_books": 50,
+            "statuses": {
+              "fetch_error": 1,
+              "verified": 53
+            },
+            "first": "2026-10-28T10:00:10+05:30",
+            "last": "2026-10-28T16:55:17+05:30",
+            "latest": {
+              "qib_x": 0.9624588235294118,
+              "nii_x": 1.1603035294117647,
+              "retail_x": 0.22789764705882354,
+              "fetched_at_ist": "2026-10-28T16:55:18+05:30",
+              "closing_date": "2026-10-30"
+            }
+          }
+        }
+      },
+      {
+        "company": "SFC Environmental Technologies",
+        "slots": 48,
+        "verified_slots": 48,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 54,
+            "slots": 48,
+            "verified_slots": 8,
+            "distinct_books": 3,
+            "statuses": {
+              "partial_subscription_table": 46,
+              "verified": 8
+            },
+            "first": "2026-10-28T10:00:08+05:30",
+            "last": "2026-10-28T16:55:15+05:30",
+            "latest": {
+              "qib_x": 0.08,
+              "nii_x": 0.31,
+              "retail_x": 0.33,
+              "fetched_at_ist": "2026-10-28T16:55:16+05:30",
+              "closing_date": "2026-10-29"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 54,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 51,
+            "statuses": {
+              "verified": 54
+            },
+            "first": "2026-10-28T10:00:08+05:30",
+            "last": "2026-10-28T16:55:15+05:30",
+            "latest": {
+              "qib_x": 0.07792831840492026,
+              "nii_x": 0.36885622749223773,
+              "retail_x": 0.33830696374171737,
+              "fetched_at_ist": "2026-10-28T16:55:17+05:30",
+              "closing_date": "2026-10-29"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-29": {
+    "attempts": 384,
+    "verified_attempts": 330,
+    "ipo_count": 4,
+    "statuses": {
+      "verified": 330,
+      "no_subscription_table": 2,
+      "identity_unavailable": 48,
+      "partial_subscription_table": 4
+    },
+    "duplicate_source_slots": 0,
+    "extra_attempts": 0,
+    "invalid_verified_category_rows": [],
+    "bad_hashes": 0,
+    "missing_hashes": 0,
+    "companies": [
+      {
+        "company": "BLS Polymers",
+        "slots": 48,
+        "verified_slots": 48,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 48,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 3,
+            "statuses": {
+              "verified": 48
+            },
+            "first": "2026-10-29T10:00:18+05:30",
+            "last": "2026-10-29T16:55:10+05:30",
+            "latest": {
+              "qib_x": 93.63,
+              "nii_x": 482.95,
+              "retail_x": 103.58,
+              "fetched_at_ist": "2026-10-29T16:55:10+05:30",
+              "closing_date": "2026-10-29"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 48,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 48,
+            "statuses": {
+              "verified": 48
+            },
+            "first": "2026-10-29T10:00:18+05:30",
+            "last": "2026-10-29T16:55:10+05:30",
+            "latest": {
+              "qib_x": 200.25226470588234,
+              "nii_x": 558.9107843137255,
+              "retail_x": 127.26010084033614,
+              "fetched_at_ist": "2026-10-29T16:55:10+05:30",
+              "closing_date": "2026-10-29"
+            }
+          }
+        }
+      },
+      {
+        "company": "Bombay Coated & Special Steels",
+        "slots": 48,
+        "verified_slots": 42,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 48,
+            "slots": 48,
+            "verified_slots": 42,
+            "distinct_books": 4,
+            "statuses": {
+              "no_subscription_table": 2,
+              "partial_subscription_table": 4,
+              "verified": 42
+            },
+            "first": "2026-10-29T10:00:20+05:30",
+            "last": "2026-10-29T16:55:11+05:30",
+            "latest": {
+              "qib_x": 6.89,
+              "nii_x": 0.63,
+              "retail_x": 1.19,
+              "fetched_at_ist": "2026-10-29T16:55:11+05:30",
+              "closing_date": "2026-11-02"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 48,
+            "slots": 48,
+            "verified_slots": 0,
+            "distinct_books": 0,
+            "statuses": {
+              "identity_unavailable": 48
+            },
+            "first": "2026-10-29T10:00:20+05:30",
+            "last": "2026-10-29T16:55:11+05:30",
+            "latest": null
+          }
+        }
+      },
+      {
+        "company": "M.K.Sons Fine Jewels",
+        "slots": 48,
+        "verified_slots": 48,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 48,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 3,
+            "statuses": {
+              "verified": 48
+            },
+            "first": "2026-10-29T10:00:20+05:30",
+            "last": "2026-10-29T16:55:12+05:30",
+            "latest": {
+              "qib_x": 0.96,
+              "nii_x": 1.64,
+              "retail_x": 0.55,
+              "fetched_at_ist": "2026-10-29T16:55:12+05:30",
+              "closing_date": "2026-10-30"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 48,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 48,
+            "statuses": {
+              "verified": 48
+            },
+            "first": "2026-10-29T10:00:20+05:30",
+            "last": "2026-10-29T16:55:12+05:30",
+            "latest": {
+              "qib_x": 0.9881529411764706,
+              "nii_x": 2.1941349019607843,
+              "retail_x": 0.8393717647058824,
+              "fetched_at_ist": "2026-10-29T16:55:12+05:30",
+              "closing_date": "2026-10-30"
+            }
+          }
+        }
+      },
+      {
+        "company": "SFC Environmental Technologies",
+        "slots": 48,
+        "verified_slots": 48,
+        "sources": {
+          "chittorgarh_investorgain": {
+            "attempts": 48,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 3,
+            "statuses": {
+              "verified": 48
+            },
+            "first": "2026-10-29T10:00:19+05:30",
+            "last": "2026-10-29T16:55:10+05:30",
+            "latest": {
+              "qib_x": 0.88,
+              "nii_x": 1.79,
+              "retail_x": 0.58,
+              "fetched_at_ist": "2026-10-29T16:55:11+05:30",
+              "closing_date": "2026-10-29"
+            }
+          },
+          "nse_exchange": {
+            "attempts": 48,
+            "slots": 48,
+            "verified_slots": 48,
+            "distinct_books": 48,
+            "statuses": {
+              "verified": 48
+            },
+            "first": "2026-10-29T10:00:19+05:30",
+            "last": "2026-10-29T16:55:10+05:30",
+            "latest": {
+              "qib_x": 18.81215856770287,
+              "nii_x": 12.726956187580972,
+              "retail_x": 2.562917097936234,
+              "fetched_at_ist": "2026-10-29T16:55:11+05:30",
+              "closing_date": "2026-10-29"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

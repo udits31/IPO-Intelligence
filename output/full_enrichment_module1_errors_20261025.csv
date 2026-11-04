@@ -1,0 +1,34 @@
+cohort,company_name,actual_open,issue_price,actual_positive,frozen_probability,enriched_probability,gmp_pct,missing_inputs
+69_historical_2026,Manipal Payment & Identity Solutions Ltd.,330.0,339.0,False,0.3879774332877773,0.6,2.949852507374631,
+69_historical_2026,Prasol Chemicals Ltd.,610.0,676.0,False,0.4559495089950207,0.7391304347826086,7.396449704142012,
+69_historical_2026,Annu Projects Ltd.,72.0,99.0,False,0.4394401213534958,0.7391304347826086,4.040404040404041,
+69_historical_2026,Symbiotec Pharmalab Ltd.,988.0,988.0,False,0.9066151453842616,0.75,35.62753036437247,
+69_historical_2026,Skyways Air Services Ltd.,124.0,138.0,False,0.7454109974718675,0.75,21.30434782608696,
+69_historical_2026,Shankesh Jewellers Ltd.,103.3,93.0,True,0.4482605332675365,0.6,5.376344086021505,
+69_historical_2026,Horizon Industrial Parks Ltd.,60.25,60.0,True,0.4482942695056837,0.7391304347826086,2.833333333333333,
+69_historical_2026,Lohia Corp Ltd.,461.0,425.0,True,0.4620797185515383,0.7391304347826086,3.5294117647058822,
+69_historical_2026,Xtranet Technologies Ltd.,136.0,127.0,True,0.491232568175681,0.7391304347826086,7.086614173228346,
+69_historical_2026,Aastha Spintex Ltd.,130.0,136.0,False,0.4851872655271029,0.6,4.411764705882353,
+69_historical_2026,Turtlemint Fintech Solutions Ltd.,134.9,152.0,False,0.4098698584005511,0.7391304347826086,1.973684210526316,
+69_historical_2026,OnEMI Technology Solutions Ltd.,190.0,171.0,True,0.4996921282327776,0.7391304347826086,2.3391812865497075,
+69_historical_2026,Om Power Transmission Ltd.,186.0,175.0,True,0.3625916702529268,0.3333333333333333,2.0,
+69_historical_2026,Powerica Ltd.,366.0,395.0,False,0.3769200701641975,0.7391304347826086,1.2658227848101269,
+69_historical_2026,Sai Parenteral's Ltd.,400.0,392.0,True,0.4400337298914231,0.75,0.0,
+69_historical_2026,Amir Chand Jagdish Kumar (Exports) Ltd.,200.0,212.0,False,0.5786021556049576,0.75,2.830188679245283,
+69_historical_2026,Central Mine Planning & Design Institute Ltd.,160.0,172.0,False,0.4567087509166088,0.75,1.162790697674419,
+69_historical_2026,Innovision Ltd.,467.7,519.0,False,0.7240322714321792,0.9666666666666668,0.3853564547206166,
+69_historical_2026,Rajputana Stainless Ltd.,122.0,122.0,False,0.4353280579603009,0.7391304347826086,2.0491803278688523,
+69_historical_2026,SEDEMAC Mechatronics Ltd.,1535.0,1352.0,True,0.4867403857386167,0.7391304347826086,0.2218934911242603,
+69_historical_2026,Omnitech Engineering Ltd.,202.0,227.0,False,0.3302564489840886,0.7391304347826086,0.0,
+69_historical_2026,PNGS Reva Diamond Jewellery Ltd.,375.0,386.0,False,0.4323536564455902,0.7391304347826086,0.38860103626943,
+69_historical_2026,Clean Max Enviro Energy Solutions Ltd.,960.0,1053.0,False,0.5419259222735432,0.7391304347826086,0.0949667616334283,
+69_historical_2026,Shadowfax Technologies Ltd.,112.6,124.0,False,0.4625885756946992,0.7391304347826086,3.225806451612903,
+69_historical_2026,Amagi Media Labs Ltd.,318.0,361.0,False,0.4541764578331864,0.6,5.54016620498615,
+recent_23_verified,Nityas Gems & Jewellery,80.0,75.0,True,0.3282300372964153,0.7391304347826086,,pub_financial_sector
+recent_23_verified,Vishal Nirmiti,215.0,220.0,False,0.5081245577577365,0.7391304347826086,,pub_financial_sector
+recent_23_verified,Acevector,28.32,32.0,False,0.5550523172314219,0.75,,pub_financial_sector; pub_ipo_earnings_yield_pct; pub_log_ipo_price_book
+recent_23_verified,Runwal Enterprises,305.0,305.0,False,0.6285020749399108,0.75,,pub_financial_sector
+recent_23_verified,Elevate Campuses,355.1,362.0,False,0.5975634891712681,0.75,,pub_financial_sector
+recent_23_verified,ArMee Infotech,375.0,375.0,False,0.5929306475642656,0.7391304347826086,,pub_financial_sector
+recent_23_verified,Sonaselection India,102.31,99.0,True,0.4002542248553419,0.7391304347826086,,pub_financial_sector
+recent_23_verified,Bonfiglioli Transmissions,586.0,586.0,False,0.9766380102168,1.0,,pub_financial_sector

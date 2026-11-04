@@ -1,0 +1,1853 @@
+{
+  "attempted": 196,
+  "matched": 112,
+  "quote_rows": 1350,
+  "sources": [
+    {
+      "ipo_id": 247,
+      "company_name": "CMS Info Systems Ltd.",
+      "identity_close_date": "2021-12-23",
+      "retrieved_at_ist": "2026-10-21T15:25:22.503606+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/cms-info-systems-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "8b63a0f75261880026eaeabf901a914cd402085d06ee740c3a84febdae1bc57d",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 248,
+      "company_name": "Supriya Lifescience Ltd.",
+      "identity_close_date": "2021-12-20",
+      "retrieved_at_ist": "2026-10-21T15:25:22.505086+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/supriya-lifescience-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "a7a4e5eea00ba21b4782c04248560198f1f4cbcdda643f28bd27ff8a6224a9b0",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 249,
+      "company_name": "HP Adhesives Ltd.",
+      "identity_close_date": "2021-12-17",
+      "retrieved_at_ist": "2026-10-21T15:25:22.505086+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/hp-adhesives-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "931006324fe11951d85655d4e4450e45c03681b313ccde1b32acd282e9698087",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 251,
+      "company_name": "Medplus Health Services Ltd.",
+      "identity_close_date": "2021-12-15",
+      "retrieved_at_ist": "2026-10-21T15:30:39.649196+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 252,
+      "company_name": "Metro Brands Ltd.",
+      "identity_close_date": "2021-12-14",
+      "retrieved_at_ist": "2026-10-21T15:25:24.459735+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/metro-brands-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "c4cab8bd881ce10550dfccdceca70f5a3316f96bac7abce16805960ccf3be348",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 254,
+      "company_name": "Shriram Properties Ltd.",
+      "identity_close_date": "2021-12-10",
+      "retrieved_at_ist": "2026-10-21T15:25:25.375625+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/shriram-properties-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "fc7dc1151725f8a91b32478f8b3626f8c41eb0f8e2c2ef5e19f496a9339d83a9",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 255,
+      "company_name": "Rategain Travel Technologies Ltd.",
+      "identity_close_date": "2021-12-09",
+      "retrieved_at_ist": "2026-10-21T15:30:39.649196+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 256,
+      "company_name": "Anand Rathi Wealth Ltd.",
+      "identity_close_date": "2021-12-06",
+      "retrieved_at_ist": "2026-10-21T15:25:25.652735+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/anand-rathi-wealth-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "1a9084f7d2547035e83833d61a6861465f559826db9fc75416baf4371e056e6f",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 257,
+      "company_name": "Tega Industries Ltd.",
+      "identity_close_date": "2021-12-03",
+      "retrieved_at_ist": "2026-10-21T15:25:26.794706+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/tega-industries-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "efb46c234061fe03a09a279afa50252342d215c9e15ce96f14f79ece9a62f6bf",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 260,
+      "company_name": "Tarsons Products Ltd.",
+      "identity_close_date": "2021-11-17",
+      "retrieved_at_ist": "2026-10-21T15:25:27.000899+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/tarsons-products-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "7dce9975e8fa4cd09352ff1737ff9600edcc60a06db5944040c260f5de0246eb",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 261,
+      "company_name": "Latent View Analytics Ltd.",
+      "identity_close_date": "2021-11-12",
+      "retrieved_at_ist": "2026-10-21T15:25:27.786021+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/latent-view-analytics-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "61a719dcb8fe2188eab6f66a1e275c598c56d6fd06904bad37ed318279fafaa5",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 263,
+      "company_name": "Sapphire Foods India Ltd.",
+      "identity_close_date": "2021-11-11",
+      "retrieved_at_ist": "2026-10-21T15:30:39.677839+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 265,
+      "company_name": "Sigachi Industries Ltd.",
+      "identity_close_date": "2021-11-03",
+      "retrieved_at_ist": "2026-10-21T15:25:29.428198+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/sigachi-industries-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "a2d1e58a6cae0b915c834799118c24a59bdf6cd50a77ff185da2656db2079a8d",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 267,
+      "company_name": "Fino Payments Bank Ltd.",
+      "identity_close_date": "2021-11-02",
+      "retrieved_at_ist": "2026-10-21T15:30:39.687064+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 269,
+      "company_name": "Aditya Birla Sun Life AMC Ltd.",
+      "identity_close_date": "2021-10-01",
+      "retrieved_at_ist": "2026-10-21T15:25:30.187823+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/aditya-birla-sun-life-amc-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "91e9e1e6a7f825d860b3159193953a85a4c1565095439060a24a92c93596a1cc",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 271,
+      "company_name": "Sansera Engineering Ltd.",
+      "identity_close_date": "2021-09-16",
+      "retrieved_at_ist": "2026-10-21T15:25:30.192490+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/sansera-engineering-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "5015817fa4fba0e552f643c56d4d46830ba4bbfbbd4b465373d8425fe1bfe9a6",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 272,
+      "company_name": "Ami Organics Ltd.",
+      "identity_close_date": "2021-09-03",
+      "retrieved_at_ist": "2026-10-21T15:25:31.843589+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/ami-organics-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "f92c5e04366a48c79d144e405a98ef07f6d96d190a19d50597555e39ecdb1ecc",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 273,
+      "company_name": "Vijaya Diagnostic Centre Ltd.",
+      "identity_close_date": "2021-09-03",
+      "retrieved_at_ist": "2026-10-21T15:30:41.637993+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 274,
+      "company_name": "Aptus Value Housing Finance India Ltd.",
+      "identity_close_date": "2021-08-12",
+      "retrieved_at_ist": "2026-10-21T15:30:41.640047+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 275,
+      "company_name": "Chemplast Sanmar Ltd.",
+      "identity_close_date": "2021-08-12",
+      "retrieved_at_ist": "2026-10-21T15:25:33.152505+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/chemplast-sanmar-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "7a69c80079ed2e55019f1165b8f149a588d004eb33c7b83150a4f3a40ccef1ed",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 277,
+      "company_name": "CarTrade Tech Ltd.",
+      "identity_close_date": "2021-08-11",
+      "retrieved_at_ist": "2026-10-21T15:30:41.687765+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 278,
+      "company_name": "Krsnaa Diagnostics Ltd.",
+      "identity_close_date": "2021-08-06",
+      "retrieved_at_ist": "2026-10-21T15:25:34.293792+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/krsnaa-diagnostics-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "c36ec5b18f425a0b8904d6cf575d8fa59a4feccc0948910e4939152de2277421",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 279,
+      "company_name": "Devyani International Ltd.",
+      "identity_close_date": "2021-08-06",
+      "retrieved_at_ist": "2026-10-21T15:25:34.769107+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/devyani-international-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "69ece4934f4a2f84ba373d16ff43ebe916279669f89f082feb114b376df824fe",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 280,
+      "company_name": "Exxaro Tiles Ltd.",
+      "identity_close_date": "2021-08-06",
+      "retrieved_at_ist": "2026-10-21T15:25:35.072921+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/exxaro-tiles-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "dde36f724243e1b327463416cb7c25fb6846028757d85375e37176f9016c07f6",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 281,
+      "company_name": "Windlas Biotech Ltd.",
+      "identity_close_date": "2021-08-06",
+      "retrieved_at_ist": "2026-10-21T15:25:36.050897+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/windlas-biotech-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "b89f1496bb764c30ec8fa238563eae8cd0b9e1960952d91c7d2573225413ffb3",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 282,
+      "company_name": "Rolex Rings Ltd.",
+      "identity_close_date": "2021-07-30",
+      "retrieved_at_ist": "2026-10-21T15:25:36.557347+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/rolex-rings-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "e1d048300fceee8b76ed5afbf00e8e06e3e5468381b84e09dbaaaad2b7a535e4",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 283,
+      "company_name": "Glenmark Life Sciences Ltd.",
+      "identity_close_date": "2021-07-29",
+      "retrieved_at_ist": "2026-10-21T15:25:37.273143+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/glenmark-life-sciences-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "5d872182be32ca09fd49e80d2f91f3bcb3e69e2014e9d1162829573c34524d62",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 284,
+      "company_name": "Tatva Chintan Pharma Chem Ltd.",
+      "identity_close_date": "2021-07-20",
+      "retrieved_at_ist": "2026-10-21T15:30:42.445767+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 285,
+      "company_name": "Zomato Ltd.",
+      "identity_close_date": "2021-07-16",
+      "retrieved_at_ist": "2026-10-21T15:25:38.424816+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/zomato-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "f4971acaae92b30809ed283ef63b5074e0049b908d008896e1265271a011f1f5",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 287,
+      "company_name": "Clean Science & Technology Ltd.",
+      "identity_close_date": "2021-07-09",
+      "retrieved_at_ist": "2026-10-21T15:25:39.046977+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/clean-science-technology-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "65b0033c38b33b1ae990254a611864470f7a9621bcf19c923bbbbabf077bf7f5",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 288,
+      "company_name": "India Pesticides Ltd.",
+      "identity_close_date": "2021-06-25",
+      "retrieved_at_ist": "2026-10-21T15:25:39.225336+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/india-pesticides-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "f343e0164259c487c3dc8e2c3e2b46f6f8cfdd3adbd29e5c79692d1b41d19630",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 289,
+      "company_name": "Dodla Dairy Ltd.",
+      "identity_close_date": "2021-06-18",
+      "retrieved_at_ist": "2026-10-21T15:25:39.650723+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/dodla-dairy-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "3a37bf1d3221cda524cbb640671765c5584eaadeae08e6372aa82c888d9dbd0f",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 291,
+      "company_name": "Shyam Metalics & Energy Ltd.",
+      "identity_close_date": "2021-06-16",
+      "retrieved_at_ist": "2026-10-21T15:30:43.217595+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 295,
+      "company_name": "Barbeque-Nation Hospitality Ltd.",
+      "identity_close_date": "2021-03-26",
+      "retrieved_at_ist": "2026-10-21T15:30:43.635764+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 296,
+      "company_name": "Nazara Technologies Ltd.",
+      "identity_close_date": "2021-03-19",
+      "retrieved_at_ist": "2026-10-21T15:30:43.776951+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 297,
+      "company_name": "Kalyan Jewellers India Ltd.",
+      "identity_close_date": "2021-03-18",
+      "retrieved_at_ist": "2026-10-21T15:30:44.459248+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 299,
+      "company_name": "Craftsman Automation Ltd.",
+      "identity_close_date": "2021-03-17",
+      "retrieved_at_ist": "2026-10-21T15:30:44.823332+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 300,
+      "company_name": "Laxmi Organic Industries Ltd.",
+      "identity_close_date": "2021-03-17",
+      "retrieved_at_ist": "2026-10-21T15:30:45.623271+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 303,
+      "company_name": "MTAR Technologies Ltd.",
+      "identity_close_date": "2021-03-05",
+      "retrieved_at_ist": "2026-10-21T15:30:45.980845+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 304,
+      "company_name": "Heranba Industries Ltd.",
+      "identity_close_date": "2021-02-25",
+      "retrieved_at_ist": "2026-10-21T15:30:46.213739+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 305,
+      "company_name": "RailTel Corp.of India Ltd.",
+      "identity_close_date": "2021-02-18",
+      "retrieved_at_ist": "2026-10-21T15:30:47.620573+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 306,
+      "company_name": "Nureca Ltd.",
+      "identity_close_date": "2021-02-17",
+      "retrieved_at_ist": "2026-10-21T15:30:47.893727+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 308,
+      "company_name": "Stove Kraft Ltd.",
+      "identity_close_date": "2021-01-28",
+      "retrieved_at_ist": "2026-10-21T15:30:48.311666+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 310,
+      "company_name": "Indigo Paints Ltd.",
+      "identity_close_date": "2021-01-22",
+      "retrieved_at_ist": "2026-10-21T15:30:48.617275+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 313,
+      "company_name": "Elin Electronics Ltd.",
+      "identity_close_date": "2022-12-22",
+      "retrieved_at_ist": "2026-10-21T15:25:46.772775+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/elin-electronics-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "291957f75dc1857c0cfd8c235ac4f7aa2cedf6c4c62644779b6cf7618ed14f6d",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 314,
+      "company_name": "KFin Technologies Ltd.",
+      "identity_close_date": "2022-12-21",
+      "retrieved_at_ist": "2026-10-21T15:30:49.233431+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 316,
+      "company_name": "Landmark Cars Ltd.",
+      "identity_close_date": "2022-12-15",
+      "retrieved_at_ist": "2026-10-21T15:25:48.471632+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/landmark-cars-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "9c99dc207b93e7724192ca888bd025fba8d6514e6b8935879da3d7ab0c4674a3",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 317,
+      "company_name": "Sula Vineyards Ltd.",
+      "identity_close_date": "2022-12-14",
+      "retrieved_at_ist": "2026-10-21T15:25:49.133125+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/sula-vineyards-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "ec2fa2fb59ed0a0dc44f173cabfc3611ca40cde4922e15100ceca26fe89108dc",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 319,
+      "company_name": "Dharmaj Crop Guard Ltd.",
+      "identity_close_date": "2022-11-30",
+      "retrieved_at_ist": "2026-10-21T15:25:49.150410+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/dharmaj-crop-guard-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "27c76e7a04602d27041df80557e311cee82f6e787705d4ad8c3cf80efd492a40",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 320,
+      "company_name": "Keystone Realtors Ltd.",
+      "identity_close_date": "2022-11-16",
+      "retrieved_at_ist": "2026-10-21T15:25:49.326055+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/keystone-realtors-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "2393c4365340d91617d6b46f5c394427368dc77c4ef245191e121f803b72d729",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 321,
+      "company_name": "Inox Green Energy Services Ltd.",
+      "identity_close_date": "2022-11-15",
+      "retrieved_at_ist": "2026-10-21T15:30:50.334381+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 322,
+      "company_name": "Kaynes Technology India Ltd.",
+      "identity_close_date": "2022-11-14",
+      "retrieved_at_ist": "2026-10-21T15:30:50.698101+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 323,
+      "company_name": "Archean Chemical Industries Ltd.",
+      "identity_close_date": "2022-11-11",
+      "retrieved_at_ist": "2026-10-21T15:30:50.808021+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 325,
+      "company_name": "Global Health Ltd.",
+      "identity_close_date": "2022-11-07",
+      "retrieved_at_ist": "2026-10-21T15:25:51.950600+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/global-health-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "5e1dc630ad5ca0a8446970f1a67aa74649fb48974d7702749ab2d3f0fc8d4fe2",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 326,
+      "company_name": "Bikaji Foods International Ltd.",
+      "identity_close_date": "2022-11-07",
+      "retrieved_at_ist": "2026-10-21T15:30:51.523007+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 327,
+      "company_name": "Fusion Micro Finance Ltd.",
+      "identity_close_date": "2022-11-04",
+      "retrieved_at_ist": "2026-10-21T15:30:51.980852+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 329,
+      "company_name": "Tracxn Technologies Ltd.",
+      "identity_close_date": "2022-10-12",
+      "retrieved_at_ist": "2026-10-21T15:30:52.189273+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 330,
+      "company_name": "Electronics Mart India Ltd.",
+      "identity_close_date": "2022-10-07",
+      "retrieved_at_ist": "2026-10-21T15:30:52.486485+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 331,
+      "company_name": "Harsha Engineers International Ltd.",
+      "identity_close_date": "2022-09-16",
+      "retrieved_at_ist": "2026-10-21T15:30:53.132323+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 332,
+      "company_name": "Tamilnad Mercantile Bank Ltd.",
+      "identity_close_date": "2022-09-07",
+      "retrieved_at_ist": "2026-10-21T15:30:53.558156+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 333,
+      "company_name": "Dreamfolks Services Ltd.",
+      "identity_close_date": "2022-08-26",
+      "retrieved_at_ist": "2026-10-21T15:30:53.876075+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/dreamfolks-services-ipo-gmp-grey-market-premium/",
+      "source_sha256": "19004259fa217f9293fb4881c3bac204f4df4824048f065b1c7506ba13c0203b",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 335,
+      "company_name": "Aether Industries Ltd.",
+      "identity_close_date": "2022-05-26",
+      "retrieved_at_ist": "2026-10-21T15:30:54.653087+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/aether-industries-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "ad72ee8b1dc074e26685cdb5a49d483d29d65814b743f68633748e49d95b6b62",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 336,
+      "company_name": "eMudhra Ltd.",
+      "identity_close_date": "2022-05-24",
+      "retrieved_at_ist": "2026-10-21T15:30:55.170721+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 337,
+      "company_name": "Ethos Ltd.",
+      "identity_close_date": "2022-05-20",
+      "retrieved_at_ist": "2026-10-21T15:30:56.049711+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 338,
+      "company_name": "Paradeep Phosphates Ltd.",
+      "identity_close_date": "2022-05-19",
+      "retrieved_at_ist": "2026-10-21T15:25:57.354310+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/paradeep-phosphates-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "05f9fb3e34bc93be2e7eafce6269d23ee8246d0166ea9d135f37d40ff0a7a0eb",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 339,
+      "company_name": "Delhivery Ltd.",
+      "identity_close_date": "2022-05-13",
+      "retrieved_at_ist": "2026-10-21T15:25:58.448701+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/delhivery-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "76d76bf9ce6a17309f6c6b9021cfb36a36c7c49cb4c18bd1be1589149ff0f2e8",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 340,
+      "company_name": "Venus Pipes & Tubes Ltd.",
+      "identity_close_date": "2022-05-13",
+      "retrieved_at_ist": "2026-10-21T15:30:56.288979+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 343,
+      "company_name": "Rainbow Children's Medicare Ltd.",
+      "identity_close_date": "2022-04-29",
+      "retrieved_at_ist": "2026-10-21T15:30:57.137226+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 344,
+      "company_name": "Campus Activewear Ltd.",
+      "identity_close_date": "2022-04-28",
+      "retrieved_at_ist": "2026-10-21T15:26:00.077328+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/campus-activewear-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "76aae8e5fb17c9d68f8a200f0e9ff04b1020bc9b2788b5f06b949ec2661ab865",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 346,
+      "company_name": "Veranda Learning Solutions Ltd.",
+      "identity_close_date": "2022-03-31",
+      "retrieved_at_ist": "2026-10-21T15:30:57.590981+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 348,
+      "company_name": "Uma Exports Ltd.",
+      "identity_close_date": "2022-03-30",
+      "retrieved_at_ist": "2026-10-21T15:30:57.740484+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 349,
+      "company_name": "Vedant Fashions Ltd.",
+      "identity_close_date": "2022-02-08",
+      "retrieved_at_ist": "2026-10-21T15:26:01.155636+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/vedant-fashions-ipo-gmp-manyavar-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "ef85a2e66e7cd0f1dee6738237f09dd7715b70b3eaeddf775cfad71cbe8890d6",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 350,
+      "company_name": "Adani Wilmar Ltd.",
+      "identity_close_date": "2022-01-31",
+      "retrieved_at_ist": "2026-10-21T15:26:01.638309+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/adani-wilmar-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "224128c7b4bbb27098ef722bcab95ad5f6107ba7e0ff2dd45d0eab4c56ca3127",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 351,
+      "company_name": "AGS Transact Technologies Ltd.",
+      "identity_close_date": "2022-01-21",
+      "retrieved_at_ist": "2026-10-21T15:26:02.411800+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/ags-transact-technologies-ipo-gmp-grey-market-premium-kostak-rates-today/",
+      "source_sha256": "8aaabe5e120dd1864996b2cadba167fe6165b3bc9c74f1dcbbda4514976fb703",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 353,
+      "company_name": "Azad Engineering Ltd.",
+      "identity_close_date": "2023-12-22",
+      "retrieved_at_ist": "2026-10-21T15:30:58.516372+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/azad-engineering-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "0fbca4e07633e450104cca85ca6dc210d918424a678295b4cafe6fcf210b29d5",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 354,
+      "company_name": "RBZ Jewellers Ltd.",
+      "identity_close_date": "2023-12-21",
+      "retrieved_at_ist": "2026-10-21T15:30:59.115280+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/rbz-jewellers-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "4d331131edbf2a10c27aa7394b9cf389951af6c8310386180c4fac65bcf88b77",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 355,
+      "company_name": "Credo Brands Marketing Ltd.",
+      "identity_close_date": "2023-12-21",
+      "retrieved_at_ist": "2026-10-21T15:30:59.185326+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 356,
+      "company_name": "Happy Forgings Ltd.",
+      "identity_close_date": "2023-12-21",
+      "retrieved_at_ist": "2026-10-21T15:31:00.151466+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/happy-forgings-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "a28fb1dac67b20dc13fc834c0f53c970d17c18c7b30af9002a06ef724596a9b2",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 357,
+      "company_name": "Muthoot Microfin Ltd.",
+      "identity_close_date": "2023-12-20",
+      "retrieved_at_ist": "2026-10-21T15:31:00.942915+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/muthoot-microfin-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "a0b53176bd4e1f1c2caa2a68a34ea0c3788db84fedd7ac2bb5d72b69db683d8a",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 358,
+      "company_name": "Motisons Jewellers Ltd.",
+      "identity_close_date": "2023-12-20",
+      "retrieved_at_ist": "2026-10-21T15:31:01.240741+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/motisons-jewellers-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "9fd625657760e42a97302bf5b7d7f9004082f5ffeba4876ae7074e79b1eaf19e",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 359,
+      "company_name": "Suraj Estate Developers Ltd.",
+      "identity_close_date": "2023-12-20",
+      "retrieved_at_ist": "2026-10-21T15:31:01.536759+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 360,
+      "company_name": "Inox India Ltd.",
+      "identity_close_date": "2023-12-18",
+      "retrieved_at_ist": "2026-10-21T15:31:02.554862+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/inox-india-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "d064213252322d8975fddeea3e0d0059c15bffc2f007c755290acf1edbd11a74",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 361,
+      "company_name": "India Shelter Finance Corp.Ltd.",
+      "identity_close_date": "2023-12-15",
+      "retrieved_at_ist": "2026-10-21T15:31:03.354216+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 362,
+      "company_name": "DOMS Industries Ltd.",
+      "identity_close_date": "2023-12-15",
+      "retrieved_at_ist": "2026-10-21T15:31:04.023770+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 363,
+      "company_name": "Flair Writing Industries Ltd.",
+      "identity_close_date": "2023-11-24",
+      "retrieved_at_ist": "2026-10-21T15:31:04.033352+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 364,
+      "company_name": "Tata Technologies Ltd.",
+      "identity_close_date": "2023-11-24",
+      "retrieved_at_ist": "2026-10-21T15:31:04.963209+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/tata-technologies-ipo-gmp-grey-market-premium/",
+      "source_sha256": "2e28aad828770a6a5e111fdb8460fdf20a6e51d1a9c238856170f1cb2825fdaf",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 365,
+      "company_name": "Gandhar Oil Refinery (India) Ltd.",
+      "identity_close_date": "2023-11-24",
+      "retrieved_at_ist": "2026-10-21T15:31:05.416014+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 366,
+      "company_name": "Fedbank Financial Services Ltd.",
+      "identity_close_date": "2023-11-24",
+      "retrieved_at_ist": "2026-10-21T15:31:05.527794+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/fedbank-financial-services-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "b7c1d5a59195b0c9eb280776ec3e213c8d65cf3457248dd1db4f2a64fb7a33ed",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 368,
+      "company_name": "ASK Automotive Ltd.",
+      "identity_close_date": "2023-11-09",
+      "retrieved_at_ist": "2026-10-21T15:31:05.562895+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/ask-automotive-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "4ec504ec33a9b65cbe4583eed3c749f4e0dacf70cf873f6ac7d20707b7afb113",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 371,
+      "company_name": "Honasa Consumer Ltd.",
+      "identity_close_date": "2023-11-02",
+      "retrieved_at_ist": "2026-10-21T15:31:06.925099+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 372,
+      "company_name": "Cello World Ltd.",
+      "identity_close_date": "2023-11-01",
+      "retrieved_at_ist": "2026-10-21T15:31:07.467111+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/cello-world-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "612a6cca65b7d5295a8a05aa4e4d82d796cfce12184ab9f4add8e34792fbe9cb",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 373,
+      "company_name": "Blue Jet Healthcare Ltd.",
+      "identity_close_date": "2023-10-27",
+      "retrieved_at_ist": "2026-10-21T15:31:08.059676+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 374,
+      "company_name": "IRM Energy Ltd.",
+      "identity_close_date": "2023-10-20",
+      "retrieved_at_ist": "2026-10-21T15:31:08.239795+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/irm-energy-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "0371da3e9df1917b97df635a96886e7f830a0d0ae69d104a63d79a2fe61463ab",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 378,
+      "company_name": "JSW Infrastructure Ltd.",
+      "identity_close_date": "2023-09-27",
+      "retrieved_at_ist": "2026-10-21T15:31:08.923622+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/jsw-infrastructure-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "d5dd5787e3e761f15d3bc49eecd2e90e7dd1aa27982c237e5f0c351a08b981d7",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 379,
+      "company_name": "Manoj Vaibhav Gems 'N' Jewellers Ltd.",
+      "identity_close_date": "2023-09-26",
+      "retrieved_at_ist": "2026-10-21T15:31:09.785031+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 382,
+      "company_name": "Signatureglobal (India) Ltd.",
+      "identity_close_date": "2023-09-22",
+      "retrieved_at_ist": "2026-10-21T15:31:10.359642+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 385,
+      "company_name": "EMS Ltd.",
+      "identity_close_date": "2023-09-12",
+      "retrieved_at_ist": "2026-10-21T15:31:10.870559+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 387,
+      "company_name": "Jupiter Life Line Hospitals Ltd.",
+      "identity_close_date": "2023-09-08",
+      "retrieved_at_ist": "2026-10-21T15:31:11.252746+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/jupiter-life-line-hospitals-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "c880eb485282cf8a43fef8cb32a7ff3c75e4946d9604eab02e67e4ff33338968",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 388,
+      "company_name": "Ratnaveer Precision Engineering Ltd.",
+      "identity_close_date": "2023-09-06",
+      "retrieved_at_ist": "2026-10-21T15:31:11.314360+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/ratnaveer-precision-engineering-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "85b527f85702ec8f80d1802850b87b85f45b30166f6aecdffaba1232a550c3ce",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 389,
+      "company_name": "Rishabh Instruments Ltd.",
+      "identity_close_date": "2023-09-01",
+      "retrieved_at_ist": "2026-10-21T15:31:13.087430+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/rishabh-instruments-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "08ad33d677dc09adb14c242b3a74bb66593e2537d4bf83b1c78020d195e4b756",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 390,
+      "company_name": "Vishnu Prakash R.Punglia Ltd.",
+      "identity_close_date": "2023-08-28",
+      "retrieved_at_ist": "2026-10-21T15:31:13.259691+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/vishnu-prakash-r-punglia-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "93c8bd9838d8035cc530e1135481a93e6f45054ce42cad06dfebbe47ac76bf22",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 391,
+      "company_name": "Aeroflex Industries Ltd.",
+      "identity_close_date": "2023-08-24",
+      "retrieved_at_ist": "2026-10-21T15:31:13.988833+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/aeroflex-industries-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "8a7499d24fa3d5616279eee429289524e8d572a70bf66f4379e9c1d538dd1e7b",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 392,
+      "company_name": "Pyramid Technoplast Ltd.",
+      "identity_close_date": "2023-08-22",
+      "retrieved_at_ist": "2026-10-21T15:31:14.117832+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/pyramid-technoplast-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "86300f78e5c793392e78b801f4db3bd31f28209ad4d37032b6d31e86d93a55db",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 393,
+      "company_name": "TVS Supply Chain Solutions Ltd.",
+      "identity_close_date": "2023-08-14",
+      "retrieved_at_ist": "2026-10-21T15:31:15.434767+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/tvs-supply-chain-solutions-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "33e9b498f53747dfdc5791e6d2f8dd9d063449a29da7109457c157e6ce8364a6",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 394,
+      "company_name": "Concord Biotech Ltd.",
+      "identity_close_date": "2023-08-08",
+      "retrieved_at_ist": "2026-10-21T15:31:15.896943+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/concord-biotech-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "52d882418e45fa1ba6d144a6c62ad46cabd02feb6c2446383a455fada3bb4e53",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 395,
+      "company_name": "SBFC Finance Ltd.",
+      "identity_close_date": "2023-08-07",
+      "retrieved_at_ist": "2026-10-21T15:31:16.405046+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/sbfc-finance-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "24522a8ed5f801860914abc281dcad7194dd1aac6fccdfa5aa175f6ac5ed50aa",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 396,
+      "company_name": "Yatharth Hospital & Trauma Care Services Ltd.",
+      "identity_close_date": "2023-07-28",
+      "retrieved_at_ist": "2026-10-21T15:31:16.406039+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 397,
+      "company_name": "Netweb Technologies India Ltd.",
+      "identity_close_date": "2023-07-19",
+      "retrieved_at_ist": "2026-10-21T15:31:17.873508+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 398,
+      "company_name": "Utkarsh Small Finance Bank Ltd.",
+      "identity_close_date": "2023-07-14",
+      "retrieved_at_ist": "2026-10-21T15:31:17.957514+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/utkarsh-small-finance-bank-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "cd7f18fb68e1644c596d0b10d831537ec13ddbb6844b70b365d94004403b94b6",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 399,
+      "company_name": "Senco Gold Ltd.",
+      "identity_close_date": "2023-07-06",
+      "retrieved_at_ist": "2026-10-21T15:31:18.264514+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/senco-gold-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "2de357abc7371e4c47e1277019883aca2de339786e30b935ea3e6cb95b730190",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 403,
+      "company_name": "IKIO Lighting Ltd.",
+      "identity_close_date": "2023-06-08",
+      "retrieved_at_ist": "2026-10-21T15:31:18.755009+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/ikio-lighting-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "76e7e899619f3d39985f83f57a3fda4f76732bd7df039475bc50b63f54e73656",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 404,
+      "company_name": "Mankind Pharma Ltd.",
+      "identity_close_date": "2023-04-27",
+      "retrieved_at_ist": "2026-10-21T15:26:24.318753+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/mankind-pharma-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "eaf061cd459226fb0f6135c85cd7dca4cbf639e2c5b9887b3f95f2d0125c8312",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 405,
+      "company_name": "Avalon Technologies Ltd.",
+      "identity_close_date": "2023-04-06",
+      "retrieved_at_ist": "2026-10-21T15:26:24.992456+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/avalon-technologies-ipo-gmp-grey-market-premium/",
+      "source_sha256": "9b6f0c7fcfdc530e1c89fbb15f3b6b3ae8396eb59806b76262818f32b0918e45",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 406,
+      "company_name": "Global Surfaces Ltd.",
+      "identity_close_date": "2023-03-15",
+      "retrieved_at_ist": "2026-10-21T15:26:25.280608+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/global-surfaces-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "2076c3f02c968f7f8e79395a096b3157e0a69e88e7fc7c251a1a55a8f6cc00b4",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 407,
+      "company_name": "Divgi TorqTransfer Systems Ltd.",
+      "identity_close_date": "2023-03-03",
+      "retrieved_at_ist": "2026-10-21T15:26:26.016352+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/divgi-torqtransfer-systems-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "26784b9a1ae38bce7c4041916aaf773b6c7c0e5fdf4b87a97645d34b1516ed10",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 411,
+      "company_name": "Ventive Hospitality Ltd.",
+      "identity_close_date": "2024-12-24",
+      "retrieved_at_ist": "2026-10-21T15:26:27.122568+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/ventive-hospitality-ipo-gmp-grey-market-premium/",
+      "source_sha256": "e1517da7313b0dc587e2adc1e826a63cf090054e02f97a6e30fdbe14076acf42",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 412,
+      "company_name": "Carraro India Ltd.",
+      "identity_close_date": "2024-12-24",
+      "retrieved_at_ist": "2026-10-21T15:31:19.872720+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 413,
+      "company_name": "Senores Pharmaceuticals Ltd.",
+      "identity_close_date": "2024-12-24",
+      "retrieved_at_ist": "2026-10-21T15:26:27.664911+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/senores-pharmaceuticals-ipo-gmp-grey-market-premium/",
+      "source_sha256": "562dde2693456dbe8c6fbbc68020430b646b1d3c3de67d32c3dccb3f95788436",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 414,
+      "company_name": "Transrail Lighting Ltd.",
+      "identity_close_date": "2024-12-23",
+      "retrieved_at_ist": "2026-10-21T15:26:28.481462+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/transrail-lighting-ipo-gmp-grey-market-premium/",
+      "source_sha256": "5a024944a88727907ea5041044f38661819ca191002fb79f43f1895c954c18ee",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 415,
+      "company_name": "Concord Enviro Systems Ltd.",
+      "identity_close_date": "2024-12-23",
+      "retrieved_at_ist": "2026-10-21T15:26:29.446709+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/concord-enviro-systems-ipo-gmp-grey-market-premium/",
+      "source_sha256": "b82a49836dbf922530566679e534484f7bde4a99895166131d388d116be2f9fa",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 416,
+      "company_name": "Sanathan Textiles Ltd.",
+      "identity_close_date": "2024-12-23",
+      "retrieved_at_ist": "2026-10-21T15:26:29.698627+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/sanathan-textiles-ipo-gmp-grey-market-premium/",
+      "source_sha256": "adb2bc5129864983f837888dda4dd060fcb22ec0386469df95d013fadba3e271",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 417,
+      "company_name": "DAM Capital Advisors Ltd.",
+      "identity_close_date": "2024-12-23",
+      "retrieved_at_ist": "2026-10-21T15:31:22.543578+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 418,
+      "company_name": "Mamata Machinery Ltd.",
+      "identity_close_date": "2024-12-23",
+      "retrieved_at_ist": "2026-10-21T15:26:30.960888+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/mamata-machinery-ipo-gmp-grey-market-premium/",
+      "source_sha256": "aff94fe5dca79a0e57227ae4d0f3b3c5aa12b55aec9e8f1d213c2fdfcbff6f30",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 419,
+      "company_name": "International Gemmological Institute (India) Ltd.",
+      "identity_close_date": "2024-12-17",
+      "retrieved_at_ist": "2026-10-21T15:31:22.553036+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 421,
+      "company_name": "Vishal Mega Mart Ltd.",
+      "identity_close_date": "2024-12-13",
+      "retrieved_at_ist": "2026-10-21T15:26:31.936070+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/vishal-mega-mart-ipo-gmp-grey-market-premium/",
+      "source_sha256": "bbec0f417cdecb828141352e686f81964d7930d5c1252f7bbee54a6af9da58bc",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 422,
+      "company_name": "Sai Life Sciences Ltd.",
+      "identity_close_date": "2024-12-13",
+      "retrieved_at_ist": "2026-10-21T15:31:23.153413+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 423,
+      "company_name": "One Mobikwik Systems Ltd.",
+      "identity_close_date": "2024-12-13",
+      "retrieved_at_ist": "2026-10-21T15:31:24.507133+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 424,
+      "company_name": "Suraksha Diagnostic Ltd.",
+      "identity_close_date": "2024-12-03",
+      "retrieved_at_ist": "2026-10-21T15:26:33.575274+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/suraksha-diagnostic-ipo-gmp-grey-market-premium/",
+      "source_sha256": "e54f0e24eae225b50c389b70830d80ba59d9bfc8f214a9793a1a1ec287255802",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 425,
+      "company_name": "Enviro Infra Engineers Ltd.",
+      "identity_close_date": "2024-11-26",
+      "retrieved_at_ist": "2026-10-21T15:31:24.751383+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 427,
+      "company_name": "Zinka Logistics Solutions Ltd.",
+      "identity_close_date": "2024-11-18",
+      "retrieved_at_ist": "2026-10-21T15:31:24.845764+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 428,
+      "company_name": "Niva Bupa Health Insurance Co.Ltd.",
+      "identity_close_date": "2024-11-11",
+      "retrieved_at_ist": "2026-10-21T15:31:24.948645+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 429,
+      "company_name": "Swiggy Ltd.",
+      "identity_close_date": "2024-11-08",
+      "retrieved_at_ist": "2026-10-21T15:26:35.540058+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/swiggy-ipo-gmp-grey-market-premium/",
+      "source_sha256": "3f69a8d2ea48da2b5a402dc79b72f262b63976b6313facd31974de8e989e8e5d",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 430,
+      "company_name": "ACME Solar Holdings Ltd.",
+      "identity_close_date": "2024-11-08",
+      "retrieved_at_ist": "2026-10-21T15:31:26.289640+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 431,
+      "company_name": "Sagility India Ltd.",
+      "identity_close_date": "2024-11-07",
+      "retrieved_at_ist": "2026-10-21T15:26:36.288479+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/sagility-india-ipo-gmp-grey-market-premium/",
+      "source_sha256": "2c14fb69eeb6b9ddcfeec85d717fe1c7cfbbb6b60fefcb441da0727d451dbd7d",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 433,
+      "company_name": "Godavari Biorefineries Ltd.",
+      "identity_close_date": "2024-10-25",
+      "retrieved_at_ist": "2026-10-21T15:26:36.865274+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/godavari-biorefineries-ipo-gmp-grey-market-premium/",
+      "source_sha256": "99178ad16e73898ab5aa0b020ef16fc543cb93506deb33fb117f4486e0b2fb91",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 434,
+      "company_name": "Waaree Energies Ltd.",
+      "identity_close_date": "2024-10-23",
+      "retrieved_at_ist": "2026-10-21T15:26:37.811157+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/waaree-energies-ipo-gmp-grey-market-premium/",
+      "source_sha256": "185f296c89cdf2a1344e47c961ce845f0ca8c1f6c226181e97ea1d3365a3cc24",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 435,
+      "company_name": "Deepak Builders & Engineers India Ltd.",
+      "identity_close_date": "2024-10-23",
+      "retrieved_at_ist": "2026-10-21T15:31:26.388046+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 436,
+      "company_name": "Hyundai Motor India Ltd.",
+      "identity_close_date": "2024-10-17",
+      "retrieved_at_ist": "2026-10-21T15:31:26.412042+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 437,
+      "company_name": "Garuda Construction & Engineering Ltd.",
+      "identity_close_date": "2024-10-10",
+      "retrieved_at_ist": "2026-10-21T15:31:26.581536+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 438,
+      "company_name": "Diffusion Engineers Ltd.",
+      "identity_close_date": "2024-09-30",
+      "retrieved_at_ist": "2026-10-21T15:31:27.971768+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 439,
+      "company_name": "KRN Heat Exchanger & Refrigeration Ltd.",
+      "identity_close_date": "2024-09-27",
+      "retrieved_at_ist": "2026-10-21T15:31:27.980650+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 440,
+      "company_name": "Manba Finance Ltd.",
+      "identity_close_date": "2024-09-25",
+      "retrieved_at_ist": "2026-10-21T15:26:41.056185+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/manba-finance-ipo-gmp-grey-market-premium/",
+      "source_sha256": "748fa062a804e7cffc9fb4f88078135671de6fb83590e53796fa6e14e2ce5e1e",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 441,
+      "company_name": "Western Carriers (India) Ltd.",
+      "identity_close_date": "2024-09-19",
+      "retrieved_at_ist": "2026-10-21T15:31:28.526559+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 442,
+      "company_name": "Arkade Developers Ltd.",
+      "identity_close_date": "2024-09-19",
+      "retrieved_at_ist": "2026-10-21T15:26:41.754801+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/arkade-developers-ipo-gmp-grey-market-premium/",
+      "source_sha256": "913fa9696c770235f6277511a57c1e3e95ec2c2a2dcae2ea0ff0529293a1f239",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 444,
+      "company_name": "P N Gadgil Jewellers Ltd.",
+      "identity_close_date": "2024-09-12",
+      "retrieved_at_ist": "2026-10-21T15:26:41.771555+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/p-n-gadgil-jewellers-ipo-gmp-grey-market-premium/",
+      "source_sha256": "ee0057e618397b767156bf954fbe3c0aae2e0900cb7d867ff87fb6bb16fe952d",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 445,
+      "company_name": "Bajaj Housing Finance Ltd.",
+      "identity_close_date": "2024-09-11",
+      "retrieved_at_ist": "2026-10-21T15:26:42.740909+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/bajaj-housing-finance-ipo-gmp-grey-market-premium/",
+      "source_sha256": "508d1464fc7a3861860429693461b7ce844c8a6c2d02cb8d667e13d40c2fd903",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 446,
+      "company_name": "Kross Ltd.",
+      "identity_close_date": "2024-09-11",
+      "retrieved_at_ist": "2026-10-21T15:26:43.757351+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/kross-ipo-gmp-grey-market-premium/",
+      "source_sha256": "cbb08c73dfafbe07e19b232c4f4fddc7713948ec98c3ede7419727d7e6451e8a",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 447,
+      "company_name": "Tolins Tyres Ltd.",
+      "identity_close_date": "2024-09-11",
+      "retrieved_at_ist": "2026-10-21T15:26:44.166581+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/tolins-tyres-ipo-gmp-grey-market-premium/",
+      "source_sha256": "9caa87d1a069c1bee5fb9880e1798b1f516f29a946afd8d36bee153dd3d0c58b",
+      "status": "matched_daily_history"
+    },
+    {
+      "ipo_id": 448,
+      "company_name": "Shree Tirupati Balajee Agro Trading Co.Ltd.",
+      "identity_close_date": "2024-09-09",
+      "retrieved_at_ist": "2026-10-21T15:31:29.147897+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 449,
+      "company_name": "Gala Precision Engineering Ltd.",
+      "identity_close_date": "2024-09-04",
+      "retrieved_at_ist": "2026-10-21T15:31:29.496912+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/gala-precision-engineering-ipo-gmp-grey-market-premium/",
+      "source_sha256": "2df2ca0f2cfaf4bf13e8d237582679092bd6b2851f81b8d23a464afe580e7034",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 450,
+      "company_name": "Baazar Style Retail Ltd.",
+      "identity_close_date": "2024-09-03",
+      "retrieved_at_ist": "2026-10-21T15:31:30.091638+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/baazar-style-retail-ipo-gmp-grey-market-premium/",
+      "source_sha256": "b2deda086ac408971cb447dfc2a6029f17d7c62962eff2dab28a566cc3515b0c",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 451,
+      "company_name": "ECOS (India) Mobility & Hospitality Ltd.",
+      "identity_close_date": "2024-08-30",
+      "retrieved_at_ist": "2026-10-21T15:31:30.752846+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 452,
+      "company_name": "Premier Energies Ltd.",
+      "identity_close_date": "2024-08-29",
+      "retrieved_at_ist": "2026-10-21T15:31:30.857806+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/premier-energies-ipo-gmp-grey-market-premium/",
+      "source_sha256": "9b8d681d3b95244201e3263a693dfa2e1db57bfd3a51a668f194d96cb11b2289",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 453,
+      "company_name": "Orient Technologies Ltd.",
+      "identity_close_date": "2024-08-23",
+      "retrieved_at_ist": "2026-10-21T15:31:32.314541+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/orient-technologies-ipo-gmp-grey-market-premium/",
+      "source_sha256": "4df04adc599cb1e0695366f38c7ca593d69d1a7db9f6e4fc9185d5863abcce0f",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 454,
+      "company_name": "Interarch Building Products Ltd.",
+      "identity_close_date": "2024-08-21",
+      "retrieved_at_ist": "2026-10-21T15:31:32.424911+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/interarch-building-products-ipo-gmp-grey-market-premium/",
+      "source_sha256": "c494a4a40d97d2e8402ceb383b585d62003fd5ea459a0e6758883750dfff4d9e",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 455,
+      "company_name": "Saraswati Saree Depot Ltd.",
+      "identity_close_date": "2024-08-14",
+      "retrieved_at_ist": "2026-10-21T15:31:32.543382+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/saraswati-saree-depot-ipo-gmp-grey-market-premium/",
+      "source_sha256": "e22ecea115bee1986f592d3a8932fa8aa60da68d7e941b88298b4a0005f065d2",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 456,
+      "company_name": "Unicommerce eSolutions Ltd.",
+      "identity_close_date": "2024-08-08",
+      "retrieved_at_ist": "2026-10-21T15:31:33.199538+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/unicommerce-esolutions-ipo-gmp-grey-market-premium/",
+      "source_sha256": "6e0c895d288263a68d349abb5d4c829ace5e0c42d3e586fb3bdd8d974e5227b8",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 457,
+      "company_name": "Brainbees Solutions Ltd.",
+      "identity_close_date": "2024-08-08",
+      "retrieved_at_ist": "2026-10-21T15:31:34.730461+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 458,
+      "company_name": "Ola Electric Mobility Ltd.",
+      "identity_close_date": "2024-08-06",
+      "retrieved_at_ist": "2026-10-21T15:31:34.846408+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 459,
+      "company_name": "Ceigall India Ltd.",
+      "identity_close_date": "2024-08-05",
+      "retrieved_at_ist": "2026-10-21T15:31:35.422227+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/ceigall-india-ipo-gmp-grey-market-premium/",
+      "source_sha256": "676721710b10050eeb926ba977a40bcebf3e753964fd506965601b39c185d911",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 460,
+      "company_name": "Akums Drugs & Pharmaceuticals Ltd.",
+      "identity_close_date": "2024-08-01",
+      "retrieved_at_ist": "2026-10-21T15:31:35.810263+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 461,
+      "company_name": "Sanstar Ltd.",
+      "identity_close_date": "2024-07-23",
+      "retrieved_at_ist": "2026-10-21T15:31:36.273112+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/sanstar-ipo-gmp-grey-market-premium/",
+      "source_sha256": "7fd8ca9732397bfde3729fd9745f6dadfac422f40ad79665ecc33850e9a732c0",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 462,
+      "company_name": "Emcure Pharmaceuticals Ltd.",
+      "identity_close_date": "2024-07-05",
+      "retrieved_at_ist": "2026-10-21T15:31:36.471300+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/emcure-pharmaceuticals-ipo-gmp-grey-market-premium/",
+      "source_sha256": "e68d576e775f0c02df045b9dbf7c4c9f28241f543918dafb1970afbd2689adda",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 463,
+      "company_name": "Bansal Wire Industries Ltd.",
+      "identity_close_date": "2024-07-05",
+      "retrieved_at_ist": "2026-10-21T15:31:37.457857+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 464,
+      "company_name": "Vraj Iron & Steel Ltd.",
+      "identity_close_date": "2024-06-28",
+      "retrieved_at_ist": "2026-10-21T15:31:37.774798+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 465,
+      "company_name": "Allied Blenders & Distillers Ltd.",
+      "identity_close_date": "2024-06-27",
+      "retrieved_at_ist": "2026-10-21T15:31:38.660046+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 466,
+      "company_name": "Stanley Lifestyles Ltd.",
+      "identity_close_date": "2024-06-25",
+      "retrieved_at_ist": "2026-10-21T15:31:38.818658+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 467,
+      "company_name": "DEE Development Engineers Ltd.",
+      "identity_close_date": "2024-06-21",
+      "retrieved_at_ist": "2026-10-21T15:31:39.011111+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 469,
+      "company_name": "Le Travenues Technology Ltd.",
+      "identity_close_date": "2024-06-12",
+      "retrieved_at_ist": "2026-10-21T15:31:39.296301+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 470,
+      "company_name": "Kronox Lab Sciences Ltd.",
+      "identity_close_date": "2024-06-05",
+      "retrieved_at_ist": "2026-10-21T15:31:40.303891+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 471,
+      "company_name": "Awfis Space Solutions Ltd.",
+      "identity_close_date": "2024-05-27",
+      "retrieved_at_ist": "2026-10-21T15:31:40.583349+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/awfis-space-solutions-ipo-gmp-grey-market-premium/",
+      "source_sha256": "a61691ccd3b9725dd461cc299134fbbed5962a99e600f3156557db52fb219a52",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 472,
+      "company_name": "Go Digit General Insurance Ltd.",
+      "identity_close_date": "2024-05-17",
+      "retrieved_at_ist": "2026-10-21T15:31:40.919008+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 473,
+      "company_name": "TBO Tek Ltd.",
+      "identity_close_date": "2024-05-10",
+      "retrieved_at_ist": "2026-10-21T15:31:41.638918+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 474,
+      "company_name": "Aadhar Housing Finance Ltd.",
+      "identity_close_date": "2024-05-10",
+      "retrieved_at_ist": "2026-10-21T15:31:42.718484+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/aadhar-housing-finance-ipo-gmp-grey-market-premium/",
+      "source_sha256": "548c97bab78891fff6abe5e69185ef9b6a94d5458e50b2bbf08959db7f92a135",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 475,
+      "company_name": "Indegene Ltd.",
+      "identity_close_date": "2024-05-08",
+      "retrieved_at_ist": "2026-10-21T15:31:42.909404+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/indegene-ipo-gmp-grey-market-premium/",
+      "source_sha256": "19771e49ff45637734d46d0ef8b55392f298193ea0c18fe46753e17fc01a536c",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 476,
+      "company_name": "JNK India Ltd.",
+      "identity_close_date": "2024-04-25",
+      "retrieved_at_ist": "2026-10-21T15:31:43.030430+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/jnk-india-ipo-gmp-grey-market-premium/",
+      "source_sha256": "adcf45eb27eebbc6c9eaaf50ac98173409f4418e1e6309520485b6eb625afb16",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 478,
+      "company_name": "Bharti Hexacom Ltd.",
+      "identity_close_date": "2024-04-05",
+      "retrieved_at_ist": "2026-10-21T15:31:44.659692+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/bharti-hexacom-ipo-gmp-grey-market-premium/",
+      "source_sha256": "1596bf65f158ef8dfde289726e4a2c8ae4088067df93819437824300428507fe",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 479,
+      "company_name": "SRM Contractors Ltd.",
+      "identity_close_date": "2024-03-28",
+      "retrieved_at_ist": "2026-10-21T15:31:45.119106+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/srm-contractors-ipo-gmp-grey-market-premium/",
+      "source_sha256": "d8dc3da1af9b18000bed71f484627c24bf05b432d32b749089463be7fcb973eb",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 480,
+      "company_name": "Krystal Integrated Services Ltd.",
+      "identity_close_date": "2024-03-18",
+      "retrieved_at_ist": "2026-10-21T15:31:45.318104+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 481,
+      "company_name": "Popular Vehicles & Services Ltd.",
+      "identity_close_date": "2024-03-14",
+      "retrieved_at_ist": "2026-10-21T15:31:45.319382+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 482,
+      "company_name": "Gopal Snacks Ltd.",
+      "identity_close_date": "2024-03-11",
+      "retrieved_at_ist": "2026-10-21T15:31:46.780116+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/gopal-snacks-ipo-gmp-grey-market-premium/",
+      "source_sha256": "af5c834ae2402d2975aa3ceeb9012e712b29ddfccdd2334221e0f6b7e607b372",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 483,
+      "company_name": "J.G.Chemicals Ltd.",
+      "identity_close_date": "2024-03-07",
+      "retrieved_at_ist": "2026-10-21T15:31:46.849162+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 484,
+      "company_name": "R K SWAMY Ltd.",
+      "identity_close_date": "2024-03-06",
+      "retrieved_at_ist": "2026-10-21T15:31:47.052633+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/r-k-swamy-ipo-gmp-grey-market-premium/",
+      "source_sha256": "fdec86a7537d2f6825dba14451423685a90c7acbff46960301590ae2fa133411",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 485,
+      "company_name": "Mukka Proteins Ltd.",
+      "identity_close_date": "2024-03-04",
+      "retrieved_at_ist": "2026-10-21T15:31:47.566200+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/mukka-proteins-ipo-gmp-grey-market-premium/",
+      "source_sha256": "bedf39bd847ffbf44ae43fd6fdbdc53fac25b046e2e3b36c0fb9339b29049505",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 486,
+      "company_name": "Platinum Industries Ltd.",
+      "identity_close_date": "2024-02-29",
+      "retrieved_at_ist": "2026-10-21T15:31:48.401089+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/platinum-industries-ipo-gmp-grey-market-premium/",
+      "source_sha256": "9a917504b3e888342d324bff0d86b15bd6225af8616104e53dd98b3398c12c35",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 488,
+      "company_name": "GPT Healthcare Ltd.",
+      "identity_close_date": "2024-02-26",
+      "retrieved_at_ist": "2026-10-21T15:31:49.144166+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/gpt-healthcare-ipo-gmp-grey-market-premium/",
+      "source_sha256": "b8b92b53ede391547ad0f7845e052d497b8476e38cfcffb81988037516eb7a23",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 489,
+      "company_name": "Juniper Hotels Ltd.",
+      "identity_close_date": "2024-02-23",
+      "retrieved_at_ist": "2026-10-21T15:31:49.462889+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/juniper-hotels-ipo-gmp-grey-market-premium/",
+      "source_sha256": "475f40ddf2f1283db7074c70776ef692c63aed0b0c26de9fca55fdd7b3a9605a",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 490,
+      "company_name": "Vibhor Steel Tubes Ltd.",
+      "identity_close_date": "2024-02-15",
+      "retrieved_at_ist": "2026-10-21T15:31:49.861427+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/vibhor-steel-tubes-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "133537a5e870bd59f2a2345f26f9c5ca60e813721da8d5fcdceb5346a5b2c103",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 492,
+      "company_name": "Rashi Peripherals Ltd.",
+      "identity_close_date": "2024-02-09",
+      "retrieved_at_ist": "2026-10-21T15:31:51.179772+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/rashi-peripherals-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "2deb04eea4388762b1962406802ab4584fca8bb1cd8ffe4382f7dfededd0bb4d",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 493,
+      "company_name": "Jana Small Finance Bank Ltd.",
+      "identity_close_date": "2024-02-09",
+      "retrieved_at_ist": "2026-10-21T15:31:51.480645+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/jana-small-finance-bank-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "193340e107cabdc39ae66ae0f992ecfc1face9032795782e7f9d64a7ed253f47",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 494,
+      "company_name": "Capital Small Finance Bank Ltd.",
+      "identity_close_date": "2024-02-09",
+      "retrieved_at_ist": "2026-10-21T15:31:51.773374+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/capital-small-finance-bank-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "a13acd2b637f630a014f6c52049e84dad85030c0a133fedc57dc18c30c276494",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 495,
+      "company_name": "Apeejay Surrendra Park Hotels Ltd.",
+      "identity_close_date": "2024-02-07",
+      "retrieved_at_ist": "2026-10-21T15:31:52.589858+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/apeejay-surrendra-park-hotels-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "bf19eb922d84dde7b12314abe1dab99805dc3213cf1988a7fe818b8cc0aa2835",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    },
+    {
+      "ipo_id": 496,
+      "company_name": "BLS E-Services Ltd.",
+      "identity_close_date": "2024-02-01",
+      "retrieved_at_ist": "2026-10-21T15:31:53.571506+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 497,
+      "company_name": "Nova AgriTech Ltd.",
+      "identity_close_date": "2024-01-25",
+      "retrieved_at_ist": "2026-10-21T15:31:53.788883+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 499,
+      "company_name": "Medi Assist Healthcare Services Ltd.",
+      "identity_close_date": "2024-01-17",
+      "retrieved_at_ist": "2026-10-21T15:31:54.383454+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "status": "no_identity_and_date_matched_history"
+    },
+    {
+      "ipo_id": 500,
+      "company_name": "Jyoti CNC Automation Ltd.",
+      "identity_close_date": "2024-01-11",
+      "retrieved_at_ist": "2026-10-21T15:31:54.928896+05:30",
+      "evidence_class": "retrospective_daily_table_not_immutable_quote",
+      "source_url": "https://ipowatch.in/jyoti-cnc-automation-ipo-gmp-grey-market-premium-today/",
+      "source_sha256": "0637ea794e215a5d5b271e7af15bc0395d0e7738b77dcb4495c5c4947f04de38",
+      "status": "matched_daily_history",
+      "identity_basis": "exact_name_open_date_price_band_and_article_era"
+    }
+  ]
+}

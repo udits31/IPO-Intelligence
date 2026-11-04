@@ -1,0 +1,249 @@
+[
+  {
+    "company": "A-One Steels India",
+    "url": "https://groww.in/ipo/a-one-steels-ipo",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "0aa2b9547c3179eb8a6c3ba774f21bf5f04ca6161768a1d83fa1231f97ab8574"
+  },
+  {
+    "company": "A-One Steels India",
+    "url": "https://www.iporise.com/ipo/a-one-steels-ipo/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "cb58a00a72b623bb2ef860ae7316a22d0eea0a7626469f02125382d0b083b1da"
+  },
+  {
+    "company": "A-One Steels India",
+    "url": "https://www.5paisa.com/blog/a-one-steels-ipo-subscription-status",
+    "status": "fetch_or_parse_error",
+    "error": "Client error '404 Not Found' for url 'https://www.5paisa.com/blog/a-one-steels-ipo-subscription-status'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "company": "A-One Steels India",
+    "url": "https://ipometrics.in/ipo/a-one-steels/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "6e5be2c8d1c866e37383075b2b013c546b582bc6fca60fa9fed7af8cd59b6a29"
+  },
+  {
+    "company": "Adroit Industries (India)",
+    "url": "https://groww.in/ipo/adroit-industries-ipo",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "547112ac1776f91e7855750e81c8cd7b445a6422299e6946a6ff2ec7472cf65b"
+  },
+  {
+    "company": "Adroit Industries (India)",
+    "url": "https://www.iporise.com/ipo/adroit-industries-ipo/subscription",
+    "status": "fetch_or_parse_error",
+    "error": "Client error '404 Not Found' for url 'https://www.iporise.com/ipo/adroit-industries-ipo/subscription'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "company": "Adroit Industries (India)",
+    "url": "https://www.5paisa.com/blog/adroit-industries-ipo-subscription-status",
+    "status": "fetch_or_parse_error",
+    "error": "Client error '404 Not Found' for url 'https://www.5paisa.com/blog/adroit-industries-ipo-subscription-status'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "company": "Adroit Industries (India)",
+    "url": "https://ipometrics.in/ipo/adroit-industries/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "7dbbbfc1e2fbabad4eaa6c2866ccdef5dc3747fe1705ce7db80c537ed0d600a1"
+  },
+  {
+    "company": "Elevate Campuses",
+    "url": "https://groww.in/ipo/elevate-campuses-ipo",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "cad74a76ce8fc6f438a20726028f978f48be700d6d417af3383d0e29a77f7711"
+  },
+  {
+    "company": "Elevate Campuses",
+    "url": "https://www.iporise.com/ipo/elevate-campuses-ipo/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "d68cf7daa21cef140144893237cd24dc926ee31e63e06f1bc589e267e219d5a7"
+  },
+  {
+    "company": "Elevate Campuses",
+    "url": "https://www.5paisa.com/blog/elevate-campuses-ipo-subscription-status",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "d973046ea45a31441f235a6b37bad6b4e8fae38f964d446ff87a042d6a1660d0"
+  },
+  {
+    "company": "Elevate Campuses",
+    "url": "https://ipometrics.in/ipo/elevate-campuses/subscription",
+    "status": "recovered",
+    "rows": 48,
+    "raw_sha256": "b8e6d4a95d7b8979ea60f7f7a055898c1936ef563f9451c084eac89d8d04b974"
+  },
+  {
+    "company": "Swastika Infra",
+    "url": "https://groww.in/ipo/swastika-infra-ipo",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "52c4b9ed3408ea3a693479676e7eb0167581cd7140ca9392093435323f4a522f"
+  },
+  {
+    "company": "Swastika Infra",
+    "url": "https://www.iporise.com/ipo/swastika-infra-ipo/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "5878b5806034c4e921344970cd6786c11cd3cb9bed55d2c0a5efba8b9d67c0ca"
+  },
+  {
+    "company": "Swastika Infra",
+    "url": "https://www.5paisa.com/blog/swastika-infra-ipo-subscription-status",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "1e4e211211d63a27f0b52df70cbfacfca43aa0709ee8d05e5b8878e202d995c1"
+  },
+  {
+    "company": "Swastika Infra",
+    "url": "https://ipometrics.in/ipo/swastika-infra/subscription",
+    "status": "recovered",
+    "rows": 48,
+    "raw_sha256": "169663500f1e792bca314d1fabddb377a98d251ecad42a9c8988fd0a586791f6"
+  },
+  {
+    "company": "ArMee Infotech",
+    "url": "https://groww.in/ipo/armee-infotech-ipo",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "62fbe05e268d009b27bf704b8f96775965d7948425156573a5798b7df73dbe5f"
+  },
+  {
+    "company": "ArMee Infotech",
+    "url": "https://www.iporise.com/ipo/armee-infotech-ipo/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "074c741e2dc4ceb91996e7bb5b22897605f7c562a34368b33b13cc990a03e5da"
+  },
+  {
+    "company": "ArMee Infotech",
+    "url": "https://www.5paisa.com/blog/armee-infotech-ipo-subscription-status",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "0507fdba4c50490b70ea3b6317cef8184d8e8a08ea0b3eb209f72f2aae72e748"
+  },
+  {
+    "company": "ArMee Infotech",
+    "url": "https://ipometrics.in/ipo/armee-infotech/subscription",
+    "status": "recovered",
+    "rows": 48,
+    "raw_sha256": "355c9b152e7a0e292bcc6753b941b8eb264191b5dacbddc6bc025ac594f41ca6"
+  },
+  {
+    "company": "Varmora Granito",
+    "url": "https://groww.in/ipo/varmora-granito-ipo",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "ab0608c6f59268afb1a5f1c091e4fce4a2a75bb62f6d0e30470be2f0a7ca933b"
+  },
+  {
+    "company": "Varmora Granito",
+    "url": "https://www.iporise.com/ipo/varmora-granito-ipo/subscription",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "d8e10a8cfae1bb406bd203a1fee6a6fea7f88d3a774e6ef14eacbd99658acbeb"
+  },
+  {
+    "company": "Varmora Granito",
+    "url": "https://www.5paisa.com/blog/varmora-granito-ipo-subscription-status",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "adc2eab95df2cbb59435f2c009a56205257c55b68f042d77dbd011f4bfad7f41"
+  },
+  {
+    "company": "Varmora Granito",
+    "url": "https://ipometrics.in/ipo/varmora-granito/subscription",
+    "status": "recovered",
+    "rows": 50,
+    "raw_sha256": "275336046a49af1ca90a1d3250975e393ebad4d858102e571705037a55661404"
+  },
+  {
+    "company": "National Stock Exchange of India",
+    "url": "https://groww.in/ipo/national-stock-exchange-of-india-ipo",
+    "status": "fetch_or_parse_error",
+    "error": "Client error '404 Not Found' for url 'https://groww.in/ipo/national-stock-exchange-of-india-ipo'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "company": "National Stock Exchange of India",
+    "url": "https://www.iporise.com/ipo/national-stock-exchange-of-india-ipo/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "10e94da644762972ab9b1c99edc0069c77fb99bb5a0526dcab6f702db162b37a"
+  },
+  {
+    "company": "National Stock Exchange of India",
+    "url": "https://www.5paisa.com/blog/national-stock-exchange-of-india-ipo-subscription-status",
+    "status": "fetch_or_parse_error",
+    "error": "Client error '404 Not Found' for url 'https://www.5paisa.com/blog/national-stock-exchange-of-india-ipo-subscription-status'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "company": "National Stock Exchange of India",
+    "url": "https://ipometrics.in/ipo/national-stock-exchange-of-india/subscription",
+    "status": "recovered",
+    "rows": 8,
+    "raw_sha256": "60f7c255f8a40644369e032257c97b9c08d86babd3b4972dd03ff0208960aff2"
+  },
+  {
+    "company": "Sonaselection India",
+    "url": "https://groww.in/ipo/sonaselection-india-ipo",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "a255938d7fe3fda2f78731df926f434e4a6239a0c2ae36fd7e6a91741233e10b"
+  },
+  {
+    "company": "Sonaselection India",
+    "url": "https://www.iporise.com/ipo/sonaselection-india-ipo/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "2f883c3783c15708409a141fbce859dc48815783a9a02b6e4fb9c1db43044666"
+  },
+  {
+    "company": "Sonaselection India",
+    "url": "https://www.5paisa.com/blog/sonaselection-india-ipo-subscription-status",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "61c756701c991002c27f8574254c32ae6a93a10c2ff5a0b4cfed7ce62988616d"
+  },
+  {
+    "company": "Sonaselection India",
+    "url": "https://ipometrics.in/ipo/sonaselection-india/subscription",
+    "status": "recovered",
+    "rows": 49,
+    "raw_sha256": "1604e7023315ddadee8ce9de647c18a3118ff7c76c137b437eb367736b126b4a"
+  },
+  {
+    "company": "SS Retail",
+    "url": "https://groww.in/ipo/ss-retail-ipo",
+    "status": "recovered",
+    "rows": 1,
+    "raw_sha256": "bddf852bc4f15aaa239fd6c6627ad5bea8604a21b5cc340d15cd4dc12eb69c84"
+  },
+  {
+    "company": "SS Retail",
+    "url": "https://www.iporise.com/ipo/ss-retail-ipo/subscription",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "2755e55e20579e0b722ee516a7376489fcc62f37e3d6d2e8da812b9089f12d0e"
+  },
+  {
+    "company": "SS Retail",
+    "url": "https://www.5paisa.com/blog/ss-retail-ipo-subscription-status",
+    "status": "no_qualifying_timed_table",
+    "rows": 0,
+    "raw_sha256": "9653d1e5057d0f7537266d41730fd4f5bf47312087a12269102f7cd6550260d7"
+  },
+  {
+    "company": "SS Retail",
+    "url": "https://ipometrics.in/ipo/ss-retail/subscription",
+    "status": "recovered",
+    "rows": 49,
+    "raw_sha256": "92ed4e62bf5e2d8e986f0e1fc187ad581ce2fcd24688ba68f964e9a1f1376e69"
+  }
+]

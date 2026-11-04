@@ -1,0 +1,138 @@
+{
+  "development_2021_2024": {
+    "records": 254,
+    "missing_offer_date": 0,
+    "repeated_march_28_31_pair": 247,
+    "chronology_invalid": 1,
+    "close_to_listing_over_30_days": 252,
+    "records_requiring_source_verification": 253,
+    "records_without_these_flags": 1,
+    "flagged_examples": [
+      {
+        "id": 247,
+        "company_name": "CMS Info Systems Ltd.",
+        "issue_open_date": "2021-03-28",
+        "issue_close_date": "2021-03-31",
+        "listing_date": "2021-12-31"
+      },
+      {
+        "id": 248,
+        "company_name": "Supriya Lifescience Ltd.",
+        "issue_open_date": "2021-03-28",
+        "issue_close_date": "2021-03-31",
+        "listing_date": "2021-12-28"
+      },
+      {
+        "id": 249,
+        "company_name": "HP Adhesives Ltd.",
+        "issue_open_date": "2021-03-28",
+        "issue_close_date": "2021-03-31",
+        "listing_date": "2021-12-27"
+      },
+      {
+        "id": 250,
+        "company_name": "Data Patterns (India) Ltd.",
+        "issue_open_date": "2021-03-28",
+        "issue_close_date": "2021-03-31",
+        "listing_date": "2021-12-24"
+      },
+      {
+        "id": 251,
+        "company_name": "Medplus Health Services Ltd.",
+        "issue_open_date": "2021-03-28",
+        "issue_close_date": "2021-03-31",
+        "listing_date": "2021-12-23"
+      },
+      {
+        "id": 252,
+        "company_name": "Metro Brands Ltd.",
+        "issue_open_date": "2021-03-28",
+        "issue_close_date": "2021-03-31",
+        "listing_date": "2021-12-22"
+      },
+      {
+        "id": 253,
+        "company_name": "C.E.Info systems Ltd.",
+        "issue_open_date": "2021-03-28",
+        "issue_close_date": "2021-03-31",
+        "listing_date": "2021-12-21"
+      },
+      {
+        "id": 254,
+        "company_name": "Shriram Properties Ltd.",
+        "issue_open_date": "2021-03-28",
+        "issue_close_date": "2021-03-31",
+        "listing_date": "2021-12-20"
+      }
+    ]
+  },
+  "later_2025_2026": {
+    "records": 189,
+    "missing_offer_date": 189,
+    "repeated_march_28_31_pair": 0,
+    "chronology_invalid": 0,
+    "close_to_listing_over_30_days": 0,
+    "records_requiring_source_verification": 189,
+    "records_without_these_flags": 0,
+    "flagged_examples": [
+      {
+        "id": 501,
+        "company_name": "Gujarat Kidney & Super Speciality Ltd.",
+        "issue_open_date": null,
+        "issue_close_date": null,
+        "listing_date": "2025-12-30"
+      },
+      {
+        "id": 502,
+        "company_name": "KSH International Ltd.",
+        "issue_open_date": null,
+        "issue_close_date": null,
+        "listing_date": "2025-12-23"
+      },
+      {
+        "id": 503,
+        "company_name": "ICICI Prudential Asset Management Co.Ltd.",
+        "issue_open_date": null,
+        "issue_close_date": null,
+        "listing_date": "2025-12-19"
+      },
+      {
+        "id": 504,
+        "company_name": "Park Medi World Ltd.",
+        "issue_open_date": null,
+        "issue_close_date": null,
+        "listing_date": "2025-12-17"
+      },
+      {
+        "id": 505,
+        "company_name": "Nephrocare Health Services Ltd.",
+        "issue_open_date": null,
+        "issue_close_date": null,
+        "listing_date": "2025-12-17"
+      },
+      {
+        "id": 506,
+        "company_name": "Corona Remedies Ltd.",
+        "issue_open_date": null,
+        "issue_close_date": null,
+        "listing_date": "2025-12-15"
+      },
+      {
+        "id": 507,
+        "company_name": "Wakefit Innovations Ltd.",
+        "issue_open_date": null,
+        "issue_close_date": null,
+        "listing_date": "2025-12-15"
+      },
+      {
+        "id": 508,
+        "company_name": "Vidya Wires Ltd.",
+        "issue_open_date": null,
+        "issue_close_date": null,
+        "listing_date": "2025-12-10"
+      }
+    ]
+  },
+  "decision": "Do not use these offer dates to construct a pre-deadline backtest until source-verified replacements exist.",
+  "scope_note": "The deployed subscription-only logistic model uses listing year and final bids, not offer dates; this audit does not revise its reported final-book score."
+}

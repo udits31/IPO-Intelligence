@@ -1,0 +1,11 @@
+{
+  "source_matched_records": 143,
+  "stored_timestamp_does_not_match_offer_close": 143,
+  "material_final_mismatch_any_category": 75,
+  "material_final_mismatch_by_category": {
+    "qib": 74,
+    "hni": 12,
+    "retail": 35
+  },
+  "interpretation": "The later-published table is an independent source candidate, not automatically ground truth. Review large discrepancies against exchange/issuer basis records before retraining."
+}

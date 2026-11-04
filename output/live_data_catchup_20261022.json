@@ -1,0 +1,425 @@
+{
+  "checked_at_ist": "2026-10-22T20:42:16.364966+05:30",
+  "steps": {
+    "calendar": {
+      "returned_items": 20,
+      "categories": {
+        "UPCOMING": 4,
+        "OPEN": 2,
+        "CLOSED": 4,
+        "LISTED": 10
+      }
+    },
+    "macro": {
+      "india_vix": 15.82,
+      "vix_change_pct": 0.9,
+      "nifty_close": 22687.65,
+      "nifty_day_change_pct": -0.54,
+      "nifty_10d_return": 0.37,
+      "regime_label": "Stable",
+      "source": "nse_india",
+      "history_source": "yahoo_finance",
+      "is_fallback": false,
+      "timestamp": "2026-10-22T15:30:00+05:30",
+      "retrieved_at_ist": "2026-10-22T20:42:32.866879+05:30",
+      "is_market_session_current": true
+    },
+    "gmp": {
+      "status": "fresh",
+      "returned_rows": 31
+    },
+    "listing_outcomes": {
+      "saved": [],
+      "pending": [
+        {
+          "ipo_id": "chitto_3152",
+          "reason": "listing not exchange-identifiable yet"
+        },
+        {
+          "ipo_id": "chitto_3215",
+          "reason": "listing not exchange-identifiable yet"
+        },
+        {
+          "ipo_id": "chitto_3091",
+          "reason": "listing not exchange-identifiable yet"
+        },
+        {
+          "ipo_id": "chitto_2861",
+          "reason": "listing not exchange-identifiable yet"
+        },
+        {
+          "ipo_id": "chitto_2550",
+          "reason": "listing not exchange-identifiable yet"
+        },
+        {
+          "ipo_id": "chitto_2256",
+          "reason": "listing not exchange-identifiable yet"
+        }
+      ],
+      "excluded": []
+    },
+    "module2": {
+      "observation_day_ist": "2026-10-22",
+      "attempted": 47,
+      "recorded": 0,
+      "records": [
+        {
+          "ipo_id": 636,
+          "nse_symbol": "LALITHAA",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 637,
+          "nse_symbol": "HORIZONIND",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 634,
+          "nse_symbol": "SUNSHINE",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 635,
+          "nse_symbol": "SHANKESH",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 633,
+          "nse_symbol": "GAJA",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 632,
+          "nse_symbol": "TEMPSENS",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 631,
+          "nse_symbol": "AUGMONT",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 628,
+          "nse_symbol": "SYMBIOTEC",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 629,
+          "nse_symbol": "SKYWAYS",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 630,
+          "nse_symbol": "HTEL",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 627,
+          "nse_symbol": "ANNU",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 626,
+          "nse_symbol": "LUMINO",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 624,
+          "nse_symbol": "ESDS",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 625,
+          "nse_symbol": "PRIORITY",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 623,
+          "nse_symbol": "PERNIASPOP",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 621,
+          "nse_symbol": "MOMSBELIEF",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 622,
+          "nse_symbol": "DEEPA",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 620,
+          "nse_symbol": "PRANAV",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 617,
+          "nse_symbol": "GLASSWALL",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 618,
+          "nse_symbol": "PRASOLCHEM",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 619,
+          "nse_symbol": "KANOHAR",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 611,
+          "nse_symbol": "LCCPROJECT",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 612,
+          "nse_symbol": "KARAMTARA",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 613,
+          "nse_symbol": "RENTOMOJO",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 614,
+          "nse_symbol": "ARCIL",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 615,
+          "nse_symbol": "MPIMANIPAL",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 616,
+          "nse_symbol": "STEAMHOUSE",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 610,
+          "nse_symbol": "VEEGALAND",
+          "status": "not eligible or already frozen"
+        },
+        {
+          "ipo_id": 2628,
+          "nse_symbol": "HDFIRE",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2974,
+          "nse_symbol": "NITYAS",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2665,
+          "nse_symbol": "VNL",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2858,
+          "nse_symbol": "SRIT",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2657,
+          "nse_symbol": "SHAHINVEST",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2543,
+          "nse_symbol": "ACEVECTOR",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2532,
+          "nse_symbol": "ORIENTCABL",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2497,
+          "nse_symbol": "GERMAN",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2298,
+          "nse_symbol": "RUNWALENTR",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2936,
+          "nse_symbol": "MONEYVIEW",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2000,
+          "nse_symbol": "AONESTEELS",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 3007,
+          "nse_symbol": "ADROITIND",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2647,
+          "nse_symbol": "ELEVATE",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2287,
+          "nse_symbol": "SWASTIKAIN",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2140,
+          "nse_symbol": "ARMEE",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2563,
+          "nse_symbol": "VARMORA",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2805,
+          "nse_symbol": "SONA",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2822,
+          "nse_symbol": "SSRETAIL",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        },
+        {
+          "ipo_id": 2455,
+          "nse_symbol": "FUSIONCX",
+          "status": "not eligible or already frozen",
+          "source": "NSE UDiFF CM"
+        }
+      ]
+    }
+  },
+  "subscriptions": [
+    {
+      "company_name": "Jio Platforms",
+      "closing_date": "2026-10-23",
+      "observed_now_ist": "2026-10-22T20:42:36.863574+05:30",
+      "sources": [
+        {
+          "subscription_url": "https://www.chittorgarh.com/ipo_subscription/jio-platforms-ipo/3152/",
+          "fetched_at_ist": "2026-10-22T20:42:34+05:30",
+          "http_status": 200,
+          "status": "verified",
+          "values": {
+            "qib_subscription": 12.87,
+            "hni_subscription": 5.67,
+            "retail_subscription": 1.55
+          },
+          "raw_sha256": "d98ae36ad907bdf6f8dffab8ff58fb3cdeb616fd88ee8c5d424d03bcd666d572",
+          "error": null,
+          "source_displayed_at_ist": "2026-10-22T17:54:00+05:30",
+          "recovery_raw_archive_path": "data/archive/live_catchup/d98ae36ad907bdf6f8dffab8ff58fb3cdeb616fd88ee8c5d424d03bcd666d572.gz",
+          "recovery_raw_sha256": "d98ae36ad907bdf6f8dffab8ff58fb3cdeb616fd88ee8c5d424d03bcd666d572"
+        },
+        {
+          "status": "verified",
+          "source_family": "nse_exchange",
+          "source_name": "nse_ipo_category_v1",
+          "values": {
+            "qib_subscription": 13.292943349640865,
+            "hni_subscription": 5.965907842125942,
+            "retail_subscription": 1.5397855579350466
+          },
+          "error": null,
+          "fetched_at_ist": "2026-10-22T20:42:35+05:30",
+          "http_status": 200,
+          "nse_symbol": "JPL",
+          "series": "EQ",
+          "source_displayed_at_ist": "2026-10-22T18:57:00+05:30",
+          "historical_close": false,
+          "subscription_url": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=JPL",
+          "raw_sha256": "60f65a7dbf63a3e6b0a1adb7d80a313cc7cdf3ad9272caab01823da9ecda9323",
+          "parser_version": "nse_category_json_v1",
+          "recovery_raw_archive_path": "data/archive/live_catchup/60f65a7dbf63a3e6b0a1adb7d80a313cc7cdf3ad9272caab01823da9ecda9323.gz",
+          "recovery_raw_sha256": "60f65a7dbf63a3e6b0a1adb7d80a313cc7cdf3ad9272caab01823da9ecda9323"
+        }
+      ],
+      "news_status": null,
+      "news_freshness": "fresh",
+      "news_articles": 12
+    },
+    {
+      "company_name": "Paras Healthcare",
+      "closing_date": "2026-10-23",
+      "observed_now_ist": "2026-10-22T20:42:39.164226+05:30",
+      "sources": [
+        {
+          "subscription_url": "https://www.chittorgarh.com/ipo_subscription/paras-healthcare-ipo/2256/",
+          "fetched_at_ist": "2026-10-22T20:42:37+05:30",
+          "http_status": 200,
+          "status": "verified",
+          "values": {
+            "qib_subscription": 0.07,
+            "hni_subscription": 0.22,
+            "retail_subscription": 1.33
+          },
+          "raw_sha256": "ff101f799397c779163cb9c4c618dac00ad1a76c7f17122b80be9c99349de6c5",
+          "error": null,
+          "source_displayed_at_ist": "2026-10-22T16:15:00+05:30",
+          "recovery_raw_archive_path": "data/archive/live_catchup/ff101f799397c779163cb9c4c618dac00ad1a76c7f17122b80be9c99349de6c5.gz",
+          "recovery_raw_sha256": "ff101f799397c779163cb9c4c618dac00ad1a76c7f17122b80be9c99349de6c5"
+        },
+        {
+          "status": "verified",
+          "source_family": "nse_exchange",
+          "source_name": "nse_ipo_category_v1",
+          "values": {
+            "qib_subscription": 0.06487118315109239,
+            "hni_subscription": 0.2510285381012753,
+            "retail_subscription": 1.3058131452924462
+          },
+          "error": null,
+          "fetched_at_ist": "2026-10-22T20:42:37+05:30",
+          "http_status": 200,
+          "nse_symbol": "PARASHLTH",
+          "series": "EQ",
+          "source_displayed_at_ist": "2026-10-22T17:00:00+05:30",
+          "historical_close": false,
+          "subscription_url": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=PARASHLTH",
+          "raw_sha256": "5b7f2f096e8566ddaa02f0a1731b74b2e8aed0e8da2fd46021ac7344ce21163f",
+          "parser_version": "nse_category_json_v1",
+          "recovery_raw_archive_path": "data/archive/live_catchup/5b7f2f096e8566ddaa02f0a1731b74b2e8aed0e8da2fd46021ac7344ce21163f.gz",
+          "recovery_raw_sha256": "5b7f2f096e8566ddaa02f0a1731b74b2e8aed0e8da2fd46021ac7344ce21163f"
+        }
+      ],
+      "news_status": null,
+      "news_freshness": "fresh",
+      "news_articles": 12
+    }
+  ],
+  "timing_note": "Sources downloaded now are late recovery/reconciliation, not evidence that an afternoon prediction was saved. Missed original capture times are not backfilled.",
+  "last_original_capture_at_ist": "2026-10-22T12:45:19+05:30",
+  "summary": "Calendar checked; 2 active/just-closed offers checked, 4 complete demand-source responses recovered. Module 2 checked 47 recent listings. Source failures and pending outcomes remain explicit.",
+  "completed_at_ist": "2026-10-22T20:43:13.058462+05:30"
+}

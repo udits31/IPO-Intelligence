@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "built_at_utc": "2026-10-23T14:10:28.104829+00:00",
+  "runtime_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.0",
+    "xgboost": "3.2.0"
+  },
+  "module1": {
+    "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+    "training_n": 252,
+    "features": [
+      "QIB",
+      "Retail",
+      "HNI"
+    ],
+    "later_n": 179,
+    "requested_later_n": 189,
+    "auc_95_interval": [
+      0.7457591807909605,
+      0.8711899717514124
+    ],
+    "direction": {
+      "sample_size": 179,
+      "positive_listings": 120,
+      "nonpositive_listings": 59,
+      "threshold": 0.5,
+      "roc_auc": 0.8141,
+      "brier_score": 0.1639,
+      "classifier_accuracy_pct": 76.0,
+      "always_positive_baseline_pct": 67.0,
+      "balanced_accuracy_pct": 71.7,
+      "negative_recall_pct": 59.3,
+      "positive_recall_pct": 84.2,
+      "apply_precision_pct": 80.8,
+      "warning_precision_pct": 64.8,
+      "tn": 35,
+      "fp": 24,
+      "fn": 19,
+      "tp": 101
+    },
+    "application_policy": {
+      "sample_size": 179,
+      "positive_listings": 120,
+      "nonpositive_listings": 59,
+      "threshold": 0.82,
+      "roc_auc": 0.8141,
+      "brier_score": 0.1639,
+      "classifier_accuracy_pct": 73.2,
+      "always_positive_baseline_pct": 67.0,
+      "balanced_accuracy_pct": 76.1,
+      "negative_recall_pct": 84.7,
+      "positive_recall_pct": 67.5,
+      "apply_precision_pct": 90.0,
+      "warning_precision_pct": 56.2,
+      "tn": 50,
+      "fp": 9,
+      "fn": 39,
+      "tp": 81
+    },
+    "protocol": "2021\u20132024 training; 2025\u20132026 retrospective exchange-verified openings. Final subscription books, NOT pre-application accuracy.",
+    "conclusion": "Useful retrospective risk separation; a high APPLY precision is not overall accuracy or an application-time success guarantee."
+  },
+  "complexity": {
+    "candidate_count": 20,
+    "rows": [
+      {
+        "candidate": "poly3_c005",
+        "auc": 0.802683615819209,
+        "development_auc": 0.7631278538812785,
+        "delta_vs_retained_lr_auc": -0.011440677966101709,
+        "paired_delta_95_interval": [
+          -0.03461864406779677,
+          0.00790960451977396
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "blend_lr3_poly",
+        "auc": 0.8086158192090396,
+        "development_auc": 0.7585616438356164,
+        "delta_vs_retained_lr_auc": -0.005508474576271127,
+        "paired_delta_95_interval": [
+          -0.017941384180790963,
+          0.0035310734463277482
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "qda3",
+        "auc": 0.8055084745762713,
+        "development_auc": 0.7551369863013698,
+        "delta_vs_retained_lr_auc": -0.008615819209039421,
+        "paired_delta_95_interval": [
+          -0.028538135593220305,
+          0.007909604519773964
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "lr3_c5",
+        "auc": 0.8148305084745762,
+        "development_auc": 0.7534246575342465,
+        "delta_vs_retained_lr_auc": 0.0007062146892654608,
+        "paired_delta_95_interval": [
+          -0.005367231638418124,
+          0.007062146892655169
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "lr5_c01",
+        "auc": 0.8110169491525423,
+        "development_auc": 0.7528538812785387,
+        "delta_vs_retained_lr_auc": -0.003107344632768405,
+        "paired_delta_95_interval": [
+          -0.021765536723163812,
+          0.015116525423728678
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "poly3_c05",
+        "auc": 0.7942090395480226,
+        "development_auc": 0.7528538812785387,
+        "delta_vs_retained_lr_auc": -0.019915254237288127,
+        "paired_delta_95_interval": [
+          -0.05638064971751404,
+          0.010879237288135684
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "lr3_c05",
+        "auc": 0.8141242937853107,
+        "development_auc": 0.752283105022831,
+        "delta_vs_retained_lr_auc": 0.0,
+        "paired_delta_95_interval": [
+          0.0,
+          0.0
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "lr3_c005",
+        "auc": 0.8098870056497175,
+        "development_auc": 0.7517123287671231,
+        "delta_vs_retained_lr_auc": -0.004237288135593209,
+        "paired_delta_95_interval": [
+          -0.013841807909604435,
+          0.005370762711864449
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "lda3",
+        "auc": 0.8194915254237288,
+        "development_auc": 0.75,
+        "delta_vs_retained_lr_auc": 0.005367231638418124,
+        "paired_delta_95_interval": [
+          -0.00028248587570600946,
+          0.011867937853107155
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "blend_lr3_lr5",
+        "auc": 0.8159604519774011,
+        "development_auc": 0.7494292237442922,
+        "delta_vs_retained_lr_auc": 0.0018361581920903758,
+        "paired_delta_95_interval": [
+          -0.010028248587570569,
+          0.013986581920903981
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "lr5_c1",
+        "auc": 0.8163841807909604,
+        "development_auc": 0.747716894977169,
+        "delta_vs_retained_lr_auc": 0.002259887005649719,
+        "paired_delta_95_interval": [
+          -0.016525423728813497,
+          0.021472457627118708
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "blend_lr_xgb",
+        "auc": 0.8179378531073447,
+        "development_auc": 0.7465753424657533,
+        "delta_vs_retained_lr_auc": 0.003813559322033977,
+        "paired_delta_95_interval": [
+          -0.002828389830508501,
+          0.01115819209039548
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "blend_lr_hgb",
+        "auc": 0.8175141242937852,
+        "development_auc": 0.7437214611872146,
+        "delta_vs_retained_lr_auc": 0.003389830508474523,
+        "paired_delta_95_interval": [
+          -0.005653248587570564,
+          0.012994350282485856
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "hgb5_d2",
+        "auc": 0.792867231638418,
+        "development_auc": 0.7340182648401826,
+        "delta_vs_retained_lr_auc": -0.021257062146892713,
+        "paired_delta_95_interval": [
+          -0.05897951977401134,
+          0.014560381355932142
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "hgb3_d2",
+        "auc": 0.805861581920904,
+        "development_auc": 0.7200342465753423,
+        "delta_vs_retained_lr_auc": -0.008262711864406747,
+        "paired_delta_95_interval": [
+          -0.03672492937853123,
+          0.019357344632768315
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "svc5_rbf",
+        "auc": 0.8072033898305085,
+        "development_auc": 0.718607305936073,
+        "delta_vs_retained_lr_auc": -0.00692090395480216,
+        "paired_delta_95_interval": [
+          -0.05437853107344648,
+          0.04012005649717524
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "xgb3_d1",
+        "auc": 0.802683615819209,
+        "development_auc": 0.7174657534246576,
+        "delta_vs_retained_lr_auc": -0.011440677966101709,
+        "paired_delta_95_interval": [
+          -0.03383121468926545,
+          0.010451977401129908
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "rf3",
+        "auc": 0.8116525423728813,
+        "development_auc": 0.7160388127853882,
+        "delta_vs_retained_lr_auc": -0.0024717514124293904,
+        "paired_delta_95_interval": [
+          -0.024163135593220315,
+          0.019352048022598944
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "xgb5_d2",
+        "auc": 0.8120762711864407,
+        "development_auc": 0.7077625570776255,
+        "delta_vs_retained_lr_auc": -0.0020480225988700473,
+        "paired_delta_95_interval": [
+          -0.03687323446327678,
+          0.03263418079096051
+        ],
+        "reliable_improvement_demonstrated": false
+      },
+      {
+        "candidate": "svc3_rbf",
+        "auc": 0.7966101694915254,
+        "development_auc": 0.6837899543378996,
+        "delta_vs_retained_lr_auc": -0.017514124293785294,
+        "paired_delta_95_interval": [
+          -0.059050141242937795,
+          0.02162076271186469
+        ],
+        "reliable_improvement_demonstrated": false
+      }
+    ],
+    "retained_candidate": "lr3_c05",
+    "auc_min": 0.792867231638418,
+    "auc_max": 0.8194915254237288,
+    "reliable_improvement_demonstrated": false,
+    "protocol": "Same original 252 corporate training records and identical 179 verified later outcomes. Earlier-year 2022/2023 folds order candidates; later outcomes do not select a deployment.",
+    "limitations": "Paired percentile intervals are descriptive, not multiplicity-adjusted equivalence tests. Earlier and later outcomes have already been inspected."
+  },
+  "module2": {
+    "coverage": {
+      "available_ipo_count": 175,
+      "eligible_matured_count": 132,
+      "excluded_count": 43,
+      "excluded_by_reason": {
+        "insufficient 30-session future": 43
+      },
+      "sector_comparison_available_count": 122,
+      "broad_market_proxy_count": 9,
+      "benchmark_source_counts": {
+        "Nifty Infrastructure ETF proxy": 81,
+        "Nifty IT index": 17,
+        "Nifty Pharma index": 9,
+        "Nifty 50 broad-market proxy": 9,
+        "Nifty Bank index": 6,
+        "Nifty Auto ETF proxy": 6,
+        "Nifty FMCG ETF proxy": 4
+      },
+      "split_like_future_count": 0
+    },
+    "day30": {
+      "n": 132,
+      "up_rate_pct": 41.67,
+      "model_accuracy_pct": 46.97,
+      "always_sell_accuracy_pct": 58.33,
+      "always_hold_accuracy_pct": 41.67,
+      "trailing_8_accuracy_pct": 49.24,
+      "model_minus_always_sell_pp": -11.36,
+      "model_minus_always_sell_95ci_pp": [
+        -26.52,
+        3.79
+      ],
+      "model_minus_trailing_8_pp": -2.27,
+      "model_minus_trailing_8_95ci_pp": [
+        -12.88,
+        7.58
+      ],
+      "tn_fp_fn_tp": [
+        18,
+        59,
+        11,
+        44
+      ],
+      "sell_calls": 29,
+      "hold_calls": 103,
+      "model_strategy_net_mean_pct": -0.51,
+      "model_strategy_max_drawdown_mean_pct": -11.264,
+      "trailing_8_strategy_net_mean_pct": -0.461,
+      "trailing_8_strategy_max_drawdown_mean_pct": -6.483,
+      "trailing_25_strategy_net_mean_pct": -0.688,
+      "trailing_25_strategy_max_drawdown_mean_pct": -12.213,
+      "always_hold_net_mean_pct": -1.134,
+      "always_sell_net_mean_pct": -0.3,
+      "model_minus_hold_net_95ci_pp": [
+        -0.932,
+        2.115
+      ]
+    },
+    "first_day": {
+      "n": 132,
+      "up_rate_pct": 51.52,
+      "model_accuracy_pct": 49.24,
+      "always_sell_accuracy_pct": 48.48,
+      "always_hold_accuracy_pct": 51.52,
+      "trailing_8_accuracy_pct": 53.03,
+      "model_minus_always_sell_pp": 0.76,
+      "model_minus_always_sell_95ci_pp": [
+        -14.39,
+        15.91
+      ],
+      "model_minus_trailing_8_pp": -3.79,
+      "model_minus_trailing_8_95ci_pp": [
+        -13.64,
+        6.06
+      ],
+      "tn_fp_fn_tp": [
+        13,
+        51,
+        16,
+        52
+      ],
+      "sell_calls": 29,
+      "hold_calls": 103
+    },
+    "protocol": "31st observed close (index 30); one decision per IPO; 30 sessions after decision for direction; 30 sessions after execution for strategy",
+    "limitations": [
+      "NSE stock closes were retrieved retrospectively; original publication-time snapshots are not archived",
+      "No historically timestamped news or filings; price-only policy, not full live Module 2",
+      "Simple close-to-close execution and assumed 0.30% sell cost are illustrative",
+      "Explicit NSE bonus/split events reconciled in listing-share units; cash dividends not included; source coverage is retrospective"
+    ],
+    "policy_note": "Current risk-alert policy replay: 61 WATCH/review calls are treated as no exit (hold) only for this binary back-test; they are not affirmative HOLD recommendations. News and disclosures are not evaluated in this price-only test.",
+    "review_calls": 61,
+    "conclusion": "No demonstrated 30-session direction edge. Present this as a transparent risk heuristic, not a validated forecast."
+  },
+  "improvements": [
+    {
+      "title": "Richer pre-close output",
+      "type": "Capability, not proven accuracy gain",
+      "detail": "Added gain/loss estimates, downside/upside scenarios and saved priority comparisons against GMP-only. No selection advantage established."
+    },
+    {
+      "title": "Exchange-verified outcomes",
+      "type": "Evidence correction, not a new model",
+      "detail": "Rechecked listing openings against exact exchange archives; unchanged probabilities are rescored without rewriting the original predictions."
+    },
+    {
+      "title": "Comparable share-price units",
+      "type": "Correctness improvement",
+      "detail": "Reconciled explicit bonus/split ratios, restored supported histories, and prevented double adjustment of provider prices."
+    },
+    {
+      "title": "Issuer-specific news",
+      "type": "Input-quality improvement",
+      "detail": "Rejected shared-brand/company mismatches and fixed profit-decline sentiment; the dated test did not show a binary hold/sell accuracy gain."
+    }
+  ],
+  "tested_accuracy_changes": [
+    {
+      "title": "Market-aware thresholds \u00b7 Module 2 research",
+      "change": "Archived experiment against the earlier automatic-sell policy, not the current risk-alert policy. Keep the earlier loss/trailing rules, but choose tighter or wider thresholds from the observed Nifty regime. Settings selected only on matured pre-2025 outcomes.",
+      "before_pct": 50.0,
+      "after_pct": 53.03030303030303,
+      "n": 132,
+      "baseline_pct": 58.333333333333336,
+      "paired_change": {
+        "accuracy_change_pp": 3.0303030303030303,
+        "bootstrap_95_pp": [
+          -3.0303030303030303,
+          9.090909090909092
+        ],
+        "corrected_errors": 10,
+        "introduced_errors": 6
+      },
+      "status": "Earlier-policy research \u00b7 not promoted",
+      "verdict": "The sample score increased, but it still loses to always-sell and its change interval includes zero. Do not claim a reliable live accuracy gain."
+    }
+  ],
+  "input_sha256": {
+    "ml/model_bundle.json": "223a2861acc31952c5404cbe9eb0621f2241775404a4912a26fba0d579eacb2f",
+    "data/canonical_listed_ipos.csv": "8153dfeb3352e9d0ae2d89339ab68fbc5c60f662f8af28d851bca5fd7c8146fb",
+    "data/subscription_observations.csv": "fab209435ee157b3cacc753b0d2d81b39e6c287f7b1eec6ef50d7d7a74e27fcd",
+    "data/audit/module1_exchange_listing_open_audit.csv": "0dfb32b9c6d34378814f2fcb8d57dfc5e48f652b5f25697c2062ef931084417b",
+    "output/module2_holdout_accuracy_2025_2026_governance_20261023.json": "0fa6b07992ec92fce802c11b111b982daa55a294670ef3a0fe0299d5bf7f15d4",
+    "output/module2_holdout_decision_ledger_governance_20261023.csv": "f51a381badb98339e4e49cb4dad97fe31d8107859217feee8b07badba5f992dc",
+    "ml/model_pipeline.py": "20756469ef7a8104f6546deeba03fba4f50c1560f82c9766e505d685c7c0e61f",
+    "ml/model_search.py": "2b078bdfd54e20a80f98998a8d72d6435ba87dbfbb674c1855f06b34d0f7af40",
+    "ml/build_performance_evidence.py": "5f70358d2842301511216b3437b117a988151891ec410e7dc28108b08b7452ff",
+    "core/monitor_engine.py": "af35583851cbdd94fd1d60d736c814517bbb8372c8cbdba867c6da24b3c626f8",
+    "core/attribution_engine.py": "83c46af1fe2c445a838fcb72c64b81981943d0f8f0c445cb845ee4ee3735c854",
+    "output/performance_model_comparison_ledger.csv": "038a0a2c27bad2d1dfe118055bb11a3ef840bdf1fed09475eb282807a8d1f514",
+    "output/module2_market_rule_calibration_20261021.json": "8a3f08181cb4fab9b29a5fd9ba1a49e57391d642b43b2dc14e54f1e5f268807e",
+    "output/module2_holdout_accuracy_2025_2026presentation_20261022.json": "2b3e749459efd78e978419acea4ae35f5b8fc4b31a3bfeab16ff396429a58cc7"
+  },
+  "claims_policy": "Never substitute direction accuracy for APPLY precision, retrospective evidence for live forecasts, or one decision horizon for another."
+}

@@ -1,0 +1,515 @@
+issuer_key,company_name,field,value,source_url,source_sha256
+335,Aether Industries Ltd.,ofs_ratio,0.22405215807118106,https://www.ipopremium.in/view/ipo/1/aether-industries-limited,a955d8649ac1112cff9640ed1cc35169935f0ab2c44fea2648d211877cbe318d
+335,Aether Industries Ltd.,lot_size_shares,23.0,https://www.ipopremium.in/view/ipo/1/aether-industries-limited,a955d8649ac1112cff9640ed1cc35169935f0ab2c44fea2648d211877cbe318d
+335,Aether Industries Ltd.,pub_ipo_earnings_yield_pct,1.1604361370716512,https://www.ipopremium.in/view/ipo/1/aether-industries-limited,a955d8649ac1112cff9640ed1cc35169935f0ab2c44fea2648d211877cbe318d
+335,Aether Industries Ltd.,pub_log_ipo_price_book,3.735710128946242,https://www.ipopremium.in/view/ipo/1/aether-industries-limited,a955d8649ac1112cff9640ed1cc35169935f0ab2c44fea2648d211877cbe318d
+335,Aether Industries Ltd.,quota_weighted_book_mult,0.4807142819516542,https://www.ipopremium.in/view/ipo/1/aether-industries-limited,a955d8649ac1112cff9640ed1cc35169935f0ab2c44fea2648d211877cbe318d
+330,Electronics Mart India Ltd.,lot_size_shares,254.0,https://www.ipopremium.in/view/ipo/63/electronics-mart-india-limited,37302ff1400149fb5b76b414b6f133b9ef824f0d302f96d6dbc34e68611bc4d1
+325,Global Health Ltd.,lot_size_shares,44.0,https://www.ipopremium.in/view/ipo/76/global-health-limited,b086c01fbd0cc5235f71df897462ed6fbe46a111967e2e10612f541f24f7a690
+326,Bikaji Foods International Ltd.,lot_size_shares,50.0,https://www.ipopremium.in/view/ipo/78/bikaji-foods-international,19a5d7ab416507e541cf62046d364e06b9bed89d19f83e8548e411ca830da6f5
+323,Archean Chemical Industries Ltd.,lot_size_shares,36.0,https://www.ipopremium.in/view/ipo/81/archean-chemical-industries-limited,4465e7f791f6f9f115d38f16692154b2eef6c6f0bd1f771d34dfc8f53ebe85ca
+322,Kaynes Technology India Ltd.,lot_size_shares,25.0,https://www.ipopremium.in/view/ipo/82/kaynes-technology-india-ltd,dcd541e652d2754f3bc119dfde931cb813691ee9571bb0693cf21c406aa347bc
+321,Inox Green Energy Services Ltd.,lot_size_shares,230.0,https://www.ipopremium.in/view/ipo/83/inox-green-energy-services,9dfcc6114f1080a8a582c1e14b13857638f99a55397352000143c3f9b8176ee3
+319,Dharmaj Crop Guard Ltd.,lot_size_shares,60.0,https://www.ipopremium.in/view/ipo/87/dharmaj-crop-guard-limited,9e0c56d5619113721c55a6598c3169216c231cdc529e27c6dc9b5ec950b29d87
+317,Sula Vineyards Ltd.,lot_size_shares,42.0,https://www.ipopremium.in/view/ipo/95/sula-vineyards-ltd,56b6797cf131ed6a1c280ee4b58b844e264a3e3f144eb6428288b22018800bda
+316,Landmark Cars Ltd.,lot_size_shares,29.0,https://www.ipopremium.in/view/ipo/96/landmark-cars-limited,d641698ff25fb5109859cefd9dc54a3274a67e0255bc38571c88a1020840371e
+313,Elin Electronics Ltd.,lot_size_shares,60.0,https://www.ipopremium.in/view/ipo/101/elin-electronics-limited,e98ea657ece0b37c0d7ed7b61f4396f106d04aad49208e2fb42d09aa4f727034
+407,Divgi TorqTransfer Systems Ltd.,lot_size_shares,25.0,https://www.ipopremium.in/view/ipo/133/divgi-torqtransfer-systems-ltd,7e64cf98262618852836e1cb8759791fdf70c0e26bbd835a8064d0bc457cd02b
+406,Global Surfaces Ltd.,ofs_ratio,0.23035230352303523,https://www.ipopremium.in/view/ipo/138/global-surfaces-limited,5db732fef055bfe690d71c58ae0b8eeb6ee02d911a0ee76a74c7ead696c7c0dc
+406,Global Surfaces Ltd.,lot_size_shares,100.0,https://www.ipopremium.in/view/ipo/138/global-surfaces-limited,5db732fef055bfe690d71c58ae0b8eeb6ee02d911a0ee76a74c7ead696c7c0dc
+405,Avalon Technologies Ltd.,lot_size_shares,34.0,https://www.ipopremium.in/view/ipo/148/avalon-technologies-ltd,990476204121f1fb6ef09e334fe937d876c5a6568a5da5da54f50f499c962c96
+403,IKIO Lighting Ltd.,lot_size_shares,52.0,https://www.ipopremium.in/view/ipo/173/ikio-lighting-limited,f4a5846ab750f6cf88947ac606204d85527811234666c4c758777700d27bc6eb
+399,Senco Gold Ltd.,ofs_ratio,0.3333333333333333,https://www.ipopremium.in/view/ipo/197/senco-gold,7b36a954c711c28e90af3502c01553d562703a267d26f79bdf52d1146fc45c8a
+399,Senco Gold Ltd.,lot_size_shares,47.0,https://www.ipopremium.in/view/ipo/197/senco-gold,7b36a954c711c28e90af3502c01553d562703a267d26f79bdf52d1146fc45c8a
+398,Utkarsh Small Finance Bank Ltd.,lot_size_shares,600.0,https://www.ipopremium.in/view/ipo/202/utkarsh-small-finance-bank-limited,c2dd63f42bec00155cb15911e9c6d8f4032c3888b0d9abf509cd604229670470
+397,Netweb Technologies India Ltd.,lot_size_shares,30.0,https://www.ipopremium.in/view/ipo/205/netweb-technologies-india-limited,4afcf7250371bd34b0a8d273a25d07710942ed0157f23ca6bd25321b6c4867ac
+396,Yatharth Hospital & Trauma Care Services Ltd.,lot_size_shares,50.0,https://www.ipopremium.in/view/ipo/207/yatharth-hospital,a7814d4a23deac09b5fc1680907110a76b493db8be61fd5151a257ce846e6f03
+395,SBFC Finance Ltd.,ofs_ratio,0.4146341463414634,https://www.ipopremium.in/view/ipo/214/sbfc-finance-limited,1a5620cc18129ad9177bb15f61e2bf85921c4e3cd52174f28b89b47c9deed311
+395,SBFC Finance Ltd.,lot_size_shares,260.0,https://www.ipopremium.in/view/ipo/214/sbfc-finance-limited,1a5620cc18129ad9177bb15f61e2bf85921c4e3cd52174f28b89b47c9deed311
+394,Concord Biotech Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/216/concord-biotech-limited,da6202fe8ebcf02774c44dfa7eee48cc4456cc9e37529deb38a2f127ebff0d9c
+394,Concord Biotech Ltd.,lot_size_shares,20.0,https://www.ipopremium.in/view/ipo/216/concord-biotech-limited,da6202fe8ebcf02774c44dfa7eee48cc4456cc9e37529deb38a2f127ebff0d9c
+393,TVS Supply Chain Solutions Ltd.,lot_size_shares,76.0,https://www.ipopremium.in/view/ipo/220/tvs-supply-chain-solutions,bff8968a3e997ca5f90051f5da723eb016ec352006ff86e44561e7a9c9f61c56
+392,Pyramid Technoplast Ltd.,lot_size_shares,90.0,https://www.ipopremium.in/view/ipo/224/pyramid-technoplast,84b646931c7840f7150025878718e0746aa603f10390235e85f5be79e72ee6b6
+391,Aeroflex Industries Ltd.,lot_size_shares,130.0,https://www.ipopremium.in/view/ipo/228/aeroflex-industries-limited,07ad0f5a2998a5ca5ff062c06ed296fde9c7293233c0dd24153b963a81f8541e
+391,Aeroflex Industries Ltd.,pub_revenue_growth_asinh,0.11794701283945394,https://www.ipopremium.in/view/ipo/228/aeroflex-industries-limited,07ad0f5a2998a5ca5ff062c06ed296fde9c7293233c0dd24153b963a81f8541e
+390,Vishnu Prakash R.Punglia Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/232/vishnu-prakash-r-punglia,8fec1da9e5543ddbb55da44f5bab5f8bfbf18bb6bd213b76b807d1d4a7ae8f6c
+390,Vishnu Prakash R.Punglia Ltd.,lot_size_shares,150.0,https://www.ipopremium.in/view/ipo/232/vishnu-prakash-r-punglia,8fec1da9e5543ddbb55da44f5bab5f8bfbf18bb6bd213b76b807d1d4a7ae8f6c
+388,Ratnaveer Precision Engineering Ltd.,ofs_ratio,0.18052256532066507,https://www.ipopremium.in/view/ipo/236/ratnaveer-precision-engineering,581da0e637f4526ea16937aa2ac93552a6dc0f6560ffeab6bafe64ea5c27e99d
+388,Ratnaveer Precision Engineering Ltd.,lot_size_shares,150.0,https://www.ipopremium.in/view/ipo/236/ratnaveer-precision-engineering,581da0e637f4526ea16937aa2ac93552a6dc0f6560ffeab6bafe64ea5c27e99d
+389,Rishabh Instruments Ltd.,lot_size_shares,34.0,https://www.ipopremium.in/view/ipo/235/rishabh-instruments,ed3462eb0d43b3d5f70bdc0aaffcc1f71deeb292d7febfcafa6232365c632bfe
+387,Jupiter Life Line Hospitals Ltd.,lot_size_shares,20.0,https://www.ipopremium.in/view/ipo/242/jupiter-life-line-hospitals,2881a6a8bc6845f6b97f945f51340048ce1806b7dacedc76dde3f2bbfd176559
+385,EMS Ltd.,ofs_ratio,0.5447640393475283,https://www.ipopremium.in/view/ipo/244/ems-limited,87e2a1c966dd4860f3dc134b6e745bb950bf69d258e4b49f4157599a7afa092c
+385,EMS Ltd.,lot_size_shares,70.0,https://www.ipopremium.in/view/ipo/244/ems-limited,87e2a1c966dd4860f3dc134b6e745bb950bf69d258e4b49f4157599a7afa092c
+378,JSW Infrastructure Ltd.,lot_size_shares,126.0,https://www.ipopremium.in/view/ipo/263/jsw-infrastructure,17a6c04c466ea65228df5b6bb2d48e512e98278e880882b3c08f0d72fd51281f
+374,IRM Energy Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/295/irm-energy-limited,3fa75aee83cd2e5649d55a3f0f8430a9d0f7380b6bb2a812236d3135a31ca468
+374,IRM Energy Ltd.,lot_size_shares,29.0,https://www.ipopremium.in/view/ipo/295/irm-energy-limited,3fa75aee83cd2e5649d55a3f0f8430a9d0f7380b6bb2a812236d3135a31ca468
+368,ASK Automotive Ltd.,lot_size_shares,53.0,https://www.ipopremium.in/view/ipo/313/ask-automotive,18a283f5a2563025f19fc1212d2a70937f4492919885b86d9b9bb6b8702bd245
+364,Tata Technologies Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/298/tata-technologies-limited,8c25fb34123558c6fdb9a11e5c78d2a197a21422a6add9741594ba20e7112d76
+364,Tata Technologies Ltd.,lot_size_shares,30.0,https://www.ipopremium.in/view/ipo/298/tata-technologies-limited,8c25fb34123558c6fdb9a11e5c78d2a197a21422a6add9741594ba20e7112d76
+365,Gandhar Oil Refinery (India) Ltd.,pub_revenue_growth_asinh,0.3433297520704406,https://www.ipopremium.in/view/ipo/320/gandhar-oil-refinery-india-ltd,07c682b726c04bd9d463c9c36128a79cd5373c9669bb8ace4e11d4675a81c350
+366,Fedbank Financial Services Ltd.,lot_size_shares,107.0,https://www.ipopremium.in/view/ipo/318/fedbank-financial-services-limited,56f37f617c1989a4342474306c08bc9e4409f7f6816b62e993a6a53e1b1a88b4
+363,Flair Writing Industries Ltd.,ofs_ratio,0.5075885328836425,https://www.ipopremium.in/view/ipo/323/flair-writing-industries,33dd224f5efb07ea6674cfb5b194df3ae8dfa81e7ce15c939eb3dbccf1f0a406
+363,Flair Writing Industries Ltd.,lot_size_shares,49.0,https://www.ipopremium.in/view/ipo/323/flair-writing-industries,33dd224f5efb07ea6674cfb5b194df3ae8dfa81e7ce15c939eb3dbccf1f0a406
+361,India Shelter Finance Corp.Ltd.,ofs_ratio,0.333333319638889,https://www.ipopremium.in/view/ipo/337/india-shelter-finance-corporation,7e2791da2450d40d36bab7e1faee20c060703caa1a101aa292d352cef7870fa4
+361,India Shelter Finance Corp.Ltd.,lot_size_shares,30.0,https://www.ipopremium.in/view/ipo/337/india-shelter-finance-corporation,7e2791da2450d40d36bab7e1faee20c060703caa1a101aa292d352cef7870fa4
+361,India Shelter Finance Corp.Ltd.,pub_revenue_growth_asinh,0.3132859324680396,https://www.ipopremium.in/view/ipo/337/india-shelter-finance-corporation,7e2791da2450d40d36bab7e1faee20c060703caa1a101aa292d352cef7870fa4
+362,DOMS Industries Ltd.,ofs_ratio,0.7083333333333334,https://www.ipopremium.in/view/ipo/334/doms-industries,81aa061529dc1c3b7f65bd5fc4d47c21260f57a370d50e3d01cee17be58d784c
+362,DOMS Industries Ltd.,lot_size_shares,18.0,https://www.ipopremium.in/view/ipo/334/doms-industries,81aa061529dc1c3b7f65bd5fc4d47c21260f57a370d50e3d01cee17be58d784c
+360,Inox India Ltd.,lot_size_shares,22.0,https://www.ipopremium.in/view/ipo/343/inox-india-ltd,ca22e524bc1bd8cc12203af26bf1a197e206ce1b5063813e5d62f1a67edd9cb4
+357,Muthoot Microfin Ltd.,ofs_ratio,0.20833333333333334,https://www.ipopremium.in/view/ipo/338/muthoot-microfin,3fbb12487ba86fca327426aabfa252122f53db79003675873d1096f648cade0f
+357,Muthoot Microfin Ltd.,lot_size_shares,51.0,https://www.ipopremium.in/view/ipo/338/muthoot-microfin,3fbb12487ba86fca327426aabfa252122f53db79003675873d1096f648cade0f
+358,Motisons Jewellers Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/344/motisons-jewellers,57df454ac901e0563cfe8c71ead5d3cfcd59042237890ff4fadb753120541b4c
+358,Motisons Jewellers Ltd.,lot_size_shares,250.0,https://www.ipopremium.in/view/ipo/344/motisons-jewellers,57df454ac901e0563cfe8c71ead5d3cfcd59042237890ff4fadb753120541b4c
+354,RBZ Jewellers Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/348/rbz-jewellers-limited,b689ad4ae4a3f77ab26c616e93a0fed475cbe7801f8d3274febf324e84656c59
+354,RBZ Jewellers Ltd.,lot_size_shares,150.0,https://www.ipopremium.in/view/ipo/348/rbz-jewellers-limited,b689ad4ae4a3f77ab26c616e93a0fed475cbe7801f8d3274febf324e84656c59
+355,Credo Brands Marketing Ltd.,lot_size_shares,53.0,https://www.ipopremium.in/view/ipo/349/credo-brands-marketing,3f9d9a8b3728340e3afccb5bd64816b8fee2679810130e77fee6cc7ffb70aada
+356,Happy Forgings Ltd.,ofs_ratio,0.6031746031746031,https://www.ipopremium.in/view/ipo/345/happy-forgings,0bb0ba452ab08412b631fb9ae94169098734f830bb0cbf6dbca8dfcf4c9ebedc
+356,Happy Forgings Ltd.,lot_size_shares,17.0,https://www.ipopremium.in/view/ipo/345/happy-forgings,0bb0ba452ab08412b631fb9ae94169098734f830bb0cbf6dbca8dfcf4c9ebedc
+353,Azad Engineering Ltd.,ofs_ratio,0.6756756756756757,https://www.ipopremium.in/view/ipo/350/azad-engineering-limited,c3828bd766d1b8922ce97674e80f1f47e2d2b0764eb78ec38af599ee859be879
+353,Azad Engineering Ltd.,lot_size_shares,28.0,https://www.ipopremium.in/view/ipo/350/azad-engineering-limited,c3828bd766d1b8922ce97674e80f1f47e2d2b0764eb78ec38af599ee859be879
+497,Nova AgriTech Ltd.,quota_weighted_book_mult,35.08214232526107,https://www.ipopremium.in/view/ipo/374/nova-agritech-ltd,3c7caa17574645f8ba265355297d0b7c44891fdd57b57e1b687da83b42bde3d3
+496,BLS E-Services Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/385/bls-e-services-limited,cb78889833ab7e80a0034b67e6e3ed1c107a7931a6dc6686888be96abb07783b
+495,Apeejay Surrendra Park Hotels Ltd.,ofs_ratio,0.34782608695652173,https://www.ipopremium.in/view/ipo/389/apeejay-surrendra-park-hotels,40dea95327a91c6e9d691d39169842aee310ba1fa31fce7c5e76579c340c7cfc
+492,Rashi Peripherals Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/388/rashi-peripherals,80e3324c7e1e59b150abd73d42361c1518cad351c508eba36b3c40b548db93b2
+493,Jana Small Finance Bank Ltd.,ofs_ratio,0.18946976437983334,https://www.ipopremium.in/view/ipo/393/jana-small-finance-bank,3368161dc74adb561e736b94ccc7d510c918c1b417347a82329a8d14c990f664
+493,Jana Small Finance Bank Ltd.,quota_weighted_book_mult,1.9435714781420608,https://www.ipopremium.in/view/ipo/393/jana-small-finance-bank,3368161dc74adb561e736b94ccc7d510c918c1b417347a82329a8d14c990f664
+494,Capital Small Finance Bank Ltd.,ofs_ratio,0.1396948279874414,https://www.ipopremium.in/view/ipo/392/capital-small-finance-bank-limited,8b0fe55ff8e2e3e0ff5c5fb96648862e088a558e2044edf2444401896c627b04
+494,Capital Small Finance Bank Ltd.,quota_weighted_book_mult,1.2600000012781676,https://www.ipopremium.in/view/ipo/392/capital-small-finance-bank-limited,8b0fe55ff8e2e3e0ff5c5fb96648862e088a558e2044edf2444401896c627b04
+490,Vibhor Steel Tubes Ltd.,quota_weighted_book_mult,108.95992782026525,https://www.ipopremium.in/view/ipo/397/vibhor-steel-tubes,6e740f51e009ec5e1a3eb77cda224658f77b54c4af7172985f21cc8b8db24fe4
+489,Juniper Hotels Ltd.,quota_weighted_book_mult,0.24272727272727268,https://www.ipopremium.in/view/ipo/404/juniper-hotels-limited,f26899a3456ed435089886bad7a65544970ea589cb380e9c5ae64c7c45477f73
+486,Platinum Industries Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/412/platinum-industries,97585fc6f35b690113b1cdec02e6c8a0a5c0380fbbd858a23b6e6a0d270d64d1
+486,Platinum Industries Ltd.,quota_weighted_book_mult,22.345162837325248,https://www.ipopremium.in/view/ipo/412/platinum-industries,97585fc6f35b690113b1cdec02e6c8a0a5c0380fbbd858a23b6e6a0d270d64d1
+485,Mukka Proteins Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/409/mukka-proteins,67faa307993578ceb4ee4e4e9fed2fe305ff13079672722b7995ca87e7912220
+485,Mukka Proteins Ltd.,quota_weighted_book_mult,7.030674120656385,https://www.ipopremium.in/view/ipo/409/mukka-proteins,67faa307993578ceb4ee4e4e9fed2fe305ff13079672722b7995ca87e7912220
+483,J.G.Chemicals Ltd.,lot_size_shares,67.0,https://www.ipopremium.in/view/ipo/420/jg-chemicals-limited,9e6aa00740aaf14fa25adcc9ad72f68796027ec71e551fa2ac13e3265184c01d
+483,J.G.Chemicals Ltd.,quota_weighted_book_mult,6.578570577128964,https://www.ipopremium.in/view/ipo/420/jg-chemicals-limited,9e6aa00740aaf14fa25adcc9ad72f68796027ec71e551fa2ac13e3265184c01d
+482,Gopal Snacks Ltd.,quota_weighted_book_mult,1.4599999796199312,https://www.ipopremium.in/view/ipo/417/gopal-snacks,cd9d86e0e1bfa8d77b0753dcbf63fde00101ec052714a8bbe90f1a3d0418d191
+481,Popular Vehicles & Services Ltd.,quota_weighted_book_mult,0.44785714285714284,https://www.ipopremium.in/view/ipo/425/popular-vehicles-services-limited,c47d07caa4e9255c3ef9765ab4c0ea66081e60737a3bb7112e45efa09acdd74d
+480,Krystal Integrated Services Ltd.,pub_revenue_growth_asinh,0.27776470581933593,https://www.ipopremium.in/view/ipo/426/krystal-integrated-services-limited,6f4e2112eee93ccf81722aed715011209c02e7edb0dfa16d1328bb821cd749ed
+480,Krystal Integrated Services Ltd.,quota_weighted_book_mult,0.7178572031449627,https://www.ipopremium.in/view/ipo/426/krystal-integrated-services-limited,6f4e2112eee93ccf81722aed715011209c02e7edb0dfa16d1328bb821cd749ed
+479,SRM Contractors Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/436/srm-contractors,bda065eb3216de906cf7e057e19ef529ee11950c8356379f7a7a5c96b168c8ea
+479,SRM Contractors Ltd.,quota_weighted_book_mult,17.58607889219143,https://www.ipopremium.in/view/ipo/436/srm-contractors,bda065eb3216de906cf7e057e19ef529ee11950c8356379f7a7a5c96b168c8ea
+476,JNK India Ltd.,quota_weighted_book_mult,1.050717474179793,https://www.ipopremium.in/view/ipo/459/jnk-india-ltd,de02ed65cba14721805222c07b210085cab717eae9e77bf9b1b14d50238f8cee
+475,Indegene Ltd.,quota_weighted_book_mult,7.478571690592476,https://www.ipopremium.in/view/ipo/464/indegene-limited,5467a8227170f5f05c2fdfdbc0b8863ee2c207cd08c41a3d881c44a5f2973c2b
+472,Go Digit General Insurance Ltd.,ofs_ratio,0.5697320865125352,https://www.ipopremium.in/view/ipo/481/go-digit-general-insurance,91b7ecf9e5a815674972787a3e3ad2019b18f2635368699b3d3e7f809ba19d24
+471,Awfis Space Solutions Ltd.,ofs_ratio,0.7862855425508823,https://www.ipopremium.in/view/ipo/485/awfis-space-solutions,9cd85ef3e93e9b7b6ff9948b4a75b64293d532567833930a78b53e29b6025199
+470,Kronox Lab Sciences Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/493/kronox-lab-sciences-limited,677abd5850ef84ff0999b43bbb6a062a9e7cceb9b1f5f1080b5184140f993fb7
+469,Le Travenues Technology Ltd.,ofs_ratio,0.8378602654657085,https://www.ipopremium.in/view/ipo/497/le-travenues-technology-limited,e056e476e208d71f256ea748bcbdcee45c0dc2e70f4b46a2fd49aab3d1cd0b04
+467,DEE Development Engineers Ltd.,ofs_ratio,0.22250663859716277,https://www.ipopremium.in/view/ipo/501/dee-development-engineers-limited,c0146cb056a2af707aaedda532e91e6c1f0b60060b670e2a2ef2a017f5e9467b
+467,DEE Development Engineers Ltd.,quota_weighted_book_mult,9.27642901709299,https://www.ipopremium.in/view/ipo/501/dee-development-engineers-limited,c0146cb056a2af707aaedda532e91e6c1f0b60060b670e2a2ef2a017f5e9467b
+466,Stanley Lifestyles Ltd.,quota_weighted_book_mult,5.311428336966559,https://www.ipopremium.in/view/ipo/504/stanley-lifestyles-limited,f5af30b37a1604f9fbf186916f273320169681670c63b48c7b2f19ebf2960ecb
+465,Allied Blenders & Distillers Ltd.,ofs_ratio,0.3333333333333333,https://www.ipopremium.in/view/ipo/516/allied-blenders-and-distillers-limited,967b3a88af728e6a68a2dad074045011244dc9ff4cb9af817f48064d262b66a9
+465,Allied Blenders & Distillers Ltd.,quota_weighted_book_mult,1.590714285714286,https://www.ipopremium.in/view/ipo/516/allied-blenders-and-distillers-limited,967b3a88af728e6a68a2dad074045011244dc9ff4cb9af817f48064d262b66a9
+462,Emcure Pharmaceuticals Ltd.,quota_weighted_book_mult,5.050000275835069,https://www.ipopremium.in/view/ipo/521/emcure-pharmaceuticals-limited,1c11bb897d39bd1d368a81d31ba1b86e01f0ba5fdef64a9e66f8fe2affce9352
+461,Sanstar Ltd.,ofs_ratio,0.22160148975791433,https://www.ipopremium.in/view/ipo/534/sanstar-ltd,fda5eef72c26fc08899181cc6112bb392260c1fef587efbd09794ac7e0f1dd57
+460,Akums Drugs & Pharmaceuticals Ltd.,pub_ipo_earnings_yield_pct,0.04123711340206186,https://www.ipopremium.in/view/ipo/549/akums-drugs-and-pharmaceuticals-limited,b4156289b9887b0c71ad4ad3c251dd56e7baf5852e828b8e7a6c17ef8d8b3367
+460,Akums Drugs & Pharmaceuticals Ltd.,quota_weighted_book_mult,4.484544778013795,https://www.ipopremium.in/view/ipo/549/akums-drugs-and-pharmaceuticals-limited,b4156289b9887b0c71ad4ad3c251dd56e7baf5852e828b8e7a6c17ef8d8b3367
+459,Ceigall India Ltd.,quota_weighted_book_mult,1.2507142974925276,https://www.ipopremium.in/view/ipo/554/ceigall-india-limited,c65b701f78a958bd441ef5e6495984e98c22b675064924fe50df146f0eb83300
+458,Ola Electric Mobility Ltd.,pub_ipo_earnings_yield_pct,-5.723684210526315,https://www.ipopremium.in/view/ipo/553/ola-electric-mobility-limited,f87a8288705908910d28319e2f022e9e8e3d2bd992e0b7d91499ee3024b73447
+458,Ola Electric Mobility Ltd.,quota_weighted_book_mult,1.0981818285913878,https://www.ipopremium.in/view/ipo/553/ola-electric-mobility-limited,f87a8288705908910d28319e2f022e9e8e3d2bd992e0b7d91499ee3024b73447
+456,Unicommerce eSolutions Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/558/unicommerce-esolutions-limited,f34bf69a0d9249c3ff576c2ad618888136c0c78a2d93a03653a1e221a122b936
+456,Unicommerce eSolutions Ltd.,quota_weighted_book_mult,12.30272619876872,https://www.ipopremium.in/view/ipo/558/unicommerce-esolutions-limited,f34bf69a0d9249c3ff576c2ad618888136c0c78a2d93a03653a1e221a122b936
+457,Brainbees Solutions Ltd.,pub_ipo_earnings_yield_pct,-1.3333333333333333,https://www.ipopremium.in/view/ipo/557/brainbees-solutions-limited,b65a6a5a19c950c4e450ce6af053335a21a889a4d965046fcf5d2789174fac6a
+457,Brainbees Solutions Ltd.,pub_profit_margin_pct,-4.889826435571886,https://www.ipopremium.in/view/ipo/557/brainbees-solutions-limited,b65a6a5a19c950c4e450ce6af053335a21a889a4d965046fcf5d2789174fac6a
+457,Brainbees Solutions Ltd.,pub_return_on_assets_pct,-4.280875268628218,https://www.ipopremium.in/view/ipo/557/brainbees-solutions-limited,b65a6a5a19c950c4e450ce6af053335a21a889a4d965046fcf5d2789174fac6a
+457,Brainbees Solutions Ltd.,pub_revenue_growth_asinh,0.14670039001215954,https://www.ipopremium.in/view/ipo/557/brainbees-solutions-limited,b65a6a5a19c950c4e450ce6af053335a21a889a4d965046fcf5d2789174fac6a
+457,Brainbees Solutions Ltd.,pub_annual_loss,1.0,https://www.ipopremium.in/view/ipo/557/brainbees-solutions-limited,b65a6a5a19c950c4e450ce6af053335a21a889a4d965046fcf5d2789174fac6a
+457,Brainbees Solutions Ltd.,quota_weighted_book_mult,0.29272726219989914,https://www.ipopremium.in/view/ipo/557/brainbees-solutions-limited,b65a6a5a19c950c4e450ce6af053335a21a889a4d965046fcf5d2789174fac6a
+455,Saraswati Saree Depot Ltd.,ofs_ratio,0.6018333333333333,https://www.ipopremium.in/view/ipo/563/saraswati-saree-depot-limited,317c5c5183e5c423d262bc72b232aef0d0fc4a3e80fca76a6b73923136f58dd5
+454,Interarch Building Products Ltd.,ofs_ratio,0.6668276999450267,https://www.ipopremium.in/view/ipo/569/interarch-building-products-limited,2e78fbf6412d95c7d6ee5d817b3420b97d6cb9a2af61a4c63ba8ecadca4a42af
+454,Interarch Building Products Ltd.,quota_weighted_book_mult,10.911431143773905,https://www.ipopremium.in/view/ipo/569/interarch-building-products-limited,2e78fbf6412d95c7d6ee5d817b3420b97d6cb9a2af61a4c63ba8ecadca4a42af
+453,Orient Technologies Ltd.,ofs_ratio,0.4412367293723226,https://www.ipopremium.in/view/ipo/567/orient-technologies-limited,c5ce80c3acbdf8c3c8c8b2918cc6cb05dce7a75a33317f8f23ae4f36ff1a2200
+453,Orient Technologies Ltd.,quota_weighted_book_mult,17.44785587728687,https://www.ipopremium.in/view/ipo/567/orient-technologies-limited,c5ce80c3acbdf8c3c8c8b2918cc6cb05dce7a75a33317f8f23ae4f36ff1a2200
+452,Premier Energies Ltd.,pub_revenue_growth_asinh,0.9948317883981802,https://www.ipopremium.in/view/ipo/576/premier-energies-limited,5908f74221ba1bb7cf936b7e9920e9708411e2a39d8bb56364f5c3adfe202cd1
+452,Premier Energies Ltd.,quota_weighted_book_mult,6.703571248522065,https://www.ipopremium.in/view/ipo/576/premier-energies-limited,5908f74221ba1bb7cf936b7e9920e9708411e2a39d8bb56364f5c3adfe202cd1
+451,ECOS (India) Mobility & Hospitality Ltd.,quota_weighted_book_mult,9.555714285714284,https://www.ipopremium.in/view/ipo/579/ecos,25fec0d1c042f9f5a2b0868566ff723ed491f3b4397dad2ba6bc6be50d3ace62
+450,Baazar Style Retail Ltd.,quota_weighted_book_mult,4.624285714285715,https://www.ipopremium.in/view/ipo/582/bazaar-style-retail-limited,9787379c4f9e6e06c2b80ed5b9a9ba3fadb76a401dbe40baffa1057fa5fa1c8d
+449,Gala Precision Engineering Ltd.,ofs_ratio,0.19405144127297747,https://www.ipopremium.in/view/ipo/587/gala-precision-engineering-limited,3040712e2c6b06cf8f2edc999fe4c4b1a19fb90407325db19fa578dc69f1fd79
+449,Gala Precision Engineering Ltd.,quota_weighted_book_mult,52.09642857142857,https://www.ipopremium.in/view/ipo/587/gala-precision-engineering-limited,3040712e2c6b06cf8f2edc999fe4c4b1a19fb90407325db19fa578dc69f1fd79
+448,Shree Tirupati Balajee Agro Trading Co.Ltd.,ofs_ratio,0.27837573385518594,https://www.ipopremium.in/view/ipo/592/shree-tirupati-balajee-agro-trading-company-limited,8074d68cccd6577b53e8f59343613c1a4666120294385700225737b9c3412c01
+448,Shree Tirupati Balajee Agro Trading Co.Ltd.,lot_size_shares,180.0,https://www.ipopremium.in/view/ipo/592/shree-tirupati-balajee-agro-trading-company-limited,8074d68cccd6577b53e8f59343613c1a4666120294385700225737b9c3412c01
+448,Shree Tirupati Balajee Agro Trading Co.Ltd.,quota_weighted_book_mult,18.275714285714287,https://www.ipopremium.in/view/ipo/592/shree-tirupati-balajee-agro-trading-company-limited,8074d68cccd6577b53e8f59343613c1a4666120294385700225737b9c3412c01
+445,Bajaj Housing Finance Ltd.,ofs_ratio,0.4573170731707317,https://www.ipopremium.in/view/ipo/581/bajaj-housing-finance-limited,a97bb4d656cd95db7f6b1487211b088c96ea036290d6130cb0e5d1fc18fc5e89
+445,Bajaj Housing Finance Ltd.,quota_weighted_book_mult,8.080000020477813,https://www.ipopremium.in/view/ipo/581/bajaj-housing-finance-limited,a97bb4d656cd95db7f6b1487211b088c96ea036290d6130cb0e5d1fc18fc5e89
+446,Kross Ltd.,ofs_ratio,0.5,https://www.ipopremium.in/view/ipo/597/kross-limited,b259a8210197006f592c75909e5916383b6007b9b296d876a84bd138c484b914
+446,Kross Ltd.,quota_weighted_book_mult,2.7178570173224457,https://www.ipopremium.in/view/ipo/597/kross-limited,b259a8210197006f592c75909e5916383b6007b9b296d876a84bd138c484b914
+447,Tolins Tyres Ltd.,ofs_ratio,0.13043478260869565,https://www.ipopremium.in/view/ipo/595/tolins-tyres-limited,f64d7cd0fb84d496ba2b97839f6ebfbbb0efd7a87d153e3a17102d6c98d097dc
+447,Tolins Tyres Ltd.,quota_weighted_book_mult,5.525713731041796,https://www.ipopremium.in/view/ipo/595/tolins-tyres-limited,f64d7cd0fb84d496ba2b97839f6ebfbbb0efd7a87d153e3a17102d6c98d097dc
+444,P N Gadgil Jewellers Ltd.,ofs_ratio,0.22727272727272727,https://www.ipopremium.in/view/ipo/603/p-n-gadgil-jewellers-limited,79bd45bc78fa2cb807c9ad0fc37309a2eb7b3b2fb4c384f8cb1e97c868979fff
+444,P N Gadgil Jewellers Ltd.,quota_weighted_book_mult,7.013571575821889,https://www.ipopremium.in/view/ipo/603/p-n-gadgil-jewellers-limited,79bd45bc78fa2cb807c9ad0fc37309a2eb7b3b2fb4c384f8cb1e97c868979fff
+441,Western Carriers (India) Ltd.,quota_weighted_book_mult,14.547856269614877,https://www.ipopremium.in/view/ipo/607/western-carriers,b2f4a9f7dfe8d01c7d0da1c983107eb2b42d19407a2a11a87dd62f54b7af43d1
+442,Arkade Developers Ltd.,quota_weighted_book_mult,31.392142857142847,https://www.ipopremium.in/view/ipo/606/arkade-developers-limited,00c9a154a44712502e993c9eb745aacb2fc9be8f1cdbb646c50fea6dfaf2246b
+440,Manba Finance Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/623/manba-finance-limited,dd96ee289a80e2c5bbd93d98e757b9bdf236b4af459c044d46d785b46c8bc164
+440,Manba Finance Ltd.,quota_weighted_book_mult,73.45928571428571,https://www.ipopremium.in/view/ipo/623/manba-finance-limited,dd96ee289a80e2c5bbd93d98e757b9bdf236b4af459c044d46d785b46c8bc164
+438,Diffusion Engineers Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/632/diffusion-engineers-limited,5ef043ebc9e8fb1f596319bf49fbf30c2cc3fbf29d86ed1c0c4ef9da8367a9e4
+438,Diffusion Engineers Ltd.,quota_weighted_book_mult,27.363571428571426,https://www.ipopremium.in/view/ipo/632/diffusion-engineers-limited,5ef043ebc9e8fb1f596319bf49fbf30c2cc3fbf29d86ed1c0c4ef9da8367a9e4
+437,Garuda Construction & Engineering Ltd.,ofs_ratio,0.34172661870503596,https://www.ipopremium.in/view/ipo/642/garuda-construction-and-engineering-limited,7e8a19df6cdc4535412b623b06c5cef566a28e471552da99f047c507cb2dabbf
+434,Waaree Energies Ltd.,ofs_ratio,0.16694435188270576,https://www.ipopremium.in/view/ipo/647/waaree-energies-limited,85a7861505133e01961212fdc8faa5168c8e2e6f3fc886fe65cb3f7b9b8aa7d3
+434,Waaree Energies Ltd.,quota_weighted_book_mult,9.152143682271861,https://www.ipopremium.in/view/ipo/647/waaree-energies-limited,85a7861505133e01961212fdc8faa5168c8e2e6f3fc886fe65cb3f7b9b8aa7d3
+435,Deepak Builders & Engineers India Ltd.,ofs_ratio,0.1647150663544106,https://www.ipopremium.in/view/ipo/648/deepak-builders-engineers-india-limited,a8445185dbdfc23c97b65913aadde34bbd0a3b68425280b64aa741ede419de32
+435,Deepak Builders & Engineers India Ltd.,quota_weighted_book_mult,12.031354412555018,https://www.ipopremium.in/view/ipo/648/deepak-builders-engineers-india-limited,a8445185dbdfc23c97b65913aadde34bbd0a3b68425280b64aa741ede419de32
+431,Sagility India Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/656/sagility-india-limited,3ec2a1b88fea41db5974994e50119c006a3cb7bdd697afc5366ee59d9d8473dc
+431,Sagility India Ltd.,quota_weighted_book_mult,0.49818181707013287,https://www.ipopremium.in/view/ipo/656/sagility-india-limited,3ec2a1b88fea41db5974994e50119c006a3cb7bdd697afc5366ee59d9d8473dc
+428,Niva Bupa Health Insurance Co.Ltd.,lot_size_shares,200.0,https://www.ipopremium.in/view/ipo/658/niva-bupa-health-insurance-company-limited,72408576bb37362d43a553426be68bfcf858c041cb2ee2b4ea7853239fb7d549
+428,Niva Bupa Health Insurance Co.Ltd.,quota_weighted_book_mult,1.2836363636363637,https://www.ipopremium.in/view/ipo/658/niva-bupa-health-insurance-company-limited,72408576bb37362d43a553426be68bfcf858c041cb2ee2b4ea7853239fb7d549
+427,Zinka Logistics Solutions Ltd.,ofs_ratio,0.5066035924483351,https://www.ipopremium.in/view/ipo/663/zinka-logistics-solution-limited,ede0e8f83c22185774e99024e8aaee3ac2621cc6acf1025a0ec49d0561449769
+427,Zinka Logistics Solutions Ltd.,lot_size_shares,54.0,https://www.ipopremium.in/view/ipo/663/zinka-logistics-solution-limited,ede0e8f83c22185774e99024e8aaee3ac2621cc6acf1025a0ec49d0561449769
+427,Zinka Logistics Solutions Ltd.,pub_ipo_earnings_yield_pct,-3.318681318681319,https://www.ipopremium.in/view/ipo/663/zinka-logistics-solution-limited,ede0e8f83c22185774e99024e8aaee3ac2621cc6acf1025a0ec49d0561449769
+427,Zinka Logistics Solutions Ltd.,quota_weighted_book_mult,0.31454545166971065,https://www.ipopremium.in/view/ipo/663/zinka-logistics-solution-limited,ede0e8f83c22185774e99024e8aaee3ac2621cc6acf1025a0ec49d0561449769
+425,Enviro Infra Engineers Ltd.,ofs_ratio,0.11986893601529079,https://www.ipopremium.in/view/ipo/667/enviro-infra-engineers-limited,7157e1ae8cd760810666f6f3b61b1bb5b337c0a8b764732acf0d32835c8e6ff3
+425,Enviro Infra Engineers Ltd.,quota_weighted_book_mult,12.54785714285714,https://www.ipopremium.in/view/ipo/667/enviro-infra-engineers-limited,7157e1ae8cd760810666f6f3b61b1bb5b337c0a8b764732acf0d32835c8e6ff3
+424,Suraksha Diagnostic Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/674/suraksha-diagnostic-limited,c3e4b229d736c42e01b13828e300fa3bb42bcefc812a29e8bee71e8674de7653
+421,Vishal Mega Mart Ltd.,quota_weighted_book_mult,1.625714284852704,https://www.ipopremium.in/view/ipo/681/vishal-mega-mart-limited,abd1b01e081615be339030a9b1feda2e4ca2f227296a8ef0fb4aed743b2544de
+422,Sai Life Sciences Ltd.,quota_weighted_book_mult,1.252857204942066,https://www.ipopremium.in/view/ipo/682/sai-life-sciences-limited,bc9007848a36c2f9e2cc178aa7dc03d3e8256961bd35a208dcc49f5ba3bc21d2
+423,One Mobikwik Systems Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/683/one-mobikwik-systems-ltd,0d06eca814361ddb63479289b187c6823bc1c7fc5d57b2e91bd4ad7c8de828c5
+423,One Mobikwik Systems Ltd.,quota_weighted_book_mult,21.178182282966855,https://www.ipopremium.in/view/ipo/683/one-mobikwik-systems-ltd,0d06eca814361ddb63479289b187c6823bc1c7fc5d57b2e91bd4ad7c8de828c5
+419,International Gemmological Institute (India) Ltd.,ofs_ratio,0.650887573964497,https://www.ipopremium.in/view/ipo/685/international-gemmological-institute,42c81136a94e7de2bd67b5a9783a4ac1bd900836939696aae35d2b0d92f0375b
+419,International Gemmological Institute (India) Ltd.,pub_ipo_earnings_yield_pct,1.961630695443645,https://www.ipopremium.in/view/ipo/685/international-gemmological-institute,42c81136a94e7de2bd67b5a9783a4ac1bd900836939696aae35d2b0d92f0375b
+419,International Gemmological Institute (India) Ltd.,pub_profit_margin_pct,50.07704160246533,https://www.ipopremium.in/view/ipo/685/international-gemmological-institute,42c81136a94e7de2bd67b5a9783a4ac1bd900836939696aae35d2b0d92f0375b
+419,International Gemmological Institute (India) Ltd.,pub_return_on_assets_pct,53.89718076285241,https://www.ipopremium.in/view/ipo/685/international-gemmological-institute,42c81136a94e7de2bd67b5a9783a4ac1bd900836939696aae35d2b0d92f0375b
+419,International Gemmological Institute (India) Ltd.,pub_revenue_growth_asinh,0.2962488473632325,https://www.ipopremium.in/view/ipo/685/international-gemmological-institute,42c81136a94e7de2bd67b5a9783a4ac1bd900836939696aae35d2b0d92f0375b
+419,International Gemmological Institute (India) Ltd.,pub_annual_loss,0.0,https://www.ipopremium.in/view/ipo/685/international-gemmological-institute,42c81136a94e7de2bd67b5a9783a4ac1bd900836939696aae35d2b0d92f0375b
+419,International Gemmological Institute (India) Ltd.,quota_weighted_book_mult,0.7572727154722954,https://www.ipopremium.in/view/ipo/685/international-gemmological-institute,42c81136a94e7de2bd67b5a9783a4ac1bd900836939696aae35d2b0d92f0375b
+414,Transrail Lighting Ltd.,ofs_ratio,0.5231908071187612,https://www.ipopremium.in/view/ipo/690/transrail-lighting-limited,95a10c7b41647e6af08b301344b9f70a50b3b11f7c902c078618ec6c203109c7
+414,Transrail Lighting Ltd.,quota_weighted_book_mult,5.516428518793753,https://www.ipopremium.in/view/ipo/690/transrail-lighting-limited,95a10c7b41647e6af08b301344b9f70a50b3b11f7c902c078618ec6c203109c7
+415,Concord Enviro Systems Ltd.,ofs_ratio,0.650228285935297,https://www.ipopremium.in/view/ipo/696/concord-enviro-systems-limited,6f329c6c32733333ae0fea59a474c6d42beb120fcd326b84deb4be813a380e50
+416,Sanathan Textiles Ltd.,ofs_ratio,0.27272729395041123,https://www.ipopremium.in/view/ipo/697/sanathan-textiles-limited,d8a940dcc07621771ab3192223ef644786c2b981076c7bf9cec4d7bef3fbea96
+416,Sanathan Textiles Ltd.,quota_weighted_book_mult,1.5135713566293165,https://www.ipopremium.in/view/ipo/697/sanathan-textiles-limited,d8a940dcc07621771ab3192223ef644786c2b981076c7bf9cec4d7bef3fbea96
+417,DAM Capital Advisors Ltd.,quota_weighted_book_mult,6.989285046872306,https://www.ipopremium.in/view/ipo/692/dam-capital-advisors-limited,ec5e4c36b9d84d55d628485fe0574d14179ec3db3f4806418947988249e0642d
+418,Mamata Machinery Ltd.,quota_weighted_book_mult,37.92371148308251,https://www.ipopremium.in/view/ipo/693/mamata-machinery-limited,c0cbfe72be16d440a85ceef0502e4865aeac6d69ea160c85a3134f6554df73aa
+411,Ventive Hospitality Ltd.,pub_ipo_earnings_yield_pct,-0.8149300155520995,https://www.ipopremium.in/view/ipo/695/ventive-hospitality-limited,0e411844176c2d7f07d1a7d8a230b211a69ed0f3c6a3e2e2a9a9b9461fe731cb
+411,Ventive Hospitality Ltd.,quota_weighted_book_mult,1.3445454294208654,https://www.ipopremium.in/view/ipo/695/ventive-hospitality-limited,0e411844176c2d7f07d1a7d8a230b211a69ed0f3c6a3e2e2a9a9b9461fe731cb
+412,Carraro India Ltd.,quota_weighted_book_mult,0.23285711803037074,https://www.ipopremium.in/view/ipo/700/carraro-india-limited,bcb87b82074045e46eafce07bb091ef4006f0de00e3b254f6cbcbc7bdc21a8c4
+413,Senores Pharmaceuticals Ltd.,ofs_ratio,0.1410558141931937,https://www.ipopremium.in/view/ipo/699/senores-pharmaceuticals,d92b1cadcb0862f2d3322ce6ec8b01bf3542f7dd8e6cc2a4c0795c8d551b82a8
+413,Senores Pharmaceuticals Ltd.,quota_weighted_book_mult,14.514543355166726,https://www.ipopremium.in/view/ipo/699/senores-pharmaceuticals,d92b1cadcb0862f2d3322ce6ec8b01bf3542f7dd8e6cc2a4c0795c8d551b82a8
+502,KSH International Ltd.,ofs_ratio,0.4084506935608012,https://www.ipopremium.in/view/ipo/1091/ksh-international,751a3dabb057c6930872c8a068f971b11c0824518e6a370c1e3232661033c177
+504,Park Medi World Ltd.,ofs_ratio,0.16304347500708882,https://www.ipopremium.in/view/ipo/1081/park-medi-world-ltd,02676062dc70ee7f5be88a4b0629904148e3081674440462920b325c58351f66
+504,Park Medi World Ltd.,quota_weighted_book_mult,1.0399999808819884,https://www.ipopremium.in/view/ipo/1081/park-medi-world-ltd,02676062dc70ee7f5be88a4b0629904148e3081674440462920b325c58351f66
+505,Nephrocare Health Services Ltd.,ofs_ratio,0.5942759592283808,https://www.ipopremium.in/view/ipo/1079/nephrocare-health-services-ltd,6e1e317320e08d678ba508c0203fe87db2fc5b68c9dd19071d5ab4e3fd0d06ad
+505,Nephrocare Health Services Ltd.,pub_ipo_earnings_yield_pct,1.7999999999999998,https://www.ipopremium.in/view/ipo/1079/nephrocare-health-services-ltd,6e1e317320e08d678ba508c0203fe87db2fc5b68c9dd19071d5ab4e3fd0d06ad
+505,Nephrocare Health Services Ltd.,quota_weighted_book_mult,0.36715591985913987,https://www.ipopremium.in/view/ipo/1079/nephrocare-health-services-ltd,6e1e317320e08d678ba508c0203fe87db2fc5b68c9dd19071d5ab4e3fd0d06ad
+506,Corona Remedies Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1078/corona-remedies-ltd,7c4428247eb3c55ef83d0dc02fb7e12c215cc0ca67a053d5f60dd951da6f633c
+506,Corona Remedies Ltd.,quota_weighted_book_mult,9.978127185759076,https://www.ipopremium.in/view/ipo/1078/corona-remedies-ltd,7c4428247eb3c55ef83d0dc02fb7e12c215cc0ca67a053d5f60dd951da6f633c
+507,Wakefit Innovations Ltd.,ofs_ratio,0.7073618935675121,https://www.ipopremium.in/view/ipo/1074/wakefit-innovations-ltd,429a0d792998efd35961b4c7b5548365f9328a2c6ca2b0565423784df80d10de
+507,Wakefit Innovations Ltd.,pub_ipo_earnings_yield_pct,-0.5897435897435896,https://www.ipopremium.in/view/ipo/1074/wakefit-innovations-ltd,429a0d792998efd35961b4c7b5548365f9328a2c6ca2b0565423784df80d10de
+508,Vidya Wires Ltd.,ofs_ratio,0.08668249854354856,https://www.ipopremium.in/view/ipo/1069/vidya-wires-ltd,ab72be427234aef058db282cfafa192ab745c0f7306029b5cc5eccb396631533
+509,Aequs Ltd.,ofs_ratio,0.2731704107677342,https://www.ipopremium.in/view/ipo/1057/aequs-ltd,9dd18a5c56a8a6500506692cea10697d46b9867aa7e8425501354ae762b1d65d
+509,Aequs Ltd.,quota_weighted_book_mult,11.39820797516615,https://www.ipopremium.in/view/ipo/1057/aequs-ltd,9dd18a5c56a8a6500506692cea10697d46b9867aa7e8425501354ae762b1d65d
+510,Meesho Ltd.,ofs_ratio,0.2160412518412465,https://www.ipopremium.in/view/ipo/1055/meesho-ltd,94c6dbc13706e2fa7cd25fc89c9b62bc3dfd6105675c8fbf7159a66cf80a5c20
+511,Sudeep Pharma Ltd.,ofs_ratio,0.8938547315764191,https://www.ipopremium.in/view/ipo/1051/sudeep-pharma-ltd,ed55878f85a971283293cdc351a362deeea6a00f8b797c014c5be87d16f84988
+512,Excelsoft Technologies Ltd.,ofs_ratio,0.6399999942399999,https://www.ipopremium.in/view/ipo/1048/excelsoft-technologies-ltd,97e6b3c621d3e9dd460ca1b1ad13a29e435a6ac431581e87b0f395839c6160a4
+512,Excelsoft Technologies Ltd.,quota_weighted_book_mult,7.2828569897959206,https://www.ipopremium.in/view/ipo/1048/excelsoft-technologies-ltd,97e6b3c621d3e9dd460ca1b1ad13a29e435a6ac431581e87b0f395839c6160a4
+513,Capillary Technologies India Ltd.,ofs_ratio,0.6068382829325542,https://www.ipopremium.in/view/ipo/1045/capillary-technologies-india-ltd,908e17f0a8c416050c7d609f3d9b5649f5fa6fd70ebb789cb6d40a19266930fe
+513,Capillary Technologies India Ltd.,quota_weighted_book_mult,0.5181817458496274,https://www.ipopremium.in/view/ipo/1045/capillary-technologies-india-ltd,908e17f0a8c416050c7d609f3d9b5649f5fa6fd70ebb789cb6d40a19266930fe
+514,Fujiyama Power Systems Ltd.,ofs_ratio,0.27536232243226216,https://www.ipopremium.in/view/ipo/1047/fujiyama-power-systems-ltd,0c6788e7e8d8d395945321734e705f70cc606fdf79b9a8b258eb670e52570b30
+514,Fujiyama Power Systems Ltd.,quota_weighted_book_mult,0.4078571348287747,https://www.ipopremium.in/view/ipo/1047/fujiyama-power-systems-ltd,0c6788e7e8d8d395945321734e705f70cc606fdf79b9a8b258eb670e52570b30
+515,Tenneco Clean Air India Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1041/tenneco-clean-air-india-ltd,426eeb9026abcda582ecd3b3e5f8ac71674a5c3c17417566239c46288e5fccef
+516,PhysicsWallah Ltd.,ofs_ratio,0.10919540130879245,https://www.ipopremium.in/view/ipo/1027/physicswallah-ltd,2b77c3f83048c22aece21672f4ebafce9fe483b40f0bbf72014f5752c0adeaff
+516,PhysicsWallah Ltd.,quota_weighted_book_mult,0.13456620645219247,https://www.ipopremium.in/view/ipo/1027/physicswallah-ltd,2b77c3f83048c22aece21672f4ebafce9fe483b40f0bbf72014f5752c0adeaff
+517,Emmvee Photovoltaic Power Ltd.,ofs_ratio,0.2607372404392849,https://www.ipopremium.in/view/ipo/1044/emmvee-photovoltaic-power-ltd,e599a9de0c0b1f809432eb73697b270de9134f200c4553ad75d6a6a72e077e01
+518,Pine Labs Ltd.,ofs_ratio,0.46665408750330784,https://www.ipopremium.in/view/ipo/1039/pine-labs-ltd,2f5beb72f3b2972292b24e0ed38e31a16924f5bcb81fa27225bb1af89978bf32
+518,Pine Labs Ltd.,quota_weighted_book_mult,0.5418133231129263,https://www.ipopremium.in/view/ipo/1039/pine-labs-ltd,2f5beb72f3b2972292b24e0ed38e31a16924f5bcb81fa27225bb1af89978bf32
+520,Lenskart Solutions Ltd.,ofs_ratio,0.704589799583706,https://www.ipopremium.in/view/ipo/1028/lenskart-solutions-ltd,d0a5cca398f984290b921bcc5dd6bb1ccd27d413d6ebcb09a47aa17f37058f6c
+520,Lenskart Solutions Ltd.,quota_weighted_book_mult,2.0127585325348623,https://www.ipopremium.in/view/ipo/1028/lenskart-solutions-ltd,d0a5cca398f984290b921bcc5dd6bb1ccd27d413d6ebcb09a47aa17f37058f6c
+521,Studds Accessories Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1035/studds-accessories-ltd,f7cdb4e44aa5182c44ba4f11c029f0ee96543535c1800a3e8234812e89ebd801
+522,Orkla India Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1034/orkla-india-ltd,cd752d1fae0744c0fcef0f0d97a02f7076624e5aa7a5e8aca5411f5b782e155e
+522,Orkla India Ltd.,quota_weighted_book_mult,2.7107142235406565,https://www.ipopremium.in/view/ipo/1034/orkla-india-ltd,cd752d1fae0744c0fcef0f0d97a02f7076624e5aa7a5e8aca5411f5b782e155e
+523,Midwest Ltd.,ofs_ratio,0.4456762655198357,https://www.ipopremium.in/view/ipo/1026/midwest-ltd,8d2acb30bb31c3526babb1564fe0a7001e1ed5a90d86b16d4107ca1c651c220a
+523,Midwest Ltd.,quota_weighted_book_mult,12.456046886409226,https://www.ipopremium.in/view/ipo/1026/midwest-ltd,8d2acb30bb31c3526babb1564fe0a7001e1ed5a90d86b16d4107ca1c651c220a
+525,Rubicon Research Ltd.,ofs_ratio,0.6370233264934491,https://www.ipopremium.in/view/ipo/1019/rubicon-research-ltd,d9408f7055c893ce7d39516e998fe12de3a092dd930df6a741b22f03edb70136
+525,Rubicon Research Ltd.,quota_weighted_book_mult,2.4991230823687918,https://www.ipopremium.in/view/ipo/1019/rubicon-research-ltd,d9408f7055c893ce7d39516e998fe12de3a092dd930df6a741b22f03edb70136
+528,LG Electronics India Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1010/lg-electronics-india-ltd,57396f31912c39d34bac9e56b43f8c5beefacf8f624f5ea8e8688b0d568f8ed3
+528,LG Electronics India Ltd.,quota_weighted_book_mult,3.3185714486973605,https://www.ipopremium.in/view/ipo/1010/lg-electronics-india-ltd,57396f31912c39d34bac9e56b43f8c5beefacf8f624f5ea8e8688b0d568f8ed3
+531,Advance Agrolife Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/992/advance-agrolife-ltd,6e2dd9b1227df49a06119d68d44de84b6070daddf88f50beb6292cb75f90d60e
+531,Advance Agrolife Ltd.,quota_weighted_book_mult,1.8714044065037223,https://www.ipopremium.in/view/ipo/992/advance-agrolife-ltd,6e2dd9b1227df49a06119d68d44de84b6070daddf88f50beb6292cb75f90d60e
+532,Om Freight Forwarders Ltd.,ofs_ratio,0.8002142145858853,https://www.ipopremium.in/view/ipo/993/om-freight-forwarders-ltd,df291caca3a8262bfc9d8d081df6b61a86ae9eb785547107342598e387c70754
+532,Om Freight Forwarders Ltd.,quota_weighted_book_mult,2.1500612545929845,https://www.ipopremium.in/view/ipo/993/om-freight-forwarders-ltd,df291caca3a8262bfc9d8d081df6b61a86ae9eb785547107342598e387c70754
+533,Glottis Ltd.,ofs_ratio,0.4788337332634529,https://www.ipopremium.in/view/ipo/999/glottis-ltd,3bb8393768beb903c4557c14fa79bfe0948de0802b5b81dcfc3348855d6e2bc2
+536,Trualt Bioenergy Ltd.,ofs_ratio,0.10637689914530299,https://www.ipopremium.in/view/ipo/987/trualt-bioenergy-ltd,b4e8ca2b9b08985ff003bac81186bf90954da6099ccc0b3f80646c862547f976
+537,Jinkushal Industries Ltd.,ofs_ratio,0.09995762300474981,https://www.ipopremium.in/view/ipo/920/jinkushal-industries-ltd,201389ce25b6ed865c3b9866fe034b8d3ed17481f4f2a5e1e5ef004fb0cba17e
+538,Epack Prefab Technologies Ltd.,ofs_ratio,0.4047619105442178,https://www.ipopremium.in/view/ipo/912/epack-prefab-technologies-ltd,6c1cf3f5dd129b2158b4322394aa3e8c9fb9b9ed66cdefb7f10c7b719d35a1d8
+539,BMW Ventures Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/985/bmw-ventures-ltd,f65fa26a12895dcc4f6c159e76bbc6c84baa7e4725be0b9478f1e650aa87dccb
+540,Jain Resource Recycling Ltd.,ofs_ratio,0.6,https://www.ipopremium.in/view/ipo/981/jain-resource-recycling-ltd,16588c2cfa52f30169525fb9c90f923e6cadb5c6914ec3ad9aa5e28a41abd9bb
+541,Anand Rathi Share & Stock Brokers Ltd.,quota_weighted_book_mult,1.1854370152982427,https://www.ipopremium.in/view/ipo/967/anand-rathi-share-stock-brokers-ltd,482aa71e20b37bf1e9d460c9cba92e20eb201a71747beebba3bc2b3541840c2e
+542,Seshaasai Technologies Ltd.,ofs_ratio,0.4096440343711188,https://www.ipopremium.in/view/ipo/974/seshaasai-technologies-ltd,934b372b4eec97737d0127d306488669fbdc8d26a3dcccd29afcdc5509a7f2e5
+544,Solarworld Energy Solutions Ltd.,ofs_ratio,0.10204081632653061,https://www.ipopremium.in/view/ipo/976/solarworld-energy-solutions-ltd,16759c0d3913a4e948121995da627d501c2ba8c106e66e286ced7badbb904eca
+545,Atlanta Electricals Ltd.,ofs_ratio,0.4180476734473944,https://www.ipopremium.in/view/ipo/968/atlanta-electricals-ltd,cee3ebf3963981e060358c57516b943e0532978b0e9f9a69984e79f98e98c2a1
+545,Atlanta Electricals Ltd.,quota_weighted_book_mult,2.40386819744151,https://www.ipopremium.in/view/ipo/968/atlanta-electricals-ltd,cee3ebf3963981e060358c57516b943e0532978b0e9f9a69984e79f98e98c2a1
+546,Ganesh Consumer Products Ltd.,ofs_ratio,0.6819947855950093,https://www.ipopremium.in/view/ipo/966/ganesh-consumer-products-ltd,71dcec9d4bb862c9d0053ec92a95e1bad6ee31fc9cbca6ca6fa1e486d1a80a92
+546,Ganesh Consumer Products Ltd.,quota_weighted_book_mult,0.40927701130851846,https://www.ipopremium.in/view/ipo/966/ganesh-consumer-products-ltd,71dcec9d4bb862c9d0053ec92a95e1bad6ee31fc9cbca6ca6fa1e486d1a80a92
+547,GK Energy Ltd.,ofs_ratio,0.138413819156611,https://www.ipopremium.in/view/ipo/963/gk-energy-ltd,c4c83dffcb8a2df806f40661e5525707f33bd600606bfdce169566ffff9c1183
+548,Saatvik Green Energy Ltd.,ofs_ratio,0.2222222222222222,https://www.ipopremium.in/view/ipo/960/saatvik-green-energy-ltd,8e32f8c20b47031a37eb13837abc28f7921d1a0f558e8bd4372255352f1a8e24
+548,Saatvik Green Energy Ltd.,quota_weighted_book_mult,1.1386839504994344,https://www.ipopremium.in/view/ipo/960/saatvik-green-energy-ltd,8e32f8c20b47031a37eb13837abc28f7921d1a0f558e8bd4372255352f1a8e24
+549,Ivalue Infosolutions Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/959/ivalue-infosolutions-ltd,ca90c17d9eecad3d5ed18f26672b2ae0d1a720929c3b610493d333bcd350c104
+550,VMS TMT Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/957/vms-tmt-ltd,860dc0cd9dc1630ad213bf0d68584fb20d6194e6e6023d104729691dcd72bfd3
+552,Shringar House of Mangalsutra Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/945/shringar-house-of-mangalsutra-ltd,d476e0dde2d3192fbe7be5503dced525e35d4327e0103a31ec1dd8b7cb630b1b
+552,Shringar House of Mangalsutra Ltd.,quota_weighted_book_mult,8.244285714285715,https://www.ipopremium.in/view/ipo/945/shringar-house-of-mangalsutra-ltd,d476e0dde2d3192fbe7be5503dced525e35d4327e0103a31ec1dd8b7cb630b1b
+553,Dev Accelerator Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/950/dev-accelerator-ltd,53aa6dfe73f5e57052681b7b0662fb62d2e27767dcc5027e5f5d44cc9ea38ef2
+553,Dev Accelerator Ltd.,quota_weighted_book_mult,16.340000000000007,https://www.ipopremium.in/view/ipo/950/dev-accelerator-ltd,53aa6dfe73f5e57052681b7b0662fb62d2e27767dcc5027e5f5d44cc9ea38ef2
+555,Amanta Healthcare Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/933/amanta-healthcare-ltd,4bd56192cead4c286dec4fd77feb8f6c0cfe28d94f79f0ce86c962b1ff630995
+557,Vikran Engineering Ltd.,quota_weighted_book_mult,5.2385712989748345,https://www.ipopremium.in/view/ipo/922/vikran-engineering-ltd,7726303f1c09e9db63454c1a26fa28f23885282dea6f85dbe2d0b3e459ae1f5b
+558,Mangal Electrical Industries Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/918/mangal-electrical-industries-limited,53d475a64885f0098261aa6a491a0fc0b802511a4612a13c3544a97e1de8b532
+559,Shreeji Shipping Global Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/909/shreeji-shipping-global-ltd,7af22bd846ad741904ebdae4a75c15e34f675bb4d6c66f061bdd5684b31ac0b6
+560,Gem Aromatics Ltd.,ofs_ratio,0.6121883826090965,https://www.ipopremium.in/view/ipo/915/gem-aromatics-ltd,012121dac037f8ec6c06e935ae6b8cd8ea951beac2c00b1d473c0437357bcefc
+561,Vikram Solar Ltd.,ofs_ratio,0.27862741183145473,https://www.ipopremium.in/view/ipo/817/vikram-solar-limited,bffc86733c63697656661ea0560645cf74dab0a0285b0297712c1de151cd28f1
+561,Vikram Solar Ltd.,quota_weighted_book_mult,4.554285714285716,https://www.ipopremium.in/view/ipo/817/vikram-solar-limited,bffc86733c63697656661ea0560645cf74dab0a0285b0297712c1de151cd28f1
+562,Patel Retail Ltd.,ofs_ratio,0.10525210084033614,https://www.ipopremium.in/view/ipo/910/patel-retail-ltd,307c882d6117f8760d1bfc88175dbd95a24fa8fa53ab05006292c92322e849ee
+562,Patel Retail Ltd.,quota_weighted_book_mult,19.57013253075324,https://www.ipopremium.in/view/ipo/910/patel-retail-ltd,307c882d6117f8760d1bfc88175dbd95a24fa8fa53ab05006292c92322e849ee
+563,Regaal Resources Ltd.,ofs_ratio,0.3137308757748064,https://www.ipopremium.in/view/ipo/908/regaal-resources-ltd,0d41e7ae5821dd9672c6823d1e5ff90180a62112719f9338c9f3b38796a6f90d
+566,All Time Plastics Ltd.,ofs_ratio,0.3010535868495227,https://www.ipopremium.in/view/ipo/900/all-time-plastics-ltd,98eb959d4c434872b1cd3108a3ed514ae60b7405c4dd6e46c99f0a43fe422f18
+566,All Time Plastics Ltd.,quota_weighted_book_mult,1.0078570936445188,https://www.ipopremium.in/view/ipo/900/all-time-plastics-ltd,98eb959d4c434872b1cd3108a3ed514ae60b7405c4dd6e46c99f0a43fe422f18
+567,JSW Cement Ltd.,ofs_ratio,0.5555555569166667,https://www.ipopremium.in/view/ipo/816/jsw-cement-limited,506b27806bc7982d9e3f49d227c1431a46995e1837805c6998ee26b466ed76d0
+568,Highway Infrastructure Ltd.,ofs_ratio,0.2498461480804735,https://www.ipopremium.in/view/ipo/890/highway-infrastructure-ltd,2065e44397abc44b240420a9ee7aea03c93570811d96db9091b9a633be7c1597
+568,Highway Infrastructure Ltd.,quota_weighted_book_mult,72.6609695241964,https://www.ipopremium.in/view/ipo/890/highway-infrastructure-ltd,2065e44397abc44b240420a9ee7aea03c93570811d96db9091b9a633be7c1597
+569,Sri Lotus Developers & Realty Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/869/sri-lotus-developers-realty-ltd,afc61a04bf64b8db30c1cac9039a62b0d175e7a988f2d5c9ecf37f481ae10979
+569,Sri Lotus Developers & Realty Ltd.,quota_weighted_book_mult,10.352857125923533,https://www.ipopremium.in/view/ipo/869/sri-lotus-developers-realty-ltd,afc61a04bf64b8db30c1cac9039a62b0d175e7a988f2d5c9ecf37f481ae10979
+570,M&B Engineering Ltd.,ofs_ratio,0.5769230883136094,https://www.ipopremium.in/view/ipo/888/mb-engineering-ltd,c600b4322ebbecfb1879e09154824ff4db29bfa256136541d8c83819dd0f7c10
+570,M&B Engineering Ltd.,quota_weighted_book_mult,2.9345453786335596,https://www.ipopremium.in/view/ipo/888/mb-engineering-ltd,c600b4322ebbecfb1879e09154824ff4db29bfa256136541d8c83819dd0f7c10
+572,Laxmi India Finance Ltd.,ofs_ratio,0.35039470998207517,https://www.ipopremium.in/view/ipo/880/laxmi-india-finance-ltd,4a6a9a1497004dbfd7ff634ee2ee448a7f97c991ba89f17efc374ec58a1fe609
+572,Laxmi India Finance Ltd.,quota_weighted_book_mult,0.8800000008967093,https://www.ipopremium.in/view/ipo/880/laxmi-india-finance-ltd,4a6a9a1497004dbfd7ff634ee2ee448a7f97c991ba89f17efc374ec58a1fe609
+573,Aditya Infotech Ltd.,ofs_ratio,0.6153846113905322,https://www.ipopremium.in/view/ipo/885/aditya-infotech-ltd,d14dea939e9a62a3acabb02085f0042f4c0f64e188baf14282d5eea9acbbf958
+573,Aditya Infotech Ltd.,quota_weighted_book_mult,6.909090492383848,https://www.ipopremium.in/view/ipo/885/aditya-infotech-ltd,d14dea939e9a62a3acabb02085f0042f4c0f64e188baf14282d5eea9acbbf958
+575,Shanti Gold International Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/875/shanti-gold-international-ltd,5ae90b4aad2a18ccb30d0b975f9a7d56e97f7d302a95d44021ee75e5369a38ca
+576,Brigade Hotel Ventures Ltd.,quota_weighted_book_mult,1.1563636363636363,https://www.ipopremium.in/view/ipo/866/brigade-hotel-ventures-limited,f88d8d2a00df981a8282db955e6de80b18f22886e02650b866eea185c4052f87
+577,Indiqube Spaces Ltd.,ofs_ratio,0.07142857142857142,https://www.ipopremium.in/view/ipo/865/indiqube-spaces-limited,99a95b1293e0377809f383df830cd0af85168f17b7366d929a45d441ebc6e7df
+577,Indiqube Spaces Ltd.,pub_ipo_earnings_yield_pct,-3.1645569620253164,https://www.ipopremium.in/view/ipo/865/indiqube-spaces-limited,99a95b1293e0377809f383df830cd0af85168f17b7366d929a45d441ebc6e7df
+577,Indiqube Spaces Ltd.,quota_weighted_book_mult,2.5309090010650896,https://www.ipopremium.in/view/ipo/865/indiqube-spaces-limited,99a95b1293e0377809f383df830cd0af85168f17b7366d929a45d441ebc6e7df
+578,GNG Electronics Ltd.,quota_weighted_book_mult,26.862855612636725,https://www.ipopremium.in/view/ipo/867/gng-electronics-limited,8b774f0be70eb8daf70341bc856178807a64a67bd71218ba1e01dedb3b864ffc
+579,Anthem Biosciences Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/853/anthem-biosciences-limited,58428df2098bec6535e670e44e7af1e9c1e24657cd1f4f5526499e2a0b95acc2
+579,Anthem Biosciences Ltd.,quota_weighted_book_mult,3.291428537836678,https://www.ipopremium.in/view/ipo/853/anthem-biosciences-limited,58428df2098bec6535e670e44e7af1e9c1e24657cd1f4f5526499e2a0b95acc2
+580,Smartworks Coworking Spaces Ltd.,pub_ipo_earnings_yield_pct,-1.5184275184275184,https://www.ipopremium.in/view/ipo/862/smartworks-coworking-spaces-limited,8d5fabf9ac36a9f8179094eb075f2298f9814879483c5fb34665a0481d59a80d
+580,Smartworks Coworking Spaces Ltd.,quota_weighted_book_mult,1.1535713899687048,https://www.ipopremium.in/view/ipo/862/smartworks-coworking-spaces-limited,8d5fabf9ac36a9f8179094eb075f2298f9814879483c5fb34665a0481d59a80d
+581,Travel Food Services Ltd.,quota_weighted_book_mult,0.24285714713099707,https://www.ipopremium.in/view/ipo/855/travel-food-services-limited,03b8a318efddca9f1b045e2dc6e008d806eb0d3348846e02b0723c04ec7c881c
+583,Indogulf Cropsciences Ltd.,ofs_ratio,0.19999997779999876,https://www.ipopremium.in/view/ipo/840/indogulf-cropsciences-limited,260745f4512a5345dbed92f93a5400aee97e3258086e141b211f5b258b918412
+584,Sambhv Steel Tubes Ltd.,ofs_ratio,0.18518518518518517,https://www.ipopremium.in/view/ipo/824/sambhv-steel-tubes-limited,43fea0ba236d087677e1c15baba3151e562bee8473842c0b6a4bc766b1ccf2f2
+584,Sambhv Steel Tubes Ltd.,quota_weighted_book_mult,1.7557143106840063,https://www.ipopremium.in/view/ipo/824/sambhv-steel-tubes-limited,43fea0ba236d087677e1c15baba3151e562bee8473842c0b6a4bc766b1ccf2f2
+586,Globe Civil Projects Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/821/globe-civil-projects-limited,6c40c8787fe77986449c589040152b1550a925f42bd5ba0f4970e492c5e5e7e0
+588,Kalpataru Ltd.,pub_ipo_earnings_yield_pct,0.1497584541062802,https://www.ipopremium.in/view/ipo/815/kalpataru-limited,ebce1a94c799080b9737479b0c8d45fd4b5e161afcff315f2252b37ad67ddc44
+588,Kalpataru Ltd.,quota_weighted_book_mult,0.34818182670238973,https://www.ipopremium.in/view/ipo/815/kalpataru-limited,ebce1a94c799080b9737479b0c8d45fd4b5e161afcff315f2252b37ad67ddc44
+591,Scoda Tubes Ltd.,quota_weighted_book_mult,327.8795947613501,https://www.ipopremium.in/view/ipo/794/scoda-tubes-limited,658698efcc995121f59aa01298ab31788faac89aeb64c248658b9f1cd447cb0a
+592,Prostarm Info Systems Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/793/prostarm-info-systems-limited,7be40162cd39c3de97572078e611ab870576338fa82aaa7e992026ceb3a426a1
+596,Borana Weaves Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/784/borana-weaves-limited,ccbca1114a0f833294ebcbcd85ea808dc738ba515b607d5d6cc998d358298592
+597,Ather Energy Ltd.,ofs_ratio,0.11901662663213408,https://www.ipopremium.in/view/ipo/773/ather-energy-limited,2a103025731551c1327b8a56fd1663b284946fa0023689ca5f2a4b2e44e92200
+597,Ather Energy Ltd.,pub_ipo_earnings_yield_pct,-7.165109034267913,https://www.ipopremium.in/view/ipo/773/ather-energy-limited,2a103025731551c1327b8a56fd1663b284946fa0023689ca5f2a4b2e44e92200
+597,Ather Energy Ltd.,quota_weighted_book_mult,0.2827272835424932,https://www.ipopremium.in/view/ipo/773/ather-energy-limited,2a103025731551c1327b8a56fd1663b284946fa0023689ca5f2a4b2e44e92200
+598,Quality Power Electrical Equipments Ltd.,ofs_ratio,0.7379760102480494,https://www.ipopremium.in/view/ipo/745/quality-power-electrical-equipments-limited,dd430de59b9eb40a7d2064bde0ca068cb8a6280ebd340f08429cf5bff38f9e71
+599,Hexaware Technologies Ltd.,pub_ipo_earnings_yield_pct,2.3177966101694913,https://www.ipopremium.in/view/ipo/742/hexaware-technologies-limited,71c9d219c0cd4018f5586ea4455eea800221483ce8a30e196ea2fe4d80ea43b2
+599,Hexaware Technologies Ltd.,pub_profit_margin_pct,9.606314370969294,https://www.ipopremium.in/view/ipo/742/hexaware-technologies-limited,71c9d219c0cd4018f5586ea4455eea800221483ce8a30e196ea2fe4d80ea43b2
+599,Hexaware Technologies Ltd.,pub_return_on_assets_pct,13.857261871702304,https://www.ipopremium.in/view/ipo/742/hexaware-technologies-limited,71c9d219c0cd4018f5586ea4455eea800221483ce8a30e196ea2fe4d80ea43b2
+599,Hexaware Technologies Ltd.,pub_revenue_growth_asinh,0.10748033130397439,https://www.ipopremium.in/view/ipo/742/hexaware-technologies-limited,71c9d219c0cd4018f5586ea4455eea800221483ce8a30e196ea2fe4d80ea43b2
+599,Hexaware Technologies Ltd.,pub_annual_loss,0.0,https://www.ipopremium.in/view/ipo/742/hexaware-technologies-limited,71c9d219c0cd4018f5586ea4455eea800221483ce8a30e196ea2fe4d80ea43b2
+599,Hexaware Technologies Ltd.,quota_weighted_book_mult,0.14785714611066592,https://www.ipopremium.in/view/ipo/742/hexaware-technologies-limited,71c9d219c0cd4018f5586ea4455eea800221483ce8a30e196ea2fe4d80ea43b2
+600,Ajax Engineering Ltd.,quota_weighted_book_mult,0.48,https://www.ipopremium.in/view/ipo/739/ajax-engineering-limited,41302d72e81c1c29fe69e257494b0ba8767f12e043643210f2cdd6d610cc8ece
+602,Denta Water & Infra Solutions Ltd.,lot_size_shares,50.0,https://www.ipopremium.in/view/ipo/725/denta-water-and-infra-solutions-limited,fc3a32e2c27fed1e8ab1708ebbd71fa011139001693930267cfe0999e985fbe9
+603,Stallion India Fluorochemicals Ltd.,ofs_ratio,0.1941338681373778,https://www.ipopremium.in/view/ipo/723/stallion-india-fluorochemicals-limited,fbacc67ac33eabbba79e44dee93e1657652eba2546b0a2001cd41ce00b5cef0a
+603,Stallion India Fluorochemicals Ltd.,lot_size_shares,165.0,https://www.ipopremium.in/view/ipo/723/stallion-india-fluorochemicals-limited,fbacc67ac33eabbba79e44dee93e1657652eba2546b0a2001cd41ce00b5cef0a
+604,Laxmi Dental Ltd.,ofs_ratio,0.8023092570839183,https://www.ipopremium.in/view/ipo/718/laxmi-dental-limited,a934651b73f91c09168a4b7443f5bc9fbc2fbffdb27c58a1a0eef0b3f18cc63a
+607,Standard Glass Lining Technology Ltd.,ofs_ratio,0.48786733325204246,https://www.ipopremium.in/view/ipo/711/standard-glass-lining-technology-limited,2052fb3ec606552002cb99c7625e8fe1b4d5b34b8e6b88ab3f8668dafa95fd66
+607,Standard Glass Lining Technology Ltd.,lot_size_shares,107.0,https://www.ipopremium.in/view/ipo/711/standard-glass-lining-technology-limited,2052fb3ec606552002cb99c7625e8fe1b4d5b34b8e6b88ab3f8668dafa95fd66
+607,Standard Glass Lining Technology Ltd.,quota_weighted_book_mult,34.525711887267946,https://www.ipopremium.in/view/ipo/711/standard-glass-lining-technology-limited,2052fb3ec606552002cb99c7625e8fe1b4d5b34b8e6b88ab3f8668dafa95fd66
+608,Indo Farm Equipment Ltd.,ofs_ratio,0.2892561983471074,https://www.ipopremium.in/view/ipo/691/indo-farm-equipment-limited,d30771f8a2fe8cb3831732b1981ac9d7627443fef88e038249e2c15282182bca
+610,Veegaland Developers Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1326/veegaland-developers-ltd,1abc5b54bc1bf8fd3ddb879404cb387466f75be8e0a8bb36ac2047077a7c91a6
+611,LCC Projects Ltd.,ofs_ratio,0.39598258182328977,https://www.ipopremium.in/view/ipo/1333/lcc-projects-ltd,de372c0f6a99d7b4884af6794400e909138423c0cfeaec7ce97d059e43db6133
+612,Karamtara Engineering Ltd.,ofs_ratio,0.22857138378448863,https://www.ipopremium.in/view/ipo/1107/karamtara-engineering-ltd,452dd404a00a152046d045e942eb5e87805ac0c9ff1d55b5a750cd8c83cda178
+613,Rentomojo Ltd.,ofs_ratio,0.8804590988243387,https://www.ipopremium.in/view/ipo/1327/rentomojo-ltd,68add1b4da58af9637a6317e3f412fb9d00766640ae5f6d84181704ca0922bda
+613,Rentomojo Ltd.,quota_weighted_book_mult,4.7092854448528545,https://www.ipopremium.in/view/ipo/1327/rentomojo-ltd,68add1b4da58af9637a6317e3f412fb9d00766640ae5f6d84181704ca0922bda
+615,Manipal Payment & Identity Solutions Ltd.,ofs_ratio,0.6024844720496895,https://www.ipopremium.in/view/ipo/1328/manipal-payment-identity-solutions-ltd,6ecb196906449f91d7f679d6b76a3cb29bd41a97036b70fb8de49e37c45123b3
+616,Steamhouse India Ltd.,ofs_ratio,0.1473429951690821,https://www.ipopremium.in/view/ipo/1337/steamhouse-india-ltd,13497289f1f7531666cc37980dd19495130a20da454546ea674a5413bfd05a63
+617,Glass Wall Systems (India) Ltd.,ofs_ratio,0.859776971279762,https://www.ipopremium.in/view/ipo/1334/glass-wall-systems,4f8edee03cd09393a270b1848ddc80bf9b6335b05ab7a25cd652f40f007dc9b3
+618,Prasol Chemicals Ltd.,ofs_ratio,0.8399998539837492,https://www.ipopremium.in/view/ipo/1336/prasol-chemicals-ltd,cae80379db78cea33bc0201f9cf915a7494c7acc47f1ac721dacbbbcbadebced
+618,Prasol Chemicals Ltd.,pub_ipo_earnings_yield_pct,2.1198224852071004,https://www.ipopremium.in/view/ipo/1336/prasol-chemicals-ltd,cae80379db78cea33bc0201f9cf915a7494c7acc47f1ac721dacbbbcbadebced
+620,Pranav Constructions Ltd.,ofs_ratio,0.1009059312859666,https://www.ipopremium.in/view/ipo/1329/pranav-constructions-ltd,23dbff01794d91d89c1057dd66b603ddb1aeafe12f199281aa2201599b9ff5fe
+622,Deepa Jewellers Ltd.,pub_ipo_earnings_yield_pct,7.220338983050848,https://www.ipopremium.in/view/ipo/1321/deepa-jewellers,ad6b06c21e7229e1bd364a41507b75011dfff73a8e17f879feb7428fe15b5e6c
+623,Purple Style Labs Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1319/purple-style-labs-ltd,4f6d0e619a5ff8534bce15a9713ed8f4ecbce968a0cd29e1551fa1ce5679b8e5
+623,Purple Style Labs Ltd.,pub_ipo_earnings_yield_pct,-7.274782608695652,https://www.ipopremium.in/view/ipo/1319/purple-style-labs-ltd,4f6d0e619a5ff8534bce15a9713ed8f4ecbce968a0cd29e1551fa1ce5679b8e5
+624,ESDS Software Solution Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1318/esds-software-solution-ltd,120a5ec9d63cdafea822f3e4c12db878296cae7422b59239a4fbafe8904eced2
+625,Priority Jewels Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1315/priority-jewels-ltd,b06e443dea5936f093405fbccefd9db2dc60e75df02477068f3bbc1bce54c502
+626,Lumino Industries Ltd.,ofs_ratio,0.2857142723265302,https://www.ipopremium.in/view/ipo/1305/lumino-industries-ltd,93fed04447397b6f538486c297a69179c98805ac6528ac32d83e6b0aecc00fe4
+626,Lumino Industries Ltd.,quota_weighted_book_mult,5.189999999999999,https://www.ipopremium.in/view/ipo/1305/lumino-industries-ltd,93fed04447397b6f538486c297a69179c98805ac6528ac32d83e6b0aecc00fe4
+627,Annu Projects Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1312/annu-projects-ltd,d33460222d257b2cb6425c3917cfa355904cee9bc99a20d03f64fb16634445c2
+628,Symbiotec Pharmalab Ltd.,ofs_ratio,0.9144707524978858,https://www.ipopremium.in/view/ipo/1302/symbiotec-pharmalab-ltd,4dbcc9e0fa42e9a90596e9bc1d33347a5ce4538eca172dc85f29cf7de8e22d9d
+628,Symbiotec Pharmalab Ltd.,quota_weighted_book_mult,5.5935708878763215,https://www.ipopremium.in/view/ipo/1302/symbiotec-pharmalab-ltd,4dbcc9e0fa42e9a90596e9bc1d33347a5ce4538eca172dc85f29cf7de8e22d9d
+629,Skyways Air Services Ltd.,ofs_ratio,0.31571856145635024,https://www.ipopremium.in/view/ipo/1164/skyways-air-services-ltd,51cbbc052f59ffa24bcd9a76b1a539c0c91be4be3e0f9f5b36b35996e7d8ff14
+629,Skyways Air Services Ltd.,pub_log_ipo_price_book,1.7532671889620715,https://www.ipopremium.in/view/ipo/1164/skyways-air-services-ltd,51cbbc052f59ffa24bcd9a76b1a539c0c91be4be3e0f9f5b36b35996e7d8ff14
+630,Hy-Tech Engineers Ltd.,ofs_ratio,0.55795924155856,https://www.ipopremium.in/view/ipo/1311/hy-tech-engineers-ltd,57ff70ba9a173758662fe646c8f9631206f0abda965fef0dd48e8900f69965e6
+631,Augmont Enterprises Ltd.,ofs_ratio,0.2484847234468063,https://www.ipopremium.in/view/ipo/1303/augmont-enterprises-ltd,5c28178bfcdee682ce66f51a728e5a592efd358a6c894eb64d25c0e1bbb67af6
+631,Augmont Enterprises Ltd.,quota_weighted_book_mult,15.241426462012502,https://www.ipopremium.in/view/ipo/1303/augmont-enterprises-ltd,5c28178bfcdee682ce66f51a728e5a592efd358a6c894eb64d25c0e1bbb67af6
+632,Tempsens Instruments (India) Ltd.,ofs_ratio,0.8538461407100594,https://www.ipopremium.in/view/ipo/1304/tempsens-instruments,ae097cac53d4e3185c463925eda2e2248551b51f1b8eccdb9d5ddd0e82c80a3a
+632,Tempsens Instruments (India) Ltd.,quota_weighted_book_mult,21.638569474958075,https://www.ipopremium.in/view/ipo/1304/tempsens-instruments,ae097cac53d4e3185c463925eda2e2248551b51f1b8eccdb9d5ddd0e82c80a3a
+633,Gaja Alternative Asset Management Ltd.,ofs_ratio,0.18181818181818182,https://www.ipopremium.in/view/ipo/1121/gaja-alternative-asset-management-ltd,051f67290cb7a5c1b6ce88c692a441e773481c54a9ce7bf531def4ecd7635b41
+634,Sunshine Pictures Ltd.,ofs_ratio,0.3875313234040104,https://www.ipopremium.in/view/ipo/1288/sunshine-pictures-ltd,c7e3cb49ced5b56a44dd48dc431b76ad7f975fd4916b110e37e5a1623313d033
+636,Lalithaa Jewellery Mart Ltd.,ofs_ratio,0.294009311807748,https://www.ipopremium.in/view/ipo/1289/lalithaa-jewellery-mart-ltd,705c8bcd01a7575862a84259bbe9cb9ab364c9d2be2d823859856f150dceeea9
+636,Lalithaa Jewellery Mart Ltd.,quota_weighted_book_mult,3.2492856914629664,https://www.ipopremium.in/view/ipo/1289/lalithaa-jewellery-mart-ltd,705c8bcd01a7575862a84259bbe9cb9ab364c9d2be2d823859856f150dceeea9
+637,Horizon Industrial Parks Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1301/horizon-industrial-parks-ltd,5bd0e8c9657307afde7c1d25d3c953bc68109bda4a0416d11468cdd71ed912ec
+637,Horizon Industrial Parks Ltd.,pub_ipo_earnings_yield_pct,-1.9666666666666666,https://www.ipopremium.in/view/ipo/1301/horizon-industrial-parks-ltd,5bd0e8c9657307afde7c1d25d3c953bc68109bda4a0416d11468cdd71ed912ec
+637,Horizon Industrial Parks Ltd.,quota_weighted_book_mult,0.24545089896288547,https://www.ipopremium.in/view/ipo/1301/horizon-industrial-parks-ltd,5bd0e8c9657307afde7c1d25d3c953bc68109bda4a0416d11468cdd71ed912ec
+638,Behari Lal Engineering Ltd.,ofs_ratio,0.6916650965619147,https://www.ipopremium.in/view/ipo/1285/behari-lal-engineering-ltd,57c73db43fb5f92ff8c467c76a23bd87dc60bf62e228fd337480456ca9f96a01
+639,Shiprocket Ltd.,ofs_ratio,0.45251654316959133,https://www.ipopremium.in/view/ipo/1280/shiprocket-ltd,301a88bad473b3ad9acade6e9522ff00c9bb40dc00f5342ffcc65494232a2108
+639,Shiprocket Ltd.,pub_ipo_earnings_yield_pct,-1.268041237113402,https://www.ipopremium.in/view/ipo/1280/shiprocket-ltd,301a88bad473b3ad9acade6e9522ff00c9bb40dc00f5342ffcc65494232a2108
+639,Shiprocket Ltd.,quota_weighted_book_mult,3.2399998949336526,https://www.ipopremium.in/view/ipo/1280/shiprocket-ltd,301a88bad473b3ad9acade6e9522ff00c9bb40dc00f5342ffcc65494232a2108
+640,Milky Mist Dairy Food Ltd.,ofs_ratio,0.08047876285227555,https://www.ipopremium.in/view/ipo/1059/milky-mist-dairy-food-ltd,37a9ad8e51ec6b9eeb293f45d4f832baac4d612c4f006d842d4d7421f9ac8606
+640,Milky Mist Dairy Food Ltd.,pub_ipo_earnings_yield_pct,1.4142857142857144,https://www.ipopremium.in/view/ipo/1059/milky-mist-dairy-food-ltd,37a9ad8e51ec6b9eeb293f45d4f832baac4d612c4f006d842d4d7421f9ac8606
+640,Milky Mist Dairy Food Ltd.,pub_log_ipo_price_book,3.2128611802581166,https://www.ipopremium.in/view/ipo/1059/milky-mist-dairy-food-ltd,37a9ad8e51ec6b9eeb293f45d4f832baac4d612c4f006d842d4d7421f9ac8606
+640,Milky Mist Dairy Food Ltd.,quota_weighted_book_mult,2.285714259500783,https://www.ipopremium.in/view/ipo/1059/milky-mist-dairy-food-ltd,37a9ad8e51ec6b9eeb293f45d4f832baac4d612c4f006d842d4d7421f9ac8606
+641,Molbio Diagnostics Ltd.,ofs_ratio,0.7870347234636809,https://www.ipopremium.in/view/ipo/1277/molbio-diagnostics-ltd,1b7b81c76966006892d5f88a2e032625998055ee58685f8c2b32163126c3ae67
+641,Molbio Diagnostics Ltd.,quota_weighted_book_mult,3.103571285064935,https://www.ipopremium.in/view/ipo/1277/molbio-diagnostics-ltd,1b7b81c76966006892d5f88a2e032625998055ee58685f8c2b32163126c3ae67
+643,Technocraft Ventures Ltd.,ofs_ratio,0.19998316640013467,https://www.ipopremium.in/view/ipo/1278/technocraft-ventures-ltd,a187a66355ad90a406cabf61e1e3e1ecb455c6813c104d43ef49181b9c8c517c
+644,LEAP India Ltd.,ofs_ratio,0.8064516147645682,https://www.ipopremium.in/view/ipo/1267/leap-india-ltd,e1948fc61cf050fb9eaf814d4092c430324caaa16d137f2d60de3a2173746e2c
+644,LEAP India Ltd.,quota_weighted_book_mult,0.5114285877790588,https://www.ipopremium.in/view/ipo/1267/leap-india-ltd,e1948fc61cf050fb9eaf814d4092c430324caaa16d137f2d60de3a2173746e2c
+646,Juniper Green Energy Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1119/juniper-green-energy-ltd,b00bfa1e5ff48ca8e5d92ded58fcfbeb8577edbe67006c9dc3e69f150b45f3ba
+646,Juniper Green Energy Ltd.,quota_weighted_book_mult,0.4914285655036208,https://www.ipopremium.in/view/ipo/1119/juniper-green-energy-ltd,b00bfa1e5ff48ca8e5d92ded58fcfbeb8577edbe67006c9dc3e69f150b45f3ba
+647,MV Electrosystems Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1269/mv-electrosystems-ltd,45d90baaa32535920533bf73cb2ea10a7258c9f37fa03acbad8719e7a0a1a4ec
+647,MV Electrosystems Ltd.,pub_ipo_earnings_yield_pct,-1.5341176470588236,https://www.ipopremium.in/view/ipo/1269/mv-electrosystems-ltd,45d90baaa32535920533bf73cb2ea10a7258c9f37fa03acbad8719e7a0a1a4ec
+647,MV Electrosystems Ltd.,pub_log_ipo_price_book,2.701225131952281,https://www.ipopremium.in/view/ipo/1269/mv-electrosystems-ltd,45d90baaa32535920533bf73cb2ea10a7258c9f37fa03acbad8719e7a0a1a4ec
+648,Manipal Health Enterprises Ltd.,ofs_ratio,0.1374631007096665,https://www.ipopremium.in/view/ipo/1261/manipal-health-enterprises-ltd,0190a7b095b84d26f3c2efcd41768ebd099a9ff4663151d14d9d2f5558719d46
+648,Manipal Health Enterprises Ltd.,quota_weighted_book_mult,0.4663636364689478,https://www.ipopremium.in/view/ipo/1261/manipal-health-enterprises-ltd,0190a7b095b84d26f3c2efcd41768ebd099a9ff4663151d14d9d2f5558719d46
+650,Indo-MIM Ltd.,ofs_ratio,0.8688392029038057,https://www.ipopremium.in/view/ipo/1260/indo-mim-ltd,4f06b6617d9dcf4b1771c2084060870b1f45aef528bb19cad9f2d1948a353f87
+650,Indo-MIM Ltd.,quota_weighted_book_mult,3.070913163281751,https://www.ipopremium.in/view/ipo/1260/indo-mim-ltd,4f06b6617d9dcf4b1771c2084060870b1f45aef528bb19cad9f2d1948a353f87
+651,Lohia Corp Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1050/lohia-corp-ltd,dd5145f68a1bb688dfbe164be1f788337aab8ca379f372d600410c1e397be830
+651,Lohia Corp Ltd.,quota_weighted_book_mult,0.5890909206534582,https://www.ipopremium.in/view/ipo/1050/lohia-corp-ltd,dd5145f68a1bb688dfbe164be1f788337aab8ca379f372d600410c1e397be830
+652,Xtranet Technologies Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1262/xtranet-technologies-ltd,dfec09cb6932f38346ff17a819cff44666d4828b10bc6f91b93aac733a8e8010
+653,Caliber Mining & Logistics Ltd.,ofs_ratio,0.11111109017283842,https://www.ipopremium.in/view/ipo/1256/caliber-mining-logistics-ltd,2872d8dab9cb84337b60d7d3aa4c3a1e95d104108669ec33d11a7aec4db8c743
+654,Alpine Texworld Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1255/alpine-texworld-ltd,3f3162932ed2a30267034b347ac8a8be32551c3c01a0f0180e3b7737f6a899fb
+656,Laser Power & Infra Ltd.,ofs_ratio,0.00997303427016686,https://www.ipopremium.in/view/ipo/1220/laser-power-infra-ltd,96df7f39164f7f670bad5f07555a8318ebf0dbf640ae0e542b0517b7d3177cfc
+657,Kusumgar Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1213/kusumgar-ltd,5f406e2dce8acdc6b40afadc32093fb7087c87903e77b44ebce5465d6f5dcaf4
+657,Kusumgar Ltd.,quota_weighted_book_mult,13.935627347077652,https://www.ipopremium.in/view/ipo/1213/kusumgar-ltd,5f406e2dce8acdc6b40afadc32093fb7087c87903e77b44ebce5465d6f5dcaf4
+658,Knack Packaging Ltd.,ofs_ratio,0.1353811158274024,https://www.ipopremium.in/view/ipo/1225/knack-packaging-ltd,a9ba13edc0b8dd009b8a1ea95d2c357babb4322bb0f0d20de1d0c23c1634c3ce
+658,Knack Packaging Ltd.,quota_weighted_book_mult,7.572235533718569,https://www.ipopremium.in/view/ipo/1225/knack-packaging-ltd,a9ba13edc0b8dd009b8a1ea95d2c357babb4322bb0f0d20de1d0c23c1634c3ce
+659,Aastha Spintex Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1202/aastha-spintex-ltd,2d6672c3e45dcb404d61c3425acf2c85da0909c1435e816a625535430dad66c8
+660,CSM Technologies Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1229/csm-technologies-ltd,80df26995052b3f0e7ede22859283ecc1b555a5ffc76fb1ac6e0b4c1af5e0439
+660,CSM Technologies Ltd.,quota_weighted_book_mult,0.6539740820734341,https://www.ipopremium.in/view/ipo/1229/csm-technologies-ltd,80df26995052b3f0e7ede22859283ecc1b555a5ffc76fb1ac6e0b4c1af5e0439
+662,Advit Jewels Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1217/advit-jewels-ltd,8d02cf658ce17815f984fe913159a4a7ec71143374ff1d3fecc94e2f6d7ae4f4
+663,Turtlemint Fintech Solutions Ltd.,ofs_ratio,0.25145076498356356,https://www.ipopremium.in/view/ipo/1209/turtlemint-fintech-solutions-ltd,6e52992e0176ef8b31ba96e040a3cfcd2d501cb45d3d1c9bd164c9de3da675c8
+663,Turtlemint Fintech Solutions Ltd.,pub_ipo_earnings_yield_pct,-4.723684210526316,https://www.ipopremium.in/view/ipo/1209/turtlemint-fintech-solutions-ltd,6e52992e0176ef8b31ba96e040a3cfcd2d501cb45d3d1c9bd164c9de3da675c8
+664,Hexagon Nutrition Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1204/hexagon-nutrition-ltd,6501540e4deda902e0e2be4f8e8d288ecb54eeda8b7cd4f6f997d0786b9249d0
+665,CMR Green Technologies Ltd.,quota_weighted_book_mult,9.624285828819701,https://www.ipopremium.in/view/ipo/1182/cmr-green-technologies-ltd,7f13e9ae60709fc30b97a6c058358dfd2095e86b9ff3519f64b947777a955674
+667,OnEMI Technology Solutions Ltd.,ofs_ratio,0.0819944968723331,https://www.ipopremium.in/view/ipo/1166/onemi-technology-solutions-ltd,989f1ff694a0529f990bd4b4f30c11671d1e955e1eaf9eb5a8235e23a9485500
+670,Om Power Transmission Ltd.,ofs_ratio,0.11661807580174927,https://www.ipopremium.in/view/ipo/1178/om-power-transmission-ltd,d62f4b8777f617b2c73ff43c300ec2049abba4d2bfacdb84ff181bc3a0f942dd
+671,Powerica Ltd.,ofs_ratio,0.36363635710743797,https://www.ipopremium.in/view/ipo/1173/powerica-ltd,a63951b2f0a2b63cfbfe7b326bf8b321a47a536edc5a03313aac31e998561191
+671,Powerica Ltd.,quota_weighted_book_mult,0.025001209068258597,https://www.ipopremium.in/view/ipo/1173/powerica-ltd,a63951b2f0a2b63cfbfe7b326bf8b321a47a536edc5a03313aac31e998561191
+672,Sai Parenteral's Ltd.,ofs_ratio,0.3028186409888181,https://www.ipopremium.in/view/ipo/1172/sai-parenterals-ltd,c6bcb1f541745ef9507c21541c05fa7778d31935816ec5c2613acf6b378b2108
+673,Amir Chand Jagdish Kumar (Exports) Ltd.,pub_log_ipo_price_book,1.7191570296363223,https://www.ipopremium.in/view/ipo/1122/amir-chand-jagdish-kumar,77d8426fde4d46be142c5984f08464d2de14d6f5609b56ca9f1f171a45b135c5
+674,Central Mine Planning & Design Institute Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1169/central-mine-planning-design-institute-ltd,86dba692a9103f3f9d479b075910e72351cb6ca42b3f3d1943d18d0034f6050b
+674,Central Mine Planning & Design Institute Ltd.,quota_weighted_book_mult,0.27928571428571425,https://www.ipopremium.in/view/ipo/1169/central-mine-planning-design-institute-ltd,86dba692a9103f3f9d479b075910e72351cb6ca42b3f3d1943d18d0034f6050b
+675,GSP Crop Science Ltd.,ofs_ratio,0.4,https://www.ipopremium.in/view/ipo/1168/gsp-crop-science-ltd,b680c47e67d333d7a8d910ad7ba6c0e8ef2afeb134c69d38b9593b9a6bb2292a
+677,Innovision Ltd.,ofs_ratio,0.20125846691769245,https://www.ipopremium.in/view/ipo/1163/innovision-ltd,df357eeb5784b0bff9dc867ffbb99b412ef39a1128c8962c8c525e5110518c4f
+677,Innovision Ltd.,pub_ipo_earnings_yield_pct,3.0096339113680153,https://www.ipopremium.in/view/ipo/1163/innovision-ltd,df357eeb5784b0bff9dc867ffbb99b412ef39a1128c8962c8c525e5110518c4f
+678,Rajputana Stainless Ltd.,ofs_ratio,0.29904306220095694,https://www.ipopremium.in/view/ipo/1160/rajputana-stainless-ltd,67c84153410606f2609c0cc9a4ae536c0f42420dbba15bb8a20dd8a5d379adb0
+679,SEDEMAC Mechatronics Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1157/sedemac-mechatronics-ltd,fcb9eac14a1df7006ebb3cfe8c359cb4df51e460aaf45768a744dfe89492871a
+679,SEDEMAC Mechatronics Ltd.,quota_weighted_book_mult,0.461448357521161,https://www.ipopremium.in/view/ipo/1157/sedemac-mechatronics-ltd,fcb9eac14a1df7006ebb3cfe8c359cb4df51e460aaf45768a744dfe89492871a
+680,Omnitech Engineering Ltd.,ofs_ratio,0.28301885396614757,https://www.ipopremium.in/view/ipo/1154/omnitech-engineering-ltd,7909286f23b9bdde92de92933075363fc78ed809d18f6ce77d453dbf48b3dd40
+680,Omnitech Engineering Ltd.,quota_weighted_book_mult,0.1357141257006031,https://www.ipopremium.in/view/ipo/1154/omnitech-engineering-ltd,7909286f23b9bdde92de92933075363fc78ed809d18f6ce77d453dbf48b3dd40
+681,PNGS Reva Diamond Jewellery Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1145/pngs-reva-diamond-jewellery-ltd,9e23ccf4fb0eada8812fa8ed6c9f9a869af7a76cdcb8f5ff7d36a13c17cbabd6
+681,PNGS Reva Diamond Jewellery Ltd.,quota_weighted_book_mult,0.8665320895622984,https://www.ipopremium.in/view/ipo/1145/pngs-reva-diamond-jewellery-ltd,9e23ccf4fb0eada8812fa8ed6c9f9a869af7a76cdcb8f5ff7d36a13c17cbabd6
+682,Shree Ram Twistex Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1147/shree-ram-twistex-ltd,6cd76da0d1d2a4ac463260ee4fdfa5ee6d5211564363ccaed901e3561680cfde
+683,Clean Max Enviro Energy Solutions Ltd.,ofs_ratio,0.6129032378595214,https://www.ipopremium.in/view/ipo/1058/clean-max-enviro-energy-solutions-ltd,a77f57510b1bfc336e17264fcf91577e1aad87633f967c9b23a3c6ce2bdd6341
+683,Clean Max Enviro Energy Solutions Ltd.,pub_ipo_earnings_yield_pct,0.27350427350427353,https://www.ipopremium.in/view/ipo/1058/clean-max-enviro-energy-solutions-ltd,a77f57510b1bfc336e17264fcf91577e1aad87633f967c9b23a3c6ce2bdd6341
+683,Clean Max Enviro Energy Solutions Ltd.,quota_weighted_book_mult,0.4767940203932936,https://www.ipopremium.in/view/ipo/1058/clean-max-enviro-energy-solutions-ltd,a77f57510b1bfc336e17264fcf91577e1aad87633f967c9b23a3c6ce2bdd6341
+684,Gaudium IVF & Women Health Ltd.,ofs_ratio,0.45454414876808613,https://www.ipopremium.in/view/ipo/1146/gaudium-ivf-women-health-ltd,cb97599953f44f71ed1da06c99297d0d2b2f7fc01272debaedc30969f875e76b
+685,Aye Finance Ltd.,ofs_ratio,0.29702969702676196,https://www.ipopremium.in/view/ipo/1142/aye-finance-ltd,4cb409442c5af80cd9e9bfe4bdb6c8292de25c87c476aa201afdeb9beb873906
+686,Fractal Analytics Ltd.,ofs_ratio,0.6388369366309982,https://www.ipopremium.in/view/ipo/1108/fractal-analytics-ltd,15f139c89773fae396091f382858200be2fbe9f98bf0e9917d2c1e951fb5ddf1
+686,Fractal Analytics Ltd.,quota_weighted_book_mult,0.20942281230478563,https://www.ipopremium.in/view/ipo/1108/fractal-analytics-ltd,15f139c89773fae396091f382858200be2fbe9f98bf0e9917d2c1e951fb5ddf1
+687,Shadowfax Technologies Ltd.,ofs_ratio,0.47569038393443386,https://www.ipopremium.in/view/ipo/1120/shadowfax-technologies-ltd,ca1295e55e27935c482a387c8ac3929d68bc3e62b316d9f1a14a265bb6e33dd3
+687,Shadowfax Technologies Ltd.,quota_weighted_book_mult,0.6272727228767592,https://www.ipopremium.in/view/ipo/1120/shadowfax-technologies-ltd,ca1295e55e27935c482a387c8ac3929d68bc3e62b316d9f1a14a265bb6e33dd3
+688,Amagi Media Labs Ltd.,ofs_ratio,0.5437819970164829,https://www.ipopremium.in/view/ipo/1114/amagi-media-labs-ltd,cfb90115d33976403c00be981a596cddb94e457b8c4c97a79e0ea10e895ca9a8
+689,Bharat Coking Coal Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1105/bharat-coking-coal-ltd,cffac3a73ed370d3becc693bad7da422fca7ae65353a0106b6d28e6376699cad
+689,Bharat Coking Coal Ltd.,quota_weighted_book_mult,34.575,https://www.ipopremium.in/view/ipo/1105/bharat-coking-coal-ltd,cffac3a73ed370d3becc693bad7da422fca7ae65353a0106b6d28e6376699cad
+503,ICICI Prudential Asset Management Co.Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1032/icici-prudential-asset-management-co-ltd,9d4f185d21127a5b70b4f720b97928052518ef7618fd14e58f10bb4b92835d86
+503,ICICI Prudential Asset Management Co.Ltd.,lot_size_shares,6.0,https://www.ipopremium.in/view/ipo/1032/icici-prudential-asset-management-co-ltd,9d4f185d21127a5b70b4f720b97928052518ef7618fd14e58f10bb4b92835d86
+503,ICICI Prudential Asset Management Co.Ltd.,quota_weighted_book_mult,2.0585714324315973,https://www.ipopremium.in/view/ipo/1032/icici-prudential-asset-management-co-ltd,9d4f185d21127a5b70b4f720b97928052518ef7618fd14e58f10bb4b92835d86
+519,Billionbrains Garage Ventures Ltd.,ofs_ratio,0.8401761201257751,https://www.ipopremium.in/view/ipo/1029/billionbrains-garage-ventures-ltd,400da6cc71fcaee80890a1bd724b1ae1b102678caea4478871286e6855d6e35f
+519,Billionbrains Garage Ventures Ltd.,quota_weighted_book_mult,1.6518181826655254,https://www.ipopremium.in/view/ipo/1029/billionbrains-garage-ventures-ltd,400da6cc71fcaee80890a1bd724b1ae1b102678caea4478871286e6855d6e35f
+524,Canara HSBC Life Insurance Co.Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1022/canara-hsbc-life-insurance,792e32fd099231f15237ef94fe8ff5e1d52a678766486f132265900face76630
+524,Canara HSBC Life Insurance Co.Ltd.,lot_size_shares,140.0,https://www.ipopremium.in/view/ipo/1022/canara-hsbc-life-insurance,792e32fd099231f15237ef94fe8ff5e1d52a678766486f132265900face76630
+524,Canara HSBC Life Insurance Co.Ltd.,pub_profit_margin_pct,49.9893166958677,https://www.ipopremium.in/view/ipo/1022/canara-hsbc-life-insurance,792e32fd099231f15237ef94fe8ff5e1d52a678766486f132265900face76630
+524,Canara HSBC Life Insurance Co.Ltd.,pub_return_on_assets_pct,0.27950874510178725,https://www.ipopremium.in/view/ipo/1022/canara-hsbc-life-insurance,792e32fd099231f15237ef94fe8ff5e1d52a678766486f132265900face76630
+524,Canara HSBC Life Insurance Co.Ltd.,pub_revenue_growth_asinh,-0.028516560033935757,https://www.ipopremium.in/view/ipo/1022/canara-hsbc-life-insurance,792e32fd099231f15237ef94fe8ff5e1d52a678766486f132265900face76630
+524,Canara HSBC Life Insurance Co.Ltd.,pub_annual_loss,0.0,https://www.ipopremium.in/view/ipo/1022/canara-hsbc-life-insurance,792e32fd099231f15237ef94fe8ff5e1d52a678766486f132265900face76630
+524,Canara HSBC Life Insurance Co.Ltd.,quota_weighted_book_mult,0.2564285714285714,https://www.ipopremium.in/view/ipo/1022/canara-hsbc-life-insurance,792e32fd099231f15237ef94fe8ff5e1d52a678766486f132265900face76630
+526,Canara Robeco Asset Management Co.Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1021/canara-robeco-asset-management-coltd,e72916aa7b13f2520e969821399810338453ba57faf5f039deeffa4e72bf3955
+526,Canara Robeco Asset Management Co.Ltd.,lot_size_shares,56.0,https://www.ipopremium.in/view/ipo/1021/canara-robeco-asset-management-coltd,e72916aa7b13f2520e969821399810338453ba57faf5f039deeffa4e72bf3955
+526,Canara Robeco Asset Management Co.Ltd.,quota_weighted_book_mult,0.4864285641625087,https://www.ipopremium.in/view/ipo/1021/canara-robeco-asset-management-coltd,e72916aa7b13f2520e969821399810338453ba57faf5f039deeffa4e72bf3955
+529,Tata Capital Ltd.,ofs_ratio,0.5586606047089484,https://www.ipopremium.in/view/ipo/1011/tata-capital-ltd,e4ab58047a27140f9fdada86fce44c98e8a68ddc387b0d0096a1a9542e7fe483
+529,Tata Capital Ltd.,quota_weighted_book_mult,0.7485714285714284,https://www.ipopremium.in/view/ipo/1011/tata-capital-ltd,e4ab58047a27140f9fdada86fce44c98e8a68ddc387b0d0096a1a9542e7fe483
+530,WeWork India Management Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1018/wework-india-management-ltd,e84f9fd5f65cf2daa3c8dcc4c0dd8b68296565fa44e1a90c390e493d48ae2b5c
+530,WeWork India Management Ltd.,quota_weighted_book_mult,0.13454545307976834,https://www.ipopremium.in/view/ipo/1018/wework-india-management-ltd,e84f9fd5f65cf2daa3c8dcc4c0dd8b68296565fa44e1a90c390e493d48ae2b5c
+535,Pace Digitek Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/988/pace-digitek-ltd,6ca2883c58170908d8e92026718deb08c8932566415f4879ba24fbdc1b7e6045
+535,Pace Digitek Ltd.,quota_weighted_book_mult,0.3400158128916718,https://www.ipopremium.in/view/ipo/988/pace-digitek-ltd,6ca2883c58170908d8e92026718deb08c8932566415f4879ba24fbdc1b7e6045
+543,Jaro Institute of Technology Management & Research Ltd.,ofs_ratio,0.6222222354074094,https://www.ipopremium.in/view/ipo/975/jaro-institute-of-technology-management-research-ltd,e1ca8500defd5803a54dab9148d91a61d587cb91fe2c72e76b2ecf640f45bcb4
+543,Jaro Institute of Technology Management & Research Ltd.,lot_size_shares,16.0,https://www.ipopremium.in/view/ipo/975/jaro-institute-of-technology-management-research-ltd,e1ca8500defd5803a54dab9148d91a61d587cb91fe2c72e76b2ecf640f45bcb4
+543,Jaro Institute of Technology Management & Research Ltd.,quota_weighted_book_mult,2.0492857142857144,https://www.ipopremium.in/view/ipo/975/jaro-institute-of-technology-management-research-ltd,e1ca8500defd5803a54dab9148d91a61d587cb91fe2c72e76b2ecf640f45bcb4
+551,Euro Pratik Sales Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/955/euro-pratik-sales-ltd,7422e5e859b903f6ffb1cafb069c8a983c9534f25959df20fe34f87df07319ca
+551,Euro Pratik Sales Ltd.,quota_weighted_book_mult,0.7386053761213981,https://www.ipopremium.in/view/ipo/955/euro-pratik-sales-ltd,7422e5e859b903f6ffb1cafb069c8a983c9534f25959df20fe34f87df07319ca
+554,Urban Co.Ltd.,ofs_ratio,0.751578947368421,https://www.ipopremium.in/view/ipo/946/urban-company-ltd,a4e4ba6c331ed1903232f2752db43f39661155595c87d63fc946fb9276f8c948
+554,Urban Co.Ltd.,lot_size_shares,145.0,https://www.ipopremium.in/view/ipo/946/urban-company-ltd,a4e4ba6c331ed1903232f2752db43f39661155595c87d63fc946fb9276f8c948
+554,Urban Co.Ltd.,pub_revenue_growth_asinh,0.35124583453326086,https://www.ipopremium.in/view/ipo/946/urban-company-ltd,a4e4ba6c331ed1903232f2752db43f39661155595c87d63fc946fb9276f8c948
+554,Urban Co.Ltd.,quota_weighted_book_mult,9.46818174013245,https://www.ipopremium.in/view/ipo/946/urban-company-ltd,a4e4ba6c331ed1903232f2752db43f39661155595c87d63fc946fb9276f8c948
+556,Anlon Healthcare Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/929/anlon-healthcare-ltd,74872d73a9854e0812de5ebc3e31dcaa502945eea759a9b63248ccc77b5b0403
+564,BlueStone Jewellery & Lifestyle Ltd.,ofs_ratio,0.4677569626478676,https://www.ipopremium.in/view/ipo/905/bluestone-jewellery-lifestyle-ltd,9ab331ec0341c6b847d9a47adbe9734d01950e6c1f857ddb46a0f1f906b9a434
+564,BlueStone Jewellery & Lifestyle Ltd.,pub_ipo_earnings_yield_pct,-15.423597678916826,https://www.ipopremium.in/view/ipo/905/bluestone-jewellery-lifestyle-ltd,9ab331ec0341c6b847d9a47adbe9734d01950e6c1f857ddb46a0f1f906b9a434
+564,BlueStone Jewellery & Lifestyle Ltd.,quota_weighted_book_mult,0.657272716123947,https://www.ipopremium.in/view/ipo/905/bluestone-jewellery-lifestyle-ltd,9ab331ec0341c6b847d9a47adbe9734d01950e6c1f857ddb46a0f1f906b9a434
+571,National Securities Depository Ltd.,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/800/national-securities-depository-ltd,d7cc52029baec29e4c388b42096260f464927202f3044762be188f21799a029a
+571,National Securities Depository Ltd.,quota_weighted_book_mult,5.019285863005201,https://www.ipopremium.in/view/ipo/800/national-securities-depository-ltd,d7cc52029baec29e4c388b42096260f464927202f3044762be188f21799a029a
+585,HDB Financial Services Ltd.,ofs_ratio,0.799999998816,https://www.ipopremium.in/view/ipo/809/hdb-financial-services-limited,338e63a5587b04dc0f1a2f2168a83b86588e6e45449bf2bd9d17a94ebb021dc2
+585,HDB Financial Services Ltd.,quota_weighted_book_mult,1.131428575583986,https://www.ipopremium.in/view/ipo/809/hdb-financial-services-limited,338e63a5587b04dc0f1a2f2168a83b86588e6e45449bf2bd9d17a94ebb021dc2
+589,Arisinfra Solutions Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/814/arisinfra-solutions-limited,40e792a8eb091da0bd314cadc5ffcfd4bfc21bb6dbebf81cddfc40f2585539f0
+589,Arisinfra Solutions Ltd.,pub_ipo_earnings_yield_pct,-2.3873873873873874,https://www.ipopremium.in/view/ipo/814/arisinfra-solutions-limited,40e792a8eb091da0bd314cadc5ffcfd4bfc21bb6dbebf81cddfc40f2585539f0
+589,Arisinfra Solutions Ltd.,quota_weighted_book_mult,1.3972726824695827,https://www.ipopremium.in/view/ipo/814/arisinfra-solutions-limited,40e792a8eb091da0bd314cadc5ffcfd4bfc21bb6dbebf81cddfc40f2585539f0
+593,Aegis Vopak Terminals Ltd.,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/792/aegis-vopak-terminals-limited,d4cb17b8f3816cc732dc7ba9ef5ec26c0f41ecb872b3df31bf7448289890a7a5
+594,Schloss Bangalore Ltd.,ofs_ratio,0.2857142857142857,https://www.ipopremium.in/view/ipo/788/schloss-bangalore-limited,92e37447ce233a018d5b19be1658dc3ac85f72ca8b618174d96178b446c31775
+601,Dr.Agarwal's Health Care Ltd.,quota_weighted_book_mult,0.43428571810894173,https://www.ipopremium.in/view/ipo/731/dr-agarwals-health-care-limited,13a0c4471b9a918f2b63aec6098d75734425367b6a8fd05c296b07a1a6a7d366
+recent_ae67183c2d,HD Fire Protect,quota_weighted_book_mult,131.89571553690664,https://www.ipopremium.in/view/ipo/1416/hd-fire-protect-ltd,0ef7c107534f23addf449a978ec1150578ab606581143a11403dc09642f48ac0
+recent_e503578014,Nityas Gems & Jewellery,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1403/nityas-gems-and-jewellery-ltd,edaefbe9c88d2f231ec76e55599f07e17274f568c46f8a5a72fb3bec3b83d032
+recent_e503578014,Nityas Gems & Jewellery,quota_weighted_book_mult,1.265,https://www.ipopremium.in/view/ipo/1403/nityas-gems-and-jewellery-ltd,edaefbe9c88d2f231ec76e55599f07e17274f568c46f8a5a72fb3bec3b83d032
+recent_ac52a6551c,Vishal Nirmiti,ofs_ratio,0.18539326051003663,https://www.ipopremium.in/view/ipo/1405/vishal-nirmiti-ltd,259a512e8a1e78aa08059096a7a4f6172d9756111b1354f41a8b1e03c81c3374
+recent_ac52a6551c,Vishal Nirmiti,lot_size_shares,68.0,https://www.ipopremium.in/view/ipo/1405/vishal-nirmiti-ltd,259a512e8a1e78aa08059096a7a4f6172d9756111b1354f41a8b1e03c81c3374
+recent_ac52a6551c,Vishal Nirmiti,quota_weighted_book_mult,1.068700008861798,https://www.ipopremium.in/view/ipo/1405/vishal-nirmiti-ltd,259a512e8a1e78aa08059096a7a4f6172d9756111b1354f41a8b1e03c81c3374
+recent_a916c7c47d,SRIT India,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1392/srit-india-ltd,74d133dfa464d272e8364eb0f227db1d3d51f50b94dd0e07596362d957f4f113
+recent_a916c7c47d,SRIT India,quota_weighted_book_mult,103.31285714285714,https://www.ipopremium.in/view/ipo/1392/srit-india-ltd,74d133dfa464d272e8364eb0f227db1d3d51f50b94dd0e07596362d957f4f113
+recent_512da047a2,Shah Investor's Home,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1390/shah-investors-home-ltd,e8b4c788186a17fad3ea6fa2ec84b5ca1b462662eb1427152b6eab7cc5a62700
+recent_512da047a2,Shah Investor's Home,quota_weighted_book_mult,16.764285714285712,https://www.ipopremium.in/view/ipo/1390/shah-investors-home-ltd,e8b4c788186a17fad3ea6fa2ec84b5ca1b462662eb1427152b6eab7cc5a62700
+recent_3e04a21a47,Acevector,pub_ipo_earnings_yield_pct,-4.125,https://www.ipopremium.in/view/ipo/1381/acevector-ltd,55a24730dff024117d069fdbfc36886f4360542724e45cf5da77446139503dbb
+recent_3e04a21a47,Acevector,pub_log_ipo_price_book,2.7395254834598517,https://www.ipopremium.in/view/ipo/1381/acevector-ltd,55a24730dff024117d069fdbfc36886f4360542724e45cf5da77446139503dbb
+recent_3e04a21a47,Acevector,quota_weighted_book_mult,2.191818181818182,https://www.ipopremium.in/view/ipo/1381/acevector-ltd,55a24730dff024117d069fdbfc36886f4360542724e45cf5da77446139503dbb
+recent_441d5c7241,Orient Cables (India),ofs_ratio,0.42028979437091957,https://www.ipopremium.in/view/ipo/1383/orient-cables,2eee0aee5569203ce870bf80827351c71238b79bd098f5d2864b15fc88174cb0
+recent_441d5c7241,Orient Cables (India),pub_ipo_earnings_yield_pct,1.9375,https://www.ipopremium.in/view/ipo/1383/orient-cables,2eee0aee5569203ce870bf80827351c71238b79bd098f5d2864b15fc88174cb0
+recent_441d5c7241,Orient Cables (India),pub_log_ipo_price_book,2.547082743906487,https://www.ipopremium.in/view/ipo/1383/orient-cables,2eee0aee5569203ce870bf80827351c71238b79bd098f5d2864b15fc88174cb0
+recent_441d5c7241,Orient Cables (India),quota_weighted_book_mult,15.819998916646092,https://www.ipopremium.in/view/ipo/1383/orient-cables,2eee0aee5569203ce870bf80827351c71238b79bd098f5d2864b15fc88174cb0
+recent_c12767f56d,German Green Steel & Power,ofs_ratio,0.04573873058282257,https://www.ipopremium.in/view/ipo/1382/german-green-steel-power-ltd,5dce39b9fbaaf9ec6f54a9285a9d64a7ce006f60ffc5c0d9ffc5b001cbf0584b
+recent_c12767f56d,German Green Steel & Power,pub_log_ipo_price_book,1.02516359054573,https://www.ipopremium.in/view/ipo/1382/german-green-steel-power-ltd,5dce39b9fbaaf9ec6f54a9285a9d64a7ce006f60ffc5c0d9ffc5b001cbf0584b
+recent_c12767f56d,German Green Steel & Power,quota_weighted_book_mult,11.859998234485197,https://www.ipopremium.in/view/ipo/1382/german-green-steel-power-ltd,5dce39b9fbaaf9ec6f54a9285a9d64a7ce006f60ffc5c0d9ffc5b001cbf0584b
+recent_7d22cf387d,Runwal Enterprises,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1386/runwal-enterprises-ltd,9bfe905afbd7750ed8df5698e2220f45fccaba203eeb4f198cbd940aa8bb6d88
+recent_7d22cf387d,Runwal Enterprises,quota_weighted_book_mult,1.6492858190928334,https://www.ipopremium.in/view/ipo/1386/runwal-enterprises-ltd,9bfe905afbd7750ed8df5698e2220f45fccaba203eeb4f198cbd940aa8bb6d88
+recent_d53c9d0384,Moneyview,ofs_ratio,0.3129856667494128,https://www.ipopremium.in/view/ipo/1377/moneyview-ltd,c53ab3d67d033ea4777a05f95260f7f3d3d76ae8eae3cba4ec11240301584a7a
+recent_d53c9d0384,Moneyview,quota_weighted_book_mult,101.02500122287245,https://www.ipopremium.in/view/ipo/1377/moneyview-ltd,c53ab3d67d033ea4777a05f95260f7f3d3d76ae8eae3cba4ec11240301584a7a
+recent_67e9dc9edb,A-One Steels India,ofs_ratio,0.12345671234567124,https://www.ipopremium.in/view/ipo/1360/a-one-steels-india-ltd,ad8dd456d8b9ce1f375978e82f191add5ccd81962e898ea706a47903ad835c27
+recent_67e9dc9edb,A-One Steels India,pub_log_ipo_price_book,1.4763566811249818,https://www.ipopremium.in/view/ipo/1360/a-one-steels-india-ltd,ad8dd456d8b9ce1f375978e82f191add5ccd81962e898ea706a47903ad835c27
+recent_67e9dc9edb,A-One Steels India,quota_weighted_book_mult,11.400887826936113,https://www.ipopremium.in/view/ipo/1360/a-one-steels-india-ltd,ad8dd456d8b9ce1f375978e82f191add5ccd81962e898ea706a47903ad835c27
+recent_174d15b284,Elevate Campuses,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1346/elevate-campuses-ltd,8dd9882ba074b24cb0f61a9cdace80b7d470b6200b7f9b632e6578305f0bfa5f
+recent_174d15b284,Elevate Campuses,quota_weighted_book_mult,1.7209091051839431,https://www.ipopremium.in/view/ipo/1346/elevate-campuses-ltd,8dd9882ba074b24cb0f61a9cdace80b7d470b6200b7f9b632e6578305f0bfa5f
+recent_a6de278fa0,Swastika Infra,ofs_ratio,0.20124319999227225,https://www.ipopremium.in/view/ipo/1324/swastika-infra-ltd,9dfecd5fdee6dd27921bf9be0eb2fc523d0f29714d7f4c7e9c5f905f9750ab1a
+recent_a6de278fa0,Swastika Infra,quota_weighted_book_mult,7.40928469481026,https://www.ipopremium.in/view/ipo/1324/swastika-infra-ltd,9dfecd5fdee6dd27921bf9be0eb2fc523d0f29714d7f4c7e9c5f905f9750ab1a
+recent_2b432db888,ArMee Infotech,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1368/armee-infotech-ltd,3a6965f817c841f185e7e38531e20c5076647115d5d0f998d4336c1a51577cc0
+recent_2b432db888,ArMee Infotech,quota_weighted_book_mult,2.411196827685653,https://www.ipopremium.in/view/ipo/1368/armee-infotech-ltd,3a6965f817c841f185e7e38531e20c5076647115d5d0f998d4336c1a51577cc0
+recent_3a2cdcb97d,Varmora Granito,ofs_ratio,0.548032221925044,https://www.ipopremium.in/view/ipo/1358/varmora-granito-ltd,b434b52ba72284f932e93100c36897c1ba9afe4a67ab7a6393cda0d11a1b5bbb
+recent_3a2cdcb97d,Varmora Granito,quota_weighted_book_mult,1.5799946531617566,https://www.ipopremium.in/view/ipo/1358/varmora-granito-ltd,b434b52ba72284f932e93100c36897c1ba9afe4a67ab7a6393cda0d11a1b5bbb
+recent_48aef4b8bb,National Stock Exchange of India,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1325/national-stock-exchange-of-india-ltd,f333d6f6c2c0ea9ca3193e4d58f5992407cd926951789aad3389149bceccaa60
+recent_48aef4b8bb,National Stock Exchange of India,lot_size_shares,8.0,https://www.ipopremium.in/view/ipo/1325/national-stock-exchange-of-india-ltd,f333d6f6c2c0ea9ca3193e4d58f5992407cd926951789aad3389149bceccaa60
+recent_48aef4b8bb,National Stock Exchange of India,pub_ipo_earnings_yield_pct,2.331652661064426,https://www.ipopremium.in/view/ipo/1325/national-stock-exchange-of-india-ltd,f333d6f6c2c0ea9ca3193e4d58f5992407cd926951789aad3389149bceccaa60
+recent_48aef4b8bb,National Stock Exchange of India,pub_profit_margin_pct,55.05186933192685,https://www.ipopremium.in/view/ipo/1325/national-stock-exchange-of-india-ltd,f333d6f6c2c0ea9ca3193e4d58f5992407cd926951789aad3389149bceccaa60
+recent_48aef4b8bb,National Stock Exchange of India,pub_return_on_assets_pct,11.71521481635126,https://www.ipopremium.in/view/ipo/1325/national-stock-exchange-of-india-ltd,f333d6f6c2c0ea9ca3193e4d58f5992407cd926951789aad3389149bceccaa60
+recent_48aef4b8bb,National Stock Exchange of India,pub_revenue_growth_asinh,-0.024165354530402496,https://www.ipopremium.in/view/ipo/1325/national-stock-exchange-of-india-ltd,f333d6f6c2c0ea9ca3193e4d58f5992407cd926951789aad3389149bceccaa60
+recent_48aef4b8bb,National Stock Exchange of India,pub_annual_loss,0.0,https://www.ipopremium.in/view/ipo/1325/national-stock-exchange-of-india-ltd,f333d6f6c2c0ea9ca3193e4d58f5992407cd926951789aad3389149bceccaa60
+recent_48aef4b8bb,National Stock Exchange of India,quota_weighted_book_mult,1.9095347765078523,https://www.ipopremium.in/view/ipo/1325/national-stock-exchange-of-india-ltd,f333d6f6c2c0ea9ca3193e4d58f5992407cd926951789aad3389149bceccaa60
+recent_dd5742cace,Sonaselection India,ofs_ratio,0.0,https://www.ipopremium.in/view/ipo/1353/sona-selection-india-ltd,ea69380d66dcc72fb17ef48c1198edbdcf4ecdf1b85b9e3a40da695b4c0a1f00
+recent_dd5742cace,Sonaselection India,quota_weighted_book_mult,1.9928571428571429,https://www.ipopremium.in/view/ipo/1353/sona-selection-india-ltd,ea69380d66dcc72fb17ef48c1198edbdcf4ecdf1b85b9e3a40da695b4c0a1f00
+recent_9dd18c9528,SS Retail,ofs_ratio,0.27957941041218415,https://www.ipopremium.in/view/ipo/1354/ss-retail-ltd,a3ce4f1e13e3771a1db583c33a6bbebeb651df3bf3e87c20db3aad99e4cfaaf0
+recent_9dd18c9528,SS Retail,quota_weighted_book_mult,106.77142643015007,https://www.ipopremium.in/view/ipo/1354/ss-retail-ltd,a3ce4f1e13e3771a1db583c33a6bbebeb651df3bf3e87c20db3aad99e4cfaaf0
+recent_1632623840,Tonbo Imaging India,quota_weighted_book_mult,135.82073075727035,https://www.ipopremium.in/view/ipo/1411/tonbo-imaging-india-ltd,742bd11e599bdced8cba6b500cf05987237ff9ca49403162d5139d8417f9937d
+recent_924328a61a,Zetwerk Manufacturing Business,ofs_ratio,0.43530699210382984,https://www.ipopremium.in/view/ipo/1417/zetwerk-manufacturing-ltd,af293627937566a544108342ab6061e5b9146d9a7aea78456e75fe119d951ce8
+recent_924328a61a,Zetwerk Manufacturing Business,pub_ipo_earnings_yield_pct,-4.430463576158941,https://www.ipopremium.in/view/ipo/1417/zetwerk-manufacturing-ltd,af293627937566a544108342ab6061e5b9146d9a7aea78456e75fe119d951ce8
+recent_924328a61a,Zetwerk Manufacturing Business,quota_weighted_book_mult,3.096363627742639,https://www.ipopremium.in/view/ipo/1417/zetwerk-manufacturing-ltd,af293627937566a544108342ab6061e5b9146d9a7aea78456e75fe119d951ce8
+recent_5d0fe44409,Bonfiglioli Transmissions,ofs_ratio,1.0,https://www.ipopremium.in/view/ipo/1413/bonfiglioli-transmissions-ltd,ca294e98583877b6b9a991febe9f1dfa1daf500e77fe4b1b769b7763f2eef71d
+recent_5d0fe44409,Bonfiglioli Transmissions,quota_weighted_book_mult,46.04714399717122,https://www.ipopremium.in/view/ipo/1413/bonfiglioli-transmissions-ltd,ca294e98583877b6b9a991febe9f1dfa1daf500e77fe4b1b769b7763f2eef71d
+recent_5cfb669d34,Sahajanand Medical Technologies,quota_weighted_book_mult,14.49785835181836,https://www.ipopremium.in/view/ipo/1409/sahajanand-medical-technologies-ltd,fc71eb33bc06cbd0bbf65a25ac2362350d88f75668bfadce7e9bd768665e4140
+recent_cbd5426c2a,Fusion CX,quota_weighted_book_mult,4.663636393372655,https://www.ipopremium.in/view/ipo/1410/fusion-cx-ltd,5dba7ca7dac69d85782046a73271e16237f66f528c88ecac81b9f17ab45dfb97

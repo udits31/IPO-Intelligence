@@ -1,0 +1,1292 @@
+{
+  "as_of_ist": "2026-10-26T18:19:27.939290+05:30",
+  "scope": "Observed collection and exploratory same-session diagnostic; no retraining or promotion",
+  "module1": {
+    "forecast_records_today": 655,
+    "unique_ipos": 5,
+    "listing_outcomes_available": 0,
+    "records": [
+      {
+        "company": "BLS Polymers",
+        "records": 131,
+        "first_score_pct": 69.87186845542551,
+        "latest_score_pct": 69.34161156263542,
+        "latest_recorded_at_ist": "2026-10-26T18:15:05.667574+05:30",
+        "kind": "pre_bidding_estimate",
+        "listing_date": "2026-11-03",
+        "quality": "provisional_missing_inputs",
+        "missing_model_features": [
+          "log_hni",
+          "log_hni_growth",
+          "log_qib",
+          "log_qib_growth",
+          "log_retail",
+          "log_retail_growth",
+          "pub_ipo_earnings_yield_pct",
+          "pub_log_ipo_price_book"
+        ],
+        "application_screen": "DATA_PENDING",
+        "missing_screen_inputs": [
+          "qib",
+          "nii",
+          "retail",
+          "ofs_ratio",
+          "retail_quota_pct",
+          "total_mult"
+        ],
+        "latest_category_multiples": {
+          "qib": null,
+          "hni": null,
+          "retail": null
+        },
+        "changed_features": {
+          "gmp_quote_age_days": {
+            "first": 1,
+            "last": 0
+          },
+          "gmp_slope_pp_per_day": {
+            "first": null,
+            "last": -0.6599999999999966
+          },
+          "gmp_pct": {
+            "first": 25.33,
+            "last": 24.67
+          }
+        }
+      },
+      {
+        "company": "Bombay Coated & Special Steels",
+        "records": 131,
+        "first_score_pct": 53.34467696973611,
+        "latest_score_pct": 54.571117173969455,
+        "latest_recorded_at_ist": "2026-10-26T18:15:07.879937+05:30",
+        "kind": "pre_bidding_estimate",
+        "listing_date": "2026-11-05",
+        "quality": "provisional_missing_inputs",
+        "missing_model_features": [
+          "log_hni",
+          "log_hni_growth",
+          "log_qib",
+          "log_qib_growth",
+          "log_retail",
+          "log_retail_growth",
+          "pub_ipo_earnings_yield_pct",
+          "pub_log_ipo_price_book"
+        ],
+        "application_screen": "DATA_PENDING",
+        "missing_screen_inputs": [
+          "qib",
+          "nii",
+          "retail",
+          "ofs_ratio",
+          "retail_quota_pct",
+          "total_mult"
+        ],
+        "latest_category_multiples": {
+          "qib": null,
+          "hni": null,
+          "retail": null
+        },
+        "changed_features": {
+          "gmp_slope_pp_per_day": {
+            "first": 0.0,
+            "last": 1.2200000000000006
+          },
+          "gmp_pct": {
+            "first": 9.76,
+            "last": 10.98
+          }
+        }
+      },
+      {
+        "company": "EAAA India Alternatives",
+        "records": 131,
+        "first_score_pct": 58.63100275271942,
+        "latest_score_pct": 46.722682526249784,
+        "latest_recorded_at_ist": "2026-10-26T18:15:07.372306+05:30",
+        "kind": "pre_close_forecast",
+        "listing_date": "2026-11-02",
+        "quality": "provisional_missing_inputs",
+        "missing_model_features": [
+          "log_hni_growth",
+          "log_qib_growth",
+          "log_retail_growth"
+        ],
+        "application_screen": "DATA_PENDING",
+        "missing_screen_inputs": [
+          "ofs_ratio",
+          "retail_quota_pct",
+          "total_mult"
+        ],
+        "latest_category_multiples": {
+          "qib": 0.07934909308246296,
+          "hni": 0.31814111251119415,
+          "retail": 0.04025787197878214
+        },
+        "changed_features": {
+          "log_retail": {
+            "first": null,
+            "last": 0.039468636243564045
+          },
+          "context_bnii_mult": {
+            "first": null,
+            "last": 0.46576400941489743
+          },
+          "gmp_quote_age_days": {
+            "first": 1,
+            "last": 0
+          },
+          "gmp_slope_pp_per_day": {
+            "first": null,
+            "last": 0.2400000000000002
+          },
+          "context_snii_mult": {
+            "first": null,
+            "last": 0.022895318703787356
+          },
+          "gmp_pct": {
+            "first": 1.98,
+            "last": 2.22
+          },
+          "log_qib": {
+            "first": null,
+            "last": 0.07635816785423341
+          },
+          "log_hni": {
+            "first": null,
+            "last": 0.27622249598743437
+          }
+        }
+      },
+      {
+        "company": "M.K.Sons Fine Jewels",
+        "records": 131,
+        "first_score_pct": 50.13556169642214,
+        "latest_score_pct": 50.49220895347614,
+        "latest_recorded_at_ist": "2026-10-26T18:15:08.028169+05:30",
+        "kind": "pre_bidding_estimate",
+        "listing_date": "2026-11-04",
+        "quality": "provisional_missing_inputs",
+        "missing_model_features": [
+          "log_hni",
+          "log_hni_growth",
+          "log_qib",
+          "log_qib_growth",
+          "log_retail",
+          "log_retail_growth",
+          "pub_ipo_earnings_yield_pct",
+          "pub_log_ipo_price_book"
+        ],
+        "application_screen": "DATA_PENDING",
+        "missing_screen_inputs": [
+          "qib",
+          "nii",
+          "retail",
+          "ofs_ratio",
+          "retail_quota_pct",
+          "total_mult"
+        ],
+        "latest_category_multiples": {
+          "qib": null,
+          "hni": null,
+          "retail": null
+        },
+        "changed_features": {
+          "gmp_quote_age_days": {
+            "first": 1,
+            "last": 0
+          },
+          "gmp_slope_pp_per_day": {
+            "first": null,
+            "last": 0.3099999999999996
+          },
+          "gmp_pct": {
+            "first": 4.32,
+            "last": 4.63
+          }
+        }
+      },
+      {
+        "company": "SFC Environmental Technologies",
+        "records": 131,
+        "first_score_pct": 62.06588480841544,
+        "latest_score_pct": 60.94148987950814,
+        "latest_recorded_at_ist": "2026-10-26T18:15:05.814418+05:30",
+        "kind": "pre_bidding_estimate",
+        "listing_date": "2026-11-03",
+        "quality": "provisional_missing_inputs",
+        "missing_model_features": [
+          "log_hni",
+          "log_hni_growth",
+          "log_qib",
+          "log_qib_growth",
+          "log_retail",
+          "log_retail_growth",
+          "pub_ipo_earnings_yield_pct",
+          "pub_log_ipo_price_book"
+        ],
+        "application_screen": "DATA_PENDING",
+        "missing_screen_inputs": [
+          "qib",
+          "nii",
+          "retail",
+          "ofs_ratio",
+          "retail_quota_pct",
+          "total_mult"
+        ],
+        "latest_category_multiples": {
+          "qib": null,
+          "hni": null,
+          "retail": null
+        },
+        "changed_features": {
+          "gmp_quote_age_days": {
+            "first": 1,
+            "last": 0
+          },
+          "gmp_slope_pp_per_day": {
+            "first": null,
+            "last": -1.2199999999999989
+          },
+          "gmp_pct": {
+            "first": 9.7,
+            "last": 8.48
+          }
+        }
+      }
+    ]
+  },
+  "module2": {
+    "unique_instruments_with_candles": 59,
+    "distinct_minute_bars": 19704,
+    "candle_revisions": 19705,
+    "alerts": 93,
+    "alert_ipos": 26,
+    "earliest_live_alert_ist": "2026-10-26T14:45:10.990245+05:30",
+    "last_live_alert_ist": "2026-10-26T15:28:03.901246+05:30",
+    "same_day_close_event_rows": 55,
+    "same_day_close_ipos": 46,
+    "latest_close_verdicts": {
+      "WATCH / PRICE PULLBACK": 19,
+      "HOLD / CONSOLIDATION": 6,
+      "SELL / REDUCE": 19,
+      "HOLD (WATCH)": 2
+    },
+    "exploratory_15_minute": {
+      "evaluated": 52,
+      "excluded": 41,
+      "direction_matched": 23,
+      "always_up_matched": 18,
+      "flat": 2,
+      "by_signal": {
+        "REVIEW_EXIT": {
+          "logged": 20,
+          "evaluated": 10,
+          "matched": 8,
+          "unique_ipos": 8,
+          "mean_forward_return_pct": -0.2637585171711698
+        },
+        "VWAP_LOST": {
+          "logged": 39,
+          "evaluated": 23,
+          "matched": 11,
+          "unique_ipos": 16,
+          "mean_forward_return_pct": 0.16311698516023973
+        },
+        "VWAP_RECLAIMED": {
+          "logged": 34,
+          "evaluated": 19,
+          "matched": 4,
+          "unique_ipos": 13,
+          "mean_forward_return_pct": -0.17031120115915502
+        }
+      },
+      "records": [
+        {
+          "ipo_id": 622,
+          "company": "Deepa Jewellers Ltd.",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T14:45:11.544753+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:16:00+00:00",
+          "execution_proxy_close": 210.64999389648438,
+          "target_proxy_close": 209.3699951171875,
+          "forward_return_pct": -0.607642447844492,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 626,
+          "company": "Lumino Industries Ltd.",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T14:45:11.805934+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:16:00+00:00",
+          "execution_proxy_close": 89.9800033569336,
+          "target_proxy_close": 89.87000274658203,
+          "forward_return_pct": -0.12225006251134207,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 635,
+          "company": "Shankesh Jewellers Ltd.",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T14:45:12.718631+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:16:00+00:00",
+          "execution_proxy_close": 91.41999816894531,
+          "target_proxy_close": 91.2300033569336,
+          "forward_return_pct": -0.20782631351687897,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2497,
+          "company": "German Green Steel & Power",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T14:45:13.359201+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:16:00+00:00",
+          "execution_proxy_close": 97.66000366210938,
+          "target_proxy_close": 98.8499984741211,
+          "forward_return_pct": 1.2185078511044667,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 2936,
+          "company": "Moneyview",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T14:45:13.462599+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:16:00+00:00",
+          "execution_proxy_close": 50.72999954223633,
+          "target_proxy_close": 50.84000015258789,
+          "forward_return_pct": 0.21683542547634715,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 2563,
+          "company": "Varmora Granito",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T14:45:13.847368+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:16:00+00:00",
+          "execution_proxy_close": 123.05000305175781,
+          "target_proxy_close": 122.30999755859375,
+          "forward_return_pct": -0.6013860014719374,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2974,
+          "company": "Nityas Gems & Jewellery",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T14:47:08.646348+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:18:00+00:00",
+          "execution_proxy_close": 68.63999938964844,
+          "target_proxy_close": 68.4000015258789,
+          "forward_return_pct": -0.3496472405355555,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2532,
+          "company": "Orient Cables (India)",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T14:47:08.874924+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:18:00+00:00",
+          "execution_proxy_close": 346.0,
+          "target_proxy_close": 346.0,
+          "forward_return_pct": 0.0,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": true
+        },
+        {
+          "ipo_id": 631,
+          "company": "Augmont Enterprises Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T14:48:08.304413+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:19:00+00:00",
+          "execution_proxy_close": 1054.5999755859375,
+          "target_proxy_close": 1056.4000244140625,
+          "forward_return_pct": 0.170685460818909,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 621,
+          "company": "Rays of Belief Ltd.",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T14:50:10.183344+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:21:00+00:00",
+          "execution_proxy_close": 258.8999938964844,
+          "target_proxy_close": 256.8699951171875,
+          "forward_return_pct": -0.7840860668805294,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2805,
+          "company": "Sonaselection India",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T14:50:15.133586+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:21:00+00:00",
+          "execution_proxy_close": 100.26000213623047,
+          "target_proxy_close": 99.05999755859375,
+          "forward_return_pct": -1.1968926312271422,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 3215,
+          "company": "Tonbo Imaging India",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T14:52:14.156489+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:23:00+00:00",
+          "execution_proxy_close": 1257.300048828125,
+          "target_proxy_close": 1216.699951171875,
+          "forward_return_pct": -3.2291494535526044,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2974,
+          "company": "Nityas Gems & Jewellery",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T14:54:02.918871+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:25:00+00:00",
+          "execution_proxy_close": 68.5999984741211,
+          "target_proxy_close": 69.73999786376953,
+          "forward_return_pct": 1.6618067274134063,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 2974,
+          "company": "Nityas Gems & Jewellery",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T14:55:03.381610+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:26:00+00:00",
+          "execution_proxy_close": 68.54000091552734,
+          "target_proxy_close": 69.58999633789062,
+          "forward_return_pct": 1.531945445488625,
+          "expected_up": true,
+          "direction_matched": true,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 2532,
+          "company": "Orient Cables (India)",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T14:55:03.676798+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:26:00+00:00",
+          "execution_proxy_close": 346.6499938964844,
+          "target_proxy_close": 345.04998779296875,
+          "forward_return_pct": -0.46156242079536947,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 3215,
+          "company": "Tonbo Imaging India",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T14:55:04.731745+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:26:00+00:00",
+          "execution_proxy_close": 1242.8499755859375,
+          "target_proxy_close": 1226.75,
+          "forward_return_pct": -1.295407804819504,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2858,
+          "company": "SRIT India",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T14:56:03.401414+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:27:00+00:00",
+          "execution_proxy_close": 105.62000274658203,
+          "target_proxy_close": 107.9800033569336,
+          "forward_return_pct": 2.2344258180091225,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 617,
+          "company": "Glass Wall Systems (India) Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T14:58:02.234937+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:29:00+00:00",
+          "execution_proxy_close": 212.8000030517578,
+          "target_proxy_close": 212.64999389648438,
+          "forward_return_pct": -0.07049302308371752,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2657,
+          "company": "Shah Investor's Home",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T14:58:03.719935+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:29:00+00:00",
+          "execution_proxy_close": 135.4600067138672,
+          "target_proxy_close": 135.16000366210938,
+          "forward_return_pct": -0.2214698338170895,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2974,
+          "company": "Nityas Gems & Jewellery",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T14:59:03.299428+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:30:00+00:00",
+          "execution_proxy_close": 68.33999633789062,
+          "target_proxy_close": 69.33999633789062,
+          "forward_return_pct": 1.4632719543263395,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 2287,
+          "company": "Swastika Infra",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T14:59:03.859642+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:30:00+00:00",
+          "execution_proxy_close": 193.85000610351562,
+          "target_proxy_close": 193.7100067138672,
+          "forward_return_pct": -0.07222047213848448,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 620,
+          "company": "Pranav Constructions Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:00:02.385181+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:31:00+00:00",
+          "execution_proxy_close": 85.41999816894531,
+          "target_proxy_close": 85.16999816894531,
+          "forward_return_pct": -0.29267151177589934,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 3091,
+          "company": "Zetwerk Manufacturing Business",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:00:04.723789+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:31:00+00:00",
+          "execution_proxy_close": 144.5800018310547,
+          "target_proxy_close": 142.92999267578125,
+          "forward_return_pct": -1.1412430034421495,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 3091,
+          "company": "Zetwerk Manufacturing Business",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:01:05.645999+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:32:00+00:00",
+          "execution_proxy_close": 144.88999938964844,
+          "target_proxy_close": 143.55999755859375,
+          "forward_return_pct": -0.9179390134980592,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2287,
+          "company": "Swastika Infra",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:02:03.938294+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:33:00+00:00",
+          "execution_proxy_close": 194.0,
+          "target_proxy_close": 193.57000732421875,
+          "forward_return_pct": -0.22164570916559656,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2805,
+          "company": "Sonaselection India",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:02:04.036165+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:33:00+00:00",
+          "execution_proxy_close": 99.12999725341797,
+          "target_proxy_close": 99.27999877929688,
+          "forward_return_pct": 0.15131799660543788,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 620,
+          "company": "Pranav Constructions Ltd.",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:03:02.543419+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:34:00+00:00",
+          "execution_proxy_close": 85.3499984741211,
+          "target_proxy_close": 85.20999908447266,
+          "forward_return_pct": -0.1640297506166788,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 611,
+          "company": "LCC Projects Ltd.",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:06:02.046719+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:37:00+00:00",
+          "execution_proxy_close": 118.44999694824219,
+          "target_proxy_close": 118.04000091552734,
+          "forward_return_pct": -0.3461342703908965,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2858,
+          "company": "SRIT India",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:06:03.545372+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:37:00+00:00",
+          "execution_proxy_close": 106.76000213623047,
+          "target_proxy_close": 107.69999694824219,
+          "forward_return_pct": 0.880474703262224,
+          "expected_up": true,
+          "direction_matched": true,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 2532,
+          "company": "Orient Cables (India)",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:06:03.637347+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:37:00+00:00",
+          "execution_proxy_close": 345.5,
+          "target_proxy_close": 345.6000061035156,
+          "forward_return_pct": 0.028945326632601187,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 621,
+          "company": "Rays of Belief Ltd.",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T15:07:02.564244+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:38:00+00:00",
+          "execution_proxy_close": 257.0,
+          "target_proxy_close": 256.1600036621094,
+          "forward_return_pct": -0.32684682408195,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 631,
+          "company": "Augmont Enterprises Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:07:03.116681+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:38:00+00:00",
+          "execution_proxy_close": 1057.0,
+          "target_proxy_close": 1046.0,
+          "forward_return_pct": -1.040681173131508,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2974,
+          "company": "Nityas Gems & Jewellery",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:07:03.462759+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:38:00+00:00",
+          "execution_proxy_close": 68.98999786376953,
+          "target_proxy_close": 69.69999694824219,
+          "forward_return_pct": 1.0291333620195964,
+          "expected_up": true,
+          "direction_matched": true,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 3091,
+          "company": "Zetwerk Manufacturing Business",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:07:04.855872+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:38:00+00:00",
+          "execution_proxy_close": 143.3800048828125,
+          "target_proxy_close": 145.05999755859375,
+          "forward_return_pct": 1.171706387619631,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 611,
+          "company": "LCC Projects Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:08:02.094697+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:39:00+00:00",
+          "execution_proxy_close": 118.37000274658203,
+          "target_proxy_close": 118.08000183105469,
+          "forward_return_pct": -0.24499527650447828,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 634,
+          "company": "Sunshine Pictures Ltd.",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T15:08:03.578073+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:39:00+00:00",
+          "execution_proxy_close": 393.0,
+          "target_proxy_close": 392.79998779296875,
+          "forward_return_pct": -0.05089369135655719,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 3007,
+          "company": "Adroit Industries (India)",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:08:04.246258+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:39:00+00:00",
+          "execution_proxy_close": 162.36000061035156,
+          "target_proxy_close": 161.72999572753906,
+          "forward_return_pct": -0.38802961347877973,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 588,
+          "company": "Kalpataru Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:08:05.018307+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:39:00+00:00",
+          "execution_proxy_close": 247.4499969482422,
+          "target_proxy_close": 246.89999389648438,
+          "forward_return_pct": -0.22226836069545453,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 620,
+          "company": "Pranav Constructions Ltd.",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:09:02.649264+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:40:00+00:00",
+          "execution_proxy_close": 85.26000213623047,
+          "target_proxy_close": 85.05000305175781,
+          "forward_return_pct": -0.24630433874153201,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 621,
+          "company": "Rays of Belief Ltd.",
+          "signal": "REVIEW_EXIT",
+          "observed_at_ist": "2026-10-26T15:09:02.747226+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:40:00+00:00",
+          "execution_proxy_close": 256.9200134277344,
+          "target_proxy_close": 253.64999389648438,
+          "forward_return_pct": -1.2727772693230777,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 627,
+          "company": "Annu Projects Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:09:03.038206+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:40:00+00:00",
+          "execution_proxy_close": 37.95000076293945,
+          "target_proxy_close": 37.970001220703125,
+          "forward_return_pct": 0.05270212743500036,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 611,
+          "company": "LCC Projects Ltd.",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:10:02.090537+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:41:00+00:00",
+          "execution_proxy_close": 118.37000274658203,
+          "target_proxy_close": 118.16000366210938,
+          "forward_return_pct": -0.1774090391146177,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 620,
+          "company": "Pranav Constructions Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:10:02.611218+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:41:00+00:00",
+          "execution_proxy_close": 85.29000091552734,
+          "target_proxy_close": 85.12000274658203,
+          "forward_return_pct": -0.19931781817388305,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 3007,
+          "company": "Adroit Industries (India)",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:10:05.725142+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:41:00+00:00",
+          "execution_proxy_close": 162.67999267578125,
+          "target_proxy_close": 162.66000366210938,
+          "forward_return_pct": -0.012287321472725932,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 611,
+          "company": "LCC Projects Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:11:02.106010+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:42:00+00:00",
+          "execution_proxy_close": 117.95999908447266,
+          "target_proxy_close": 118.30999755859375,
+          "forward_return_pct": 0.2967094581532326,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 620,
+          "company": "Pranav Constructions Ltd.",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:11:02.615697+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:42:00+00:00",
+          "execution_proxy_close": 85.1500015258789,
+          "target_proxy_close": 85.02999877929688,
+          "forward_return_pct": -0.14093099757086502,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 627,
+          "company": "Annu Projects Ltd.",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:11:02.977751+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:42:00+00:00",
+          "execution_proxy_close": 37.880001068115234,
+          "target_proxy_close": 37.880001068115234,
+          "forward_return_pct": 0.0,
+          "expected_up": true,
+          "direction_matched": false,
+          "always_up_matched": false,
+          "flat": true
+        },
+        {
+          "ipo_id": 620,
+          "company": "Pranav Constructions Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:12:02.605937+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:43:00+00:00",
+          "execution_proxy_close": 85.16000366210938,
+          "target_proxy_close": 85.2300033569336,
+          "forward_return_pct": 0.08219785323395623,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 626,
+          "company": "Lumino Industries Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:12:02.955863+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:43:00+00:00",
+          "execution_proxy_close": 89.75,
+          "target_proxy_close": 89.72000122070312,
+          "forward_return_pct": -0.033424823729111264,
+          "expected_up": false,
+          "direction_matched": true,
+          "always_up_matched": false,
+          "flat": false
+        },
+        {
+          "ipo_id": 2936,
+          "company": "Moneyview",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:12:04.192726+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:43:00+00:00",
+          "execution_proxy_close": 51.09000015258789,
+          "target_proxy_close": 51.45000076293945,
+          "forward_return_pct": 0.7046400651328444,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 588,
+          "company": "Kalpataru Ltd.",
+          "signal": "VWAP_LOST",
+          "observed_at_ist": "2026-10-26T15:12:05.022812+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:43:00+00:00",
+          "execution_proxy_close": 246.1999969482422,
+          "target_proxy_close": 247.4499969482422,
+          "forward_return_pct": 0.5077173092990606,
+          "expected_up": false,
+          "direction_matched": false,
+          "always_up_matched": true,
+          "flat": false
+        },
+        {
+          "ipo_id": 2936,
+          "company": "Moneyview",
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_ist": "2026-10-26T15:13:04.187489+05:30",
+          "execution_proxy_bar_start_utc": "2026-10-26T09:44:00+00:00",
+          "execution_proxy_close": 51.099998474121094,
+          "target_proxy_close": 51.68000030517578,
+          "forward_return_pct": 1.1350329713775364,
+          "expected_up": true,
+          "direction_matched": true,
+          "always_up_matched": true,
+          "flat": false
+        }
+      ],
+      "excluded_records": [
+        {
+          "ipo_id": 621,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:15:10.990245+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2805,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:17:09.400780+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2532,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:24:03.140823+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2805,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:24:03.556525+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2805,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:27:04.282280+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2657,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:36:03.562581+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 588,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:40:06.451179+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:44:02.968040+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:45:03.020845+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2657,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:45:03.848571+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2532,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:45:04.003456+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:47:03.086895+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2287,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:47:04.488331+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:48:02.953307+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2563,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:48:04.107822+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:49:02.873535+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 634,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:49:03.287792+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2657,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:49:03.552456+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 3007,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:49:03.871765+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:50:04.527551+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2532,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:50:06.785319+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2563,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:50:07.293943+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 458,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:50:07.706408+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 3091,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:50:08.194976+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:51:02.989997+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 458,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:52:04.598344+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:53:03.148584+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2657,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:54:03.684681+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:55:02.964711+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 634,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:55:06.259531+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 458,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:55:10.415615+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 588,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:55:10.480615+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 617,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:56:02.549181+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 623,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:56:02.948093+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2563,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:56:04.681894+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 617,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:57:02.485886+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 625,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:57:02.911536+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 626,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:57:02.959262+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2532,
+          "signal": "VWAP_RECLAIMED",
+          "observed_at_utc": "2026-10-26T09:57:03.766736+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2657,
+          "signal": "REVIEW_EXIT",
+          "observed_at_utc": "2026-10-26T09:58:03.748545+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        },
+        {
+          "ipo_id": 2532,
+          "signal": "VWAP_LOST",
+          "observed_at_utc": "2026-10-26T09:58:03.901246+00:00",
+          "reason": "Execution or exact 15-minute target candle missing, or horizon beyond session"
+        }
+      ],
+      "limitations": [
+        "Horizon was chosen after collection for a descriptive check, not a pre-registered accuracy test.",
+        "Repeated and overlapping alerts on the same IPO are correlated; these are not independent test cases.",
+        "Execution is a next-full-minute closing-price proxy, not a verified fill; no costs, spread or circuit liquidity are modelled.",
+        "Only the afternoon after intraday collection was enabled is prospective; earlier downloaded candles are historical.",
+        "First captured version per candle is used; no future candle affects the saved alert."
+      ],
+      "always_down_matched": 32
+    }
+  }
+}

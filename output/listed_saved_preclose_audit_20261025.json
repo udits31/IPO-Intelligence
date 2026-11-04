@@ -1,0 +1,2496 @@
+{
+  "records": [
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "HD Fire Protect",
+      "cutoff_at_ist": "2026-10-15T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2628",
+        "company_name": "HD Fire Protect",
+        "listing_date": "2026-10-21",
+        "issue_price": 271.0,
+        "nse_open_price": 335.0,
+        "nse_symbol": "HDFIRE",
+        "isin": "INE18AK01028",
+        "archive_sha256": "7d19ef4c8f7e3bf80828a7a33c4fe7d2cd8a56cbecc5e2ce42ce81a35e2ba243",
+        "recorded_at_ist": "2026-10-21T17:30:38+05:30",
+        "actual_open": 335.0,
+        "return_pct": 23.616236162361616,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-10-15T16:44:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:16+05:30",
+          "qib": 256.65,
+          "hni": 203.08,
+          "retail": 30.1,
+          "source": "https://theipolist.in/ipo-details/hd-fire-protect",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "04e8089b13c3054f1d01c7ebf19df7df9f9cd3585030064d23fdb045ccadd757"
+        },
+        {
+          "observed_at_ist": "2026-10-14T17:00:07+05:30",
+          "recovered_at_ist": "2026-10-14T17:00:07+05:30",
+          "qib": 1.491796549545728,
+          "hni": 48.65978934411324,
+          "retail": 11.314225013044055,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "288f528f3002421e58f899e7d1da11c7c8ee46bd7413786f564a99d1e780f349"
+        },
+        {
+          "observed_at_ist": "2026-10-14T17:00:07+05:30",
+          "recovered_at_ist": "2026-10-14T17:00:07+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "8181947a28d8d5995c36ea46847a2e43ecaa4a12d44ec118b675ffba84ac0751"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:55:14+05:30",
+          "recovered_at_ist": "2026-10-14T16:55:14+05:30",
+          "qib": 1.4870337110542104,
+          "hni": 48.33167811332895,
+          "retail": 11.26240030030485,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "53fd49cd558be6eec708531da92638c9b4890e76a664b047c93c1dc02e177bc8"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:55:14+05:30",
+          "recovered_at_ist": "2026-10-14T16:55:14+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "06a14fd4930e73b0b155d5760b80e09c3c39b477797a55834793e5a11f929998"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:50:12+05:30",
+          "recovered_at_ist": "2026-10-14T16:50:12+05:30",
+          "qib": 1.4865930960395768,
+          "hni": 48.020687918759,
+          "retail": 11.205707841267872,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "e080cbba71c6c3911d734864087f20390704db6b775ecdf0d0dfe4271775da01"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:50:12+05:30",
+          "recovered_at_ist": "2026-10-14T16:50:12+05:30",
+          "qib": 1.48,
+          "hni": 42.04,
+          "retail": 10.41,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "b3f27ef2d6264164d083fe17a76ca80e6cb3241cc2de855393cfc0588ef48933"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:45:10+05:30",
+          "recovered_at_ist": "2026-10-14T16:45:10+05:30",
+          "qib": 1.4858797193492173,
+          "hni": 47.58759843896434,
+          "retail": 11.16085503609555,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "1b48f0a9aab24f8176b3b4e35e88df53c20e44c73484a0f95de5869f5460f60d"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:45:10+05:30",
+          "recovered_at_ist": "2026-10-14T16:45:10+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "ab14fe1d7f840175259d3f8244ec61a9b401885cb7af54489b01ee89c8f847ef"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:40:07+05:30",
+          "recovered_at_ist": "2026-10-14T16:40:07+05:30",
+          "qib": 1.4857328476776728,
+          "hni": 47.08573107104391,
+          "retail": 11.085950491772081,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "ef762329cecd2ad549b702a7d5f28242c28c2e7a70c9ddba7af6e28869b30460"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:40:07+05:30",
+          "recovered_at_ist": "2026-10-14T16:40:07+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "d6adb98b0469b31e9d159d24f3e850e5ab91ccaadfb6ccb146a5f55371830161"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:35:05+05:30",
+          "recovered_at_ist": "2026-10-14T16:35:05+05:30",
+          "qib": 1.484725727644224,
+          "hni": 46.72024450630149,
+          "retail": 11.052379827649519,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "627c0e398feaef9e14fa1bb6e07f3bdf42206d61a8ceccca54b188758748babb"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:35:05+05:30",
+          "recovered_at_ist": "2026-10-14T16:35:05+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "703672df6636eaf41a5062ef601b70274ac7d592bd9c2c4f413d08a3b0461717"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:30:03+05:30",
+          "recovered_at_ist": "2026-10-14T16:30:03+05:30",
+          "qib": 1.4845788559726796,
+          "hni": 46.19340896056846,
+          "retail": 11.000327313975195,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "7faac2419cbc757786a45c72fc76a537bbc001aca17522af538c44f3e1e42d11"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:30:03+05:30",
+          "recovered_at_ist": "2026-10-14T16:30:03+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "d9956bca1c3db637aa87797dd29e92ed6786d53d3be59fe32b9b9ac866b38db9"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:25:01+05:30",
+          "recovered_at_ist": "2026-10-14T16:25:01+05:30",
+          "qib": 1.483571735939231,
+          "hni": 45.62097326936258,
+          "retail": 10.938251559155706,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "7c8e183519681901a9ca86861e3676a35d850aeb1be421c32a21012fb90e1b6a"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:25:01+05:30",
+          "recovered_at_ist": "2026-10-14T16:25:01+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "c930199c56da50c54bc951848aca033724824cda6f446d9d69185fe0b13f01d0"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:20:13+05:30",
+          "recovered_at_ist": "2026-10-14T16:20:13+05:30",
+          "qib": 1.4834248642676864,
+          "hni": 45.46659020016506,
+          "retail": 10.87633166813393,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "9e2b659f46fadfc5b2b4da28592b5e6e9e896b73902f99a746d9a51af9c0bb1c"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:20:13+05:30",
+          "recovered_at_ist": "2026-10-14T16:20:13+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "93457be86ad0beb9d0b0fe350099a89af2fa84ccd53244e908bb15485e84b667"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:15:11+05:30",
+          "recovered_at_ist": "2026-10-14T16:15:11+05:30",
+          "qib": 1.4834248642676864,
+          "hni": 45.39596592578087,
+          "retail": 10.858461284250115,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "f8365536039e3c6d4063214b2bf3d6b2f405ad477762cd7e590eb6f73c65fb1d"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:15:11+05:30",
+          "recovered_at_ist": "2026-10-14T16:15:11+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "af46ce2b8d1004f85e00ec6d521cc2f95fa42cd70ca40f759676657041b650a4"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:10:09+05:30",
+          "recovered_at_ist": "2026-10-14T16:10:09+05:30",
+          "qib": 1.480990990853519,
+          "hni": 45.169126183715434,
+          "retail": 10.798501680222639,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "bbff2593f1ca7dc2cc569d4ff2375b22b52643a8195e3d7c334b8ef188b0343f"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:10:09+05:30",
+          "recovered_at_ist": "2026-10-14T16:10:09+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "d3789954f673ac3dd34e582b53cef1dd7df42623d5896349392f9957c0b8cdca"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:05:07+05:30",
+          "recovered_at_ist": "2026-10-14T16:05:07+05:30",
+          "qib": 1.4806972475104299,
+          "hni": 44.96336601810018,
+          "retail": 10.734483622693203,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "0526a3ab1a7a7ee199dbbe6e63e8efbf7e01135fd65c8bdac5c14b3ab42203da"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:05:07+05:30",
+          "recovered_at_ist": "2026-10-14T16:05:07+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "3d6b2e81ee20116de0030f200161b48fef8d396fc068bc61471f78738a480a7d"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:00:05+05:30",
+          "recovered_at_ist": "2026-10-14T16:00:05+05:30",
+          "qib": 1.4806972475104299,
+          "hni": 44.84255360814648,
+          "retail": 10.710528555937174,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "9770fcfdb707dbae4862a72a2c930ec151d90e24b2ab285e9427161dd09ab00a"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:00:05+05:30",
+          "recovered_at_ist": "2026-10-14T16:00:05+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "5a1e023020bd47fd9ad6fa12e5fef721964302fa6a0f165fd7e1cabec0747d0a"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:55:13+05:30",
+          "recovered_at_ist": "2026-10-14T15:55:13+05:30",
+          "qib": 1.4798369991485258,
+          "hni": 44.57868822649005,
+          "retail": 10.638501497109926,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "4d00ebaf9b073c9488194362908e79202c2d75ca635627ca6f7c48347044dd4d"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:55:13+05:30",
+          "recovered_at_ist": "2026-10-14T15:55:13+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "c4f116b3de33fcd982a848257ba934383f3803cb9620f12cf70c4e043a340f93"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:50:11+05:30",
+          "recovered_at_ist": "2026-10-14T15:50:11+05:30",
+          "qib": 1.4759344090189126,
+          "hni": 42.49630023359584,
+          "retail": 10.519961084188576,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "dd7cb401578f6472010df87b03f8340c0cefcb2ac91b45e63a6d569e79311015"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:50:11+05:30",
+          "recovered_at_ist": "2026-10-14T15:50:11+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "8b8d1a80c2679f9d6b9e0d28032688d87ac3eae999bd05c486380f8298b74880"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:45:09+05:30",
+          "recovered_at_ist": "2026-10-14T15:45:09+05:30",
+          "qib": 1.4759344090189126,
+          "hni": 42.38653816564323,
+          "retail": 10.496719394045153,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "cf0d64e7f4da855c01b430b0c92cdeb74180ffa9bec353fbefdf356d92ec23bb"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:45:09+05:30",
+          "recovered_at_ist": "2026-10-14T15:45:09+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "b38e9eecd03a39fde85481bbb0ac72a7eb052a355f119fa7623480dc25bee35d"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:40:07+05:30",
+          "recovered_at_ist": "2026-10-14T15:40:07+05:30",
+          "qib": 1.475787537347368,
+          "hni": 42.15768418402316,
+          "retail": 10.43235364035159,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "2414ac7fb54e3b85a2b381ad6732dd9cd7abfaf7a50b99ad5453dfe011fd291b"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:40:07+05:30",
+          "recovered_at_ist": "2026-10-14T15:40:07+05:30",
+          "qib": 1.43,
+          "hni": 36.96,
+          "retail": 9.43,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "c98615bdfa59900bdc4d4375bc4977fa2602bbe1b6350a7727270ef2b816a966"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:35:04+05:30",
+          "recovered_at_ist": "2026-10-14T15:35:04+05:30",
+          "qib": 1.475787537347368,
+          "hni": 42.01576422206991,
+          "retail": 10.389107431247988,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "0bb5e5ec40f2ec5cd3328d34a01e30b2df0925564beb00aba14c11c1a3babaa2"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:35:04+05:30",
+          "recovered_at_ist": "2026-10-14T15:35:04+05:30",
+          "qib": 1.06,
+          "hni": 24.53,
+          "retail": 6.97,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "a3810f9ed8f1026eb75a171cd8025f25610d29b6250eeb45330c7f32d8cb3505"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:30:02+05:30",
+          "recovered_at_ist": "2026-10-14T15:30:02+05:30",
+          "qib": 1.4665556037074226,
+          "hni": 41.46029570155684,
+          "retail": 10.2825025883745,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "f63bf3c7672fb587d9a8b252b933e17362c1699857839077d9149d6c4c0f6314"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:30:02+05:30",
+          "recovered_at_ist": "2026-10-14T15:30:02+05:30",
+          "qib": 1.06,
+          "hni": 24.53,
+          "retail": 6.97,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "b2026887e73aff8cb0bd1dee1a9cca7b0d266521c3c03a6632f244ff64f3f5d2"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:25:15+05:30",
+          "recovered_at_ist": "2026-10-14T15:25:15+05:30",
+          "qib": 1.4665556037074226,
+          "hni": 41.30696171546069,
+          "retail": 10.232907926894866,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "3257c3c42b81c695239a0da40636455f3c0c6fd290499b20f408322e9e5fde96"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:25:15+05:30",
+          "recovered_at_ist": "2026-10-14T15:25:15+05:30",
+          "qib": 1.06,
+          "hni": 24.53,
+          "retail": 6.97,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "eeb836101b4005c49c7847115043dacdccef101a19b0b065ab3195dcc08a6448"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:20:10+05:30",
+          "recovered_at_ist": "2026-10-14T15:20:10+05:30",
+          "qib": 1.439384344471674,
+          "hni": 40.70322138450994,
+          "retail": 10.129833998515696,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "cc7b21fd24d78bf9f21fd5cbbd86acea0a32417e7c98425515219b24bacc43d6"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:20:10+05:30",
+          "recovered_at_ist": "2026-10-14T15:20:10+05:30",
+          "qib": 1.06,
+          "hni": 25.66,
+          "retail": 7.28,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "26898a380d9a82dfb6e92241603948763a8641c502b2085d37f1902c190ab01d"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:15:13+05:30",
+          "recovered_at_ist": "2026-10-14T15:15:13+05:30",
+          "qib": 1.4389437294570402,
+          "hni": 40.3749702759788,
+          "retail": 10.063268167369817,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "e6b966bd7757d4be801bf856ba14abeced82edb1d95be2fb440457f7dd62953a"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:15:13+05:30",
+          "recovered_at_ist": "2026-10-14T15:15:13+05:30",
+          "qib": 1.06,
+          "hni": 25.66,
+          "retail": 7.28,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "c5eb5340a715d171030c0677951132676f2556dc1e280772795894bf874e809b"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:10:10+05:30",
+          "recovered_at_ist": "2026-10-14T15:10:10+05:30",
+          "qib": 1.4387968577854957,
+          "hni": 39.92671804842568,
+          "retail": 9.974563682187394,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "92a9441a6fb7326df85cd4653136ce7853e783b3a26a27e3870570c47767a9e7"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:10:10+05:30",
+          "recovered_at_ist": "2026-10-14T15:10:10+05:30",
+          "qib": 1.06,
+          "hni": 25.66,
+          "retail": 7.28,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "dbab91e0bbb072c9a700c981dd91de6e3a5ef000e73cd4e103615b70426fa62e"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:05:05+05:30",
+          "recovered_at_ist": "2026-10-14T15:05:05+05:30",
+          "qib": 1.4380624994277726,
+          "hni": 39.742834762417644,
+          "retail": 9.923056691805064,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "5d75a1287cea0ce9c33f961920b69d1736abc0a06ed5ca255e995f375bb381ff"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:05:05+05:30",
+          "recovered_at_ist": "2026-10-14T15:05:05+05:30",
+          "qib": 1.06,
+          "hni": 24.53,
+          "retail": 6.97,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "f2fa2745543010592b90e481741a4f020ea90ce12dffed85b6d8ed4a1f5ca6c0"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:00:17+05:30",
+          "recovered_at_ist": "2026-10-14T15:00:17+05:30",
+          "qib": 1.4379156277562282,
+          "hni": 39.44394399295016,
+          "retail": 9.833339091937514,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "21027577738fbcadfe564fa6fc1570d71a8d647918b49b1a4c7b4462d3e72f43"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:00:16+05:30",
+          "recovered_at_ist": "2026-10-14T15:00:16+05:30",
+          "qib": 1.06,
+          "hni": 25.66,
+          "retail": 7.28,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "89cae5e7e1aef3d151f85a426fa91d873d3910292adda5291c45b8146a29c07e"
+        },
+        {
+          "observed_at_ist": "2026-10-14T14:55:53+05:30",
+          "recovered_at_ist": "2026-10-14T14:55:53+05:30",
+          "qib": 1.4294809974760962,
+          "hni": 38.95895986907443,
+          "retail": 9.748483243606287,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "48449666de720cf22ccff7cbf76e61641cbc1f193393b2da5873e16e4860d149"
+        },
+        {
+          "observed_at_ist": "2026-10-14T14:55:52+05:30",
+          "recovered_at_ist": "2026-10-14T14:55:52+05:30",
+          "qib": 1.06,
+          "hni": 24.53,
+          "retail": 6.97,
+          "source": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
+          "evidence": "captured_before_close",
+          "raw_sha256": "450afbcdf71ca203ea376abe4fa1ca8bed7b777d5a0931fcf252f995b710e67f"
+        },
+        {
+          "observed_at_ist": "2026-10-13T17:00:12+05:30",
+          "recovered_at_ist": "2026-10-13T17:00:12+05:30",
+          "qib": 1.040669719562849,
+          "hni": 11.315522233567862,
+          "retail": 3.7615149830342802,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "bea68c66c348b9e8e94b1740d904e38f514986d3ed1dd50ac849d7912025f262"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:55:07+05:30",
+          "recovered_at_ist": "2026-10-13T16:55:07+05:30",
+          "qib": 1.040669719562849,
+          "hni": 11.26428501489698,
+          "retail": 3.740209600839354,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "b6054985e050d78726cc48f91b301a462507dfc969e8bda07240ed85b2b7fa09"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:50:06+05:30",
+          "recovered_at_ist": "2026-10-13T16:50:06+05:30",
+          "qib": 1.040669719562849,
+          "hni": 11.17971492915192,
+          "retail": 3.709192705094686,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "be603a145dc7c503ed209958e246fc1c2aa83b0ce8857d52860059541fb7bf24"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:45:04+05:30",
+          "recovered_at_ist": "2026-10-13T16:45:04+05:30",
+          "qib": 1.040669719562849,
+          "hni": 11.153264047222727,
+          "retail": 3.6985040454285203,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "94cfbe30898e5ee8728cd57750ddc3189889fcd78ed070abbc07c57db9fab4d9"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:40:03+05:30",
+          "recovered_at_ist": "2026-10-13T16:40:03+05:30",
+          "qib": 1.040669719562849,
+          "hni": 10.99153739631562,
+          "retail": 3.6745429839110413,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "64fdf132927a9a64389a16427ccf9c03ddf6d1fa576a90f4bcb571df8bf813f2"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:35:02+05:30",
+          "recovered_at_ist": "2026-10-13T16:35:02+05:30",
+          "qib": 1.040669719562849,
+          "hni": 10.91730427606272,
+          "retail": 3.6580034370692287,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "b0a5c216dbdbe4b3bb4fe898fd2e4e80b98471cc0b2fa0bab3d94be897e2875b"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:30:01+05:30",
+          "recovered_at_ist": "2026-10-13T16:30:01+05:30",
+          "qib": 1.0405228478913042,
+          "hni": 10.840385503070317,
+          "retail": 3.632789470408604,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "875fc01225205b6100d38c3447bea8114c7ee9ee2e24beab87d368d606bce4d7"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:25:14+05:30",
+          "recovered_at_ist": "2026-10-13T16:25:14+05:30",
+          "qib": 1.0442156213472824,
+          "hni": 14.159950203522122,
+          "retail": 4.501616242184875,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "b85e31425baa5714ae11eea567cc71908c4d4c979197e5838c66579b3d3f699c"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:20:13+05:30",
+          "recovered_at_ist": "2026-10-13T16:20:13+05:30",
+          "qib": 1.0299480875400941,
+          "hni": 10.34223888321607,
+          "retail": 3.5595634592912644,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "e34da4fc20029e2d64069dceb49a9d96052882fe60191ee99c4cee26ecefae46"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:15:12+05:30",
+          "recovered_at_ist": "2026-10-13T16:15:12+05:30",
+          "qib": 1.0299480875400941,
+          "hni": 10.299408317130828,
+          "retail": 3.549138569128919,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "9add88f9db3f7eac228164f701f146d1ddf5bca818dce6ed3fc23dc378b25a79"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:10:10+05:30",
+          "recovered_at_ist": "2026-10-13T16:10:10+05:30",
+          "qib": 1.0439218780041932,
+          "hni": 13.38518135149879,
+          "retail": 4.386696665179603,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "99efb6226172b66697f86cb71d405d89ce5edaf46596115243a3352e59f28db5"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:05:09+05:30",
+          "recovered_at_ist": "2026-10-13T16:05:09+05:30",
+          "qib": 1.029654344197005,
+          "hni": 9.904029877886726,
+          "retail": 3.490246032639623,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "452d5efb26d6f2af561f61cfbfe6055dfb335d40b35d74571f0ee985dced70ef"
+        },
+        {
+          "observed_at_ist": "2026-10-13T16:00:07+05:30",
+          "recovered_at_ist": "2026-10-13T16:00:07+05:30",
+          "qib": 1.029654344197005,
+          "hni": 9.801121819529731,
+          "retail": 3.4608297382022277,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "697740bb0b914229954a9559137b42144b07f32d21a86da4d0ac2370010b172a"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:58:01+05:30",
+          "recovered_at_ist": "2026-10-13T15:58:01+05:30",
+          "qib": 1.029654344197005,
+          "hni": 9.748877481081534,
+          "retail": 3.4448057408451547,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "a9e3a7ccad417b82d99431cf01dc3cd153414a664d12da46c128dbec4632ad73"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:55:06+05:30",
+          "recovered_at_ist": "2026-10-13T15:55:06+05:30",
+          "qib": 1.029654344197005,
+          "hni": 9.701011316109721,
+          "retail": 3.432510485110266,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "974eb616f00ee80a7ffdaa1267cc87893d5e82873c9481037918774a9cf02ec7"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:54:20+05:30",
+          "recovered_at_ist": "2026-10-13T15:54:20+05:30",
+          "qib": 1.029654344197005,
+          "hni": 9.701011316109721,
+          "retail": 3.432510485110266,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "974eb616f00ee80a7ffdaa1267cc87893d5e82873c9481037918774a9cf02ec7"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:50:14+05:30",
+          "recovered_at_ist": "2026-10-13T15:50:14+05:30",
+          "qib": 1.0282275908162861,
+          "hni": 9.659061979829628,
+          "retail": 3.4158930063695974,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "9bfebc69b1ff8cfbfe1c42263a6c081d8890fe2a0d35779b31048c8779e80c5d"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:45:13+05:30",
+          "recovered_at_ist": "2026-10-13T15:45:13+05:30",
+          "qib": 1.0282275908162861,
+          "hni": 9.518303003175225,
+          "retail": 3.3765793607774968,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "7f1f5ca938fccbab399861d8af3044642e316773d7fc0e984306a056765c0e88"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:40:11+05:30",
+          "recovered_at_ist": "2026-10-13T15:40:11+05:30",
+          "qib": 1.026465130757751,
+          "hni": 9.43683820341022,
+          "retail": 3.343925895156854,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "07cb4508c68076b7c07751728276934228f6a21a21365f12141c973fbbf23924"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:35:10+05:30",
+          "recovered_at_ist": "2026-10-13T15:35:10+05:30",
+          "qib": 1.0263182590862063,
+          "hni": 9.326404722272734,
+          "retail": 3.319311404641275,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "264607d5dd2a680e38549ce06800e17148bd1e5fab61d579608834a194b9051d"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:30:08+05:30",
+          "recovered_at_ist": "2026-10-13T15:30:08+05:30",
+          "qib": 1.0261713874146619,
+          "hni": 9.175728413366718,
+          "retail": 3.2825575221885197,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "2b018ac5ba1c86e6ae7b814010c810a94ad7350033207cdbb7f3d63566b356a2"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:25:06+05:30",
+          "recovered_at_ist": "2026-10-13T15:25:06+05:30",
+          "qib": 1.016310003753811,
+          "hni": 9.044565050146172,
+          "retail": 3.238711836939873,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "c51f6c25f67b3e6d72a356803a0bfa7f0f27025e1af8459b1d12335815c3a030"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:20:05+05:30",
+          "recovered_at_ist": "2026-10-13T15:20:05+05:30",
+          "qib": 1.016310003753811,
+          "hni": 8.941083493027094,
+          "retail": 3.1966406010805613,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "9e472a12ebeaf3f46ee38f5967628f62c55e84512277d6c7e5ca5bbb5342df81"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:15:03+05:30",
+          "recovered_at_ist": "2026-10-13T15:15:03+05:30",
+          "qib": 1.016310003753811,
+          "hni": 8.887846022576268,
+          "retail": 3.181311996051741,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "404b3c49f3b605a6bcca3e4da5a5fb443ccd64a2d0b501bb35b77b1ac0e513d0"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:10:01+05:30",
+          "recovered_at_ist": "2026-10-13T15:10:01+05:30",
+          "qib": 1.016310003753811,
+          "hni": 8.772866514666182,
+          "retail": 3.1449357835703644,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "4bf44bbef437a934b19d9d00a9bedf213e7b473759767f7ee8c6bc78bc7b297d"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:05:14+05:30",
+          "recovered_at_ist": "2026-10-13T15:05:14+05:30",
+          "qib": 1.016310003753811,
+          "hni": 8.627043963575835,
+          "retail": 3.1040155419095408,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "6b41f2f0b75c82578a8457125a44f47799a4a817b25dfb2ec93054fb3b5d6440"
+        },
+        {
+          "observed_at_ist": "2026-10-13T15:00:13+05:30",
+          "recovered_at_ist": "2026-10-13T15:00:13+05:30",
+          "qib": 1.0141698736827327,
+          "hni": 8.556755395784085,
+          "retail": 3.0837052901153905,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "4c00b2b547e84952ce0bc1eca5cb79efc109080ace03bbdd9c180dcee41b0440"
+        },
+        {
+          "observed_at_ist": "2026-10-13T14:55:06+05:30",
+          "recovered_at_ist": "2026-10-13T14:55:06+05:30",
+          "qib": 1.0127431203020139,
+          "hni": 8.424053377348198,
+          "retail": 3.0430668022427385,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "e5636f209893ec6234a9c5dc97c82b4b93db87a9da6ce01c36e53289b29d1363"
+        },
+        {
+          "observed_at_ist": "2026-10-13T14:50:05+05:30",
+          "recovered_at_ist": "2026-10-13T14:50:05+05:30",
+          "qib": 1.021387567255781,
+          "hni": 11.151613489809906,
+          "retail": 3.7493576068127523,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "bd0815f549bd26267a90ecaf2a4e0da718e675782714d95a8d9b1485c91009e3"
+        },
+        {
+          "observed_at_ist": "2026-10-13T14:45:03+05:30",
+          "recovered_at_ist": "2026-10-13T14:45:03+05:30",
+          "qib": 1.0121556336158355,
+          "hni": 8.246016981158467,
+          "retail": 2.9807092936350785,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "ddbb83ff05ee4b6def4d4b166aedb3e4a7bef35159a1ab9c15ee8c0534bcfd70"
+        },
+        {
+          "observed_at_ist": "2026-10-13T14:40:01+05:30",
+          "recovered_at_ist": "2026-10-13T14:40:01+05:30",
+          "qib": 1.0114422569254762,
+          "hni": 7.547817207760417,
+          "retail": 2.9113678879376352,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "7e65e885aafc834ed041bed2f75642f6c369098de8fb2e5f4819699cbefbecee"
+        },
+        {
+          "observed_at_ist": "2026-10-13T14:35:14+05:30",
+          "recovered_at_ist": "2026-10-13T14:35:14+05:30",
+          "qib": 1.0114422569254762,
+          "hni": 7.452266718887692,
+          "retail": 2.8840257809620984,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "f2de113281e8e111025cf2e4dd3ba71fe596d20ae4546fd27dce08f16d185010"
+        },
+        {
+          "observed_at_ist": "2026-10-13T14:30:13+05:30",
+          "recovered_at_ist": "2026-10-13T14:30:13+05:30",
+          "qib": 1.0114422569254762,
+          "hni": 7.322963729700242,
+          "retail": 2.8428297802745535,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "58dc49d98bd468f8d8e59ff0d502bc723f6cf88d371f9e758973dba06cc4be33"
+        },
+        {
+          "observed_at_ist": "2026-10-13T14:15:11+05:30",
+          "recovered_at_ist": "2026-10-13T14:15:11+05:30",
+          "qib": 1.0114422569254762,
+          "hni": 6.629295995300108,
+          "retail": 2.688158940091297,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "243cff53f5a26de193a1757e95c1e56a423e888d287d9b6354fb0a262f33227f"
+        },
+        {
+          "observed_at_ist": "2026-10-13T14:00:09+05:30",
+          "recovered_at_ist": "2026-10-13T14:00:09+05:30",
+          "qib": 1.0100155035447573,
+          "hni": 6.266858765439006,
+          "retail": 2.5686054124848208,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "7f47a2deaba19d5fb7006b8514144c056fc64e22604470cca5a76d338fca9e57"
+        },
+        {
+          "observed_at_ist": "2026-10-13T13:45:02+05:30",
+          "recovered_at_ist": "2026-10-13T13:45:02+05:30",
+          "qib": 1.00507432088065,
+          "hni": 5.856009847393378,
+          "retail": 2.4464141898401435,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "ef7b7af62726389b0331cccd03848520b65da0dec2aee184a66ee110c9e6020f"
+        },
+        {
+          "observed_at_ist": "2026-10-13T13:34:45+05:30",
+          "recovered_at_ist": "2026-10-13T13:34:45+05:30",
+          "qib": 0.004364186811610568,
+          "hni": 5.478339930900393,
+          "retail": 2.3559052814611348,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "4ca6bf57103104427e286883b30e088022f48db4b9eb25f3133461d274c92237"
+        },
+        {
+          "observed_at_ist": "2026-10-13T13:32:45+05:30",
+          "recovered_at_ist": "2026-10-13T13:32:45+05:30",
+          "qib": 0.004364186811610568,
+          "hni": 5.357457582073268,
+          "retail": 2.3063046252200485,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "2ed7918b58f285ffaf1752076a1c86328fc76d835b1d333945882e40742c1828"
+        },
+        {
+          "observed_at_ist": "2026-10-13T13:31:27+05:30",
+          "recovered_at_ist": "2026-10-13T13:31:27+05:30",
+          "qib": 0.004364186811610568,
+          "hni": 5.357457582073268,
+          "retail": 2.3063046252200485,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "2ed7918b58f285ffaf1752076a1c86328fc76d835b1d333945882e40742c1828"
+        },
+        {
+          "observed_at_ist": "2026-10-13T13:30:09+05:30",
+          "recovered_at_ist": "2026-10-13T13:30:09+05:30",
+          "qib": 0.004364186811610568,
+          "hni": 5.357457582073268,
+          "retail": 2.3063046252200485,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "2ed7918b58f285ffaf1752076a1c86328fc76d835b1d333945882e40742c1828"
+        },
+        {
+          "observed_at_ist": "2026-10-13T13:29:06+05:30",
+          "recovered_at_ist": "2026-10-13T13:29:06+05:30",
+          "qib": 0.004364186811610568,
+          "hni": 5.357457582073268,
+          "retail": 2.3063046252200485,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "2ed7918b58f285ffaf1752076a1c86328fc76d835b1d333945882e40742c1828"
+        },
+        {
+          "observed_at_ist": "2026-10-13T13:22:32+05:30",
+          "recovered_at_ist": "2026-10-13T13:22:32+05:30",
+          "qib": 0.004364186811610568,
+          "hni": 5.188345386132521,
+          "retail": 2.2545938129484013,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "004e3925f79a7c24295967835de01f4b35733d1f75f4ea1f44cc1b0e435ca09d"
+        },
+        {
+          "observed_at_ist": "2026-10-13T13:20:57+05:30",
+          "recovered_at_ist": "2026-10-13T13:20:57+05:30",
+          "qib": 0.0042173151400659815,
+          "hni": 5.064903274538054,
+          "retail": 2.2051849890737296,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=HDFIRE",
+          "evidence": "captured_before_close",
+          "raw_sha256": "5b37cd716b3c3321561ba1a0f0e4cc81d500bb216586176dda02a6c61bb7c914"
+        },
+        {
+          "observed_at_ist": "2026-10-13T11:04:41+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:16+05:30",
+          "qib": 0.0,
+          "hni": 1.86,
+          "retail": 0.93,
+          "source": "https://niftytrader.in/ipo/hd-fire-protect-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "d05b5d7503bba26b7e8392521ae198a60b9c688c6dddaa4407337fc15faec81e"
+        }
+      ],
+      "after_close_archives": [
+        {
+          "ipo_id": "chitto_2628",
+          "company_name": "HD Fire Protect",
+          "recorded_at_ist": "2026-10-20T18:29:30+05:30",
+          "listing_date": "2026-10-21",
+          "capture_id": 202,
+          "capture_phase": "pre_deadline",
+          "captured_at_ist": "2026-10-14T17:00:07+05:30",
+          "source_family": "nse_exchange",
+          "evidence_sha256": "288f528f3002421e58f899e7d1da11c7c8ee46bd7413786f564a99d1e780f349",
+          "qib_x": 1.491796549545728,
+          "nii_x": 48.65978934411324,
+          "retail_x": 11.314225013044055,
+          "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+          "positive_listing_probability": 0.6092317744857458
+        }
+      ],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Nityas Gems & Jewellery",
+      "cutoff_at_ist": "2026-10-05T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2974",
+        "company_name": "Nityas Gems & Jewellery",
+        "listing_date": "2026-10-08",
+        "issue_price": 75.0,
+        "nse_open_price": 80.0,
+        "nse_symbol": "NITYAS",
+        "isin": "INE211501023",
+        "archive_sha256": "07fdfc3409b83fac6ee4a736ceb4fde20069c5d1a490d960b332c178cb703e39",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 80.0,
+        "return_pct": 6.666666666666665,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-10-05T11:57:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:46+05:30",
+          "qib": 0.47,
+          "hni": 0.94,
+          "retail": 2.54,
+          "source": "https://choiceindia.com/news/nityas-gems-and-jewellery-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "8a9e8cbc68a4d9db4469965bc8639a76453491a9c155413d65c5da89e518e74f"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Vishal Nirmiti",
+      "cutoff_at_ist": "2026-10-05T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2665",
+        "company_name": "Vishal Nirmiti",
+        "listing_date": "2026-10-08",
+        "issue_price": 220.0,
+        "nse_open_price": 215.0,
+        "nse_symbol": "VNL",
+        "isin": "INE1O5L01025",
+        "archive_sha256": "07fdfc3409b83fac6ee4a736ceb4fde20069c5d1a490d960b332c178cb703e39",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 215.0,
+        "return_pct": -2.2727272727272707,
+        "positive": false
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-10-05T11:18:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:47+05:30",
+          "qib": 0.96,
+          "hni": 1.19,
+          "retail": 1.02,
+          "source": "https://choiceindia.com/news/vishal-nirmiti-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "f6a5a0efcc0ce336db03c985e9ec11de34199559c29121dd860e702e83463034"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "SRIT India",
+      "cutoff_at_ist": "2026-09-30T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2858",
+        "company_name": "SRIT India",
+        "listing_date": "2026-10-06",
+        "issue_price": 130.0,
+        "nse_open_price": 148.0,
+        "nse_symbol": "SRIT",
+        "isin": "INE307K01028",
+        "archive_sha256": "f444e5ba9821fe09ac3bff69f53144369ce536be6481acc78ab00d175ae55b56",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 148.0,
+        "return_pct": 13.846153846153841,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-30T15:23:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:49+05:30",
+          "qib": 47.64,
+          "hni": 298.58,
+          "retail": 51.44,
+          "source": "https://www.5paisa.com/blog/srit-india-subscription-status",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "article_also_labels_detailed_table_17_05_conflicting_with_intro",
+            "article_first_published_after_application_cutoff"
+          ],
+          "raw_sha256": "a7bb1403ad3e5551b41d43f666d32141e03621bccd939a7952f9ac77e11b7e0d"
+        },
+        {
+          "observed_at_ist": "2026-09-30T11:15:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:49+05:30",
+          "qib": 0.08,
+          "hni": 32.36,
+          "retail": 14.77,
+          "source": "https://rajkotcityguide.com/srit-india-ipo-gmp-today-subscription-status-listing-price/",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "single_small_news_publisher_not_independently_corroborated"
+          ],
+          "raw_sha256": "579965d344c57d402d83c9e9e9e351e4e181410b2886fc4594e50a2b06c078ee"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Shah Investor's Home",
+      "cutoff_at_ist": "2026-09-30T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2657",
+        "company_name": "Shah Investor's Home",
+        "listing_date": "2026-10-06",
+        "issue_price": 167.0,
+        "nse_open_price": 171.0,
+        "nse_symbol": "SHAHINVEST",
+        "isin": "INE029N01014",
+        "archive_sha256": "f444e5ba9821fe09ac3bff69f53144369ce536be6481acc78ab00d175ae55b56",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 171.0,
+        "return_pct": 2.39520958083832,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-30T14:23:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:50+05:30",
+          "qib": 5.51,
+          "hni": 47.25,
+          "retail": 10.13,
+          "source": "https://www.5paisa.com/blog/shah-investors-home-ipo-subscription-status",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "article_also_labels_detailed_table_17_05_conflicting_with_intro"
+          ],
+          "raw_sha256": "c33e588976a02d9f62245601e4d78acb6b4a7baffe279fe5b10ef50c2b3cf063"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Acevector",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2543",
+        "company_name": "Acevector",
+        "listing_date": "2026-10-05",
+        "issue_price": 32.0,
+        "nse_open_price": 28.32,
+        "nse_symbol": "ACEVECTOR",
+        "isin": "INE580P01029",
+        "archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 28.32,
+        "return_pct": -11.5,
+        "positive": false
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-29T13:57:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:50+05:30",
+          "qib": 1.5,
+          "hni": 3.11,
+          "retail": 2.89,
+          "source": "https://choiceindia.com/news/acevector-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "publisher_publication_and_modification_precede_claimed_bid_time"
+          ],
+          "raw_sha256": "3fc91d37d008be647fe41025d01db33bb9c490cf85ef92692f9d6c3a89d9d83d"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Orient Cables (India)",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2532",
+        "company_name": "Orient Cables (India)",
+        "listing_date": "2026-10-05",
+        "issue_price": 272.0,
+        "nse_open_price": 450.0,
+        "nse_symbol": "ORIENTCABL",
+        "isin": "INE0J1N01028",
+        "archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 450.0,
+        "return_pct": 65.44117647058823,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-29T12:00:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:51+05:30",
+          "qib": 0.22,
+          "hni": 37.11,
+          "retail": 15.61,
+          "source": "https://choiceindia.com/news/orient-cables-ipo-subscription-status-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "11761eadaeb3f353b9dc4be3fdba4f4ba7116154f32a971ce4c78babf99e39bb"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "German Green Steel & Power",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2497",
+        "company_name": "German Green Steel & Power",
+        "listing_date": "2026-10-05",
+        "issue_price": 139.0,
+        "nse_open_price": 142.0,
+        "nse_symbol": "GERMAN",
+        "isin": "INE0D4501011",
+        "archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 142.0,
+        "return_pct": 2.158273381294973,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-29T12:39:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:51+05:30",
+          "qib": 1.35,
+          "hni": 22.35,
+          "retail": 13.37,
+          "source": "https://choiceindia.com/news/german-green-steel-power-ipo-subscription-status-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "724eaed5777d9f5bbb69e3c9c859679bb39f21d1daa8a44632194d2134afc0ee"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Runwal Enterprises",
+      "cutoff_at_ist": "2026-09-29T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2298",
+        "company_name": "Runwal Enterprises",
+        "listing_date": "2026-10-05",
+        "issue_price": 305.0,
+        "nse_open_price": 305.0,
+        "nse_symbol": "RUNWALENTR",
+        "isin": "INE804W01029",
+        "archive_sha256": "43913a4ef72663e2d3fbb0c3b9c686ed8c3d23e5df6ee6b756f8a5c954559ceb",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 305.0,
+        "return_pct": 0.0,
+        "positive": false
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-29T14:24:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:52+05:30",
+          "qib": 2.2,
+          "hni": 2.85,
+          "retail": 0.82,
+          "source": "https://choiceindia.com/news/lumino-industries-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "3896776d2a977c70d6e36b858fdc1f94a44133f8aaca039c982363795f18b87b"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Moneyview",
+      "cutoff_at_ist": "2026-09-28T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2936",
+        "company_name": "Moneyview",
+        "listing_date": "2026-10-01",
+        "issue_price": 34.0,
+        "nse_open_price": 55.0,
+        "nse_symbol": "MONEYVIEW",
+        "isin": "INE0PTN01011",
+        "archive_sha256": "ccc5fb27872716bbcc99d2d87e522ab304f6620e11c3a5045c30e1ff25cbfb73",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 55.0,
+        "return_pct": 61.76470588235294,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-28T15:54:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:53+05:30",
+          "qib": 230.54,
+          "hni": 119.8,
+          "retail": 18.97,
+          "source": "https://www.5paisa.com/blog/moneyview-ipo-subscription-status",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "article_also_labels_detailed_table_17_05_conflicting_with_intro"
+          ],
+          "raw_sha256": "65f1163e67276a795de07dc9fa2c82a9e5b49efabd167e649acc8da023b65932"
+        },
+        {
+          "observed_at_ist": "2026-09-28T15:18:00+05:30",
+          "recovered_at_ist": "2026-10-21T14:54:53+05:30",
+          "qib": 178.29,
+          "hni": 110.17,
+          "retail": 17.05,
+          "source": "https://choiceindia.com/news/moneyview-ipo-subscription-day-3",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "47af2f13caeddb93bed3ac87a1310346bec02e55102f4cf0b105de2ca68bb319"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "A-One Steels India",
+      "cutoff_at_ist": "2026-09-28T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2000",
+        "company_name": "A-One Steels India",
+        "listing_date": "2026-10-01",
+        "issue_price": 405.0,
+        "nse_open_price": 455.0,
+        "nse_symbol": "AONESTEELS",
+        "isin": "INE0OTC01025",
+        "archive_sha256": "ccc5fb27872716bbcc99d2d87e522ab304f6620e11c3a5045c30e1ff25cbfb73",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 455.0,
+        "return_pct": 12.34567901234569,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-25T17:00:00+05:30",
+          "observed_on": "2026-09-25",
+          "recovered_at_ist": "2026-10-25T15:04:31.429094+05:30",
+          "qib": 0.1,
+          "hni": 2.18,
+          "retail": 1.86,
+          "source": "https://www.ipoji.com/ipo/a-one-steels-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "4a530ec97623799797d796258849277f910d880edb4da744d0d0729fd095cf51"
+        },
+        {
+          "observed_at_ist": "2026-09-24T17:00:00+05:30",
+          "observed_on": "2026-09-24",
+          "recovered_at_ist": "2026-10-25T15:04:31.255468+05:30",
+          "qib": 0.1,
+          "hni": 0.81,
+          "retail": 0.81,
+          "source": "https://www.ipoji.com/ipo/a-one-steels-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "4a530ec97623799797d796258849277f910d880edb4da744d0d0729fd095cf51"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Adroit Industries (India)",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_3007",
+        "company_name": "Adroit Industries (India)",
+        "listing_date": "2026-09-30",
+        "issue_price": 134.0,
+        "nse_open_price": 235.0,
+        "nse_symbol": "ADROITIND",
+        "isin": "INE505M01015",
+        "archive_sha256": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 235.0,
+        "return_pct": 75.37313432835822,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-24T17:00:00+05:30",
+          "observed_on": "2026-09-24",
+          "recovered_at_ist": "2026-10-25T15:04:30.996780+05:30",
+          "qib": 1.82,
+          "hni": 27.22,
+          "retail": 23.45,
+          "source": "https://www.ipoji.com/ipo/adroit-industries-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "5f00dac4fc8a86307623d1a6379a5065cf246c7740f22a053d21fc0696450683"
+        },
+        {
+          "observed_at_ist": "2026-09-23T17:00:00+05:30",
+          "observed_on": "2026-09-23",
+          "recovered_at_ist": "2026-10-25T15:04:30.914070+05:30",
+          "qib": 0.05,
+          "hni": 7.3,
+          "retail": 7.31,
+          "source": "https://www.ipoji.com/ipo/adroit-industries-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "5f00dac4fc8a86307623d1a6379a5065cf246c7740f22a053d21fc0696450683"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Elevate Campuses",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2647",
+        "company_name": "Elevate Campuses",
+        "listing_date": "2026-09-30",
+        "issue_price": 362.0,
+        "nse_open_price": 355.1,
+        "nse_symbol": "ELEVATE",
+        "isin": "INE147X01013",
+        "archive_sha256": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 355.1,
+        "return_pct": -1.906077348066293,
+        "positive": false
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-24T17:00:00+05:30",
+          "observed_on": "2026-09-24",
+          "recovered_at_ist": "2026-10-25T15:04:31.005972+05:30",
+          "qib": 0.19,
+          "hni": 0.35,
+          "retail": 0.25,
+          "source": "https://www.ipoji.com/ipo/elevate-campuses-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "3b36509897aee23c95cdf06fd3611d79da6647aa548b32e40f1146198c787c1b"
+        },
+        {
+          "observed_at_ist": "2026-09-23T17:00:00+05:30",
+          "observed_on": "2026-09-23",
+          "recovered_at_ist": "2026-10-25T15:04:30.911685+05:30",
+          "qib": 0.19,
+          "hni": 0.32,
+          "retail": 0.14,
+          "source": "https://www.ipoji.com/ipo/elevate-campuses-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "3b36509897aee23c95cdf06fd3611d79da6647aa548b32e40f1146198c787c1b"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Swastika Infra",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2287",
+        "company_name": "Swastika Infra",
+        "listing_date": "2026-09-30",
+        "issue_price": 185.0,
+        "nse_open_price": 200.0,
+        "nse_symbol": "SWASTIKAIN",
+        "isin": "INE1QJA01015",
+        "archive_sha256": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 200.0,
+        "return_pct": 8.108108108108114,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-24T17:00:00+05:30",
+          "observed_on": "2026-09-24",
+          "recovered_at_ist": "2026-10-25T15:04:32.383455+05:30",
+          "qib": 1.02,
+          "hni": 2.71,
+          "retail": 1.66,
+          "source": "https://www.ipoji.com/ipo/swastika-infra-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "925915035994ef2ca2ed72c5b76bd6d36a285cabfe509c54ef3882aa439b20e3"
+        },
+        {
+          "observed_at_ist": "2026-09-23T17:00:00+05:30",
+          "observed_on": "2026-09-23",
+          "recovered_at_ist": "2026-10-25T15:04:32.224480+05:30",
+          "qib": 0.71,
+          "hni": 1.99,
+          "retail": 0.75,
+          "source": "https://www.ipoji.com/ipo/swastika-infra-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "925915035994ef2ca2ed72c5b76bd6d36a285cabfe509c54ef3882aa439b20e3"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "ArMee Infotech",
+      "cutoff_at_ist": "2026-09-25T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2140",
+        "company_name": "ArMee Infotech",
+        "listing_date": "2026-09-30",
+        "issue_price": 375.0,
+        "nse_open_price": 375.0,
+        "nse_symbol": "ARMEE",
+        "isin": "INE0TWE01016",
+        "archive_sha256": "0ece4833d287f504885258a40edc21fd6368632849b87add88d288f1ef0d4a59",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 375.0,
+        "return_pct": 0.0,
+        "positive": false
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-24T17:00:00+05:30",
+          "observed_on": "2026-09-24",
+          "recovered_at_ist": "2026-10-25T15:04:32.525669+05:30",
+          "qib": 1.01,
+          "hni": 0.93,
+          "retail": 1.45,
+          "source": "https://www.ipoji.com/ipo/armee-infotech-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "6f05c9d72b88445c26c2e29741817518750d2fc31e2469bef004bcf28f4ec290"
+        },
+        {
+          "observed_at_ist": "2026-09-23T17:00:00+05:30",
+          "observed_on": "2026-09-23",
+          "recovered_at_ist": "2026-10-25T15:04:32.383455+05:30",
+          "qib": 1.0,
+          "hni": 0.42,
+          "retail": 0.54,
+          "source": "https://www.ipoji.com/ipo/armee-infotech-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "6f05c9d72b88445c26c2e29741817518750d2fc31e2469bef004bcf28f4ec290"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Varmora Granito",
+      "cutoff_at_ist": "2026-09-24T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2563",
+        "company_name": "Varmora Granito",
+        "listing_date": "2026-09-29",
+        "issue_price": 148.0,
+        "nse_open_price": 155.0,
+        "nse_symbol": "VARMORA",
+        "isin": "INE0M5301040",
+        "archive_sha256": "a30fa5330e5434937fa583473b3ee89d7678bce9209177fa29805c66c33369a7",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 155.0,
+        "return_pct": 4.729729729729737,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-23T17:00:00+05:30",
+          "observed_on": "2026-09-23",
+          "recovered_at_ist": "2026-10-25T15:04:32.716091+05:30",
+          "qib": 0.11,
+          "hni": 0.18,
+          "retail": 0.41,
+          "source": "https://www.ipoji.com/ipo/varmora-granito-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "6ec9e6b51e7fa0bc6c0be97bbc383ecb134245e7213ec37a8b06e49bb2af552e"
+        },
+        {
+          "observed_at_ist": "2026-09-22T17:00:00+05:30",
+          "observed_on": "2026-09-22",
+          "recovered_at_ist": "2026-10-25T15:04:32.625204+05:30",
+          "qib": 0.0,
+          "hni": 0.05,
+          "retail": 0.2,
+          "source": "https://www.ipoji.com/ipo/varmora-granito-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "6ec9e6b51e7fa0bc6c0be97bbc383ecb134245e7213ec37a8b06e49bb2af552e"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "National Stock Exchange of India",
+      "cutoff_at_ist": "2026-09-21T17:00:00+05:30",
+      "outcome": null,
+      "subscription_history": [],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Sonaselection India",
+      "cutoff_at_ist": "2026-09-21T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2805",
+        "company_name": "Sonaselection India",
+        "listing_date": "2026-09-24",
+        "issue_price": 99.0,
+        "nse_open_price": 102.31,
+        "nse_symbol": "SONA",
+        "isin": "INE0LLZ01011",
+        "archive_sha256": "f6e4d459c5f13bdc123784318522abbae1fbf9a3b5358d333f09984cca94c444",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 102.31,
+        "return_pct": 3.343434343434337,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-18T17:00:00+05:30",
+          "observed_on": "2026-09-18",
+          "recovered_at_ist": "2026-10-25T15:04:33.694121+05:30",
+          "qib": 0.46,
+          "hni": 0.6,
+          "retail": 1.29,
+          "source": "https://www.ipoji.com/ipo/sonaselection-india-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "b21c1a6b75035d5d0f3b492ed5126c06270f014156367c52453fc6238b347b2c"
+        },
+        {
+          "observed_at_ist": "2026-09-17T17:00:00+05:30",
+          "observed_on": "2026-09-17",
+          "recovered_at_ist": "2026-10-25T15:04:33.529574+05:30",
+          "qib": 0.11,
+          "hni": 0.24,
+          "retail": 0.77,
+          "source": "https://www.ipoji.com/ipo/sonaselection-india-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "b21c1a6b75035d5d0f3b492ed5126c06270f014156367c52453fc6238b347b2c"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "SS Retail",
+      "cutoff_at_ist": "2026-09-18T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2822",
+        "company_name": "SS Retail",
+        "listing_date": "2026-09-23",
+        "issue_price": 424.0,
+        "nse_open_price": 624.0,
+        "nse_symbol": "SSRETAIL",
+        "isin": "INE1EQW01028",
+        "archive_sha256": "364b21265ccf12193f8a304f6f4e68b3cae6e61013fb12a798063229d2753d0a",
+        "recorded_at_ist": "2026-10-25T15:01:20+05:30",
+        "actual_open": 624.0,
+        "return_pct": 47.169811320754704,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-09-17T17:00:00+05:30",
+          "observed_on": "2026-09-17",
+          "recovered_at_ist": "2026-10-25T15:04:33.855412+05:30",
+          "qib": 0.24,
+          "hni": 10.43,
+          "retail": 7.95,
+          "source": "https://www.ipoji.com/ipo/ss-retail-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "4a589e8abdbde23ce3bb98c67d505f8b4ca741c1797d5b0e70412b29466fefc0"
+        },
+        {
+          "observed_at_ist": "2026-09-16T17:00:00+05:30",
+          "observed_on": "2026-09-16",
+          "recovered_at_ist": "2026-10-25T15:04:33.828035+05:30",
+          "qib": 0.21,
+          "hni": 1.61,
+          "retail": 2.32,
+          "source": "https://www.ipoji.com/ipo/ss-retail-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [
+            "Historical public table; original publication time is not certified"
+          ],
+          "raw_sha256": "4a589e8abdbde23ce3bb98c67d505f8b4ca741c1797d5b0e70412b29466fefc0"
+        }
+      ],
+      "after_close_archives": [],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Tonbo Imaging India",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_3215",
+        "company_name": "Tonbo Imaging India",
+        "listing_date": "2026-10-23",
+        "issue_price": 700.0,
+        "nse_open_price": 1160.0,
+        "nse_symbol": "TONBO",
+        "isin": "INE0LDG01026",
+        "archive_sha256": "009b57f15cb36e14fa956b2e585b69b23f279eb8532c2c63c0adf0aa2ed77689",
+        "recorded_at_ist": "2026-10-23T19:11:41+05:30",
+        "actual_open": 1160.0,
+        "return_pct": 65.71428571428572,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-10-19T16:43:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:08+05:30",
+          "qib": 293.56,
+          "hni": 170.83,
+          "retail": 30.68,
+          "source": "https://theipolist.in/ipo-details/tonbo-imaging-india",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "83def1c2f5df126d2f65658e9e1cbc68a5ae6ac4079428dfd99a3d5d8f6f3dba"
+        }
+      ],
+      "after_close_archives": [
+        {
+          "ipo_id": "chitto_3215",
+          "company_name": "Tonbo Imaging India",
+          "recorded_at_ist": "2026-10-20T18:29:30+05:30",
+          "listing_date": "2026-10-23",
+          "capture_id": 238,
+          "capture_phase": "post_close_reconciliation",
+          "captured_at_ist": "2026-10-19T19:15:06+05:30",
+          "source_family": "nse_exchange",
+          "evidence_sha256": "96a7deb0eab31d058259d14f2a207980d79ef2efc55d66f9ad48c60ac8363dd4",
+          "qib_x": 293.5569379060686,
+          "nii_x": 170.9431893627601,
+          "retail_x": 31.067530510333956,
+          "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+          "positive_listing_probability": 0.9725933984127003
+        }
+      ],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Zetwerk Manufacturing Business",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_3091",
+        "company_name": "Zetwerk Manufacturing Business",
+        "listing_date": "2026-10-23",
+        "issue_price": 151.0,
+        "nse_open_price": 159.25,
+        "nse_symbol": "ZETWERK",
+        "isin": "INE09PO01019",
+        "archive_sha256": "009b57f15cb36e14fa956b2e585b69b23f279eb8532c2c63c0adf0aa2ed77689",
+        "recorded_at_ist": "2026-10-23T19:35:30+05:30",
+        "actual_open": 159.25,
+        "return_pct": 5.4635761589403975,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-10-19T16:44:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:09+05:30",
+          "qib": 4.71,
+          "hni": 1.44,
+          "retail": 0.74,
+          "source": "https://theipolist.in/ipo-details/zetwerk",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "48864c943ab5a8b9f985f90a95704e3c5c1650350bd944fbecbd63631388a4b7"
+        }
+      ],
+      "after_close_archives": [
+        {
+          "ipo_id": "chitto_3091",
+          "company_name": "Zetwerk Manufacturing Business",
+          "recorded_at_ist": "2026-10-20T18:30:46+05:30",
+          "listing_date": "2026-10-23",
+          "capture_id": 239,
+          "capture_phase": "post_close_reconciliation",
+          "captured_at_ist": "2026-10-19T19:15:06+05:30",
+          "source_family": "chittorgarh_investorgain",
+          "evidence_sha256": "686c3b1fba7351778ebe4b45d32e4904cf23e346e5f5c09565f6a820dc7465ca",
+          "qib_x": 4.71,
+          "nii_x": 1.43,
+          "retail_x": 0.68,
+          "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+          "positive_listing_probability": 0.4516100084181504
+        }
+      ],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Bonfiglioli Transmissions",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2861",
+        "company_name": "Bonfiglioli Transmissions",
+        "listing_date": "2026-10-23",
+        "issue_price": 586.0,
+        "nse_open_price": 586.0,
+        "nse_symbol": "BONFIG",
+        "isin": "INE28SO01013",
+        "archive_sha256": "009b57f15cb36e14fa956b2e585b69b23f279eb8532c2c63c0adf0aa2ed77689",
+        "recorded_at_ist": "2026-10-23T20:13:23+05:30",
+        "actual_open": 586.0,
+        "return_pct": 0.0,
+        "positive": false
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-10-19T16:44:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:11+05:30",
+          "qib": 120.78,
+          "hni": 40.36,
+          "retail": 5.78,
+          "source": "https://theipolist.in/ipo-details/bonfiglioli-transmissions",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "4aa6500131ead5d675881a29913a2ba08f6fd180c4d5d0590e0a2d7e0b363915"
+        },
+        {
+          "observed_at_ist": "2026-10-19T14:34:58+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:11+05:30",
+          "qib": 20.0,
+          "hni": 28.22,
+          "retail": 4.35,
+          "source": "https://niftytrader.in/ipo/bonfiglioli-transmissions-ipo",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "7c7ed6fb2be3b5dd053e90a9560d580af7c17824cb49e50a33abc55f5d7fb320"
+        }
+      ],
+      "after_close_archives": [
+        {
+          "ipo_id": "chitto_2861",
+          "company_name": "Bonfiglioli Transmissions",
+          "recorded_at_ist": "2026-10-20T18:29:30+05:30",
+          "listing_date": "2026-10-23",
+          "capture_id": 242,
+          "capture_phase": "post_close_reconciliation",
+          "captured_at_ist": "2026-10-19T19:15:07+05:30",
+          "source_family": "nse_exchange",
+          "evidence_sha256": "b4022613faf92712823c394349f14ad1bb95650196f6a3b9565f37f4907e81ca",
+          "qib_x": 120.78396220429998,
+          "nii_x": 40.39682823901184,
+          "retail_x": 5.905707565377859,
+          "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+          "positive_listing_probability": 0.9120698868302227
+        }
+      ],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Sahajanand Medical Technologies",
+      "cutoff_at_ist": "2026-10-19T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2550",
+        "company_name": "Sahajanand Medical Technologies",
+        "listing_date": "2026-10-23",
+        "issue_price": 344.0,
+        "nse_open_price": 371.15,
+        "nse_symbol": "SMT",
+        "isin": "INE356Y01018",
+        "archive_sha256": "009b57f15cb36e14fa956b2e585b69b23f279eb8532c2c63c0adf0aa2ed77689",
+        "recorded_at_ist": "2026-10-23T19:11:41+05:30",
+        "actual_open": 371.15,
+        "return_pct": 7.892441860465116,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-10-19T16:43:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:13+05:30",
+          "qib": 34.7,
+          "hni": 14.6,
+          "retail": 2.91,
+          "source": "https://theipolist.in/ipo-details/sahajanand-medical-technologies",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "e908a6d4cb3f910a310d63d4aed084072079e6505f5b4d06ffe890ccad1b7936"
+        }
+      ],
+      "after_close_archives": [
+        {
+          "ipo_id": "chitto_2550",
+          "company_name": "Sahajanand Medical Technologies",
+          "recorded_at_ist": "2026-10-20T18:29:30+05:30",
+          "listing_date": "2026-10-23",
+          "capture_id": 244,
+          "capture_phase": "post_close_reconciliation",
+          "captured_at_ist": "2026-10-19T19:15:08+05:30",
+          "source_family": "nse_exchange",
+          "evidence_sha256": "db4a408b82130b9d78814f459a3dbcf72606f6ab99dbe40a2fd82157a019ea65",
+          "qib_x": 34.69606763573695,
+          "nii_x": 14.642006309011906,
+          "retail_x": 3.0296805993632745,
+          "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+          "positive_listing_probability": 0.7944427131859763
+        }
+      ],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    },
+    {
+      "mode": "no_saved_pre_close",
+      "probability": null,
+      "gmp_probability": null,
+      "quality": "not_recorded",
+      "saved_call_found": false,
+      "company_name": "Fusion CX",
+      "cutoff_at_ist": "2026-10-16T17:00:00+05:30",
+      "outcome": {
+        "ipo_id": "chitto_2455",
+        "company_name": "Fusion CX",
+        "listing_date": "2026-10-22",
+        "issue_price": 289.0,
+        "nse_open_price": 305.0,
+        "nse_symbol": "FUSIONCX",
+        "isin": "INE0N2201019",
+        "archive_sha256": "4e1e097210a023fa6a2bfd67610528d28ac0307c6417c8c85cfa4b01196d37b2",
+        "recorded_at_ist": "2026-10-22T18:41:52+05:30",
+        "actual_open": 305.0,
+        "return_pct": 5.536332179930792,
+        "positive": true
+      },
+      "subscription_history": [
+        {
+          "observed_at_ist": "2026-10-16T16:44:00+05:30",
+          "recovered_at_ist": "2026-10-21T00:13:14+05:30",
+          "qib": 4.21,
+          "hni": 4.72,
+          "retail": 5.94,
+          "source": "https://theipolist.in/ipo-details/fusion-cx",
+          "evidence": "publisher_reported_time_recovered_later",
+          "warnings": [],
+          "raw_sha256": "989fddcdb9e41730fc2b0c918b65ce5f3b5a05ff6dea606bdeff92c6df04524a"
+        },
+        {
+          "observed_at_ist": "2026-10-14T17:00:08+05:30",
+          "recovered_at_ist": "2026-10-14T17:00:08+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.4567782423500101,
+          "retail": 1.5460666181695104,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "d97bd3eb3f8f4aa502110d362befe7fb5262d9870704b16aca6e56b0113e6a97"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:55:15+05:30",
+          "recovered_at_ist": "2026-10-14T16:55:15+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.4494527420353139,
+          "retail": 1.5317219585173032,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "00a94b5e011c9f7dfd00104ee2953c30dde33ba2b2326fa9701707606b86b4ec"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:50:13+05:30",
+          "recovered_at_ist": "2026-10-14T16:50:13+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.4466823710072106,
+          "retail": 1.5204140513262876,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "ac34b2f661883ecc7011f4d04e576d443679c5eeeb8c428067b26eea76991d91"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:45:11+05:30",
+          "recovered_at_ist": "2026-10-14T16:45:11+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.4457367155120407,
+          "retail": 1.5091061441352718,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "10a96221cb3094bb0846a63170343b0b61875347115317f0347ec7e927f854d6"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:40:08+05:30",
+          "recovered_at_ist": "2026-10-14T16:40:08+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.4387308733928949,
+          "retail": 1.498177831001905,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "487df3521aad4eda9c2affabcbe986ca89585bc0b23d32449448b8ccccfbc20f"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:35:06+05:30",
+          "recovered_at_ist": "2026-10-14T16:35:06+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.4349216132292529,
+          "retail": 1.4926237705794627,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "691620e62eb4d905ac5f48b14f20ad4fda55c05116c498dff8e0e2e03a36d94d"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:30:04+05:30",
+          "recovered_at_ist": "2026-10-14T16:30:04+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.4299269539237782,
+          "retail": 1.4804767607346967,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "7e3f176d37397c11c10b12cbaef182a62b9401fd8667e58ac63d5208b82f8dfd"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:25:02+05:30",
+          "recovered_at_ist": "2026-10-14T16:25:02+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.42699675379789975,
+          "retail": 1.470926973389634,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "d0842655533fb14ad5ae72a38e8811e7c43d2d7390c3906729e56d1fc6437d50"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:20:15+05:30",
+          "recovered_at_ist": "2026-10-14T16:20:15+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.419191766189878,
+          "retail": 1.4520671423148657,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "3c3e895532c755cb583151aae6760109ee2d6966c2b810dbc115e99ab49ecae6"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:15:12+05:30",
+          "recovered_at_ist": "2026-10-14T16:15:12+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.3650762975014951,
+          "retail": 1.4060163895316655,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "2154a051c636eb981a16c28b6afaa22adca76e57776cdbc578f891038747c680"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:10:10+05:30",
+          "recovered_at_ist": "2026-10-14T16:10:10+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.3633714537918931,
+          "retail": 1.3962268585712456,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "e94ecfdbd9c091a72a885fa281df480ecc0b901d08369e617cab1eb8b95beed0"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:05:08+05:30",
+          "recovered_at_ist": "2026-10-14T16:05:08+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.34440506752257066,
+          "retail": 1.3468396738076576,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "e30ed23a472412e3ac32f2644eb65b2613cdc6b3af0ba672795a855475f87d44"
+        },
+        {
+          "observed_at_ist": "2026-10-14T16:00:06+05:30",
+          "recovered_at_ist": "2026-10-14T16:00:06+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.3419277165070552,
+          "retail": 1.3413255706544414,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "8867f6428ab145dc5a35482fc57541a06c6ba9d09e6883a439cad121e2c1eb14"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:55:14+05:30",
+          "recovered_at_ist": "2026-10-14T15:55:14+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.3389708781982142,
+          "retail": 1.3297379625788421,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "5c9c1cbc5ef30215cfadc17cbcc735b44cbc497830b1a06871f809565f912004"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:50:12+05:30",
+          "recovered_at_ist": "2026-10-14T15:50:12+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.3365734417315864,
+          "retail": 1.3158727901573495,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "1ce296fa1a4a8b8289c0c4e482948421d1d0ce5e79365a90f1ab0c1b221f7bd2"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:45:10+05:30",
+          "recovered_at_ist": "2026-10-14T15:45:10+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.33466881164976536,
+          "retail": 1.3119170205039552,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "c3984f53834e37e7545bdab079f17972870eacf72c515b542b39421cca2349eb"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:40:08+05:30",
+          "recovered_at_ist": "2026-10-14T15:40:08+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.33123248604759875,
+          "retail": 1.299510288409219,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "5a3b0c31075bdc19863223e1619949fe312328c9fcc510702ae354b960daba56"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:35:05+05:30",
+          "recovered_at_ist": "2026-10-14T15:35:05+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.3285819868428269,
+          "retail": 1.2907796250832932,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "85c6fc572aa885118d832029ac20142312f450ad9700c4f9817e1769535e68a8"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:30:03+05:30",
+          "recovered_at_ist": "2026-10-14T15:30:03+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.324879279411035,
+          "retail": 1.270940840912483,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "5f35992e1aff569696a26ca734208891d4a7adbf9eac3373b57e374c02b371f2"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:25:16+05:30",
+          "recovered_at_ist": "2026-10-14T15:25:16+05:30",
+          "qib": 0.0019046293357053495,
+          "hni": 0.3243065584773406,
+          "retail": 1.2622101775865575,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "296034bfceaaccc43eab4f32b190e45a05f792005a54af438093c80cf72fc4a6"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:20:12+05:30",
+          "recovered_at_ist": "2026-10-14T15:20:12+05:30",
+          "qib": 0.00045284893296490824,
+          "hni": 0.31413077258565353,
+          "retail": 1.235878337166489,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "43b5fdad973957dfc4fa4a9fdc19c75680147eb49175d229e746dde1ab25bd51"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:15:15+05:30",
+          "recovered_at_ist": "2026-10-14T15:15:15+05:30",
+          "qib": 0.00045284893296490824,
+          "hni": 0.3100551305923862,
+          "retail": 1.2249500240331221,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "f34348b87ea3d1a0100280602acd0c5a3df5561b047a4b08befb45d188a6523b"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:10:12+05:30",
+          "recovered_at_ist": "2026-10-14T15:10:12+05:30",
+          "qib": 0.00045284893296490824,
+          "hni": 0.3053002149335743,
+          "retail": 1.2073488469389795,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "c0abc2f03a6025ded529ac0fbf26d56db1cf8bb473f5ea0ebb97f1a510788ee2"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:05:07+05:30",
+          "recovered_at_ist": "2026-10-14T15:05:07+05:30",
+          "qib": 0.00045284893296490824,
+          "hni": 0.3030892457476842,
+          "retail": 1.197079828747845,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "f3675a2fc6f018ffa766344de25ca1b6819bd787f2dc890079c54657a4a0fbdb"
+        },
+        {
+          "observed_at_ist": "2026-10-14T15:00:18+05:30",
+          "recovered_at_ist": "2026-10-14T15:00:18+05:30",
+          "qib": 0.00045284893296490824,
+          "hni": 0.3017972938740014,
+          "retail": 1.1800180747882558,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "6e9ce827897032abc549b4c97de0a793fb7b2143633de0b21d6e33fab2983918"
+        },
+        {
+          "observed_at_ist": "2026-10-14T14:55:54+05:30",
+          "recovered_at_ist": "2026-10-14T14:55:54+05:30",
+          "qib": 0.00045284893296490824,
+          "hni": 0.29749522732555256,
+          "retail": 1.164554611597715,
+          "source": "https://www.nseindia.com/market-data/issue-information?series=EQ&symbol=FUSIONCX",
+          "evidence": "captured_before_close",
+          "raw_sha256": "113243d6a1459d2779d50d71f11d8f055865cb14859d13fa7c674e5f6c2296f3"
+        }
+      ],
+      "after_close_archives": [
+        {
+          "ipo_id": "chitto_2455",
+          "company_name": "Fusion CX",
+          "recorded_at_ist": "2026-10-20T18:29:30+05:30",
+          "listing_date": "2026-10-22",
+          "capture_id": 204,
+          "capture_phase": "pre_deadline",
+          "captured_at_ist": "2026-10-14T17:00:08+05:30",
+          "source_family": "nse_exchange",
+          "evidence_sha256": "d97bd3eb3f8f4aa502110d362befe7fb5262d9870704b16aca6e56b0113e6a97",
+          "qib_x": 0.0019046293357053495,
+          "nii_x": 0.4567782423500101,
+          "retail_x": 1.5460666181695104,
+          "model_version": "module1-corporate-subscription-lr-2021-2024-v2",
+          "positive_listing_probability": 0.26071216465482555
+        }
+      ],
+      "explanation": "No model probability was saved before the verified application cutoff. Later scores and recovered subscriptions cannot be relabelled as an earlier prediction."
+    }
+  ],
+  "summary": {
+    "listed_ipos": 24,
+    "saved_pre_close": 0,
+    "with_timestamped_pre_close_bids": 23,
+    "with_pre_close_subscription_evidence": 23,
+    "with_closing_day_pre17_bids": 15,
+    "verified_openings": 23
+  },
+  "subscription_collection": [
+    {
+      "company": "Elevate Campuses",
+      "status": "recovered",
+      "recovered": 2,
+      "errors": []
+    },
+    {
+      "company": "Adroit Industries (India)",
+      "status": "recovered",
+      "recovered": 2,
+      "errors": []
+    },
+    {
+      "company": "A-One Steels India",
+      "status": "recovered",
+      "recovered": 2,
+      "errors": []
+    },
+    {
+      "company": "Swastika Infra",
+      "status": "recovered",
+      "recovered": 2,
+      "errors": []
+    },
+    {
+      "company": "ArMee Infotech",
+      "status": "recovered",
+      "recovered": 2,
+      "errors": []
+    },
+    {
+      "company": "Varmora Granito",
+      "status": "recovered",
+      "recovered": 2,
+      "errors": []
+    },
+    {
+      "company": "National Stock Exchange of India",
+      "status": "no_timestamp_verified_before_cutoff",
+      "recovered": 0,
+      "errors": []
+    },
+    {
+      "company": "Sonaselection India",
+      "status": "recovered",
+      "recovered": 2,
+      "errors": []
+    },
+    {
+      "company": "SS Retail",
+      "status": "recovered",
+      "recovered": 2,
+      "errors": []
+    }
+  ],
+  "opening_collection": {
+    "saved": [],
+    "pending": [
+      {
+        "ipo_id": "chitto_3152",
+        "reason": "listing not exchange-identifiable yet"
+      },
+      {
+        "ipo_id": "chitto_3151",
+        "reason": "listing date future or NSE symbol unavailable"
+      },
+      {
+        "ipo_id": "chitto_2256",
+        "reason": "listing not exchange-identifiable yet"
+      },
+      {
+        "ipo_id": "chitto_2559",
+        "reason": "listing not exchange-identifiable yet"
+      },
+      {
+        "ipo_id": "chitto_2070",
+        "reason": "listing not exchange-identifiable yet"
+      },
+      {
+        "ipo_id": "chitto_2061",
+        "reason": "listing not exchange-identifiable yet"
+      },
+      {
+        "ipo_id": "chitto_2671",
+        "reason": "listing not exchange-identifiable yet"
+      },
+      {
+        "ipo_id": "chitto_3100",
+        "reason": "listing not exchange-identifiable yet"
+      }
+    ],
+    "excluded": []
+  }
+}

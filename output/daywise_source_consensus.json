@@ -1,0 +1,45 @@
+{
+  "first_source_rows": 143,
+  "second_source_rows": 141,
+  "overlap": 83,
+  "accepted": 196,
+  "accepted_by_tier": {
+    "two_source_agreement": 78,
+    "ipowatch_only": 60,
+    "equitymaster_only": 58
+  },
+  "excluded_material_conflicts": 5,
+  "conflict_examples": [
+    {
+      "ipo_id": 318,
+      "disagreed_categories": [
+        "qib"
+      ]
+    },
+    {
+      "ipo_id": 324,
+      "disagreed_categories": [
+        "qib"
+      ]
+    },
+    {
+      "ipo_id": 409,
+      "disagreed_categories": [
+        "qib"
+      ]
+    },
+    {
+      "ipo_id": 420,
+      "disagreed_categories": [
+        "qib"
+      ]
+    },
+    {
+      "ipo_id": 487,
+      "disagreed_categories": [
+        "qib"
+      ]
+    }
+  ],
+  "rule": "Match only the same canonical IPO ID; reject >max(0.25x,20%) disagreement in any category. Prefer original IPOWatch values on agreement; no mean or synthesized reading."
+}

@@ -1,0 +1,6 @@
+{
+  "verified_development_offer_dates": 241,
+  "complete_market_context": 241,
+  "skipped": [],
+  "method": "Last Nifty/VIX close on or before verified NSE offer-close date; Nifty return against ten trading sessions earlier. No neutral fills."
+}

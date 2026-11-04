@@ -1,0 +1,19 @@
+{
+  "version": "module1-prospective-stack-20261025-v1",
+  "created_on_ist_date": "2026-10-25",
+  "model": {
+    "path": "ml\\artifacts\\module1_2026_standard_classifier_research_20261025.joblib",
+    "sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+    "cutoff": 0.5
+  },
+  "gmp_baseline": {
+    "path": "ml/artifacts/module1_forward_coverage_through2025_research_20261024.joblib",
+    "sha256": "1b43104100592dc2bde7fa039d7551b4eac144d8fecbffab2c04076062590ec4",
+    "cutoff": 0.625
+  },
+  "eligibility": "All source-observed IPOs with an unpassed verified application cutoff, including pre-bidding provisional estimates",
+  "stage_limitation": "Model was studied at penultimate-day close. Other stages and missing-input estimates are provisional and evaluated prospectively, not assigned the historical 81.2% score.",
+  "outcome": "verified exchange listing open greater than issue price; flat is nonpositive",
+  "selection": "Latest genuine saved call before closing cutoff; no post-cutoff reconstruction counted",
+  "all_eligible_and_missing_forecasts_reported": true
+}

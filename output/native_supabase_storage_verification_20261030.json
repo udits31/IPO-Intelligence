@@ -1,0 +1,23 @@
+{
+  "backend": "supabase_api",
+  "direct_postgres_credentials_used": false,
+  "sqlite_opened": false,
+  "benchmark_records": 93,
+  "frozen_replay_mismatches": 0,
+  "example_monitor_outcomes": {
+    "saved": 12,
+    "evaluated": 11,
+    "matched": 4,
+    "missed": 7,
+    "pending": 0,
+    "direction_match_pct": 36.36363636363637
+  },
+  "durable_write_roundtrip": true,
+  "rollback_verified": true,
+  "optimistic_conflict_blocked": true,
+  "immutable_prediction_update_blocked": true,
+  "duplicate_prediction_ignored": true,
+  "second_collector_owner_blocked": true,
+  "model_sha256": "bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38",
+  "no_ipo_history_created_or_rewritten": true
+}

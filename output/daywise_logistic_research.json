@@ -1,0 +1,110 @@
+{
+  "cohort_audit": {
+    "source_rows": 143,
+    "source_with_valid_dates_and_features": 134,
+    "excluded_after_close_or_listing": 9,
+    "excluded_invalid_or_missing_features": 0,
+    "source_coverage_by_year": {
+      "2021": 44,
+      "2022": 31,
+      "2023": 3,
+      "2024": 65
+    }
+  },
+  "stage": "penultimate_bidding_day_end_values_from_retrospective_tables",
+  "model_family": "StandardScaler + scikit-learn LogisticRegression(C=0.5)",
+  "threshold": 0.5,
+  "folds": [
+    {
+      "test_year": 2022,
+      "train_rows": 44,
+      "test_rows": 28,
+      "three_category_logistic": {
+        "sample_size": 28,
+        "positive_listings": 19,
+        "nonpositive_listings": 9,
+        "threshold": 0.5,
+        "roc_auc": 0.614,
+        "brier_score": 0.2265,
+        "classifier_accuracy_pct": 60.7,
+        "always_positive_baseline_pct": 67.9,
+        "balanced_accuracy_pct": 62.3,
+        "negative_recall_pct": 66.7,
+        "positive_recall_pct": 57.9,
+        "apply_precision_pct": 78.6,
+        "warning_precision_pct": 42.9,
+        "tn": 6,
+        "fp": 3,
+        "fn": 8,
+        "tp": 11
+      },
+      "qib_only_logistic": {
+        "sample_size": 28,
+        "positive_listings": 19,
+        "nonpositive_listings": 9,
+        "threshold": 0.5,
+        "roc_auc": 0.5731,
+        "brier_score": 0.2199,
+        "classifier_accuracy_pct": 67.9,
+        "always_positive_baseline_pct": 67.9,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 67.9,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 9,
+        "fn": 0,
+        "tp": 19
+      }
+    },
+    {
+      "test_year": 2024,
+      "train_rows": 75,
+      "test_rows": 59,
+      "three_category_logistic": {
+        "sample_size": 59,
+        "positive_listings": 49,
+        "nonpositive_listings": 10,
+        "threshold": 0.5,
+        "roc_auc": 0.7857,
+        "brier_score": 0.1245,
+        "classifier_accuracy_pct": 81.4,
+        "always_positive_baseline_pct": 83.1,
+        "balanced_accuracy_pct": 60.9,
+        "negative_recall_pct": 30.0,
+        "positive_recall_pct": 91.8,
+        "apply_precision_pct": 86.5,
+        "warning_precision_pct": 42.9,
+        "tn": 3,
+        "fp": 7,
+        "fn": 4,
+        "tp": 45
+      },
+      "qib_only_logistic": {
+        "sample_size": 59,
+        "positive_listings": 49,
+        "nonpositive_listings": 10,
+        "threshold": 0.5,
+        "roc_auc": 0.8163,
+        "brier_score": 0.1243,
+        "classifier_accuracy_pct": 83.1,
+        "always_positive_baseline_pct": 83.1,
+        "balanced_accuracy_pct": 50.0,
+        "negative_recall_pct": 0.0,
+        "positive_recall_pct": 100.0,
+        "apply_precision_pct": 83.1,
+        "warning_precision_pct": null,
+        "tn": 0,
+        "fp": 10,
+        "fn": 0,
+        "tp": 49
+      }
+    }
+  ],
+  "limitations": [
+    "Article pages may have been revised after the decision day; this is not prospective accuracy.",
+    "Source coverage is non-random; score only applies to matched and validated pages.",
+    "Final-day subscriptions, GMP, and future market prices are not features."
+  ]
+}

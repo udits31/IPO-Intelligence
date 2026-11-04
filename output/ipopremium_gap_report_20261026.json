@@ -1,0 +1,132 @@
+{
+  "created_at_utc": "2026-10-25T21:24:26.218361+00:00",
+  "scope_issuers": 447,
+  "captured_pages": 368,
+  "identity_matched": 367,
+  "directory_unmatched": 79,
+  "coverage": {
+    "training_290": {
+      "gmp_pct": {
+        "before_present": 270,
+        "after_present": 270,
+        "remaining_missing": 20
+      },
+      "ofs_ratio": {
+        "before_present": 45,
+        "after_present": 188,
+        "remaining_missing": 102
+      },
+      "quota_weighted_book_mult": {
+        "before_present": 107,
+        "after_present": 222,
+        "remaining_missing": 68
+      },
+      "day2_to_cutoff_conviction": {
+        "before_present": 161,
+        "after_present": 161,
+        "remaining_missing": 129
+      },
+      "pub_ipo_earnings_yield_pct": {
+        "before_present": 159,
+        "after_present": 175,
+        "remaining_missing": 115
+      },
+      "pub_log_ipo_price_book": {
+        "before_present": 158,
+        "after_present": 159,
+        "remaining_missing": 131
+      },
+      "lot_size_shares": {
+        "before_present": 216,
+        "after_present": 272,
+        "remaining_missing": 18
+      }
+    },
+    "test_69": {
+      "gmp_pct": {
+        "before_present": 69,
+        "after_present": 69,
+        "remaining_missing": 0
+      },
+      "ofs_ratio": {
+        "before_present": 5,
+        "after_present": 69,
+        "remaining_missing": 0
+      },
+      "quota_weighted_book_mult": {
+        "before_present": 41,
+        "after_present": 69,
+        "remaining_missing": 0
+      },
+      "day2_to_cutoff_conviction": {
+        "before_present": 69,
+        "after_present": 69,
+        "remaining_missing": 0
+      },
+      "pub_ipo_earnings_yield_pct": {
+        "before_present": 59,
+        "after_present": 69,
+        "remaining_missing": 0
+      },
+      "pub_log_ipo_price_book": {
+        "before_present": 55,
+        "after_present": 59,
+        "remaining_missing": 10
+      },
+      "lot_size_shares": {
+        "before_present": 69,
+        "after_present": 69,
+        "remaining_missing": 0
+      }
+    },
+    "recent_23": {
+      "gmp_pct": {
+        "before_present": 23,
+        "after_present": 23,
+        "remaining_missing": 0
+      },
+      "ofs_ratio": {
+        "before_present": 6,
+        "after_present": 23,
+        "remaining_missing": 0
+      },
+      "quota_weighted_book_mult": {
+        "before_present": 1,
+        "after_present": 23,
+        "remaining_missing": 0
+      },
+      "day2_to_cutoff_conviction": {
+        "before_present": 1,
+        "after_present": 1,
+        "remaining_missing": 22
+      },
+      "pub_ipo_earnings_yield_pct": {
+        "before_present": 20,
+        "after_present": 23,
+        "remaining_missing": 0
+      },
+      "pub_log_ipo_price_book": {
+        "before_present": 17,
+        "after_present": 21,
+        "remaining_missing": 2
+      },
+      "lot_size_shares": {
+        "before_present": 22,
+        "after_present": 23,
+        "remaining_missing": 0
+      }
+    }
+  },
+  "new_field_cells": 514,
+  "remaining_field_cells": 617,
+  "user_help_rows": 66,
+  "anchor_documents_with_mf_pct": 74,
+  "retraining_performed": false,
+  "integrity_preserved": true,
+  "assumptions": [
+    "Recovered static/valuation figures are IPO-context facts; original publication/revision times remain unverified.",
+    "Day-wise history and final closing books do not establish a pre-17:00 intraday observation.",
+    "Reservation denominators distinguish the three bidding categories from separate anchor/employee shares.",
+    "Raw source facts and derived research overlays do not overwrite frozen model inputs or saved predictions."
+  ]
+}
