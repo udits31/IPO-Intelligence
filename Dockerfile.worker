@@ -1,0 +1,10 @@
+FROM python:3.11-slim
+WORKDIR /app
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 OPENBELL_STORAGE_BACKEND=supabase OPENBELL_COLLECTORS_ENABLED=1
+ENV TZ=Asia/Kolkata
+RUN apt-get update && apt-get install -y --no-install-recommends libgomp1 tzdata && rm -rf /var/lib/apt/lists/*
+COPY requirements.txt requirements-runtime.txt ./
+RUN pip install --no-cache-dir -r requirements.txt -r requirements-runtime.txt
+COPY . .
+EXPOSE 8080
+CMD ["python", "-m", "services.production_worker"]

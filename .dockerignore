@@ -1,0 +1,16 @@
+.git
+.env
+.env.*
+!.env.example
+.venv
+.venv-financial-ocr
+frontend
+tmp
+scratch
+.pytest_cache
+**/__pycache__
+**/*.log
+output/conference_revision
+data/telemetry
+**/*.db-wal
+**/*.db-shm
