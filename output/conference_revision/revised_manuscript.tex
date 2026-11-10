@@ -1,0 +1,255 @@
+% Editable author-review reconstruction from the submitted PDF.
+% Model values are reproduced by ml/paper_evaluation.py.
+\documentclass[runningheads]{llncs}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,booktabs,array,url}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}
+\begin{document}
+\title{IPO Intelligence: A Dual-Module Machine Learning Framework for Pre-Listing Return Prediction and Post-Listing Monitoring in the Indian Primary Market}
+\titlerunning{IPO Intelligence: Prediction and Monitoring}
+\author{Udit Suvarna\thanks{Corresponding author. E-mail: \email{udits3112@gmail.com}} \and Nihaar Bhuta \and Manthan Maheshwari \and Pramey Ganatra \and Diksha Joshi}
+\authorrunning{U. Suvarna et al.}
+\institute{Department of Computer Engineering, Mukesh Patel School of Technology Management \& Engineering, SVKM's NMIMS, Mumbai, India\\
+Contributing authors: \email{nihaarbhuta@gmail.com}; \email{mmanthan3009@gmail.com};\\
+\email{prameykganatra77@gmail.com}; \email{diksha.joshi@nmims.edu}}
+\maketitle
+\begin{abstract}
+Indian IPO decisions require both a pre-listing assessment and a distinct process for monitoring a stock after listing. IPO Intelligence implements these tasks as a two-module application. Its deployed Module 1 is a regularized logistic classifier using final qualified institutional buyer, retail and non-institutional subscription multiples; Module 2 uses benchmark-relative returns and dated disclosures in transparent monitoring rules, not a learned trading policy. A corporate-IPO cohort contains 252 listings from 2021--2024 after excluding two trust offerings. In chronological replay, the 2023--2024 tests (149 listings) yield ROC-AUC 0.827 (stratified bootstrap 95\% interval 0.754--0.892) and Brier score 0.135. At a threshold selected using 2022--2023 only, the model flags 23 of 32 flat-or-discount openings (71.9\% recall), while 31 positive openings also receive warnings. A fixed 2021--2024 fit evaluated retrospectively on 189 listings from 2025--2026 yields AUC 0.810 and flags 54 of 63 nonpositive openings (85.7\% recall). An earlier twelve-feature return blend had 2024 mean absolute error of 20.97 return-percentage points and is not the deployed price forecast. Later outcomes were consulted during model-family exploration, so they are not an untouched prospective holdout. Historical source timestamps include placeholders; these results demonstrate retrospective discrimination, not a verified point-in-time investment backtest or realized profit.
+\keywords{Indian IPO \and chronological evaluation \and subscription demand \and risk detection \and post-listing monitoring}
+\end{abstract}
+
+\section{Introduction}
+The opening price of an initial public offering (IPO) can differ substantially from its issue price. An investor needs to distinguish a favorable opening from a flat or discounted one without assuming that the high historical frequency of positive openings makes every issue attractive. In our 2021--2024 corporate cohort, 188 of 252 issues (74.6\%) opened above issue price; an always-positive classifier therefore has deceptively high accuracy. The mean opening return is 26.06\%, the median 12.62\%, and the observed range is $-20.34\%$ to $252.76\%$. These are descriptive outcomes, not attainable portfolio returns.
+
+IPO Intelligence integrates two different forms of evidence. Module 1 estimates the probability that the exchange opening price exceeds the issue price. Module 2 follows a listed stock against sector and broad-market references and annotates events such as anchor lock-in milestones and public disclosures. The present paper evaluates Module 1's historical opening-direction signal; Module 2 is an implemented monitoring workflow whose economic effectiveness is not established by that evaluation. We do not promote an exact opening-price or return forecast: the earlier regression experiment did not provide a robust accuracy advantage over simple baselines.
+
+The contribution is methodological as well as architectural: a defined corporate cohort, a compact deployable model with three final-book inputs, a risk-oriented operating threshold assessed with class-specific errors, source-time guardrails, and an explicit boundary between learned prediction and post-listing rules. These choices matter more than an unverified claim that a complex ensemble is universally superior.
+
+\section{Related work and research gap}
+Information-asymmetry theories explain IPO underpricing \cite{ref1,ref2}. Institutional-allocation evidence \cite{ref3} motivates demand signals, while Indian evidence on IPO grading and bookbuilding emphasizes local market mechanisms \cite{ref4,ref5,ref6}. Financial-language work \cite{ref7,ref8} motivates prospectus research but does not validate our numerical subscription model. Boosting \cite{ref9,ref10} and probability-calibration studies \cite{ref11} provide methodological comparators. Table~\ref{tab:literature} distinguishes these sources from the system assessed here.
+\begin{table}[tb]
+\caption{Selected literature and relationship to the present study}\label{tab:literature}
+\centering\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.20\linewidth}>{\raggedright\arraybackslash}p{.40\linewidth}>{\raggedright\arraybackslash}p{.31\linewidth}@{}}
+\toprule Study & Objective, method and data & Boundary for this study\\\midrule
+Aggarwal et al. \cite{ref3} & Empirical allocation--return analysis; US IPOs from 1997--1998 & Institutional demand matters, but US allocation differs from Indian books\\
+Deb and Marisetty \cite{ref4} & Empirical IPO-grading analysis; Indian graded and ungraded issues & Certification evidence, not a listing-direction model\\
+Neupane and Poshakwale \cite{ref5} & Empirical bids, pricing and allocation-adjusted returns; 306 Indian IPOs, 2001--2010 & Earlier regime; no post-listing monitor\\
+Khurshed et al. \cite{ref6} & Empirical bookbuilding and certification analysis; Indian IPO bid data & Institutional-bid evidence, not a dual-module test\\
+Loughran and McDonald \cite{ref7} & Finance-specific text dictionaries; corporate 10-K filings & Filing language, not tested IPO prospectus prediction\\
+Liu et al. \cite{ref8} & FinBERT language representation; financial-text corpora & Method option, not a feature evaluated here\\
+Niculescu-Mizil and Caruana \cite{ref11} & Probability-quality benchmarks; general classification datasets & Calibration motivation, not Indian IPO evidence\\\bottomrule
+\end{tabular}
+\end{table}
+The gap addressed is an evaluated integration of final-book opening-direction prediction with a separately identified post-listing monitoring workflow. We do not claim that no earlier system combines these functions, or that the present data establish profitable trading decisions.
+
+\section{Data and methods}
+\subsection{Cohort, outcome, and availability}
+The canonical listing table contains 689 records at the frozen snapshot. We restrict model training to listing years 2021--2024, yielding 254 records before eligibility review. POWERGRID Infrastructure Investment Trust and Brookfield India Real Estate Trust are excluded because they are trust offerings rather than corporate IPOs. The resulting 252-record training cohort has complete QIB, retail and HNI final-book values; no subscription value is imputed for these records. Table~\ref{tab:cohort} reports class counts. Later-year records never fit the deployed 2021--2024 model.
+\begin{table}[tb]
+\caption{Corporate IPO cohort by exchange listing year}\label{tab:cohort}
+\centering
+\begin{tabular}{@{}rrrr@{}}\toprule
+Year & Records & Opening $>$ issue price & Flat or discount\\\midrule
+2021 & 64 & 44 & 20\\
+2022 & 39 & 27 & 12\\
+2023 & 58 & 46 & 12\\
+2024 & 91 & 71 & 20\\\midrule
+Total & 252 & 188 & 64\\\bottomrule
+\end{tabular}
+\end{table}
+For issue price $I_i$ and recorded exchange opening price $O_i$, the return label is $r_i=100(O_i/I_i-1)$ and the binary outcome is $y_i=\mathbf{1}[r_i>0]$. Flat openings belong to the nonpositive class. Withdrawn issues and issues that did not reach listing are absent; the estimand is conditional on listing. The three features are $x_{ij}=\log(1+\max(s_{ij},0.01))$ for final QIB, retail and HNI subscription multiples $s_{ij}$. The small floor is part of the fixed numerical transform, not missing-value imputation. A \texttt{StandardScaler} is fitted on each training partition alone. The classifier is L2-regularized logistic regression with $C=0.5$ and fixed seed 42. Coefficients permit inspection but do not establish causal effects.
+
+Final subscription books support a forecast \emph{after} book closure; they do not establish that an investor could act before an application deadline. Historical \texttt{issue\_close\_date} and \texttt{observed\_at} fields contain placeholder dates for part of the earlier cohort. Publication time of every final book has not been independently verified. Grey-market premium (GMP) lacks audited historical pre-listing timestamps and is excluded from training and historical probability comparisons. Market-index, VIX and extracted prospectus fields are also excluded from the promoted model because their archives do not establish complete, correctly timed values. Removing poorly evidenced inputs is a data-integrity decision, not proof they lack predictive value.
+
+\subsection{Source accounting and extended-feature audit}
+The submitted twelve-feature design combined the three subscription measures with a QIB-to-retail ratio, issue size, India VIX, Nifty and sector ten-day returns, promoter offer-for-sale (OFS) ratio, risk-factor count, capex-use ratio and price-band spread. It was useful as an exploratory comparison, but its archived inputs are not equally complete. Table~\ref{tab:missing} reports raw gaps in the 254-record pre-exclusion archive; the two retail gaps belong to the trust offerings excluded from the corporate model. Among the 252 eligible corporate records, the three promoted subscription fields are complete. Prospectus-field missingness and uncertain market-observation dates are reasons not to promote those extra features, rather than reasons to silently impute them in the live predictor. No target return is clipped or trimmed.
+\begin{table}[tb]
+\caption{Raw gaps in the earlier twelve-input archive before trust exclusions}\label{tab:missing}
+\centering
+\begin{tabular}{@{}lrr@{}}\toprule
+Input & Missing of 254 & Share\\\midrule
+Retail subscription & 2 & 0.8\%\\
+Prospectus risk-factor count & 156 & 61.4\%\\
+Promoter OFS ratio & 157 & 61.8\%\\
+Objects-of-issue capex ratio & 157 & 61.8\%\\
+Other eight underlying inputs & 0 & 0.0\%\\\bottomrule
+\end{tabular}
+\end{table}
+The earlier extended experiment fit median imputation and scaling separately on its training partitions; 96 of its 254 rows had all raw values present. That experiment is retained as a methodological comparison below, not as the final website model or a demonstration that imputed prospectus values were correct. The promoted model needs no training-value imputation.
+
+\begin{table}[tb]
+\caption{Information-time boundaries required for a decision backtest}\label{tab:availability}
+\centering\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.24\linewidth}>{\raggedright\arraybackslash}p{.33\linewidth}>{\raggedright\arraybackslash}p{.32\linewidth}@{}}
+\toprule Input group & Required observation time & Restriction\\\midrule
+Subscriptions & Published book by the investor's cutoff & Final book cannot justify an earlier application\\
+Prospectus and price band & Correct document version before offer cutoff & Preserve page and extraction provenance\\
+Market indicators & Last completed session available at cutoff & Do not use listing-day or later data\\
+GMP context & Dated quote published before the cutoff & Excluded from the historical model here\\
+Post-listing disclosures & Exchange publication time & No filing does not prove investor retention\\\bottomrule
+\end{tabular}
+\end{table}
+The archive does not yet meet every boundary in Table~\ref{tab:availability}. One excluded trust has an issue-close date equal to its listing date; other early records use placeholder dates. An identity match or source flag cannot by itself verify numeric prospectus extraction. A point-in-time application backtest requires the original publication times and decision cutoffs.
+
+\subsection{Chronological replay and operating threshold}
+For test year $t\in\{2022,2023,2024\}$, we fit only on eligible records with listing year $<t$. Training counts are 64, 103 and 161; test counts are 39, 58 and 91. The final deployed model fits all 252 eligible records from 2021--2024 and is evaluated without refitting on 108 records from 2025 and 81 from 2026. All checks are retrospective because the repository was assembled after outcomes were known.
+
+The APPLY threshold is 0.82. It maximizes balanced accuracy over grid values 0.35--0.85 on pooled 2022--2023 out-of-year scores, with application precision as a tie-breaker. Its selection therefore uses 2023 outcomes; 2023 is a development result, while 2024 is the first threshold-unseen year. Interface labels below 0.50 mean elevated risk and 0.50--0.82 mean caution. These are decision-support labels, not subscription recommendations or a validated utility optimum. The threshold favors detection of unfavorable openings, accepting more warnings on positive issues.
+
+We report ROC-AUC, Brier score, log loss, accuracy against an always-positive baseline, balanced accuracy, confusion counts, nonpositive-class recall and precision among APPLY calls. We use 2,000 class-stratified bootstrap resamples per test set for descriptive 95\% percentile intervals. They condition on observed outcomes and fitted models; they omit model-selection, source and calendar-dependence uncertainty. Candidate-family and calibration experiments examined later-year outcomes, so 2025--2026 is a retrospective stress check, not untouched external validation.
+
+\subsection{Candidate models, uncertainty and analogs}
+We compared logistic specifications using three or five numeric inputs, polynomial terms, shallow histogram boosting, random forests, XGBoost, discriminant models, support-vector models and simple blends under the same chronological structure. No candidate dominated development ranking, 2024 Brier score and later-year downside recall. The deployed three-input model is a parsimonious risk-oriented choice, \emph{not} a statistically proven winner. For a same-input comparison, shallow XGBoost has 80 depth-one trees, learning rate 0.05, minimum child weight 6 and seed 42. Paired resampling tests its AUC difference against the deployed model.
+
+Sigmoid and isotonic transformations trained only on 2022--2023 out-of-year scores worsened 2024 and 2025--2026 Brier scores; neither was promoted. For interface sensitivity, 200 year-stratified training resamples refit the final model. Their 10th--90th probability spread describes coefficient instability, not a calibrated confidence or return interval.
+
+Nearest neighbors are a separate explanation layer, not inputs to the deployed logistic probability. The existing display uses seven standardized fields: log QIB and retail demand, their ratio, VIX, Nifty and sector ten-day returns, and OFS ratio. The original $k=15$ was selected for a readable fifteen-record neighborhood, not optimized on outcomes. In a restricted replay of this seven-field design, the 2021 archive (66 issues, including two trusts) fits imputation, scaling and neighbors, and 2022 (39 issues) validates $k$ (Table~\ref{tab:knn}). Relative to $k=5$, $k=15$ lowers Brier and median-return error, but $k=20$ or 25 performs better on some measures; thus 15 is not a validated optimum. The live display presently indexes a broader retrospective archive and is not itself a point-in-time analog backtest. Its summaries must not be interpreted as independent forecast accuracy.
+
+\section{Results}
+\subsection{Predictive quality and comparison}
+Table~\ref{tab:performance} reports every year; the 2023--2024 aggregate combines out-of-year scores from different fits. In 2023 and 2024 AUCs are 0.821 and 0.835, with Brier scores 0.136 and 0.135. The 2022 development fold is weaker (AUC 0.667, Brier 0.260), preventing a claim of consistent performance across all years. The 2024 AUC interval is 0.749--0.915. The later-year aggregate yields AUC 0.810 (interval 0.749--0.868), but later-year inspection during model development weakens independent-generalization claims.
+\begin{table}[tb]
+\caption{Chronological classification results at the development-selected 0.82 threshold}\label{tab:performance}
+\centering\small
+\begin{tabular}{@{}lrrrrrr@{}}\toprule
+Test & $n$ & AUC & Brier & Accuracy & Always + & Risk recall\\\midrule
+2022 development & 39 & .667 & .260 & 48.7\% & 69.2\% & 100.0\%\\
+2023 development & 58 & .821 & .136 & 75.9\% & 79.3\% & 75.0\%\\
+2024 confirmation & 91 & .835 & .135 & 71.4\% & 78.0\% & 70.0\%\\
+2023--2024 combined & 149 & .827 & .135 & 73.2\% & 78.5\% & 71.9\%\\
+2025 retrospective & 108 & .785 & .172 & 70.4\% & 67.6\% & 85.7\%\\
+2026 retrospective & 81 & .843 & .160 & 72.8\% & 65.4\% & 85.7\%\\
+2025--2026 combined & 189 & .810 & .167 & 71.4\% & 66.7\% & 85.7\%\\\bottomrule
+\end{tabular}
+\end{table}
+On the same inputs, shallow XGBoost AUCs are 0.752 in 2023, 0.816 in 2024, 0.774 in 2025 and 0.823 in 2026. The deployed model's paired AUC differences are +0.069, +0.019, +0.011 and +0.020; respective 95\% bootstrap intervals are $[-0.007,0.161]$, $[-0.008,0.051]$, $[-0.018,0.044]$ and $[-0.011,0.055]$. Every interval includes zero. We do not infer superiority over XGBoost. The originally submitted fixed-weight XGBoost/HGB/LR blend and return regressor are superseded exploratory specifications; their published gains cannot be described as deployed-model performance.
+
+\subsection{Errors, calibration and decision interpretation}
+Table~\ref{tab:confusion} exposes the cost of risk-sensitive thresholding. In the 2023--2024 aggregate, 23 of 32 nonpositive openings are flagged, while 31 of 117 positive openings are also flagged. Only 42.6\% of warned issues opened flat or below issue price. The APPLY subset has 90.5\% positive-opening precision, but allotment, costs and eventual returns are unmeasured. The later-year subset has 54 true risk warnings, 45 positive issues warned, 9 missed nonpositive openings and 81 correct positive calls. Aggregate accuracy is below an always-positive rule in 2023--2024; in 2025--2026 it exceeds that rule by 4.7 percentage points. Balanced accuracy is 72.7\% and 75.0\%, respectively.
+\begin{table}[tb]
+\caption{Confusion counts at 0.82; nonpositive is the risk class}\label{tab:confusion}
+\centering\small
+\begin{tabular}{@{}lrrrrrr@{}}\toprule
+Test & TN & FP & FN & TP & APPLY precision & Warning precision\\\midrule
+2023 & 9 & 3 & 11 & 35 & 92.1\% & 45.0\%\\
+2024 & 14 & 6 & 20 & 51 & 89.5\% & 41.2\%\\
+2023--2024 & 23 & 9 & 31 & 86 & 90.5\% & 42.6\%\\
+2025--2026 & 54 & 9 & 45 & 81 & 90.0\% & 54.5\%\\\bottomrule
+\end{tabular}
+\end{table}
+The 2023--2024 AUC interval is 0.754--0.892; nonpositive-recall interval is 56.3--87.5\%. Corresponding 2025--2026 intervals are 0.749--0.868 and 76.2--93.7\%. These omit model-family selection. Brier scores for the unaltered model are 0.135 in 2024 and 0.167 over 2025--2026; sigmoid calibration raises these to 0.142 and 0.188, while isotonic raises them to 0.141 and 0.181. The 2023--2024 high-probability bin (0.8--1.0) contains 99 issues: mean estimated probability 0.925 versus observed positive frequency 0.889. This and small lower bins argue against treating displayed probabilities as perfectly calibrated.
+\begin{table}[tb]
+\caption{Reliability of the deployed model's pooled out-of-year scores}\label{tab:reliability}
+\centering\small
+\begin{tabular}{@{}llrrr@{}}\toprule
+Test & Score bin & $n$ & Mean score & Positive share\\\midrule
+2023--2024 & 0.2--0.4 & 8 & .352 & .375\\
+ & 0.4--0.6 & 22 & .491 & .500\\
+ & 0.6--0.8 & 20 & .706 & .750\\
+ & 0.8--1.0 & 99 & .925 & .889\\
+2025--2026 & 0.2--0.4 & 41 & .358 & .341\\
+ & 0.4--0.6 & 30 & .487 & .467\\
+ & 0.6--0.8 & 28 & .695 & .607\\
+ & 0.8--1.0 & 90 & .915 & .900\\\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[tb]
+\caption{Seven-field analog sensitivity; 2021 archive trains, 2022 validates}\label{tab:knn}
+\centering
+\begin{tabular}{@{}rrrr@{}}\toprule
+$k$ & AUC & Brier & Median-analog MAE (percentage points)\\\midrule
+5 & .579 & .271 & 12.84\\
+10 & .606 & .227 & 10.49\\
+15 & .599 & .220 & 9.95\\
+20 & .545 & .215 & 8.69\\
+25 & .586 & .210 & 9.04\\\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Earlier twelve-feature ensemble and return experiment}
+The original submission also studied a larger, different experiment. We retain its reconstructed methods and results because they explain why the system's opening-price claim was narrowed; they must \emph{not} be read as results for the deployed three-feature model. This archive used 254 records from 2021--2024, including the two subsequently excluded trust offerings, with 105/58 and 163/91 train/test counts for 2023 and 2024. Median imputation and scaling were refitted inside each training split. These different eligibility and feature rules make its AUCs non-comparable as a controlled ablation of the promoted model.
+
+The archived classification blend was $0.40P_{\rm XGB}+0.35P_{\rm HGB}+0.25P_{\rm LR}$; the return blend was $0.60R_{\rm XGB}+0.40R_{\rm HGB}$. These weights were design constants, not tuned optima. XGBoost used 40 depth-two trees at learning rate 0.05, and HGB used 40 iterations at depth two and learning rate 0.05. The archived classification decision threshold was 0.50, unlike the deployed 0.82 risk threshold. Table~\ref{tab:legacy-class} reports a compact comparison and Table~\ref{tab:legacy-return} shows return error in percentage points. The return estimate is not promoted as a trustworthy price forecast.
+\begin{table}[tb]
+\caption{Earlier twelve-feature classification reconstruction, threshold 0.50 (not deployed)}\label{tab:legacy-class}
+\centering\small
+\begin{tabular}{@{}lrrrrrr@{}}\toprule
+Test & LR & XGB & HGB & Blend & Brier & Risk recall\\\midrule
+2023 & .779 & .772 & .812 & .797 & .144 & 0.0\%\\
+2024 & .805 & .802 & .801 & .814 & .145 & 15.0\%\\
+2025 retrospective & .792 & .812 & .786 & .804 & .168 & 45.7\%\\\bottomrule
+\end{tabular}
+\end{table}
+The blend--XGBoost paired AUC differences were +.025 (95\% bootstrap interval $[-.020,.074]$) in 2023, +.012 $[-.006,.035]$ in 2024, and $-.008$ $[-.030,.013]$ in 2025. Every interval crosses zero; equal weighting was at least as competitive in the main checks. Removing the QIB-to-retail ratio changed blend AUC from .797 to .808 in 2023, .814 to .812 in 2024, and .804 to .800 in 2025. Thus its incremental contribution is inconsistent, not the originally claimed reliable two-to-three-point gain.
+\begin{table}[tb]
+\caption{Earlier return-regression reconstruction; error in return percentage points (not deployed)}\label{tab:legacy-return}
+\centering\small
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Test & XGB MAE & Blend MAE & Blend RMSE & Training-median MAE\\\midrule
+2023 & 16.06 & 16.54 & 24.43 & 24.90\\
+2024 & 20.94 & 20.97 & 30.78 & 26.64\\
+2025 retrospective & 15.91 & 16.08 & 21.49 & 13.04\\\bottomrule
+\end{tabular}
+\end{table}
+The blend's MAE exceeds XGBoost's in every shown year; in 2025 it also exceeds the training-median baseline. Its MAE bootstrap intervals were 12.33--21.58, 16.74--25.78 and 13.58--18.90 percentage points for 2023--2025. The original blend at 0.50 detected no nonpositive openings in 2023 and only three of twenty in 2024. This failure directly motivates reporting downside recall, not only overall accuracy. These exploratory results do not validate a monetary listing-price range or a loss-avoidance strategy.
+
+\section{Post-listing module and practical limits}
+\begin{figure}[tb]
+\centering
+\fbox{\begin{minipage}{0.91\linewidth}
+\centering\small
+\textbf{Data ingestion}\\
+Exchange records, prospectus documents, public disclosures and prices\\[2pt]
+$\downarrow$\\[2pt]
+\textbf{Shared dated storage}\\
+IPO identities, observations and source provenance\\[2pt]
+$\downarrow$\\[2pt]
+\textbf{Separate core engines}\\
+Module 1 probability and analogs \quad|\quad Module 2 attribution and monitor\\[2pt]
+$\downarrow$\\[2pt]
+\textbf{FastAPI service and Next.js interface}\\
+Pre-listing research \quad|\quad post-listing monitoring
+\end{minipage}}
+\caption{Application architecture. Statistical forecasts and deterministic monitoring rules share infrastructure but are evaluated separately.}
+\label{fig:architecture}
+\end{figure}
+The application joins ingested issue data and dated observations to a common identity, then exposes the two engines through a FastAPI backend and a Next.js interface (Fig.~\ref{fig:architecture}). A serialized Module 1 model is loaded rather than refitted for each request. The architecture can show provenance and lifecycle states, but architectural integration alone does not validate source accuracy or investment performance.
+
+Module 2 is a separate rule-based monitor. For horizon $h$, it compares stock, sector and Nifty returns $R_h(t)=100(P_t/P_{t-h}-1)$ and reports stock--sector spread $R_{\mathrm{stock},h}-R_{\mathrm{sector},h}$. This is a relative comparison, not causal price attribution. If sector history is unavailable, a named Nifty proxy must not be represented as measured sector history.
+
+For matched 10-, 30- and 90-trading-session windows, the monitor distinguishes a broad-market correction from a sector pullback and from stock-specific lag. In the submitted rule design, a stock return at most $-5\%$ with a stock--sector spread below $-6\%$ flags lag, while a spread at least $+5\%$ flags outperformance. These cutoffs are heuristics, and the precedence of overlapping categories must be explicit. Relative returns do not identify the cause of a move. SELL, HOLD and WATCH labels are rule explanations, not a learned classifier.
+
+In a retrospective price-only replay, one decision was made at the 31st observed close for each of 128 eligible 2025--2026 IPOs; the outcome was the sign of the next 30-session return. The original monitor was correct on 45.3\% versus 59.4\% for always selling. A post-hoc correction that no longer treats absent filings as proof of no anchor sale scored 50.8\%, still below that baseline. A regularized price-only logistic comparator, developed on 2021--2024, scored 57.8\% (AUC 0.541). Later-year prices came from a secondary historical feed retrieved after the fact; as-published news and filings were unavailable. These results do not validate investment benefit, and the revised rule was inspected against the same outcomes rather than a fresh holdout.
+
+Anchor unlocks must be dated from verified allotment events under the rule applicable to that offer, rather than assumed from listing date. The 2022 SEBI amendment staggered anchor lock-in for eligible offers after 1 April 2022: half the allotted anchor portion retained a 30-day lock-in and the other half a 90-day lock-in, both counted from allotment \cite{ref12}. A listing-date estimate is only a visibly labelled proxy. PIT continual and SAST acquisition disclosures involve different persons, thresholds and reporting duties \cite{ref13,ref14}; publication can lag the transaction, and no matching filing does not prove shares were retained. Module 2 needs event-labeled data, verified publication times, disclosure delays, a baseline and transaction costs for evaluation.
+
+\section{Discussion and limitations}
+The 2024 ranking and downside recall are encouraging, but the threshold creates false warnings. GMP, OFS and VIX are context, not classifier votes; favorable diagnostics need not imply high conviction. Probabilities and analog summaries are not individualized expected returns. Allocation utility also requires cutoff timing, allotment odds, costs, execution and investor risk preferences.
+
+Source-time gaps remain: final books may post after application cutoffs, and later-year outcomes were inspected during model selection. Bootstrap and calibration checks condition on the available snapshot, omitting source-time, selection and regime uncertainty; 2022 is also weaker than later years. A frozen test on newly collected, timestamp-verified IPOs is needed.
+
+The earlier twelve-feature experiment documents missing prospectus fields, unstable ratio contribution, weak downside detection at 0.50 and high return error. It included two trust offerings and incompletely verified market/prospectus timing. The leaner classifier avoids those fields but cannot prove their irrelevance or point-in-time validity. The Module 2 price-only diagnostic did not beat simple actions; a full event-labeled, cost-aware evaluation is still needed. Module 1 AUC does not establish monitoring benefit.
+
+\newpage
+\section{Conclusion}
+The three-input classifier reached AUC 0.835 and flagged 14 of 20 nonpositive openings in the threshold-unseen 2024 test, alongside false warnings. The earlier return blend does not justify exact price targets, and the Module 2 price-only test did not beat a simple sell baseline. Timestamp-verified inputs and a frozen future test are needed before investment claims.
+
+\begin{thebibliography}{99}
+\bibitem{ref1} Rock, K. Why New Issues Are Underpriced. Journal of Financial Economics 15(1--2), 187--212 (1986).
+\bibitem{ref2} Beatty, R. P., Ritter, J. R. Investment Banking, Reputation, and the Underpricing of Initial Public Offerings. Journal of Financial Economics 15(1--2), 213--232 (1986).
+\bibitem{ref3} Aggarwal, R., Prabhala, N. R., Puri, M. Institutional Allocation in Initial Public Offerings: Empirical Evidence. Journal of Finance 57(3), 1421--1442 (2002).
+\bibitem{ref4} Deb, S., Marisetty, V. B. Information Content of IPO Grading. Journal of Banking and Finance 34(9), 2294--2305 (2010).
+\bibitem{ref5} Neupane, S., Poshakwale, S. S. Transparency in IPO Mechanism: Retail Investors' Participation, IPO Pricing and Returns. Journal of Banking and Finance 36(7), 2064--2076 (2012).
+\bibitem{ref6} Khurshed, A., Paleari, S., Pande, A., Vismara, S. Transparent Bookbuilding, Certification and Initial Public Offerings. Journal of Financial Markets 19, 154--169 (2014).
+\bibitem{ref7} Loughran, T., McDonald, B. When Is a Liability Not a Liability? Textual Analysis, Dictionaries, and 10-Ks. Journal of Finance 66(1), 35--65 (2011).
+\bibitem{ref8} Liu, Z., Huang, D., Huang, K., Li, Z., Zhao, J. FinBERT: A Pre-trained Financial Language Representation Model for Financial Text Mining. IJCAI 2020, 4513--4519.
+\bibitem{ref9} Friedman, J. H. Greedy Function Approximation: A Gradient Boosting Machine. Annals of Statistics 29(5), 1189--1232 (2001).
+\bibitem{ref10} Chen, T., Guestrin, C. XGBoost: A Scalable Tree Boosting System. KDD 2016, 785--794.
+\bibitem{ref11} Niculescu-Mizil, A., Caruana, R. Predicting Good Probabilities with Supervised Learning. ICML 2005, 625--632.
+\bibitem{ref12} SEBI. Board decisions on public-issue framework, including anchor-investor lock-in (28 December 2021). \href{https://www.sebi.gov.in/sebi_data/attachdocs/dec-2021/1640688619467.pdf}{Official SEBI memorandum}.
+\bibitem{ref13} SEBI. Prohibition of Insider Trading Regulations 2015, Regulation 7, consolidated text amended through 12 March 2025. \href{https://www.sebi.gov.in/legal/regulations/mar-2025/securities-and-exchange-board-of-india-prohibition-of-insider-trading-regulations-2015-last-amended-on-march-12-2025-_92672.html}{Official SEBI text}.
+\bibitem{ref14} SEBI. Substantial Acquisition of Shares and Takeovers Regulations 2011, Regulation 29, consolidated text amended through 5 December 2025. \href{https://www.sebi.gov.in/legal/regulations/dec-2025/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011-last-amended-on-december-5-2025-_98643.html}{Official SEBI text}.
+\end{thebibliography}
+\end{document}
