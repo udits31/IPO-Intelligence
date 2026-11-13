@@ -1,6 +1,6 @@
 # OpenBell: manual Vercel deployment
 
-Updated 30 October 2026. Import `Titan-M/Capstone` with repository root **`.`**.
+Import `udits31/IPO-Intelligence` with repository root **`.`**.
 Keep the root `vercel.json`; do not make a separate frontend-only project.
 
 ## Services
@@ -15,23 +15,22 @@ Leave `NEXT_PUBLIC_API_BASE_URL` unset. No localhost backend URL is used on Verc
 
 ## Environment settings
 
-Set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` to the existing project's
-values. Optionally set `GEMINI_API_KEY` for the assistant. Never prefix server
-secrets with `NEXT_PUBLIC_`. The Dockerfiles configure Supabase storage and
+Set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` to your Supabase project's
+values. Never prefix server secrets with `NEXT_PUBLIC_`. The Dockerfiles configure Supabase storage and
 separate API/collector roles automatically. No PostgreSQL password, local
 Supabase instance or local Docker is required; Vercel builds the containers.
 
 ## Database and source files
 
-The existing Supabase project is already prepared. Thirty-six typed ledger
+Once the Supabase project is prepared (see below), thirty-six typed ledger
 views expose its stored records without duplicating hundreds of MB. Production
 reads/writes use service-role API transactions and do not open SQLite files.
 Previews roll back, commits are atomic, unique identities are retained and
 stale writes are rejected. Saved history cannot be changed through the ledger
 views. Anonymous users cannot call the database functions.
 
-Required evidence, caches and report inputs have been uploaded to the private
-`openbell-runtime` bucket. Files are checksum-addressed and verified on restore.
+Required evidence, caches and report inputs are uploaded to the private
+`openbell-runtime` bucket by `services.cloud_assets --publish`. Files are checksum-addressed and verified on restore.
 Calendar, monitoring and research assets load separately. New daily decision
 sources are archived before their calls are committed. Original SQLite files,
 cloud rows, prediction payloads and model weights were not deleted or rewritten.
@@ -41,10 +40,11 @@ the cloud collector holds its lease, protecting cloud identities. Once cloud
 collection is verified, stop the laptop's collector to avoid duplicate source
 polling; retain its data for recovery.
 
-For another Supabase project, apply migrations `002` through `005`, populate
-the mirror from the original ledgers, run `python -m db.install_native_ledgers
---apply`, then `python -m services.cloud_assets --publish`. This is already done
-for the existing Capstone project.
+For a new Supabase project, apply migrations `002` through `005`, run
+`python -m db.install_native_ledgers --apply`, then
+`python -m services.cloud_assets --publish`. If you have the original local
+SQLite ledgers, populate the mirror from them first; otherwise the saved-call
+history starts empty and builds up as the collector runs.
 
 ## Checks after Deploy
 
