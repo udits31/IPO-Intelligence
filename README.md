@@ -1,139 +1,174 @@
-# OpenBell — IPO Research and Post-Listing Monitoring
+# IPO Intelligence
 
-Current release: 30 October 2026. This is the current project guide. Older designs in `docs/README_HISTORY_BEFORE_RELEASE_20261030.md` are historical context, not the active architecture.
+**OpenBell** — an IPO research and post-listing monitoring platform for Indian equity markets (NSE/BSE).
 
-## Application and workflow
+It does two things:
 
-The Next.js dashboard provides Market Today, Module 1 research, IPO comparison, performance evidence and Module 2 monitoring. FastAPI resolves issuers, collects dated sources, records forecasts, reconciles official openings and serves evidence. Gemini provides optional explanations; it does not replace the statistical model or determine benchmark scores.
+- **Module 1 · Pre-listing research.** Follows an IPO through its bidding window, saves a frozen model's probability of a positive listing open *before* the application cutoff, and later checks that saved call against the verified exchange opening price.
+- **Module 2 · Post-listing monitoring.** Watches newly listed shares day by day using eligible prices, dated news and exchange filings, records a dated Hold/Sell call, and matches each call with the price that actually followed.
 
-Module 1 follows an IPO through bidding, saves its probability and inputs before the application cutoff, then compares the preserved call with the verified listing opening. Listed IPOs without an actual saved call can display a labelled historical benchmark; that replay never enters the prospective ledger. Module 2 monitors listed shares using eligible prices and news/filings, and records dated actions for later outcome checks.
+Every forecast is stored with its inputs, model version and timestamp, so historical replays and genuine pre-close calls are never mixed.
 
-## Module 1: active model
+---
 
-Configuration: `M1_V1_FROZEN_WITH_RECOVERED_INPUTS`.
+## Features
 
-Artifact: `ml/artifacts/module1_2026_standard_classifier_research_20261025.joblib`.
+- **Market Today**: open, upcoming and recently listed IPOs with subscription, GMP and offer details
+- **IPO research and comparison**: per-issue probability, inputs, comparable past IPOs and an application screen (Apply Tier 1 / Tier 2 / Skip)
+- **Model performance**: locked benchmark results, cohort-by-cohort accuracy and model lineage
+- **Module 2 monitor**: daily calls, intraday context and a saved-call vs. actual-price chart (1, 5 and 30 sessions)
+- **Data provenance**: issuer identity checks, source clocks and SHA-256 hashes on archived evidence
 
-SHA-256: `bf07f15c86fce9984751b36cda7636f3c52875202492199a0017c8842406ff38`.
+## Architecture
 
-Training uses 290 original IPOs from 2021–2025. Five views are Base, Base + Macro, Financial + Macro, Trajectory and GMP-only. Four experts use logistic regression and Trajectory uses a random forest. The standardized expert-log-odds meta-model is logistic regression with C=0.5. The union has 23 input features; individual experts use subsets. The binary cutoff is fixed at 0.50, without post-hoc probability calibration. Recovering inputs does not retrain weights. Exact feature lists and parameters are exposed by `services/model_lineage.py`.
-
-Inputs include category subscription demand, dated GMP, offer price/size, eligible market context, financial facts and demand trajectory. Missing values follow the frozen pipeline and remain disclosed. Probability of a positive opening is not predicted return or a calibrated guarantee.
-
-| Cohort | Raw direction correct | Interpretation |
-| --- | --- | --- |
-| Earlier 2026, 69 IPOs | 56/69 (81.2%) | Repeatedly inspected retrospective development cohort |
-| Recent verified 24 | 17/24 (70.8%) | Recent historical replay |
-| Original recent 23 | 16/23 (69.6%) | Denominator before the additional verified opening |
-
-These figures do not establish future accuracy. Day-2 historical performance cannot be assigned to arbitrary live intraday stages. New genuinely saved pre-close forecasts are evaluated separately. Flat openings count as nonpositive.
-
-### Direction and application decision are different
-
-The frozen model predicts whether the listing open exceeds the issue price. `services/retail_hni_economics.py` separately checks demand, OFS, quota, GMP and a disclosed cost/allotment scenario to produce Apply Tier 1, Apply Tier 2 or Skip. The screen never rewrites a wrong model direction.
-
-On the earlier 69 cases it selected 18 winners out of 18 applications, but skipped 28 of 46 positive openings. On the recent 24 it selected 12 winners out of 14 applications, admitted two losers and skipped six winners. Selected APPLY precision is not overall accuracy or proof of greater portfolio profit. Reciprocal subscription odds are approximations and scenario rupees are not realised returns.
-
-ESDS illustrates the distinction: a positive model call matched its Rs757 opening versus Rs429 issue price, but the application screen skipped it because Day-2 QIB demand was below 1x. Direction correct; winner skipped. It is not an overall successful recommendation.
-
-### Historical versus saved evidence
-
-A genuine saved call retains its original model, inputs and timestamp. A newer historical replay stays separate. The research page now uses the same locked probability and dated inputs as Model Performance for 93 benchmark IPOs, with verified opening comparisons. All 93 frozen replays matched their locked probabilities. Historical tests are clearly labelled and never called live pre-close predictions.
-
-## Module 2: active monitor and separate ML research
-
-The production policy is `M2_R1_WITH_DATED_FILINGS`, a deterministic daily price/filing monitor. It is not the separately trained next-day research classifier. It combines eligible price levels, pullback/trend context, dated news/filings and supply-calendar warnings. Identity conflicts, unknown price basis or missing evidence can pause advice. Split/bonus adjustments are checked before comparisons with issue price.
-
-The frozen governance benchmark uses the 31st observed close, next-close execution and a 30-session outcome on 132 matured 2025–2026 IPOs. R1 scored 63/132 (47.73%), retained 44/55 winners and identified 19/77 losers. Mean net return was -0.362% under the original protocol. Always-sell scored 77/132 (58.33%) and -0.300%. This test has not demonstrated a trading edge.
-
-Sequential research follows daily state changes rather than forcing every initial hold to remain held. One-way stops can miss rebounds; following successive calls slightly improved the static result but did not establish superiority over full exit. Costs and conventions are in `output/module2_sequential_path_evaluation_20261026.json`.
-
-The next-session learned research accuracy was about 56.25% versus 54.91% for its majority baseline. Five-session HGB research used 206 earlier training issuers and 159 later evaluation issuers. Mean window return was 2.688% versus 2.599% for rules, but the paired improvement interval included zero and 2026 trailed rules. It remains research/shadow logging. Do not combine different horizons/cohorts into one accuracy figure.
-
-### Saved call versus actual price chart
-
-Module 2 shows dated calls, historical prices and Matched/Missed/Pending outcomes. Select a call to inspect its action, preceding known close, later verified close and return. Horizons are 1, 5 or 30 trading sessions. Example API: `/api/v1/module2/call-outcomes?ipo_id=610&horizon=1`.
-
-The chart reads genuine saved decisions and checksum-verified price archives. It has no weekend display restriction. Saturday can show Friday and earlier evidence. An outcome requiring a future unobserved session remains pending. A directional match is not execution profit, and a rule-based call is not labelled as a learned forecast.
-
-## Data, collection and storage
-
-Sources include NSE/BSE issue information and price archives, offer documents, IPOPremium/IPOJI and other archived offer facts, unofficial GMP providers, Yahoo price history and dated news/filings. Issuer identity, source clocks and hashes are preserved. Two related aggregators are not independent confirmations. Later archive downloads are not live captures recorded in the past.
-
-The API process starts subscription, frozen Module 1, daily Module 2, intraday, maintenance, news and research-shadow workers. These require a continuously running backend. Opening a frontend alone does not start collection. Repeated attempts are recorded; training readers deduplicate without deleting raw captures. Missing readings never become fabricated zero values. Closed offers stop receiving application-time calls; listing outcomes are reconciled separately.
-
-Local development uses SQLite in `data/telemetry/` with a Supabase mirror. Production uses Supabase itself through the native API ledger adapter. Writes request sync; startup reconciles it. Inspect conflicts and failed syncs. Supabase mirroring does not automatically replace every local archive, model, CSV and cache used by the application. Never commit secrets or private telemetry.
-
-### Weekend behaviour
-
-Pages, historical analysis, saved calls, benchmarks and archived charts can be served every day. Several automatic market collectors explicitly skip weekends: intraday collection follows weekday exchange hours, daily Module 2 and research-shadow workers have weekday schedules, and Module 1 checks offer dates and cutoffs. There is no weekend login/application block.
-
-Do not remove market-hour checks just to show a presentation or invent Saturday prices. Show the latest completed session and genuine older calls. Special exchange sessions/holidays need separate calendar verification; weekday checks alone are not a complete exchange calendar.
-
-## Local setup
-
-Use Python 3.11 and Node.js/npm. From the repository root:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt -r requirements-runtime.txt
-# Configure .env from .env.example, entering secrets locally.
-.\.venv\Scripts\python.exe -m uvicorn api.main:app --host 127.0.0.1 --port 8000 --workers 1
+```mermaid
+flowchart LR
+    U[Browser] --> F[Next.js dashboard<br/>frontend/]
+    F -- "/api/v1/* proxy" --> A[FastAPI backend<br/>api/main.py]
+    A --> S[services/ · core/<br/>models and monitors]
+    A --> L[(Ledgers<br/>SQLite locally · Supabase in production)]
+    W[Collector worker<br/>services/production_worker.py] --> L
+    W --> X[NSE · BSE · price history · news · filings]
+    S --> M[ml/artifacts<br/>frozen models]
 ```
 
-In another terminal:
+| Layer | Stack |
+| --- | --- |
+| Frontend | Next.js 14, React 18, Tailwind CSS |
+| Backend | Python 3.11, FastAPI, Uvicorn |
+| Modelling | scikit-learn, pandas, NumPy (joblib artifacts) |
+| Storage | SQLite (local), Supabase Postgres and Storage (production) |
+| Deployment | Docker, Vercel Services |
 
-```powershell
+## Models and results
+
+**Module 1** (`M1_V1_FROZEN_WITH_RECOVERED_INPUTS`) is a stacked classifier trained on 290 IPOs from 2021–2025. It has five expert views (Base, Base + Macro, Financial + Macro, Trajectory, GMP-only) and a logistic-regression meta-model over 23 features, with a fixed 0.50 cutoff. The artifact is `ml/artifacts/module1_2026_standard_classifier_research_20261025.joblib`, and its exact features and parameters are exposed by `services/model_lineage.py`.
+
+| Cohort | Direction correct |
+| --- | --- |
+| 2026 development cohort (69 IPOs) | 56/69 (81.2%) |
+| Recent verified replay (24 IPOs) | 17/24 (70.8%) |
+
+The application screen (`services/retail_hni_economics.py`) is separate from the direction model. On the 69-IPO cohort it applied to 18 IPOs, all of which opened positive, but it also skipped 28 of the 46 winners.
+
+**Module 2** (`M2_R1_WITH_DATED_FILINGS`) is a deterministic daily price and filing monitor. On 132 matured 2025–2026 IPOs it scored 63/132 (47.7%), versus 77/132 (58.3%) for always-sell. **It has not demonstrated a trading edge.** Learned next-session and five-session models are kept as research and shadow logging only.
+
+> These are historical evaluations, not guarantees of future accuracy. Probabilities are not calibrated return forecasts, and nothing here is investment advice.
+
+## Repository layout
+
+| Path | Contents |
+| --- | --- |
+| `api/` | FastAPI app, routes and worker lifecycle |
+| `core/` | Feature engineering, predictor, similarity, attribution and monitor engines |
+| `services/` | Data feeds, Module 1/2 services, forecasting, evidence and storage sync |
+| `ml/` | Data collection, recovery, research, training and evaluation scripts; `ml/artifacts/` holds frozen models |
+| `data/` | Curated datasets (IPO master, subscription, market and post-listing prices, audit snapshots) |
+| `output/` | Locked evaluation reports and evidence read by the app at runtime |
+| `db/` | Supabase migrations, ledger adapter and sync scripts |
+| `frontend/` | Next.js dashboard and API proxy route |
+| `tests/` | Python test suite (`frontend/tests/` holds the Node tests) |
+| `docs/` | Deployment, data lifecycle and release guides, project plan |
+
+## Run locally
+
+**Requirements:** Python 3.11+, Node.js 18.17+ and npm.
+
+Locally, the backend uses SQLite under `data/telemetry/` (created on first run). Supabase is optional.
+
+**1. Backend**
+
+```bash
+python -m venv .venv
+# Windows: .venv\Scripts\activate   ·   macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt -r requirements-runtime.txt
+cp .env.example .env          # optional: add Supabase keys to mirror local ledgers
+uvicorn api.main:app --host 127.0.0.1 --port 8000 --workers 1
+```
+
+Keep `--workers 1`. The API process also runs the data collectors, and extra workers would poll sources twice.
+
+**2. Frontend** (in a second terminal)
+
+```bash
 cd frontend
 npm ci
-npm run build
-npm start
+npm run dev
 ```
 
-Visit http://localhost:3000/ and check http://127.0.0.1:8000/api/v1/health. One backend worker is deliberate: multiple workers duplicate in-process collectors. Do not start a second backend against the same ledgers as a deployment shortcut.
+Open http://localhost:3000. Health check: http://127.0.0.1:8000/api/v1/health.
 
-## Vercel multi-service deployment
+## Configuration
 
-Use the repository-root `vercel.json`. The layout has a public Next.js `frontend`, an internal FastAPI container `app`, and a leased `collector` daemon. The frontend runtime API handler reaches `app` using the injected `OPENBELL_APP_URL` binding. Leave `NEXT_PUBLIC_API_BASE_URL` unset; the browser calls same-origin `/api/v1`. Do not set the binding variable manually. There is no build-time localhost rewrite.
+| Variable | Where | Purpose |
+| --- | --- | --- |
+| `SUPABASE_URL` | backend | Supabase project URL (required in production) |
+| `SUPABASE_SERVICE_ROLE_KEY` | backend | Server-side key for ledgers and storage. Never expose it to the browser. |
+| `OPENBELL_STORAGE_BACKEND` | backend | `sqlite` (local default) or `supabase` (set by the Dockerfiles) |
+| `OPENBELL_COLLECTORS_ENABLED` | backend | `1` to run scheduled collectors in that process |
+| `LIVE_DATA_TTL_MINUTES` | backend | Market Today cache lifetime (default `30`) |
+| `OPENBELL_APP_URL` | frontend | Backend URL used by the `/api/v1` proxy (injected automatically on Vercel Services) |
 
-See [Vercel service configuration and outstanding production requirements](docs/VERCEL_DEPLOYMENT.md) for the exact routing, confirmation checklist, local `vercel dev` workflow and production blockers.
+## Deployment
 
-**Production storage now uses the existing Supabase API credentials.** Thirty-six typed ledger views expose the existing cloud records without duplicating raw history. Production does not open SQLite. Required evidence files are stored privately in Supabase Storage; a separately leased daemon owns scheduled collection. Live database checks passed. The final Vercel image build, bindings and deployed URL still require the manual smoke test; no deployed uptime or improved model accuracy is claimed from this migration.
+Production runs three pieces: the **Next.js frontend**, the **FastAPI API** (`Dockerfile`) and one **collector worker** (`Dockerfile.worker`). All three use Supabase for storage.
 
-## Verification
+### Step 1 — Prepare Supabase
 
-```powershell
-.\.venv\Scripts\python.exe -m pytest -q
-cd frontend
-node --test tests/*.test.mjs
-npm run build
+1. Create a Supabase project and copy its URL and **service role** key.
+2. In the SQL editor, run `db/migrations/002` → `005` in order.
+3. From your machine, with `.env` filled in:
+   ```bash
+   python -m db.install_native_ledgers --apply   # create the typed ledger views
+   python -m services.cloud_assets --publish     # upload runtime evidence to the private bucket
+   python scripts/verify_native_supabase.py      # optional end-to-end storage check
+   ```
+
+A new Supabase project starts with an empty saved-call history. The locked benchmark reports in `output/` are uploaded in step 3, and new calls accumulate once the collector runs.
+
+### Step 2, option A — Vercel Services (configured in `vercel.json`)
+
+1. In Vercel, import this repository with the **root directory set to `.`**. Don't create a frontend-only project.
+2. Add `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` as environment variables.
+3. Deploy. `vercel.json` builds the `frontend` service, the internal `app` container and the `collector` daemon (region `bom1`), and binds `OPENBELL_APP_URL` automatically. Don't set it yourself, and leave `NEXT_PUBLIC_API_BASE_URL` unset.
+
+Vercel Services and daemons are a beta feature and count against your account's compute quota.
+
+### Step 2, option B — Vercel frontend + Docker backend
+
+Use this if Vercel Services isn't available on your plan.
+
+1. Deploy the backend from `Dockerfile` to any container host (Render, Railway, Fly.io or a VM), exposing port `8000` and setting the Supabase variables.
+2. Deploy `Dockerfile.worker` as a separate always-on worker with the same variables. Run exactly one instance.
+3. Import the repo into Vercel with **root directory `frontend`** and set `OPENBELL_APP_URL` to the backend's public URL, e.g. `https://your-api.onrender.com`.
+
+### Step 3 — Check the deployment
+
+1. `GET /api/v1/health` should report `storage.backend = supabase_api` and `storage.sqlite_used = false`.
+2. Open Market Today, Research, Compare, Performance and Module 2 from the deployed URL.
+3. During market hours, check the worker logs for a completed collection slot. A homepage that loads does not prove collection is working.
+
+See [`docs/VERCEL_DEPLOYMENT.md`](docs/VERCEL_DEPLOYMENT.md) and [`docs/AUTOMATIC_DATA_LIFECYCLE.md`](docs/AUTOMATIC_DATA_LIFECYCLE.md) for details.
+
+## Testing
+
+```bash
+pytest -q                          # Python tests
+cd frontend && node --test tests/*.test.mjs && npm run build
 ```
 
-Some full-suite tests require local archived research fixtures. Release preparation reran 23 targeted Python tests and 17 frontend tests successfully. Earlier frontend production builds passed. The cloud configuration still needs authenticated build and end-to-end verification. A targeted run is not a full-suite pass.
+Some research tests need large local archives that are not in Git (`data/archive/`, `data/telemetry/`) and are skipped or fail without them.
 
-## Source and evidence map
+## Limitations
 
-| Location | Purpose |
-| --- | --- |
-| `api/main.py` | API routes and worker lifecycle |
-| `services/prospective_module1.py` | Frozen inference and actual pre-close logging |
-| `services/module1_benchmark_lookup.py` | Shared historical research/performance results |
-| `services/retail_hni_economics.py` | Application screen and rupee scenarios |
-| `services/module2_decision_ledger.py` | Saved daily monitor calls |
-| `services/module2_call_outcomes.py` | Saved call/outcome matching |
-| `services/module2_intraday.py` | Indicative minute-price monitoring |
-| `services/module2_shadow_forecast.py` | Research-only learned forecasts |
-| `services/sqlite_supabase_sync.py` | Ledger reconciliation |
-| `output/FINAL_SYSTEM_LOCK_20261026.json` | Locked release accounting |
-| `output/module1_two_track_evidence_20261026.json` | Direction versus application results |
-| `output/module1_research_benchmark_link_audit_20261030.json` | 93 replays, zero mismatches |
-| `output/module2_multihorizon_20261029/` | Five-session research and shadow protocol |
-| `docs/AUTOMATIC_DATA_LIFECYCLE.md` | Collection lifecycle |
+- GMP and some subscription data come from unofficial aggregators, and those sources are not independent confirmations.
+- Collectors follow weekday market hours. Exchange holidays and special sessions need separate calendar checks.
+- Missing evidence is reported as missing; it is never filled with invented values.
+- The cloud deployment path has passed configuration, build and Supabase storage checks, but has not been run as a long-lived production service.
 
-## Development history and limitations
+## Further reading
 
-The project evolved from an earlier subscription-only classifier and static monitor to a five-expert direction stack, separate application screen, dated source recovery and chronological comparisons. It added identity checks, pre-close logging, preserved call/outcome records, Supabase mirroring, offer/financial recovery, intraday context, model lineage and matched comparisons. Cached Market Today responses refresh in the background; atomic cache writes prevent concurrent truncation.
-
-Problems addressed include late/missing books, interim/final and Day-2/live mismatches, unclocked GMP, post-listing data incorrectly used as pre-listing context, ambiguous symbols, split/bonus price bases, sparse financials, duplicate training observations, misleading combined success labels and historical performance disconnected from Research. Missing reliable evidence remains a limitation instead of being invented.
-
-For faculty documentation, state the cohort, model version, horizon, cutoff and historical/prospective status. Do not claim guaranteed future accuracy, calibrated probabilities, exact allotment odds, guaranteed profit, proven cloud uptime or a demonstrated Module 2 trading edge.
+- [`docs/RELEASE_GUIDE_20261030.md`](docs/RELEASE_GUIDE_20261030.md): release notes and evidence map
+- [`docs/research_papers_bibliography.md`](docs/research_papers_bibliography.md): research references
+- [`docs/README_HISTORY_BEFORE_RELEASE_20261030.md`](docs/README_HISTORY_BEFORE_RELEASE_20261030.md): earlier designs (historical)
+- `output/conference_revision/`: conference manuscript source
