@@ -317,21 +317,23 @@ def get_model_comparison():
     path=root/'output/model_comparison_20261028/report.json'
     if not path.exists():return {'status':'unavailable','message':'The matched model comparison has not been generated.'}
     report=json.loads(path.read_text(encoding='utf8'))
-    for relative,expected in report['input_hashes'].items():
-        source=root/relative
-        if not source.exists() or hashlib.sha256(source.read_bytes()).hexdigest()!=expected:
-            return {'status':'outdated','message':'Comparison inputs changed; rerun the matched benchmark before quoting it.'}
+    # Reports generated on Windows record input paths with backslashes.
+    def unchanged(relative,expected):
+        source=root/str(relative).replace('\\','/')
+        return source.exists() and hashlib.sha256(source.read_bytes()).hexdigest()==expected
+    if not all(unchanged(relative,expected) for relative,expected in report['input_hashes'].items()):
+        return {'status':'outdated','message':'Comparison inputs changed; rerun the matched benchmark before quoting it.'}
     period_path=root/'output/module1_period_stability_20261028/report.json'
     period=None
     if period_path.exists():
         candidate=json.loads(period_path.read_text(encoding='utf8'))
-        if all((root/relative).exists() and hashlib.sha256((root/relative).read_bytes()).hexdigest()==expected for relative,expected in candidate['input_hashes'].items()):
+        if all(unchanged(relative,expected) for relative,expected in candidate['input_hashes'].items()):
             period=candidate
     stage_path=root/'output/module1_stage_matched_20261028/report.json'
     stage=None
     if stage_path.exists():
         candidate=json.loads(stage_path.read_text(encoding='utf8'))
-        if all((root/relative).exists() and hashlib.sha256((root/relative).read_bytes()).hexdigest()==expected for relative,expected in candidate['input_hashes'].items()):
+        if all(unchanged(relative,expected) for relative,expected in candidate['input_hashes'].items()):
             stage=candidate
     from services.model_lineage import active_architecture
     return {'status':'ready',**report,'period_stability':period,'stage_matched':stage,

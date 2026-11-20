@@ -105,6 +105,14 @@ def translate(statement, parameters=(), database='snapshots.db'):
     # The only GLOB in the ledger is the validated date/slot pattern.
     statement = statement.replace("slot_key GLOB '????-??-??_[0-9][0-9][0-9][0-9]'",
                                   "REGEXP_LIKE(slot_key, '^[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{4}$')")
+    # Bind by textual position. sqlglot's tree walks visit placeholders out of
+    # source order (e.g. LIMIT ? before WHERE LOWER(?)), so number each '?'
+    # token as it appears in the SQL text before parsing.
+    from sqlglot.tokens import TokenType
+    marks = [token.start for token in sqlglot.Dialect.get_or_raise('sqlite').tokenize(statement)
+             if token.token_type == TokenType.PLACEHOLDER and token.text == '?']
+    for index, start in reversed(list(enumerate(marks))):
+        statement = statement[:start] + f':obp{index}' + statement[start + 1:]
     tree = sqlglot.parse_one(statement, read='sqlite')
     if not isinstance(tree, (exp.Select, exp.Union, exp.Insert, exp.Update, exp.Create, exp.Alter)):
         raise OperationalError('Destructive or unsupported production ledger statement')
@@ -116,18 +124,19 @@ def translate(statement, parameters=(), database='snapshots.db'):
             alias = table.alias_or_name
             catalog = sqlglot.parse_one(f"SELECT table_name AS name,CASE WHEN table_name='subscription_training_capture_v1' THEN 'view' ELSE 'table' END AS type FROM information_schema.tables WHERE table_schema={_literal(schema)}", read='postgres')
             table.replace(exp.Subquery(this=catalog, alias=exp.TableAlias(this=exp.to_identifier(alias))))
-    params = iter(parameters)
+    values = list(parameters)
+    used = set()
     for placeholder in list(tree.find_all(exp.Placeholder)):
-        try:
-            value = next(params)
-        except StopIteration:
-            raise OperationalError('Missing ledger bind value') from None
-        placeholder.replace(sqlglot.parse_one(_literal(value), read='postgres'))
-    try:
-        next(params)
+        match = re.fullmatch(r'obp(\d+)', placeholder.name or '')
+        if not match:
+            raise OperationalError('Unsupported ledger placeholder')
+        index = int(match[1])
+        if index >= len(values):
+            raise OperationalError('Missing ledger bind value')
+        used.add(index)
+        placeholder.replace(sqlglot.parse_one(_literal(values[index]), read='postgres'))
+    if len(used) != len(values):
         raise OperationalError('Unused ledger bind value')
-    except StopIteration:
-        pass
     result = tree.sql(dialect='postgres')
     if ignore:
         result += ' ON CONFLICT DO NOTHING'

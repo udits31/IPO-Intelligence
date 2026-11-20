@@ -60,6 +60,16 @@ def test_parameter_quoting_does_not_turn_user_text_into_sql():
     assert "DECODE('00ff', 'hex')" in sql
 
 
+def test_bind_values_follow_textual_placeholder_order():
+    sql=ledger.translate('SELECT a FROM t WHERE LOWER(c) = LOWER(?) OR ipo_id = ? ORDER BY r DESC LIMIT ?',
+                         ('Crystal Crop Protection','610',24))
+    assert "LOWER('Crystal Crop Protection')" in sql and "ipo_id = '610'" in sql and sql.endswith('LIMIT 24')
+    question=ledger.translate("SELECT a FROM t WHERE note = 'why?' AND id = ?",(5,))
+    assert "note = 'why?'" in question and 'id = 5' in question
+    with pytest.raises(ledger.OperationalError):ledger.translate('SELECT a FROM t WHERE id = ?',())
+    with pytest.raises(ledger.OperationalError):ledger.translate('SELECT a FROM t WHERE id = ?',(1,2))
+
+
 def test_existing_trigger_and_slot_contracts_are_preserved():
     sql=ledger.translate("SELECT slot_key FROM x WHERE slot_key GLOB '????-??-??_[0-9][0-9][0-9][0-9]'")
     assert "slot_key ~ '^[0-9]{4}" in sql
