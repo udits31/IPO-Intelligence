@@ -1,9 +1,0 @@
-{
-  "source_url": "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
-  "retrieved_at_utc": "2026-10-21T15:22:28.513854+00:00",
-  "source_sha256": "a6a09d6f397db028efcb4191a8aa5f0475a5f47697c070a27d48fd0795092810",
-  "identity_sha256": "9d88207955110f81e4db62fd3845fd6f779b32b7b85e2290cda754870f624d01",
-  "issuer_count": 2608,
-  "use": "Issuer identity resolution only, not future financial or price features.",
-  "limitation": "Current issuer-name master, not a historical as-published security master."
-}

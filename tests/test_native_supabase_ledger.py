@@ -83,10 +83,3 @@ def test_runtime_assets_cannot_replace_code_or_escape_workspace():
     from services.cloud_assets import safe_path
     for name in ('../.env','api/main.py','data/../../.env','C:/secret.json'):
         with pytest.raises(ValueError):safe_path(name)
-
-
-def test_production_service_and_daemon_have_one_owner():
-    config=json.loads(Path('vercel.json').read_text())
-    assert config['daemons']['collector']['instances']=={'bom1':1}
-    assert config['services']['app']['runtime']=='container'
-    assert config['services']['frontend']['bindings'][0]['env']=='OPENBELL_APP_URL'

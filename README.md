@@ -38,7 +38,7 @@ flowchart LR
 | Backend | Python 3.13, FastAPI, Uvicorn |
 | Modelling | scikit-learn 1.9, pandas, NumPy (joblib artifacts) |
 | Storage | SQLite (local), Supabase Postgres and Storage (production) |
-| Deployment | Docker, Vercel Services |
+| Deployment | Docker, Render, Vercel |
 
 ## Models and results
 
@@ -68,7 +68,6 @@ The application screen (`services/retail_hni_economics.py`) is separate from the
 | `db/` | Supabase migrations, ledger adapter and sync scripts |
 | `frontend/` | Next.js dashboard and API proxy route |
 | `tests/` | Python test suite (`frontend/tests/` holds the Node tests) |
-| `docs/` | Deployment, data lifecycle and release guides, project plan |
 
 ## Run locally
 
@@ -109,48 +108,41 @@ Open http://localhost:3000. Health check: http://127.0.0.1:8000/api/v1/health.
 | `OPENBELL_STORAGE_BACKEND` | backend | `sqlite` (local default) or `supabase` (set by the Dockerfiles) |
 | `OPENBELL_COLLECTORS_ENABLED` | backend | `1` to run scheduled collectors in that process |
 | `LIVE_DATA_TTL_MINUTES` | backend | Market Today cache lifetime (default `30`) |
-| `OPENBELL_APP_URL` | frontend | Backend URL used by the `/api/v1` proxy (injected automatically on Vercel Services) |
+| `OPENBELL_APP_URL` | frontend | Public URL of the FastAPI backend, used by the `/api/v1` proxy |
 
 ## Deployment
 
-Production runs three pieces: the **Next.js frontend**, the **FastAPI API** (`Dockerfile`) and one **collector worker** (`Dockerfile.worker`). All three use Supabase for storage.
+Production runs three pieces, all using Supabase for storage: the **FastAPI API** (`Dockerfile`, on Render), the **Next.js frontend** (on Vercel) and one **collector worker** (`Dockerfile.worker`, or `python -m services.production_worker` on any machine).
 
 ### Step 1 — Prepare Supabase
 
 1. Create a Supabase project and copy its URL and **service role** key.
 2. In the SQL editor, run `db/migrations/002` → `005` in order.
-3. From your machine, with `.env` filled in:
+3. From your machine, with `.env` filled in and no `.db` files in `data/telemetry/`:
    ```bash
-   python -m db.install_native_ledgers --apply   # create the typed ledger views
+   python -m db.install_native_ledgers --apply   # create the 36 typed ledger views
    python -m services.cloud_assets --publish     # upload runtime evidence to the private bucket
-   python scripts/verify_native_supabase.py      # optional end-to-end storage check
    ```
 
-A new Supabase project starts with an empty saved-call history. The locked benchmark reports in `output/` are uploaded in step 3, and new calls accumulate once the collector runs.
+Run these **before** the API's first start, otherwise the API creates plain tables where the installer expects views. A new Supabase project starts with an empty saved-call history; new calls accumulate once the collector runs.
 
-### Step 2, option A — Vercel Services (configured in `vercel.json`)
+### Step 2 — Backend on Render
 
-1. In Vercel, import this repository with the **root directory set to `.`**. Don't create a frontend-only project.
-2. Add `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` as environment variables.
-3. Deploy. `vercel.json` builds the `frontend` service, the internal `app` container and the `collector` daemon (region `bom1`), and binds `OPENBELL_APP_URL` automatically. Don't set it yourself, and leave `NEXT_PUBLIC_API_BASE_URL` unset.
+Create a **Web Service** from this repo: language **Docker**, Dockerfile `./Dockerfile`, region **Singapore**, environment variables `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY`, health check path `/api/v1/health`.
 
-Vercel Services and daemons are a beta feature and count against your account's compute quota.
+### Step 3 — Frontend on Vercel
 
-### Step 2, option B — Vercel frontend + Docker backend
+Import the repo with **root directory `frontend`** and set `OPENBELL_APP_URL` to the Render URL, e.g. `https://your-api.onrender.com`. Leave `NEXT_PUBLIC_API_BASE_URL` unset; the browser calls same-origin `/api/v1`.
 
-Use this if Vercel Services isn't available on your plan.
+### Step 4 — Collector
 
-1. Deploy the backend from `Dockerfile` to any container host (Render, Railway, Fly.io or a VM), exposing port `8000` and setting the Supabase variables.
-2. Deploy `Dockerfile.worker` as a separate always-on worker with the same variables. Run exactly one instance.
-3. Import the repo into Vercel with **root directory `frontend`** and set `OPENBELL_APP_URL` to the backend's public URL, e.g. `https://your-api.onrender.com`.
+Run exactly one collector. Either locally (`python -m services.production_worker`, collects while it runs) or always-on from `Dockerfile.worker` on a paid Render worker or a VM. A Supabase lease stops two collectors running at once.
 
-### Step 3 — Check the deployment
+### Check the deployment
 
-1. `GET /api/v1/health` should report `storage.backend = supabase_api` and `storage.sqlite_used = false`.
+1. `GET /api/v1/health` should report `storage.backend = supabase_api` and, while a collector runs, `external_lease_active = true`.
 2. Open Market Today, Research, Compare, Performance and Module 2 from the deployed URL.
-3. During market hours, check the worker logs for a completed collection slot. A homepage that loads does not prove collection is working.
-
-See [`docs/VERCEL_DEPLOYMENT.md`](docs/VERCEL_DEPLOYMENT.md) and [`docs/AUTOMATIC_DATA_LIFECYCLE.md`](docs/AUTOMATIC_DATA_LIFECYCLE.md) for details.
+3. During market hours, check the collector logs for a completed collection slot. A homepage that loads does not prove collection is working.
 
 ## Testing
 
@@ -166,11 +158,8 @@ Some research tests need large local archives that are not in Git (`data/archive
 - GMP and some subscription data come from unofficial aggregators, and those sources are not independent confirmations.
 - Collectors follow weekday market hours. Exchange holidays and special sessions need separate calendar checks.
 - Missing evidence is reported as missing; it is never filled with invented values.
-- The cloud deployment path has passed configuration, build and Supabase storage checks, but has not been run as a long-lived production service.
+- The free Render instance sleeps when idle, so the first request after a quiet spell can take about a minute.
 
-## Further reading
+## Paper
 
-- [`docs/RELEASE_GUIDE_20261030.md`](docs/RELEASE_GUIDE_20261030.md): release notes and evidence map
-- [`docs/research_papers_bibliography.md`](docs/research_papers_bibliography.md): research references
-- [`docs/README_HISTORY_BEFORE_RELEASE_20261030.md`](docs/README_HISTORY_BEFORE_RELEASE_20261030.md): earlier designs (historical)
-- `output/conference_revision/`: conference manuscript source
+The conference manuscript source is in `output/conference_revision/`.
