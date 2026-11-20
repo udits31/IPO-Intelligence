@@ -1,6 +1,8 @@
-# Match the environment that loads the frozen serialized estimators.
-# Linux image still requires a real build and smoke test before promotion.
-scikit-learn==1.5.2
+# Pinned to the version the frozen Module 1 and Module 2 models were saved
+# with. On 1.5.2 the frozen direction model fails at predict time. The archived
+# return challenger (preclose_return.joblib, saved with 1.5.2) is disabled
+# automatically on this version by services/return_forecast_service.py.
+scikit-learn==1.9.0
 numpy==2.1.2
 pandas==2.2.3
 joblib==1.4.2

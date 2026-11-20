@@ -35,8 +35,8 @@ flowchart LR
 | Layer | Stack |
 | --- | --- |
 | Frontend | Next.js 14, React 18, Tailwind CSS |
-| Backend | Python 3.11, FastAPI, Uvicorn |
-| Modelling | scikit-learn, pandas, NumPy (joblib artifacts) |
+| Backend | Python 3.13, FastAPI, Uvicorn |
+| Modelling | scikit-learn 1.9, pandas, NumPy (joblib artifacts) |
 | Storage | SQLite (local), Supabase Postgres and Storage (production) |
 | Deployment | Docker, Vercel Services |
 
@@ -72,7 +72,9 @@ The application screen (`services/retail_hni_economics.py`) is separate from the
 
 ## Run locally
 
-**Requirements:** Python 3.11+, Node.js 18.17+ and npm.
+**Requirements:** Python 3.13 (the version used by the Docker images), Node.js 18.17+ and npm.
+
+The frozen models need the exact library versions in `requirements-runtime.txt` (scikit-learn 1.9.0). The archived pre-close return model was saved with scikit-learn 1.5.2, so on this runtime the app turns that experimental return forecast off automatically; everything else is unaffected.
 
 Locally, the backend uses SQLite under `data/telemetry/` (created on first run). Supabase is optional.
 
